@@ -1,0 +1,5265 @@
+[
+  {
+    "id": "fall-of-constantinople",
+    "name": "Fall of Constantinople",
+    "year": 1453,
+    "era": "early-modern",
+    "location": {
+      "lat": 41.0082,
+      "lng": 28.9784
+    },
+    "tier": 1,
+    "description": "Imagine standing on the Theodosian Walls — walls that had held for a thousand years — and hearing the thunder of Mehmed's great bombard, the largest cannon the world had ever seen, cracking those stones like eggshells. For fifty-three days, seven thousand men held off eighty thousand. And then the walls broke, and with them broke eleven hundred years of Rome. The last emperor died sword in hand, and the city that Constantine built became Istanbul.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Byzantine Empire"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Mehmed II",
+      "Constantine XI Palaiologos"
+    ],
+    "casualties": {
+      "side1": 10000,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 80000,
+      "side2": 7000
+    },
+    "warName": "Ottoman conquest of Constantinople",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-belgrade-1456",
+    "name": "Siege of Belgrade",
+    "year": 1456,
+    "era": "early-modern",
+    "location": {
+      "lat": 44.8176,
+      "lng": 20.4633
+    },
+    "tier": 2,
+    "description": "The bells of noon ring across every church in Christendom to this day because of what happened at Belgrade. John Hunyadi — this old, battered warrior — somehow rallied a ragtag crusader army to smash Mehmed the Conqueror's siege and hurl the Ottomans back from the gates of Central Europe. He saved a continent and died of plague three weeks later, never knowing what he'd done.",
+    "belligerents": [
+      "Kingdom of Hungary",
+      "Ottoman Empire"
+    ],
+    "result": "Hungarian victory",
+    "commanders": [
+      "John Hunyadi",
+      "Mehmed II"
+    ],
+    "casualties": {
+      "side1": 10000,
+      "side2": 25000
+    },
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 70000
+    },
+    "warName": "Ottoman-Hungarian Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-bosworth-field",
+    "name": "Battle of Bosworth Field",
+    "year": 1485,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.5975,
+      "lng": -1.3975
+    },
+    "tier": 2,
+    "description": "Picture this: the last Plantagenet king of England, crown on his helmet, charging straight into the enemy line with everything he's got. Richard III saw Henry Tudor's banner and just went for it — a king trying to end a war with his own sword. His horse got stuck in the mud, they pulled him down, they hacked him apart. They found the crown in a thorn bush. Three hundred years of Plantagenet rule ended in a ditch.",
+    "belligerents": [
+      "House of Tudor",
+      "House of York"
+    ],
+    "result": "Tudor victory",
+    "commanders": [
+      "Henry Tudor",
+      "Richard III"
+    ],
+    "casualties": {
+      "side1": 100,
+      "side2": 1000
+    },
+    "troopStrength": {
+      "side1": 5000,
+      "side2": 8000
+    },
+    "warName": "Wars of the Roses",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-fornovo",
+    "name": "Battle of Fornovo",
+    "year": 1495,
+    "era": "early-modern",
+    "location": {
+      "lat": 44.6883,
+      "lng": 10.1061
+    },
+    "tier": 3,
+    "description": "Charles VIII is trying to drag his army and his loot back to France, and the entire Italian League is blocking the road home. What followed was a savage brawl in the rain — knights fighting in the mud, baggage wagons burning, both sides too exhausted to finish the other off. The French fought their way through and both sides claimed victory. Nobody won. Italy just bled.",
+    "belligerents": [
+      "Kingdom of France",
+      "League of Venice"
+    ],
+    "result": "Inconclusive",
+    "commanders": [
+      "Charles VIII of France",
+      "Francesco II Gonzaga"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 2000
+    },
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 20000
+    },
+    "warName": "Italian War of 1494-1498",
+    "significance": 3
+  },
+  {
+    "id": "first-battle-of-panipat",
+    "name": "First Battle of Panipat",
+    "year": 1526,
+    "era": "early-modern",
+    "location": {
+      "lat": 29.3909,
+      "lng": 76.9685
+    },
+    "tier": 1,
+    "description": "Twelve thousand men against a hundred thousand. Think about those numbers. Babur had something his enemy didn't: gunpowder. He chained his wagons together, put his cannons and matchlockmen behind them, and waited. When Ibrahim Lodi's massive army crashed into that wall of fire and smoke, it wasn't a battle — it was a slaughter. In a single morning, Babur founded an empire that would rule India for three centuries.",
+    "belligerents": [
+      "Timurid dynasty",
+      "Delhi Sultanate"
+    ],
+    "result": "Timurid victory",
+    "commanders": [
+      "Babur",
+      "Ibrahim Lodi"
+    ],
+    "casualties": {
+      "side1": 4000,
+      "side2": 20000
+    },
+    "troopStrength": {
+      "side1": 12000,
+      "side2": 100000
+    },
+    "warName": "Mughal conquest of India",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-mohacs",
+    "name": "Battle of Mohacs",
+    "year": 1526,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.9947,
+      "lng": 18.6803
+    },
+    "tier": 1,
+    "description": "Two hours. That's all it took for Suleiman the Magnificent to erase Hungary from the map. His janissaries and sipahis rolled over the Hungarian army like a wave over sandcastles. King Louis II, twenty years old, drowned in a stream trying to flee the field in his heavy armor. Hungary was carved up, Central Europe lay open, and the Ottoman tide kept rising.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Kingdom of Hungary"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Suleiman the Magnificent",
+      "Louis II of Hungary"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 14000
+    },
+    "troopStrength": {
+      "side1": 55000,
+      "side2": 25000
+    },
+    "warName": "Ottoman-Hungarian Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-marignano",
+    "name": "Battle of Marignano",
+    "year": 1515,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.4064,
+      "lng": 9.2878
+    },
+    "tier": 2,
+    "description": "Two days of absolute carnage in the Italian countryside. Francis I threw his heavy cavalry and his cannon against the Swiss pikemen — the most feared infantry in Europe — and the Swiss would not break. They fought through the night by torchlight. By the second day, the field was carpeted with bodies. The Swiss finally withdrew, but they'd made Francis pay for every inch in blood. Switzerland never fought for Italy again.",
+    "belligerents": [
+      "Kingdom of France",
+      "Old Swiss Confederacy"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Francis I of France",
+      "Cardinal Matthäus Schiner"
+    ],
+    "casualties": {
+      "side1": 6000,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 30000,
+      "side2": 20000
+    },
+    "warName": "Italian War of 1515-1516",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-pavia",
+    "name": "Battle of Pavia",
+    "year": 1525,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.1847,
+      "lng": 9.1582
+    },
+    "tier": 1,
+    "description": "The flower of French chivalry charged across that field in their beautiful armor, lances couched, exactly the way their grandfathers had done it. And the Spanish arquebusiers just shot them out of their saddles. The smoke hadn't even cleared when they found King Francis himself captured, surrounded by his dead guard. The age of the mounted knight died in the mud at Pavia, and it died screaming.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "Kingdom of France"
+    ],
+    "result": "Imperial victory",
+    "commanders": [
+      "Charles de Lannoy",
+      "Francis I of France"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 28000
+    },
+    "warName": "Italian War of 1521-1526",
+    "significance": 1
+  },
+  {
+    "id": "fall-of-tenochtitlan",
+    "name": "Fall of Tenochtitlan",
+    "year": 1521,
+    "era": "early-modern",
+    "location": {
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    "tier": 1,
+    "description": "Seventy-five days of hell on the lake. Cortes and two hundred thousand indigenous allies tearing the greatest city in the Americas apart block by block, canal by canal, while smallpox did the invisible killing the swords couldn't. By the end, the water ran red, the temples were rubble, and a civilization that had built pyramids in the middle of a lake simply ceased to exist. The smell of death hung over that valley for months.",
+    "belligerents": [
+      "Spanish Empire",
+      "Aztec Empire"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Hernan Cortes",
+      "Cuauhtemoc"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 100000
+    },
+    "troopStrength": {
+      "side1": 200000,
+      "side2": 300000
+    },
+    "warName": "Spanish conquest of the Aztec Empire",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-cajamarca",
+    "name": "Battle of Cajamarca",
+    "year": 1532,
+    "era": "early-modern",
+    "location": {
+      "lat": -7.1617,
+      "lng": -78.5127
+    },
+    "tier": 1,
+    "description": "A hundred and sixty-eight men against an empire. Pizarro's conquistadors hiding in the buildings around the town square, hearts hammering, watching the Inca emperor walk in with thousands of retainers. Then somebody gives the signal and the horses charge out, the guns fire, and it's not a battle — it's a massacre in a box. They grabbed the most powerful man in South America, slaughtered thousands in minutes, and broke a civilization in a single afternoon.",
+    "belligerents": [
+      "Spanish Empire",
+      "Inca Empire"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Francisco Pizarro",
+      "Atahualpa"
+    ],
+    "casualties": {
+      "side1": 5,
+      "side2": 7000
+    },
+    "troopStrength": {
+      "side1": 168,
+      "side2": 80000
+    },
+    "warName": "Spanish conquest of the Inca Empire",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-vienna-1529",
+    "name": "Siege of Vienna (1529)",
+    "year": 1529,
+    "era": "early-modern",
+    "location": {
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
+    "tier": 1,
+    "description": "A hundred and twenty thousand Ottoman troops outside the walls. Twenty thousand defenders inside. The greatest military machine on earth against a garrison that knew if the walls fell, Christian Europe might fall with them. For three weeks the mines blew, the assaults came, and the Viennese held. Then the snow started falling, Suleiman's supply lines crumbled, and the tide of Islam receded from Central Europe. This was the high-water mark. They never got this close again.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Habsburg Austria"
+    ],
+    "result": "Habsburg victory",
+    "commanders": [
+      "Suleiman the Magnificent",
+      "Niklas Graf Salm"
+    ],
+    "troopStrength": {
+      "side1": 120000,
+      "side2": 20000
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-preveza",
+    "name": "Battle of Preveza",
+    "year": 1538,
+    "era": "early-modern",
+    "location": {
+      "lat": 38.9509,
+      "lng": 20.7517
+    },
+    "tier": 2,
+    "description": "Barbarossa — the most feared pirate-admiral who ever lived — against the combined might of Christian Europe's navies. Andrea Doria had more ships, more men, more everything. And Barbarossa tore him apart anyway. The red-bearded corsair secured Ottoman dominance over the entire Mediterranean for a generation. After Preveza, if you sailed those waters, you sailed at the Sultan's pleasure.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Holy League"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Hayreddin Barbarossa",
+      "Andrea Doria"
+    ],
+    "troopStrength": {
+      "side1": 122,
+      "side2": 162
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-khanwa",
+    "name": "Battle of Khanwa",
+    "year": 1527,
+    "era": "early-modern",
+    "location": {
+      "lat": 27.0167,
+      "lng": 76.6167
+    },
+    "tier": 2,
+    "description": "Babur had just conquered Delhi, and now every Rajput warrior in India was riding toward him to take it back. A hundred thousand men, the bravest cavalry culture on earth, against Babur's tiny force with its cannons and matchlocks. The Rajputs charged with unbelievable courage — right into walls of grapeshot and musket fire. The old ways died at Khanwa, and the Mughals were in India to stay.",
+    "belligerents": [
+      "Mughal Empire",
+      "Rajput Confederacy"
+    ],
+    "result": "Mughal victory",
+    "commanders": [
+      "Babur",
+      "Rana Sanga"
+    ],
+    "casualties": {
+      "side1": 5000,
+      "side2": 20000
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 100000
+    },
+    "warName": "Mughal conquest of India",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-nagashino",
+    "name": "Battle of Nagashino",
+    "year": 1575,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.9333,
+      "lng": 137.5667
+    },
+    "tier": 1,
+    "description": "Three thousand arquebusiers, kneeling behind wooden palisades, firing in rotating volleys. On the other side, the legendary Takeda cavalry — the most terrifying mounted warriors in Japan — charging with everything they had. Imagine being one of those horsemen, galloping through the smoke, and realizing the men in front of you are being shot down and the ones behind you are still coming. Wave after wave, shattered by gunfire. Nobunaga didn't just win a battle. He ended an era.",
+    "belligerents": [
+      "Oda-Tokugawa alliance",
+      "Takeda clan"
+    ],
+    "result": "Oda-Tokugawa victory",
+    "commanders": [
+      "Oda Nobunaga",
+      "Takeda Katsuyori"
+    ],
+    "casualties": {
+      "side1": 6000,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 38000,
+      "side2": 15000
+    },
+    "warName": "Sengoku period",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-lepanto",
+    "name": "Battle of Lepanto",
+    "year": 1571,
+    "era": "early-modern",
+    "location": {
+      "lat": 38.3372,
+      "lng": 21.1036
+    },
+    "tier": 1,
+    "description": "Two hundred and twelve galleys on one side, two hundred and thirty on the other, crashing into each other in the Gulf of Patras. Oars splintering, men fighting hand to hand across blood-slicked decks, cannons firing at point-blank range. By the end of the day, the sea was choked with wreckage and bodies. The Ottomans lost two hundred ships. It was the last great galley battle in human history, and Christendom could finally breathe again.",
+    "belligerents": [
+      "Holy League",
+      "Ottoman Empire"
+    ],
+    "result": "Holy League victory",
+    "commanders": [
+      "Don John of Austria",
+      "Ali Pasha"
+    ],
+    "casualties": {
+      "side1": 7500,
+      "side2": 30000
+    },
+    "troopStrength": {
+      "side1": 84000,
+      "side2": 88000
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-malta-1565",
+    "name": "Great Siege of Malta",
+    "year": 1565,
+    "era": "early-modern",
+    "location": {
+      "lat": 35.8997,
+      "lng": 14.5146
+    },
+    "tier": 2,
+    "description": "Six thousand knights and soldiers against forty thousand Ottomans on a tiny sun-blasted island. For nearly four months, the old warrior Jean de Valette held those walls through bombardments that shook the earth, through assaults that piled the dead in the breaches, through heat and thirst and impossible odds. The Ottomans threw everything they had at Malta, and Malta simply would not die.",
+    "belligerents": [
+      "Knights Hospitaller",
+      "Ottoman Empire"
+    ],
+    "result": "Hospitaller victory",
+    "commanders": [
+      "Jean de Valette",
+      "Mustapha Pasha"
+    ],
+    "casualties": {
+      "side1": 2500,
+      "side2": 25000
+    },
+    "troopStrength": {
+      "side1": 6000,
+      "side2": 40000
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-gravelines-1558",
+    "name": "Battle of Gravelines (1558)",
+    "year": 1558,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.9861,
+      "lng": 2.1264
+    },
+    "tier": 3,
+    "description": "Egmont's Spanish cavalry came out of nowhere and hit the French army like a hammer on glass. Five thousand French soldiers killed or captured in the space of an afternoon. It was the kind of battle that ends wars — and it did. The Italian Wars, sixty years of bleeding, were finally grinding to a close in the dust of Gravelines.",
+    "belligerents": [
+      "Spanish Empire",
+      "Kingdom of France"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Count of Egmont",
+      "Paul de Thermes"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 5000
+    },
+    "warName": "Italian War of 1551-1559",
+    "significance": 3
+  },
+  {
+    "id": "spanish-armada",
+    "name": "Spanish Armada",
+    "year": 1588,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.7,
+      "lng": -1.0
+    },
+    "tier": 1,
+    "description": "A hundred and thirty warships sailing up the English Channel — the most powerful naval force ever assembled, sent to crush Protestant England once and for all. Drake and his nimble warships harried them for days with long-range gunnery, then the fireships came in at Gravelines and scattered the great fleet into the darkness. And then God himself — or the weather, depending on your theology — finished the job. Atlantic storms smashed the Armada against the rocks of Scotland and Ireland. Spain never recovered.",
+    "belligerents": [
+      "Kingdom of England",
+      "Spanish Empire"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Charles Howard",
+      "Duke of Medina Sidonia"
+    ],
+    "casualties": {
+      "side1": 750,
+      "side2": 20000
+    },
+    "troopStrength": {
+      "side1": 14000,
+      "side2": 30000
+    },
+    "warName": "Anglo-Spanish War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-sekigahara",
+    "name": "Battle of Sekigahara",
+    "year": 1600,
+    "era": "early-modern",
+    "location": {
+      "lat": 35.3667,
+      "lng": 136.4667
+    },
+    "tier": 1,
+    "description": "A hundred and seventy thousand samurai on a fog-shrouded plain, and the fate of Japan hanging on which lords would betray which side. Tokugawa Ieyasu gambled everything — and won everything — when key western lords switched sides in the middle of the fighting. In a single day, the most consequential battle in Japanese history decided who would rule. Two hundred and sixty years of peace followed. One day.",
+    "belligerents": [
+      "Eastern Army (Tokugawa)",
+      "Western Army (Ishida)"
+    ],
+    "result": "Tokugawa victory",
+    "commanders": [
+      "Tokugawa Ieyasu",
+      "Ishida Mitsunari"
+    ],
+    "casualties": {
+      "side1": 4000,
+      "side2": 32000
+    },
+    "troopStrength": {
+      "side1": 89000,
+      "side2": 82000
+    },
+    "warName": "Sengoku period",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-breitenfeld-1631",
+    "name": "Battle of Breitenfeld (1631)",
+    "year": 1631,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.4,
+      "lng": 12.3333
+    },
+    "tier": 1,
+    "description": "The Swedish army hits like nothing the Imperial troops have ever seen. No more lumbering tercios — Gustavus Adolphus has his men moving, shooting, moving again, the artillery keeping pace with the infantry. Tilly's old-school formations simply cannot cope. The Protestants had been losing the Thirty Years' War for thirteen years. At Breitenfeld, the Lion of the North showed them how to win.",
+    "belligerents": [
+      "Sweden",
+      "Holy Roman Empire"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Gustavus Adolphus",
+      "Count Tilly"
+    ],
+    "casualties": {
+      "side1": 4000,
+      "side2": 13000
+    },
+    "troopStrength": {
+      "side1": 42000,
+      "side2": 35000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-white-mountain",
+    "name": "Battle of White Mountain",
+    "year": 1620,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.0764,
+      "lng": 14.3194
+    },
+    "tier": 2,
+    "description": "Less than two hours. That's how long Bohemian independence lasted on the battlefield. The Imperial army rolled right over the rebel positions outside Prague, and the 'Winter King' Frederick V barely had time to finish his lunch before his kingdom evaporated. Bohemia wouldn't be free again for three hundred years. Two hours.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "Bohemian Confederacy"
+    ],
+    "result": "Imperial victory",
+    "commanders": [
+      "Count Tilly",
+      "Christian of Anhalt"
+    ],
+    "casualties": {
+      "side1": 700,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 27000,
+      "side2": 21000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-lutzen",
+    "name": "Battle of Lutzen",
+    "year": 1632,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.2583,
+      "lng": 12.1417
+    },
+    "tier": 1,
+    "description": "Fog so thick you can barely see the man next to you. Gustavus Adolphus — the greatest military mind of his generation, the man the whole Protestant world depended on — leads a cavalry charge into that murk and vanishes. They found his body later, shot and stabbed multiple times. Sweden won the battle. But the one man who could have reshaped Europe was lying dead in a German field, and everything was different after that.",
+    "belligerents": [
+      "Sweden",
+      "Holy Roman Empire"
+    ],
+    "result": "Swedish pyrrhic victory",
+    "commanders": [
+      "Gustavus Adolphus",
+      "Albrecht von Wallenstein"
+    ],
+    "casualties": {
+      "side1": 6000,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 19000,
+      "side2": 19000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-nordlingen-1634",
+    "name": "Battle of Nordlingen (1634)",
+    "year": 1634,
+    "era": "early-modern",
+    "location": {
+      "lat": 48.85,
+      "lng": 10.5
+    },
+    "tier": 2,
+    "description": "The Swedes had been riding high since Breitenfeld, and at Nordlingen it all came crashing down. Twelve thousand killed, four thousand captured — the cream of the Swedish army destroyed in a single afternoon. Southern Germany was lost, France had to come in directly, and the war that everyone thought might finally end just got bigger and more terrible.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "Sweden"
+    ],
+    "result": "Imperial victory",
+    "commanders": [
+      "Archduke Ferdinand",
+      "Gustav Horn"
+    ],
+    "casualties": {
+      "side1": 3500,
+      "side2": 17000
+    },
+    "troopStrength": {
+      "side1": 34000,
+      "side2": 25000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-rocroi",
+    "name": "Battle of Rocroi",
+    "year": 1643,
+    "era": "early-modern",
+    "location": {
+      "lat": 49.9264,
+      "lng": 4.5253
+    },
+    "tier": 1,
+    "description": "He was twenty-one years old. Twenty-one. The Duke of Enghien looked across the field at the Spanish tercios — the most feared infantry formation in the world, undefeated for a hundred and twenty years — and he broke them. The old Spanish squares fought to the last, surrounded, asking for quarter. An army that had terrorized Europe since the days of Columbus died at Rocroi, and France stepped into the spotlight.",
+    "belligerents": [
+      "Kingdom of France",
+      "Spanish Empire"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Duke of Enghien",
+      "Francisco de Melo"
+    ],
+    "casualties": {
+      "side1": 4000,
+      "side2": 8000
+    },
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 27000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-wittstock",
+    "name": "Battle of Wittstock",
+    "year": 1636,
+    "era": "early-modern",
+    "location": {
+      "lat": 53.1608,
+      "lng": 12.4847
+    },
+    "tier": 3,
+    "description": "After Nordlingen, everyone counted Sweden out. Then Baner pulled off one of the most beautiful double envelopments in military history — a textbook Cannae against a force that outnumbered him. The Swedish army that was supposed to be finished marched right back into the heart of Germany. The war ground on.",
+    "belligerents": [
+      "Sweden",
+      "Holy Roman Empire"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Johan Baner",
+      "Count Hatzfeldt"
+    ],
+    "casualties": {
+      "side1": 3000,
+      "side2": 8000
+    },
+    "troopStrength": {
+      "side1": 16000,
+      "side2": 22000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "second-battle-of-breitenfeld",
+    "name": "Second Battle of Breitenfeld",
+    "year": 1642,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.4,
+      "lng": 12.3333
+    },
+    "tier": 3,
+    "description": "Same field. Eleven years later. Different Swedish general, same result. Torstensson's Swedes smashed the Imperials at Breitenfeld for the second time, as if the ghosts of Gustavus Adolphus's first victory were still echoing across that plain. The Empire just could not win on that ground.",
+    "belligerents": [
+      "Sweden",
+      "Holy Roman Empire"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Lennart Torstensson",
+      "Archduke Leopold Wilhelm"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 15000,
+      "side2": 20000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-jankau",
+    "name": "Battle of Jankau",
+    "year": 1645,
+    "era": "early-modern",
+    "location": {
+      "lat": 49.6592,
+      "lng": 14.7089
+    },
+    "tier": 3,
+    "description": "Torstensson caught the Imperial army and tore it to pieces — captured the commander, scattered the troops, and suddenly the road to Vienna itself lay wide open. The Emperor looked at the map and realized the game was nearly over. The Peace of Westphalia was coming, whether he liked it or not.",
+    "belligerents": [
+      "Sweden",
+      "Holy Roman Empire"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Lennart Torstensson",
+      "Melchior von Hatzfeldt"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 16000,
+      "side2": 16000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-lens",
+    "name": "Battle of Lens",
+    "year": 1648,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.4289,
+      "lng": 2.8311
+    },
+    "tier": 3,
+    "description": "The Grand Conde dismantled the last Spanish field army in the Low Countries like he was taking apart a clock. Six thousand captured, the rest running. And while the guns were still cooling at Lens, the diplomats at Westphalia were carving up the map. The Thirty Years' War — the most destructive conflict Europe had ever seen — was finally, mercifully, ending.",
+    "belligerents": [
+      "Kingdom of France",
+      "Spanish Empire"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Grand Conde",
+      "Archduke Leopold Wilhelm"
+    ],
+    "casualties": {
+      "side1": 1500,
+      "side2": 8000
+    },
+    "troopStrength": {
+      "side1": 16000,
+      "side2": 18000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-edgehill",
+    "name": "Battle of Edgehill",
+    "year": 1642,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.1286,
+      "lng": -1.4725
+    },
+    "tier": 2,
+    "description": "Imagine being an English farmer watching English cavalry charge English infantry across your field. Prince Rupert's Royalist horsemen swept everything before them — and then kept going, chasing routing cavalry for miles while the infantry slugged it out in the center. Nobody won. But everybody learned something terrible that day: this war was going to be long, and it was going to be bloody.",
+    "belligerents": [
+      "Royalists",
+      "Parliamentarians"
+    ],
+    "result": "Inconclusive",
+    "commanders": [
+      "Charles I",
+      "Earl of Essex"
+    ],
+    "casualties": {
+      "side1": 1500,
+      "side2": 1500
+    },
+    "troopStrength": {
+      "side1": 14000,
+      "side2": 15000
+    },
+    "warName": "English Civil War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-marston-moor",
+    "name": "Battle of Marston Moor",
+    "year": 1644,
+    "era": "early-modern",
+    "location": {
+      "lat": 53.9553,
+      "lng": -1.2592
+    },
+    "tier": 1,
+    "description": "The largest battle ever fought on English soil, and it was over by nightfall. Cromwell's Ironsides — disciplined, relentless, fanatical — smashed Prince Rupert's cavalry and then wheeled to devour the Royalist infantry. The entire north of England changed hands in one evening. Cromwell rode off that field as the most dangerous man in England.",
+    "belligerents": [
+      "Parliamentarians",
+      "Royalists"
+    ],
+    "result": "Parliamentarian victory",
+    "commanders": [
+      "Oliver Cromwell",
+      "Prince Rupert"
+    ],
+    "casualties": {
+      "side1": 1500,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 28000,
+      "side2": 18000
+    },
+    "warName": "English Civil War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-naseby",
+    "name": "Battle of Naseby",
+    "year": 1645,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.4114,
+      "lng": -0.9986
+    },
+    "tier": 1,
+    "description": "This is where the king lost his kingdom. Cromwell's New Model Army — the first professional standing army England had ever seen — destroyed Charles I's main force, captured his artillery, his baggage, and worst of all, his private letters proving he'd been trying to bring Irish Catholic troops to England. The war was decided at Naseby. Everything after was just the dying.",
+    "belligerents": [
+      "Parliamentarians",
+      "Royalists"
+    ],
+    "result": "Parliamentarian victory",
+    "commanders": [
+      "Thomas Fairfax",
+      "Charles I"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 14000,
+      "side2": 9000
+    },
+    "warName": "English Civil War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-the-dunes-1658",
+    "name": "Battle of the Dunes",
+    "year": 1658,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.0381,
+      "lng": 2.3772
+    },
+    "tier": 2,
+    "description": "English redcoats and French regulars storming up sand dunes into the teeth of Spanish musket fire. Turenne — probably the finest tactician in Europe — orchestrating the whole thing with surgical precision. The Spanish tercios, those magnificent formations that had once ruled every battlefield in Europe, broke on the dunes outside Dunkirk. The sun was setting on Spain.",
+    "belligerents": [
+      "France-England alliance",
+      "Spanish Empire"
+    ],
+    "result": "Franco-English victory",
+    "commanders": [
+      "Turenne",
+      "Don Juan of Austria"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 15000,
+      "side2": 14000
+    },
+    "warName": "Franco-Spanish War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-boyne",
+    "name": "Battle of the Boyne",
+    "year": 1690,
+    "era": "early-modern",
+    "location": {
+      "lat": 53.7197,
+      "lng": -6.4139
+    },
+    "tier": 2,
+    "description": "Two kings, two religions, two futures for the British Isles — all decided at a river crossing in Ireland. William of Orange splashed across the Boyne with his cavalry while the deposed James II watched from the far bank. James ran. He ran all the way back to France. The Protestant succession was secured, and Ireland would live under the shadow of this day for centuries.",
+    "belligerents": [
+      "Williamite forces",
+      "Jacobite forces"
+    ],
+    "result": "Williamite victory",
+    "commanders": [
+      "William III",
+      "James II"
+    ],
+    "casualties": {
+      "side1": 750,
+      "side2": 1500
+    },
+    "troopStrength": {
+      "side1": 36000,
+      "side2": 25000
+    },
+    "warName": "Williamite War in Ireland",
+    "significance": 2
+  },
+  {
+    "id": "second-battle-of-panipat",
+    "name": "Second Battle of Panipat",
+    "year": 1556,
+    "era": "early-modern",
+    "location": {
+      "lat": 29.3909,
+      "lng": 76.9685
+    },
+    "tier": 2,
+    "description": "The entire Mughal restoration hung on a single arrow. Akbar's regent Bairam Khan was losing — Hemu's war elephants were crushing everything in front of them — and then a stray arrow hit Hemu right in the eye. One arrow. The enemy commander slumped in his howdah, his army panicked, and the Mughal Empire was reborn. Akbar was thirteen years old.",
+    "belligerents": [
+      "Mughal Empire",
+      "Sur Empire"
+    ],
+    "result": "Mughal victory",
+    "commanders": [
+      "Bairam Khan",
+      "Hemu"
+    ],
+    "casualties": {
+      "side1": 5000,
+      "side2": 20000
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 100000
+    },
+    "warName": "Mughal reconquest",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-chaldiran",
+    "name": "Battle of Chaldiran",
+    "year": 1514,
+    "era": "early-modern",
+    "location": {
+      "lat": 39.0667,
+      "lng": 44.0167
+    },
+    "tier": 2,
+    "description": "Shah Ismail's Safavid cavalry was the finest light horse in Asia — fearless, fanatical, convinced of their own divine protection. And then they met Ottoman artillery. The cannons and janissary muskets turned that magnificent cavalry into a killing field. Ismail survived, but his myth of invincibility was shattered. The border between Sunni and Shia was drawn in blood at Chaldiran, and it hasn't moved much since.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Safavid Empire"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Selim I",
+      "Ismail I"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 60000,
+      "side2": 40000
+    },
+    "warName": "Ottoman-Safavid War of 1514",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-cerignola",
+    "name": "Battle of Cerignola",
+    "year": 1503,
+    "era": "early-modern",
+    "location": {
+      "lat": 41.2636,
+      "lng": 15.8986
+    },
+    "tier": 2,
+    "description": "The French knights came thundering down that slope on their warhorses, lances leveled, exactly the way they'd been winning battles for centuries. And they rode straight into a ditch full of Spanish arquebusiers who shot them to pieces. Cerignola was the first battle in history won primarily by gunpowder small arms. The future had arrived, and it smelled like black powder.",
+    "belligerents": [
+      "Spanish Empire",
+      "Kingdom of France"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Gonzalo de Cordoba",
+      "Duke of Nemours"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 6300,
+      "side2": 10000
+    },
+    "warName": "Italian War of 1499-1504",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-ravenna-1512",
+    "name": "Battle of Ravenna",
+    "year": 1512,
+    "era": "early-modern",
+    "location": {
+      "lat": 44.4184,
+      "lng": 12.2035
+    },
+    "tier": 3,
+    "description": "The bloodiest day of the Italian Wars, and it started with an artillery duel so devastating it forced the Spanish out of their trenches. Young Gaston de Foix — twenty-two years old, brilliant, reckless — drove the French to victory. And then he chased the retreating Spanish and caught a pike through the chest. France won the battle and lost the only general who could hold Italy.",
+    "belligerents": [
+      "Kingdom of France",
+      "Holy League"
+    ],
+    "result": "French pyrrhic victory",
+    "commanders": [
+      "Gaston de Foix",
+      "Ramon de Cardona"
+    ],
+    "casualties": {
+      "side1": 4500,
+      "side2": 9000
+    },
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 16000
+    },
+    "warName": "War of the League of Cambrai",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-bicocca",
+    "name": "Battle of Bicocca",
+    "year": 1522,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.5239,
+      "lng": 9.2081
+    },
+    "tier": 3,
+    "description": "The Swiss did what the Swiss always did: they charged. Straight uphill. Into entrenched arquebus fire. And they were cut down in rows, like wheat before a scythe. In minutes, the most feared infantry in Europe was lying in heaps at the bottom of that slope. The Swiss never dominated another battlefield. Gunpowder didn't care how brave you were.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "Kingdom of France"
+    ],
+    "result": "Imperial victory",
+    "commanders": [
+      "Prospero Colonna",
+      "Odet de Foix"
+    ],
+    "casualties": {
+      "side1": 100,
+      "side2": 3000
+    },
+    "troopStrength": {
+      "side1": 19000,
+      "side2": 20000
+    },
+    "warName": "Italian War of 1521-1526",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-st-quentin",
+    "name": "Battle of St. Quentin",
+    "year": 1557,
+    "era": "early-modern",
+    "location": {
+      "lat": 49.8489,
+      "lng": 3.2867
+    },
+    "tier": 2,
+    "description": "Fifty thousand Spanish troops under Emmanuel Philibert smashed the French relief column and then took the fortress. Montmorency captured, ten thousand French dead or taken. It was the kind of catastrophe that forces nations to the peace table — and it did. The Italian Wars, sixty-five years of Europe tearing itself apart over Italy, finally ended.",
+    "belligerents": [
+      "Spanish Empire",
+      "Kingdom of France"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Emmanuel Philibert",
+      "Constable Montmorency"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 26000
+    },
+    "warName": "Italian War of 1551-1559",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-alcacer-quibir",
+    "name": "Battle of Alcacer Quibir",
+    "year": 1578,
+    "era": "early-modern",
+    "location": {
+      "lat": 35.0,
+      "lng": -5.5
+    },
+    "tier": 2,
+    "description": "Three kings rode onto that battlefield. None of them rode off. Sebastian of Portugal led his crusade into Morocco with the confidence of a man who believed God was on his side. God apparently wasn't. The Portuguese army was annihilated, Sebastian vanished into the carnage, and Portugal lost not just its king but its independence — absorbed by Spain because there was nobody left to sit on the throne.",
+    "belligerents": [
+      "Kingdom of Portugal",
+      "Saadi dynasty"
+    ],
+    "result": "Moroccan victory",
+    "commanders": [
+      "Sebastian I of Portugal",
+      "Ahmad al-Mansur"
+    ],
+    "casualties": {
+      "side1": 8000,
+      "side2": 7000
+    },
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 50000
+    },
+    "warName": "Portuguese-Moroccan War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-nieuwpoort",
+    "name": "Battle of Nieuwpoort",
+    "year": 1600,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.1264,
+      "lng": 2.7472
+    },
+    "tier": 3,
+    "description": "Maurice of Nassau's Dutch rebels — merchants and burghers who'd learned to fight — took on the Spanish tercios on an open beach and beat them. The Spanish had been the dominant military force in Europe for a century, and these Dutchmen with their reformed linear tactics and drill-book precision proved that the old ways could be beaten. The Dutch Revolt had teeth.",
+    "belligerents": [
+      "Dutch Republic",
+      "Spanish Empire"
+    ],
+    "result": "Dutch victory",
+    "commanders": [
+      "Maurice of Nassau",
+      "Archduke Albert"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 12000,
+      "side2": 12000
+    },
+    "warName": "Eighty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-kinsale",
+    "name": "Battle of Kinsale",
+    "year": 1601,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.7056,
+      "lng": -8.5253
+    },
+    "tier": 3,
+    "description": "The last stand of Gaelic Ireland. Irish chiefs and Spanish troops tried to link up at Kinsale, and the English caught them in the gap. The combined Irish-Spanish force was routed in a morning. Hugh O'Neill fled, the old Gaelic order died, and English rule over Ireland became total. Everything that followed — the plantations, the Flight of the Earls, centuries of pain — traces back to this freezing day in 1601.",
+    "belligerents": [
+      "Kingdom of England",
+      "Irish-Spanish alliance"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Lord Mountjoy",
+      "Hugh O'Neill"
+    ],
+    "casualties": {
+      "side1": 20,
+      "side2": 1200
+    },
+    "troopStrength": {
+      "side1": 7000,
+      "side2": 6500
+    },
+    "warName": "Nine Years' War (Ireland)",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-breda",
+    "name": "Siege of Breda",
+    "year": 1625,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.5886,
+      "lng": 4.7756
+    },
+    "tier": 3,
+    "description": "Ten months. Ambrosio Spinola sat outside Breda for ten months, slowly strangling the Dutch fortress into submission. It was siege warfare at its most patient and pitiless — trenches, starvation, disease. When it finally fell, Velazquez painted the moment so beautifully you almost forget it was one of the last things the Spanish Empire did well.",
+    "belligerents": [
+      "Spanish Empire",
+      "Dutch Republic"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Ambrosio Spinola",
+      "Justin of Nassau"
+    ],
+    "troopStrength": {
+      "side1": 18000,
+      "side2": 7000
+    },
+    "warName": "Eighty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-downs",
+    "name": "Battle of the Downs",
+    "year": 1639,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.2167,
+      "lng": 1.4667
+    },
+    "tier": 2,
+    "description": "Seventy-seven Spanish warships sailed into the English Channel — a new Armada, carrying troops and gold for the war in Flanders. Maarten Tromp's Dutch fleet found them anchored in English waters and tore them apart. Spain's navy, already a ghost of what it once was, simply ceased to exist as a fighting force. The age of Dutch maritime supremacy had arrived.",
+    "belligerents": [
+      "Dutch Republic",
+      "Spanish Empire"
+    ],
+    "result": "Dutch victory",
+    "commanders": [
+      "Maarten Tromp",
+      "Antonio de Oquendo"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 7000
+    },
+    "warName": "Eighty Years' War",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-vienna-1683",
+    "name": "Battle of Vienna (1683)",
+    "year": 1683,
+    "era": "early-modern",
+    "location": {
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
+    "tier": 1,
+    "description": "Imagine the largest cavalry charge in human history. Eighteen thousand horsemen, including the Polish winged hussars with their feathered frames rattling like the wings of avenging angels, thundering down the Kahlenberg into the Ottoman siege lines. Jan Sobieski at the head. The ground shook. The Ottoman army — a hundred and forty thousand strong — broke and ran. The Turkish threat to Central Europe ended that afternoon, on that hillside, under those hooves.",
+    "belligerents": [
+      "Holy League",
+      "Ottoman Empire"
+    ],
+    "result": "Holy League victory",
+    "commanders": [
+      "Jan III Sobieski",
+      "Kara Mustafa Pasha"
+    ],
+    "casualties": {
+      "side1": 4500,
+      "side2": 20000
+    },
+    "troopStrength": {
+      "side1": 84000,
+      "side2": 140000
+    },
+    "warName": "Great Turkish War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-zenta",
+    "name": "Battle of Zenta",
+    "year": 1697,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.9308,
+      "lng": 20.0881
+    },
+    "tier": 2,
+    "description": "Eugene of Savoy caught the entire Ottoman army with its pants down — literally halfway across a river, split in two, unable to fight or flee. He hit them like a thunderbolt and killed thirty thousand men in a few hours. It was butchery, pure and simple. The Ottomans signed the Treaty of Karlowitz and stopped trying to expand into Europe. Eugene was thirty-four years old.",
+    "belligerents": [
+      "Habsburg Austria",
+      "Ottoman Empire"
+    ],
+    "result": "Habsburg victory",
+    "commanders": [
+      "Prince Eugene of Savoy",
+      "Sultan Mustafa II"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 30000
+    },
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 80000
+    },
+    "warName": "Great Turkish War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-blenheim",
+    "name": "Battle of Blenheim",
+    "year": 1704,
+    "era": "early-modern",
+    "location": {
+      "lat": 48.6322,
+      "lng": 10.5983
+    },
+    "tier": 1,
+    "description": "Marlborough marched his army three hundred miles across Europe in secret, linked up with Eugene, and then the two of them crushed the finest army France had fielded in a generation. Thirty-four thousand French and Bavarian casualties. Marshal Tallard captured. Louis XIV's dream of dominating Europe died on the banks of the Danube. It was the most decisive battle in a hundred years, and the Sun King never recovered.",
+    "belligerents": [
+      "Grand Alliance",
+      "France-Bavaria"
+    ],
+    "result": "Allied victory",
+    "commanders": [
+      "Duke of Marlborough",
+      "Marshal Tallard"
+    ],
+    "casualties": {
+      "side1": 12000,
+      "side2": 34000
+    },
+    "troopStrength": {
+      "side1": 52000,
+      "side2": 56000
+    },
+    "warName": "War of the Spanish Succession",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-ramillies",
+    "name": "Battle of Ramillies",
+    "year": 1706,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.6333,
+      "lng": 4.8833
+    },
+    "tier": 1,
+    "description": "Marlborough's most perfect battle. A feint on one flank, then a devastating hammer blow on the other — the whole thing over in two hours. The French army didn't just lose; it disintegrated. Marlborough rode through the wreckage and conquered virtually all of the Spanish Netherlands in a single campaign. When he was on, nobody on earth could touch him.",
+    "belligerents": [
+      "Grand Alliance",
+      "Kingdom of France"
+    ],
+    "result": "Allied victory",
+    "commanders": [
+      "Duke of Marlborough",
+      "Marshal Villeroi"
+    ],
+    "casualties": {
+      "side1": 3600,
+      "side2": 17000
+    },
+    "troopStrength": {
+      "side1": 62000,
+      "side2": 60000
+    },
+    "warName": "War of the Spanish Succession",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-oudenarde",
+    "name": "Battle of Oudenarde",
+    "year": 1708,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.8442,
+      "lng": 3.6075
+    },
+    "tier": 2,
+    "description": "Marlborough force-marched his army, threw it across the Scheldt, and caught the French before they even knew he was there. What started as a meeting engagement turned into something approaching encirclement. The French army barely escaped with its life. This was generalship as art — speed, audacity, and the ability to improvise destruction on the fly.",
+    "belligerents": [
+      "Grand Alliance",
+      "Kingdom of France"
+    ],
+    "result": "Allied victory",
+    "commanders": [
+      "Duke of Marlborough",
+      "Duke of Burgundy"
+    ],
+    "casualties": {
+      "side1": 3000,
+      "side2": 15000
+    },
+    "troopStrength": {
+      "side1": 80000,
+      "side2": 85000
+    },
+    "warName": "War of the Spanish Succession",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-malplaquet",
+    "name": "Battle of Malplaquet",
+    "year": 1709,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.3272,
+      "lng": 3.8333
+    },
+    "tier": 1,
+    "description": "The bloodiest battle of the eighteenth century, and the allies won it. Sort of. Marlborough and Eugene smashed through Villars's fortified lines, but it cost them twenty-five thousand men — twice what the French lost. Villars himself took a bullet in the knee. France lost the field but won the argument: the British public looked at those casualty lists and said 'enough.' The war was already lost at the moment of victory.",
+    "belligerents": [
+      "Grand Alliance",
+      "Kingdom of France"
+    ],
+    "result": "Allied pyrrhic victory",
+    "commanders": [
+      "Duke of Marlborough",
+      "Marshal Villars"
+    ],
+    "casualties": {
+      "side1": 25000,
+      "side2": 12000
+    },
+    "troopStrength": {
+      "side1": 86000,
+      "side2": 75000
+    },
+    "warName": "War of the Spanish Succession",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-turin",
+    "name": "Battle of Turin",
+    "year": 1706,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.0703,
+      "lng": 7.6869
+    },
+    "tier": 2,
+    "description": "Eugene did what nobody thought possible — he broke through the French siege lines around Turin with a flanking attack so bold it bordered on insanity. The French army surrounding the city was suddenly the army being destroyed. Italy was saved, and Eugene cemented his reputation as the most daring commander of his age.",
+    "belligerents": [
+      "Habsburg Austria",
+      "Kingdom of France"
+    ],
+    "result": "Austrian victory",
+    "commanders": [
+      "Prince Eugene of Savoy",
+      "Duke of Orleans"
+    ],
+    "casualties": {
+      "side1": 3000,
+      "side2": 9000
+    },
+    "troopStrength": {
+      "side1": 36000,
+      "side2": 44000
+    },
+    "warName": "War of the Spanish Succession",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-narva",
+    "name": "Battle of Narva",
+    "year": 1700,
+    "era": "early-modern",
+    "location": {
+      "lat": 59.3797,
+      "lng": 28.2003
+    },
+    "tier": 1,
+    "description": "A blizzard. Charles XII was eighteen years old, and he marched ten thousand Swedes straight into a blizzard and attacked forty thousand Russians besieging Narva. The snow was blowing into the Russians' faces. The Swedes came out of the white like ghosts and shattered the entire Russian army. Forty thousand men, routed by ten thousand teenagers and their teenage king. Europe was terrified.",
+    "belligerents": [
+      "Swedish Empire",
+      "Tsardom of Russia"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Charles XII",
+      "Peter the Great"
+    ],
+    "casualties": {
+      "side1": 700,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 10500,
+      "side2": 40000
+    },
+    "warName": "Great Northern War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-poltava",
+    "name": "Battle of Poltava",
+    "year": 1709,
+    "era": "early-modern",
+    "location": {
+      "lat": 49.5886,
+      "lng": 34.5514
+    },
+    "tier": 1,
+    "description": "This is where the music stopped. Charles XII had marched his army a thousand miles into Russia, through the worst winter in memory, and what was left of his force — exhausted, frozen, starving — threw itself at Peter the Great's reformed army at Poltava. The Swedes fought like lions. It wasn't enough. Sweden's time as a great power ended on that Ukrainian steppe, and Russia's began.",
+    "belligerents": [
+      "Tsardom of Russia",
+      "Swedish Empire"
+    ],
+    "result": "Russian victory",
+    "commanders": [
+      "Peter the Great",
+      "Charles XII"
+    ],
+    "casualties": {
+      "side1": 4600,
+      "side2": 19000
+    },
+    "troopStrength": {
+      "side1": 45000,
+      "side2": 25000
+    },
+    "warName": "Great Northern War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-kliszow",
+    "name": "Battle of Kliszow",
+    "year": 1702,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.5333,
+      "lng": 20.2333
+    },
+    "tier": 3,
+    "description": "Charles XII in his element — outnumbered two to one, personally leading cavalry charges into the Saxon-Polish lines with the reckless courage that made him legendary. His Swedes smashed through, Augustus fled, and Poland was his for the taking. The boy king seemed invincible. Seemed.",
+    "belligerents": [
+      "Swedish Empire",
+      "Saxony-Poland"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Charles XII",
+      "Augustus II"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 12000,
+      "side2": 24000
+    },
+    "warName": "Great Northern War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-fraustadt",
+    "name": "Battle of Fraustadt",
+    "year": 1706,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.7833,
+      "lng": 16.3
+    },
+    "tier": 3,
+    "description": "One of the most tactically perfect victories you've never heard of. Rehnskiold, outnumbered two to one, executed a double envelopment — a Cannae — against the Saxon-Russian army and destroyed it completely. Four hundred Swedish dead against fifteen thousand enemy casualties. It was a masterpiece, the kind of battle that gets studied in war colleges for centuries.",
+    "belligerents": [
+      "Swedish Empire",
+      "Saxony-Russia"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Carl Gustaf Rehnskiold",
+      "Johann Matthias von der Schulenburg"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 15000
+    },
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 20000
+    },
+    "warName": "Great Northern War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-rossbach",
+    "name": "Battle of Rossbach",
+    "year": 1757,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.2833,
+      "lng": 11.7833
+    },
+    "tier": 1,
+    "description": "Ninety minutes. Frederick the Great destroyed a French-Imperial army twice his size in ninety minutes. He kept his entire army hidden behind a ridge, then unleashed his cavalry and horse artillery on the allied flank like a coiled spring releasing. Five hundred and fifty Prussian casualties. Ten thousand enemy. Frederick called it 'a battle won by a march.' Everyone else called it genius.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "France-Holy Roman Empire"
+    ],
+    "result": "Prussian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Prince of Soubise"
+    ],
+    "casualties": {
+      "side1": 550,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 22000,
+      "side2": 42000
+    },
+    "warName": "Seven Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-leuthen",
+    "name": "Battle of Leuthen",
+    "year": 1757,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.0667,
+      "lng": 16.8667
+    },
+    "tier": 1,
+    "description": "Napoleon studied this battle and called it a masterpiece. Frederick marched his outnumbered army parallel to the Austrian line, hidden by a ridge, then crashed into their left flank with everything he had and rolled up the entire army like a carpet. Sixty-six thousand Austrians beaten by thirty-six thousand Prussians through pure tactical brilliance. It might be the greatest battlefield performance in European history.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Habsburg Austria"
+    ],
+    "result": "Prussian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Charles of Lorraine"
+    ],
+    "casualties": {
+      "side1": 6400,
+      "side2": 22000
+    },
+    "troopStrength": {
+      "side1": 36000,
+      "side2": 66000
+    },
+    "warName": "Seven Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-plassey",
+    "name": "Battle of Plassey",
+    "year": 1757,
+    "era": "early-modern",
+    "location": {
+      "lat": 23.8031,
+      "lng": 88.2614
+    },
+    "tier": 1,
+    "description": "Three thousand men against fifty thousand — but the real weapon was gold, not gunpowder. Clive had already bribed half the Bengali commanders. When the battle started, most of the enemy army just... stood there. Watched. The Nawab's loyalists fought alone and died alone. India — a subcontinent of hundreds of millions — began falling into British hands because of one afternoon of corruption and cannon fire.",
+    "belligerents": [
+      "British East India Company",
+      "Nawab of Bengal"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Robert Clive",
+      "Siraj ud-Daulah"
+    ],
+    "casualties": {
+      "side1": 72,
+      "side2": 500
+    },
+    "troopStrength": {
+      "side1": 3000,
+      "side2": 50000
+    },
+    "warName": "Seven Years' War (India)",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-quebec",
+    "name": "Battle of the Plains of Abraham",
+    "year": 1759,
+    "era": "early-modern",
+    "location": {
+      "lat": 46.8006,
+      "lng": -71.2167
+    },
+    "tier": 1,
+    "description": "They scaled the cliffs in the dark. Think about that — scrambling up a two-hundred-foot cliff face at night, in silence, in enemy territory, knowing that if they're spotted it's over. And then at dawn, Wolfe's redcoats are standing in battle line on the Plains of Abraham, and the French can't believe what they're seeing. One devastating volley at forty yards. Wolfe died on the field. Montcalm died the next morning. France lost Canada.",
+    "belligerents": [
+      "Great Britain",
+      "Kingdom of France"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "James Wolfe",
+      "Marquis de Montcalm"
+    ],
+    "casualties": {
+      "side1": 660,
+      "side2": 1400
+    },
+    "troopStrength": {
+      "side1": 4400,
+      "side2": 4500
+    },
+    "warName": "Seven Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-minden",
+    "name": "Battle of Minden",
+    "year": 1759,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.2886,
+      "lng": 8.9139
+    },
+    "tier": 2,
+    "description": "Six British infantry battalions advanced into massed French cavalry by mistake — by mistake — and instead of being ridden down, they formed up and blew the cavalry apart with disciplined volley fire. Horses and men falling in heaps. The French cavalry charged again. Same result. The sheer bloody-minded professionalism of those redcoats saved western Germany and baffled every military observer in Europe.",
+    "belligerents": [
+      "Anglo-Prussian alliance",
+      "Kingdom of France"
+    ],
+    "result": "Allied victory",
+    "commanders": [
+      "Duke of Brunswick",
+      "Marshal Contades"
+    ],
+    "casualties": {
+      "side1": 2800,
+      "side2": 7000
+    },
+    "troopStrength": {
+      "side1": 43000,
+      "side2": 51000
+    },
+    "warName": "Seven Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-kunersdorf",
+    "name": "Battle of Kunersdorf",
+    "year": 1759,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.3333,
+      "lng": 14.5833
+    },
+    "tier": 2,
+    "description": "Frederick the Great's darkest hour. The Russians and Austrians ground his army into the dirt — nineteen thousand casualties, his army scattered, his kingdom on the edge of annihilation. Frederick sat on the battlefield afterward and wrote a letter contemplating suicide. Only the miraculous inability of his enemies to cooperate saved Prussia from being wiped off the map.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Russia-Austria alliance"
+    ],
+    "result": "Russo-Austrian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Pyotr Saltykov"
+    ],
+    "casualties": {
+      "side1": 19000,
+      "side2": 15700
+    },
+    "troopStrength": {
+      "side1": 51000,
+      "side2": 64000
+    },
+    "warName": "Seven Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-prague-1757",
+    "name": "Battle of Prague (1757)",
+    "year": 1757,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "tier": 2,
+    "description": "Frederick won, but the victory tasted like ash. His army took Prague, but the cost was staggering — fourteen thousand casualties, including the great Marshal Schwerin, killed carrying a flag into the Austrian guns. And then the siege failed, and Frederick had to retreat. Prague was the kind of victory that bleeds an army white.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Habsburg Austria"
+    ],
+    "result": "Prussian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Charles of Lorraine"
+    ],
+    "casualties": {
+      "side1": 14300,
+      "side2": 13400
+    },
+    "troopStrength": {
+      "side1": 64000,
+      "side2": 61000
+    },
+    "warName": "Seven Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-kolin",
+    "name": "Battle of Kolin",
+    "year": 1757,
+    "era": "early-modern",
+    "location": {
+      "lat": 49.9892,
+      "lng": 15.2042
+    },
+    "tier": 2,
+    "description": "Frederick's first real defeat, and it shook him to his core. He threw his oblique attack against Daun's fortified positions and the Austrians just absorbed it — attack after attack after attack, all of them repulsed. Fourteen thousand Prussian casualties. Frederick had to abandon Bohemia. The myth of invincibility was cracked.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Habsburg Austria"
+    ],
+    "result": "Austrian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Leopold von Daun"
+    ],
+    "casualties": {
+      "side1": 14000,
+      "side2": 8000
+    },
+    "troopStrength": {
+      "side1": 34000,
+      "side2": 54000
+    },
+    "warName": "Seven Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-zorndorf",
+    "name": "Battle of Zorndorf",
+    "year": 1758,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.7333,
+      "lng": 14.75
+    },
+    "tier": 3,
+    "description": "Pure chaos. Frederick hit the Russian army from the rear and what followed wasn't really a battle — it was a brawl, a savage mutual destruction where units fought until they physically couldn't anymore. Neither side could claim victory. But Frederick stopped the Russian advance into Brandenburg, and sometimes that's all you can do: survive.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Tsardom of Russia"
+    ],
+    "result": "Inconclusive",
+    "commanders": [
+      "Frederick the Great",
+      "Count Fermor"
+    ],
+    "casualties": {
+      "side1": 12800,
+      "side2": 18000
+    },
+    "troopStrength": {
+      "side1": 36000,
+      "side2": 44000
+    },
+    "warName": "Seven Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-torgau",
+    "name": "Battle of Torgau",
+    "year": 1760,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.56,
+      "lng": 12.99
+    },
+    "tier": 2,
+    "description": "Frederick's last great throw of the dice. A desperate two-pronged assault on Daun's hilltop position, Frederick wounded, his army bleeding out — and then old Zieten's flanking force finally arrived and broke the Austrian line from behind. The costliest battle of the Seven Years' War, and it nearly killed Frederick. But he won, and Prussia lived another day.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Habsburg Austria"
+    ],
+    "result": "Prussian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Leopold von Daun"
+    ],
+    "casualties": {
+      "side1": 16700,
+      "side2": 15700
+    },
+    "troopStrength": {
+      "side1": 44000,
+      "side2": 53000
+    },
+    "warName": "Seven Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-wandiwash",
+    "name": "Battle of Wandiwash",
+    "year": 1760,
+    "era": "early-modern",
+    "location": {
+      "lat": 12.5,
+      "lng": 79.6167
+    },
+    "tier": 2,
+    "description": "The final round of the centuries-long Anglo-French fight for India, settled on a dusty plain in the Carnatic. Eyre Coote broke Lally's French army, and after that, the French dream of an Indian empire was over. Pondicherry fell, the tricolor came down, and India became a British story.",
+    "belligerents": [
+      "British East India Company",
+      "French East India Company"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Eyre Coote",
+      "Comte de Lally"
+    ],
+    "casualties": {
+      "side1": 200,
+      "side2": 1000
+    },
+    "troopStrength": {
+      "side1": 7800,
+      "side2": 8500
+    },
+    "warName": "Seven Years' War (India)",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-quiberon-bay",
+    "name": "Battle of Quiberon Bay",
+    "year": 1759,
+    "era": "early-modern",
+    "location": {
+      "lat": 47.3333,
+      "lng": -3.05
+    },
+    "tier": 2,
+    "description": "A full gale blowing, rocks everywhere, and Hawke chased the French fleet right into the jaws of Quiberon Bay anyway. His captains thought he was insane. The French thought they were safe in those treacherous waters. They were wrong. Hawke sank and scattered the invasion fleet, and with it died any hope of France invading Britain. Sometimes courage is just a better navigation chart than your enemy's.",
+    "belligerents": [
+      "Great Britain",
+      "Kingdom of France"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Edward Hawke",
+      "Marshal de Conflans"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 2500
+    },
+    "warName": "Seven Years' War",
+    "significance": 2
+  },
+  {
+    "id": "third-battle-of-panipat",
+    "name": "Third Battle of Panipat",
+    "year": 1761,
+    "era": "early-modern",
+    "location": {
+      "lat": 29.3909,
+      "lng": 76.9685
+    },
+    "tier": 1,
+    "description": "The killing ground of empires — Panipat, for the third time. Ahmad Shah Durrani's Afghans and the Maratha Confederacy's grand army collided in what might be the largest and bloodiest single-day battle of the eighteenth century. Seventy thousand Marathas died. Seventy thousand. The dream of a Maratha-ruled India bled out on that plain. India's future would be decided by someone else entirely.",
+    "belligerents": [
+      "Durrani Empire",
+      "Maratha Confederacy"
+    ],
+    "result": "Durrani victory",
+    "commanders": [
+      "Ahmad Shah Durrani",
+      "Sadashivrao Bhau"
+    ],
+    "casualties": {
+      "side1": 20000,
+      "side2": 70000
+    },
+    "troopStrength": {
+      "side1": 60000,
+      "side2": 70000
+    },
+    "warName": "Maratha-Durrani Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-lexington-concord",
+    "name": "Battles of Lexington and Concord",
+    "year": 1775,
+    "era": "early-modern",
+    "location": {
+      "lat": 42.4493,
+      "lng": -71.2292
+    },
+    "tier": 1,
+    "description": "The shot heard round the world — and then the real education began. British regulars marched out to seize colonial weapons and discovered that behind every stone wall, every tree, every farmhouse, there was a musket pointed at them. The march back to Boston was eighteen miles of hell. Two hundred and seventy-three British casualties from an enemy that wouldn't stand and fight but would not stop shooting. A revolution had begun.",
+    "belligerents": [
+      "American Patriots",
+      "Great Britain"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "John Parker",
+      "Francis Smith"
+    ],
+    "casualties": {
+      "side1": 95,
+      "side2": 273
+    },
+    "troopStrength": {
+      "side1": 3800,
+      "side2": 1700
+    },
+    "warName": "American Revolutionary War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-bunker-hill",
+    "name": "Battle of Bunker Hill",
+    "year": 1775,
+    "era": "early-modern",
+    "location": {
+      "lat": 42.3763,
+      "lng": -71.0608
+    },
+    "tier": 1,
+    "description": "Don't fire until you see the whites of their eyes. That's what they told the militia behind the earthworks on Breed's Hill, and God help them, they obeyed. The British came up that slope in perfect formation — magnificent, terrifying — and the Americans waited until they could count the buttons on their coats before firing. The first assault was thrown back. The second was thrown back. The third took the position, but over a thousand British soldiers were dead or dying. The Americans lost the hill. The British lost the argument that colonists wouldn't fight.",
+    "belligerents": [
+      "Great Britain",
+      "American Patriots"
+    ],
+    "result": "British pyrrhic victory",
+    "commanders": [
+      "William Howe",
+      "Israel Putnam"
+    ],
+    "casualties": {
+      "side1": 1054,
+      "side2": 450
+    },
+    "troopStrength": {
+      "side1": 2400,
+      "side2": 1500
+    },
+    "warName": "American Revolutionary War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-long-island",
+    "name": "Battle of Long Island",
+    "year": 1776,
+    "era": "early-modern",
+    "location": {
+      "lat": 40.6612,
+      "lng": -73.9817
+    },
+    "tier": 2,
+    "description": "Howe came around Washington's flank like he was reading from a textbook, and the Continental Army nearly ceased to exist right there on Long Island. Two thousand casualties, the army trapped against the East River. And then — in one of the great escapes in military history — Washington evacuated nine thousand men across the river in the middle of the night, in fog and silence. The revolution survived by a boat ride.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "William Howe",
+      "George Washington"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 2000
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 10000
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-trenton",
+    "name": "Battle of Trenton",
+    "year": 1776,
+    "era": "early-modern",
+    "location": {
+      "lat": 40.2206,
+      "lng": -74.7642
+    },
+    "tier": 1,
+    "description": "Christmas night. Sleet, ice, the Delaware River full of ice floes, and Washington loads his army into boats and crosses in the dark. At dawn, they hit the Hessian garrison at Trenton — hungover, sleeping, completely surprised. Nearly a thousand captured. Five American dead. The revolution had been dying by inches, and Washington resurrected it in a single freezing morning.",
+    "belligerents": [
+      "United States",
+      "Hessian mercenaries"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "George Washington",
+      "Johann Rall"
+    ],
+    "casualties": {
+      "side1": 5,
+      "side2": 920
+    },
+    "troopStrength": {
+      "side1": 2400,
+      "side2": 1400
+    },
+    "warName": "American Revolutionary War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-princeton",
+    "name": "Battle of Princeton",
+    "year": 1777,
+    "era": "early-modern",
+    "location": {
+      "lat": 40.3487,
+      "lng": -74.6593
+    },
+    "tier": 2,
+    "description": "Washington wasn't done. He slipped away from Cornwallis in the night — left his campfires burning — and struck the British garrison at Princeton. Washington himself rode into the musket fire to rally his troops, his horse rearing, bullets clipping the air around him. The 'Ten Crucial Days' turned a dying revolution into a living one.",
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "George Washington",
+      "Charles Mawhood"
+    ],
+    "casualties": {
+      "side1": 75,
+      "side2": 400
+    },
+    "troopStrength": {
+      "side1": 4600,
+      "side2": 1200
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-brandywine",
+    "name": "Battle of Brandywine",
+    "year": 1777,
+    "era": "early-modern",
+    "location": {
+      "lat": 39.8656,
+      "lng": -75.5808
+    },
+    "tier": 2,
+    "description": "Howe flanked Washington. Again. The same move, the same result — the British found the American flank, hit it hard, and Washington had to retreat. Philadelphia fell. But the Continental Army retreated in good order, which meant the war continued. Washington was learning what Howe refused to understand: you don't have to win battles to win wars.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "William Howe",
+      "George Washington"
+    ],
+    "casualties": {
+      "side1": 600,
+      "side2": 1300
+    },
+    "troopStrength": {
+      "side1": 18000,
+      "side2": 14500
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-germantown",
+    "name": "Battle of Germantown",
+    "year": 1777,
+    "era": "early-modern",
+    "location": {
+      "lat": 40.0375,
+      "lng": -75.1717
+    },
+    "tier": 3,
+    "description": "Washington's plan was brilliant — four columns converging at dawn on the British camp at Germantown. And it almost worked. Then the fog rolled in, American units fired on each other, the attack dissolved into chaos, and it became another defeat. But here's the thing: the sheer audacity of the attack convinced France that these Americans might actually win. Sometimes losing the right way matters more than winning.",
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "George Washington",
+      "William Howe"
+    ],
+    "casualties": {
+      "side1": 1100,
+      "side2": 530
+    },
+    "troopStrength": {
+      "side1": 11000,
+      "side2": 9000
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-saratoga",
+    "name": "Battles of Saratoga",
+    "year": 1777,
+    "era": "early-modern",
+    "location": {
+      "lat": 43.0031,
+      "lng": -73.6353
+    },
+    "tier": 1,
+    "description": "Burgoyne marched his entire army into the American wilderness and couldn't get out. The militia closed in from every direction — behind every tree, across every road, on every hilltop. When he finally surrendered six thousand men, the entire calculus of the war changed. France looked at Saratoga and said, 'These people can beat the British.' The alliance that won American independence was born in the New York woods.",
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "Horatio Gates",
+      "John Burgoyne"
+    ],
+    "casualties": {
+      "side1": 800,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 15000,
+      "side2": 7200
+    },
+    "warName": "American Revolutionary War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-monmouth",
+    "name": "Battle of Monmouth",
+    "year": 1778,
+    "era": "early-modern",
+    "location": {
+      "lat": 40.2767,
+      "lng": -74.4569
+    },
+    "tier": 3,
+    "description": "The longest single-day battle of the Revolution, fought in heat so brutal that men dropped dead from the sun before a bullet touched them. Charles Lee botched the initial attack, Washington rode up in a fury, rallied the troops personally, and the Continental Army fought the British to a standstill. Valley Forge had forged these men into professionals, and at Monmouth, they proved it.",
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
+    "result": "Inconclusive",
+    "commanders": [
+      "George Washington",
+      "Henry Clinton"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 700
+    },
+    "troopStrength": {
+      "side1": 13000,
+      "side2": 10000
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-camden",
+    "name": "Battle of Camden",
+    "year": 1780,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.2285,
+      "lng": -80.607
+    },
+    "tier": 2,
+    "description": "The worst day of the American Revolution. Cornwallis hit Gates's militia and they didn't just break — they evaporated. Didn't fire a shot. Just ran. Baron de Kalb died trying to hold the line with the Continentals, taking eleven wounds. Gates himself fled so fast he was eighty miles away by nightfall. The hero of Saratoga became the coward of Camden.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Lord Cornwallis",
+      "Horatio Gates"
+    ],
+    "casualties": {
+      "side1": 324,
+      "side2": 2000
+    },
+    "troopStrength": {
+      "side1": 2100,
+      "side2": 4100
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-kings-mountain",
+    "name": "Battle of Kings Mountain",
+    "year": 1780,
+    "era": "early-modern",
+    "location": {
+      "lat": 35.1392,
+      "lng": -81.3806
+    },
+    "tier": 2,
+    "description": "Appalachian frontiersmen — 'over-mountain men,' they called themselves — surrounded Patrick Ferguson's Loyalist force on a hilltop and shot them to pieces from the tree cover. No formal tactics, no drill-book maneuvers, just backwoods riflemen who could hit a squirrel at a hundred yards picking off Loyalists one by one. Ferguson died on that mountain, and Cornwallis's southern strategy died with him.",
+    "belligerents": [
+      "American Patriots",
+      "Loyalist militia"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "William Campbell",
+      "Patrick Ferguson"
+    ],
+    "casualties": {
+      "side1": 90,
+      "side2": 1100
+    },
+    "troopStrength": {
+      "side1": 1800,
+      "side2": 1100
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-cowpens",
+    "name": "Battle of Cowpens",
+    "year": 1781,
+    "era": "early-modern",
+    "location": {
+      "lat": 35.1333,
+      "lng": -81.8083
+    },
+    "tier": 1,
+    "description": "Daniel Morgan's tactical masterpiece. He put his militia in front with instructions to fire two volleys and then run — a planned retreat that looked like a rout. Tarleton's British charged after them, salivating, and ran straight into Morgan's Continental regulars and a cavalry attack from both flanks. It was a double envelopment set up by a frontiersman who could barely read. Tarleton's feared legion was destroyed in less than an hour.",
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "Daniel Morgan",
+      "Banastre Tarleton"
+    ],
+    "casualties": {
+      "side1": 72,
+      "side2": 800
+    },
+    "troopStrength": {
+      "side1": 1900,
+      "side2": 1150
+    },
+    "warName": "American Revolutionary War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-guilford-courthouse",
+    "name": "Battle of Guilford Court House",
+    "year": 1781,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.1317,
+      "lng": -79.8419
+    },
+    "tier": 2,
+    "description": "Cornwallis won. Technically. He held the field after a savage fight through three lines of American resistance. But he lost a quarter of his army doing it. Charles James Fox looked at the numbers in Parliament and said, 'Another such victory would ruin the British army.' Pyrrhus himself would have wept. Cornwallis limped to the coast and headed for Virginia. And Yorktown.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British pyrrhic victory",
+    "commanders": [
+      "Lord Cornwallis",
+      "Nathanael Greene"
+    ],
+    "casualties": {
+      "side1": 550,
+      "side2": 420
+    },
+    "troopStrength": {
+      "side1": 2100,
+      "side2": 4500
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-chesapeake",
+    "name": "Battle of the Chesapeake",
+    "year": 1781,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.97,
+      "lng": -75.96
+    },
+    "tier": 1,
+    "description": "The naval battle that won American independence, and most Americans have never heard of it. De Grasse's French fleet drove the British navy away from Chesapeake Bay in a brutal line-of-battle engagement. That was it. Cornwallis was trapped at Yorktown with no escape by sea. The war was decided not by Washington's army but by French warships in the Atlantic swells.",
+    "belligerents": [
+      "Kingdom of France",
+      "Great Britain"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Comte de Grasse",
+      "Thomas Graves"
+    ],
+    "casualties": {
+      "side1": 220,
+      "side2": 340
+    },
+    "warName": "American Revolutionary War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-yorktown",
+    "name": "Siege of Yorktown",
+    "year": 1781,
+    "era": "early-modern",
+    "location": {
+      "lat": 37.2388,
+      "lng": -76.5097
+    },
+    "tier": 1,
+    "description": "The endgame. Washington and Rochambeau's combined Franco-American army closed the trap on Cornwallis's eight thousand men while de Grasse's fleet sealed the bay. The siege trenches crept closer, the bombardment shattered the British works, and on October 19th, the redcoats marched out to surrender. The band played 'The World Turned Upside Down.' It was.",
+    "belligerents": [
+      "United States-France alliance",
+      "Great Britain"
+    ],
+    "result": "American-French victory",
+    "commanders": [
+      "George Washington",
+      "Lord Cornwallis"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 8000
+    },
+    "troopStrength": {
+      "side1": 18900,
+      "side2": 8300
+    },
+    "warName": "American Revolutionary War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-valmy",
+    "name": "Battle of Valmy",
+    "year": 1792,
+    "era": "early-modern",
+    "location": {
+      "lat": 49.0792,
+      "lng": 4.7617
+    },
+    "tier": 1,
+    "description": "The armies of the old world lined up against the armies of the new, and the old world blinked. French revolutionary artillery — manned by citizen soldiers fighting for an idea — dueled the Prussian professionals to a standstill on a muddy hillside. The Prussians withdrew. Goethe was standing right there with the Prussian army and turned to the officers around him and said, 'From this place and this time forth commences a new era in world history.' He was right.",
+    "belligerents": [
+      "French Republic",
+      "Kingdom of Prussia"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Charles Dumouriez",
+      "Duke of Brunswick"
+    ],
+    "casualties": {
+      "side1": 300,
+      "side2": 184
+    },
+    "troopStrength": {
+      "side1": 36000,
+      "side2": 34000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-jemappes",
+    "name": "Battle of Jemappes",
+    "year": 1792,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.4422,
+      "lng": 3.8678
+    },
+    "tier": 2,
+    "description": "They had barely been trained. They couldn't march in straight lines. But Dumouriez's revolutionary soldiers had something the Austrians didn't: the terrifying, infectious belief that they were fighting for the future of humanity. They swarmed the Austrian positions through sheer numbers and raw passion. Belgium fell in a day. The Revolution was no longer just defending itself — it was expanding.",
+    "belligerents": [
+      "French Republic",
+      "Habsburg Austria"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Charles Dumouriez",
+      "Archduke Albert"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 40000,
+      "side2": 14000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-fleurus-1794",
+    "name": "Battle of Fleurus (1794)",
+    "year": 1794,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.4833,
+      "lng": 4.55
+    },
+    "tier": 2,
+    "description": "Coalition forces hit Jourdan's French from every direction — a day-long, three-hundred-sixty-degree fight. And floating above it all, for the first time in human warfare, an observation balloon, watching the enemy movements and sending intelligence down by rope. The French held, the Low Countries were secured, and war would never quite be the same. The future was literally hanging in the air.",
+    "belligerents": [
+      "French Republic",
+      "Coalition forces"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Jean-Baptiste Jourdan",
+      "Prince of Saxe-Coburg"
+    ],
+    "casualties": {
+      "side1": 5000,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 73000,
+      "side2": 52000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-otumba",
+    "name": "Battle of Otumba",
+    "year": 1520,
+    "era": "early-modern",
+    "location": {
+      "lat": 19.7,
+      "lng": -98.75
+    },
+    "tier": 2,
+    "description": "Cortes was broken. His army had been mauled on the Noche Triste, he'd lost two-thirds of his men, all the gold, everything. And now a massive Aztec army was blocking the plain of Otumba, ready to finish the job. What happened next is almost unbelievable: Cortes and his battered handful of cavalrymen charged straight into the center, killed the Aztec commander, and the entire army scattered. Sometimes survival is its own kind of victory.",
+    "belligerents": [
+      "Spanish Empire",
+      "Aztec Empire"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Hernan Cortes",
+      "Cihuacatzin"
+    ],
+    "troopStrength": {
+      "side1": 500,
+      "side2": 40000
+    },
+    "warName": "Spanish conquest of the Aztec Empire",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-cusco",
+    "name": "Siege of Cusco",
+    "year": 1536,
+    "era": "early-modern",
+    "location": {
+      "lat": -13.5167,
+      "lng": -71.9833
+    },
+    "tier": 2,
+    "description": "Two hundred Spaniards against a hundred thousand Inca warriors besieging the capital of a fallen empire. For ten months the Inca threw everything at those walls — fire arrows, siege, direct assault, everything. And somehow two hundred men held. The last great Inca attempt to reclaim their world failed in the streets of their own sacred city.",
+    "belligerents": [
+      "Neo-Inca State",
+      "Spanish Empire"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Manco Inca",
+      "Hernando Pizarro"
+    ],
+    "troopStrength": {
+      "side1": 100000,
+      "side2": 200
+    },
+    "warName": "Inca rebellion",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-talikota",
+    "name": "Battle of Talikota",
+    "year": 1565,
+    "era": "early-modern",
+    "location": {
+      "lat": 16.47,
+      "lng": 76.31
+    },
+    "tier": 2,
+    "description": "Two generals switched sides in the middle of the battle. That's all it took to destroy the last great Hindu empire of South India. The Vijayanagara army was winning, and then suddenly it wasn't. The coalition of sultanates poured through the gap, the emperor was captured and beheaded, and they sacked the magnificent capital so thoroughly it was never inhabited again. Civilizations can die in an afternoon.",
+    "belligerents": [
+      "Deccan Sultanates",
+      "Vijayanagara Empire"
+    ],
+    "result": "Sultanate victory",
+    "commanders": [
+      "Hussain Nizam Shah I",
+      "Aliya Rama Raya"
+    ],
+    "casualties": {
+      "side1": 16000,
+      "side2": 80000
+    },
+    "troopStrength": {
+      "side1": 80000,
+      "side2": 140000
+    },
+    "warName": "Deccan Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-haldighati",
+    "name": "Battle of Haldighati",
+    "year": 1576,
+    "era": "early-modern",
+    "location": {
+      "lat": 24.8794,
+      "lng": 73.6858
+    },
+    "tier": 3,
+    "description": "A narrow mountain pass, Rajput cavalry against Mughal heavy horse, and Maharana Pratap refusing to bend the knee. The fighting in that pass was so close and so vicious that elephants were goring horses and men were pulling each other off their mounts with their bare hands. Pratap was wounded but escaped. He never surrendered. He became the symbol of Rajput defiance — the man the Mughals could beat but never break.",
+    "belligerents": [
+      "Mewar Kingdom",
+      "Mughal Empire"
+    ],
+    "result": "Mughal tactical victory",
+    "commanders": [
+      "Maharana Pratap",
+      "Man Singh I"
+    ],
+    "casualties": {
+      "side1": 1600,
+      "side2": 500
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 10000
+    },
+    "warName": "Mughal-Rajput Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-miyajima",
+    "name": "Battle of Miyajima",
+    "year": 1555,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.2958,
+      "lng": 132.3197
+    },
+    "tier": 3,
+    "description": "Mori Motonari lured his enemy onto a sacred island — then attacked in the middle of a typhoon. Amphibious assault from one side, land attack from the other, in the driving rain and howling wind. Sue Harukata had nowhere to run and died on that island. It was the kind of trap that only works if you're either a genius or completely insane. Mori was both.",
+    "belligerents": [
+      "Mori clan",
+      "Sue clan"
+    ],
+    "result": "Mori victory",
+    "commanders": [
+      "Mori Motonari",
+      "Sue Harukata"
+    ],
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 20000
+    },
+    "warName": "Sengoku period",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-kawanakajima",
+    "name": "Fourth Battle of Kawanakajima",
+    "year": 1561,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.5833,
+      "lng": 138.1833
+    },
+    "tier": 2,
+    "description": "The most legendary personal duel in Japanese history. Uesugi Kenshin — the Dragon of Echigo — supposedly rode alone into Takeda Shingen's command post and struck at him with his sword. Shingen blocked the blows with his iron war fan. Whether it happened exactly that way or not, the battle was real enough: the bloodiest of their five clashes, and neither man could finish the other.",
+    "belligerents": [
+      "Takeda clan",
+      "Uesugi clan"
+    ],
+    "result": "Inconclusive",
+    "commanders": [
+      "Takeda Shingen",
+      "Uesugi Kenshin"
+    ],
+    "casualties": {
+      "side1": 4000,
+      "side2": 3000
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 13000
+    },
+    "warName": "Sengoku period",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-osaka",
+    "name": "Siege of Osaka",
+    "year": 1615,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.6873,
+      "lng": 135.5259
+    },
+    "tier": 2,
+    "description": "A hundred and sixty-five thousand Tokugawa troops surrounding the last fortress of the old order. Inside, a hundred and twenty thousand Toyotomi loyalists making their final stand. When the castle fell, Hideyori killed himself, and Japan's century of civil war was truly over. Two hundred and fifty years of peace began in the flames of Osaka Castle.",
+    "belligerents": [
+      "Tokugawa shogunate",
+      "Toyotomi loyalists"
+    ],
+    "result": "Tokugawa victory",
+    "commanders": [
+      "Tokugawa Ieyasu",
+      "Toyotomi Hideyori"
+    ],
+    "troopStrength": {
+      "side1": 165000,
+      "side2": 120000
+    },
+    "warName": "Sengoku period",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-sacheon",
+    "name": "Battle of Sacheon",
+    "year": 1592,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.9333,
+      "lng": 128.0667
+    },
+    "tier": 3,
+    "description": "The turtle ships came. Armored, spiked, belching smoke and cannon fire — Yi Sun-sin's geobukseon were unlike anything the Japanese had ever seen. They couldn't board them, couldn't burn them, couldn't stop them. Yi's fleet tore through the Japanese warships at Sacheon and announced to the world that Korea's navy was going to be a problem.",
+    "belligerents": [
+      "Joseon Korea",
+      "Toyotomi Japan"
+    ],
+    "result": "Korean victory",
+    "commanders": [
+      "Yi Sun-sin",
+      "Todo Takatora"
+    ],
+    "warName": "Imjin War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-hansan-island",
+    "name": "Battle of Hansan Island",
+    "year": 1592,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.7333,
+      "lng": 128.5
+    },
+    "tier": 2,
+    "description": "Yi Sun-sin opened his fleet into a crane wing formation — think of it as a naval Cannae — and wrapped both flanks around the Japanese fleet simultaneously. Fifty-nine out of seventy-three Japanese warships destroyed. Japan's sea supply lines to Korea were severed in an afternoon. Yi might have been the greatest admiral who ever lived, and Hansan Island was his masterpiece.",
+    "belligerents": [
+      "Joseon Korea",
+      "Toyotomi Japan"
+    ],
+    "result": "Korean victory",
+    "commanders": [
+      "Yi Sun-sin",
+      "Wakizaka Yasuharu"
+    ],
+    "casualties": {
+      "side1": 30,
+      "side2": 8000
+    },
+    "warName": "Imjin War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-noryang",
+    "name": "Battle of Noryang",
+    "year": 1598,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.9167,
+      "lng": 127.85
+    },
+    "tier": 2,
+    "description": "The last naval battle of the Imjin War, and the last battle of Yi Sun-sin's life. The combined Korean-Chinese fleet was destroying the retreating Japanese navy when a stray bullet found the greatest admiral in Korean history. 'Do not announce my death,' Yi whispered. His men obeyed, finished the battle, and won the war. Then they mourned.",
+    "belligerents": [
+      "Joseon Korea-Ming China",
+      "Toyotomi Japan"
+    ],
+    "result": "Korean-Chinese victory",
+    "commanders": [
+      "Yi Sun-sin",
+      "Shimazu Yoshihiro"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 10000
+    },
+    "warName": "Imjin War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-sarsa-dengel",
+    "name": "Battle of Weyna Dega",
+    "year": 1543,
+    "era": "early-modern",
+    "location": {
+      "lat": 12.2,
+      "lng": 39.5
+    },
+    "tier": 2,
+    "description": "Christian Ethiopia had been burning for fifteen years. Ahmad Gragn's jihad had conquered nearly everything — churches razed, monasteries destroyed, a civilization on the edge of extinction. At Weyna Dega, Emperor Gelawdewos and a handful of Portuguese musketeers found Gragn and killed him. One man's death saved a kingdom. Ethiopia would remain Christian.",
+    "belligerents": [
+      "Ethiopian Empire",
+      "Adal Sultanate"
+    ],
+    "result": "Ethiopian victory",
+    "commanders": [
+      "Gelawdewos",
+      "Ahmad ibn Ibrahim"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 5000
+    },
+    "warName": "Ethiopian-Adal War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-tondibi",
+    "name": "Battle of Tondibi",
+    "year": 1591,
+    "era": "early-modern",
+    "location": {
+      "lat": 16.3,
+      "lng": -3.0
+    },
+    "tier": 2,
+    "description": "Four thousand Moroccans with muskets and cannons crossed the Sahara Desert — one of the most incredible marches in military history — and met the Songhai Empire's army of forty thousand on the other side. The Songhai had cavalry, numbers, and courage. The Moroccans had gunpowder. It wasn't close. The last great West African empire collapsed in the smoke of a technology gap it never saw coming.",
+    "belligerents": [
+      "Saadi dynasty of Morocco",
+      "Songhai Empire"
+    ],
+    "result": "Moroccan victory",
+    "commanders": [
+      "Judar Pasha",
+      "Askia Ishaq II"
+    ],
+    "troopStrength": {
+      "side1": 4000,
+      "side2": 40000
+    },
+    "warName": "Moroccan invasion of Songhai",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-nile-1798",
+    "name": "Battle of the Nile",
+    "year": 1798,
+    "era": "early-modern",
+    "location": {
+      "lat": 31.32,
+      "lng": 30.07
+    },
+    "tier": 1,
+    "description": "Nelson found the French fleet anchored in Aboukir Bay and did something nobody expected — he sailed half his fleet between the French ships and the shore, attacking from both sides simultaneously. Ship after ship was overwhelmed, and then the French flagship L'Orient exploded in a blast that could be heard thirty miles away. The fireball lit up the night sky like a second sun. Eleven of thirteen French ships destroyed. Napoleon's army was stranded in Egypt, and Britannia ruled the waves.",
+    "belligerents": [
+      "Great Britain",
+      "French Republic"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Horatio Nelson",
+      "Francois-Paul Brueys"
+    ],
+    "casualties": {
+      "side1": 900,
+      "side2": 5200
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-the-pyramids",
+    "name": "Battle of the Pyramids",
+    "year": 1798,
+    "era": "early-modern",
+    "location": {
+      "lat": 30.0131,
+      "lng": 31.1342
+    },
+    "tier": 2,
+    "description": "'Soldiers, from the summit of these pyramids, forty centuries look down on you.' That's what Napoleon told his men before the Mamluk cavalry charged. The finest horsemen in the Middle East — gorgeous, terrifying, riding straight at the French infantry squares. And the squares held. Volley after volley, the Mamluks breaking against disciplined musketry like waves against stone. Napoleon conquered Egypt in an afternoon.",
+    "belligerents": [
+      "French Republic",
+      "Mamluk Egypt"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Napoleon Bonaparte",
+      "Murad Bey"
+    ],
+    "casualties": {
+      "side1": 300,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 40000
+    },
+    "warName": "French campaign in Egypt",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-rivoli",
+    "name": "Battle of Rivoli",
+    "year": 1797,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.5833,
+      "lng": 10.8167
+    },
+    "tier": 2,
+    "description": "Austrian columns coming from every direction, trying to relieve Mantua, and Napoleon — twenty-seven years old — racing from one threat to the next, concentrating his force against each column as it arrived, beating them one at a time. It was like watching a man play chess at a speed nobody thought possible. Northern Italy fell, and the world got its first real look at what Napoleon could do.",
+    "belligerents": [
+      "French Republic",
+      "Habsburg Austria"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Napoleon Bonaparte",
+      "Josef Alvinczy"
+    ],
+    "casualties": {
+      "side1": 3200,
+      "side2": 14000
+    },
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 28000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-arcole",
+    "name": "Battle of Arcole",
+    "year": 1796,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.35,
+      "lng": 11.2833
+    },
+    "tier": 3,
+    "description": "Three days of fighting for a bridge. Napoleon grabbed a flag and walked onto the bridge himself, under fire, trying to shame his men into following. They dragged him into a ditch to save his life. It was either the bravest or the stupidest thing a general ever did. It was probably both. And it worked. The legend of Napoleon wasn't just built on victories — it was built on moments like Arcole.",
+    "belligerents": [
+      "French Republic",
+      "Habsburg Austria"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Napoleon Bonaparte",
+      "Josef Alvinczy"
+    ],
+    "casualties": {
+      "side1": 4500,
+      "side2": 7000
+    },
+    "troopStrength": {
+      "side1": 19000,
+      "side2": 24000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-lodi",
+    "name": "Battle of Lodi",
+    "year": 1796,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.3139,
+      "lng": 9.5031
+    },
+    "tier": 3,
+    "description": "Napoleon leading grenadiers across a narrow bridge straight into Austrian cannon fire — grapeshot tearing through the column, men falling into the river, and this skinny Corsican artillery officer just keeping going. His soldiers started calling him 'the Little Corporal' that day. Not because he was small. Because he fought like one of them. Milan fell, and a general became a myth.",
+    "belligerents": [
+      "French Republic",
+      "Habsburg Austria"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Napoleon Bonaparte",
+      "Karl Sebottendorf"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 2000
+    },
+    "troopStrength": {
+      "side1": 18000,
+      "side2": 10000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-neerwinden-1793",
+    "name": "Battle of Neerwinden (1793)",
+    "year": 1793,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.7667,
+      "lng": 5.0167
+    },
+    "tier": 3,
+    "description": "The Austrians took Belgium back in a single afternoon, but the real shock came after: Dumouriez, the victorious general of Jemappes, the hero of the Revolution, defected to the enemy. He just walked across the lines. The French Republic was fighting for its life against all of Europe, and its best general switched sides. The Terror was coming.",
+    "belligerents": [
+      "Habsburg Austria",
+      "French Republic"
+    ],
+    "result": "Austrian victory",
+    "commanders": [
+      "Prince of Saxe-Coburg",
+      "Charles Dumouriez"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 40000,
+      "side2": 45000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-cape-st-vincent",
+    "name": "Battle of Cape St. Vincent",
+    "year": 1797,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.9833,
+      "lng": -8.95
+    },
+    "tier": 2,
+    "description": "The British were outnumbered, outgunned, and it didn't matter. Commodore Nelson — not yet the legend, just a commodore with more courage than sense — broke formation without orders and threw his ship at seven Spanish vessels simultaneously. Seven. He boarded two of them personally. When the smoke cleared, Nelson was famous and Spain's fleet was shattered.",
+    "belligerents": [
+      "Great Britain",
+      "Kingdom of Spain"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "John Jervis",
+      "Jose de Cordoba"
+    ],
+    "casualties": {
+      "side1": 300,
+      "side2": 1000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-ottoman-diu",
+    "name": "Battle of Diu",
+    "year": 1509,
+    "era": "early-modern",
+    "location": {
+      "lat": 20.7144,
+      "lng": 70.9242
+    },
+    "tier": 2,
+    "description": "Portuguese carracks and cannons against the combined might of the Ottoman, Egyptian, and Gujarati fleets in the Indian Ocean. Almeida's ships had heavier guns and better seamanship, and they used both to blow the allied fleet to pieces. In a single day off the coast of India, Portugal seized control of the spice trade — the most profitable commerce on earth — and held it for a century.",
+    "belligerents": [
+      "Portuguese Empire",
+      "Ottoman-Egyptian-Gujarati alliance"
+    ],
+    "result": "Portuguese victory",
+    "commanders": [
+      "Francisco de Almeida",
+      "Amir Husain Al-Kurdi"
+    ],
+    "warName": "Portuguese-Indian Ocean campaigns",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-ridaniya",
+    "name": "Battle of Ridaniya",
+    "year": 1517,
+    "era": "early-modern",
+    "location": {
+      "lat": 30.0833,
+      "lng": 31.3
+    },
+    "tier": 2,
+    "description": "Selim the Grim brought Ottoman artillery to Egypt, and the Mamluks — the greatest cavalry warriors of the medieval world — had no answer for it. The janissaries' muskets and the sultan's cannons tore the Mamluk army apart outside Cairo. Egypt fell, and suddenly the Ottoman Sultan was custodian of Mecca and Medina, leader of the entire Sunni world. The map of the Middle East was redrawn in an afternoon.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Mamluk Sultanate"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Selim I",
+      "Tuman Bay II"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 20000
+    },
+    "warName": "Ottoman-Mamluk War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-preveza-1538",
+    "name": "Battle of Djerba",
+    "year": 1560,
+    "era": "early-modern",
+    "location": {
+      "lat": 33.8075,
+      "lng": 10.8578
+    },
+    "tier": 3,
+    "description": "Piyale Pasha caught sixty Christian galleys off the island of Djerba and smashed them. Eighteen thousand dead. The combined might of Spain and Italy sent to challenge Ottoman naval power, and it was swatted aside like a nuisance. After Djerba, nobody challenged Ottoman control of the Mediterranean for another decade.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Spanish-Italian alliance"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Piyale Pasha",
+      "Giovanni Andrea Doria"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 18000
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-mohacs-1687",
+    "name": "Second Battle of Mohacs",
+    "year": 1687,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.9947,
+      "lng": 18.6803
+    },
+    "tier": 2,
+    "description": "Same field. Same result. Only this time it was the Ottomans who got destroyed. A hundred and sixty years after Suleiman shattered Hungary at Mohacs, Charles of Lorraine brought the Habsburgs back to that same cursed ground and avenged every one of those dead. Hungary was being taken back, one battle at a time.",
+    "belligerents": [
+      "Habsburg Austria",
+      "Ottoman Empire"
+    ],
+    "result": "Habsburg victory",
+    "commanders": [
+      "Charles of Lorraine",
+      "Suleiman Pasha"
+    ],
+    "casualties": {
+      "side1": 600,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 60000,
+      "side2": 60000
+    },
+    "warName": "Great Turkish War",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-buda-1686",
+    "name": "Siege of Buda (1686)",
+    "year": 1686,
+    "era": "early-modern",
+    "location": {
+      "lat": 47.4979,
+      "lng": 19.0402
+    },
+    "tier": 2,
+    "description": "A hundred and forty-five years of Ottoman rule ended in seventy-eight days of savage fighting. The Holy League battered their way through the walls of Budapest with siege guns and bayonets, fighting through streets where Ottoman defenders died at their posts. The Hungarian capital was free for the first time since Martin Luther was alive.",
+    "belligerents": [
+      "Holy League",
+      "Ottoman Empire"
+    ],
+    "result": "Holy League victory",
+    "commanders": [
+      "Charles of Lorraine",
+      "Abdurrahman Abdi Pasha"
+    ],
+    "casualties": {
+      "side1": 10000,
+      "side2": 12000
+    },
+    "troopStrength": {
+      "side1": 75000,
+      "side2": 10000
+    },
+    "warName": "Great Turkish War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-saint-gotthard",
+    "name": "Battle of Saint Gotthard",
+    "year": 1664,
+    "era": "early-modern",
+    "location": {
+      "lat": 46.9553,
+      "lng": 16.3175
+    },
+    "tier": 3,
+    "description": "The Ottomans tried to force a river crossing and Montecuccoli was waiting on the other bank with Habsburg troops, French volunteers, and German auxiliaries. When the Ottomans came across, they met disciplined European volley fire for the first time in a generation and recoiled. The reconquest of Hungary was still twenty years away, but Saint Gotthard was the proof of concept.",
+    "belligerents": [
+      "Habsburg Austria",
+      "Ottoman Empire"
+    ],
+    "result": "Habsburg victory",
+    "commanders": [
+      "Raimondo Montecuccoli",
+      "Grand Vizier Koprulu Fazil Ahmed"
+    ],
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 60000
+    },
+    "warName": "Austro-Turkish War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-the-four-days",
+    "name": "Four Days' Battle",
+    "year": 1666,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.5,
+      "lng": 2.0
+    },
+    "tier": 3,
+    "description": "Four days. The longest naval battle in history. De Ruyter's Dutch fleet and the English navy pounding each other across the width of the English Channel for ninety-six straight hours. Men sleeping at their guns, ships burning on the horizon, gunpowder smoke so thick you couldn't see the mast above you. Seventeen English ships sunk or captured. De Ruyter was a force of nature.",
+    "belligerents": [
+      "Dutch Republic",
+      "Kingdom of England"
+    ],
+    "result": "Dutch victory",
+    "commanders": [
+      "Michiel de Ruyter",
+      "George Monck"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 5000
+    },
+    "warName": "Second Anglo-Dutch War",
+    "significance": 3
+  },
+  {
+    "id": "raid-on-the-medway",
+    "name": "Raid on the Medway",
+    "year": 1667,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.4,
+      "lng": 0.5833
+    },
+    "tier": 2,
+    "description": "The most humiliating day in Royal Navy history. De Ruyter sailed his fleet up the Thames estuary, into the Medway River, past the chain defenses, burned English warships at their moorings, and towed away the flagship Royal Charles. Towed it. Back to Holland. As a trophy. The sound of Dutch guns on the Medway could be heard in London. Samuel Pepys wrote in his diary that he feared the end of the world.",
+    "belligerents": [
+      "Dutch Republic",
+      "Kingdom of England"
+    ],
+    "result": "Dutch victory",
+    "commanders": [
+      "Michiel de Ruyter",
+      "George Monck"
+    ],
+    "warName": "Second Anglo-Dutch War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-la-hogue",
+    "name": "Battle of Barfleur/La Hougue",
+    "year": 1692,
+    "era": "early-modern",
+    "location": {
+      "lat": 49.6667,
+      "lng": -1.2667
+    },
+    "tier": 2,
+    "description": "The Anglo-Dutch fleet caught Tourville's French navy in the Channel and then spent days hunting down and burning beached French ships along the Normandy coast. Twelve capital ships destroyed. Louis XIV's plan to invade England and restore the Catholic James II went up in flames — quite literally — on the beaches of La Hougue.",
+    "belligerents": [
+      "England-Dutch Republic",
+      "Kingdom of France"
+    ],
+    "result": "Anglo-Dutch victory",
+    "commanders": [
+      "Edward Russell",
+      "Comte de Tourville"
+    ],
+    "casualties": {
+      "side1": 800,
+      "side2": 2000
+    },
+    "warName": "Nine Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-beachy-head",
+    "name": "Battle of Beachy Head",
+    "year": 1690,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.7167,
+      "lng": 0.25
+    },
+    "tier": 3,
+    "description": "Tourville's French fleet crushed the combined Anglo-Dutch navy in the English Channel, sinking or capturing sixteen allied ships. For a brief, terrifying moment, France controlled the sea between England and the continent. The English hadn't been this vulnerable to invasion since the Armada. Fortunately for them, the French didn't exploit it.",
+    "belligerents": [
+      "Kingdom of France",
+      "England-Dutch Republic"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Comte de Tourville",
+      "Arthur Herbert"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 3000
+    },
+    "warName": "Nine Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-steenkerque",
+    "name": "Battle of Steenkerque",
+    "year": 1692,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.6097,
+      "lng": 4.0125
+    },
+    "tier": 3,
+    "description": "William III's surprise dawn attack nearly caught the French with their pants down — quite literally. French officers rushed to battle with their cravats untied, which naturally became the hottest fashion trend in Paris. The battle itself was a bloodbath, seven thousand dead on each side, but the image that stuck was French aristocrats turning a military near-disaster into a style statement.",
+    "belligerents": [
+      "Grand Alliance",
+      "Kingdom of France"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "William III",
+      "Luxembourg"
+    ],
+    "casualties": {
+      "side1": 7000,
+      "side2": 7000
+    },
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 80000
+    },
+    "warName": "Nine Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-cartagena-de-indias",
+    "name": "Battle of Cartagena de Indias",
+    "year": 1741,
+    "era": "early-modern",
+    "location": {
+      "lat": 10.391,
+      "lng": -75.5144
+    },
+    "tier": 2,
+    "description": "A hundred and eighty-six British ships. Twenty-seven thousand men. The largest amphibious fleet assembled before D-Day, sent to take a single Spanish colonial city defended by three thousand men and a one-legged, one-eyed, one-armed commander named Blas de Lezo. And Lezo won. The British lost eighteen thousand men and sailed home in humiliation. London had already minted medals celebrating the victory. They had to melt them down.",
+    "belligerents": [
+      "Spanish Empire",
+      "Great Britain"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Blas de Lezo",
+      "Edward Vernon"
+    ],
+    "casualties": {
+      "side1": 800,
+      "side2": 18000
+    },
+    "troopStrength": {
+      "side1": 3000,
+      "side2": 27000
+    },
+    "warName": "War of Jenkins' Ear",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-fontenoy",
+    "name": "Battle of Fontenoy",
+    "year": 1745,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.5667,
+      "lng": 3.4667
+    },
+    "tier": 2,
+    "description": "There's a story — probably legend, maybe not — that the English and French officers politely invited each other to fire first. 'After you, gentlemen.' Then the English Guards advanced into the French center and nearly broke it through sheer firepower and nerve. Marshal Saxe, sick with dropsy and carried in a litter, had to throw in his reserves to save the day. Courtesy, carnage, and the peculiar gentility of eighteenth-century war.",
+    "belligerents": [
+      "Kingdom of France",
+      "Pragmatic Allies"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Marshal Saxe",
+      "Duke of Cumberland"
+    ],
+    "casualties": {
+      "side1": 7200,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 50000
+    },
+    "warName": "War of the Austrian Succession",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-dettingen",
+    "name": "Battle of Dettingen",
+    "year": 1743,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.0333,
+      "lng": 9.0833
+    },
+    "tier": 3,
+    "description": "George II — the last British king to lead troops in battle — had his army trapped between a river and a French blocking force. His horse bolted toward the French lines. He dismounted, drew his sword, and led his infantry forward on foot. They fought their way out. The king was sixty years old. They didn't make them like that anymore. They literally didn't — no British monarch has led troops since.",
+    "belligerents": [
+      "Pragmatic Alliance",
+      "Kingdom of France"
+    ],
+    "result": "Allied victory",
+    "commanders": [
+      "George II",
+      "Duke of Noailles"
+    ],
+    "casualties": {
+      "side1": 2500,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 37000,
+      "side2": 26000
+    },
+    "warName": "War of the Austrian Succession",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-hohenfriedberg",
+    "name": "Battle of Hohenfriedberg",
+    "year": 1745,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.85,
+      "lng": 16.25
+    },
+    "tier": 2,
+    "description": "Frederick's army materialized out of the pre-dawn mist like a nightmare. The Austrian-Saxon army was still waking up when the Prussian infantry hit them. It was over in hours — a complete rout, fourteen thousand enemy casualties. Silesia was Prussian, and Frederick had proven that speed and surprise could substitute for numbers.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Austria-Saxony"
+    ],
+    "result": "Prussian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Charles of Lorraine"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 14000
+    },
+    "troopStrength": {
+      "side1": 59000,
+      "side2": 60000
+    },
+    "warName": "War of the Austrian Succession",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-mollwitz",
+    "name": "Battle of Mollwitz",
+    "year": 1741,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.6667,
+      "lng": 17.5333
+    },
+    "tier": 3,
+    "description": "Frederick's first battle, and he ran away from it. Austrian cavalry routed his horsemen, and the young king fled the field, convinced the battle was lost. But his infantry — that magnificent, machine-like Prussian infantry his father had drilled into perfection — stood their ground and won the fight without him. Frederick came back, deeply embarrassed, and never ran again.",
+    "belligerents": [
+      "Kingdom of Prussia",
+      "Habsburg Austria"
+    ],
+    "result": "Prussian victory",
+    "commanders": [
+      "Frederick the Great",
+      "Wilhelm von Neipperg"
+    ],
+    "casualties": {
+      "side1": 4800,
+      "side2": 4500
+    },
+    "troopStrength": {
+      "side1": 22000,
+      "side2": 20000
+    },
+    "warName": "War of the Austrian Succession",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-culloden",
+    "name": "Battle of Culloden",
+    "year": 1746,
+    "era": "early-modern",
+    "location": {
+      "lat": 57.4775,
+      "lng": -4.0931
+    },
+    "tier": 2,
+    "description": "The last hurrah of the Highland charge. Bonnie Prince Charlie's Jacobites came screaming out of the mist with their broadswords, and Cumberland's redcoats blew them apart with disciplined volleys and grapeshot. It was over in under an hour. The Stuart cause, the Highland way of life, the dream of a Catholic restoration — all of it died in the mud at Culloden. And what came after was worse.",
+    "belligerents": [
+      "Great Britain",
+      "Jacobites"
+    ],
+    "result": "Government victory",
+    "commanders": [
+      "Duke of Cumberland",
+      "Charles Edward Stuart"
+    ],
+    "casualties": {
+      "side1": 360,
+      "side2": 2000
+    },
+    "troopStrength": {
+      "side1": 8000,
+      "side2": 5400
+    },
+    "warName": "Jacobite Rising of 1745",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-karnal",
+    "name": "Battle of Karnal",
+    "year": 1739,
+    "era": "early-modern",
+    "location": {
+      "lat": 29.6857,
+      "lng": 76.9905
+    },
+    "tier": 2,
+    "description": "Nader Shah — possibly the most brilliant military mind between Napoleon and Alexander — smashed the Mughal army in three hours and then walked into Delhi and took everything. The Peacock Throne. The Koh-i-Noor diamond. The treasury of the richest empire in Asia. The Mughal Empire had been dying for decades, but Karnal ripped the mask off. There was nothing left but a hollow shell.",
+    "belligerents": [
+      "Afsharid Persia",
+      "Mughal Empire"
+    ],
+    "result": "Persian victory",
+    "commanders": [
+      "Nader Shah",
+      "Muhammad Shah"
+    ],
+    "casualties": {
+      "side1": 2500,
+      "side2": 20000
+    },
+    "troopStrength": {
+      "side1": 55000,
+      "side2": 300000
+    },
+    "warName": "Nader Shah's invasion of India",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-chios-1657",
+    "name": "Battle of the Dardanelles (1657)",
+    "year": 1657,
+    "era": "early-modern",
+    "location": {
+      "lat": 40.1,
+      "lng": 26.4
+    },
+    "tier": 3,
+    "description": "Venice against the Ottoman Empire for control of the Dardanelles — the throat of Constantinople itself. Mocenigo's galleys blockaded the strait and defeated the Ottoman fleet, squeezing Ottoman trade until it gasped. For a few years, tiny Venice — a city of merchants and glass-blowers — held the Ottoman Empire by the windpipe.",
+    "belligerents": [
+      "Republic of Venice",
+      "Ottoman Empire"
+    ],
+    "result": "Venetian victory",
+    "commanders": [
+      "Lazzaro Mocenigo",
+      "Topal Mehmed Pasha"
+    ],
+    "warName": "Cretan War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-power-of-hormuz",
+    "name": "Capture of Hormuz",
+    "year": 1507,
+    "era": "early-modern",
+    "location": {
+      "lat": 27.0853,
+      "lng": 56.4611
+    },
+    "tier": 3,
+    "description": "Albuquerque sailed into the Persian Gulf with a handful of ships and seized the fortress island that controlled all trade between India, Persia, and Arabia. A tiny Portuguese force, thousands of miles from home, grabbed one of the most strategic chokepoints on earth and said, 'This is ours now.' The audacity of the Portuguese age of exploration in a single action.",
+    "belligerents": [
+      "Portuguese Empire",
+      "Kingdom of Hormuz"
+    ],
+    "result": "Portuguese victory",
+    "commanders": [
+      "Afonso de Albuquerque",
+      "Saif ad-Din"
+    ],
+    "warName": "Portuguese-Indian Ocean campaigns",
+    "significance": 3
+  },
+  {
+    "id": "conquest-of-malacca",
+    "name": "Conquest of Malacca",
+    "year": 1511,
+    "era": "early-modern",
+    "location": {
+      "lat": 2.1896,
+      "lng": 102.2501
+    },
+    "tier": 2,
+    "description": "Twelve hundred men and seventeen ships against the greatest trading city in Southeast Asia. Albuquerque stormed Malacca, took the strait, and suddenly Portugal controlled the gateway to the Spice Islands. The spice trade — the most lucrative commerce in the world — now flowed through Portuguese hands. A thousand men with cannons had reshaped global economics.",
+    "belligerents": [
+      "Portuguese Empire",
+      "Malacca Sultanate"
+    ],
+    "result": "Portuguese victory",
+    "commanders": [
+      "Afonso de Albuquerque",
+      "Sultan Mahmud Shah"
+    ],
+    "troopStrength": {
+      "side1": 1200,
+      "side2": 20000
+    },
+    "warName": "Portuguese-Indian Ocean campaigns",
+    "significance": 2
+  },
+  {
+    "id": "conquest-of-goa",
+    "name": "Conquest of Goa",
+    "year": 1510,
+    "era": "early-modern",
+    "location": {
+      "lat": 15.4909,
+      "lng": 73.8278
+    },
+    "tier": 2,
+    "description": "Albuquerque took Goa from the Bijapur Sultanate and made it the capital of a seaborne empire that would last four and a half centuries. Sixteen hundred Portuguese soldiers against nine thousand defenders, and the Europeans won because they had ships with cannons and the absolute conviction that God wanted them to be there. Goa would fly the Portuguese flag until 1961.",
+    "belligerents": [
+      "Portuguese Empire",
+      "Bijapur Sultanate"
+    ],
+    "result": "Portuguese victory",
+    "commanders": [
+      "Afonso de Albuquerque",
+      "Yusuf Adil Shah"
+    ],
+    "troopStrength": {
+      "side1": 1600,
+      "side2": 9000
+    },
+    "warName": "Portuguese-Indian Ocean campaigns",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-chaldiran-supplement",
+    "name": "Battle of Marj Dabiq",
+    "year": 1516,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.5167,
+      "lng": 37.05
+    },
+    "tier": 2,
+    "description": "Ottoman artillery and janissary musketry against the Mamluk cavalry of Syria — and the Mamluks never had a chance. Sultan al-Ghawri died on the field, Syria fell in weeks, and Selim the Grim marched south toward Egypt. The entire eastern Mediterranean was becoming an Ottoman lake, and there was nobody left to stop it.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Mamluk Sultanate"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Selim I",
+      "Qansuh al-Ghawri"
+    ],
+    "casualties": {
+      "side1": 3000,
+      "side2": 15000
+    },
+    "warName": "Ottoman-Mamluk War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-veis-island",
+    "name": "Battle of Varna (1444)",
+    "year": 1444,
+    "era": "early-modern",
+    "location": {
+      "lat": 43.2036,
+      "lng": 27.9103
+    },
+    "tier": 2,
+    "description": "The young Polish king charged straight at the Ottoman center. Straight at it. Twenty years old, on horseback, leading a crusade, riding directly at Murad II's bodyguard. A janissary cut him down. His head was put on a pike. His army was annihilated. It was the last serious crusade before Constantinople fell nine years later. Europe had one more chance to save the Eastern Roman Empire. It threw that chance away on a cavalry charge.",
+    "belligerents": [
+      "Crusader alliance",
+      "Ottoman Empire"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Wladyslaw III of Poland",
+      "Murad II"
+    ],
+    "casualties": {
+      "side1": 10000,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 60000
+    },
+    "warName": "Crusade of Varna",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-agincourt-aftermath-castillon",
+    "name": "Battle of Castillon",
+    "year": 1453,
+    "era": "early-modern",
+    "location": {
+      "lat": 44.85,
+      "lng": -0.0333
+    },
+    "tier": 2,
+    "description": "French artillery — real, honest-to-God field artillery, aimed and fired by specialists — shattered the English army that had won at Agincourt. Old John Talbot, the terror of France for thirty years, charged the guns and died. The Hundred Years' War ended with a bang, literally. Gunpowder killed the English longbow's dominance. England kept Calais. France kept everything else.",
+    "belligerents": [
+      "Kingdom of France",
+      "Kingdom of England"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Jean Bureau",
+      "John Talbot"
+    ],
+    "casualties": {
+      "side1": 100,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 6000
+    },
+    "warName": "Hundred Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-st-jakob-an-der-birs",
+    "name": "Battle of St. Jakob an der Birs",
+    "year": 1444,
+    "era": "early-modern",
+    "location": {
+      "lat": 47.5333,
+      "lng": 7.5833
+    },
+    "tier": 3,
+    "description": "Fifteen hundred Swiss pikemen attacked thirty thousand French troops. Attacked. Not defended — attacked. They fought until the last man fell. Every single one of them died. And the Dauphin, watching this from his command post, was so shaken by their insane courage that France never attacked Switzerland again. Instead, they hired the Swiss. If you can't beat them, pay them to fight for you.",
+    "belligerents": [
+      "Old Swiss Confederacy",
+      "Kingdom of France"
+    ],
+    "result": "French pyrrhic victory",
+    "commanders": [
+      "Swiss captains",
+      "Dauphin Louis"
+    ],
+    "casualties": {
+      "side1": 1500,
+      "side2": 2000
+    },
+    "troopStrength": {
+      "side1": 1500,
+      "side2": 30000
+    },
+    "warName": "Old Zurich War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-novara-1513",
+    "name": "Battle of Novara",
+    "year": 1513,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.4472,
+      "lng": 8.6222
+    },
+    "tier": 3,
+    "description": "No artillery. No cavalry. Just Swiss pikemen charging out of the dawn into the French camp before anyone had even had breakfast. The French army — guns, cavalry, everything — was routed by men carrying eighteen-foot pikes and sheer fury. It was the last time the Swiss would win a major battle on their own, and they did it the Swiss way: straight ahead, no subtlety, no mercy.",
+    "belligerents": [
+      "Old Swiss Confederacy",
+      "Kingdom of France"
+    ],
+    "result": "Swiss victory",
+    "commanders": [
+      "Swiss commanders",
+      "Louis de la Tremoille"
+    ],
+    "casualties": {
+      "side1": 1500,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 12000
+    },
+    "warName": "War of the League of Cambrai",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-garigliano",
+    "name": "Battle of Garigliano",
+    "year": 1503,
+    "era": "early-modern",
+    "location": {
+      "lat": 41.2444,
+      "lng": 13.7722
+    },
+    "tier": 3,
+    "description": "A surprise river crossing in the dead of winter — Gonzalo de Cordoba's Spanish troops splashing across the icy Garigliano while the French were huddled in their camps. The 'Great Captain' earned his name that day. The French were routed, Naples was Spanish, and Gonzalo had demonstrated that timing, audacity, and a willingness to suffer could beat a larger army.",
+    "belligerents": [
+      "Spanish Empire",
+      "Kingdom of France"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Gonzalo de Cordoba",
+      "Marquis of Saluzzo"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 3000
+    },
+    "warName": "Italian War of 1499-1504",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-siege-of-rhodes-1522",
+    "name": "Siege of Rhodes",
+    "year": 1522,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.4349,
+      "lng": 28.2176
+    },
+    "tier": 2,
+    "description": "A hundred thousand Ottoman troops hammering seven thousand Knights Hospitaller on their island fortress for five months. The mining, the counter-mining, the hand-to-hand fighting in the breaches — it was medieval siege warfare at its most brutal and most heroic. The knights finally accepted honorable terms and sailed away. To Malta. Where they'd do it all over again.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Knights Hospitaller"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Suleiman the Magnificent",
+      "Philippe Villiers de L'Isle-Adam"
+    ],
+    "casualties": {
+      "side1": 50000,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 100000,
+      "side2": 7000
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-siege-of-antwerp",
+    "name": "Fall of Antwerp",
+    "year": 1585,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.2194,
+      "lng": 4.4025
+    },
+    "tier": 2,
+    "description": "Alexander Farnese built a bridge of boats across the Scheldt River to strangle the richest city in Europe. A bridge. Across a river. Under fire. For over a year he tightened the noose while Antwerp slowly starved. When the city fell, the merchants packed up and moved to Amsterdam, and the Dutch Golden Age began on the ruins of Antwerp's surrender.",
+    "belligerents": [
+      "Spanish Empire",
+      "Dutch rebels"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Alexander Farnese",
+      "Philips van Marnix"
+    ],
+    "warName": "Eighty Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-gembloux",
+    "name": "Battle of Gembloux",
+    "year": 1578,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.5611,
+      "lng": 4.6944
+    },
+    "tier": 3,
+    "description": "Don John of Austria's cavalry caught the Dutch army in the open and turned retreat into massacre — ten thousand killed in the pursuit alone. It was a brutal reminder that the Spanish military machine, for all its troubles in the Low Countries, could still destroy any army that was foolish enough to meet it in the field.",
+    "belligerents": [
+      "Spanish Empire",
+      "Dutch Republic"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Don John of Austria",
+      "Antoine de Goignies"
+    ],
+    "casualties": {
+      "side1": 200,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 17000,
+      "side2": 25000
+    },
+    "warName": "Eighty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-ostend",
+    "name": "Siege of Ostend",
+    "year": 1604,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.2256,
+      "lng": 2.9175
+    },
+    "tier": 3,
+    "description": "Three years and three months. The Spanish besieged Ostend for three years and three months, losing forty thousand men to take a city that was rubble by the time they got it. They called it 'the new Troy.' Both sides fed men into that meat grinder month after month, year after year, in one of the most senseless sieges in military history.",
+    "belligerents": [
+      "Spanish Empire",
+      "Dutch Republic"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Ambrosio Spinola",
+      "Dutch garrison commanders"
+    ],
+    "casualties": {
+      "side1": 40000,
+      "side2": 30000
+    },
+    "warName": "Eighty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-turnhout",
+    "name": "Battle of Turnhout",
+    "year": 1597,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.3231,
+      "lng": 4.9478
+    },
+    "tier": 3,
+    "description": "Maurice of Nassau's Dutch cavalry hit a Spanish force that wasn't expecting them and turned it into a rout. Twenty-five hundred Spanish dead in the pursuit. It was one of the first times the Dutch beat the Spanish in the open, and it mattered more for morale than strategy. The rebels were learning that the monster could be hurt.",
+    "belligerents": [
+      "Dutch Republic",
+      "Spanish Empire"
+    ],
+    "result": "Dutch victory",
+    "commanders": [
+      "Maurice of Nassau",
+      "Jean de Rie"
+    ],
+    "casualties": {
+      "side1": 100,
+      "side2": 2500
+    },
+    "troopStrength": {
+      "side1": 7000,
+      "side2": 6000
+    },
+    "warName": "Eighty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-rain-1632",
+    "name": "Battle of Rain",
+    "year": 1632,
+    "era": "early-modern",
+    "location": {
+      "lat": 48.6833,
+      "lng": 10.9167
+    },
+    "tier": 3,
+    "description": "Gustavus Adolphus forced his army across the Lech River under direct fire — a bridge assault under cannon fire against the most experienced general in Europe. Tilly took a cannonball to the thigh and died two weeks later. The man who had sacked Magdeburg and terrorized Protestant Germany was gone, and Bavaria lay open to the Swedish storm.",
+    "belligerents": [
+      "Sweden",
+      "Holy Roman Empire"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Gustavus Adolphus",
+      "Count Tilly"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 3000
+    },
+    "troopStrength": {
+      "side1": 38000,
+      "side2": 22000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-magdeburg",
+    "name": "Sack of Magdeburg",
+    "year": 1631,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.1205,
+      "lng": 11.6276
+    },
+    "tier": 2,
+    "description": "Twenty thousand civilians. Not soldiers — civilians. When Tilly's Imperial troops finally broke through the walls of Magdeburg, what followed was one of the worst massacres of the entire Thirty Years' War. The city burned. The survivors were butchered in the streets. 'Magdeburgization' became a word — it meant total, absolute destruction. And it shocked Protestant Germany into fighting back.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "City of Magdeburg"
+    ],
+    "result": "Imperial victory",
+    "commanders": [
+      "Count Tilly",
+      "Dietrich von Falkenberg"
+    ],
+    "casualties": {
+      "side1": 300,
+      "side2": 25000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-white-mountain-supplement",
+    "name": "Battle of Dessau Bridge",
+    "year": 1626,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.8375,
+      "lng": 12.2292
+    },
+    "tier": 3,
+    "description": "Wallenstein caught Mansfeld's Protestants trying to cross the Elbe at Dessau and hit them from a fortified position. Four thousand Protestant dead. It was the kind of methodical, grinding victory that Wallenstein specialized in — not flashy, not brilliant, just ruthlessly effective. The man was building himself into the most powerful warlord in the Empire.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "Protestant forces"
+    ],
+    "result": "Imperial victory",
+    "commanders": [
+      "Wallenstein",
+      "Ernst von Mansfeld"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 4000
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 12000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-lutter",
+    "name": "Battle of Lutter",
+    "year": 1626,
+    "era": "early-modern",
+    "location": {
+      "lat": 51.9833,
+      "lng": 10.2833
+    },
+    "tier": 3,
+    "description": "Tilly shattered the Danish army and Christian IV barely escaped with his life. Denmark was out of the war, the Protestant cause was leaderless, and the Catholic-Imperial forces looked unstoppable. The whole Protestant world was holding its breath, waiting for someone — anyone — to step up. Sweden was watching from across the Baltic.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "Kingdom of Denmark"
+    ],
+    "result": "Imperial victory",
+    "commanders": [
+      "Count Tilly",
+      "Christian IV of Denmark"
+    ],
+    "casualties": {
+      "side1": 700,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 20000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-zusmarshausen",
+    "name": "Battle of Zusmarshausen",
+    "year": 1648,
+    "era": "early-modern",
+    "location": {
+      "lat": 48.4,
+      "lng": 10.6
+    },
+    "tier": 3,
+    "description": "The last real battle of the Thirty Years' War, and it felt like it. Swedish and French forces ground up the Imperial rearguard in one final, exhausted spasm of violence. Everyone was done. Eight million people were dead. A third of Germany's population had been wiped out. The Peace of Westphalia was coming because there was nobody left to fight.",
+    "belligerents": [
+      "Sweden-France",
+      "Holy Roman Empire"
+    ],
+    "result": "Franco-Swedish victory",
+    "commanders": [
+      "Carl Gustaf Wrangel",
+      "Raimondo Montecuccoli"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 3000
+    },
+    "warName": "Thirty Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-dunbar-1650",
+    "name": "Battle of Dunbar",
+    "year": 1650,
+    "era": "early-modern",
+    "location": {
+      "lat": 55.9883,
+      "lng": -2.5133
+    },
+    "tier": 2,
+    "description": "Cromwell was trapped — outnumbered, his back to the sea, his army sick and starving. And then the Scottish commander made the mistake of moving his army off the high ground. Cromwell launched a dawn attack and the result was annihilation: three thousand Scottish dead, ten thousand captured, and only thirty English killed. Thirty. It was the most lopsided victory Cromwell ever won.",
+    "belligerents": [
+      "English Commonwealth",
+      "Scotland"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Oliver Cromwell",
+      "David Leslie"
+    ],
+    "casualties": {
+      "side1": 30,
+      "side2": 13000
+    },
+    "troopStrength": {
+      "side1": 11000,
+      "side2": 22000
+    },
+    "warName": "Anglo-Scottish War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-worcester",
+    "name": "Battle of Worcester",
+    "year": 1651,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.1936,
+      "lng": -2.2217
+    },
+    "tier": 2,
+    "description": "Cromwell called it his 'crowning mercy' — the final battle of the English Civil Wars. His army overwhelmed Charles II's Scottish-Royalist force in the streets of Worcester. Charles escaped — famously hiding in an oak tree while Cromwell's soldiers searched for him — and fled to France. The war that had torn England apart for nine years was finally, decisively over.",
+    "belligerents": [
+      "English Commonwealth",
+      "Royalists-Scotland"
+    ],
+    "result": "Commonwealth victory",
+    "commanders": [
+      "Oliver Cromwell",
+      "Charles II"
+    ],
+    "casualties": {
+      "side1": 200,
+      "side2": 3000
+    },
+    "troopStrength": {
+      "side1": 28000,
+      "side2": 16000
+    },
+    "warName": "English Civil War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-nile-supplement",
+    "name": "Battle of Lowestoft",
+    "year": 1665,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.3,
+      "lng": 2.3
+    },
+    "tier": 3,
+    "description": "The Duke of York — the future King James II — commanding the English fleet against the Dutch in what turned into a slugfest off the Suffolk coast. Seventeen Dutch ships sunk or captured. The opening blow of the Second Anglo-Dutch War, and for once the English came out on top. It wouldn't last.",
+    "belligerents": [
+      "Kingdom of England",
+      "Dutch Republic"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Duke of York",
+      "Jacob van Wassenaer"
+    ],
+    "casualties": {
+      "side1": 800,
+      "side2": 5000
+    },
+    "warName": "Second Anglo-Dutch War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-scheveningen",
+    "name": "Battle of Scheveningen",
+    "year": 1653,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.1167,
+      "lng": 4.2833
+    },
+    "tier": 3,
+    "description": "The last battle of the First Anglo-Dutch War, and the Dutch lost their greatest admiral. Maarten Tromp — the man who'd sailed through the Channel with a broom at his masthead, claiming to sweep the seas — was killed by a musket ball. A whole nation mourned. The war ended, but the rivalry was just beginning.",
+    "belligerents": [
+      "English Commonwealth",
+      "Dutch Republic"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "George Monck",
+      "Maarten Tromp"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 2000
+    },
+    "warName": "First Anglo-Dutch War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-gangut",
+    "name": "Battle of Gangut",
+    "year": 1714,
+    "era": "early-modern",
+    "location": {
+      "lat": 60.85,
+      "lng": 23.25
+    },
+    "tier": 3,
+    "description": "Peter the Great's galley fleet catching a Swedish squadron in the shallow Finnish waters — Russian oarsmen rowing straight into the Swedish guns, boarding axe to cutlass, the first major Russian naval victory in history. Russia had been a landlocked power for centuries. At Gangut, Peter announced that the Baltic was no longer a Swedish lake.",
+    "belligerents": [
+      "Tsardom of Russia",
+      "Swedish Empire"
+    ],
+    "result": "Russian victory",
+    "commanders": [
+      "Peter the Great",
+      "Nils Ehrenskiold"
+    ],
+    "warName": "Great Northern War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-holowczyn",
+    "name": "Battle of Holowczyn",
+    "year": 1708,
+    "era": "early-modern",
+    "location": {
+      "lat": 53.6667,
+      "lng": 30.0167
+    },
+    "tier": 3,
+    "description": "Charles XII's last great victory — Swedish troops wading through a marsh under fire, because Charles XII didn't believe in obstacles. They scattered the Russians, and Charles stood at a crossroads: march on Moscow, or turn south into Ukraine. He turned south. Toward Poltava. Toward the end of everything.",
+    "belligerents": [
+      "Swedish Empire",
+      "Tsardom of Russia"
+    ],
+    "result": "Swedish victory",
+    "commanders": [
+      "Charles XII",
+      "Anikita Repnin"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 5000
+    },
+    "troopStrength": {
+      "side1": 12000,
+      "side2": 30000
+    },
+    "warName": "Great Northern War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-denain",
+    "name": "Battle of Denain",
+    "year": 1712,
+    "era": "early-modern",
+    "location": {
+      "lat": 50.3281,
+      "lng": 3.3936
+    },
+    "tier": 2,
+    "description": "France was losing the war, losing everything, and then Villars threw the dice. A surprise assault on the Dutch fortified camp at Denain — savage, fast, overwhelming. Eight thousand Dutch killed, Prince Eugene's supply base captured. In one stroke, Villars saved France from invasion and turned a losing war into a negotiated peace. Sometimes one battle changes everything.",
+    "belligerents": [
+      "Kingdom of France",
+      "Dutch Republic"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Marshal Villars",
+      "Earl of Albemarle"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 8000
+    },
+    "troopStrength": {
+      "side1": 24000,
+      "side2": 12000
+    },
+    "warName": "War of the Spanish Succession",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-almansa",
+    "name": "Battle of Almansa",
+    "year": 1707,
+    "era": "early-modern",
+    "location": {
+      "lat": 38.8692,
+      "lng": -1.0981
+    },
+    "tier": 2,
+    "description": "Here's the most absurd thing about the War of the Spanish Succession: at Almansa, a Franco-Spanish army commanded by an Englishman defeated an Allied army commanded by a Frenchman. An English Jacobite leading Bourbon troops against a French Huguenot leading Protestant forces. War makes strange bedfellows, but the Spanish Succession made the strangest of all.",
+    "belligerents": [
+      "France-Spain Bourbon",
+      "Grand Alliance"
+    ],
+    "result": "Bourbon victory",
+    "commanders": [
+      "Duke of Berwick",
+      "Earl of Galway"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 17000
+    },
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 22000
+    },
+    "warName": "War of the Spanish Succession",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-buxar",
+    "name": "Battle of Buxar",
+    "year": 1764,
+    "era": "early-modern",
+    "location": {
+      "lat": 25.5644,
+      "lng": 83.9778
+    },
+    "tier": 1,
+    "description": "More important than Plassey, and almost nobody talks about it. The British East India Company — a trading company — defeated the combined armies of the Mughal Emperor, the Nawab of Awadh, and the Nawab of Bengal in a single battle. Three Indian powers, forty thousand men, crushed by seven thousand Company troops. Eastern India effectively became a British possession. A corporation conquered a subcontinent.",
+    "belligerents": [
+      "British East India Company",
+      "Mughal-Bengal-Awadh alliance"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Hector Munro",
+      "Shah Alam II"
+    ],
+    "casualties": {
+      "side1": 850,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 7000,
+      "side2": 40000
+    },
+    "warName": "Bengal campaigns",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-assaye",
+    "name": "Battle of Assaye",
+    "year": 1803,
+    "era": "early-modern",
+    "location": {
+      "lat": 20.3,
+      "lng": 75.8
+    },
+    "tier": 2,
+    "description": "Arthur Wellesley — not yet Wellington, not yet famous — led seven thousand men against fifty thousand Marathas with European-trained artillery and won. He later said Assaye was his greatest victory, harder even than Waterloo. Think about that. The man who beat Napoleon considered this Indian battle against overwhelming odds to be the hardest thing he ever did.",
+    "belligerents": [
+      "British East India Company",
+      "Maratha Confederacy"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Arthur Wellesley",
+      "Daulat Scindia"
+    ],
+    "casualties": {
+      "side1": 1600,
+      "side2": 6000
+    },
+    "troopStrength": {
+      "side1": 7000,
+      "side2": 50000
+    },
+    "warName": "Second Anglo-Maratha War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-isandlwana",
+    "name": "Battle of Isandlwana",
+    "year": 1879,
+    "era": "early-modern",
+    "location": {
+      "lat": -28.3547,
+      "lng": 30.6539
+    },
+    "tier": 2,
+    "description": "Twenty thousand Zulu warriors cresting the ridge in the 'horns of the buffalo' formation — two encircling horns and a massive chest charging straight ahead — overwhelming a modern British camp with Martini-Henry rifles, artillery, rockets. Thirteen hundred British and colonial troops killed. Overrun. Wiped out. It was the worst defeat the British Empire ever suffered at the hands of an indigenous army, and it was over in two hours.",
+    "belligerents": [
+      "Zulu Kingdom",
+      "British Empire"
+    ],
+    "result": "Zulu victory",
+    "commanders": [
+      "Ntshingwayo kaMahole",
+      "Lord Chelmsford"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 1300
+    },
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 1800
+    },
+    "warName": "Anglo-Zulu War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-rorkes-drift",
+    "name": "Battle of Rorke's Drift",
+    "year": 1879,
+    "era": "early-modern",
+    "location": {
+      "lat": -28.3492,
+      "lng": 30.5353
+    },
+    "tier": 2,
+    "description": "A hundred and thirty-nine men. That's all that stood between four thousand Zulu warriors and the complete destruction of the mission station at Rorke's Drift. They fought through the night — bayonet to assegai, building barricades from mealie bags and biscuit boxes, the hospital burning behind them. Eleven Victoria Crosses. It was either the greatest small-unit defensive stand in British history or the most desperate. Probably both.",
+    "belligerents": [
+      "British Empire",
+      "Zulu Kingdom"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "John Chard",
+      "Prince Dabulamanzi"
+    ],
+    "casualties": {
+      "side1": 17,
+      "side2": 500
+    },
+    "troopStrength": {
+      "side1": 139,
+      "side2": 4000
+    },
+    "warName": "Anglo-Zulu War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-adwa",
+    "name": "Battle of Adwa",
+    "year": 1896,
+    "era": "early-modern",
+    "location": {
+      "lat": 14.1764,
+      "lng": 38.8997
+    },
+    "tier": 1,
+    "description": "The Italians marched into the Ethiopian highlands expecting to add another colony to their empire. Menelik II had other ideas — and a hundred thousand warriors to back them up. The Italian army was surrounded, shattered, seven thousand dead, three thousand captured. It was the only time an African nation defeated a European colonial power during the Scramble for Africa. Ethiopia remained free. The rest of the continent could only watch and wonder what might have been.",
+    "belligerents": [
+      "Ethiopian Empire",
+      "Kingdom of Italy"
+    ],
+    "result": "Ethiopian victory",
+    "commanders": [
+      "Menelik II",
+      "Oreste Baratieri"
+    ],
+    "casualties": {
+      "side1": 7000,
+      "side2": 10000
+    },
+    "troopStrength": {
+      "side1": 100000,
+      "side2": 18000
+    },
+    "warName": "First Italo-Ethiopian War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-noche-triste",
+    "name": "La Noche Triste",
+    "year": 1520,
+    "era": "early-modern",
+    "location": {
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    "tier": 2,
+    "description": "Midnight on the causeway, and the Aztec warriors are coming from everywhere — from the water in canoes, from the buildings, screaming, throwing javelins. Cortes and his conquistadors fighting their way across the narrow causeways in the dark, men falling into the lake under the weight of stolen gold, horses screaming, the bridge gaps filling with dead. Two-thirds of the Spanish force killed. Cortes made it to the far shore and wept under a cypress tree.",
+    "belligerents": [
+      "Spanish Empire",
+      "Aztec Empire"
+    ],
+    "result": "Aztec victory",
+    "commanders": [
+      "Hernan Cortes",
+      "Cuitlahuac"
+    ],
+    "casualties": {
+      "side1": 600,
+      "side2": 2000
+    },
+    "troopStrength": {
+      "side1": 1300,
+      "side2": 100000
+    },
+    "warName": "Spanish conquest of the Aztec Empire",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-osaka-summer",
+    "name": "Battle of Tennoji",
+    "year": 1615,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.6528,
+      "lng": 135.5167
+    },
+    "tier": 3,
+    "description": "Sanada Yukimura — the greatest warrior of the Sengoku era, the 'Crimson Demon of War' — led his final charge straight at Tokugawa Ieyasu's command post. He got so close that Ieyasu considered suicide. So close. But not close enough. Yukimura died fighting, the Toyotomi cause died with him, and Japan's age of warring states ended in one last blaze of samurai glory.",
+    "belligerents": [
+      "Tokugawa shogunate",
+      "Toyotomi loyalists"
+    ],
+    "result": "Tokugawa victory",
+    "commanders": [
+      "Tokugawa Ieyasu",
+      "Sanada Yukimura"
+    ],
+    "troopStrength": {
+      "side1": 155000,
+      "side2": 55000
+    },
+    "warName": "Sengoku period",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-okehazama",
+    "name": "Battle of Okehazama",
+    "year": 1560,
+    "era": "early-modern",
+    "location": {
+      "lat": 35.0167,
+      "lng": 136.9667
+    },
+    "tier": 2,
+    "description": "Twenty-five hundred men against twenty-five thousand, and the smaller army attacks. In a thunderstorm. Oda Nobunaga — young, brash, written off by everyone — found Imagawa Yoshimoto's camp and hit it in the pouring rain. Yoshimoto was drinking sake in his tent when the attack came. He thought it was a drunken brawl until a samurai cut him down. The nobody from Owari had just launched the unification of Japan.",
+    "belligerents": [
+      "Oda clan",
+      "Imagawa clan"
+    ],
+    "result": "Oda victory",
+    "commanders": [
+      "Oda Nobunaga",
+      "Imagawa Yoshimoto"
+    ],
+    "troopStrength": {
+      "side1": 2500,
+      "side2": 25000
+    },
+    "warName": "Sengoku period",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-saintes",
+    "name": "Battle of the Saintes",
+    "year": 1782,
+    "era": "early-modern",
+    "location": {
+      "lat": 15.8667,
+      "lng": -61.5833
+    },
+    "tier": 2,
+    "description": "Rodney broke the French line. It sounds simple — just sailed his ships through gaps in the enemy formation — but nobody had done it before. It was a revolution in naval tactics. De Grasse was captured, five French ships taken, and Jamaica was saved. After Yorktown, the British needed a naval victory badly, and the Saintes gave them one.",
+    "belligerents": [
+      "Great Britain",
+      "Kingdom of France"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "George Rodney",
+      "Comte de Grasse"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 3000
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-cape-passaro",
+    "name": "Battle of Cape Passaro",
+    "year": 1718,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.6833,
+      "lng": 15.1667
+    },
+    "tier": 3,
+    "description": "The British fleet showed up off Sicily and destroyed the Spanish fleet without anyone bothering with a formal declaration of war. Just sailed in and started shooting. Spain's attempt to reclaim its Italian territories ended in splinters and smoke. The rules-based international order, such as it was, took a day off at Cape Passaro.",
+    "belligerents": [
+      "Great Britain",
+      "Kingdom of Spain"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "George Byng",
+      "Antonio de Gaztaneta"
+    ],
+    "warName": "War of the Quadruple Alliance",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-fort-ticonderoga",
+    "name": "Battle of Fort Ticonderoga (1777)",
+    "year": 1777,
+    "era": "early-modern",
+    "location": {
+      "lat": 43.8428,
+      "lng": -73.3874
+    },
+    "tier": 3,
+    "description": "Burgoyne put his cannons on a hill overlooking Fort Ticonderoga and the Americans looked up and realized the game was over. They abandoned the 'Gibraltar of the North' without a fight. The loss shocked America — but it was the beginning of Burgoyne's fatal overconfidence. Every step south from Ticonderoga was a step deeper into the trap that would close at Saratoga.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "John Burgoyne",
+      "Arthur St. Clair"
+    ],
+    "troopStrength": {
+      "side1": 8000,
+      "side2": 3000
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-oriskany",
+    "name": "Battle of Oriskany",
+    "year": 1777,
+    "era": "early-modern",
+    "location": {
+      "lat": 43.1561,
+      "lng": -75.3642
+    },
+    "tier": 3,
+    "description": "American militia against British loyalists and Iroquois warriors in the forests of upstate New York, fighting hand to hand among the trees. No cavalry charges, no artillery barrages — just men killing each other with musket butts and tomahawks in the undergrowth. One of the bloodiest battles of the Revolution, and its strategic effect was everything: it kept reinforcements from reaching Burgoyne.",
+    "belligerents": [
+      "American Patriots",
+      "British-Iroquois alliance"
+    ],
+    "result": "Inconclusive",
+    "commanders": [
+      "Nicholas Herkimer",
+      "Barry St. Leger"
+    ],
+    "casualties": {
+      "side1": 450,
+      "side2": 200
+    },
+    "troopStrength": {
+      "side1": 800,
+      "side2": 1200
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-bennington",
+    "name": "Battle of Bennington",
+    "year": 1777,
+    "era": "early-modern",
+    "location": {
+      "lat": 42.8686,
+      "lng": -73.2031
+    },
+    "tier": 3,
+    "description": "John Stark told his New Hampshire militia: 'There are your enemies, the Redcoats and the Tories. They are ours, or this night Molly Stark sleeps a widow.' Then they went in. Burgoyne had sent out a foraging party to steal supplies, and Stark's farmers destroyed it. Every man Burgoyne lost before Saratoga made the noose tighter. Bennington was another notch.",
+    "belligerents": [
+      "American Patriots",
+      "Hessian-British forces"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "John Stark",
+      "Friedrich Baum"
+    ],
+    "casualties": {
+      "side1": 70,
+      "side2": 900
+    },
+    "troopStrength": {
+      "side1": 2000,
+      "side2": 1400
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-charleston",
+    "name": "Siege of Charleston",
+    "year": 1780,
+    "era": "early-modern",
+    "location": {
+      "lat": 32.7765,
+      "lng": -79.9311
+    },
+    "tier": 2,
+    "description": "The worst American disaster of the entire Revolutionary War. Clinton besieged Charleston, and Benjamin Lincoln surrendered the entire Southern Army — five thousand men, every cannon, every supply wagon. It was the largest American surrender until the Civil War. The British owned the South. For about five months.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Henry Clinton",
+      "Benjamin Lincoln"
+    ],
+    "casualties": {
+      "side1": 250,
+      "side2": 5500
+    },
+    "troopStrength": {
+      "side1": 13000,
+      "side2": 5500
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-eutaw-springs",
+    "name": "Battle of Eutaw Springs",
+    "year": 1781,
+    "era": "early-modern",
+    "location": {
+      "lat": 33.4331,
+      "lng": -80.3328
+    },
+    "tier": 3,
+    "description": "Nathanael Greene lost again — technically. But he lost the way a boxer loses a round while breaking the other guy's ribs. His army tore into the British at Eutaw Springs so savagely that the British held the field but retreated to Charleston afterward, giving up the entire South Carolina interior. Greene's genius was losing battles while winning the war.",
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
+    "result": "Inconclusive",
+    "commanders": [
+      "Nathanael Greene",
+      "Alexander Stewart"
+    ],
+    "casualties": {
+      "side1": 550,
+      "side2": 700
+    },
+    "troopStrength": {
+      "side1": 2200,
+      "side2": 2000
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-the-saints-domingue",
+    "name": "Battle of Savannah (1779)",
+    "year": 1779,
+    "era": "early-modern",
+    "location": {
+      "lat": 32.0809,
+      "lng": -81.0912
+    },
+    "tier": 3,
+    "description": "A combined Franco-American assault on British Savannah — siege lines, bombardment, a massive infantry attack — and it all failed. Casimir Pulaski, the Polish cavalry hero, was killed leading a charge. D'Estaing was wounded. Eight hundred allied casualties for a hundred and fifty British. The South would have to be won the hard way.",
+    "belligerents": [
+      "Franco-American alliance",
+      "Great Britain"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Charles d'Estaing",
+      "Augustine Prevost"
+    ],
+    "casualties": {
+      "side1": 800,
+      "side2": 150
+    },
+    "troopStrength": {
+      "side1": 5000,
+      "side2": 3500
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-waxhaws",
+    "name": "Battle of Waxhaws",
+    "year": 1780,
+    "era": "early-modern",
+    "location": {
+      "lat": 34.8253,
+      "lng": -80.7492
+    },
+    "tier": 3,
+    "description": "The Americans were trying to surrender. Tarleton's cavalry cut them down anyway — hacking at men with their hands up, bayoneting the wounded on the ground. 'Bloody Tarleton,' they called him. 'Tarleton's Quarter' became the rallying cry of the Southern campaign — it meant no mercy, because none had been given. Every atrocity creates its own army of avengers.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Banastre Tarleton",
+      "Abraham Buford"
+    ],
+    "casualties": {
+      "side1": 19,
+      "side2": 340
+    },
+    "troopStrength": {
+      "side1": 270,
+      "side2": 400
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-white-plains",
+    "name": "Battle of White Plains",
+    "year": 1776,
+    "era": "early-modern",
+    "location": {
+      "lat": 41.034,
+      "lng": -73.7629
+    },
+    "tier": 3,
+    "description": "Howe pushed Washington off another position, and the Continental Army retreated again. But here's what Howe didn't understand: Washington's army was still there. Battered, retreating, losing every engagement, but still in the field. Washington's genius wasn't tactical — it was existential. He kept the army alive. As long as the army existed, the revolution existed.",
+    "belligerents": [
+      "Great Britain",
+      "United States"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "William Howe",
+      "George Washington"
+    ],
+    "casualties": {
+      "side1": 230,
+      "side2": 400
+    },
+    "troopStrength": {
+      "side1": 13000,
+      "side2": 14500
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-stono-ferry",
+    "name": "Battle of Stony Point",
+    "year": 1779,
+    "era": "early-modern",
+    "location": {
+      "lat": 41.2381,
+      "lng": -73.9719
+    },
+    "tier": 3,
+    "description": "Midnight. Bayonets only. Unloaded muskets. Anthony Wayne's light infantry crept up to the British fort at Stony Point in the dark and took it at the point of the bayonet in a perfectly executed night assault. It was a small action — but it proved the Continental Army could do things that took real soldiers years to learn. Wayne earned his nickname 'Mad Anthony' that night.",
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
+    "result": "American victory",
+    "commanders": [
+      "Anthony Wayne",
+      "Henry Johnson"
+    ],
+    "casualties": {
+      "side1": 100,
+      "side2": 600
+    },
+    "troopStrength": {
+      "side1": 1300,
+      "side2": 600
+    },
+    "warName": "American Revolutionary War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-siege-of-gibraltar",
+    "name": "Great Siege of Gibraltar",
+    "year": 1783,
+    "era": "early-modern",
+    "location": {
+      "lat": 36.1408,
+      "lng": -5.3536
+    },
+    "tier": 2,
+    "description": "Four years. Spain and France besieged the Rock of Gibraltar for nearly four years, threw forty thousand troops and floating batteries at it, and five thousand British defenders just would not let go. Three naval relief expeditions kept them fed and armed. When it was over, Britain still held the Rock. They hold it to this day.",
+    "belligerents": [
+      "Great Britain",
+      "Spain-France"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "George Eliott",
+      "Duke of Crillon"
+    ],
+    "troopStrength": {
+      "side1": 5000,
+      "side2": 40000
+    },
+    "warName": "American Revolutionary War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-chesma",
+    "name": "Battle of Chesma",
+    "year": 1770,
+    "era": "early-modern",
+    "location": {
+      "lat": 38.3167,
+      "lng": 26.3833
+    },
+    "tier": 2,
+    "description": "A Russian fleet sailed all the way from the Baltic, around Western Europe, through the Mediterranean, and into the Aegean Sea — and then destroyed the entire Ottoman navy with fireships in Chesma harbor. The Ottomans lost their fleet in a single night of fire. Russia had projected naval power across half the world, and the Ottoman Empire would never feel safe on the sea again.",
+    "belligerents": [
+      "Russian Empire",
+      "Ottoman Empire"
+    ],
+    "result": "Russian victory",
+    "commanders": [
+      "Alexei Orlov",
+      "Hassan Bey"
+    ],
+    "casualties": {
+      "side1": 600,
+      "side2": 11000
+    },
+    "warName": "Russo-Turkish War of 1768-1774",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-kagul",
+    "name": "Battle of Kagul",
+    "year": 1770,
+    "era": "early-modern",
+    "location": {
+      "lat": 45.5,
+      "lng": 28.2
+    },
+    "tier": 2,
+    "description": "Twenty-five thousand Russians against a hundred and fifty thousand Ottomans and Crimean Tatars. Six to one odds. And the Russians won. Rumyantsev used mobile square formations — infantry squares that could march and fight simultaneously — and simply walked through the Ottoman army. One of the most lopsided victories in European military history, and almost nobody in the West has heard of it.",
+    "belligerents": [
+      "Russian Empire",
+      "Ottoman Empire"
+    ],
+    "result": "Russian victory",
+    "commanders": [
+      "Pyotr Rumyantsev",
+      "Ivazzade Halil Pasha"
+    ],
+    "casualties": {
+      "side1": 1500,
+      "side2": 20000
+    },
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 150000
+    },
+    "warName": "Russo-Turkish War of 1768-1774",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-siege-of-acre-1799",
+    "name": "Siege of Acre",
+    "year": 1799,
+    "era": "early-modern",
+    "location": {
+      "lat": 32.9233,
+      "lng": 35.0678
+    },
+    "tier": 2,
+    "description": "Napoleon's first failure, and it happened at an ancient Crusader fortress. For two months he threw his army at the walls of Acre, and for two months the Ottoman-British garrison threw them back. Sidney Smith from the sea, Jezzar Pasha from the walls, and Napoleon for once couldn't find the answer. His dream of an eastern empire died at Acre. He went home and became Emperor instead.",
+    "belligerents": [
+      "French Republic",
+      "Ottoman-British garrison"
+    ],
+    "result": "Ottoman-British victory",
+    "commanders": [
+      "Napoleon Bonaparte",
+      "Jezzar Pasha"
+    ],
+    "troopStrength": {
+      "side1": 13000,
+      "side2": 5000
+    },
+    "warName": "French campaign in Egypt",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-camperdown",
+    "name": "Battle of Camperdown",
+    "year": 1797,
+    "era": "early-modern",
+    "location": {
+      "lat": 52.7167,
+      "lng": 4.3167
+    },
+    "tier": 3,
+    "description": "A fierce, close-quarters naval brawl — British and Dutch ships blasting each other at point-blank range in the North Sea. Eleven Dutch ships captured. Admiral Duncan broke the invasion threat at a time when the Royal Navy was plagued by mutinies. If the Dutch had won, a Franco-Dutch army might have landed in England. Camperdown ensured that didn't happen.",
+    "belligerents": [
+      "Great Britain",
+      "Batavian Republic"
+    ],
+    "result": "British victory",
+    "commanders": [
+      "Adam Duncan",
+      "Jan de Winter"
+    ],
+    "casualties": {
+      "side1": 800,
+      "side2": 1600
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-novi",
+    "name": "Battle of Novi",
+    "year": 1799,
+    "era": "early-modern",
+    "location": {
+      "lat": 44.7625,
+      "lng": 8.7886
+    },
+    "tier": 3,
+    "description": "Suvorov — the old Russian warhorse who hadn't lost a battle in his entire career — drove the French out of northern Italy in a brutal all-day slugfest. The French commander Joubert was killed in the first minutes. His troops fought on anyway, and Suvorov had to earn every yard. It was the climax of his legendary Italian campaign, and it cost eight thousand allied dead.",
+    "belligerents": [
+      "Russia-Austria",
+      "French Republic"
+    ],
+    "result": "Allied victory",
+    "commanders": [
+      "Alexander Suvorov",
+      "Barthelemy Joubert"
+    ],
+    "casualties": {
+      "side1": 8000,
+      "side2": 11000
+    },
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 35000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-zurich",
+    "name": "Second Battle of Zurich",
+    "year": 1799,
+    "era": "early-modern",
+    "location": {
+      "lat": 47.3769,
+      "lng": 8.5417
+    },
+    "tier": 3,
+    "description": "While Suvorov was trapped in the Alps trying to cross impossible mountain passes, Massena struck at Zurich and destroyed the isolated Russian corps. It was a masterstroke of timing — hit the enemy when he's split, when his best general is stuck on the wrong side of a mountain range. The Second Coalition crumbled, and France was saved. Massena earned his reputation as the man who couldn't be beaten on defense.",
+    "belligerents": [
+      "French Republic",
+      "Russian Empire"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Andre Massena",
+      "Alexander Korsakov"
+    ],
+    "casualties": {
+      "side1": 3000,
+      "side2": 8000
+    },
+    "troopStrength": {
+      "side1": 75000,
+      "side2": 30000
+    },
+    "warName": "French Revolutionary Wars",
+    "significance": 3
+  }
+]

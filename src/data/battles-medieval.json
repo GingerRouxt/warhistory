@@ -1,0 +1,4516 @@
+[
+  {
+    "id": "battle-of-badr",
+    "name": "Battle of Badr",
+    "year": 624,
+    "era": "medieval",
+    "location": {
+      "lat": 23.7333,
+      "lng": 38.7833
+    },
+    "tier": 2,
+    "description": "Imagine being one of 313 men standing in the Arabian desert, outnumbered more than three to one, with everything you believe in riding on what happens in the next few hours. Muhammad's tiny band of believers held that line against the Quraysh war machine and won. It wasn't just a battle. It was the moment an entire religion discovered it could fight.",
+    "belligerents": [
+      "Rashidun Muslims",
+      "Quraysh of Mecca"
+    ],
+    "result": "Muslim victory",
+    "commanders": [
+      "Muhammad",
+      "Abu Jahl"
+    ],
+    "troopStrength": {
+      "side1": 313,
+      "side2": 1000
+    },
+    "casualties": {
+      "side1": 14,
+      "side2": 70
+    },
+    "warName": "Muslim-Quraysh Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-yarmouk",
+    "name": "Battle of Yarmouk",
+    "year": 636,
+    "era": "medieval",
+    "location": {
+      "lat": 32.8333,
+      "lng": 36.1833
+    },
+    "tier": 1,
+    "description": "For six days along the Yarmouk River, Arab warriors who'd been living in tents a generation earlier went toe-to-toe with the heirs of Rome. Six days of dust, blood, and screaming. When it was over, the Byzantine Empire had lost the entire Levant, and the ancient Roman hold on the Middle East was gone forever. Just like that.",
+    "belligerents": [
+      "Rashidun Caliphate",
+      "Byzantine Empire"
+    ],
+    "result": "Rashidun victory",
+    "commanders": [
+      "Khalid ibn al-Walid",
+      "Vahan"
+    ],
+    "troopStrength": {
+      "side1": 40000,
+      "side2": 80000
+    },
+    "warName": "Muslim conquest of the Levant",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-qadisiyyah",
+    "name": "Battle of al-Qadisiyyah",
+    "year": 636,
+    "era": "medieval",
+    "location": {
+      "lat": 32.05,
+      "lng": 44.4
+    },
+    "tier": 1,
+    "description": "Three days. That's how long it took to decide the fate of the oldest empire on earth. Arab fighters, many barefoot, faced down Sassanid war elephants and the massed might of Persia at Qadisiyyah. When the dust settled, Mesopotamia lay open, and the Sassanid Empire had begun its death spiral into history.",
+    "belligerents": [
+      "Rashidun Caliphate",
+      "Sassanid Empire"
+    ],
+    "result": "Rashidun victory",
+    "commanders": [
+      "Sa'd ibn Abi Waqqas",
+      "Rostam Farrokhzad"
+    ],
+    "troopStrength": {
+      "side1": 30000,
+      "side2": 60000
+    },
+    "warName": "Muslim conquest of Persia",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-nahavand",
+    "name": "Battle of Nahavand",
+    "year": 642,
+    "era": "medieval",
+    "location": {
+      "lat": 34.1833,
+      "lng": 48.3833
+    },
+    "tier": 2,
+    "description": "The Arabs called it the 'Victory of Victories,' and they weren't exaggerating. At Nahavand, the Rashidun army shattered the last real Sassanid field force. Not weakened it. Not pushed it back. Shattered it. An empire that had stood for four centuries was done. Just... done.",
+    "belligerents": [
+      "Rashidun Caliphate",
+      "Sassanid Empire"
+    ],
+    "result": "Rashidun victory",
+    "commanders": [
+      "Nu'man ibn Muqarrin",
+      "Firuzan"
+    ],
+    "troopStrength": {
+      "side1": 30000,
+      "side2": 60000
+    },
+    "warName": "Muslim conquest of Persia",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-constantinople-674",
+    "name": "First Arab Siege of Constantinople",
+    "year": 674,
+    "era": "medieval",
+    "location": {
+      "lat": 41.0082,
+      "lng": 28.9784
+    },
+    "tier": 2,
+    "description": "Picture a fleet stretching across the Bosporus, the most powerful navy the Islamic world had ever assembled, blockading the greatest city on earth. For four years they tried. And then the Byzantines unleashed Greek fire -- liquid flame that burned on water, that stuck to ships and flesh and couldn't be put out. The screams of burning sailors echoed across the strait, and the caliphate learned that Constantinople would not fall. Not today.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Umayyad Caliphate"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Constantine IV",
+      "Yazid ibn Muawiya"
+    ],
+    "warName": "Arab-Byzantine Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-karbala",
+    "name": "Battle of Karbala",
+    "year": 680,
+    "era": "medieval",
+    "location": {
+      "lat": 32.6167,
+      "lng": 44.0333
+    },
+    "tier": 2,
+    "description": "Seventy-two people. That's all Husayn had. The grandson of the Prophet himself, surrounded on the plains of Karbala by thousands of Umayyad soldiers. They cut off his water. Then they cut him down. The battle lasted hours. Its echoes have lasted fourteen centuries, splitting Islam into two worlds that have never fully reconciled.",
+    "belligerents": [
+      "Supporters of Husayn",
+      "Umayyad Caliphate"
+    ],
+    "result": "Umayyad victory",
+    "commanders": [
+      "Husayn ibn Ali",
+      "Umar ibn Sa'd"
+    ],
+    "troopStrength": {
+      "side1": 72,
+      "side2": 4000
+    },
+    "warName": "Second Fitna",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-constantinople-717",
+    "name": "Second Arab Siege of Constantinople",
+    "year": 717,
+    "era": "medieval",
+    "location": {
+      "lat": 41.0082,
+      "lng": 28.9784
+    },
+    "tier": 1,
+    "description": "The Umayyads threw everything they had at Constantinople -- a massive army, a fleet that blackened the water. Emperor Leo III threw it all back with Greek fire, Bulgarian cavalry, and a winter so brutal that Arab soldiers ate their horses, then their dead. When the survivors limped home, the dream of conquering Europe from the east died with them in the snow.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Umayyad Caliphate"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Leo III",
+      "Maslama ibn Abd al-Malik"
+    ],
+    "warName": "Arab-Byzantine Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-tours",
+    "name": "Battle of Tours",
+    "year": 732,
+    "era": "medieval",
+    "location": {
+      "lat": 46.5833,
+      "lng": 0.6833
+    },
+    "tier": 1,
+    "description": "Charles Martel's Franks planted themselves like a wall of iron in the fields near Poitiers and waited. The Umayyad cavalry crashed into them again and again. The Franks didn't move. When the Muslim commander Abd al-Rahman fell, the army broke. Whether or not this truly 'saved' Christian Europe, the men standing in that shield wall believed it did. And they were willing to die for it.",
+    "belligerents": [
+      "Frankish Kingdom",
+      "Umayyad Caliphate"
+    ],
+    "result": "Frankish victory",
+    "commanders": [
+      "Charles Martel",
+      "Abd al-Rahman al-Ghafiqi"
+    ],
+    "warName": "Umayyad invasion of Gaul",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-talas",
+    "name": "Battle of Talas",
+    "year": 751,
+    "era": "medieval",
+    "location": {
+      "lat": 42.52,
+      "lng": 72.23
+    },
+    "tier": 2,
+    "description": "In the middle of Central Asia, the two greatest empires on earth collided. Abbasid Arabs and Tang Chinese, fighting over the crossroads of the world. Mid-battle, the Karluk Turks switched sides, and the Tang army disintegrated. China never came west again. Islam poured into Central Asia. And oh -- the Chinese prisoners? They brought the secret of papermaking with them. The world was never the same.",
+    "belligerents": [
+      "Abbasid Caliphate",
+      "Tang Dynasty"
+    ],
+    "result": "Abbasid victory",
+    "commanders": [
+      "Ziyad ibn Salih",
+      "Gao Xianzhi"
+    ],
+    "troopStrength": {
+      "side1": 40000,
+      "side2": 30000
+    },
+    "warName": "Tang-Abbasid conflict",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-roncevaux-pass",
+    "name": "Battle of Roncevaux Pass",
+    "year": 778,
+    "era": "medieval",
+    "location": {
+      "lat": 43.0167,
+      "lng": -1.3167
+    },
+    "tier": 3,
+    "description": "Charlemagne's rearguard was threading through a narrow Pyrenean pass when the Basques hit them from above. Rocks, javelins, screaming warriors pouring down the mountainside. Roland -- Charlemagne's own nephew -- died fighting in that pass. The battle was small. The legend it spawned was enormous, becoming one of the great epics of the medieval world.",
+    "belligerents": [
+      "Frankish Empire",
+      "Basques"
+    ],
+    "result": "Basque victory",
+    "commanders": [
+      "Roland",
+      "Unknown Basque leaders"
+    ],
+    "warName": "Charlemagne's Spanish Campaign",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-edington",
+    "name": "Battle of Edington",
+    "year": 878,
+    "era": "medieval",
+    "location": {
+      "lat": 51.2667,
+      "lng": -2.1
+    },
+    "tier": 1,
+    "description": "Alfred was a fugitive king hiding in the marshes of Somerset. The Danes owned England. Everything was lost. And then Alfred rallied the fyrd -- farmers, blacksmiths, ordinary men -- and led them to Edington, where they smashed Guthrum's Viking army shield wall against shield wall. He didn't just win a battle. He saved Anglo-Saxon civilization from extinction.",
+    "belligerents": [
+      "Kingdom of Wessex",
+      "Danish Vikings"
+    ],
+    "result": "West Saxon victory",
+    "commanders": [
+      "Alfred the Great",
+      "Guthrum"
+    ],
+    "warName": "Viking invasions of England",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-simancas",
+    "name": "Battle of Simancas",
+    "year": 939,
+    "era": "medieval",
+    "location": {
+      "lat": 41.5833,
+      "lng": -4.8167
+    },
+    "tier": 3,
+    "description": "Ramiro II gathered every Christian sword he could find and hurled them at the army of Abd al-Rahman III, the most powerful Muslim ruler in Europe. The Reconquista had been a slow, grinding thing for two centuries. At Simancas, it found its pulse. The Muslim advance into northern Iberia stopped cold, and the Christian kingdoms finally believed they could win.",
+    "belligerents": [
+      "Kingdom of Leon",
+      "Caliphate of Cordoba"
+    ],
+    "result": "Leonese victory",
+    "commanders": [
+      "Ramiro II of Leon",
+      "Abd al-Rahman III"
+    ],
+    "warName": "Reconquista",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-lechfeld",
+    "name": "Battle of Lechfeld",
+    "year": 955,
+    "era": "medieval",
+    "location": {
+      "lat": 48.3,
+      "lng": 10.85
+    },
+    "tier": 1,
+    "description": "For nearly a hundred years, Magyar horsemen had been the terror of Europe -- raiding, burning, killing from the Danube to the Rhine. At Lechfeld, Otto I caught them. His heavy cavalry smashed into the Magyar horde near Augsburg, and when it was over, the raids were finished. Permanently. Otto rode home a hero and would soon wear an emperor's crown.",
+    "belligerents": [
+      "East Francia",
+      "Kingdom of Hungary"
+    ],
+    "result": "German victory",
+    "commanders": [
+      "Otto I",
+      "Horka Bulcsu"
+    ],
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 25000
+    },
+    "warName": "Hungarian invasions of Europe",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-brunanburh",
+    "name": "Battle of Brunanburh",
+    "year": 937,
+    "era": "medieval",
+    "location": {
+      "lat": 53.35,
+      "lng": -2.9
+    },
+    "tier": 2,
+    "description": "The Anglo-Saxon Chronicle called it the greatest battle ever fought on British soil, and the chronicler had seen some things. Athelstan's English army ground down a grand alliance of Vikings, Scots, and Britons in a day of savage, bloody work. The dead lay so thick the ravens couldn't land. England emerged from the carnage as something it had never been before: a unified kingdom.",
+    "belligerents": [
+      "Kingdom of England",
+      "Viking-Scottish Alliance"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Athelstan",
+      "Olaf Guthfrithson",
+      "Constantine II of Scotland"
+    ],
+    "warName": "Viking Age conflicts in Britain",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-clontarf",
+    "name": "Battle of Clontarf",
+    "year": 1014,
+    "era": "medieval",
+    "location": {
+      "lat": 53.3625,
+      "lng": -6.19
+    },
+    "tier": 2,
+    "description": "Brian Boru was old. He was tired. But on Good Friday, 1014, outside Dublin, his Irish warriors tore into a Viking-Leinster army in hand-to-hand fighting so brutal that the ground turned to mud from blood. Brian won. Then Vikings fleeing the battlefield found him in his tent and killed him. He broke their power in Ireland with his dying breath.",
+    "belligerents": [
+      "Munster Irish",
+      "Dublin Vikings and Leinster"
+    ],
+    "result": "Irish victory",
+    "commanders": [
+      "Brian Boru",
+      "Sigurd of Orkney",
+      "Maelmorda of Leinster"
+    ],
+    "warName": "Viking Age in Ireland",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-dandanaqan",
+    "name": "Battle of Dandanaqan",
+    "year": 1040,
+    "era": "medieval",
+    "location": {
+      "lat": 37.25,
+      "lng": 62.17
+    },
+    "tier": 2,
+    "description": "In the searing desert of Khorasan, nomadic Seljuk Turks -- people the Ghaznavid Empire considered barbarians -- routed one of the most powerful armies in the Islamic world. Tughril Beg rode out of that desert as the founder of an empire that would dominate the Middle East, threaten Byzantium, and drag Western Europe into the Crusades.",
+    "belligerents": [
+      "Seljuk Turks",
+      "Ghaznavid Empire"
+    ],
+    "result": "Seljuk victory",
+    "commanders": [
+      "Tughril Beg",
+      "Mas'ud I of Ghazni"
+    ],
+    "warName": "Seljuk-Ghaznavid Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-hastings",
+    "name": "Battle of Hastings",
+    "year": 1066,
+    "era": "medieval",
+    "location": {
+      "lat": 50.9142,
+      "lng": 0.4875
+    },
+    "tier": 1,
+    "description": "Imagine standing on Senlac Hill, locked in a shield wall, holding the line for hour after hour as Norman cavalry charges crash against you like waves on rock. Your king is somewhere behind you. Your arms are burning. And then Harold takes an arrow -- maybe to the eye -- and the wall breaks. In a single afternoon, England's entire world changed. Its language, its laws, its ruling class. All of it. Gone.",
+    "belligerents": [
+      "Duchy of Normandy",
+      "Kingdom of England"
+    ],
+    "result": "Norman victory",
+    "commanders": [
+      "William the Conqueror",
+      "Harold Godwinson"
+    ],
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 7000
+    },
+    "casualties": {
+      "side1": 2000,
+      "side2": 4000
+    },
+    "warName": "Norman Conquest of England",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-stamford-bridge",
+    "name": "Battle of Stamford Bridge",
+    "year": 1066,
+    "era": "medieval",
+    "location": {
+      "lat": 53.99,
+      "lng": -0.92
+    },
+    "tier": 2,
+    "description": "Harold Godwinson force-marched his army 185 miles in four days. Four days. Then he hit the Vikings at Stamford Bridge like a freight train. Harald Hardrada, the most feared warrior in the world, died on that bridge. So did Harold's traitor brother Tostig. The last great Viking invasion of England ended in blood and surprise. And Harold's exhausted men had to turn around and march south. To Hastings.",
+    "belligerents": [
+      "Kingdom of England",
+      "Norwegian Vikings"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Harold Godwinson",
+      "Harald Hardrada"
+    ],
+    "troopStrength": {
+      "side1": 15000,
+      "side2": 9000
+    },
+    "warName": "Norwegian invasion of England",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-manzikert",
+    "name": "Battle of Manzikert",
+    "year": 1071,
+    "era": "medieval",
+    "location": {
+      "lat": 39.1467,
+      "lng": 43.5033
+    },
+    "tier": 1,
+    "description": "The Byzantine Emperor Romanos IV rode east with the finest army Constantinople could field. He never came back. Betrayed by his own generals, his army was surrounded and destroyed by Alp Arslan's Seljuk horsemen. The emperor himself was dragged before the sultan in chains. Anatolia -- the Byzantine heartland -- was thrown open to the Turks. The Crusades? They start here.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Seljuk Empire"
+    ],
+    "result": "Seljuk victory",
+    "commanders": [
+      "Romanos IV Diogenes",
+      "Alp Arslan"
+    ],
+    "troopStrength": {
+      "side1": 40000,
+      "side2": 30000
+    },
+    "warName": "Byzantine-Seljuk Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-sagrajas",
+    "name": "Battle of Sagrajas (Zallaqa)",
+    "year": 1086,
+    "era": "medieval",
+    "location": {
+      "lat": 38.8833,
+      "lng": -6.9667
+    },
+    "tier": 2,
+    "description": "The Almoravids crossed the Strait of Gibraltar with drums pounding and discipline that made the Reconquista knights look like amateurs. At Sagrajas, those drums kept beating as wave after wave of Almoravid infantry overwhelmed Alfonso VI's Castilians. The Christian advance in Iberia didn't just stall. It reversed. Hard.",
+    "belligerents": [
+      "Almoravid Dynasty",
+      "Kingdom of Castile"
+    ],
+    "result": "Almoravid victory",
+    "commanders": [
+      "Yusuf ibn Tashfin",
+      "Alfonso VI of Castile"
+    ],
+    "warName": "Reconquista",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-dorylaeum-1097",
+    "name": "Battle of Dorylaeum",
+    "year": 1097,
+    "era": "medieval",
+    "location": {
+      "lat": 39.78,
+      "lng": 30.52
+    },
+    "tier": 2,
+    "description": "The Crusaders were strung out on the march when Kilij Arslan's horse archers materialized out of the dust like ghosts. Arrows rained in from every direction. Bohemond's vanguard was being eaten alive, men dying by the hundreds, when the second column crested the hill and slammed into the Turkish flank. The road to the Holy Land cracked open.",
+    "belligerents": [
+      "Crusader States",
+      "Sultanate of Rum"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Bohemond of Taranto",
+      "Kilij Arslan I"
+    ],
+    "troopStrength": {
+      "side1": 60000,
+      "side2": 50000
+    },
+    "warName": "First Crusade",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-antioch-1098",
+    "name": "Siege of Antioch",
+    "year": 1098,
+    "era": "medieval",
+    "location": {
+      "lat": 36.2,
+      "lng": 36.15
+    },
+    "tier": 1,
+    "description": "Eight months of starvation. Plague. Men eating rats, eating leather, eating each other. Then the Crusaders finally got inside the walls through treachery -- only to find themselves besieged by a massive Muslim relief army. Trapped. Starving. Dying. Someone found a rusty lance and called it the Holy Lance. And those starving, half-dead men charged out the gates and routed an army ten times their size. You couldn't make this up.",
+    "belligerents": [
+      "Crusader States",
+      "Seljuk Turks"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Bohemond of Taranto",
+      "Raymond of Toulouse",
+      "Kerbogha"
+    ],
+    "warName": "First Crusade",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-jerusalem-1099",
+    "name": "Siege of Jerusalem (1099)",
+    "year": 1099,
+    "era": "medieval",
+    "location": {
+      "lat": 31.7767,
+      "lng": 35.2345
+    },
+    "tier": 1,
+    "description": "The First Crusaders had marched three thousand miles through hell to reach this moment. Five weeks of siege. Then they went over the walls. And what followed was not liberation. It was slaughter. Muslim and Jewish civilians were butchered in the streets, in the mosques, in the synagogues. Blood ran ankle-deep in the Temple Mount. Even chroniclers who celebrated the victory couldn't hide their horror.",
+    "belligerents": [
+      "Crusader States",
+      "Fatimid Caliphate"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Godfrey of Bouillon",
+      "Raymond of Toulouse",
+      "Iftikhar ad-Dawla"
+    ],
+    "troopStrength": {
+      "side1": 13000,
+      "side2": 1000
+    },
+    "warName": "First Crusade",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-ascalon-1099",
+    "name": "Battle of Ascalon",
+    "year": 1099,
+    "era": "medieval",
+    "location": {
+      "lat": 31.6667,
+      "lng": 34.55
+    },
+    "tier": 3,
+    "description": "The Fatimid army was coming to take Jerusalem back. Godfrey of Bouillon didn't wait for them. He marched to Ascalon and hit them on the beach before they could form up. The Egyptians broke and ran. The First Crusade was over. A strip of land bought with three years of agony, starvation, and oceans of blood now belonged to the Cross.",
+    "belligerents": [
+      "Crusader States",
+      "Fatimid Caliphate"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Godfrey of Bouillon",
+      "Al-Afdal Shahanshah"
+    ],
+    "warName": "First Crusade",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-harran-1104",
+    "name": "Battle of Harran",
+    "year": 1104,
+    "era": "medieval",
+    "location": {
+      "lat": 36.8614,
+      "lng": 39.0322
+    },
+    "tier": 3,
+    "description": "The Crusaders had been winning for so long they forgot what losing felt like. At Harran, the Seljuks reminded them. A combined army from Edessa and Antioch walked straight into a trap, and the jaws snapped shut. Baldwin of Edessa was dragged away in chains. The age of easy Crusader expansion was over.",
+    "belligerents": [
+      "Crusader States",
+      "Seljuk Turks"
+    ],
+    "result": "Seljuk victory",
+    "commanders": [
+      "Bohemond II of Antioch",
+      "Jikirmish"
+    ],
+    "warName": "Crusader-Seljuk conflicts",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-sarmada",
+    "name": "Battle of the Field of Blood (Ager Sanguinis)",
+    "year": 1119,
+    "era": "medieval",
+    "location": {
+      "lat": 36.4,
+      "lng": 36.75
+    },
+    "tier": 3,
+    "description": "They called it the Field of Blood, and they weren't being poetic. Ilghazi's men ambushed the Antiochene army so thoroughly that Roger of Salerno died alongside nearly every man he commanded. The field was carpeted with Crusader dead. A generation of Antioch's warriors wiped out in an afternoon.",
+    "belligerents": [
+      "Principality of Antioch",
+      "Artuqids"
+    ],
+    "result": "Artuqid victory",
+    "commanders": [
+      "Roger of Salerno",
+      "Ilghazi"
+    ],
+    "warName": "Crusader-Muslim conflicts",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-didgori",
+    "name": "Battle of Didgori",
+    "year": 1121,
+    "era": "medieval",
+    "location": {
+      "lat": 41.75,
+      "lng": 44.3
+    },
+    "tier": 2,
+    "description": "David IV of Georgia looked at a Seljuk coalition army that outnumbered him four to one and attacked anyway. What followed was one of the most lopsided victories in medieval history. The Seljuk force didn't just lose -- it ceased to exist. Georgian chroniclers called it a miracle. Looking at the numbers, it's hard to argue.",
+    "belligerents": [
+      "Kingdom of Georgia",
+      "Seljuk Coalition"
+    ],
+    "result": "Georgian victory",
+    "commanders": [
+      "David IV of Georgia",
+      "Ilghazi"
+    ],
+    "troopStrength": {
+      "side1": 56000,
+      "side2": 250000
+    },
+    "warName": "Georgian-Seljuk Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-kurikara",
+    "name": "Battle of Kurikara",
+    "year": 1183,
+    "era": "medieval",
+    "location": {
+      "lat": 36.6333,
+      "lng": 136.8833
+    },
+    "tier": 2,
+    "description": "Yoshinaka waited until dark. Then he sent his men down the mountain -- down a slope the Taira thought was impassable -- and into their rear. Panic. Stampede. Tens of thousands of Taira soldiers crushed into a narrow ravine, trampled by their own comrades, cut down in the dark. The Genpei War's pivot point, decided in screaming chaos.",
+    "belligerents": [
+      "Minamoto clan",
+      "Taira clan"
+    ],
+    "result": "Minamoto victory",
+    "commanders": [
+      "Minamoto no Yoshinaka",
+      "Taira no Koremori"
+    ],
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 70000
+    },
+    "warName": "Genpei War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-dan-no-ura",
+    "name": "Battle of Dan-no-ura",
+    "year": 1185,
+    "era": "medieval",
+    "location": {
+      "lat": 33.9589,
+      "lng": 130.9456
+    },
+    "tier": 1,
+    "description": "The child emperor was six years old. His grandmother held him in her arms as the Taira fleet burned and sank around them in the Shimonoseki Strait. She jumped into the sea with him. The dynasty drowned with them. Yoshitsune's fleet had destroyed the last Taira navy, and from the ashes rose the samurai world of the Kamakura Shogunate.",
+    "belligerents": [
+      "Minamoto clan",
+      "Taira clan"
+    ],
+    "result": "Minamoto victory",
+    "commanders": [
+      "Minamoto no Yoshitsune",
+      "Taira no Munemori"
+    ],
+    "warName": "Genpei War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-hattin",
+    "name": "Battle of Hattin",
+    "year": 1187,
+    "era": "medieval",
+    "location": {
+      "lat": 32.8,
+      "lng": 35.4833
+    },
+    "tier": 1,
+    "description": "Saladin didn't just beat the Crusaders at Hattin. He cooked them. He lured the entire Frankish army across miles of waterless desert in July heat until men were drinking their own urine. Then he set fire to the scrub brush upwind. The Crusaders fought blind, choking, maddened with thirst. The True Cross was captured. The king was captured. Jerusalem fell within months.",
+    "belligerents": [
+      "Ayyubid Dynasty",
+      "Kingdom of Jerusalem"
+    ],
+    "result": "Ayyubid victory",
+    "commanders": [
+      "Saladin",
+      "Guy of Lusignan",
+      "Raynald of Chatillon"
+    ],
+    "troopStrength": {
+      "side1": 30000,
+      "side2": 20000
+    },
+    "casualties": {
+      "side1": 4000,
+      "side2": 17000
+    },
+    "warName": "Crusades",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-acre-1189",
+    "name": "Siege of Acre",
+    "year": 1191,
+    "era": "medieval",
+    "location": {
+      "lat": 32.9267,
+      "lng": 35.0833
+    },
+    "tier": 2,
+    "description": "Picture this: Crusaders besieging a city, while Saladin besieges the Crusaders. Two years of this. Disease, starvation, sorties, counter-sorties. Then Richard the Lionheart shows up. The garrison surrenders. The ransom negotiations stall. And Richard executes 2,700 prisoners in full view of Saladin's army. The Crusades were not a polite affair.",
+    "belligerents": [
+      "Crusader States",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Richard I of England",
+      "Philip II of France",
+      "Saladin"
+    ],
+    "warName": "Third Crusade",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-arsuf",
+    "name": "Battle of Arsuf",
+    "year": 1191,
+    "era": "medieval",
+    "location": {
+      "lat": 32.1917,
+      "lng": 34.7833
+    },
+    "tier": 2,
+    "description": "Richard's army was a moving fortress -- shields out, archers ready, marching south along the coast while Saladin's cavalry swarmed them like hornets. Don't charge. Don't break formation. Hold. Hold. The Hospitallers couldn't take it anymore and charged. Richard turned their indiscipline into a perfectly timed counterattack that sent Saladin's army running. The myth of Muslim invincibility shattered on the road to Jaffa.",
+    "belligerents": [
+      "Crusader States",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Richard I of England",
+      "Saladin"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 25000
+    },
+    "warName": "Third Crusade",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-jaffa-1192",
+    "name": "Battle of Jaffa",
+    "year": 1192,
+    "era": "medieval",
+    "location": {
+      "lat": 32.0522,
+      "lng": 34.75
+    },
+    "tier": 3,
+    "description": "Richard had maybe a dozen knights and a few hundred crossbowmen. Saladin had thousands. It didn't matter. The Lionheart waded into the fight personally, on foot when his horse went down, swinging his sword like a man who'd decided dying wasn't on the agenda. Saladin was so impressed he sent Richard a fresh horse mid-battle. Chivalry was weird.",
+    "belligerents": [
+      "Crusader States",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Richard I of England",
+      "Saladin"
+    ],
+    "warName": "Third Crusade",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-las-navas-de-tolosa",
+    "name": "Battle of Las Navas de Tolosa",
+    "year": 1212,
+    "era": "medieval",
+    "location": {
+      "lat": 38.2833,
+      "lng": -3.5833
+    },
+    "tier": 1,
+    "description": "Every Christian kingdom in Iberia put aside its grudges and marched south together. Castile, Aragon, Navarre, Portugal -- all of them. In the mountain passes of the Sierra Morena, they found the Almohad Caliph waiting. The charge broke through the Almohad center like a hammer through glass. Muslim power in Iberia was finished. Everything after this was just the dying.",
+    "belligerents": [
+      "Kingdom of Castile",
+      "Kingdom of Aragon",
+      "Kingdom of Navarre",
+      "Almohad Caliphate"
+    ],
+    "result": "Christian victory",
+    "commanders": [
+      "Alfonso VIII of Castile",
+      "Muhammad al-Nasir"
+    ],
+    "troopStrength": {
+      "side1": 70000,
+      "side2": 125000
+    },
+    "warName": "Reconquista",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-bouvines",
+    "name": "Battle of Bouvines",
+    "year": 1214,
+    "era": "medieval",
+    "location": {
+      "lat": 50.5833,
+      "lng": 3.2
+    },
+    "tier": 2,
+    "description": "Three nations tried to destroy France in a single afternoon at Bouvines. England, the Holy Roman Empire, Flanders. Philip II beat them all. In the mud and chaos, Emperor Otto IV's horse bolted and he was never seen on the field again. The ripple effects? France became Europe's superpower. King John was humiliated into signing the Magna Carta. History pivoted on a muddy field in Flanders.",
+    "belligerents": [
+      "Kingdom of France",
+      "Holy Roman Empire",
+      "Kingdom of England",
+      "County of Flanders"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Philip II of France",
+      "Otto IV",
+      "William of Salisbury"
+    ],
+    "troopStrength": {
+      "side1": 15000,
+      "side2": 25000
+    },
+    "warName": "Anglo-French War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-kalka-river",
+    "name": "Battle of the Kalka River",
+    "year": 1223,
+    "era": "medieval",
+    "location": {
+      "lat": 47.25,
+      "lng": 37.3
+    },
+    "tier": 1,
+    "description": "The Rus princes had never seen anything like these horsemen from the east. Twenty thousand Mongols under Subutai and Jebe cut through eighty thousand Rus and Cumans like they weren't there. The Prince of Kiev surrendered under a pledge of no bloodshed. The Mongols kept their word -- technically. They laid him under wooden boards and sat on them to eat dinner while he was crushed to death beneath them. Europe had just met the Mongol Empire.",
+    "belligerents": [
+      "Mongol Empire",
+      "Kievan Rus Principalities",
+      "Cumans"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Subutai",
+      "Jebe",
+      "Mstislav of Kiev"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 80000
+    },
+    "warName": "Mongol invasion of Rus",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-baghdad-1258",
+    "name": "Siege of Baghdad",
+    "year": 1258,
+    "era": "medieval",
+    "location": {
+      "lat": 33.3152,
+      "lng": 44.3661
+    },
+    "tier": 1,
+    "description": "Baghdad was the jewel of the Islamic world. The greatest library on earth. The center of mathematics, astronomy, medicine. Hulagu Khan didn't care. His Mongols breached the walls and spent weeks killing everything that moved. They rolled the last Caliph in a carpet and trampled him with horses. The Tigris ran black with ink from destroyed books and red with the blood of scholars. The Islamic Golden Age didn't decline. It was murdered.",
+    "belligerents": [
+      "Mongol Empire",
+      "Abbasid Caliphate"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Hulagu Khan",
+      "Al-Musta'sim"
+    ],
+    "troopStrength": {
+      "side1": 150000,
+      "side2": 50000
+    },
+    "casualties": {
+      "side2": 1000000
+    },
+    "warName": "Mongol invasions",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-legnica",
+    "name": "Battle of Legnica",
+    "year": 1241,
+    "era": "medieval",
+    "location": {
+      "lat": 51.2,
+      "lng": 16.1667
+    },
+    "tier": 2,
+    "description": "The Knights Templar knew how to fight. The Polish cavalry knew how to fight. It didn't matter. The Mongols feigned retreat -- that old trick that worked every single time -- and when the European knights broke formation to chase them, the arrows came. Duke Henry's head ended up on a Mongol lance, paraded before the walls of his own city. Europe lay open.",
+    "belligerents": [
+      "Mongol Empire",
+      "Kingdom of Poland",
+      "Knights Templar"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Baidar",
+      "Henry II the Pious"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 25000
+    },
+    "warName": "Mongol invasion of Europe",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-mohi",
+    "name": "Battle of Mohi",
+    "year": 1241,
+    "era": "medieval",
+    "location": {
+      "lat": 47.85,
+      "lng": 20.95
+    },
+    "tier": 1,
+    "description": "Subutai was maybe the greatest general who ever lived, and at Mohi he proved it. He pinned the Hungarian army against the Sajo River, then left a gap in the encirclement. An escape route. The Hungarians poured through it -- and the Mongols slaughtered them for miles as they ran. Hungary lost a quarter of its entire population in the invasion that followed.",
+    "belligerents": [
+      "Mongol Empire",
+      "Kingdom of Hungary"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Batu Khan",
+      "Subutai",
+      "Bela IV of Hungary"
+    ],
+    "troopStrength": {
+      "side1": 30000,
+      "side2": 25000
+    },
+    "casualties": {
+      "side2": 10000
+    },
+    "warName": "Mongol invasion of Europe",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-ain-jalut",
+    "name": "Battle of Ain Jalut",
+    "year": 1260,
+    "era": "medieval",
+    "location": {
+      "lat": 32.55,
+      "lng": 35.3333
+    },
+    "tier": 1,
+    "description": "The Mongols had been unstoppable for fifty years. Baghdad fell. Damascus fell. Everything fell. And then in the Jezreel Valley, the Mamluks stood their ground. Baibars drew the Mongol vanguard into an ambush, and for the first time, the Mongol war machine broke. The myth of invincibility died at Ain Jalut. Egypt, Mecca, the Islamic heartland -- saved.",
+    "belligerents": [
+      "Mamluk Sultanate",
+      "Mongol Empire"
+    ],
+    "result": "Mamluk victory",
+    "commanders": [
+      "Qutuz",
+      "Baibars",
+      "Kitbuqa"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 20000
+    },
+    "warName": "Mongol invasions",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-hims-1281",
+    "name": "Second Battle of Homs",
+    "year": 1281,
+    "era": "medieval",
+    "location": {
+      "lat": 34.7333,
+      "lng": 36.7167
+    },
+    "tier": 3,
+    "description": "The Mongols came back to Syria with a coalition that read like a who's who of Crusader-era powers -- Armenians, Franks, Ilkhanate warriors. Qalawun's Mamluks met them at Homs and beat them anyway. The Mongol dream of controlling the Levant died here, quiet and final.",
+    "belligerents": [
+      "Mamluk Sultanate",
+      "Mongol Ilkhanate"
+    ],
+    "result": "Mamluk victory",
+    "commanders": [
+      "Qalawun",
+      "Mongke Temur"
+    ],
+    "warName": "Mamluk-Ilkhanate War",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-acre-1291",
+    "name": "Fall of Acre",
+    "year": 1291,
+    "era": "medieval",
+    "location": {
+      "lat": 32.9267,
+      "lng": 35.0833
+    },
+    "tier": 1,
+    "description": "Two hundred years of Crusader presence in the Holy Land ended in the rubble of Acre. The Mamluks came with overwhelming numbers. The Templars and Hospitallers fought to the last man in their fortified towers. When the Templar tower finally collapsed, it buried attackers and defenders alike. The last Crusader stronghold was gone.",
+    "belligerents": [
+      "Mamluk Sultanate",
+      "Crusader States"
+    ],
+    "result": "Mamluk victory",
+    "commanders": [
+      "Al-Ashraf Khalil",
+      "William of Beaujeu"
+    ],
+    "troopStrength": {
+      "side1": 100000,
+      "side2": 30000
+    },
+    "warName": "Crusades",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-dorylaeum-1147",
+    "name": "Battle of Dorylaeum (1147)",
+    "year": 1147,
+    "era": "medieval",
+    "location": {
+      "lat": 39.78,
+      "lng": 30.52
+    },
+    "tier": 3,
+    "description": "Same place. Same terrain. Different result. Fifty years after the First Crusade's victory here, Conrad III's Germans marched into the same Anatolian landscape and the Seljuks were waiting. The German army was butchered. The Second Crusade was a corpse before it even reached the Holy Land.",
+    "belligerents": [
+      "Holy Roman Empire",
+      "Sultanate of Rum"
+    ],
+    "result": "Seljuk victory",
+    "commanders": [
+      "Conrad III of Germany",
+      "Mesud I"
+    ],
+    "warName": "Second Crusade",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-damascus-1148",
+    "name": "Siege of Damascus (1148)",
+    "year": 1148,
+    "era": "medieval",
+    "location": {
+      "lat": 33.5133,
+      "lng": 36.2917
+    },
+    "tier": 3,
+    "description": "Four days. The Second Crusade's grand assault on Damascus lasted four days before collapsing into finger-pointing, betrayal, and humiliation. Crusader lords couldn't agree on who would rule the city if they took it, so they took nothing. Worse than failure -- they pushed Damascus straight into the arms of their enemy, Nur ad-Din.",
+    "belligerents": [
+      "Crusader States",
+      "Burid Dynasty of Damascus"
+    ],
+    "result": "Muslim victory",
+    "commanders": [
+      "Baldwin III of Jerusalem",
+      "Conrad III",
+      "Mu'in ad-Din Unur"
+    ],
+    "warName": "Second Crusade",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-constantinople-1204",
+    "name": "Sack of Constantinople (1204)",
+    "year": 1204,
+    "era": "medieval",
+    "location": {
+      "lat": 41.0082,
+      "lng": 28.9784
+    },
+    "tier": 1,
+    "description": "Christians sacking the greatest Christian city in the world. That's what the Fourth Crusade became. Venetian greed and Byzantine politics redirected an army meant for Jerusalem into the streets of Constantinople, where three days of looting destroyed treasures that had taken nine centuries to accumulate. Libraries burned. Churches were stripped. The Byzantine Empire staggered on, but the mortal wound was here.",
+    "belligerents": [
+      "Fourth Crusade",
+      "Byzantine Empire"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Enrico Dandolo",
+      "Boniface of Montferrat",
+      "Alexios V"
+    ],
+    "warName": "Fourth Crusade",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-muret",
+    "name": "Battle of Muret",
+    "year": 1213,
+    "era": "medieval",
+    "location": {
+      "lat": 43.4611,
+      "lng": 1.3258
+    },
+    "tier": 3,
+    "description": "A thousand Crusader knights against four thousand defenders. Those odds should have been suicide. But Simon de Montfort led his men in a charge so violent, so precise, that it killed King Peter of Aragon personally and sent the entire Occitan-Aragonese army into panic. The Cathar heresy and Occitan independence died together on that field.",
+    "belligerents": [
+      "Albigensian Crusade",
+      "Kingdom of Aragon",
+      "County of Toulouse"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Simon de Montfort",
+      "Peter II of Aragon"
+    ],
+    "troopStrength": {
+      "side1": 1000,
+      "side2": 4000
+    },
+    "warName": "Albigensian Crusade",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-la-forbie",
+    "name": "Battle of La Forbie",
+    "year": 1244,
+    "era": "medieval",
+    "location": {
+      "lat": 31.5667,
+      "lng": 34.45
+    },
+    "tier": 2,
+    "description": "Khwarezmian horsemen -- refugees from the Mongol apocalypse, with nothing left to lose -- smashed into a combined Crusader-Syrian army and annihilated it. Five thousand Crusaders killed or captured. The worst day since Hattin. Jerusalem, briefly recovered by treaty, was lost for the last time. Forever.",
+    "belligerents": [
+      "Crusader States",
+      "Ayyubid-Khwarezmian Alliance"
+    ],
+    "result": "Ayyubid victory",
+    "commanders": [
+      "Walter of Brienne",
+      "Baibars al-Bunduqdari"
+    ],
+    "warName": "Crusades",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-mansura",
+    "name": "Battle of Mansura",
+    "year": 1250,
+    "era": "medieval",
+    "location": {
+      "lat": 31.0361,
+      "lng": 31.3806
+    },
+    "tier": 2,
+    "description": "Robert of Artois saw an opening and charged. Straight into the narrow streets of Mansura. It was a trap. Mamluk warriors materialized from every alley, every rooftop. The Franks were cut to pieces in the streets. King Louis himself was captured. And from the blood of Mansura, the Mamluks rose to power.",
+    "belligerents": [
+      "Kingdom of France",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Ayyubid-Mamluk victory",
+    "commanders": [
+      "Louis IX of France",
+      "Baibars",
+      "Turanshah"
+    ],
+    "warName": "Seventh Crusade",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-crecy",
+    "name": "Battle of Crecy",
+    "year": 1346,
+    "era": "medieval",
+    "location": {
+      "lat": 50.2547,
+      "lng": 1.8861
+    },
+    "tier": 1,
+    "description": "Wave after wave of French knights charged uphill into a storm of English arrows. The Genoese crossbowmen broke first. Then the French rode them down to get at the English. The blind King of Bohemia had himself led into the fight by his knights and died with every one of them. Fourteen thousand French dead in the mud. The age of the armored knight was dying, killed by peasants with longbows.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of France"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Edward III of England",
+      "Edward the Black Prince",
+      "Philip VI of France"
+    ],
+    "troopStrength": {
+      "side1": 14000,
+      "side2": 30000
+    },
+    "casualties": {
+      "side1": 300,
+      "side2": 13000
+    },
+    "warName": "Hundred Years' War",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-calais-1346",
+    "name": "Siege of Calais",
+    "year": 1347,
+    "era": "medieval",
+    "location": {
+      "lat": 50.9481,
+      "lng": 1.8564
+    },
+    "tier": 3,
+    "description": "Eleven months. The people of Calais held out for eleven months, eating rats, eating leather, eating nothing. When it was over, six burghers walked out with nooses around their necks to offer their lives for the city. Edward III's queen begged for their lives. Calais became England's gateway to the continent for the next two hundred years.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of France"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Edward III of England",
+      "Jean de Vienne"
+    ],
+    "warName": "Hundred Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-poitiers-1356",
+    "name": "Battle of Poitiers",
+    "year": 1356,
+    "era": "medieval",
+    "location": {
+      "lat": 46.55,
+      "lng": 0.3333
+    },
+    "tier": 1,
+    "description": "The Black Prince was trapped. Outnumbered three to one. No way out. So he attacked. English longbows sang and dismounted men-at-arms held the line as the French host broke itself against them. When the dust cleared, the King of France himself was in English chains. An entire nation plunged into chaos because its king got captured by a force half his size.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of France"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Edward the Black Prince",
+      "John II of France"
+    ],
+    "troopStrength": {
+      "side1": 7000,
+      "side2": 20000
+    },
+    "casualties": {
+      "side1": 1000,
+      "side2": 5000
+    },
+    "warName": "Hundred Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-nicopolis",
+    "name": "Battle of Nicopolis",
+    "year": 1396,
+    "era": "medieval",
+    "location": {
+      "lat": 43.7,
+      "lng": 24.9
+    },
+    "tier": 1,
+    "description": "The flower of French and Burgundian knighthood rode east to drive the Turks out of Europe. What happened was the last Crusade's funeral. French knights charged without waiting for their Hungarian allies, without scouting, without thinking. Bayezid's Ottomans surrounded them and destroyed them. Thousands of prisoners were executed at dawn. The Balkans belonged to the sultan.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Crusader Coalition"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Bayezid I",
+      "Sigismund of Hungary",
+      "John of Nevers"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 16000
+    },
+    "warName": "Ottoman Wars in Europe",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-ankara",
+    "name": "Battle of Ankara",
+    "year": 1402,
+    "era": "medieval",
+    "location": {
+      "lat": 39.8908,
+      "lng": 32.7839
+    },
+    "tier": 1,
+    "description": "Tamerlane versus Bayezid. The Sword of Islam against the Thunderbolt. Two of the most terrifying conquerors alive, head to head. Tamerlane won. He captured Bayezid and -- depending on which story you believe -- kept him in an iron cage. The Ottoman Empire nearly died that day. Constantinople got fifty more years of life.",
+    "belligerents": [
+      "Timurid Empire",
+      "Ottoman Empire"
+    ],
+    "result": "Timurid victory",
+    "commanders": [
+      "Timur",
+      "Bayezid I"
+    ],
+    "troopStrength": {
+      "side1": 140000,
+      "side2": 85000
+    },
+    "warName": "Ottoman-Timurid War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-agincourt",
+    "name": "Battle of Agincourt",
+    "year": 1415,
+    "era": "medieval",
+    "location": {
+      "lat": 50.4633,
+      "lng": 2.1433
+    },
+    "tier": 1,
+    "description": "Five thousand English archers, half-starved and shaking with dysentery, planted their stakes in the Picardy mud and waited. The flower of French chivalry -- armored knights on warhorses, outnumbering them four to one -- charged straight into the kill zone. The mud sucked them down. The arrows hammered them flat. What followed wasn't a battle. It was a slaughter. Shakespeare immortalized it. The dead couldn't argue.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of France"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Henry V of England",
+      "Charles d'Albret"
+    ],
+    "troopStrength": {
+      "side1": 6000,
+      "side2": 25000
+    },
+    "casualties": {
+      "side1": 500,
+      "side2": 10000
+    },
+    "warName": "Hundred Years' War",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-orleans",
+    "name": "Siege of Orleans",
+    "year": 1429,
+    "era": "medieval",
+    "location": {
+      "lat": 47.9025,
+      "lng": 1.909
+    },
+    "tier": 1,
+    "description": "She was seventeen. A peasant girl who heard voices. And she walked into the French court and told the Dauphin that God had sent her to save France. The insane part? It worked. Joan of Arc broke the English siege of Orleans in nine days, reversed the entire momentum of the Hundred Years' War, and marched Charles VII to his coronation. Then they burned her alive. History is not fair.",
+    "belligerents": [
+      "Kingdom of France",
+      "Kingdom of England"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Joan of Arc",
+      "Jean de Dunois",
+      "William de la Pole"
+    ],
+    "warName": "Hundred Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-patay",
+    "name": "Battle of Patay",
+    "year": 1429,
+    "era": "medieval",
+    "location": {
+      "lat": 48.05,
+      "lng": 1.6833
+    },
+    "tier": 2,
+    "description": "For once, the English longbowmen didn't get their stakes set in time. French cavalry caught them in the open and rode them down. It was Agincourt in reverse -- total, devastating, merciless. Sir John Talbot was captured. The myth of English invincibility in France cracked wide open.",
+    "belligerents": [
+      "Kingdom of France",
+      "Kingdom of England"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Joan of Arc",
+      "Jean de Dunois",
+      "Sir John Fastolf"
+    ],
+    "troopStrength": {
+      "side1": 6000,
+      "side2": 5000
+    },
+    "casualties": {
+      "side1": 100,
+      "side2": 2500
+    },
+    "warName": "Hundred Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-castillon",
+    "name": "Battle of Castillon",
+    "year": 1453,
+    "era": "medieval",
+    "location": {
+      "lat": 44.8531,
+      "lng": -0.0389
+    },
+    "tier": 1,
+    "description": "Sir John Talbot was seventy years old and he charged a fortified French artillery position on horseback. The cannons tore his army apart. Talbot died under his fallen horse. The Hundred Years' War ended not with a heroic last stand, but with an old man riding into the future of warfare and being destroyed by it.",
+    "belligerents": [
+      "Kingdom of France",
+      "Kingdom of England"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Jean Bureau",
+      "John Talbot"
+    ],
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 6000
+    },
+    "warName": "Hundred Years' War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-varna",
+    "name": "Battle of Varna",
+    "year": 1444,
+    "era": "medieval",
+    "location": {
+      "lat": 43.2167,
+      "lng": 27.9167
+    },
+    "tier": 2,
+    "description": "The young king of Poland and Hungary saw the Ottoman sultan's standard and decided to end the war with one glorious cavalry charge straight at Murad's Janissary guard. His head ended up on a pike. The last serious Crusade against the Ottomans died with him on that beach by the Black Sea.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Kingdom of Hungary",
+      "Kingdom of Poland"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Murad II",
+      "Wladyslaw III",
+      "John Hunyadi"
+    ],
+    "troopStrength": {
+      "side1": 60000,
+      "side2": 20000
+    },
+    "warName": "Crusade of Varna",
+    "significance": 2
+  },
+  {
+    "id": "second-battle-of-kosovo",
+    "name": "Second Battle of Kosovo",
+    "year": 1448,
+    "era": "medieval",
+    "location": {
+      "lat": 42.65,
+      "lng": 21.05
+    },
+    "tier": 3,
+    "description": "Same field where Serbia died in 1389. Same result, different victims. Hunyadi's Hungarians fought hard, but the Ottomans ground them down on Kosovo's bloody plain. The dream of driving the Turks from the Balkans was buried here, in the same dirt that had already drunk so much blood.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Kingdom of Hungary"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Murad II",
+      "John Hunyadi"
+    ],
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 30000
+    },
+    "warName": "Ottoman Wars in Europe",
+    "significance": 3
+  },
+  {
+    "id": "fall-of-constantinople",
+    "name": "Fall of Constantinople",
+    "year": 1453,
+    "era": "medieval",
+    "location": {
+      "lat": 41.0082,
+      "lng": 28.9784
+    },
+    "tier": 1,
+    "description": "A thousand years. The Roman Empire -- the real one, the eastern one -- had stood for a thousand years behind those walls. Mehmed's giant cannons pounded the Theodosian Walls for fifty-three days. When the breach came, Emperor Constantine XI drew his sword and charged into the Ottoman tide. They never found his body. A thousand years of civilization went dark in an afternoon.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Byzantine Empire"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Mehmed II",
+      "Constantine XI Palaiologos"
+    ],
+    "troopStrength": {
+      "side1": 80000,
+      "side2": 7000
+    },
+    "warName": "Fall of the Byzantine Empire",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-towton",
+    "name": "Battle of Towton",
+    "year": 1461,
+    "era": "medieval",
+    "location": {
+      "lat": 53.85,
+      "lng": -1.2667
+    },
+    "tier": 1,
+    "description": "A blinding snowstorm. Seventy-six thousand Englishmen trying to kill each other in a Yorkshire field. Twenty-eight thousand of them succeeded. Bodies stacked in the ditches, blood melting the snow for miles. Towton wasn't just the bloodiest battle in English history. It was a preview of what happens when a nation tears itself in half.",
+    "belligerents": [
+      "House of York",
+      "House of Lancaster"
+    ],
+    "result": "Yorkist victory",
+    "commanders": [
+      "Edward IV",
+      "Henry Beaufort, Duke of Somerset"
+    ],
+    "troopStrength": {
+      "side1": 36000,
+      "side2": 40000
+    },
+    "casualties": {
+      "side1": 8000,
+      "side2": 20000
+    },
+    "warName": "Wars of the Roses",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-barnet",
+    "name": "Battle of Barnet",
+    "year": 1471,
+    "era": "medieval",
+    "location": {
+      "lat": 51.6583,
+      "lng": -0.2
+    },
+    "tier": 3,
+    "description": "The fog was so thick that Warwick's own men attacked each other. The Kingmaker -- the most powerful man in England, the man who'd put two kings on the throne -- died running for his horse in a field he couldn't see across. Edward IV had his crown back. The fog had decided it.",
+    "belligerents": [
+      "House of York",
+      "House of Lancaster"
+    ],
+    "result": "Yorkist victory",
+    "commanders": [
+      "Edward IV",
+      "Richard Neville, Earl of Warwick"
+    ],
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 15000
+    },
+    "warName": "Wars of the Roses",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-tewkesbury",
+    "name": "Battle of Tewkesbury",
+    "year": 1471,
+    "era": "medieval",
+    "location": {
+      "lat": 51.9833,
+      "lng": -2.15
+    },
+    "tier": 3,
+    "description": "The last Lancastrian army died at Tewkesbury. The young Prince Edward was cut down. Margaret of Anjou, the she-wolf who'd kept the Lancastrian cause alive for twenty years, was dragged away in chains. Men who fled into the abbey were pulled from the sanctuary and beheaded. The Wars of the Roses had no room for mercy.",
+    "belligerents": [
+      "House of York",
+      "House of Lancaster"
+    ],
+    "result": "Yorkist victory",
+    "commanders": [
+      "Edward IV",
+      "Margaret of Anjou",
+      "Edmund Beaufort"
+    ],
+    "warName": "Wars of the Roses",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-bosworth-field",
+    "name": "Battle of Bosworth Field",
+    "year": 1485,
+    "era": "medieval",
+    "location": {
+      "lat": 52.6056,
+      "lng": -1.3972
+    },
+    "tier": 1,
+    "description": "Richard III saw Henry Tudor across the field and decided to end it himself. The king of England put on his crown, lowered his lance, and charged directly at his rival. He nearly made it. Then the Stanleys switched sides and Richard went down fighting in a ditch. They found the crown in a thornbush. Three hundred years of Plantagenet rule ended in a muddy field.",
+    "belligerents": [
+      "House of Tudor",
+      "House of York"
+    ],
+    "result": "Tudor victory",
+    "commanders": [
+      "Henry Tudor (Henry VII)",
+      "Richard III"
+    ],
+    "troopStrength": {
+      "side1": 5000,
+      "side2": 8000
+    },
+    "warName": "Wars of the Roses",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-bannockburn",
+    "name": "Battle of Bannockburn",
+    "year": 1314,
+    "era": "medieval",
+    "location": {
+      "lat": 56.0833,
+      "lng": -3.9167
+    },
+    "tier": 1,
+    "description": "Robert the Bruce picked the ground. Boggy, hemmed in, terrible for cavalry. Edward II's massive English army poured into the trap anyway. English knights sank in the mud, their horses screaming, their armor dragging them down. For two days the Scots hacked them apart. Scottish independence wasn't a gift. It was carved out of English flesh at Bannockburn.",
+    "belligerents": [
+      "Kingdom of Scotland",
+      "Kingdom of England"
+    ],
+    "result": "Scottish victory",
+    "commanders": [
+      "Robert the Bruce",
+      "Edward II of England"
+    ],
+    "troopStrength": {
+      "side1": 7000,
+      "side2": 20000
+    },
+    "warName": "First War of Scottish Independence",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-stirling-bridge",
+    "name": "Battle of Stirling Bridge",
+    "year": 1297,
+    "era": "medieval",
+    "location": {
+      "lat": 56.1167,
+      "lng": -3.9333
+    },
+    "tier": 2,
+    "description": "Wallace waited. He watched the English army funnel across that narrow bridge, half on one side, half on the other. Then he attacked. The English on the Scottish side were annihilated before the rest could cross. They skinned the English commander afterward. William Wallace had announced himself to history.",
+    "belligerents": [
+      "Kingdom of Scotland",
+      "Kingdom of England"
+    ],
+    "result": "Scottish victory",
+    "commanders": [
+      "William Wallace",
+      "Andrew Moray",
+      "John de Warenne"
+    ],
+    "warName": "First War of Scottish Independence",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-falkirk-1298",
+    "name": "Battle of Falkirk",
+    "year": 1298,
+    "era": "medieval",
+    "location": {
+      "lat": 55.9833,
+      "lng": -3.7833
+    },
+    "tier": 3,
+    "description": "Edward I came north with everything he had. Wallace formed his schiltrons -- great hedgehogs of Scottish pikes -- and they held against the English cavalry. They held. But they couldn't hold against the longbows. Arrow after arrow punched through the formations until the schiltrons came apart. Wallace escaped. His army didn't.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of Scotland"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Edward I of England",
+      "William Wallace"
+    ],
+    "troopStrength": {
+      "side1": 15000,
+      "side2": 6000
+    },
+    "warName": "First War of Scottish Independence",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-sluys",
+    "name": "Battle of Sluys",
+    "year": 1340,
+    "era": "medieval",
+    "location": {
+      "lat": 51.3,
+      "lng": 3.35
+    },
+    "tier": 2,
+    "description": "The French chained their ships together in the harbor at Sluys. Bad idea. Edward III's fleet sailed in and turned a naval battle into a land fight on floating platforms. English archers poured arrows into packed decks of men who couldn't maneuver, couldn't retreat, couldn't do anything but die. The Channel belonged to England.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of France"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Edward III of England",
+      "Hugues Quieret"
+    ],
+    "troopStrength": {
+      "side1": 16000,
+      "side2": 25000
+    },
+    "warName": "Hundred Years' War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-kosovo-1389",
+    "name": "Battle of Kosovo",
+    "year": 1389,
+    "era": "medieval",
+    "location": {
+      "lat": 42.65,
+      "lng": 21.05
+    },
+    "tier": 1,
+    "description": "Every Serbian child knows this story. Prince Lazar gathered every Serbian warrior he could find and marched to Kosovo Field to stop the Ottoman advance. Both Lazar and Sultan Murad died that day. The battle was a draw by the numbers. But Serbia never recovered, and the Balkans fell to the Ottomans. Kosovo became the myth that defined a nation -- and haunts it still.",
+    "belligerents": [
+      "Serbian Principalities",
+      "Ottoman Empire"
+    ],
+    "result": "Ottoman strategic victory",
+    "commanders": [
+      "Prince Lazar",
+      "Murad I"
+    ],
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 30000
+    },
+    "warName": "Ottoman conquest of the Balkans",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-grunwald",
+    "name": "Battle of Grunwald (Tannenberg)",
+    "year": 1410,
+    "era": "medieval",
+    "location": {
+      "lat": 53.4833,
+      "lng": 20.1
+    },
+    "tier": 1,
+    "description": "The Teutonic Knights were the most feared military order in Europe. Professional, disciplined, armored to the teeth. The Polish-Lithuanian army destroyed them anyway. The Grand Master died in the fighting. Eighteen thousand Teutonic warriors died with him. The military order that had terrorized the Baltic for two centuries was broken in a single afternoon.",
+    "belligerents": [
+      "Kingdom of Poland",
+      "Grand Duchy of Lithuania",
+      "Teutonic Order"
+    ],
+    "result": "Polish-Lithuanian victory",
+    "commanders": [
+      "Wladyslaw II Jagiello",
+      "Vytautas",
+      "Ulrich von Jungingen"
+    ],
+    "troopStrength": {
+      "side1": 39000,
+      "side2": 27000
+    },
+    "casualties": {
+      "side1": 5000,
+      "side2": 18000
+    },
+    "warName": "Polish-Lithuanian-Teutonic War",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-lake-peipus",
+    "name": "Battle on the Ice (Lake Peipus)",
+    "year": 1242,
+    "era": "medieval",
+    "location": {
+      "lat": 58.35,
+      "lng": 27.5
+    },
+    "tier": 2,
+    "description": "Alexander Nevsky chose the ice. He drew the Teutonic Knights onto the frozen surface of Lake Peipus and then closed the trap. The heavy Crusader knights, weighed down by armor, fought on ice that may have cracked beneath them. The Northern Crusade's eastward expansion stopped right there, on a frozen lake, in the dead of a Russian winter.",
+    "belligerents": [
+      "Novgorod Republic",
+      "Teutonic Order"
+    ],
+    "result": "Novgorodian victory",
+    "commanders": [
+      "Alexander Nevsky",
+      "Hermann von Buxhowden"
+    ],
+    "troopStrength": {
+      "side1": 5000,
+      "side2": 4000
+    },
+    "warName": "Northern Crusades",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-neva",
+    "name": "Battle of the Neva",
+    "year": 1240,
+    "era": "medieval",
+    "location": {
+      "lat": 59.95,
+      "lng": 30.32
+    },
+    "tier": 3,
+    "description": "A Swedish fleet sailed up the Neva expecting easy conquest. Instead they found a twenty-year-old prince named Alexander who hit them so hard and so fast they barely knew what happened. It was a small battle. But it earned Alexander the name 'Nevsky' and announced that Russia would not go quietly.",
+    "belligerents": [
+      "Novgorod Republic",
+      "Kingdom of Sweden"
+    ],
+    "result": "Novgorodian victory",
+    "commanders": [
+      "Alexander Nevsky",
+      "Birger Jarl"
+    ],
+    "warName": "Swedish-Novgorodian Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-kulikovo",
+    "name": "Battle of Kulikovo",
+    "year": 1380,
+    "era": "medieval",
+    "location": {
+      "lat": 53.65,
+      "lng": 38.65
+    },
+    "tier": 1,
+    "description": "For a hundred and fifty years, Russian princes had bowed to the Golden Horde. At Kulikovo, Dmitry Donskoy said no more. The fighting was so savage that the Don River ran red. When it was over, Russia had beaten the Mongols in open battle for the first time. The yoke didn't break that day. But it cracked.",
+    "belligerents": [
+      "Grand Duchy of Moscow",
+      "Golden Horde"
+    ],
+    "result": "Muscovite victory",
+    "commanders": [
+      "Dmitry Donskoy",
+      "Mamai"
+    ],
+    "troopStrength": {
+      "side1": 60000,
+      "side2": 60000
+    },
+    "warName": "Mongol-Russian Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-zhongdu",
+    "name": "Siege of Zhongdu (Beijing)",
+    "year": 1215,
+    "era": "medieval",
+    "location": {
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    "tier": 2,
+    "description": "Genghis Khan's Mongols besieged the Jin capital until the people inside were eating each other. When the walls finally fell, the sack lasted a month. The Mongols had just proved they could take fortified cities -- the one thing everyone said they couldn't do. The Jin Dynasty had started dying.",
+    "belligerents": [
+      "Mongol Empire",
+      "Jin Dynasty"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Genghis Khan",
+      "Emperor Xuanzong of Jin"
+    ],
+    "warName": "Mongol conquest of China",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-indus",
+    "name": "Battle of the Indus",
+    "year": 1221,
+    "era": "medieval",
+    "location": {
+      "lat": 34.1,
+      "lng": 72.0
+    },
+    "tier": 3,
+    "description": "Jalal ad-Din was cornered at the Indus River with Genghis Khan's entire army behind him. No retreat. No surrender. So the Khwarezmian prince spurred his horse off a cliff and into the river. He survived. Genghis stood at the edge, watched him swim away, and told his men not to shoot. Even the Mongol conqueror knew he was watching something extraordinary.",
+    "belligerents": [
+      "Mongol Empire",
+      "Khwarezmian Empire"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Genghis Khan",
+      "Jalal ad-Din Mingburnu"
+    ],
+    "warName": "Mongol invasion of Khwarezm",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-samarkand",
+    "name": "Siege of Samarkand",
+    "year": 1220,
+    "era": "medieval",
+    "location": {
+      "lat": 39.6542,
+      "lng": 66.9597
+    },
+    "tier": 2,
+    "description": "The greatest city on the Silk Road fell in five days. Five days. Genghis Khan's Mongols overwhelmed Samarkand's garrison, massacred the soldiers, enslaved the artisans, and moved on. The Islamic world watched in horror as one of its crown jewels was crushed like an insect underfoot.",
+    "belligerents": [
+      "Mongol Empire",
+      "Khwarezmian Empire"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Genghis Khan",
+      "Tughluq Khan"
+    ],
+    "troopStrength": {
+      "side1": 100000,
+      "side2": 110000
+    },
+    "warName": "Mongol invasion of Khwarezm",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-bukhara",
+    "name": "Siege of Bukhara",
+    "year": 1220,
+    "era": "medieval",
+    "location": {
+      "lat": 39.7681,
+      "lng": 64.4219
+    },
+    "tier": 3,
+    "description": "Genghis Khan stood in the great mosque of Bukhara and told the terrified people that he was the punishment of God. 'If you had not committed great sins,' he said, 'God would not have sent a punishment like me upon you.' Then his army burned the city to the ground and scattered its people to the winds.",
+    "belligerents": [
+      "Mongol Empire",
+      "Khwarezmian Empire"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Genghis Khan"
+    ],
+    "warName": "Mongol invasion of Khwarezm",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-xiangyang",
+    "name": "Siege of Xiangyang",
+    "year": 1273,
+    "era": "medieval",
+    "location": {
+      "lat": 32.0422,
+      "lng": 112.1442
+    },
+    "tier": 2,
+    "description": "Six years. The twin cities of Xiangyang and Fancheng held out for six years against Kublai Khan's army. Six years of siege, starvation, and desperation. Then Muslim engineers built counterweight trebuchets that hurled stones the defenders had never imagined. The walls crumbled. The Yangtze lay open. The Song Dynasty's clock was ticking.",
+    "belligerents": [
+      "Mongol Empire (Yuan)",
+      "Southern Song Dynasty"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Aju",
+      "Lu Wenhuan"
+    ],
+    "warName": "Mongol conquest of Song Dynasty",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-yamen",
+    "name": "Battle of Yamen",
+    "year": 1279,
+    "era": "medieval",
+    "location": {
+      "lat": 22.15,
+      "lng": 113.05
+    },
+    "tier": 2,
+    "description": "A hundred thousand people chose to die rather than live under Mongol rule. When the last Song fleet was destroyed at Yamen, the minister Lu Xiufu strapped the child emperor to his back and jumped into the sea. A dynasty that had produced some of humanity's greatest art, poetry, and technology drowned in those waters.",
+    "belligerents": [
+      "Mongol Empire (Yuan)",
+      "Southern Song Dynasty"
+    ],
+    "result": "Yuan victory",
+    "commanders": [
+      "Zhang Hongfan",
+      "Lu Xiufu"
+    ],
+    "casualties": {
+      "side2": 100000
+    },
+    "warName": "Mongol conquest of Song Dynasty",
+    "significance": 2
+  },
+  {
+    "id": "mongol-invasion-of-japan-1274",
+    "name": "Battle of Bun'ei (First Mongol Invasion of Japan)",
+    "year": 1274,
+    "era": "medieval",
+    "location": {
+      "lat": 33.58,
+      "lng": 130.35
+    },
+    "tier": 2,
+    "description": "The Mongol fleet darkened Hakata Bay. Japanese samurai, trained in single combat and personal honor, met an enemy that fought in coordinated formations and threw exploding bombs. The samurai were being overwhelmed. And then the sky turned black and the sea rose up. A typhoon shattered the Mongol fleet. Japan survived -- barely.",
+    "belligerents": [
+      "Kamakura Shogunate",
+      "Mongol Empire (Yuan)",
+      "Goryeo Korea"
+    ],
+    "result": "Japanese strategic victory",
+    "commanders": [
+      "Shoni Kagesuke",
+      "Kim Bang-gyeong"
+    ],
+    "troopStrength": {
+      "side1": 10000,
+      "side2": 40000
+    },
+    "warName": "Mongol invasions of Japan",
+    "significance": 2
+  },
+  {
+    "id": "mongol-invasion-of-japan-1281",
+    "name": "Battle of Koan (Second Mongol Invasion of Japan)",
+    "year": 1281,
+    "era": "medieval",
+    "location": {
+      "lat": 33.58,
+      "lng": 130.35
+    },
+    "tier": 1,
+    "description": "Kublai Khan sent the largest invasion fleet the world had ever seen -- 4,400 ships, 140,000 men. The Japanese held behind stone walls at Hakata Bay for weeks, buying time they didn't know they needed. Then the kamikaze came. The divine wind. A typhoon so massive it destroyed most of the fleet and drowned tens of thousands. The Mongols never came back.",
+    "belligerents": [
+      "Kamakura Shogunate",
+      "Mongol Empire (Yuan)",
+      "Goryeo Korea"
+    ],
+    "result": "Japanese victory",
+    "commanders": [
+      "Hojo Tokimune",
+      "Arakhan"
+    ],
+    "troopStrength": {
+      "side1": 40000,
+      "side2": 140000
+    },
+    "casualties": {
+      "side2": 100000
+    },
+    "warName": "Mongol invasions of Japan",
+    "significance": 1
+  },
+  {
+    "id": "siege-of-delhi-1398",
+    "name": "Battle of Delhi",
+    "year": 1398,
+    "era": "medieval",
+    "location": {
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "tier": 2,
+    "description": "Before Tamerlane attacked Delhi, he executed 100,000 prisoners. Before the battle. Then he crushed the Sultanate's army and its war elephants and turned his soldiers loose on one of the greatest cities in the world for three days. Delhi didn't recover for a century. Tamerlane didn't care. He was already looking for the next city to destroy.",
+    "belligerents": [
+      "Timurid Empire",
+      "Delhi Sultanate"
+    ],
+    "result": "Timurid victory",
+    "commanders": [
+      "Timur",
+      "Nasir-ud-Din Mahmud Shah Tughluq"
+    ],
+    "warName": "Timurid invasions",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-aleppo-1400",
+    "name": "Siege of Aleppo (1400)",
+    "year": 1400,
+    "era": "medieval",
+    "location": {
+      "lat": 36.2,
+      "lng": 37.15
+    },
+    "tier": 3,
+    "description": "Tamerlane built towers from severed human heads outside Aleppo's walls. Not as a metaphor. As architecture. When the citadel fell, the massacre was methodical, thorough, and designed to send a message that would travel faster than his army. One of the Islamic world's great cities was left a smoking ruin.",
+    "belligerents": [
+      "Timurid Empire",
+      "Mamluk Sultanate"
+    ],
+    "result": "Timurid victory",
+    "commanders": [
+      "Timur",
+      "Timurtash"
+    ],
+    "warName": "Timurid invasions",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-damascus-1401",
+    "name": "Siege of Damascus (1401)",
+    "year": 1401,
+    "era": "medieval",
+    "location": {
+      "lat": 33.5133,
+      "lng": 36.2917
+    },
+    "tier": 3,
+    "description": "The great historian Ibn Khaldun stood before Tamerlane during the siege and negotiated terms for Damascus. It didn't save the city. Tamerlane deported every skilled craftsman to Samarkand and burned what was left. The Umayyad Mosque itself was damaged. Even the greatest mind of the age couldn't reason with the greatest destroyer.",
+    "belligerents": [
+      "Timurid Empire",
+      "Mamluk Sultanate"
+    ],
+    "result": "Timurid victory",
+    "commanders": [
+      "Timur"
+    ],
+    "warName": "Timurid invasions",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-panipat-1398",
+    "name": "Battle of Panipat (approach to Delhi)",
+    "year": 1398,
+    "era": "medieval",
+    "location": {
+      "lat": 29.39,
+      "lng": 76.97
+    },
+    "tier": 3,
+    "description": "Timur's advance guard scattered Delhi's defenders at Panipat using caltrops and fire against the war elephants. The screaming elephants stampeded through their own lines. It was just the appetizer. The main course was the destruction of Delhi itself.",
+    "belligerents": [
+      "Timurid Empire",
+      "Delhi Sultanate"
+    ],
+    "result": "Timurid victory",
+    "commanders": [
+      "Timur",
+      "Nasir-ud-Din Mahmud Shah Tughluq"
+    ],
+    "warName": "Timurid invasions",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-nagashino",
+    "name": "Battle of Nagashino",
+    "year": 1575,
+    "era": "medieval",
+    "location": {
+      "lat": 34.9333,
+      "lng": 137.5833
+    },
+    "tier": 2,
+    "description": "Three thousand arquebusiers, lined up behind wooden palisades, firing in rotating volleys. That's what the legendary Takeda cavalry charged into at Nagashino. The greatest horsemen in Japan rode into a wall of lead and smoke and died. Oda Nobunaga didn't just win a battle. He ended an era. The age of the mounted samurai was over.",
+    "belligerents": [
+      "Oda-Tokugawa Alliance",
+      "Takeda clan"
+    ],
+    "result": "Oda-Tokugawa victory",
+    "commanders": [
+      "Oda Nobunaga",
+      "Tokugawa Ieyasu",
+      "Takeda Katsuyori"
+    ],
+    "troopStrength": {
+      "side1": 38000,
+      "side2": 15000
+    },
+    "casualties": {
+      "side2": 10000
+    },
+    "warName": "Sengoku period wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-ichi-no-tani",
+    "name": "Battle of Ichi-no-Tani",
+    "year": 1184,
+    "era": "medieval",
+    "location": {
+      "lat": 34.65,
+      "lng": 135.1
+    },
+    "tier": 3,
+    "description": "The cliff was supposed to be impassable. Yoshitsune rode down it anyway. His cavalry came crashing down the mountainside into the rear of the Taira fortress, and the defenders panicked. It was audacious, reckless, and completely brilliant. Samurai legend doesn't get better than Yoshitsune at Ichi-no-Tani.",
+    "belligerents": [
+      "Minamoto clan",
+      "Taira clan"
+    ],
+    "result": "Minamoto victory",
+    "commanders": [
+      "Minamoto no Yoshitsune",
+      "Taira no Munemori"
+    ],
+    "warName": "Genpei War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-yashima",
+    "name": "Battle of Yashima",
+    "year": 1185,
+    "era": "medieval",
+    "location": {
+      "lat": 34.35,
+      "lng": 134.1
+    },
+    "tier": 3,
+    "description": "Yoshitsune attacked with so few men it was practically a bluff. But the Taira didn't know that. They saw warriors storming their beach and thought a whole army was behind them. They abandoned their stronghold and fled to sea. One man's audacity drove an entire army into the water.",
+    "belligerents": [
+      "Minamoto clan",
+      "Taira clan"
+    ],
+    "result": "Minamoto victory",
+    "commanders": [
+      "Minamoto no Yoshitsune",
+      "Taira no Munemori"
+    ],
+    "warName": "Genpei War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-the-golden-spurs",
+    "name": "Battle of the Golden Spurs (Courtrai)",
+    "year": 1302,
+    "era": "medieval",
+    "location": {
+      "lat": 50.8278,
+      "lng": 3.2656
+    },
+    "tier": 2,
+    "description": "Flemish weavers and tradesmen -- commoners, not knights -- stood in a field at Courtrai armed with goedendags, spiked clubs designed specifically to ruin a rich man's day. The cream of French knighthood charged them. Five hundred pairs of golden spurs were stripped from French corpses when it was over. The commoners had won.",
+    "belligerents": [
+      "County of Flanders",
+      "Kingdom of France"
+    ],
+    "result": "Flemish victory",
+    "commanders": [
+      "Guy of Namur",
+      "Robert of Artois"
+    ],
+    "troopStrength": {
+      "side1": 9000,
+      "side2": 8000
+    },
+    "casualties": {
+      "side2": 1000
+    },
+    "warName": "Franco-Flemish War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-morgarten",
+    "name": "Battle of Morgarten",
+    "year": 1315,
+    "era": "medieval",
+    "location": {
+      "lat": 47.1,
+      "lng": 8.6833
+    },
+    "tier": 3,
+    "description": "Fifteen hundred Swiss mountaineers ambushed nine thousand Habsburg knights in a narrow pass above a lake. They rolled boulders onto the cavalry column, then waded in with halberds, pushing armored men into the freezing water. The Habsburgs never saw it coming. Swiss independence was born in that ambush.",
+    "belligerents": [
+      "Old Swiss Confederacy",
+      "Habsburg Austria"
+    ],
+    "result": "Swiss victory",
+    "commanders": [
+      "Werner Stauffacher",
+      "Leopold I of Austria"
+    ],
+    "troopStrength": {
+      "side1": 1500,
+      "side2": 9000
+    },
+    "warName": "Swiss struggle for independence",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-laupen",
+    "name": "Battle of Laupen",
+    "year": 1339,
+    "era": "medieval",
+    "location": {
+      "lat": 46.9,
+      "lng": 7.2333
+    },
+    "tier": 3,
+    "description": "Bernese pikemen and their forest canton allies met a coalition of Burgundian and Habsburg nobles and taught them the same lesson the Swiss had been teaching for twenty years: feudal cavalry cannot break a pike wall held by men who refuse to run. Swiss military reputation grew another inch.",
+    "belligerents": [
+      "Old Swiss Confederacy",
+      "Burgundian-Habsburg Coalition"
+    ],
+    "result": "Swiss victory",
+    "commanders": [
+      "Rudolf von Erlach"
+    ],
+    "warName": "Swiss Wars of Expansion",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-sempach",
+    "name": "Battle of Sempach",
+    "year": 1386,
+    "era": "medieval",
+    "location": {
+      "lat": 47.1333,
+      "lng": 8.1833
+    },
+    "tier": 3,
+    "description": "Legend says Arnold von Winkelried grabbed as many enemy pikes as his arms could hold and fell forward, opening a gap in the Habsburg line with his own body. Whether it happened exactly that way or not, Leopold III of Austria died that day and the Swiss proved -- again -- that farmers with halberds could kill any knight alive.",
+    "belligerents": [
+      "Old Swiss Confederacy",
+      "Habsburg Austria"
+    ],
+    "result": "Swiss victory",
+    "commanders": [
+      "Arnold von Winkelried",
+      "Leopold III of Austria"
+    ],
+    "warName": "Swiss struggle for independence",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-belgrade-1456",
+    "name": "Siege of Belgrade (1456)",
+    "year": 1456,
+    "era": "medieval",
+    "location": {
+      "lat": 44.8176,
+      "lng": 20.4633
+    },
+    "tier": 2,
+    "description": "A Hungarian general and a Franciscan friar led an army of regulars and peasant volunteers against Mehmed the Conqueror himself. The same Mehmed who'd taken Constantinople three years earlier. They wounded the sultan and drove him from the field. Belgrade held. The Ottoman advance into central Europe was delayed by decades. One of the great underdog victories in military history.",
+    "belligerents": [
+      "Kingdom of Hungary",
+      "Ottoman Empire"
+    ],
+    "result": "Hungarian victory",
+    "commanders": [
+      "John Hunyadi",
+      "Giovanni da Capistrano",
+      "Mehmed II"
+    ],
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 70000
+    },
+    "warName": "Ottoman Wars in Europe",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-grandson",
+    "name": "Battle of Grandson",
+    "year": 1476,
+    "era": "medieval",
+    "location": {
+      "lat": 46.8,
+      "lng": 6.6333
+    },
+    "tier": 3,
+    "description": "Charles the Bold of Burgundy had the best-equipped, best-trained army in Europe. The Swiss pikemen didn't care. They advanced in a solid mass, horns blowing, drums pounding, and Charles's professional soldiers broke and ran. They left behind a camp full of treasures -- tapestries, jewels, Charles's personal silverware. The Swiss took it all.",
+    "belligerents": [
+      "Old Swiss Confederacy",
+      "Duchy of Burgundy"
+    ],
+    "result": "Swiss victory",
+    "commanders": [
+      "Swiss captains",
+      "Charles the Bold"
+    ],
+    "warName": "Burgundian Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-morat",
+    "name": "Battle of Morat (Murten)",
+    "year": 1476,
+    "era": "medieval",
+    "location": {
+      "lat": 46.9333,
+      "lng": 7.1167
+    },
+    "tier": 2,
+    "description": "Charles the Bold hadn't learned his lesson. The Swiss hit his army during a rainstorm at Morat and destroyed it in under an hour. A third of the Burgundian army was killed. The bodies were piled into an ossuary that stood for centuries. Charles the Bold was starting to look like Charles the Foolish.",
+    "belligerents": [
+      "Old Swiss Confederacy",
+      "Duchy of Burgundy"
+    ],
+    "result": "Swiss victory",
+    "commanders": [
+      "Hans Waldmann",
+      "Charles the Bold"
+    ],
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 20000
+    },
+    "casualties": {
+      "side2": 10000
+    },
+    "warName": "Burgundian Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-nancy",
+    "name": "Battle of Nancy",
+    "year": 1477,
+    "era": "medieval",
+    "location": {
+      "lat": 48.6833,
+      "lng": 6.1833
+    },
+    "tier": 2,
+    "description": "The Swiss and Lorrainers found Charles the Bold's frozen, stripped body in a ditch days after the battle. His skull was split open. His face had been eaten by wolves. The most ambitious prince in Europe, the man who'd tried to build a kingdom between France and Germany, ended up as carrion. The Burgundian state died with him.",
+    "belligerents": [
+      "Duchy of Lorraine",
+      "Old Swiss Confederacy",
+      "Duchy of Burgundy"
+    ],
+    "result": "Lorrainer-Swiss victory",
+    "commanders": [
+      "Rene II of Lorraine",
+      "Charles the Bold"
+    ],
+    "warName": "Burgundian Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-adwa-precursor-medieval",
+    "name": "Battle of Shimbra Kure",
+    "year": 1529,
+    "era": "medieval",
+    "location": {
+      "lat": 9.0,
+      "lng": 39.5
+    },
+    "tier": 3,
+    "description": "Ahmad Gran's jihad army swept through the Ethiopian highlands like a fire. Emperor Lebna Dengel's Christian army was smashed at Shimbra Kure. Churches that had stood for centuries were burned. Manuscripts were destroyed. Ethiopia's Christian civilization came within a hairsbreadth of extinction. Only Portuguese musketeers, arriving years later, kept it alive.",
+    "belligerents": [
+      "Adal Sultanate",
+      "Ethiopian Empire"
+    ],
+    "result": "Adal victory",
+    "commanders": [
+      "Ahmad ibn Ibrahim al-Ghazi",
+      "Lebna Dengel"
+    ],
+    "warName": "Ethiopian-Adal War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-kirina",
+    "name": "Battle of Kirina",
+    "year": 1235,
+    "era": "medieval",
+    "location": {
+      "lat": 12.5,
+      "lng": -8.0
+    },
+    "tier": 2,
+    "description": "Sundiata Keita, the Lion King of Mali, rode against the sorcerer-king Sumanguru at Kirina and destroyed him. From that victory rose the Mali Empire -- one of the wealthiest civilizations in human history. The griots still sing this story. They've been singing it for eight hundred years.",
+    "belligerents": [
+      "Mandinka Confederacy",
+      "Sosso Kingdom"
+    ],
+    "result": "Mandinka victory",
+    "commanders": [
+      "Sundiata Keita",
+      "Sumanguru Kante"
+    ],
+    "warName": "Rise of the Mali Empire",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-tondibi",
+    "name": "Battle of Tondibi",
+    "year": 1591,
+    "era": "medieval",
+    "location": {
+      "lat": 16.75,
+      "lng": -3.0
+    },
+    "tier": 2,
+    "description": "Four thousand Moroccans with firearms against forty thousand Songhai warriors without them. That's all it took. The Songhai Empire, the last great medieval state of West Africa, fell to guns it had never seen and couldn't answer. An entire civilization was ended by a technology gap.",
+    "belligerents": [
+      "Saadi Dynasty (Morocco)",
+      "Songhai Empire"
+    ],
+    "result": "Moroccan victory",
+    "commanders": [
+      "Judar Pasha",
+      "Askia Ishaq II"
+    ],
+    "troopStrength": {
+      "side1": 4000,
+      "side2": 40000
+    },
+    "warName": "Moroccan invasion of Songhai",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-ngasaunggyan",
+    "name": "Battle of Ngasaunggyan",
+    "year": 1277,
+    "era": "medieval",
+    "location": {
+      "lat": 24.25,
+      "lng": 97.55
+    },
+    "tier": 3,
+    "description": "The Mongol horses panicked when they saw the war elephants. So the riders dismounted, tied their horses to trees, and calmly shot the elephants full of arrows until the giant beasts stampeded through their own army. Mongol problem-solving at its finest. Southeast Asia had just entered the Mongol orbit.",
+    "belligerents": [
+      "Mongol Empire (Yuan)",
+      "Pagan Kingdom"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Nasir al-Din",
+      "Narathihapate"
+    ],
+    "warName": "Mongol invasions of Burma",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-bach-dang-1288",
+    "name": "Battle of Bach Dang (1288)",
+    "year": 1288,
+    "era": "medieval",
+    "location": {
+      "lat": 20.8833,
+      "lng": 106.75
+    },
+    "tier": 2,
+    "description": "Tran Hung Dao planted iron-tipped stakes in the riverbed at low tide, then lured the Mongol fleet upstream at high water. When the tide went out, the fleet was impaled. Ships keeled over. Men drowned in the mud. The trapped Mongols were massacred. Vietnam had found the recipe for making Mongol invincibility disappear.",
+    "belligerents": [
+      "Tran Dynasty (Dai Viet)",
+      "Mongol Empire (Yuan)"
+    ],
+    "result": "Vietnamese victory",
+    "commanders": [
+      "Tran Hung Dao",
+      "Toghan"
+    ],
+    "warName": "Mongol invasions of Vietnam",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-myriokephalon",
+    "name": "Battle of Myriokephalon",
+    "year": 1176,
+    "era": "medieval",
+    "location": {
+      "lat": 38.05,
+      "lng": 30.1
+    },
+    "tier": 2,
+    "description": "Emperor Manuel dreamed of recovering what Manzikert had lost. Instead, he repeated it. The Seljuks caught his army in a mountain pass and tore it apart. Manuel himself compared the disaster to Manzikert. Central Anatolia was lost to Byzantium. Permanently.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Sultanate of Rum"
+    ],
+    "result": "Seljuk victory",
+    "commanders": [
+      "Manuel I Komnenos",
+      "Kilij Arslan II"
+    ],
+    "warName": "Byzantine-Seljuk Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-dyrrhachium-1081",
+    "name": "Battle of Dyrrhachium",
+    "year": 1081,
+    "era": "medieval",
+    "location": {
+      "lat": 41.3167,
+      "lng": 19.45
+    },
+    "tier": 3,
+    "description": "The Varangian Guard -- Viking mercenaries fighting for Byzantium -- held the line against Robert Guiscard's Normans with berserker fury. It wasn't enough. The Normans broke through, and Alexios Komnenos fled the field. The Normans had punched a hole in the Byzantine Balkans, proving they could fight anyone, anywhere.",
+    "belligerents": [
+      "Norman Duchy of Apulia",
+      "Byzantine Empire"
+    ],
+    "result": "Norman victory",
+    "commanders": [
+      "Robert Guiscard",
+      "Alexios I Komnenos"
+    ],
+    "troopStrength": {
+      "side1": 15000,
+      "side2": 20000
+    },
+    "warName": "Norman invasion of the Balkans",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-civitate",
+    "name": "Battle of Civitate",
+    "year": 1053,
+    "era": "medieval",
+    "location": {
+      "lat": 41.7333,
+      "lng": 15.3
+    },
+    "tier": 3,
+    "description": "Norman adventurers -- mercenaries and second sons with nothing to lose -- defeated a papal army and captured the Pope himself. The actual Pope. Leo IX was hauled off as a prisoner. The papacy, humiliated, was forced to recognize Norman rule in southern Italy. You can't make this stuff up.",
+    "belligerents": [
+      "Norman Knights",
+      "Papal Alliance"
+    ],
+    "result": "Norman victory",
+    "commanders": [
+      "Humphrey of Hauteville",
+      "Pope Leo IX"
+    ],
+    "warName": "Norman conquest of southern Italy",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-carcano",
+    "name": "Battle of Legnano",
+    "year": 1176,
+    "era": "medieval",
+    "location": {
+      "lat": 45.5833,
+      "lng": 8.9167
+    },
+    "tier": 2,
+    "description": "Frederick Barbarossa -- the Holy Roman Emperor, the most powerful man in Christendom -- was unhorsed in the melee and his army thought he was dead. The Lombard League's citizen-soldiers had beaten the emperor's professional army. Italian city-states would govern themselves, and the emperor would just have to live with it.",
+    "belligerents": [
+      "Lombard League",
+      "Holy Roman Empire"
+    ],
+    "result": "Lombard League victory",
+    "commanders": [
+      "Lombard League captains",
+      "Frederick Barbarossa"
+    ],
+    "warName": "Lombard League Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-guadalete",
+    "name": "Battle of Guadalete",
+    "year": 711,
+    "era": "medieval",
+    "location": {
+      "lat": 36.6,
+      "lng": -6.15
+    },
+    "tier": 1,
+    "description": "Twelve thousand Berber warriors crossed the strait and erased the Visigothic kingdom from the map in a single battle. King Roderic went down fighting, his body never found. Within years, Muslim armies had conquered nearly all of Iberia. Eight centuries of al-Andalus began on the banks of the Guadalete.",
+    "belligerents": [
+      "Umayyad Caliphate",
+      "Visigothic Kingdom"
+    ],
+    "result": "Umayyad victory",
+    "commanders": [
+      "Tariq ibn Ziyad",
+      "Roderic"
+    ],
+    "troopStrength": {
+      "side1": 12000,
+      "side2": 25000
+    },
+    "warName": "Umayyad conquest of Hispania",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-covadonga",
+    "name": "Battle of Covadonga",
+    "year": 722,
+    "era": "medieval",
+    "location": {
+      "lat": 43.3111,
+      "lng": -5.0528
+    },
+    "tier": 2,
+    "description": "A few hundred Christian survivors, hiding in the mountains of Asturias with nothing but their faith and their desperation, ambushed a Umayyad punitive expedition in a mountain pass. It was tiny. It was almost insignificant. But it was the first Christian victory of the Reconquista -- the first spark of a fire that would burn for seven hundred years.",
+    "belligerents": [
+      "Kingdom of Asturias",
+      "Umayyad Caliphate"
+    ],
+    "result": "Asturian victory",
+    "commanders": [
+      "Pelagius",
+      "Munuza"
+    ],
+    "warName": "Reconquista",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-zab",
+    "name": "Battle of the Zab",
+    "year": 750,
+    "era": "medieval",
+    "location": {
+      "lat": 35.8833,
+      "lng": 43.75
+    },
+    "tier": 2,
+    "description": "The Abbasid revolution climaxed at the Great Zab River. The last Umayyad Caliph's army broke and ran. Marwan II fled across the entire Islamic world before they caught him in Egypt and killed him. The Abbasids didn't just change rulers -- they moved the center of Islamic civilization from Damascus to Baghdad and remade the world.",
+    "belligerents": [
+      "Abbasid Caliphate",
+      "Umayyad Caliphate"
+    ],
+    "result": "Abbasid victory",
+    "commanders": [
+      "Abu al-Abbas al-Saffah",
+      "Marwan II"
+    ],
+    "warName": "Abbasid Revolution",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-paris-885",
+    "name": "Siege of Paris",
+    "year": 885,
+    "era": "medieval",
+    "location": {
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "tier": 2,
+    "description": "Two hundred men. Count Odo had two hundred men to hold Paris against thirty thousand Vikings. For nearly a year, those two hundred held the bridges and the walls while the Norsemen threw everything they had at them -- siege towers, fire ships, battering rams. Paris did not fall. The Capetian family's road to the French throne began on those blood-soaked walls.",
+    "belligerents": [
+      "West Francia",
+      "Viking Army"
+    ],
+    "result": "Frankish defensive victory",
+    "commanders": [
+      "Odo of France",
+      "Sigfred"
+    ],
+    "troopStrength": {
+      "side1": 200,
+      "side2": 30000
+    },
+    "warName": "Viking invasions of France",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-stiklestad",
+    "name": "Battle of Stiklestad",
+    "year": 1030,
+    "era": "medieval",
+    "location": {
+      "lat": 63.7833,
+      "lng": 11.55
+    },
+    "tier": 3,
+    "description": "King Olaf died at Stiklestad, cut down by his own people. And then something strange happened. The man they killed became a saint. His death cemented Christianity in Norway more firmly than his life ever had. Sometimes the dead win the wars the living couldn't.",
+    "belligerents": [
+      "Olaf's Norwegian Loyalists",
+      "Rebel Norwegian Chiefs"
+    ],
+    "result": "Rebel victory",
+    "commanders": [
+      "Olaf II of Norway",
+      "Thorir Hund"
+    ],
+    "warName": "Norwegian civil conflicts",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-manzikert-aftermath-philomelion",
+    "name": "Battle of Philomelion",
+    "year": 1116,
+    "era": "medieval",
+    "location": {
+      "lat": 38.35,
+      "lng": 31.4
+    },
+    "tier": 3,
+    "description": "Alexios Komnenos spent his entire reign trying to undo the catastrophe of Manzikert. At Philomelion, he finally pushed back, defeating the Seljuk sultan and stabilizing the eastern frontier. It wasn't a reconquest. But it was proof that Byzantium could still bite.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Sultanate of Rum"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Alexios I Komnenos",
+      "Malik Shah"
+    ],
+    "warName": "Byzantine-Seljuk Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-tinchebray",
+    "name": "Battle of Tinchebray",
+    "year": 1106,
+    "era": "medieval",
+    "location": {
+      "lat": 48.7667,
+      "lng": -0.7333
+    },
+    "tier": 3,
+    "description": "Henry I caught his brother Robert Curthose at Tinchebray and took him prisoner. Robert spent the next twenty-eight years in a dungeon. Exactly forty years after Hastings, England and Normandy were reunited under one ruler -- just not the one Robert had hoped.",
+    "belligerents": [
+      "Kingdom of England",
+      "Duchy of Normandy"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Henry I of England",
+      "Robert Curthose"
+    ],
+    "warName": "Anglo-Norman succession conflict",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-lincoln-1141",
+    "name": "Battle of Lincoln (1141)",
+    "year": 1141,
+    "era": "medieval",
+    "location": {
+      "lat": 53.2344,
+      "lng": -0.5381
+    },
+    "tier": 3,
+    "description": "King Stephen of England was captured in the middle of a street fight in Lincoln -- dragged off his horse and hauled away in chains. The only English king taken prisoner in battle since the Conquest. For a brief, chaotic moment, a woman nearly ruled England. Then Stephen was traded back and the Anarchy ground on.",
+    "belligerents": [
+      "Angevin supporters of Matilda",
+      "Supporters of King Stephen"
+    ],
+    "result": "Angevin victory",
+    "commanders": [
+      "Robert of Gloucester",
+      "King Stephen"
+    ],
+    "warName": "The Anarchy",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-hattin-prelude-montgisard",
+    "name": "Battle of Montgisard",
+    "year": 1177,
+    "era": "medieval",
+    "location": {
+      "lat": 31.7,
+      "lng": 34.75
+    },
+    "tier": 3,
+    "description": "He was sixteen. He had leprosy. He had 375 knights. Saladin had 26,000 men. Baldwin IV of Jerusalem charged anyway, carrying the True Cross at the head of his tiny force, and routed the greatest Muslim general alive. Saladin barely escaped on a racing camel. One of the most astonishing things that ever happened in the history of warfare.",
+    "belligerents": [
+      "Kingdom of Jerusalem",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Crusader victory",
+    "commanders": [
+      "Baldwin IV of Jerusalem",
+      "Raynald of Chatillon",
+      "Saladin"
+    ],
+    "troopStrength": {
+      "side1": 500,
+      "side2": 26000
+    },
+    "warName": "Crusades",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-alarcos",
+    "name": "Battle of Alarcos",
+    "year": 1195,
+    "era": "medieval",
+    "location": {
+      "lat": 38.9333,
+      "lng": -3.9667
+    },
+    "tier": 3,
+    "description": "Alfonso VIII of Castile watched his army destroyed by the Almohad Caliph at Alarcos and spent the next seventeen years planning revenge. The humiliation was so complete that it took a papal crusade to put together the coalition that finally broke the Almohads at Las Navas de Tolosa. Alarcos was the wound. Las Navas was the answer.",
+    "belligerents": [
+      "Almohad Caliphate",
+      "Kingdom of Castile"
+    ],
+    "result": "Almohad victory",
+    "commanders": [
+      "Abu Yusuf Yaqub al-Mansur",
+      "Alfonso VIII of Castile"
+    ],
+    "warName": "Reconquista",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-rio-salado",
+    "name": "Battle of Rio Salado",
+    "year": 1340,
+    "era": "medieval",
+    "location": {
+      "lat": 36.0,
+      "lng": -5.6
+    },
+    "tier": 3,
+    "description": "The last time a North African Muslim army crossed into Iberia in force, Alfonso XI and Afonso IV were waiting for them at the Rio Salado. The Marinids were crushed. The pipeline of African reinforcements that had kept Muslim Iberia alive for centuries was severed. The Reconquista's endgame had begun.",
+    "belligerents": [
+      "Kingdom of Castile",
+      "Kingdom of Portugal",
+      "Marinid Dynasty"
+    ],
+    "result": "Castilian-Portuguese victory",
+    "commanders": [
+      "Alfonso XI of Castile",
+      "Abu al-Hasan Ali"
+    ],
+    "warName": "Reconquista",
+    "significance": 3
+  },
+  {
+    "id": "fall-of-granada",
+    "name": "Fall of Granada",
+    "year": 1492,
+    "era": "medieval",
+    "location": {
+      "lat": 37.1773,
+      "lng": -3.5986
+    },
+    "tier": 1,
+    "description": "Boabdil, the last Moorish king, handed the keys of Granada to Ferdinand and Isabella and rode away weeping. His mother's words -- if the legend is true -- cut deeper than any sword: 'Weep like a woman for what you could not defend as a man.' Seven hundred and eighty-one years of Muslim Iberia ended with tears and a set of keys. The Reconquista was over.",
+    "belligerents": [
+      "Kingdom of Castile",
+      "Kingdom of Aragon",
+      "Emirate of Granada"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Ferdinand II of Aragon",
+      "Isabella I of Castile",
+      "Boabdil"
+    ],
+    "warName": "Reconquista",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-maritsa",
+    "name": "Battle of Maritsa (Chernomen)",
+    "year": 1371,
+    "era": "medieval",
+    "location": {
+      "lat": 41.6333,
+      "lng": 26.4
+    },
+    "tier": 3,
+    "description": "A small Ottoman force hit the Serbian army at night while they were camped by the Maritsa River. The Serbs never formed up. Both Serbian despots were killed in the chaos. It was less a battle than an assassination of an army. The road to Kosovo, to the fall of the Balkans, was paved at Maritsa.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Serbian Empire"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Lala Sahin Pasha",
+      "King Vukasin"
+    ],
+    "warName": "Ottoman conquest of the Balkans",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-ayn-jalut-context-wadi-al-khazandar",
+    "name": "Battle of Wadi al-Khazandar",
+    "year": 1299,
+    "era": "medieval",
+    "location": {
+      "lat": 34.55,
+      "lng": 36.45
+    },
+    "tier": 3,
+    "description": "The Mongols had one last great day in the Levant. Ghazan Khan's horsemen swept the Mamluks aside at Wadi al-Khazandar and briefly occupied Damascus. But they couldn't hold it. The Ilkhanate's reach had finally exceeded its grasp, and the Mamluks would have the last word.",
+    "belligerents": [
+      "Mongol Ilkhanate",
+      "Mamluk Sultanate"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Ghazan Khan",
+      "Al-Nasir Muhammad"
+    ],
+    "warName": "Mamluk-Ilkhanate War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-marj-al-saffar",
+    "name": "Battle of Marj al-Saffar",
+    "year": 1303,
+    "era": "medieval",
+    "location": {
+      "lat": 33.35,
+      "lng": 36.35
+    },
+    "tier": 3,
+    "description": "The Mamluks ended the Mongol question once and for all at Marj al-Saffar. Ibn Taymiyyah himself issued the fatwa declaring jihad against the Mongols -- even though they claimed to be Muslims. The theological and military message was the same: Syria belongs to us. Don't come back.",
+    "belligerents": [
+      "Mamluk Sultanate",
+      "Mongol Ilkhanate"
+    ],
+    "result": "Mamluk victory",
+    "commanders": [
+      "Al-Nasir Muhammad",
+      "Qutluqshah"
+    ],
+    "warName": "Mamluk-Ilkhanate War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-the-catalaunian-plains",
+    "name": "Battle of the Catalaunian Plains (Chalons)",
+    "year": 451,
+    "era": "medieval",
+    "location": {
+      "lat": 48.95,
+      "lng": 4.35
+    },
+    "tier": 1,
+    "description": "The last great Roman general, Aetius, stood on a field in Gaul and stopped Attila the Hun. The Scourge of God himself, the man who'd burned his way across two continents. Visigothic King Theodoric died in the fighting. Attila withdrew. It was one of Rome's last gasps -- but what a gasp it was.",
+    "belligerents": [
+      "Western Roman Empire",
+      "Visigoths",
+      "Hunnic Empire"
+    ],
+    "result": "Roman-Visigothic strategic victory",
+    "commanders": [
+      "Aetius",
+      "Theodoric I",
+      "Attila"
+    ],
+    "troopStrength": {
+      "side1": 50000,
+      "side2": 50000
+    },
+    "warName": "Hunnic invasion of Gaul",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-nedao",
+    "name": "Battle of Nedao",
+    "year": 454,
+    "era": "medieval",
+    "location": {
+      "lat": 46.0,
+      "lng": 18.0
+    },
+    "tier": 3,
+    "description": "Attila was dead, and his empire was a corpse that didn't know it yet. At Nedao, the Germanic tribes that had been Hunnic slaves rose up and tore the empire apart. The Huns were finished. The Germanic peoples of Central Europe were free, and the Dark Ages were about to get very, very complicated.",
+    "belligerents": [
+      "Gepids and Germanic Coalition",
+      "Hunnic Empire"
+    ],
+    "result": "Germanic victory",
+    "commanders": [
+      "Ardaric",
+      "Ellac"
+    ],
+    "warName": "Collapse of the Hunnic Empire",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-vouille",
+    "name": "Battle of Vouille",
+    "year": 507,
+    "era": "medieval",
+    "location": {
+      "lat": 46.6167,
+      "lng": 0.2333
+    },
+    "tier": 3,
+    "description": "Clovis killed Alaric II with his own hands -- if you believe the Frankish chronicles. Whether he did or not, the Visigoths were driven out of Gaul and into Spain, and the Franks became the dominant power in Western Europe. The alliance between Frankish swords and the Catholic Church was sealed in Visigothic blood.",
+    "belligerents": [
+      "Frankish Kingdom",
+      "Visigothic Kingdom"
+    ],
+    "result": "Frankish victory",
+    "commanders": [
+      "Clovis I",
+      "Alaric II"
+    ],
+    "warName": "Frankish-Visigothic Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-tricamarum",
+    "name": "Battle of Tricamarum",
+    "year": 533,
+    "era": "medieval",
+    "location": {
+      "lat": 36.75,
+      "lng": 10.1
+    },
+    "tier": 3,
+    "description": "Belisarius -- maybe the greatest general the Byzantine Empire ever produced -- took on the Vandal army with an outnumbered cavalry force and won. King Gelimer was captured. North Africa was Roman again. Just like that. Belisarius made the impossible look routine.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Vandal Kingdom"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Belisarius",
+      "Gelimer"
+    ],
+    "troopStrength": {
+      "side1": 8000,
+      "side2": 15000
+    },
+    "warName": "Vandalic War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-taginae",
+    "name": "Battle of Taginae (Busta Gallorum)",
+    "year": 552,
+    "era": "medieval",
+    "location": {
+      "lat": 43.2167,
+      "lng": 12.7
+    },
+    "tier": 3,
+    "description": "Narses was a eunuch and a bureaucrat. He also turned out to be a tactical genius. At Taginae, he formed his army into a crescent that funneled the Gothic cavalry charge into a killing zone of archers and dismounted lancers. King Totila was killed. Italy was reconquered. Never underestimate the bureaucrat with an army.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Ostrogothic Kingdom"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Narses",
+      "Totila"
+    ],
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 15000
+    },
+    "warName": "Gothic War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-dara",
+    "name": "Battle of Dara",
+    "year": 530,
+    "era": "medieval",
+    "location": {
+      "lat": 37.1833,
+      "lng": 40.95
+    },
+    "tier": 3,
+    "description": "A young, untested general named Belisarius dug a trench, hid his cavalry on the flanks, and waited for a Sassanid army twice his size to walk into the trap. They did. The Persian charge stalled in the trench, the Byzantine cavalry closed from both sides, and a legend was born. Belisarius had arrived.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Sassanid Empire"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Belisarius",
+      "Perozes"
+    ],
+    "troopStrength": {
+      "side1": 25000,
+      "side2": 50000
+    },
+    "warName": "Iberian War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-kleidion",
+    "name": "Battle of Kleidion",
+    "year": 1014,
+    "era": "medieval",
+    "location": {
+      "lat": 41.35,
+      "lng": 23.05
+    },
+    "tier": 2,
+    "description": "Basil II didn't just defeat the Bulgarians at Kleidion. He blinded fifteen thousand prisoners, leaving one man in every hundred with a single eye to lead the rest home. When Tsar Samuel saw his army stumbling toward him -- fifteen thousand blind, broken men -- he collapsed and died. That's how Basil earned the name 'Bulgar-Slayer.'",
+    "belligerents": [
+      "Byzantine Empire",
+      "Bulgarian Empire"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Basil II",
+      "Samuil of Bulgaria"
+    ],
+    "casualties": {
+      "side2": 15000
+    },
+    "warName": "Byzantine-Bulgarian Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-pliska",
+    "name": "Battle of Pliska",
+    "year": 811,
+    "era": "medieval",
+    "location": {
+      "lat": 43.4,
+      "lng": 27.1167
+    },
+    "tier": 3,
+    "description": "Krum of Bulgaria caught the entire Byzantine army in a mountain pass and killed Emperor Nikephoros -- the first Roman emperor to die in battle against a foreign enemy in over four hundred years. Then Krum lined the emperor's skull with silver and drank from it at feasts. Medieval power moves.",
+    "belligerents": [
+      "Bulgarian Empire",
+      "Byzantine Empire"
+    ],
+    "result": "Bulgarian victory",
+    "commanders": [
+      "Krum",
+      "Nikephoros I"
+    ],
+    "warName": "Byzantine-Bulgarian Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-levounion",
+    "name": "Battle of Levounion",
+    "year": 1091,
+    "era": "medieval",
+    "location": {
+      "lat": 41.6667,
+      "lng": 26.5667
+    },
+    "tier": 3,
+    "description": "Alexios Komnenos allied with the Cuman horse archers and together they exterminated the Pechenegs at Levounion. Not defeated. Exterminated. An entire people was effectively erased from history in a single battle. The Pechenegs never threatened anyone again because there were no Pechenegs left.",
+    "belligerents": [
+      "Byzantine Empire",
+      "Pechenegs"
+    ],
+    "result": "Byzantine victory",
+    "commanders": [
+      "Alexios I Komnenos"
+    ],
+    "warName": "Byzantine-Pecheneg Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-maling",
+    "name": "Siege of Damietta (Fifth Crusade)",
+    "year": 1219,
+    "era": "medieval",
+    "location": {
+      "lat": 31.4167,
+      "lng": 31.8167
+    },
+    "tier": 3,
+    "description": "Eighteen months. The Crusaders spent eighteen months taking Damietta, the gateway to Egypt. Then they marched on Cairo and the Nile flooded. The entire Crusader army was trapped in mud and rising water, forced to hand Damietta back just to survive. Nature accomplished what the Egyptian army couldn't.",
+    "belligerents": [
+      "Crusader Coalition",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Ayyubid strategic victory",
+    "commanders": [
+      "John of Brienne",
+      "Al-Kamil"
+    ],
+    "warName": "Fifth Crusade",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-the-horns-of-hattin-prelude",
+    "name": "Battle of Cresson",
+    "year": 1187,
+    "era": "medieval",
+    "location": {
+      "lat": 32.7833,
+      "lng": 35.5
+    },
+    "tier": 3,
+    "description": "A hundred and forty Templars charged seven thousand of Saladin's men. Gerard de Ridefort led that charge because he was too proud and too stupid to do anything else. Three Templars survived. Three. The Kingdom of Jerusalem had just lost its best warriors in a suicidal gesture of machismo on the eve of its greatest crisis.",
+    "belligerents": [
+      "Knights Templar",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Ayyubid victory",
+    "commanders": [
+      "Gerard de Ridefort",
+      "Al-Afdal ibn Salah ad-Din"
+    ],
+    "troopStrength": {
+      "side1": 140,
+      "side2": 7000
+    },
+    "warName": "Crusades",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-candia",
+    "name": "Battle of Damietta (Seventh Crusade)",
+    "year": 1249,
+    "era": "medieval",
+    "location": {
+      "lat": 31.4167,
+      "lng": 31.8167
+    },
+    "tier": 3,
+    "description": "Louis IX captured Damietta so easily he thought God was on his side. Then he marched into Egypt and God apparently changed his mind. The advance turned into a catastrophe at Mansura, and the king of France himself ended up in chains, ransomed for a sum that staggered Europe. The Seventh Crusade died in the Egyptian mud.",
+    "belligerents": [
+      "Kingdom of France",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Ayyubid strategic victory",
+    "commanders": [
+      "Louis IX of France",
+      "Turanshah"
+    ],
+    "warName": "Seventh Crusade",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-walaja",
+    "name": "Battle of Walaja",
+    "year": 633,
+    "era": "medieval",
+    "location": {
+      "lat": 30.9667,
+      "lng": 47.0
+    },
+    "tier": 3,
+    "description": "Khalid ibn al-Walid studied Hannibal's victory at Cannae and then did it himself at Walaja -- a perfect double envelopment that destroyed a combined Sassanid-Arab force. The Sword of God was just getting started. Iraq lay open before him.",
+    "belligerents": [
+      "Rashidun Caliphate",
+      "Sassanid Empire"
+    ],
+    "result": "Rashidun victory",
+    "commanders": [
+      "Khalid ibn al-Walid"
+    ],
+    "warName": "Muslim conquest of Persia",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-nihawand",
+    "name": "Battle of Ajnadayn",
+    "year": 634,
+    "era": "medieval",
+    "location": {
+      "lat": 31.7333,
+      "lng": 34.9833
+    },
+    "tier": 3,
+    "description": "The first pitched battle between the armies of Muhammad and the armies of Constantinople. Khalid ibn al-Walid led the Muslim forces to victory at Ajnadayn, and the road to Syria cracked open. The Byzantine Empire had just met the force that would take half its territory in a generation.",
+    "belligerents": [
+      "Rashidun Caliphate",
+      "Byzantine Empire"
+    ],
+    "result": "Rashidun victory",
+    "commanders": [
+      "Khalid ibn al-Walid"
+    ],
+    "warName": "Muslim conquest of the Levant",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-heliopolis",
+    "name": "Battle of Heliopolis",
+    "year": 640,
+    "era": "medieval",
+    "location": {
+      "lat": 30.1167,
+      "lng": 31.3
+    },
+    "tier": 3,
+    "description": "Amr ibn al-As defeated a Byzantine army near what would become Cairo and opened all of Egypt to the Arab conquest. Think about that. Egypt -- the breadbasket of the Roman Empire, its richest province, the source of Constantinople's grain. Gone. In a single battle.",
+    "belligerents": [
+      "Rashidun Caliphate",
+      "Byzantine Empire"
+    ],
+    "result": "Rashidun victory",
+    "commanders": [
+      "Amr ibn al-As"
+    ],
+    "warName": "Muslim conquest of Egypt",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-las-salinas",
+    "name": "Siege of Thessalonica (1430)",
+    "year": 1430,
+    "era": "medieval",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444
+    },
+    "tier": 3,
+    "description": "Murad II's Ottomans stormed Thessalonica, the second city of the Byzantine Empire, while Venice stood by and watched. Three days of looting. Thousands enslaved. Constantinople was now almost completely alone -- a Christian island in an Ottoman sea, waiting for the end.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Republic of Venice"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Murad II"
+    ],
+    "warName": "Ottoman conquest of the Balkans",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-candia-1205",
+    "name": "Battle of Adrianople (1205)",
+    "year": 1205,
+    "era": "medieval",
+    "location": {
+      "lat": 41.6833,
+      "lng": 26.5667
+    },
+    "tier": 3,
+    "description": "One year after the Fourth Crusade created the Latin Empire, Bulgarian Tsar Kaloyan destroyed it in everything but name. Emperor Baldwin I was captured at Adrianople and vanished forever. The Latin Empire that was built on the ashes of Constantinople was already dying.",
+    "belligerents": [
+      "Second Bulgarian Empire",
+      "Latin Empire"
+    ],
+    "result": "Bulgarian victory",
+    "commanders": [
+      "Kaloyan",
+      "Baldwin I"
+    ],
+    "warName": "Bulgarian-Latin Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-pelagonia",
+    "name": "Battle of Pelagonia",
+    "year": 1259,
+    "era": "medieval",
+    "location": {
+      "lat": 41.0333,
+      "lng": 21.3667
+    },
+    "tier": 3,
+    "description": "The Nicaean army smashed a coalition of Latins, Sicilians, and Epirotes at Pelagonia, and the road back to Constantinople was open. Two years later, Byzantine soldiers would slip through an unguarded gate and restore the empire. The reconquest began here, in a field in Macedonia.",
+    "belligerents": [
+      "Empire of Nicaea",
+      "Principality of Achaea",
+      "Despotate of Epirus"
+    ],
+    "result": "Nicaean victory",
+    "commanders": [
+      "John Palaiologos",
+      "William II of Villehardouin"
+    ],
+    "warName": "Nicaean reconquest",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-evesham",
+    "name": "Battle of Evesham",
+    "year": 1265,
+    "era": "medieval",
+    "location": {
+      "lat": 52.0917,
+      "lng": -1.9472
+    },
+    "tier": 3,
+    "description": "Prince Edward trapped de Montfort in a bend of the River Avon with no escape. The slaughter was so one-sided they mutilated de Montfort's body afterward. But here's the thing -- the man they killed had summoned England's first real parliament. They destroyed his body but couldn't destroy his idea.",
+    "belligerents": [
+      "Royalist forces",
+      "Baronial rebels"
+    ],
+    "result": "Royalist victory",
+    "commanders": [
+      "Prince Edward (Edward I)",
+      "Simon de Montfort"
+    ],
+    "warName": "Second Barons' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-lewes",
+    "name": "Battle of Lewes",
+    "year": 1264,
+    "era": "medieval",
+    "location": {
+      "lat": 50.8728,
+      "lng": 0.0094
+    },
+    "tier": 3,
+    "description": "Simon de Montfort captured the King of England and his son in one afternoon. Then he did something nobody expected -- he summoned a parliament that included commoners. For a brief moment, England glimpsed the future of democratic government. It took centuries to get there, but the first step was at Lewes.",
+    "belligerents": [
+      "Baronial rebels",
+      "Royalist forces"
+    ],
+    "result": "Baronial victory",
+    "commanders": [
+      "Simon de Montfort",
+      "Henry III of England"
+    ],
+    "warName": "Second Barons' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-worringen",
+    "name": "Battle of Worringen",
+    "year": 1288,
+    "era": "medieval",
+    "location": {
+      "lat": 51.05,
+      "lng": 6.8833
+    },
+    "tier": 3,
+    "description": "The burghers of Cologne -- merchants, craftsmen, ordinary citizens -- took the field against their own archbishop and his feudal knights. And won. The city won its independence. It sounds small, but this is how the medieval world cracked open: regular people refusing to be governed by men in armor.",
+    "belligerents": [
+      "City of Cologne and Allies",
+      "Archbishop of Cologne"
+    ],
+    "result": "Cologne victory",
+    "commanders": [
+      "John I of Brabant",
+      "Siegfried of Westerburg"
+    ],
+    "warName": "War of the Limburg Succession",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-chrysopolis",
+    "name": "Battle of Bapheus",
+    "year": 1302,
+    "era": "medieval",
+    "location": {
+      "lat": 40.6,
+      "lng": 29.4
+    },
+    "tier": 3,
+    "description": "Osman I beat a Byzantine force near Nicomedia, and in the grand scheme of things, it was a minor frontier skirmish. But this was the first real victory of the Ottoman beylik. A hundred and fifty years later, Osman's descendants would conquer Constantinople. Every empire has to start somewhere.",
+    "belligerents": [
+      "Ottoman beylik",
+      "Byzantine Empire"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Osman I",
+      "George Mouzalon"
+    ],
+    "warName": "Rise of the Ottoman Empire",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-kose-dag",
+    "name": "Battle of Kose Dag",
+    "year": 1243,
+    "era": "medieval",
+    "location": {
+      "lat": 39.9,
+      "lng": 39.7
+    },
+    "tier": 2,
+    "description": "The Mongols shattered the Seljuk Sultanate of Rum at Kose Dag and reduced it to a vassal state. Anatolia fractured into competing beyliks -- little lordships fighting each other in the wreckage. One of those beyliks, under a minor chief named Osman, would grow into the Ottoman Empire. The Mongols didn't know it, but they'd just created their own successor.",
+    "belligerents": [
+      "Mongol Empire",
+      "Sultanate of Rum"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Bayju",
+      "Kaykhusraw II"
+    ],
+    "troopStrength": {
+      "side1": 30000,
+      "side2": 80000
+    },
+    "warName": "Mongol invasion of Anatolia",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-ain-jalut-prelude-marj-al-suffar",
+    "name": "Siege of Aleppo (1260)",
+    "year": 1260,
+    "era": "medieval",
+    "location": {
+      "lat": 36.2,
+      "lng": 37.15
+    },
+    "tier": 3,
+    "description": "Before the Mongol tide hit Ain Jalut, Hulagu's army sacked Aleppo as a warm-up. The citadel fell in six days. Christians were spared. Muslims were not. It was calculated terror, designed to make the next city surrender without a fight. It didn't work on the Mamluks.",
+    "belligerents": [
+      "Mongol Empire",
+      "Ayyubid Dynasty"
+    ],
+    "result": "Mongol victory",
+    "commanders": [
+      "Hulagu Khan",
+      "Turanshah"
+    ],
+    "warName": "Mongol invasions",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-wayna-daga",
+    "name": "Battle of Wayna Daga",
+    "year": 1543,
+    "era": "medieval",
+    "location": {
+      "lat": 11.5,
+      "lng": 37.5
+    },
+    "tier": 3,
+    "description": "Ahmad Gran had been destroying Christian Ethiopia for fourteen years. At Wayna Daga, Ethiopian warriors and Portuguese musketeers finally caught him and killed him. The jihad collapsed. Ethiopia survived. Barely. Fourteen years of destruction, ended by a single bullet in the right place.",
+    "belligerents": [
+      "Ethiopian Empire",
+      "Adal Sultanate"
+    ],
+    "result": "Ethiopian victory",
+    "commanders": [
+      "Gelawdewos",
+      "Ahmad ibn Ibrahim al-Ghazi"
+    ],
+    "warName": "Ethiopian-Adal War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-indab",
+    "name": "Battle of the Thirteen Sides (Angkor)",
+    "year": 1177,
+    "era": "medieval",
+    "location": {
+      "lat": 13.4125,
+      "lng": 103.8667
+    },
+    "tier": 3,
+    "description": "The Chams sailed up the Mekong, sacked Angkor -- one of the largest cities on earth -- and thought they'd won. They hadn't met Jayavarman VII yet. He spent years rallying resistance, drove the Chams out, and then built Angkor Thom and the Bayon temple as monuments to his fury. The greatest temple complex ever built rose from the ashes of defeat.",
+    "belligerents": [
+      "Khmer Empire",
+      "Champa Kingdom"
+    ],
+    "result": "Khmer eventual victory",
+    "commanders": [
+      "Jayavarman VII"
+    ],
+    "warName": "Khmer-Cham Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-verneuil",
+    "name": "Battle of Verneuil",
+    "year": 1424,
+    "era": "medieval",
+    "location": {
+      "lat": 48.7333,
+      "lng": 0.9167
+    },
+    "tier": 3,
+    "description": "Bedford called it 'a second Agincourt,' and the Scottish contingent fighting for France would have agreed -- if any of them had survived. The Scots were virtually annihilated. English longbow supremacy in France seemed unbreakable. Five years later, a teenage girl from Domremy would prove otherwise.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of France",
+      "Kingdom of Scotland"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "John of Lancaster, Duke of Bedford",
+      "John Stewart, Earl of Buchan"
+    ],
+    "troopStrength": {
+      "side1": 9000,
+      "side2": 15000
+    },
+    "casualties": {
+      "side2": 7000
+    },
+    "warName": "Hundred Years' War",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-rouen",
+    "name": "Siege of Rouen",
+    "year": 1419,
+    "era": "medieval",
+    "location": {
+      "lat": 49.4431,
+      "lng": 1.0993
+    },
+    "tier": 3,
+    "description": "Henry V besieged the Norman capital for six months. The people inside ate their horses, then their dogs, then their rats, then nothing. Twelve thousand civilians were expelled and left to starve in the ditches between the walls. When Rouen fell, Henry was one step from the French throne. The Treaty of Troyes made it official.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of France"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Henry V of England"
+    ],
+    "warName": "Hundred Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-formigny",
+    "name": "Battle of Formigny",
+    "year": 1450,
+    "era": "medieval",
+    "location": {
+      "lat": 49.3333,
+      "lng": -0.9
+    },
+    "tier": 3,
+    "description": "The English were winning a straightforward fight when the Comte de Richemont appeared on their flank with a fresh army. No warning. No escape. The English force was annihilated. After thirty years of occupation, Normandy was French again. England's continental empire was hemorrhaging to death.",
+    "belligerents": [
+      "Kingdom of France",
+      "Kingdom of England"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Arthur de Richemont",
+      "Thomas Kyriel"
+    ],
+    "troopStrength": {
+      "side1": 5000,
+      "side2": 4000
+    },
+    "casualties": {
+      "side2": 3700
+    },
+    "warName": "Hundred Years' War",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-st-albans-1455",
+    "name": "First Battle of St Albans",
+    "year": 1455,
+    "era": "medieval",
+    "location": {
+      "lat": 51.7525,
+      "lng": -0.3417
+    },
+    "tier": 3,
+    "description": "It started as a political argument and ended in the streets of St Albans with armored men killing each other between the houses. Somerset was cut down. King Henry VI was wounded. The Wars of the Roses had begun, not with a grand battle, but with a bloody street fight that set the tone for thirty years of English self-destruction.",
+    "belligerents": [
+      "House of York",
+      "House of Lancaster"
+    ],
+    "result": "Yorkist victory",
+    "commanders": [
+      "Richard of York",
+      "Edmund Beaufort, Duke of Somerset"
+    ],
+    "warName": "Wars of the Roses",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-wakefield",
+    "name": "Battle of Wakefield",
+    "year": 1460,
+    "era": "medieval",
+    "location": {
+      "lat": 53.6833,
+      "lng": -1.5
+    },
+    "tier": 3,
+    "description": "Richard of York walked out of his castle into a Lancastrian ambush and died for it. They cut off his head and stuck a paper crown on it, then displayed it on the gates of his own city. His seventeen-year-old son Edmund was murdered trying to surrender. Richard's other son, Edward, would remember. Towton was coming.",
+    "belligerents": [
+      "House of Lancaster",
+      "House of York"
+    ],
+    "result": "Lancastrian victory",
+    "commanders": [
+      "Margaret of Anjou",
+      "Richard of York"
+    ],
+    "warName": "Wars of the Roses",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-stoke-field",
+    "name": "Battle of Stoke Field",
+    "year": 1487,
+    "era": "medieval",
+    "location": {
+      "lat": 53.0,
+      "lng": -0.8833
+    },
+    "tier": 3,
+    "description": "Henry VII crushed the last Yorkist rising at Stoke Field -- Irish kerns and German mercenaries fighting under a pretender's banner. It was the true last battle of the Wars of the Roses, even if nobody called it that at the time. The Tudor grip on England tightened, and the killing was finally over.",
+    "belligerents": [
+      "House of Tudor",
+      "Yorkist Rebels"
+    ],
+    "result": "Tudor victory",
+    "commanders": [
+      "Henry VII",
+      "John de la Pole, Earl of Lincoln"
+    ],
+    "warName": "Wars of the Roses",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-otumba",
+    "name": "Battle of Otumba",
+    "year": 1520,
+    "era": "medieval",
+    "location": {
+      "lat": 19.7,
+      "lng": -98.75
+    },
+    "tier": 3,
+    "description": "Cortes had just fled Tenochtitlan. His men were bleeding, exhausted, broken. Then a massive Aztec army materialized around them on the plain of Otumba. It should have been the end. Instead, Cortes spotted the enemy commander's standard, lowered his lance, and charged straight for it. The commander fell. The Aztec army evaporated. The conquest of Mexico had survived by the width of a lance blade.",
+    "belligerents": [
+      "Spanish Conquistadors",
+      "Aztec Empire"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Hernan Cortes",
+      "Matlatzincatzin"
+    ],
+    "troopStrength": {
+      "side1": 500,
+      "side2": 40000
+    },
+    "warName": "Spanish conquest of the Aztec Empire",
+    "significance": 3
+  },
+  {
+    "id": "fall-of-tenochtitlan",
+    "name": "Fall of Tenochtitlan",
+    "year": 1521,
+    "era": "medieval",
+    "location": {
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    "tier": 1,
+    "description": "Seventy-five days of siege around a city built on a lake. Cortes and his indigenous allies tore Tenochtitlan apart building by building, canal by canal. Over 100,000 people died. When it was over, one of the largest cities in the world -- with its floating gardens, its temples, its markets that made the Spanish gasp -- was rubble. Three centuries of Spanish rule began in the ashes of Aztec civilization.",
+    "belligerents": [
+      "Spanish Conquistadors",
+      "Tlaxcala",
+      "Aztec Empire"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Hernan Cortes",
+      "Cuauhtemoc"
+    ],
+    "troopStrength": {
+      "side1": 200000,
+      "side2": 300000
+    },
+    "warName": "Spanish conquest of the Aztec Empire",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-cajamarca",
+    "name": "Battle of Cajamarca",
+    "year": 1532,
+    "era": "medieval",
+    "location": {
+      "lat": -7.1617,
+      "lng": -78.5128
+    },
+    "tier": 1,
+    "description": "One hundred and sixty-eight Spaniards against eighty thousand Incas. Pizarro invited Atahualpa to a meeting, then opened fire. Cannons, horses, steel swords against an unarmed crowd. Thousands of Incas died. Not one Spaniard was killed. Atahualpa filled a room with gold as ransom. They executed him anyway. An entire empire destroyed by ambush, greed, and gunpowder.",
+    "belligerents": [
+      "Spanish Conquistadors",
+      "Inca Empire"
+    ],
+    "result": "Spanish victory",
+    "commanders": [
+      "Francisco Pizarro",
+      "Atahualpa"
+    ],
+    "troopStrength": {
+      "side1": 168,
+      "side2": 80000
+    },
+    "casualties": {
+      "side1": 0,
+      "side2": 7000
+    },
+    "warName": "Spanish conquest of the Inca Empire",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-chaldiran",
+    "name": "Battle of Chaldiran",
+    "year": 1514,
+    "era": "medieval",
+    "location": {
+      "lat": 39.0667,
+      "lng": 44.3667
+    },
+    "tier": 2,
+    "description": "Shah Ismail's Safavid cavalry were the finest horsemen in the Islamic world. Selim I's Ottomans had cannons and matchlocks. Technology won. The Safavid charges shattered against walls of gunpowder smoke and lead. Ismail, who had believed himself divinely protected, was never the same after Chaldiran. The Ottomans took eastern Anatolia and never gave it back.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Safavid Persia"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Selim I",
+      "Ismail I"
+    ],
+    "troopStrength": {
+      "side1": 100000,
+      "side2": 40000
+    },
+    "warName": "Ottoman-Safavid War",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-mohacs",
+    "name": "Battle of Mohacs",
+    "year": 1526,
+    "era": "medieval",
+    "location": {
+      "lat": 45.9833,
+      "lng": 18.6833
+    },
+    "tier": 1,
+    "description": "It took less than two hours. Suleiman the Magnificent's army swallowed the Hungarian force whole. King Louis II drowned in a stream trying to flee -- a stream. A king of Hungary, dead in a ditch of muddy water. The kingdom was carved into pieces. Ottoman power now reached the doorstep of Vienna.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Kingdom of Hungary"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Suleiman the Magnificent",
+      "Louis II of Hungary"
+    ],
+    "troopStrength": {
+      "side1": 55000,
+      "side2": 25000
+    },
+    "casualties": {
+      "side2": 14000
+    },
+    "warName": "Ottoman-Hungarian Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-ravenna-1512",
+    "name": "Battle of Ravenna",
+    "year": 1512,
+    "era": "medieval",
+    "location": {
+      "lat": 44.4167,
+      "lng": 12.2
+    },
+    "tier": 3,
+    "description": "Gaston de Foix won the battle and died in the pursuit, cut down at twenty-two years old while chasing fleeing Spaniards. The cannons at Ravenna had torn men apart in ways no one had seen before. It was a victory that felt like a funeral. The age of gunpowder warfare had arrived, and it was uglier than anyone imagined.",
+    "belligerents": [
+      "Kingdom of France",
+      "Holy League"
+    ],
+    "result": "French pyrrhic victory",
+    "commanders": [
+      "Gaston de Foix",
+      "Ramon de Cardona"
+    ],
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 20000
+    },
+    "casualties": {
+      "side1": 4500,
+      "side2": 9000
+    },
+    "warName": "War of the League of Cambrai",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-marignano",
+    "name": "Battle of Marignano",
+    "year": 1515,
+    "era": "medieval",
+    "location": {
+      "lat": 45.4,
+      "lng": 9.3
+    },
+    "tier": 2,
+    "description": "The Swiss hadn't lost a major battle in living memory. At Marignano, Francis I ended the streak in two days of brutal fighting. Ten thousand Swiss dead. The Swiss made peace and never fought an offensive war again. France owned Italy. The myth of Swiss invincibility was buried in Lombard mud.",
+    "belligerents": [
+      "Kingdom of France",
+      "Old Swiss Confederacy"
+    ],
+    "result": "French victory",
+    "commanders": [
+      "Francis I of France",
+      "Cardinal Schiner"
+    ],
+    "troopStrength": {
+      "side1": 30000,
+      "side2": 22000
+    },
+    "casualties": {
+      "side1": 5000,
+      "side2": 10000
+    },
+    "warName": "Italian Wars",
+    "significance": 2
+  },
+  {
+    "id": "siege-of-rhodes-1522",
+    "name": "Siege of Rhodes",
+    "year": 1522,
+    "era": "medieval",
+    "location": {
+      "lat": 36.4333,
+      "lng": 28.2167
+    },
+    "tier": 3,
+    "description": "Seven thousand Knights Hospitaller held Rhodes against two hundred thousand Ottomans for six months. Six months of bombardment, mining, assault, and desperate fighting. When the knights finally surrendered, Suleiman let them march out with their weapons and their honor. They sailed to Malta, where the Ottomans would find them again -- and wish they hadn't.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Knights Hospitaller"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Suleiman the Magnificent",
+      "Philippe Villiers de L'Isle-Adam"
+    ],
+    "troopStrength": {
+      "side1": 200000,
+      "side2": 7000
+    },
+    "warName": "Ottoman Wars",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-panipat-1526",
+    "name": "First Battle of Panipat",
+    "year": 1526,
+    "era": "medieval",
+    "location": {
+      "lat": 29.39,
+      "lng": 76.97
+    },
+    "tier": 1,
+    "description": "Babur was the descendant of both Genghis Khan and Tamerlane, and at Panipat he proved worthy of both names. Twelve thousand men with matchlocks and field guns against a hundred thousand Delhi warriors with elephants. The guns roared. The elephants panicked. Ibrahim Lodi died under the feet of his own stampeding army. The Mughal Empire was born.",
+    "belligerents": [
+      "Timurid-Mughal Forces",
+      "Delhi Sultanate"
+    ],
+    "result": "Mughal victory",
+    "commanders": [
+      "Babur",
+      "Ibrahim Lodi"
+    ],
+    "troopStrength": {
+      "side1": 12000,
+      "side2": 100000
+    },
+    "warName": "Mughal conquest of India",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-khanwa",
+    "name": "Battle of Khanwa",
+    "year": 1527,
+    "era": "medieval",
+    "location": {
+      "lat": 27.0,
+      "lng": 76.5
+    },
+    "tier": 2,
+    "description": "The Rajputs were legendary warriors. Rana Sanga led eighty thousand of them against Babur's twenty thousand. But Babur had matchlocks and artillery, and the Rajput cavalry charges dissolved in smoke and screaming horses. India's warrior aristocracy learned the same brutal lesson as every other cavalry force in the sixteenth century: you cannot charge guns and live.",
+    "belligerents": [
+      "Mughal Empire",
+      "Rajput Confederacy"
+    ],
+    "result": "Mughal victory",
+    "commanders": [
+      "Babur",
+      "Rana Sanga"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 80000
+    },
+    "warName": "Mughal conquest of India",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-flodden",
+    "name": "Battle of Flodden",
+    "year": 1513,
+    "era": "medieval",
+    "location": {
+      "lat": 55.6333,
+      "lng": -2.15
+    },
+    "tier": 2,
+    "description": "James IV of Scotland invaded England with the largest Scottish army ever assembled. The Earl of Surrey met him at Flodden and killed him -- the last British monarch to die in battle. Twelve thousand Scots fell with their king. An entire generation of Scottish leadership was wiped out in an afternoon.",
+    "belligerents": [
+      "Kingdom of England",
+      "Kingdom of Scotland"
+    ],
+    "result": "English victory",
+    "commanders": [
+      "Thomas Howard, Earl of Surrey",
+      "James IV of Scotland"
+    ],
+    "troopStrength": {
+      "side1": 26000,
+      "side2": 30000
+    },
+    "casualties": {
+      "side2": 12000
+    },
+    "warName": "Anglo-Scottish Wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-pavia",
+    "name": "Battle of Pavia",
+    "year": 1525,
+    "era": "medieval",
+    "location": {
+      "lat": 45.1833,
+      "lng": 9.15
+    },
+    "tier": 1,
+    "description": "Francis I, King of France, led a cavalry charge into the Spanish lines at Pavia and was pulled from his horse and captured. His famous letter to his mother said it all: 'All is lost save honor.' Spanish arquebusiers had proven that massed firearms could destroy any army that dared close to fighting range. The age of the armored knight was dead. Officially.",
+    "belligerents": [
+      "Holy Roman Empire (Spain)",
+      "Kingdom of France"
+    ],
+    "result": "Imperial-Spanish victory",
+    "commanders": [
+      "Charles de Lannoy",
+      "Francis I of France"
+    ],
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 28000
+    },
+    "casualties": {
+      "side1": 500,
+      "side2": 13000
+    },
+    "warName": "Italian Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-sekigahara",
+    "name": "Battle of Sekigahara",
+    "year": 1600,
+    "era": "medieval",
+    "location": {
+      "lat": 35.3656,
+      "lng": 136.4597
+    },
+    "tier": 1,
+    "description": "A hundred and fifty thousand samurai on a misty October morning, and the fate of Japan hanging on who betrayed whom first. When Kobayakawa's fifteen thousand men switched sides mid-battle, the western army collapsed. Tokugawa Ieyasu didn't just win Japan that day. He won two hundred and fifty years of peace. The Sengoku period's ocean of blood finally had a shore.",
+    "belligerents": [
+      "Eastern Army (Tokugawa)",
+      "Western Army (Ishida)"
+    ],
+    "result": "Eastern Army victory",
+    "commanders": [
+      "Tokugawa Ieyasu",
+      "Ishida Mitsunari"
+    ],
+    "troopStrength": {
+      "side1": 75000,
+      "side2": 80000
+    },
+    "warName": "Sengoku period unification",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-okehazama",
+    "name": "Battle of Okehazama",
+    "year": 1560,
+    "era": "medieval",
+    "location": {
+      "lat": 35.0333,
+      "lng": 136.9833
+    },
+    "tier": 2,
+    "description": "Nobunaga had three thousand men. Imagawa had twenty-five thousand. It was raining. Nobody attacks in those conditions against those odds. Nobunaga attacked. His men found Imagawa Yoshimoto in his camp during a thunderstorm and cut his head off. The most improbable victory in Japanese history launched the career of Japan's first great unifier.",
+    "belligerents": [
+      "Oda clan",
+      "Imagawa clan"
+    ],
+    "result": "Oda victory",
+    "commanders": [
+      "Oda Nobunaga",
+      "Imagawa Yoshimoto"
+    ],
+    "troopStrength": {
+      "side1": 3000,
+      "side2": 25000
+    },
+    "warName": "Sengoku period wars",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-kawanakajima",
+    "name": "Fourth Battle of Kawanakajima",
+    "year": 1561,
+    "era": "medieval",
+    "location": {
+      "lat": 36.5833,
+      "lng": 138.1667
+    },
+    "tier": 3,
+    "description": "Takeda Shingen and Uesugi Kenshin -- the Tiger and the Dragon -- finally met in their bloodiest clash on the plains of Kawanakajima. Kenshin himself reportedly rode into Shingen's command post and swung at him with a sword. Shingen deflected it with his iron war fan. Over seventy percent of the Takeda army became casualties. Neither side won. Both refused to quit.",
+    "belligerents": [
+      "Takeda clan",
+      "Uesugi clan"
+    ],
+    "result": "Tactically inconclusive",
+    "commanders": [
+      "Takeda Shingen",
+      "Uesugi Kenshin"
+    ],
+    "troopStrength": {
+      "side1": 20000,
+      "side2": 13000
+    },
+    "casualties": {
+      "side1": 4000,
+      "side2": 3000
+    },
+    "warName": "Sengoku period wars",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-osaka",
+    "name": "Siege of Osaka",
+    "year": 1615,
+    "era": "medieval",
+    "location": {
+      "lat": 34.6937,
+      "lng": 135.5022
+    },
+    "tier": 2,
+    "description": "Two hundred thousand Tokugawa soldiers surrounded the last Toyotomi stronghold. Osaka Castle, the greatest fortress in Japan, was reduced by treachery and cannon fire. Hideyori committed seppuku in the flames. The last opposition to Tokugawa rule was buried in the ashes. The Edo period of peace began with one final bonfire of the samurai age.",
+    "belligerents": [
+      "Tokugawa Shogunate",
+      "Toyotomi Loyalists"
+    ],
+    "result": "Tokugawa victory",
+    "commanders": [
+      "Tokugawa Ieyasu",
+      "Toyotomi Hideyori"
+    ],
+    "troopStrength": {
+      "side1": 200000,
+      "side2": 100000
+    },
+    "warName": "Osaka Campaign",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-the-hydaspes",
+    "name": "Japanese Invasions of Korea - Siege of Pyongyang",
+    "year": 1593,
+    "era": "medieval",
+    "location": {
+      "lat": 39.0194,
+      "lng": 125.7547
+    },
+    "tier": 3,
+    "description": "The Chinese Ming army stormed Pyongyang and drove the Japanese out in a day of fierce urban combat. Hideyoshi's invasion of Korea, which had seemed unstoppable, suddenly stalled. The Japanese had discovered what every invader of Asia eventually learns: China is always bigger than you think.",
+    "belligerents": [
+      "Ming Dynasty",
+      "Joseon Korea",
+      "Toyotomi Japan"
+    ],
+    "result": "Ming-Korean victory",
+    "commanders": [
+      "Li Rusong",
+      "Konishi Yukinaga"
+    ],
+    "troopStrength": {
+      "side1": 43000,
+      "side2": 15000
+    },
+    "warName": "Japanese invasions of Korea (Imjin War)",
+    "significance": 3
+  },
+  {
+    "id": "battle-of-noryang",
+    "name": "Battle of Noryang",
+    "year": 1598,
+    "era": "medieval",
+    "location": {
+      "lat": 34.9333,
+      "lng": 127.85
+    },
+    "tier": 2,
+    "description": "Yi Sun-sin died at the moment of his final victory. A stray bullet found him as his combined Korean-Ming fleet was destroying the retreating Japanese navy at Noryang. He told his son to keep his death secret until the battle was won. Korea's greatest hero died the way he lived -- thinking of his country's survival before his own.",
+    "belligerents": [
+      "Joseon Korea",
+      "Ming Dynasty",
+      "Toyotomi Japan"
+    ],
+    "result": "Korean-Ming victory",
+    "commanders": [
+      "Yi Sun-sin",
+      "Chen Lin",
+      "Shimazu Yoshihiro"
+    ],
+    "warName": "Japanese invasions of Korea (Imjin War)",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-myeongnyang",
+    "name": "Battle of Myeongnyang",
+    "year": 1597,
+    "era": "medieval",
+    "location": {
+      "lat": 34.5667,
+      "lng": 126.3
+    },
+    "tier": 2,
+    "description": "Thirteen ships. Yi Sun-sin had thirteen ships left. That's all that stood between Korea and annihilation. He sailed those thirteen ships into the Myeongnyang Strait, used the violent currents to funnel the Japanese fleet into a narrow killing zone, and destroyed thirty-one warships. Thirteen against three hundred and thirty-three. The greatest naval commander in history didn't need a fleet. He needed a strait.",
+    "belligerents": [
+      "Joseon Korea",
+      "Toyotomi Japan"
+    ],
+    "result": "Korean victory",
+    "commanders": [
+      "Yi Sun-sin",
+      "Todo Takatora"
+    ],
+    "troopStrength": {
+      "side1": 13,
+      "side2": 333
+    },
+    "warName": "Japanese invasions of Korea (Imjin War)",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-alcacer-quibir",
+    "name": "Battle of Alcacer Quibir (Three Kings)",
+    "year": 1578,
+    "era": "medieval",
+    "location": {
+      "lat": 35.0,
+      "lng": -5.5
+    },
+    "tier": 2,
+    "description": "Three kings rode into the battle of Alcacer Quibir. None rode out. Portugal's young King Sebastian, Morocco's deposed sultan, and the Saadi pretender all died on the same field. Sebastian's body was never conclusively found, spawning centuries of messianic legend. Portugal lost its independence to Spain. All because one reckless king wanted glory.",
+    "belligerents": [
+      "Kingdom of Portugal",
+      "Saadi Dynasty (Morocco)"
+    ],
+    "result": "Moroccan victory",
+    "commanders": [
+      "Sebastian I of Portugal",
+      "Ahmad al-Mansur"
+    ],
+    "troopStrength": {
+      "side1": 23000,
+      "side2": 50000
+    },
+    "casualties": {
+      "side1": 16000
+    },
+    "warName": "Portuguese-Moroccan conflict",
+    "significance": 2
+  },
+  {
+    "id": "battle-of-preveza",
+    "name": "Battle of Preveza",
+    "year": 1538,
+    "era": "medieval",
+    "location": {
+      "lat": 38.95,
+      "lng": 20.75
+    },
+    "tier": 3,
+    "description": "Hayreddin Barbarossa -- the most feared name in the Mediterranean -- broke a combined Christian fleet at Preveza and made the sea an Ottoman lake. For thirty years after, no Christian fleet dared challenge Ottoman naval power. The Mediterranean belonged to the sultan's admiral.",
+    "belligerents": [
+      "Ottoman Empire",
+      "Holy League"
+    ],
+    "result": "Ottoman victory",
+    "commanders": [
+      "Hayreddin Barbarossa",
+      "Andrea Doria"
+    ],
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 3
+  },
+  {
+    "id": "siege-of-malta-1565",
+    "name": "Great Siege of Malta",
+    "year": 1565,
+    "era": "medieval",
+    "location": {
+      "lat": 35.8997,
+      "lng": 14.5147
+    },
+    "tier": 1,
+    "description": "Six thousand Knights Hospitaller against forty thousand Ottomans, on a sun-scorched rock in the middle of the Mediterranean. Four months of siege. The Turks threw everything at Fort St. Elmo, which held for weeks when it should have fallen in days. When Spanish relief finally arrived, the Ottomans were spent. Malta held. Ottoman expansion in the western Mediterranean died on those walls.",
+    "belligerents": [
+      "Knights Hospitaller",
+      "Ottoman Empire"
+    ],
+    "result": "Christian victory",
+    "commanders": [
+      "Jean de Valette",
+      "Mustafa Pasha",
+      "Piyale Pasha"
+    ],
+    "troopStrength": {
+      "side1": 6000,
+      "side2": 40000
+    },
+    "casualties": {
+      "side1": 2500,
+      "side2": 20000
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 1
+  },
+  {
+    "id": "battle-of-lepanto",
+    "name": "Battle of Lepanto",
+    "year": 1571,
+    "era": "medieval",
+    "location": {
+      "lat": 38.4,
+      "lng": 21.1
+    },
+    "tier": 1,
+    "description": "The last great battle of the oared galley. Two hundred thousand men in four hundred ships, crashing into each other in the Gulf of Patras. Don John of Austria broke the Ottoman fleet apart. Thirty thousand Ottomans died. Twelve thousand Christian galley slaves broke their chains and joined the fight. The myth of Ottoman naval invincibility sank beneath the waves. Christendom celebrated like it was the end of the world. In a way, it was the end of an old one.",
+    "belligerents": [
+      "Holy League",
+      "Ottoman Empire"
+    ],
+    "result": "Holy League victory",
+    "commanders": [
+      "Don John of Austria",
+      "Ali Pasha"
+    ],
+    "troopStrength": {
+      "side1": 84000,
+      "side2": 88000
+    },
+    "casualties": {
+      "side1": 7500,
+      "side2": 30000
+    },
+    "warName": "Ottoman-Habsburg Wars",
+    "significance": 1
+  }
+]
