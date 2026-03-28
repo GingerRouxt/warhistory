@@ -6,11 +6,14 @@ import {
   ScreenSpaceEventHandler,
   ScreenSpaceEventType,
   defined,
-  SceneTransforms,
   Cartesian2,
+  Cartographic,
+  Math as CesiumMath,
+  NearFarScalar,
 } from 'cesium'
 import type { Battle, EraId } from '../types/battle'
 import { useGlobe } from './GlobeContext'
+import { SpatialIndex } from '../utils/spatial'
 
 // --- Era colors ---
 const ERA_COLORS: Record<EraId, Color> = {
@@ -34,6 +37,14 @@ interface BattleLayerProps {
   startYear: number
   endYear: number
   onSelectBattle: (battle: Battle) => void
+  onHoverBattle?: (battle: Battle | null, screenX: number, screenY: number) => void
+}
+
+/** Haversine distance in degrees (approximate, sufficient for proximity) */
+function degDistance(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const dlat = lat1 - lat2
+  const dlng = lng1 - lng2
+  return Math.sqrt(dlat * dlat + dlng * dlng)
 }
 
 export default function BattleLayer({
@@ -41,42 +52,64 @@ export default function BattleLayer({
   startYear,
   endYear,
   onSelectBattle,
+  onHoverBattle,
 }: BattleLayerProps) {
   const { viewer } = useGlobe()
   const collectionRef = useRef<PointPrimitiveCollection | null>(null)
   const handlerRef = useRef<ScreenSpaceEventHandler | null>(null)
-  const tooltipRef = useRef<HTMLDivElement | null>(null)
-  // Map from point index to battle for click/hover resolution
   const indexMapRef = useRef<Map<number, Battle>>(new Map())
+  const spatialRef = useRef<SpatialIndex>(new SpatialIndex())
 
   // Filter battles by time window
   const visibleBattles = useMemo(() => {
     return battles.filter((b) => b.year >= startYear && b.year <= endYear)
   }, [battles, startYear, endYear])
 
-  // Create or get tooltip element
-  const getTooltip = useCallback(() => {
-    if (tooltipRef.current) return tooltipRef.current
-    const el = document.createElement('div')
-    el.style.cssText = `
-      position: fixed;
-      pointer-events: none;
-      background: rgba(10, 10, 15, 0.9);
-      color: #f5e6c8;
-      padding: 6px 12px;
-      border-radius: 4px;
-      font-size: 13px;
-      font-family: system-ui, sans-serif;
-      border: 1px solid rgba(245, 230, 200, 0.2);
-      z-index: 10000;
-      display: none;
-      max-width: 260px;
-      backdrop-filter: blur(4px);
-    `
-    document.body.appendChild(el)
-    tooltipRef.current = el
-    return el
-  }, [])
+  // Build spatial index whenever visible battles change
+  useMemo(() => {
+    const idx = new SpatialIndex()
+    idx.build(visibleBattles)
+    spatialRef.current = idx
+    return idx
+  }, [visibleBattles])
+
+  // Pick battle by converting screen coords to globe coords, then spatial query
+  const pickBattleByProximity = useCallback(
+    (screenPos: Cartesian2): Battle | null => {
+      if (!viewer || viewer.isDestroyed()) return null
+
+      const ellipsoid = viewer.scene.globe.ellipsoid
+      const cartesian = viewer.camera.pickEllipsoid(screenPos, ellipsoid)
+      if (!cartesian) return null
+
+      const carto = Cartographic.fromCartesian(cartesian, ellipsoid)
+      const lat = CesiumMath.toDegrees(carto.latitude)
+      const lng = CesiumMath.toDegrees(carto.longitude)
+
+      const nearby = spatialRef.current.queryNearby(lat, lng)
+      if (nearby.length === 0) return null
+
+      // Find closest within the nearby set
+      // Determine a reasonable threshold based on camera altitude
+      const cameraHeight = viewer.camera.positionCartographic.height
+      // Roughly: 1 degree ~ 111km, threshold scales with altitude
+      const thresholdDeg = Math.max(0.5, cameraHeight / 111000 * 0.02)
+
+      let closest: Battle | null = null
+      let closestDist = thresholdDeg
+
+      for (const b of nearby) {
+        const dist = degDistance(lat, lng, b.location.lat, b.location.lng)
+        if (dist < closestDist) {
+          closestDist = dist
+          closest = b
+        }
+      }
+
+      return closest
+    },
+    [viewer],
+  )
 
   // Build point primitives when visible battles or viewer changes
   useEffect(() => {
@@ -102,6 +135,7 @@ export default function BattleLayer({
         outlineColor: Color.BLACK.withAlpha(0.6),
         outlineWidth: 1,
         disableDepthTestDistance: Number.POSITIVE_INFINITY,
+        scaleByDistance: new NearFarScalar(1e4, 1.5, 8e6, 0.3),
       })
       idxMap.set(i, battle)
     }
@@ -110,7 +144,6 @@ export default function BattleLayer({
     collectionRef.current = collection
     indexMapRef.current = idxMap
 
-    // Request a render since we're in requestRenderMode
     scene.requestRender()
 
     return () => {
@@ -125,60 +158,26 @@ export default function BattleLayer({
   useEffect(() => {
     if (!viewer || viewer.isDestroyed()) return
 
-    const tooltip = getTooltip()
     const handler = new ScreenSpaceEventHandler(viewer.scene.canvas)
     handlerRef.current = handler
 
-    // Find battle near a screen position
+    // Find battle near a screen position using scene.pick first, then spatial fallback
     const pickBattle = (position: Cartesian2): Battle | null => {
       const collection = collectionRef.current
       if (!collection) return null
 
-      // Use scene.pick for point primitives
       const picked = viewer.scene.pick(position)
       if (defined(picked) && picked.primitive instanceof PointPrimitiveCollection) {
-        // Find the index of the picked point in our collection
         const pointPrimitive = picked.id ?? picked.primitive
-        // Iterate to find which point was picked
         for (const [idx, battle] of indexMapRef.current.entries()) {
           const point = collection.get(idx)
           if (point === picked.primitive || point === pointPrimitive) {
             return battle
           }
         }
-        // Fallback: proximity-based picking
-        return pickBattleByProximity(position)
       }
+      // Spatial index fallback
       return pickBattleByProximity(position)
-    }
-
-    // Proximity-based picking fallback
-    const pickBattleByProximity = (screenPos: Cartesian2): Battle | null => {
-      const collection = collectionRef.current
-      if (!collection) return null
-
-      let closest: Battle | null = null
-      let closestDist = 20 // max pixel distance threshold
-
-      for (const [idx, battle] of indexMapRef.current.entries()) {
-        const point = collection.get(idx)
-        if (!point || !point.position) continue
-
-        const pointScreen = SceneTransforms.worldToWindowCoordinates(
-          viewer.scene,
-          point.position,
-        )
-        if (!pointScreen) continue
-
-        const dx = pointScreen.x - screenPos.x
-        const dy = pointScreen.y - screenPos.y
-        const dist = Math.sqrt(dx * dx + dy * dy)
-        if (dist < closestDist) {
-          closestDist = dist
-          closest = battle
-        }
-      }
-      return closest
     }
 
     // Click handler
@@ -189,19 +188,15 @@ export default function BattleLayer({
       }
     }, ScreenSpaceEventType.LEFT_CLICK)
 
-    // Hover handler
+    // Hover handler — emit via callback, parent renders tooltip as React
     handler.setInputAction((event: { endPosition: Cartesian2 }) => {
+      if (!onHoverBattle) return
       const battle = pickBattleByProximity(event.endPosition)
-      if (battle) {
-        tooltip.style.display = 'block'
-        tooltip.style.left = `${event.endPosition.x + 16}px`
-        tooltip.style.top = `${event.endPosition.y - 12}px`
-
-        const yearDisplay = battle.year < 0 ? `${Math.abs(battle.year)} BC` : `${battle.year} AD`
-        tooltip.innerHTML = `<strong>${battle.name}</strong><br/><span style="opacity:0.7">${yearDisplay}</span>`
-      } else {
-        tooltip.style.display = 'none'
-      }
+      onHoverBattle(
+        battle,
+        event.endPosition.x,
+        event.endPosition.y,
+      )
     }, ScreenSpaceEventType.MOUSE_MOVE)
 
     return () => {
@@ -209,20 +204,9 @@ export default function BattleLayer({
         handler.destroy()
       }
       handlerRef.current = null
-      tooltip.style.display = 'none'
     }
-  }, [viewer, onSelectBattle, getTooltip])
+  }, [viewer, onSelectBattle, onHoverBattle, pickBattleByProximity])
 
-  // Cleanup tooltip on unmount
-  useEffect(() => {
-    return () => {
-      if (tooltipRef.current) {
-        document.body.removeChild(tooltipRef.current)
-        tooltipRef.current = null
-      }
-    }
-  }, [])
-
-  // This component renders nothing to the React tree — it's fully imperative
+  // This component renders nothing to the React tree
   return null
 }

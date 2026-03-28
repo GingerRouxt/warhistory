@@ -1,7 +1,8 @@
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useState, useMemo, useCallback } from 'react'
+import type { Battle } from '../types/battle'
 import erasData from '../data/eras.json'
 
-interface FilterPanelProps {
+export interface FilterPanelProps {
   eras: string[]
   onErasChange: (eras: string[]) => void
   biblicalOnly: boolean
@@ -11,6 +12,17 @@ interface FilterPanelProps {
   isOpen: boolean
   onToggle: () => void
   battleCount: number
+  /** New: all battles for commander autocomplete and Near Me */
+  allBattles?: Battle[]
+  /** New: commander filter */
+  commander?: string
+  onCommanderChange?: (commander: string) => void
+  /** New: result filter */
+  resultFilter?: string
+  onResultFilterChange?: (result: string) => void
+  /** New: near me filter */
+  nearMeActive?: boolean
+  onNearMeToggle?: () => void
 }
 
 const ERA_COLORS: Record<string, string> = {}
@@ -56,8 +68,18 @@ export function FilterPanel({
   isOpen,
   onToggle,
   battleCount,
+  allBattles = [],
+  commander = '',
+  onCommanderChange,
+  resultFilter = '',
+  onResultFilterChange,
+  nearMeActive = false,
+  onNearMeToggle,
 }: FilterPanelProps) {
   const inputRef = useRef<HTMLInputElement>(null)
+  const commanderInputRef = useRef<HTMLInputElement>(null)
+  const [commanderQuery, setCommanderQuery] = useState(commander)
+  const [showCommanderDropdown, setShowCommanderDropdown] = useState(false)
 
   useEffect(() => {
     if (isOpen && inputRef.current) {
@@ -65,6 +87,31 @@ export function FilterPanel({
       return () => clearTimeout(timer)
     }
   }, [isOpen])
+
+  // Sync external commander prop
+  useEffect(() => {
+    setCommanderQuery(commander)
+  }, [commander])
+
+  // Extract unique commander names from battles
+  const allCommanders = useMemo(() => {
+    const names = new Set<string>()
+    for (const b of allBattles) {
+      if (b.commanders) {
+        for (const c of b.commanders) {
+          if (c) names.add(c)
+        }
+      }
+    }
+    return Array.from(names).sort()
+  }, [allBattles])
+
+  // Commander autocomplete suggestions
+  const commanderSuggestions = useMemo(() => {
+    if (!commanderQuery || commanderQuery.length < 1) return []
+    const q = commanderQuery.toLowerCase()
+    return allCommanders.filter((c) => c.toLowerCase().includes(q)).slice(0, 8)
+  }, [commanderQuery, allCommanders])
 
   function handleEraToggle(eraId: string) {
     if (eras.includes(eraId)) {
@@ -80,6 +127,59 @@ export function FilterPanel({
     } else {
       onErasChange([...ERA_IDS])
     }
+  }
+
+  function handleCommanderSelect(name: string) {
+    setCommanderQuery(name)
+    setShowCommanderDropdown(false)
+    onCommanderChange?.(name)
+  }
+
+  function handleCommanderClear() {
+    setCommanderQuery('')
+    setShowCommanderDropdown(false)
+    onCommanderChange?.('')
+  }
+
+  // Handle prefix operators in search
+  const handleSearchChange = useCallback(
+    (value: string) => {
+      // Check prefix operators
+      if (value.startsWith('commander:')) {
+        const name = value.slice('commander:'.length).trim()
+        onCommanderChange?.(name)
+        setCommanderQuery(name)
+        return
+      }
+      if (value.startsWith('war:')) {
+        // Pass through as search — parent can parse warName filter
+        onSearchChange(value)
+        return
+      }
+      if (value.startsWith('year:')) {
+        // Pass through as search — parent can parse year jump
+        onSearchChange(value)
+        return
+      }
+      onSearchChange(value)
+    },
+    [onSearchChange, onCommanderChange],
+  )
+
+  function handleNearMe() {
+    if (nearMeActive) {
+      onNearMeToggle?.()
+      return
+    }
+    if (!navigator.geolocation) return
+    navigator.geolocation.getCurrentPosition(
+      () => {
+        onNearMeToggle?.()
+      },
+      () => {
+        // Geolocation denied or unavailable
+      },
+    )
   }
 
   const allSelected = eras.length === ERA_IDS.length
@@ -207,8 +307,8 @@ export function FilterPanel({
                   ref={inputRef}
                   type="text"
                   value={searchQuery}
-                  onChange={(e) => onSearchChange(e.target.value)}
-                  placeholder="Battle, nation, location..."
+                  onChange={(e) => handleSearchChange(e.target.value)}
+                  placeholder="Search or commander: war: year:"
                   className="w-full text-sm rounded-lg pl-9 pr-3 py-2 outline-none transition-colors duration-200"
                   style={{
                     background: 'rgba(255, 255, 255, 0.04)',
@@ -252,6 +352,162 @@ export function FilterPanel({
                   </button>
                 )}
               </div>
+            </div>
+
+            <Divider />
+
+            {/* Commander filter */}
+            <div className="mb-5">
+              <SectionLabel>Commander</SectionLabel>
+              <div className="relative">
+                <input
+                  ref={commanderInputRef}
+                  type="text"
+                  value={commanderQuery}
+                  onChange={(e) => {
+                    setCommanderQuery(e.target.value)
+                    setShowCommanderDropdown(true)
+                  }}
+                  onFocus={() => setShowCommanderDropdown(true)}
+                  onBlur={() => {
+                    // Delay to allow click on dropdown
+                    setTimeout(() => setShowCommanderDropdown(false), 200)
+                  }}
+                  placeholder="Search commanders..."
+                  className="w-full text-sm rounded-lg px-3 py-2 outline-none transition-colors duration-200"
+                  style={{
+                    background: 'rgba(255, 255, 255, 0.04)',
+                    border: '1px solid rgba(212, 160, 23, 0.15)',
+                    color: 'rgba(220, 220, 230, 0.9)',
+                    fontFamily: 'var(--font-family-body)',
+                  }}
+                />
+                {commanderQuery && (
+                  <button
+                    onClick={handleCommanderClear}
+                    className="absolute right-2 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center rounded-full cursor-pointer"
+                    style={{
+                      background: 'rgba(255, 255, 255, 0.08)',
+                      color: 'rgba(200, 200, 210, 0.5)',
+                    }}
+                    aria-label="Clear commander"
+                  >
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+                      <path d="M1 1l6 6M7 1L1 7" />
+                    </svg>
+                  </button>
+                )}
+                {/* Autocomplete dropdown */}
+                {showCommanderDropdown && commanderSuggestions.length > 0 && (
+                  <div
+                    className="absolute left-0 right-0 mt-1 rounded-lg overflow-hidden z-50"
+                    style={{
+                      background: 'rgba(15, 15, 30, 0.95)',
+                      backdropFilter: 'blur(12px)',
+                      border: '1px solid rgba(212, 160, 23, 0.2)',
+                      boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+                    }}
+                  >
+                    {commanderSuggestions.map((name) => (
+                      <button
+                        key={name}
+                        onMouseDown={(e) => e.preventDefault()}
+                        onClick={() => handleCommanderSelect(name)}
+                        className="w-full text-left px-3 py-2 text-sm transition-colors duration-150 cursor-pointer"
+                        style={{
+                          color: 'rgba(220, 220, 230, 0.8)',
+                          fontFamily: 'var(--font-family-body)',
+                          background: 'transparent',
+                          border: 'none',
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.background = 'rgba(212, 160, 23, 0.1)'
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.background = 'transparent'
+                        }}
+                      >
+                        {name}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <Divider />
+
+            {/* Result filter */}
+            <div className="mb-5">
+              <SectionLabel>Result</SectionLabel>
+              <select
+                value={resultFilter}
+                onChange={(e) => onResultFilterChange?.(e.target.value)}
+                className="w-full text-sm rounded-lg px-3 py-2 outline-none transition-colors duration-200 cursor-pointer"
+                style={{
+                  background: 'rgba(255, 255, 255, 0.04)',
+                  border: '1px solid rgba(212, 160, 23, 0.15)',
+                  color: 'rgba(220, 220, 230, 0.9)',
+                  fontFamily: 'var(--font-family-body)',
+                  appearance: 'none',
+                  WebkitAppearance: 'none',
+                  backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23d4a017' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`,
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'right 12px center',
+                  paddingRight: 32,
+                }}
+              >
+                <option value="" style={{ background: '#1a1a2e' }}>All Results</option>
+                <option value="victory" style={{ background: '#1a1a2e' }}>Victory</option>
+                <option value="defeat" style={{ background: '#1a1a2e' }}>Defeat</option>
+                <option value="inconclusive" style={{ background: '#1a1a2e' }}>Inconclusive</option>
+              </select>
+            </div>
+
+            <Divider />
+
+            {/* Near Me button */}
+            <div className="mb-5">
+              <button
+                onClick={handleNearMe}
+                className="w-full flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 cursor-pointer transition-all duration-200"
+                style={{
+                  background: nearMeActive
+                    ? 'rgba(212, 160, 23, 0.12)'
+                    : 'rgba(255, 255, 255, 0.03)',
+                  border: `1px solid ${
+                    nearMeActive
+                      ? 'rgba(212, 160, 23, 0.35)'
+                      : 'rgba(212, 160, 23, 0.1)'
+                  }`,
+                }}
+                onMouseEnter={(e) => {
+                  if (!nearMeActive) {
+                    e.currentTarget.style.borderColor = 'rgba(212, 160, 23, 0.25)'
+                    e.currentTarget.style.background = 'rgba(212, 160, 23, 0.06)'
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!nearMeActive) {
+                    e.currentTarget.style.borderColor = 'rgba(212, 160, 23, 0.1)'
+                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.03)'
+                  }
+                }}
+              >
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke={nearMeActive ? 'var(--color-war-gold)' : 'rgba(200, 200, 210, 0.5)'} strokeWidth="1.5" strokeLinecap="round">
+                  <circle cx="8" cy="8" r="3" />
+                  <path d="M8 1v2M8 13v2M1 8h2M13 8h2" />
+                </svg>
+                <span
+                  className="text-sm"
+                  style={{
+                    fontFamily: 'var(--font-family-body)',
+                    color: nearMeActive ? 'var(--color-war-gold)' : 'rgba(200, 200, 210, 0.7)',
+                  }}
+                >
+                  {nearMeActive ? 'Near Me (Active)' : 'Near Me'}
+                </span>
+              </button>
             </div>
 
             <Divider />

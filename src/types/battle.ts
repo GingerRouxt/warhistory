@@ -23,6 +23,14 @@ export interface Battle {
   result?: string
   biblical?: boolean
   scriptureRef?: string
+  commanders?: [string, string]
+  casualties?: { side1?: number; side2?: number; total?: number }
+  troopStrength?: {
+    side1?: number
+    side2?: number
+  }
+  warName?: string
+  significance?: 1 | 2 | 3 // 1=changed history, 2=changed a war, 3=tactical
 }
 
 export interface Era {

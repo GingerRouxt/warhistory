@@ -88,3 +88,118 @@ html, body, #root {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(212, 160, 23, 0.5);
 }
+
+/* ============================================
+   100X UPGRADE — Animation Library
+   ============================================ */
+
+/* Shimmer border animation */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* Floating bobbing motion */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Pulsing gold glow */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(212, 160, 23, 0.2), 0 0 20px rgba(212, 160, 23, 0.05); }
+  50% { box-shadow: 0 0 16px rgba(212, 160, 23, 0.4), 0 0 40px rgba(212, 160, 23, 0.1); }
+}
+
+/* Text glow pulse */
+@keyframes text-glow {
+  0%, 100% { text-shadow: 0 0 10px rgba(212, 160, 23, 0.3), 0 0 30px rgba(212, 160, 23, 0.1); }
+  50% { text-shadow: 0 0 20px rgba(212, 160, 23, 0.5), 0 0 50px rgba(212, 160, 23, 0.2); }
+}
+
+/* Slide up entrance */
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scale in */
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Radial ring expansion (for battle clash) */
+@keyframes ring-expand {
+  0% { transform: scale(0); opacity: 1; }
+  100% { transform: scale(3); opacity: 0; }
+}
+
+/* Particle drift */
+@keyframes drift {
+  0% { transform: translate(0, 0) rotate(0deg); opacity: 0; }
+  10% { opacity: 0.3; }
+  90% { opacity: 0.3; }
+  100% { transform: translate(var(--drift-x, 40px), var(--drift-y, -60px)) rotate(180deg); opacity: 0; }
+}
+
+/* ============================================
+   Elevation System
+   ============================================ */
+
+.elevation-1 {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.elevation-2 {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.elevation-3 {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+.text-glow {
+  animation: text-glow 3s ease-in-out infinite;
+}
+
+.border-shimmer {
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(212, 160, 23, 0.4) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+.glass-panel-hover {
+  background: var(--color-war-panel);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--color-war-panel-border);
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  transform: translateY(-2px);
+  border-color: rgba(212, 160, 23, 0.4);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 160, 23, 0.08);
+}
+
+/* Gold focus ring for interactive elements */
+.focus-gold:focus-visible {
+  outline: 2px solid rgba(212, 160, 23, 0.6);
+  outline-offset: 2px;
+}
+
+/* Smooth scroll for panels */
+.smooth-scroll {
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+}

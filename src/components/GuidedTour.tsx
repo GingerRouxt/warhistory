@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import type { Battle } from '../types/battle'
+import { formatYear } from '../utils/format'
+import erasData from '../data/eras.json'
 
 export interface GuidedTourProps {
   battles: Battle[]
@@ -10,6 +12,11 @@ export interface GuidedTourProps {
 
 const AUTO_ADVANCE_DELAY = 6000 // ms between auto-advance
 
+const ERA_META: Record<string, { name: string; color: string }> = {}
+for (const era of erasData) {
+  ERA_META[era.id] = { name: era.name, color: era.color }
+}
+
 /**
  * Glass-panel overlay that provides guided tour mode through a sequence of battles.
  * Auto-plays through battles with prev/next controls and a progress bar.
@@ -18,7 +25,10 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
   const [currentIndex, setCurrentIndex] = useState(0)
   const [autoPlay, setAutoPlay] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
+  const [countdownProgress, setCountdownProgress] = useState(0)
   const autoPlayTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const countdownRef = useRef<number>(0)
+  const countdownStartRef = useRef<number>(0)
 
   // Animate in
   useEffect(() => {
@@ -72,6 +82,32 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
     }
   }, [autoPlay, isActive, currentIndex, battles.length, goNext])
 
+  // Countdown ring animation
+  useEffect(() => {
+    if (countdownRef.current) cancelAnimationFrame(countdownRef.current)
+
+    if (autoPlay && isActive && currentIndex < battles.length - 1) {
+      countdownStartRef.current = performance.now()
+      setCountdownProgress(0)
+
+      const tick = () => {
+        const elapsed = performance.now() - countdownStartRef.current
+        const progress = Math.min(elapsed / AUTO_ADVANCE_DELAY, 1)
+        setCountdownProgress(progress)
+        if (progress < 1) {
+          countdownRef.current = requestAnimationFrame(tick)
+        }
+      }
+      countdownRef.current = requestAnimationFrame(tick)
+    } else {
+      setCountdownProgress(0)
+    }
+
+    return () => {
+      if (countdownRef.current) cancelAnimationFrame(countdownRef.current)
+    }
+  }, [autoPlay, isActive, currentIndex, battles.length])
+
   // Keyboard navigation
   useEffect(() => {
     if (!isActive) return
@@ -97,6 +133,24 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
 
   const battle = battles[currentIndex]
   const progress = battles.length > 1 ? currentIndex / (battles.length - 1) : 1
+  const eraMeta = ERA_META[battle.era]
+
+  // Progress dots: max 20 visible, with ellipsis in middle if more
+  const totalDots = battles.length
+  const MAX_DOTS = 20
+  let dotIndices: (number | 'ellipsis')[]
+  if (totalDots <= MAX_DOTS) {
+    dotIndices = Array.from({ length: totalDots }, (_, i) => i)
+  } else {
+    const first = Array.from({ length: 10 }, (_, i) => i)
+    const last = Array.from({ length: 10 }, (_, i) => totalDots - 10 + i)
+    dotIndices = [...first, 'ellipsis' as const, ...last]
+  }
+
+  // SVG countdown ring params
+  const ringRadius = 12
+  const ringCircumference = 2 * Math.PI * ringRadius
+  const ringOffset = ringCircumference * (1 - countdownProgress)
 
   return (
     <div
@@ -115,7 +169,7 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
         }}
       >
         {/* Header row */}
-        <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center justify-between mb-2">
           <div className="flex-1 min-w-0">
             <h2
               className="text-base leading-tight truncate"
@@ -127,15 +181,40 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
             >
               {battle.name}
             </h2>
-            <p
-              className="text-xs mt-1"
-              style={{
-                fontFamily: 'var(--font-family-body)',
-                color: 'rgba(200, 200, 210, 0.6)',
-              }}
-            >
-              Battle {currentIndex + 1} of {battles.length}
-            </p>
+            {/* Mini battle info */}
+            <div className="flex items-center gap-2 mt-1">
+              <span
+                className="text-xs"
+                style={{
+                  fontFamily: 'var(--font-family-body)',
+                  color: 'rgba(200, 200, 210, 0.6)',
+                }}
+              >
+                {formatYear(battle.year)}
+              </span>
+              {eraMeta && (
+                <span className="flex items-center gap-1">
+                  <span
+                    className="inline-block w-2 h-2 rounded-full"
+                    style={{ background: eraMeta.color }}
+                  />
+                  <span
+                    className="text-[10px]"
+                    style={{ color: eraMeta.color }}
+                  >
+                    {eraMeta.name}
+                  </span>
+                </span>
+              )}
+            </div>
+            {battle.belligerents && (
+              <p
+                className="text-[10px] mt-0.5 truncate"
+                style={{ color: 'rgba(200, 200, 210, 0.4)' }}
+              >
+                {battle.belligerents[0]} vs {battle.belligerents[1]}
+              </p>
+            )}
           </div>
 
           {/* Close button */}
@@ -161,6 +240,42 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
               <path d="M1 1l12 12M13 1L1 13" />
             </svg>
           </button>
+        </div>
+
+        {/* Progress dots */}
+        <div className="flex items-center justify-center gap-1 mb-3 flex-wrap" style={{ minHeight: 12 }}>
+          {dotIndices.map((idx, i) => {
+            if (idx === 'ellipsis') {
+              return (
+                <span
+                  key={`ellipsis-${i}`}
+                  className="text-[10px] px-0.5"
+                  style={{ color: 'rgba(200, 200, 210, 0.3)' }}
+                >
+                  ...
+                </span>
+              )
+            }
+            const isCurrent = idx === currentIndex
+            return (
+              <button
+                key={idx}
+                onClick={() => setCurrentIndex(idx)}
+                className="rounded-full transition-all duration-200 cursor-pointer"
+                style={{
+                  width: isCurrent ? 8 : 6,
+                  height: isCurrent ? 8 : 6,
+                  background: isCurrent
+                    ? 'var(--color-war-gold)'
+                    : 'rgba(200, 200, 210, 0.2)',
+                  border: 'none',
+                  padding: 0,
+                  boxShadow: isCurrent ? '0 0 6px rgba(212, 160, 23, 0.5)' : 'none',
+                }}
+                aria-label={`Go to battle ${idx + 1}`}
+              />
+            )
+          })}
         </div>
 
         {/* Progress bar */}
@@ -196,23 +311,55 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
               </svg>
             </TourButton>
 
-            {/* Auto-play toggle */}
-            <TourButton
-              onClick={() => setAutoPlay((prev) => !prev)}
-              ariaLabel={autoPlay ? 'Pause auto-advance' : 'Start auto-advance'}
-              active={autoPlay}
-            >
-              {autoPlay ? (
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
-                  <rect x="2" y="1" width="3" height="10" rx="0.5" />
-                  <rect x="7" y="1" width="3" height="10" rx="0.5" />
-                </svg>
-              ) : (
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
-                  <path d="M2.5 1.5l8 4.5-8 4.5V1.5z" />
+            {/* Auto-play toggle with countdown ring */}
+            <div className="relative" style={{ width: 32, height: 32 }}>
+              {autoPlay && (
+                <svg
+                  className="absolute inset-0"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  style={{ transform: 'rotate(-90deg)' }}
+                >
+                  <circle
+                    cx="16"
+                    cy="16"
+                    r={ringRadius}
+                    fill="none"
+                    stroke="rgba(212, 160, 23, 0.15)"
+                    strokeWidth="2"
+                  />
+                  <circle
+                    cx="16"
+                    cy="16"
+                    r={ringRadius}
+                    fill="none"
+                    stroke="var(--color-war-gold)"
+                    strokeWidth="2"
+                    strokeDasharray={ringCircumference}
+                    strokeDashoffset={ringOffset}
+                    strokeLinecap="round"
+                    style={{ transition: 'stroke-dashoffset 0.1s linear' }}
+                  />
                 </svg>
               )}
-            </TourButton>
+              <TourButton
+                onClick={() => setAutoPlay((prev) => !prev)}
+                ariaLabel={autoPlay ? 'Pause auto-advance' : 'Start auto-advance'}
+                active={autoPlay}
+              >
+                {autoPlay ? (
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                    <rect x="2" y="1" width="3" height="10" rx="0.5" />
+                    <rect x="7" y="1" width="3" height="10" rx="0.5" />
+                  </svg>
+                ) : (
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                    <path d="M2.5 1.5l8 4.5-8 4.5V1.5z" />
+                  </svg>
+                )}
+              </TourButton>
+            </div>
 
             {/* Next */}
             <TourButton
@@ -226,7 +373,7 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
             </TourButton>
           </div>
 
-          {/* Battle year */}
+          {/* Battle counter */}
           <span
             className="text-xs"
             style={{
@@ -234,7 +381,7 @@ export function GuidedTour({ battles, isActive, onBattleSelect, onClose }: Guide
               color: 'rgba(212, 160, 23, 0.6)',
             }}
           >
-            {battle.year < 0 ? `${Math.abs(battle.year)} BCE` : `${battle.year} CE`}
+            {currentIndex + 1} / {battles.length}
           </span>
         </div>
       </div>

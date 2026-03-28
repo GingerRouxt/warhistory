@@ -4,7 +4,10 @@ import {
   Color,
   PolylineCollection,
   PointPrimitiveCollection,
+  LabelCollection,
   NearFarScalar,
+  Cartesian2,
+  VerticalOrigin,
 } from 'cesium'
 import { useGlobe } from './GlobeContext'
 import type { Battle } from '../types/battle'
@@ -18,11 +21,14 @@ export interface CampaignTraceProps {
 /**
  * Draws an animated polyline on the globe connecting battles in a campaign.
  * The line grows from battle to battle like tracing a route on a map.
+ * Includes glow trail, battle name labels, and larger point markers.
  */
 export function CampaignTrace({ battles, isActive, color = '#d4a017' }: CampaignTraceProps) {
   const { viewer } = useGlobe()
   const polylineCollectionRef = useRef<PolylineCollection | null>(null)
+  const glowPolylineCollectionRef = useRef<PolylineCollection | null>(null)
   const pointCollectionRef = useRef<PointPrimitiveCollection | null>(null)
+  const labelCollectionRef = useRef<LabelCollection | null>(null)
   const animFrameRef = useRef<number | null>(null)
   const segmentIndexRef = useRef(0)
   const progressRef = useRef(0)
@@ -35,35 +41,58 @@ export function CampaignTrace({ battles, isActive, color = '#d4a017' }: Campaign
 
     const cesiumColor = Color.fromCssColorString(color)
     const trailColor = cesiumColor.withAlpha(0.6)
+    const glowColor = cesiumColor.withAlpha(0.2)
+    const labelColor = Color.fromCssColorString('#d4a017') // gold
 
     // Create collections
+    const glowPolylines = new PolylineCollection()
     const polylines = new PolylineCollection()
     const points = new PointPrimitiveCollection()
+    const labels = new LabelCollection()
+    viewer.scene.primitives.add(glowPolylines)
     viewer.scene.primitives.add(polylines)
     viewer.scene.primitives.add(points)
+    viewer.scene.primitives.add(labels)
+    glowPolylineCollectionRef.current = glowPolylines
     polylineCollectionRef.current = polylines
     pointCollectionRef.current = points
+    labelCollectionRef.current = labels
 
     // Place a marker at the first battle
     const firstBattle = battles[0]
     points.add({
       position: Cartesian3.fromDegrees(firstBattle.location.lng, firstBattle.location.lat, 200),
-      pixelSize: 8,
+      pixelSize: 10,
       color: cesiumColor,
       outlineColor: Color.BLACK,
       outlineWidth: 1,
       scaleByDistance: new NearFarScalar(1e4, 1.2, 5e6, 0.4),
     })
 
+    // Label for the first battle
+    labels.add({
+      position: Cartesian3.fromDegrees(firstBattle.location.lng, firstBattle.location.lat, 200),
+      text: firstBattle.name,
+      font: '12px Inter, sans-serif',
+      fillColor: labelColor,
+      outlineColor: Color.BLACK,
+      outlineWidth: 2,
+      style: 2, // FILL_AND_OUTLINE
+      pixelOffset: new Cartesian2(0, -16),
+      verticalOrigin: VerticalOrigin.BOTTOM,
+      scaleByDistance: new NearFarScalar(1e4, 1.0, 5e6, 0.3),
+    })
+
     // Completed segment lines (fully drawn)
     const completedSegments: { start: Battle; end: Battle }[] = []
-    // The currently animating polyline reference
+    // The currently animating polyline references
     let activePolyline: ReturnType<PolylineCollection['add']> | null = null
+    let activeGlowPolyline: ReturnType<PolylineCollection['add']> | null = null
 
     segmentIndexRef.current = 0
     progressRef.current = 0
 
-    const SEGMENT_DURATION_MS = 1200 // time per segment
+    const SEGMENT_DURATION_MS = 2500 // slower for comfortable following
     let lastTimestamp: number | null = null
 
     function animate(timestamp: number) {
@@ -102,19 +131,46 @@ export function CampaignTrace({ battles, isActive, color = '#d4a017' }: Campaign
         material: trailColor as unknown as import('cesium').Material,
       })
 
+      // Glow trail — wider, more transparent behind the active line
+      if (activeGlowPolyline) {
+        glowPolylines.remove(activeGlowPolyline)
+      }
+      activeGlowPolyline = glowPolylines.add({
+        positions: [startPos, currentPos],
+        width: 4,
+        material: glowColor as unknown as import('cesium').Material,
+      })
+
       if (t >= 1) {
         // Segment complete - place a marker at the end battle
         points.add({
           position: Cartesian3.fromDegrees(endBattle.location.lng, endBattle.location.lat, 200),
-          pixelSize: 8,
+          pixelSize: 10,
           color: cesiumColor,
           outlineColor: Color.BLACK,
           outlineWidth: 1,
           scaleByDistance: new NearFarScalar(1e4, 1.2, 5e6, 0.4),
         })
 
+        // Add battle name label at the completed node
+        if (labelCollectionRef.current) {
+          labelCollectionRef.current.add({
+            position: Cartesian3.fromDegrees(endBattle.location.lng, endBattle.location.lat, 200),
+            text: endBattle.name,
+            font: '12px Inter, sans-serif',
+            fillColor: labelColor,
+            outlineColor: Color.BLACK,
+            outlineWidth: 2,
+            style: 2, // FILL_AND_OUTLINE
+            pixelOffset: new Cartesian2(0, -16),
+            verticalOrigin: VerticalOrigin.BOTTOM,
+            scaleByDistance: new NearFarScalar(1e4, 1.0, 5e6, 0.3),
+          })
+        }
+
         completedSegments.push({ start: startBattle, end: endBattle })
         activePolyline = null
+        activeGlowPolyline = null
 
         // Move to next segment
         segmentIndexRef.current += 1
@@ -149,9 +205,17 @@ export function CampaignTrace({ battles, isActive, color = '#d4a017' }: Campaign
         viewer.scene.primitives.remove(polylineCollectionRef.current)
         polylineCollectionRef.current = null
       }
+      if (glowPolylineCollectionRef.current) {
+        viewer.scene.primitives.remove(glowPolylineCollectionRef.current)
+        glowPolylineCollectionRef.current = null
+      }
       if (pointCollectionRef.current) {
         viewer.scene.primitives.remove(pointCollectionRef.current)
         pointCollectionRef.current = null
+      }
+      if (labelCollectionRef.current) {
+        viewer.scene.primitives.remove(labelCollectionRef.current)
+        labelCollectionRef.current = null
       }
     }
   }

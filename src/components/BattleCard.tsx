@@ -73,13 +73,92 @@ function Divider() {
   )
 }
 
+/** Small decorative cross SVG in gold */
+function CrossIcon() {
+  return (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      style={{ flexShrink: 0 }}
+    >
+      <rect x="5" y="1" width="2" height="10" rx="0.5" fill="var(--color-war-gold)" />
+      <rect x="2" y="3.5" width="8" height="2" rx="0.5" fill="var(--color-war-gold)" />
+    </svg>
+  )
+}
+
+/** Casualty visualization bar */
+function CasualtyBar({ casualties, belligerents }: {
+  casualties: { side1?: number; side2?: number; total?: number }
+  belligerents?: [string, string]
+}) {
+  const s1 = casualties.side1 ?? 0
+  const s2 = casualties.side2 ?? 0
+  const total = casualties.total ?? (s1 + s2)
+  if (total === 0) return null
+
+  const s1Pct = total > 0 ? (s1 / total) * 100 : 50
+  const s2Pct = total > 0 ? (s2 / total) * 100 : 50
+
+  const formatNum = (n: number) => n.toLocaleString()
+
+  return (
+    <div>
+      <SectionLabel>Casualties</SectionLabel>
+      {(s1 > 0 || s2 > 0) && (
+        <div className="flex gap-1 mb-2" style={{ height: 8, borderRadius: 4, overflow: 'hidden' }}>
+          {s1 > 0 && (
+            <div
+              style={{
+                width: `${s1Pct}%`,
+                background: 'linear-gradient(90deg, rgba(60, 120, 200, 0.7), rgba(60, 120, 200, 0.4))',
+                borderRadius: '4px 0 0 4px',
+              }}
+            />
+          )}
+          {s2 > 0 && (
+            <div
+              style={{
+                width: `${s2Pct}%`,
+                background: 'linear-gradient(90deg, rgba(200, 60, 60, 0.4), rgba(200, 60, 60, 0.7))',
+                borderRadius: '0 4px 4px 0',
+              }}
+            />
+          )}
+        </div>
+      )}
+      <div className="flex justify-between text-xs" style={{ color: 'rgba(200, 200, 210, 0.6)' }}>
+        {s1 > 0 && (
+          <span style={{ color: 'rgba(140, 180, 240, 0.9)' }}>
+            {belligerents?.[0] ?? 'Side 1'}: {formatNum(s1)}
+          </span>
+        )}
+        {s2 > 0 && (
+          <span style={{ color: 'rgba(240, 140, 140, 0.9)' }}>
+            {belligerents?.[1] ?? 'Side 2'}: {formatNum(s2)}
+          </span>
+        )}
+      </div>
+      {casualties.total != null && (
+        <div className="text-xs mt-1" style={{ color: 'rgba(200, 200, 210, 0.5)' }}>
+          Total: {formatNum(total)}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export function BattleCard({ battle, onClose }: BattleCardProps) {
   const [isVisible, setIsVisible] = useState(false)
   const [shouldRender, setShouldRender] = useState(false)
+  const [showDetails, setShowDetails] = useState(false)
 
   useEffect(() => {
     if (battle) {
       setShouldRender(true)
+      setShowDetails(false)
       // Trigger slide-in on next frame
       requestAnimationFrame(() => {
         requestAnimationFrame(() => setIsVisible(true))
@@ -93,13 +172,15 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
 
   if (!shouldRender || !battle) return null
 
+  const mapsUrl = `https://www.google.com/maps/@${battle.location.lat},${battle.location.lng},12z`
+
   return (
     <div
       className="fixed top-0 right-0 z-40 h-full pointer-events-none"
       style={{ width: 380 }}
     >
       <div
-        className="h-full pointer-events-auto glass-panel overflow-y-auto"
+        className="h-full pointer-events-auto glass-panel elevation-2 overflow-y-auto smooth-scroll"
         style={{
           transform: isVisible ? 'translateX(0)' : 'translateX(100%)',
           transition: 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
@@ -108,6 +189,14 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
           paddingBottom: 100, // space for timeline
         }}
       >
+        {/* Gold top line */}
+        <div
+          style={{
+            height: 2,
+            background: 'linear-gradient(to right, transparent, var(--color-war-gold), transparent)',
+          }}
+        />
+
         {/* Header */}
         <div className="sticky top-0 z-10 px-6 pt-6 pb-4" style={{ background: 'linear-gradient(to bottom, rgba(10, 10, 20, 0.98), rgba(10, 10, 20, 0.85))' }}>
           <div className="flex items-start justify-between">
@@ -131,19 +220,22 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
             {/* Close button */}
             <button
               onClick={onClose}
-              className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full transition-colors duration-200 cursor-pointer"
+              className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full cursor-pointer"
               style={{
                 background: 'rgba(255, 255, 255, 0.05)',
                 color: 'rgba(200, 200, 210, 0.5)',
                 border: '1px solid rgba(255, 255, 255, 0.08)',
+                transition: 'all 0.2s ease',
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)'
                 e.currentTarget.style.color = '#fff'
+                e.currentTarget.style.transform = 'scale(1.1)'
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)'
                 e.currentTarget.style.color = 'rgba(200, 200, 210, 0.5)'
+                e.currentTarget.style.transform = 'scale(1)'
               }}
               aria-label="Close battle details"
             >
@@ -164,11 +256,22 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
               <div className="flex items-center justify-between gap-4">
                 <div className="flex-1 text-center">
                   <div
-                    className="text-sm font-medium py-2 px-3 rounded-lg"
+                    className="text-sm font-medium py-2 px-3 rounded-lg cursor-default"
                     style={{
                       background: 'rgba(30, 60, 120, 0.2)',
                       border: '1px solid rgba(60, 120, 200, 0.2)',
                       color: 'rgba(140, 180, 240, 0.9)',
+                      transition: 'border-color 0.2s',
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = 'rgba(212, 160, 23, 0.5)'
+                      e.currentTarget.style.textDecoration = 'underline'
+                      e.currentTarget.style.textDecorationColor = 'rgba(212, 160, 23, 0.4)'
+                      e.currentTarget.style.textUnderlineOffset = '3px'
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = 'rgba(60, 120, 200, 0.2)'
+                      e.currentTarget.style.textDecoration = 'none'
                     }}
                   >
                     {battle.belligerents[0]}
@@ -182,15 +285,51 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
                 </div>
                 <div className="flex-1 text-center">
                   <div
-                    className="text-sm font-medium py-2 px-3 rounded-lg"
+                    className="text-sm font-medium py-2 px-3 rounded-lg cursor-default"
                     style={{
                       background: 'rgba(120, 30, 30, 0.2)',
                       border: '1px solid rgba(200, 60, 60, 0.2)',
                       color: 'rgba(240, 140, 140, 0.9)',
+                      transition: 'border-color 0.2s',
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = 'rgba(212, 160, 23, 0.5)'
+                      e.currentTarget.style.textDecoration = 'underline'
+                      e.currentTarget.style.textDecorationColor = 'rgba(212, 160, 23, 0.4)'
+                      e.currentTarget.style.textUnderlineOffset = '3px'
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = 'rgba(200, 60, 60, 0.2)'
+                      e.currentTarget.style.textDecoration = 'none'
                     }}
                   >
                     {battle.belligerents[1]}
                   </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Commanders */}
+          {battle.commanders && (
+            <div className="mb-4">
+              <SectionLabel>Commanders</SectionLabel>
+              <div className="flex items-center justify-between gap-4">
+                <div className="flex-1 text-center">
+                  <span className="text-sm" style={{ color: 'rgba(140, 180, 240, 0.9)' }}>
+                    {battle.commanders[0]}
+                  </span>
+                </div>
+                <div
+                  className="text-xs flex-shrink-0"
+                  style={{ color: 'rgba(212, 160, 23, 0.3)' }}
+                >
+                  vs
+                </div>
+                <div className="flex-1 text-center">
+                  <span className="text-sm" style={{ color: 'rgba(240, 140, 140, 0.9)' }}>
+                    {battle.commanders[1]}
+                  </span>
                 </div>
               </div>
             </div>
@@ -201,6 +340,13 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
             <div className="mb-4">
               <SectionLabel>Outcome</SectionLabel>
               <OutcomeBadge result={battle.result} />
+            </div>
+          )}
+
+          {/* Casualties */}
+          {battle.casualties && (
+            <div className="mb-4">
+              <CasualtyBar casualties={battle.casualties} belligerents={battle.belligerents} />
             </div>
           )}
 
@@ -220,6 +366,7 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
                 >
                   {battle.scriptureRef && (
                     <div className="flex items-center gap-2 mb-2">
+                      <CrossIcon />
                       <span
                         className="inline-block px-2 py-0.5 text-[10px] uppercase tracking-wider rounded font-medium"
                         style={{
@@ -294,6 +441,84 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
                 {battle.tier === 1 ? 'Major' : battle.tier === 2 ? 'Notable' : 'Minor'}
               </span>
             </div>
+          </div>
+
+          {/* Expandable Details */}
+          <div className="mb-4">
+            <button
+              onClick={() => setShowDetails((v) => !v)}
+              className="text-xs uppercase tracking-wider cursor-pointer"
+              style={{
+                color: 'rgba(212, 160, 23, 0.6)',
+                background: 'none',
+                border: 'none',
+                fontFamily: 'var(--font-family-body)',
+                transition: 'color 0.2s',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = 'var(--color-war-gold)'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = 'rgba(212, 160, 23, 0.6)'
+              }}
+            >
+              {showDetails ? 'Hide Details' : 'Show Details'}
+              <span style={{ marginLeft: 4, display: 'inline-block', transform: showDetails ? 'rotate(180deg)' : 'rotate(0)', transition: 'transform 0.2s' }}>
+                &#9662;
+              </span>
+            </button>
+
+            {showDetails && (
+              <div
+                className="mt-3 rounded-lg p-4"
+                style={{
+                  background: 'rgba(255, 255, 255, 0.02)',
+                  border: '1px solid rgba(255, 255, 255, 0.06)',
+                  animation: 'slide-up 0.3s ease-out',
+                }}
+              >
+                <div className="mb-3">
+                  <SectionLabel>Precise Location</SectionLabel>
+                  <p className="text-xs font-mono" style={{ color: 'rgba(200, 200, 210, 0.6)' }}>
+                    Latitude: {battle.location.lat.toFixed(6)}<br />
+                    Longitude: {battle.location.lng.toFixed(6)}
+                  </p>
+                </div>
+
+                <a
+                  href={mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-xs uppercase tracking-wider mt-2"
+                  style={{
+                    color: 'var(--color-war-gold)',
+                    textDecoration: 'none',
+                    borderBottom: '1px solid rgba(212, 160, 23, 0.3)',
+                    paddingBottom: 1,
+                    transition: 'border-color 0.2s',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderBottomColor = 'var(--color-war-gold)'
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderBottomColor = 'rgba(212, 160, 23, 0.3)'
+                  }}
+                >
+                  View on Google Maps &rarr;
+                </a>
+
+                <Divider />
+
+                <div>
+                  <SectionLabel>Source</SectionLabel>
+                  <p className="text-[10px]" style={{ color: 'rgba(200, 200, 210, 0.4)' }}>
+                    {battle.biblical
+                      ? 'Holy Scripture (ESV). Dates approximate per conservative chronology.'
+                      : 'Historical records. Dates based on scholarly consensus.'}
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Source attribution */}

@@ -33,17 +33,32 @@ export function Narrator({ battle, isActive, onNarrationComplete }: NarratorProp
       }}
     >
       <div
-        className="glass-panel px-8 py-6 relative"
+        className="glass-panel elevation-3 px-8 py-6 relative"
         style={{
           borderColor: 'rgba(212, 160, 23, 0.3)',
+          animation: isNarrating ? 'narrator-bg-pulse 3s ease-in-out infinite' : undefined,
         }}
       >
+        {/* Gold gradient top line */}
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 2,
+            background: 'linear-gradient(to right, transparent, var(--color-war-gold), transparent)',
+            borderRadius: '12px 12px 0 0',
+          }}
+        />
+
         {/* Battle name label */}
         <div
           className="text-xs tracking-widest uppercase mb-3"
           style={{
             color: 'var(--color-war-gold)',
             fontFamily: 'var(--font-family-display)',
+            animation: 'narrator-label-in 0.6s ease-out forwards',
           }}
         >
           {battle.name}
@@ -51,11 +66,12 @@ export function Narrator({ battle, isActive, onNarrationComplete }: NarratorProp
 
         {/* Main narration text */}
         <p
-          className="text-base leading-relaxed"
           style={{
             color: 'rgba(235, 235, 235, 0.95)',
             fontFamily: 'var(--font-family-body)',
             fontWeight: 400,
+            fontSize: '1rem',
+            lineHeight: 1.8,
           }}
         >
           {mainText}
@@ -70,28 +86,42 @@ export function Narrator({ battle, isActive, onNarrationComplete }: NarratorProp
           )}
         </p>
 
-        {/* Scripture reference */}
+        {/* Scripture reference with animated gold underline */}
         {scriptureText && (
           <p
-            className="mt-3 text-sm italic"
+            className="mt-3 text-sm italic relative inline-block"
             style={{
               color: 'var(--color-war-gold)',
               fontFamily: 'var(--font-family-display)',
             }}
           >
             {scriptureText}
+            <span
+              style={{
+                position: 'absolute',
+                bottom: -2,
+                left: 0,
+                width: '100%',
+                height: 1,
+                backgroundImage: 'linear-gradient(90deg, transparent 0%, rgba(212, 160, 23, 0.6) 50%, transparent 100%)',
+                backgroundSize: '200% 100%',
+                animation: 'shimmer 3s linear infinite',
+              }}
+            />
           </p>
         )}
 
         {/* Skip / Dismiss button */}
         <button
           onClick={isComplete ? onNarrationComplete : skip}
-          className="absolute top-3 right-4 text-xs uppercase tracking-wider transition-colors duration-200 cursor-pointer"
+          className="absolute top-3 right-4 text-xs uppercase tracking-wider cursor-pointer"
           style={{
             color: 'rgba(212, 160, 23, 0.5)',
             fontFamily: 'var(--font-family-body)',
             background: 'none',
             border: 'none',
+            transition: 'color 0.3s ease, opacity 0.3s ease',
+            opacity: isComplete ? 1 : 0.7,
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.color = 'var(--color-war-gold)'
@@ -113,6 +143,24 @@ export function Narrator({ battle, isActive, onNarrationComplete }: NarratorProp
           to {
             opacity: 1;
             transform: translate(-50%, 0);
+          }
+        }
+        @keyframes narrator-label-in {
+          from {
+            letter-spacing: 0.3em;
+            opacity: 0;
+          }
+          to {
+            letter-spacing: 0.15em;
+            opacity: 1;
+          }
+        }
+        @keyframes narrator-bg-pulse {
+          0%, 100% {
+            background-color: rgba(10, 10, 20, 0.85);
+          }
+          50% {
+            background-color: rgba(10, 10, 20, 0.92);
           }
         }
       `}</style>

@@ -33,8 +33,29 @@ export default function Globe({ children }: GlobeProps) {
     (cesiumViewer: CesiumViewer) => {
       viewerRef.current = cesiumViewer
 
+      const scene = cesiumViewer.scene
+
       // Set scene background to near-black
-      cesiumViewer.scene.backgroundColor = Color.fromCssColorString('#0a0a0f')
+      scene.backgroundColor = Color.fromCssColorString('#0a0a0f')
+
+      // Enable high dynamic range for better lighting
+      scene.highDynamicRange = true
+
+      // Darker sky atmosphere
+      if (scene.skyAtmosphere) {
+        scene.skyAtmosphere.brightnessShift = -0.3
+      }
+
+      // Subtle globe atmosphere shift
+      if (scene.globe) {
+        scene.globe.atmosphereBrightnessShift = -0.1
+      }
+
+      // Subtle bloom on bright elements
+      if (scene.postProcessStages?.bloom) {
+        scene.postProcessStages.bloom.enabled = true
+        ;(scene.postProcessStages.bloom as unknown as Record<string, unknown>).brightness = 0.05
+      }
 
       // Add dark imagery layer
       DARK_IMAGERY_PROVIDER.then((provider) => {
@@ -80,8 +101,9 @@ export default function Globe({ children }: GlobeProps) {
         depthTestAgainstTerrain
         baseColor={Color.fromCssColorString('#0a0a0f')}
         showGroundAtmosphere
+        atmosphereLightIntensity={5.0}
       />
-      <Fog enabled density={0.0003} minimumBrightness={0.02} />
+      <Fog enabled density={0.0004} minimumBrightness={0.01} />
       <CameraFlyTo
         destination={INITIAL_POSITION}
         orientation={INITIAL_ORIENTATION}

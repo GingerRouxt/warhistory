@@ -11,10 +11,12 @@ interface CameraDirectorProps {
 /**
  * Invisible controller component. Listens for battle selection
  * and triggers cinematic fly-in camera sequences.
+ * Tier-1 battles get the dramatic profile with auto-orbit.
+ * All others get a quick fly-in with no orbit.
  */
 export function CameraDirector({ selectedBattle, onFlightComplete }: CameraDirectorProps) {
   const { viewer } = useGlobe()
-  const { flyToBattle, cancelFlight } = useCamera(viewer)
+  const { flyToBattle, flyToQuick, cancelFlight, startOrbit } = useCamera(viewer)
   const lastBattleIdRef = useRef<string | null>(null)
   const onFlightCompleteRef = useRef(onFlightComplete)
   onFlightCompleteRef.current = onFlightComplete
@@ -32,17 +34,31 @@ export function CameraDirector({ selectedBattle, onFlightComplete }: CameraDirec
     // Cancel any in-progress flight
     cancelFlight()
 
+    const isTier1 = selectedBattle.tier === 1
+
     const run = async () => {
-      await flyToBattle(
-        selectedBattle.location.lat,
-        selectedBattle.location.lng,
-        selectedBattle.name,
-      )
+      if (isTier1) {
+        // Tier-1: dramatic cinematic flight, then orbit
+        await flyToBattle(
+          selectedBattle.location.lat,
+          selectedBattle.location.lng,
+          selectedBattle.name,
+          'dramatic',
+        )
+        // Start slow orbit after dramatic flight completes
+        startOrbit()
+      } else {
+        // Non-tier-1: quick jump, no orbit
+        flyToQuick(
+          selectedBattle.location.lat,
+          selectedBattle.location.lng,
+        )
+      }
       onFlightCompleteRef.current()
     }
 
     run()
-  }, [selectedBattle, flyToBattle, cancelFlight])
+  }, [selectedBattle, flyToBattle, flyToQuick, cancelFlight, startOrbit])
 
   // Renders nothing — pure controller
   return null

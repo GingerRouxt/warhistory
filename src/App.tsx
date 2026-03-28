@@ -20,6 +20,13 @@ import { SupportBanner } from './components/SupportBanner'
 import { ShareButton } from './components/ShareButton'
 import { MobileWarning } from './components/MobileWarning'
 import { KeyboardShortcuts } from './components/KeyboardShortcuts'
+import { BattleTooltip } from './components/BattleTooltip'
+import BattleCluster from './components/BattleCluster'
+import { HeatmapLayer } from './components/HeatmapLayer'
+import { MinimapRadar } from './components/MinimapRadar'
+import { BattleComparison } from './components/BattleComparison'
+import { CommanderCard } from './components/CommanderCard'
+import { AudioNarrator } from './components/AudioNarrator'
 import campaignsData from './data/campaigns.json'
 import { useBattles } from './hooks/useBattles'
 import { useTimeline } from './hooks/useTimeline'
@@ -42,6 +49,12 @@ export default function App() {
   const [tourSelectorOpen, setTourSelectorOpen] = useState(false)
   const [activeCampaignId, setActiveCampaignId] = useState<string | null>(null)
   const [tourActive, setTourActive] = useState(false)
+  const [hoveredBattle, setHoveredBattle] = useState<Battle | null>(null)
+  const [hoverPos, setHoverPos] = useState({ x: 0, y: 0 })
+  const [heatmapActive, setHeatmapActive] = useState(false)
+  const [compareBattle, setCompareBattle] = useState<Battle | null>(null)
+  const [compareOpen, setCompareOpen] = useState(false)
+  const [selectedCommander, setSelectedCommander] = useState<string | null>(null)
 
   const timeline = useTimeline()
   const { allBattles, filteredBattles, filters, updateFilters, getBattlesByIds, isLoading } = useBattles()
@@ -116,6 +129,15 @@ export default function App() {
     setIsNarrating(false)
   }, [])
 
+  const handleHoverBattle = useCallback((battle: Battle | null, screenX: number, screenY: number) => {
+    setHoveredBattle(battle)
+    setHoverPos({ x: screenX, y: screenY })
+  }, [])
+
+  const handleZoomToCluster = useCallback((_lat: number, _lng: number) => {
+    // Cluster zoom handled by BattleCluster internally via camera flyTo
+  }, [])
+
   return (
     <GlobeProvider>
       <SEOHead />
@@ -130,8 +152,26 @@ export default function App() {
             startYear={timeline.timeWindow.start}
             endYear={timeline.timeWindow.end}
             onSelectBattle={handleBattleSelect}
+            onHoverBattle={handleHoverBattle}
+          />
+          <BattleCluster
+            battles={filteredBattles}
+            isActive={hasEntered}
+            onZoomToCluster={handleZoomToCluster}
+          />
+          <HeatmapLayer
+            battles={filteredBattles}
+            isActive={heatmapActive}
+            opacity={0.35}
           />
         </Globe>
+
+        {/* React-managed tooltip */}
+        <BattleTooltip
+          battle={hoveredBattle}
+          screenX={hoverPos.x}
+          screenY={hoverPos.y}
+        />
 
         {/* Camera controller */}
         <CameraDirector
@@ -228,7 +268,7 @@ export default function App() {
           onClose={() => setTourSelectorOpen(false)}
         />
 
-        {/* Battle count + Tour button */}
+        {/* Battle count + Tour + Heatmap buttons */}
         {hasEntered && !filterOpen && (
           <div className="absolute top-4 left-14 flex items-center gap-2">
             <div className="glass-panel px-4 py-2 text-sm">
@@ -242,8 +282,47 @@ export default function App() {
             >
               Guided Tours
             </button>
+            <button
+              onClick={() => setHeatmapActive((v) => !v)}
+              className={`glass-panel px-4 py-2 text-sm transition-colors cursor-pointer ${heatmapActive ? 'text-white' : 'text-war-gold hover:text-white'}`}
+              style={{ fontFamily: 'var(--font-family-display)', letterSpacing: '0.05em' }}
+            >
+              {heatmapActive ? 'Hide Heatmap' : 'Heatmap'}
+            </button>
           </div>
         )}
+
+        {/* Minimap radar */}
+        {hasEntered && (
+          <MinimapRadar
+            battles={filteredBattles}
+            isVisible={!tourSelectorOpen}
+          />
+        )}
+        {/* Battle comparison panel */}
+        <BattleComparison
+          battle1={selectedBattle}
+          battle2={compareBattle}
+          isOpen={compareOpen}
+          onClose={() => { setCompareOpen(false); setCompareBattle(null) }}
+        />
+
+        {/* Commander card */}
+        <CommanderCard
+          commanderName={selectedCommander}
+          allBattles={allBattles}
+          onSelectBattle={(b) => { handleBattleSelect(b); setSelectedCommander(null) }}
+          onClose={() => setSelectedCommander(null)}
+        />
+
+        {/* Audio narrator */}
+        {selectedBattle && isNarrating && (
+          <AudioNarrator
+            battleId={selectedBattle.id}
+            isActive={isNarrating}
+          />
+        )}
+
         {/* Support + Share + Keyboard help */}
         {hasEntered && (
           <>

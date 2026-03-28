@@ -16,7 +16,12 @@
       "Abel"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Cain",
+      "Abel"
+    ]
   },
   {
     "id": "bible-war-nine-kings",
@@ -35,7 +40,12 @@
       "Bera of Sodom, Birsha of Gomorrah, Shinab of Admah, Shemeber of Zeboiim, King of Bela/Zoar"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Chedorlaomer",
+      "Bera of Sodom"
+    ]
   },
   {
     "id": "bible-abraham-rescues-lot",
@@ -54,7 +64,15 @@
       "Chedorlaomer's coalition"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Abraham",
+      "Chedorlaomer"
+    ],
+    "troopStrength": {
+      "side1": 318
+    }
   },
   {
     "id": "bible-sodom-gomorrah",
@@ -73,7 +91,12 @@
       "Sodom, Gomorrah, Admah, Zeboiim"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "God",
+      "Kings of Sodom/Gomorrah"
+    ]
   },
   {
     "id": "bible-jacob-wrestles-god",
@@ -85,14 +108,19 @@
       "lng": 35.57
     },
     "tier": 1,
-    "description": "On the night before meeting Esau, Jacob wrestled with a mysterious figure until daybreak. The figure touched Jacob's hip socket, dislocating it, but Jacob refused to let go until he received a blessing. He was renamed Israel \u2014 'he who strives with God.'",
+    "description": "On the night before meeting Esau, Jacob wrestled with a mysterious figure until daybreak. The figure touched Jacob's hip socket, dislocating it, but Jacob refused to let go until he received a blessing. He was renamed Israel — 'he who strives with God.'",
     "biblical": true,
     "belligerents": [
       "Jacob",
       "Angel of the Lord"
     ],
     "result": "draw",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Jacob",
+      "Angel of the Lord"
+    ]
   },
   {
     "id": "bible-simeon-levi-shechem",
@@ -111,7 +139,12 @@
       "Shechemites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Simeon/Levi",
+      "Hamor/Shechem"
+    ]
   },
   {
     "id": "bible-ten-plagues",
@@ -123,14 +156,19 @@
       "lng": 31.82
     },
     "tier": 1,
-    "description": "God sent ten devastating plagues upon Egypt \u2014 blood, frogs, gnats, flies, livestock pestilence, boils, hail, locusts, darkness, and death of the firstborn \u2014 to break Pharaoh's will and liberate Israel from slavery. The final plague, Passover, became Israel's defining act of redemption.",
+    "description": "God sent ten devastating plagues upon Egypt — blood, frogs, gnats, flies, livestock pestilence, boils, hail, locusts, darkness, and death of the firstborn — to break Pharaoh's will and liberate Israel from slavery. The final plague, Passover, became Israel's defining act of redemption.",
     "biblical": true,
     "belligerents": [
       "God, Israel",
       "Egypt"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Moses/Aaron",
+      "Pharaoh"
+    ]
   },
   {
     "id": "bible-red-sea",
@@ -142,14 +180,22 @@
       "lng": 32.55
     },
     "tier": 1,
-    "description": "Pharaoh pursued Israel with his entire chariot force. God parted the Red Sea, allowing Israel to cross on dry ground. When the Egyptians followed, God released the waters, drowning Pharaoh's army \u2014 horses, chariots, and horsemen. Not one survived.",
+    "description": "Pharaoh pursued Israel with six hundred chosen chariots and his entire mounted force. God parted the Red Sea, allowing Israel to cross on dry ground between walls of water. When the Egyptians followed, God threw their army into confusion, clogging chariot wheels. At dawn He released the waters, drowning every soldier. Not one survived.",
     "biblical": true,
     "belligerents": [
       "God, Israel",
       "Egypt"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Moses",
+      "Pharaoh"
+    ],
+    "casualties": {
+      "side2": 600
+    }
   },
   {
     "id": "bible-rephidim",
@@ -161,14 +207,19 @@
       "lng": 33.97
     },
     "tier": 1,
-    "description": "The Amalekites attacked Israel's rear, targeting the weak and weary. Joshua led the fight while Moses held up his hands on the hill \u2014 when his arms dropped, Amalek prevailed. Aaron and Hur held his arms up until sunset, securing victory.",
+    "description": "The Amalekites attacked Israel's rear, targeting the weak and weary. Joshua led the fight while Moses held up his hands on the hill — when his arms dropped, Amalek prevailed. Aaron and Hur held his arms up until sunset, securing victory.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Amalekites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Joshua/Moses",
+      "Amalekite chieftains"
+    ]
   },
   {
     "id": "bible-hormah-defeat",
@@ -187,7 +238,12 @@
       "Amalekites, Canaanites"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Rebellious Israelite leaders",
+      "Canaanite/Amalekite chiefs"
+    ]
   },
   {
     "id": "bible-hormah-victory",
@@ -206,7 +262,12 @@
       "Canaanite King of Arad"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Moses",
+      "King of Arad"
+    ]
   },
   {
     "id": "bible-sihon-amorites",
@@ -225,7 +286,12 @@
       "Amorites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Moses",
+      "Sihon"
+    ]
   },
   {
     "id": "bible-og-bashan",
@@ -244,7 +310,12 @@
       "Bashan"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Moses",
+      "Og"
+    ]
   },
   {
     "id": "bible-war-midian",
@@ -263,7 +334,15 @@
       "Midianites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Phinehas",
+      "Five Midianite Kings"
+    ],
+    "troopStrength": {
+      "side1": 12000
+    }
   },
   {
     "id": "bible-jericho",
@@ -275,18 +354,23 @@
       "lng": 35.44
     },
     "tier": 1,
-    "description": "Israel marched around Jericho once daily for six days, then seven times on the seventh day. The priests blew trumpets, the people shouted, and the walls collapsed. Israel devoted the city to destruction; only Rahab and her family were spared.",
+    "description": "Israel marched around Jericho once daily for six days in eerie silence, then seven times on the seventh day. The priests blew rams' horn trumpets, the people raised a deafening war cry, and the massive walls collapsed outward. Israel devoted the city to total destruction; only Rahab the prostitute and her family survived, sheltered because she had hidden Israel's spies.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Jericho"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Joshua",
+      "King of Jericho"
+    ]
   },
   {
     "id": "bible-ai-defeat",
-    "name": "First Battle of Ai \u2014 Defeat",
+    "name": "First Battle of Ai — Defeat",
     "year": -1400,
     "era": "biblical",
     "location": {
@@ -294,18 +378,26 @@
       "lng": 35.27
     },
     "tier": 1,
-    "description": "Confident after Jericho, Israel sent only 3,000 men against Ai. The men of Ai routed them, killing about 36 Israelites. The cause was Achan's theft of devoted things from Jericho \u2014 hidden sin in the camp broke the covenant.",
+    "description": "Confident after Jericho, Israel sent only 3,000 men against Ai. The men of Ai routed them, killing about 36 Israelites. The cause was Achan's theft of devoted things from Jericho — hidden sin in the camp broke the covenant.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Ai"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Joshua",
+      "King of Ai"
+    ],
+    "casualties": {
+      "side1": 36
+    }
   },
   {
     "id": "bible-ai-victory",
-    "name": "Second Battle of Ai \u2014 Victory",
+    "name": "Second Battle of Ai — Victory",
     "year": -1400,
     "era": "biblical",
     "location": {
@@ -320,11 +412,22 @@
       "Ai, Bethel"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Joshua",
+      "King of Ai"
+    ],
+    "troopStrength": {
+      "side1": 30000
+    },
+    "casualties": {
+      "side2": 12000
+    }
   },
   {
     "id": "bible-gibeon-sun-stands-still",
-    "name": "Battle of Gibeon \u2014 The Sun Stands Still",
+    "name": "Battle of Gibeon — The Sun Stands Still",
     "year": -1399,
     "era": "biblical",
     "location": {
@@ -332,14 +435,19 @@
       "lng": 35.19
     },
     "tier": 1,
-    "description": "Five Amorite kings besieged Gibeon for making peace with Israel. Joshua marched all night from Gilgal and caught them off guard. God sent hailstones that killed more than the sword, and the sun stood still for nearly a full day to let Israel complete the rout.",
+    "description": "Five Amorite kings besieged Gibeon for making peace with Israel. Joshua marched all night from Gilgal and caught them off guard at dawn. God hurled enormous hailstones from heaven that killed more than the sword. Then Joshua commanded the sun to stand still over Gibeon and the moon over the Valley of Aijalon, and daylight held for nearly a full day so Israel could complete the rout. There has never been a day like it before or since.",
     "biblical": true,
     "belligerents": [
       "Israel, Gibeonites (allies)",
-      "Amorite coalition \u2014 Jerusalem, Hebron, Jarmuth, Lachish, Eglon"
+      "Amorite coalition — Jerusalem, Hebron, Jarmuth, Lachish, Eglon"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Joshua",
+      "Adonizedek"
+    ]
   },
   {
     "id": "bible-southern-campaign",
@@ -358,7 +466,12 @@
       "Makkedah, Libnah, Lachish, Gezer, Eglon, Hebron, Debir"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Joshua",
+      "Five Amorite Kings"
+    ]
   },
   {
     "id": "bible-waters-of-merom",
@@ -370,18 +483,23 @@
       "lng": 35.57
     },
     "tier": 1,
-    "description": "Jabin of Hazor assembled the largest coalition against Israel \u2014 forces 'as many as the sand on the seashore' with horses and chariots. God told Joshua not to fear. Israel attacked suddenly, routed the coalition, hamstrung their horses, and burned their chariots. Joshua then burned Hazor itself.",
+    "description": "Jabin of Hazor assembled the largest coalition against Israel — forces 'as many as the sand on the seashore' with horses and chariots. God told Joshua not to fear. Israel attacked suddenly, routed the coalition, hamstrung their horses, and burned their chariots. Joshua then burned Hazor itself.",
     "biblical": true,
     "belligerents": [
       "Israel",
-      "Northern Canaanite coalition \u2014 Hazor, Madon, Shimron, Achshaph, Hittites, Amorites, Perizzites, Jebusites, Hivites"
+      "Northern Canaanite coalition — Hazor, Madon, Shimron, Achshaph, Hittites, Amorites, Perizzites, Jebusites, Hivites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Joshua",
+      "Jabin of Hazor"
+    ]
   },
   {
     "id": "bible-31-kings",
-    "name": "Conquest Summary \u2014 Thirty-One Kings Defeated",
+    "name": "Conquest Summary — Thirty-One Kings Defeated",
     "year": -1398,
     "era": "biblical",
     "location": {
@@ -396,7 +514,12 @@
       "31 Canaanite city-states"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Joshua",
+      "Thirty-one Canaanite Kings"
+    ]
   },
   {
     "id": "bible-othniel",
@@ -415,7 +538,12 @@
       "Aram-Naharaim (Mesopotamia)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Othniel",
+      "Cushan-Rishathaim"
+    ]
   },
   {
     "id": "bible-ehud-moab",
@@ -434,7 +562,15 @@
       "Moab, Ammon, Amalek"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Ehud",
+      "Eglon of Moab"
+    ],
+    "casualties": {
+      "side2": 10000
+    }
   },
   {
     "id": "bible-shamgar-philistines",
@@ -446,14 +582,22 @@
       "lng": 34.57
     },
     "tier": 1,
-    "description": "Shamgar struck down six hundred Philistines with an ox goad \u2014 a wooden stick tipped with metal used for driving cattle. With this single feat, he delivered Israel.",
+    "description": "Shamgar struck down six hundred Philistines with an ox goad — a wooden stick tipped with metal used for driving cattle. With this single feat, he delivered Israel.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Shamgar",
+      "Philistine raiders"
+    ],
+    "casualties": {
+      "side2": 600
+    }
   },
   {
     "id": "bible-deborah-barak-sisera",
@@ -472,7 +616,15 @@
       "Canaanites of Hazor"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Deborah/Barak",
+      "Sisera"
+    ],
+    "troopStrength": {
+      "side1": 10000
+    }
   },
   {
     "id": "bible-gideon-midianites",
@@ -484,14 +636,23 @@
       "lng": 35.37
     },
     "tier": 1,
-    "description": "God reduced Gideon's army from 32,000 to 300 men so that Israel could not boast in its own strength. At night, the 300 surrounded the Midianite camp with trumpets, torches hidden in jars, and a war cry. God turned the Midianites against each other in panic. The rout was total.",
+    "description": "God reduced Gideon's army from 32,000 to just 300 men so that Israel could not boast in its own strength. At night, the 300 surrounded the vast Midianite camp with trumpets, torches hidden inside clay jars, and a battle cry: 'A sword for the Lord and for Gideon!' When the jars shattered and the trumpets blared, God turned the Midianites against each other in blind panic. The rout was total, and Israel pursued the fleeing remnant across the Jordan.",
     "biblical": true,
     "belligerents": [
       "Israel (300 men)",
       "Midianites, Amalekites, Eastern peoples"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Gideon",
+      "Midianite Kings"
+    ],
+    "troopStrength": {
+      "side1": 300,
+      "side2": 135000
+    }
   },
   {
     "id": "bible-abimelech-shechem",
@@ -510,11 +671,19 @@
       "Shechemites, Gaal son of Ebed"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Abimelech",
+      "Gaal son of Ebed"
+    ],
+    "casualties": {
+      "total": 1000
+    }
   },
   {
     "id": "bible-abimelech-thebez",
-    "name": "Siege of Thebez \u2014 Death of Abimelech",
+    "name": "Siege of Thebez — Death of Abimelech",
     "year": -1150,
     "era": "biblical",
     "location": {
@@ -529,11 +698,16 @@
       "Citizens of Thebez"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Abimelech",
+      "Citizens of Thebez"
+    ]
   },
   {
     "id": "bible-ark-captured",
-    "name": "Philistines Capture the Ark \u2014 Battle of Aphek",
+    "name": "Philistines Capture the Ark — Battle of Aphek",
     "year": -1104,
     "era": "biblical",
     "location": {
@@ -548,7 +722,15 @@
       "Philistines"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Hophni/Phinehas",
+      "Philistine generals"
+    ],
+    "casualties": {
+      "side1": 34000
+    }
   },
   {
     "id": "bible-jephthah-ammonites",
@@ -560,18 +742,23 @@
       "lng": 35.8
     },
     "tier": 1,
-    "description": "The outcast Jephthah was recalled to lead Gilead against Ammon. After failed diplomacy, the Spirit of the Lord came upon him and he struck the Ammonites from Aroer to Minnith \u2014 twenty cities \u2014 with a very great slaughter. He had made a rash vow before the battle that cost him dearly.",
+    "description": "The outcast Jephthah was recalled to lead Gilead against Ammon. After failed diplomacy, the Spirit of the Lord came upon him and he struck the Ammonites from Aroer to Minnith — twenty cities — with a very great slaughter. He had made a rash vow before the battle that cost him dearly.",
     "biblical": true,
     "belligerents": [
       "Israel (Gilead)",
       "Ammonites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Jephthah",
+      "King of Ammon"
+    ]
   },
   {
     "id": "bible-gibeah-civil-war",
-    "name": "War Against Benjamin \u2014 Battle of Gibeah",
+    "name": "War Against Benjamin — Battle of Gibeah",
     "year": -1100,
     "era": "biblical",
     "location": {
@@ -579,18 +766,31 @@
       "lng": 35.23
     },
     "tier": 1,
-    "description": "After the horrific crime at Gibeah \u2014 the gang rape and murder of a Levite's concubine \u2014 and Benjamin's refusal to hand over the perpetrators, Israel went to war against its own tribe. Israel lost 40,000 men in two defeats before God granted victory on the third day. Benjamin was nearly annihilated: only 600 men survived.",
+    "description": "After the horrific crime at Gibeah — the gang rape and murder of a Levite's concubine — and Benjamin's refusal to hand over the perpetrators, Israel went to war against its own tribe. Israel lost 40,000 men in two defeats before God granted victory on the third day. Benjamin was nearly annihilated: only 600 men survived.",
     "biblical": true,
     "belligerents": [
       "Eleven tribes of Israel (400,000 men)",
       "Benjamin (26,700 men)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Phinehas/Israel's elders",
+      "Benjamin's warriors"
+    ],
+    "casualties": {
+      "side1": 40000,
+      "side2": 25100
+    },
+    "troopStrength": {
+      "side1": 400000,
+      "side2": 26700
+    }
   },
   {
     "id": "bible-jephthah-ephraim",
-    "name": "Jephthah vs. Ephraim \u2014 Shibboleth",
+    "name": "Jephthah vs. Ephraim — Shibboleth",
     "year": -1099,
     "era": "biblical",
     "location": {
@@ -598,14 +798,22 @@
       "lng": 35.57
     },
     "tier": 1,
-    "description": "Ephraim threatened Jephthah for not summoning them to fight Ammon. Civil war erupted. Gilead seized the Jordan fords and identified fleeing Ephraimites by asking them to say 'Shibboleth' \u2014 they could only pronounce 'Sibboleth.' Forty-two thousand Ephraimites died.",
+    "description": "Ephraim threatened Jephthah for not summoning them to fight Ammon. Civil war erupted. Gilead seized the Jordan fords and identified fleeing Ephraimites by asking them to say 'Shibboleth' — they could only pronounce 'Sibboleth.' Forty-two thousand Ephraimites died.",
     "biblical": true,
     "belligerents": [
       "Gilead",
       "Ephraim"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Jephthah",
+      "Elders of Ephraim"
+    ],
+    "casualties": {
+      "side2": 42000
+    }
   },
   {
     "id": "bible-samuel-mizpah",
@@ -617,14 +825,19 @@
       "lng": 35.17
     },
     "tier": 1,
-    "description": "Samuel gathered all Israel at Mizpah for repentance and prayer. The Philistines attacked during the assembly, but God thundered with a great voice against them, throwing them into confusion. Israel pursued and struck them down. Samuel raised the Ebenezer stone \u2014 'thus far the Lord has helped us.'",
+    "description": "Samuel gathered all Israel at Mizpah for repentance and prayer. The Philistines attacked during the assembly, but God thundered with a great voice against them, throwing them into confusion. Israel pursued and struck them down. Samuel raised the Ebenezer stone — 'thus far the Lord has helped us.'",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Samuel",
+      "Philistine generals"
+    ]
   },
   {
     "id": "bible-samson-lion",
@@ -643,7 +856,12 @@
       "Young lion"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Samson",
+      "Lion"
+    ]
   },
   {
     "id": "bible-samson-thirty-ashkelon",
@@ -662,7 +880,15 @@
       "Philistines of Ashkelon"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Samson",
+      "Philistines of Ashkelon"
+    ],
+    "casualties": {
+      "side2": 30
+    }
   },
   {
     "id": "bible-samson-foxes",
@@ -681,11 +907,16 @@
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Samson",
+      "Philistines"
+    ]
   },
   {
     "id": "bible-samson-jawbone",
-    "name": "Samson at Lehi \u2014 Jawbone of a Donkey",
+    "name": "Samson at Lehi — Jawbone of a Donkey",
     "year": -1074,
     "era": "biblical",
     "location": {
@@ -700,7 +931,15 @@
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Samson",
+      "Philistine warriors"
+    ],
+    "casualties": {
+      "side2": 1000
+    }
   },
   {
     "id": "bible-samson-gaza-gates",
@@ -712,14 +951,19 @@
       "lng": 34.47
     },
     "tier": 1,
-    "description": "The Philistines surrounded Gaza to ambush Samson. At midnight he rose, tore the city gates from their posts \u2014 doors, posts, bar and all \u2014 hoisted them on his shoulders, and carried them to the top of a hill facing Hebron, nearly 40 miles away.",
+    "description": "The Philistines surrounded Gaza to ambush Samson. At midnight he rose, tore the city gates from their posts — doors, posts, bar and all — hoisted them on his shoulders, and carried them to the top of a hill facing Hebron, nearly 40 miles away.",
     "biblical": true,
     "belligerents": [
       "Samson",
       "Philistines of Gaza"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Samson",
+      "Philistines of Gaza"
+    ]
   },
   {
     "id": "bible-samson-dagon-temple",
@@ -738,7 +982,16 @@
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Samson",
+      "Philistine lords"
+    ],
+    "casualties": {
+      "side1": 1,
+      "side2": 3000
+    }
   },
   {
     "id": "bible-saul-jabesh-gilead",
@@ -757,7 +1010,15 @@
       "Ammonites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Saul",
+      "Nahash the Ammonite"
+    ],
+    "troopStrength": {
+      "side1": 330000
+    }
   },
   {
     "id": "bible-jonathan-michmash",
@@ -776,7 +1037,15 @@
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Jonathan",
+      "Philistine garrison commander"
+    ],
+    "casualties": {
+      "side2": 20
+    }
   },
   {
     "id": "bible-saul-amalekites",
@@ -788,18 +1057,23 @@
       "lng": 34.5
     },
     "tier": 1,
-    "description": "God commanded Saul to utterly destroy the Amalekites \u2014 every person, animal, and possession. Saul won the military victory but spared King Agag and the best of the livestock. Samuel declared 'to obey is better than sacrifice' and tore the kingdom from Saul. Samuel then executed Agag himself.",
+    "description": "God commanded Saul to utterly destroy the Amalekites — every person, animal, and possession. Saul won the military victory but spared King Agag and the best of the livestock. Samuel declared 'to obey is better than sacrifice' and tore the kingdom from Saul. Samuel then executed Agag himself.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Amalekites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Saul",
+      "Agag"
+    ]
   },
   {
     "id": "bible-david-goliath",
-    "name": "David vs. Goliath \u2014 Valley of Elah",
+    "name": "David vs. Goliath — Valley of Elah",
     "year": -1024,
     "era": "biblical",
     "location": {
@@ -807,14 +1081,19 @@
       "lng": 34.96
     },
     "tier": 1,
-    "description": "For forty days, the giant Goliath \u2014 over nine feet tall in full bronze armor \u2014 challenged Israel to single combat. The shepherd boy David, armed with a sling and five stones, ran toward Goliath, struck him in the forehead with a single stone, and cut off his head with the giant's own sword. The Philistines fled.",
+    "description": "For forty days, the giant Goliath — over nine feet tall in full bronze armor — defied the armies of the living God, demanding single combat while all Israel trembled. The shepherd boy David, armed only with a sling, five smooth stones, and unshakeable faith, ran toward the giant. A single stone sank into Goliath's forehead. David drew the giant's own sword and cut off his head. The Philistine army broke and fled.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "David",
+      "Goliath"
+    ]
   },
   {
     "id": "bible-david-keilah",
@@ -833,7 +1112,12 @@
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "David",
+      "Philistine raiders"
+    ]
   },
   {
     "id": "bible-david-philistine-raids",
@@ -852,7 +1136,12 @@
       "Philistines, Amalekites, Geshurites, Girzites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "David",
+      "Various Philistine commanders"
+    ]
   },
   {
     "id": "bible-david-ziklag",
@@ -864,18 +1153,26 @@
       "lng": 34.45
     },
     "tier": 1,
-    "description": "While David was away, the Amalekites raided Ziklag, burned the city, and captured all the women and children \u2014 including David's two wives. David's men spoke of stoning him. He strengthened himself in the Lord, pursued, and recovered everything. Not one person or possession was lost.",
+    "description": "While David was away, the Amalekites raided Ziklag, burned the city, and captured all the women and children — including David's two wives. David's men spoke of stoning him. He strengthened himself in the Lord, pursued, and recovered everything. Not one person or possession was lost.",
     "biblical": true,
     "belligerents": [
       "David's 400 men",
       "Amalekite raiders"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "David",
+      "Amalekite raiders"
+    ],
+    "troopStrength": {
+      "side1": 400
+    }
   },
   {
     "id": "bible-mount-gilboa",
-    "name": "Battle of Mount Gilboa \u2014 Death of Saul",
+    "name": "Battle of Mount Gilboa — Death of Saul",
     "year": -1010,
     "era": "biblical",
     "location": {
@@ -890,11 +1187,16 @@
       "Philistines"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Saul/Jonathan",
+      "Philistine generals"
+    ]
   },
   {
     "id": "bible-pool-of-gibeon",
-    "name": "Battle at the Pool of Gibeon \u2014 David vs. Ish-bosheth",
+    "name": "Battle at the Pool of Gibeon — David vs. Ish-bosheth",
     "year": -1008,
     "era": "biblical",
     "location": {
@@ -902,14 +1204,19 @@
       "lng": 35.19
     },
     "tier": 1,
-    "description": "Abner and Joab met at the pool of Gibeon. Twelve champions from each side fought to the death simultaneously \u2014 all twenty-four fell. A fierce battle erupted; David's forces won. During the rout, Abner killed Joab's brother Asahel, creating a blood feud that shaped David's reign.",
+    "description": "Abner and Joab met at the pool of Gibeon. Twelve champions from each side fought to the death simultaneously — all twenty-four fell. A fierce battle erupted; David's forces won. During the rout, Abner killed Joab's brother Asahel, creating a blood feud that shaped David's reign.",
     "biblical": true,
     "belligerents": [
       "Judah (David's forces)",
       "Israel (Ish-bosheth / Abner's forces)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Joab",
+      "Abner"
+    ]
   },
   {
     "id": "bible-david-captures-jerusalem",
@@ -921,14 +1228,19 @@
       "lng": 35.23
     },
     "tier": 1,
-    "description": "The Jebusites boasted that even the blind and lame could defend their fortress. David challenged his men to enter through the water shaft. Joab led the assault, captured the stronghold of Zion, and David made it his capital \u2014 the City of David.",
+    "description": "The Jebusites boasted that even the blind and lame could defend their fortress. David challenged his men to enter through the water shaft. Joab led the assault, captured the stronghold of Zion, and David made it his capital — the City of David.",
     "biblical": true,
     "belligerents": [
       "United Israel",
       "Jebusites"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "David/Joab",
+      "Jebusite defenders"
+    ]
   },
   {
     "id": "bible-baal-perazim",
@@ -947,7 +1259,12 @@
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "David",
+      "Philistine commanders"
+    ]
   },
   {
     "id": "bible-valley-rephaim-second",
@@ -959,14 +1276,19 @@
       "lng": 35.19
     },
     "tier": 1,
-    "description": "The Philistines returned to the Valley of Rephaim. David inquired again and God changed the tactics: 'Do not go up. Circle around behind them and come at them opposite the balsam trees. When you hear the sound of marching in the treetops, move quickly \u2014 the Lord has gone out before you.' David obeyed and struck the Philistines from Geba to Gezer.",
+    "description": "The Philistines returned to the Valley of Rephaim. David inquired again and God changed the tactics: 'Do not go up. Circle around behind them and come at them opposite the balsam trees. When you hear the sound of marching in the treetops, move quickly — the Lord has gone out before you.' David obeyed and struck the Philistines from Geba to Gezer.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Philistines"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "David",
+      "Philistine commanders"
+    ]
   },
   {
     "id": "bible-david-ammon-aram",
@@ -982,14 +1304,19 @@
     "biblical": true,
     "belligerents": [
       "Israel",
-      "Ammon, Aram (Syria) \u2014 Hadadezer of Zobah, Aram of Beth-rehob"
+      "Ammon, Aram (Syria) — Hadadezer of Zobah, Aram of Beth-rehob"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Joab/David",
+      "Hanun of Ammon/Shobach"
+    ]
   },
   {
     "id": "bible-absalom-rebellion",
-    "name": "Battle of the Forest of Ephraim \u2014 Absalom's Rebellion",
+    "name": "Battle of the Forest of Ephraim — Absalom's Rebellion",
     "year": -979,
     "era": "biblical",
     "location": {
@@ -997,14 +1324,22 @@
       "lng": 35.7
     },
     "tier": 1,
-    "description": "David divided his army into three columns under Joab, Abishai, and Ittai. The dense forest worked against Absalom's larger force \u2014 'the forest devoured more that day than the sword.' Absalom's hair caught in an oak tree; Joab killed him with three javelins despite David's plea to spare his son. David's grief \u2014 'O my son Absalom!' \u2014 is the most anguished cry in Scripture.",
+    "description": "David divided his army into three columns under Joab, Abishai, and Ittai. The dense forest worked against Absalom's larger force — 'the forest devoured more that day than the sword.' Absalom's hair caught in an oak tree; Joab killed him with three javelins despite David's plea to spare his son. David's grief — 'O my son Absalom!' — is the most anguished cry in Scripture.",
     "biblical": true,
     "belligerents": [
       "David's loyalists",
       "Absalom's rebels"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Joab",
+      "Absalom"
+    ],
+    "casualties": {
+      "total": 20000
+    }
   },
   {
     "id": "bible-sheba-rebellion",
@@ -1023,11 +1358,16 @@
       "Sheba son of Bichri, Northern Israelite rebels"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Joab",
+      "Sheba son of Bichri"
+    ]
   },
   {
     "id": "bible-rehoboam-jeroboam-split",
-    "name": "Kingdom Divides \u2014 Rehoboam vs. Jeroboam",
+    "name": "Kingdom Divides — Rehoboam vs. Jeroboam",
     "year": -930,
     "era": "biblical",
     "location": {
@@ -1042,7 +1382,15 @@
       "Ten northern tribes (Jeroboam)"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Rehoboam",
+      "Jeroboam"
+    ],
+    "troopStrength": {
+      "side1": 180000
+    }
   },
   {
     "id": "bible-shishak-invasion",
@@ -1054,18 +1402,26 @@
       "lng": 35.23
     },
     "tier": 1,
-    "description": "Pharaoh Shishak invaded Judah with 1,200 chariots, 60,000 horsemen, and innumerable troops. He captured the fortified cities and advanced on Jerusalem. When Judah humbled itself, God granted partial deliverance \u2014 but Shishak took the treasures of the Temple and palace, including Solomon's gold shields.",
+    "description": "Pharaoh Shishak invaded Judah with 1,200 chariots, 60,000 horsemen, and innumerable troops. He captured the fortified cities and advanced on Jerusalem. When Judah humbled itself, God granted partial deliverance — but Shishak took the treasures of the Temple and palace, including Solomon's gold shields.",
     "biblical": true,
     "belligerents": [
       "Egypt",
       "Judah"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Pharaoh Shishak",
+      "Rehoboam"
+    ],
+    "troopStrength": {
+      "side1": 60000
+    }
   },
   {
     "id": "bible-abijah-jeroboam-zemaraim",
-    "name": "Battle of Mount Zemaraim \u2014 Abijah vs. Jeroboam",
+    "name": "Battle of Mount Zemaraim — Abijah vs. Jeroboam",
     "year": -913,
     "era": "biblical",
     "location": {
@@ -1073,14 +1429,26 @@
       "lng": 35.3
     },
     "tier": 1,
-    "description": "Outnumbered two to one and caught in an ambush, Judah cried out to God while the priests blew trumpets. God struck the northern army. Judah killed 500,000 of Israel's picked troops \u2014 the greatest single-battle casualty figure in the Bible. Abijah captured Bethel, Jeshanah, and Ephron.",
+    "description": "Outnumbered two to one and caught in an ambush, Judah cried out to God while the priests blew trumpets. God struck the northern army. Judah killed 500,000 of Israel's picked troops — the greatest single-battle casualty figure in the Bible. Abijah captured Bethel, Jeshanah, and Ephron.",
     "biblical": true,
     "belligerents": [
       "Judah (400,000)",
       "Israel (800,000)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Abijah",
+      "Jeroboam"
+    ],
+    "troopStrength": {
+      "side1": 400000,
+      "side2": 800000
+    },
+    "casualties": {
+      "side2": 500000
+    }
   },
   {
     "id": "bible-asa-zerah-ethiopian",
@@ -1099,7 +1467,15 @@
       "Ethiopian / Cushite army"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Asa",
+      "Zerah the Ethiopian"
+    ],
+    "troopStrength": {
+      "side2": 1000000
+    }
   },
   {
     "id": "bible-ahab-aram-first",
@@ -1111,14 +1487,22 @@
       "lng": 35.2
     },
     "tier": 1,
-    "description": "Ben-hadad besieged Samaria with 32 allied kings and issued escalating demands. A prophet told Ahab that God would give victory through the young officers of the provincial commanders \u2014 232 men led the attack. Israel's surprise sortie routed the Arameans while Ben-hadad was drinking in his tent.",
+    "description": "Ben-hadad besieged Samaria with 32 allied kings and issued escalating demands. A prophet told Ahab that God would give victory through the young officers of the provincial commanders — 232 men led the attack. Israel's surprise sortie routed the Arameans while Ben-hadad was drinking in his tent.",
     "biblical": true,
     "belligerents": [
       "Israel",
       "Aram (Syria), 32 allied kings"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Ahab",
+      "Ben-hadad"
+    ],
+    "troopStrength": {
+      "side1": 232
+    }
   },
   {
     "id": "bible-ahab-aram-aphek",
@@ -1137,11 +1521,19 @@
       "Aram (Syria)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Ahab",
+      "Ben-hadad"
+    ],
+    "casualties": {
+      "side2": 127000
+    }
   },
   {
     "id": "bible-jehoshaphat-moab-ammon",
-    "name": "Jehoshaphat's Battle \u2014 Victory by Praise",
+    "name": "Jehoshaphat's Battle — Victory by Praise",
     "year": -853,
     "era": "biblical",
     "location": {
@@ -1149,18 +1541,23 @@
       "lng": 35.38
     },
     "tier": 1,
-    "description": "A vast army from beyond the Dead Sea marched on Judah. Jehoshaphat proclaimed a fast and prayed publicly. God said 'the battle is not yours but God's.' Jehoshaphat sent singers ahead of the army praising God. The Lord set ambushes among the enemy \u2014 they turned on each other and destroyed themselves. Judah spent three days gathering the spoil.",
+    "description": "A vast army from beyond the Dead Sea marched on Judah. Jehoshaphat proclaimed a fast and prayed publicly. God said 'the battle is not yours but God's.' Jehoshaphat sent singers ahead of the army praising God. The Lord set ambushes among the enemy — they turned on each other and destroyed themselves. Judah spent three days gathering the spoil.",
     "biblical": true,
     "belligerents": [
       "Judah",
       "Moab, Ammon, Mount Seir (Edom)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Jehoshaphat",
+      "Coalition of Moab/Ammon/Edom"
+    ]
   },
   {
     "id": "bible-ahab-ramoth-gilead",
-    "name": "Battle of Ramoth-gilead \u2014 Death of Ahab",
+    "name": "Battle of Ramoth-gilead — Death of Ahab",
     "year": -853,
     "era": "biblical",
     "location": {
@@ -1175,7 +1572,12 @@
       "Aram (Syria)"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Ahab/Jehoshaphat",
+      "Ben-hadad of Aram"
+    ]
   },
   {
     "id": "bible-elisha-blinded-arameans",
@@ -1187,14 +1589,19 @@
       "lng": 35.22
     },
     "tier": 1,
-    "description": "The king of Aram sent horses, chariots, and a great army to capture Elisha. His servant panicked, but Elisha prayed: 'Open his eyes, Lord' \u2014 and the servant saw the hills full of horses and chariots of fire. Elisha then struck the army with blindness, led them into Samaria, and fed them a feast before sending them home. The raids stopped.",
+    "description": "The king of Aram sent horses, chariots, and a great army to capture Elisha. His servant panicked, but Elisha prayed: 'Open his eyes, Lord' — and the servant saw the hills full of horses and chariots of fire. Elisha then struck the army with blindness, led them into Samaria, and fed them a feast before sending them home. The raids stopped.",
     "biblical": true,
     "belligerents": [
       "God, Israel",
       "Aram (Syria)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Elisha",
+      "Aramean commander"
+    ]
   },
   {
     "id": "bible-jehu-coup",
@@ -1206,14 +1613,19 @@
       "lng": 35.3
     },
     "tier": 1,
-    "description": "Anointed by Elisha's servant, Jehu drove his chariot furiously to Jezreel. He shot King Joram through the heart, pursued and mortally wounded King Ahaziah of Judah, and ordered Jezebel thrown from a window \u2014 dogs ate her body. He then had seventy sons of Ahab beheaded and destroyed all Baal worshipers in Israel.",
+    "description": "Anointed by Elisha's servant, Jehu drove his chariot furiously to Jezreel. He shot King Joram through the heart, pursued and mortally wounded King Ahaziah of Judah, and ordered Jezebel thrown from a window — dogs ate her body. He then had seventy sons of Ahab beheaded and destroyed all Baal worshipers in Israel.",
     "biblical": true,
     "belligerents": [
       "Jehu, Army loyalists",
       "House of Ahab, House of Ahaziah of Judah"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Jehu",
+      "Joram/Ahaziah"
+    ]
   },
   {
     "id": "bible-amaziah-edom",
@@ -1225,18 +1637,26 @@
       "lng": 35.35
     },
     "tier": 1,
-    "description": "Amaziah mustered Judah and struck down 10,000 Edomites in the Valley of Salt, captured Sela (Petra), and threw 10,000 captives from the cliffs. His success led to arrogance \u2014 he challenged Israel's King Jehoash and was humiliated at Beth-shemesh.",
+    "description": "Amaziah mustered Judah and struck down 10,000 Edomites in the Valley of Salt, captured Sela (Petra), and threw 10,000 captives from the cliffs. His success led to arrogance — he challenged Israel's King Jehoash and was humiliated at Beth-shemesh.",
     "biblical": true,
     "belligerents": [
       "Judah",
       "Edom"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 3,
+    "commanders": [
+      "Amaziah",
+      "Edomite forces"
+    ],
+    "casualties": {
+      "side2": 20000
+    }
   },
   {
     "id": "bible-amaziah-jehoash-bethshemesh",
-    "name": "Battle of Beth-shemesh \u2014 Amaziah vs. Jehoash",
+    "name": "Battle of Beth-shemesh — Amaziah vs. Jehoash",
     "year": -792,
     "era": "biblical",
     "location": {
@@ -1251,11 +1671,16 @@
       "Israel"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Amaziah",
+      "Jehoash of Israel"
+    ]
   },
   {
     "id": "bible-fall-samaria",
-    "name": "Fall of Samaria \u2014 Assyrian Conquest of Israel",
+    "name": "Fall of Samaria — Assyrian Conquest of Israel",
     "year": -722,
     "era": "biblical",
     "location": {
@@ -1263,18 +1688,23 @@
       "lng": 35.2
     },
     "tier": 1,
-    "description": "After a three-year siege, the Assyrians captured Samaria and deported the ten northern tribes. The people were scattered throughout the Assyrian empire and foreign peoples were resettled in their land. The northern kingdom of Israel ceased to exist.",
+    "description": "After a grueling three-year siege, the Assyrians breached Samaria's defenses and captured the capital of the northern kingdom. Sargon II deported 27,290 Israelites and scattered them across the Assyrian empire — to Halah, Habor, the Gozan River, and the cities of the Medes. Foreign peoples were resettled in their land. The ten northern tribes of Israel ceased to exist as a nation, fulfilling centuries of prophetic warnings.",
     "biblical": true,
     "belligerents": [
       "Assyria",
       "Israel (Northern Kingdom)"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Shalmaneser V/Sargon II",
+      "Hoshea"
+    ]
   },
   {
     "id": "bible-sennacherib-jerusalem",
-    "name": "Sennacherib's Siege of Jerusalem \u2014 Angel Destroys 185,000",
+    "name": "Sennacherib's Siege of Jerusalem — Angel Destroys 185,000",
     "year": -701,
     "era": "biblical",
     "location": {
@@ -1289,7 +1719,15 @@
       "Assyria"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Hezekiah/Angel of Lord",
+      "Sennacherib"
+    ],
+    "casualties": {
+      "side2": 185000
+    }
   },
   {
     "id": "bible-josiah-megiddo",
@@ -1308,7 +1746,12 @@
       "Egypt"
     ],
     "result": "side2",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Josiah",
+      "Pharaoh Necho II"
+    ]
   },
   {
     "id": "bible-babylon-first-siege",
@@ -1320,18 +1763,23 @@
       "lng": 35.23
     },
     "tier": 1,
-    "description": "Nebuchadnezzar besieged Jerusalem and made Jehoiakim his vassal. He took hostages from the royal family and nobility \u2014 including Daniel and his three friends \u2014 and carried sacred vessels from the Temple to Babylon.",
+    "description": "Nebuchadnezzar besieged Jerusalem and made Jehoiakim his vassal. He took hostages from the royal family and nobility — including Daniel and his three friends — and carried sacred vessels from the Temple to Babylon.",
     "biblical": true,
     "belligerents": [
       "Babylon",
       "Judah"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Nebuchadnezzar",
+      "Jehoiakim"
+    ]
   },
   {
     "id": "bible-babylon-second-siege",
-    "name": "Second Babylonian Siege \u2014 Deportation of Jehoiachin",
+    "name": "Second Babylonian Siege — Deportation of Jehoiachin",
     "year": -597,
     "era": "biblical",
     "location": {
@@ -1339,18 +1787,26 @@
       "lng": 35.23
     },
     "tier": 1,
-    "description": "When Jehoiakim rebelled, Nebuchadnezzar returned. Jehoiachin surrendered after three months. Nebuchadnezzar deported 10,000 people \u2014 the king, his court, warriors, craftsmen, and smiths \u2014 including the prophet Ezekiel. He installed Zedekiah as puppet king.",
+    "description": "When Jehoiakim rebelled, Nebuchadnezzar returned. Jehoiachin surrendered after three months. Nebuchadnezzar deported 10,000 people — the king, his court, warriors, craftsmen, and smiths — including the prophet Ezekiel. He installed Zedekiah as puppet king.",
     "biblical": true,
     "belligerents": [
       "Babylon",
       "Judah"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Nebuchadnezzar",
+      "Jehoiachin"
+    ],
+    "casualties": {
+      "side2": 10000
+    }
   },
   {
     "id": "bible-fall-jerusalem",
-    "name": "Fall of Jerusalem \u2014 Destruction of Solomon's Temple",
+    "name": "Fall of Jerusalem — Destruction of Solomon's Temple",
     "year": -586,
     "era": "biblical",
     "location": {
@@ -1365,11 +1821,16 @@
       "Judah"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Nebuchadnezzar",
+      "Zedekiah"
+    ]
   },
   {
     "id": "bible-esther-purim",
-    "name": "Jews Defend Themselves \u2014 Purim",
+    "name": "Jews Defend Themselves — Purim",
     "year": -473,
     "era": "biblical",
     "location": {
@@ -1384,11 +1845,19 @@
       "Enemies of the Jews"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Mordecai/Esther",
+      "Haman"
+    ],
+    "casualties": {
+      "side2": 75000
+    }
   },
   {
     "id": "bible-maccabean-beth-horon",
-    "name": "Battle of Beth Horon \u2014 Maccabean Revolt",
+    "name": "Battle of Beth Horon — Maccabean Revolt",
     "year": -166,
     "era": "classical",
     "location": {
@@ -1403,7 +1872,15 @@
       "Seleucid Empire"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Judas Maccabeus",
+      "Seron"
+    ],
+    "casualties": {
+      "side2": 800
+    }
   },
   {
     "id": "bible-maccabean-emmaus",
@@ -1422,7 +1899,12 @@
       "Seleucid Empire"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Judas Maccabeus",
+      "Gorgias"
+    ]
   },
   {
     "id": "bible-maccabean-beth-zur",
@@ -1441,11 +1923,16 @@
       "Seleucid Empire"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Judas Maccabeus",
+      "Lysias"
+    ]
   },
   {
     "id": "bible-maccabean-hanukkah",
-    "name": "Rededication of the Temple \u2014 Hanukkah",
+    "name": "Rededication of the Temple — Hanukkah",
     "year": -164,
     "era": "classical",
     "location": {
@@ -1460,7 +1947,12 @@
       "Seleucid garrison remnants"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Judas Maccabeus",
+      "Seleucid garrison"
+    ]
   },
   {
     "id": "bible-massacre-innocents",
@@ -1479,7 +1971,12 @@
       "Male infants of Bethlehem"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Herod the Great",
+      "Infants of Bethlehem"
+    ]
   },
   {
     "id": "bible-temple-cleansing",
@@ -1498,11 +1995,16 @@
       "Money changers, Merchants"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 2,
+    "commanders": [
+      "Jesus",
+      "Temple merchants"
+    ]
   },
   {
     "id": "bible-gethsemane-arrest",
-    "name": "Arrest in Gethsemane \u2014 Peter's Sword",
+    "name": "Arrest in Gethsemane — Peter's Sword",
     "year": 30,
     "era": "classical",
     "location": {
@@ -1517,6 +2019,11 @@
       "Jesus, Disciples"
     ],
     "result": "side1",
-    "scriptureRef": "bible"
+    "scriptureRef": "bible",
+    "significance": 1,
+    "commanders": [
+      "Judas/Temple guard captain",
+      "Jesus"
+    ]
   }
 ]

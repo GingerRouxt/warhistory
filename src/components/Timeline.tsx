@@ -225,6 +225,10 @@ export default function Timeline({
         grad.addColorStop(1, DENSITY_COLOR_LO)
         ctx.fillStyle = grad
         ctx.fillRect(x, h - 4 - barH, barW - 0.5, barH)
+
+        // Gold glow cap at top of each bar
+        ctx.fillStyle = 'rgba(212, 160, 23, 0.8)'
+        ctx.fillRect(x, h - 4 - barH, barW - 0.5, 2)
       }
     }
 
@@ -242,16 +246,19 @@ export default function Timeline({
       const x = yearToX(y, w)
       if (x < 0 || x > w) continue
 
+      // Major grid lines (every 1000 years) get brighter
+      const isMajor = y % 1000 === 0
+
       // Grid line
-      ctx.strokeStyle = GRID_COLOR
+      ctx.strokeStyle = isMajor ? 'rgba(255, 255, 255, 0.12)' : GRID_COLOR
       ctx.lineWidth = 1
       ctx.beginPath()
       ctx.moveTo(x, 0)
       ctx.lineTo(x, h)
       ctx.stroke()
 
-      // Label
-      ctx.fillStyle = GRID_LABEL
+      // Label — brighter for major grid lines
+      ctx.fillStyle = isMajor ? 'rgba(255, 255, 255, 0.6)' : GRID_LABEL
       ctx.fillText(formatYear(y), x, 4)
     }
 
@@ -265,16 +272,47 @@ export default function Timeline({
       if (eraW < 40) continue // too narrow to label
 
       const cx = x0 + eraW / 2
+      const labelText = era.name
+      const labelMetrics = ctx.measureText(labelText)
+      const labelW = labelMetrics.width + 12
+      const labelH = 16
+
+      // Subtle background rectangle for era label
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.3)'
+      ctx.beginPath()
+      const r = 3
+      const lx = cx - labelW / 2
+      const ly = h - 6 - labelH
+      ctx.moveTo(lx + r, ly)
+      ctx.lineTo(lx + labelW - r, ly)
+      ctx.arcTo(lx + labelW, ly, lx + labelW, ly + r, r)
+      ctx.lineTo(lx + labelW, ly + labelH - r)
+      ctx.arcTo(lx + labelW, ly + labelH, lx + labelW - r, ly + labelH, r)
+      ctx.lineTo(lx + r, ly + labelH)
+      ctx.arcTo(lx, ly + labelH, lx, ly + labelH - r, r)
+      ctx.lineTo(lx, ly + r)
+      ctx.arcTo(lx, ly, lx + r, ly, r)
+      ctx.closePath()
+      ctx.fill()
+
       ctx.fillStyle = era.color + 'aa'
-      ctx.fillText(era.name, cx, h - 6)
+      ctx.fillText(labelText, cx, h - 6)
     }
 
-    // --- Layer 6: Scrubber line ---
+    // --- Layer 6: Bottom gold gradient separator ---
+    const bottomGrad = ctx.createLinearGradient(0, 0, w, 0)
+    bottomGrad.addColorStop(0, 'transparent')
+    bottomGrad.addColorStop(0.5, 'rgba(212, 160, 23, 0.4)')
+    bottomGrad.addColorStop(1, 'transparent')
+    ctx.fillStyle = bottomGrad
+    ctx.fillRect(0, h - 1, w, 1)
+
+    // --- Layer 7: Scrubber line ---
     const sx = yearToX(currentYear, w)
     if (sx >= -HANDLE_RADIUS && sx <= w + HANDLE_RADIUS) {
       // Glow
       ctx.shadowColor = GOLD_GLOW
-      ctx.shadowBlur = 12
+      ctx.shadowBlur = isDraggingScrubber.current ? 20 : 12
       ctx.strokeStyle = GOLD
       ctx.lineWidth = SCRUBBER_WIDTH
       ctx.beginPath()
@@ -282,6 +320,14 @@ export default function Timeline({
       ctx.lineTo(sx, h)
       ctx.stroke()
       ctx.shadowBlur = 0
+
+      // Drag glow ring (outer circle when dragging)
+      if (isDraggingScrubber.current) {
+        ctx.fillStyle = 'rgba(212, 160, 23, 0.2)'
+        ctx.beginPath()
+        ctx.arc(sx, HANDLE_RADIUS * 2, HANDLE_RADIUS + 4, 0, Math.PI * 2)
+        ctx.fill()
+      }
 
       // Handle (diamond)
       ctx.fillStyle = GOLD
@@ -629,6 +675,8 @@ export default function Timeline({
               color: GOLD,
               letterSpacing: '0.05em',
               textShadow: `0 0 12px ${GOLD_GLOW}`,
+              transition: 'all 0.3s ease',
+              display: 'inline-block',
             }}
           >
             {formatYear(currentYear)}

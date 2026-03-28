@@ -1,14 +1,31 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 
 interface LandingOverlayProps {
   onEnter: () => void
   isVisible: boolean
 }
 
+/** Generate random particle configs once */
+function useParticles(count: number) {
+  return useMemo(() => {
+    return Array.from({ length: count }, (_, i) => ({
+      id: i,
+      left: `${Math.random() * 100}%`,
+      top: `${Math.random() * 100}%`,
+      size: 2 + Math.random() * 1.5,
+      delay: Math.random() * 8,
+      duration: 6 + Math.random() * 6,
+      driftX: `${-60 + Math.random() * 120}px`,
+      driftY: `${-80 + Math.random() * 40}px`,
+    }))
+  }, [count])
+}
+
 export function LandingOverlay({ onEnter, isVisible }: LandingOverlayProps) {
   const [isFadingOut, setIsFadingOut] = useState(false)
   const [shouldRender, setShouldRender] = useState(true)
   const [contentReady, setContentReady] = useState(false)
+  const particles = useParticles(25)
 
   // Stagger in the content after mount
   useEffect(() => {
@@ -39,7 +56,8 @@ export function LandingOverlay({ onEnter, isVisible }: LandingOverlayProps) {
       className="fixed inset-0 z-50 flex items-center justify-center"
       style={{
         opacity: isFadingOut ? 0 : 1,
-        transition: 'opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1)',
+        transform: isFadingOut ? 'scale(1.05)' : 'scale(1)',
+        transition: 'opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)',
         pointerEvents: isFadingOut ? 'none' : 'auto',
       }}
     >
@@ -59,10 +77,33 @@ export function LandingOverlay({ onEnter, isVisible }: LandingOverlayProps) {
         }}
       />
 
+      {/* Particle field */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {particles.map((p) => (
+          <span
+            key={p.id}
+            style={{
+              position: 'absolute',
+              left: p.left,
+              top: p.top,
+              width: p.size,
+              height: p.size,
+              borderRadius: '50%',
+              background: 'var(--color-war-gold)',
+              ['--drift-x' as string]: p.driftX,
+              ['--drift-y' as string]: p.driftY,
+              animation: `drift ${p.duration}s ease-in-out ${p.delay}s infinite`,
+              opacity: 0,
+            }}
+          />
+        ))}
+      </div>
+
       {/* Center content */}
       <div className="relative z-10 text-center px-6 select-none">
         {/* Title */}
         <h1
+          className="text-glow"
           style={{
             fontFamily: 'var(--font-family-display)',
             fontSize: 'clamp(36px, 8vw, 72px)',
@@ -78,9 +119,25 @@ export function LandingOverlay({ onEnter, isVisible }: LandingOverlayProps) {
           WARHISTORY
         </h1>
 
-        {/* Subtitle */}
+        {/* Subtitle — "Every Battle in Human History" */}
         <p
-          className="mt-6 text-lg"
+          className="mt-4 text-sm uppercase"
+          style={{
+            fontFamily: 'var(--font-family-body)',
+            color: 'rgba(212, 160, 23, 0.7)',
+            fontWeight: 400,
+            letterSpacing: '0.2em',
+            opacity: contentReady ? 1 : 0,
+            transform: contentReady ? 'translateY(0)' : 'translateY(12px)',
+            transition: 'opacity 1.2s ease-out 0.5s, transform 1.2s ease-out 0.5s',
+          }}
+        >
+          Every Battle in Human History
+        </p>
+
+        {/* Secondary subtitle */}
+        <p
+          className="mt-4 text-lg"
           style={{
             fontFamily: 'var(--font-family-body)',
             color: 'rgba(235, 235, 235, 0.8)',
@@ -94,11 +151,11 @@ export function LandingOverlay({ onEnter, isVisible }: LandingOverlayProps) {
           Every battle ever fought. From Genesis to today.
         </p>
 
-        {/* Gold separator */}
+        {/* Gold gradient divider */}
         <div
           className="mx-auto mt-8"
           style={{
-            width: 120,
+            width: 200,
             height: 1,
             background: 'linear-gradient(to right, transparent, var(--color-war-gold), transparent)',
             opacity: contentReady ? 1 : 0,
@@ -109,13 +166,14 @@ export function LandingOverlay({ onEnter, isVisible }: LandingOverlayProps) {
         {/* Enter button */}
         <button
           onClick={handleEnter}
-          className="mt-10 px-10 py-3 text-sm uppercase tracking-[0.25em] font-medium cursor-pointer"
+          className="mt-10 px-10 py-4 text-sm uppercase tracking-[0.25em] font-medium cursor-pointer"
           style={{
             fontFamily: 'var(--font-family-display)',
             color: 'var(--color-war-gold)',
             background: 'transparent',
             border: '1px solid rgba(212, 160, 23, 0.5)',
             borderRadius: 2,
+            animation: 'glow-pulse 3s ease-in-out infinite',
             transition: 'all 0.4s ease, opacity 1.2s ease-out 0.9s, transform 1.2s ease-out 0.9s',
             opacity: contentReady ? 1 : 0,
             transform: contentReady ? 'translateY(0)' : 'translateY(12px)',
@@ -130,7 +188,7 @@ export function LandingOverlay({ onEnter, isVisible }: LandingOverlayProps) {
             e.currentTarget.style.background = 'transparent'
             e.currentTarget.style.color = 'var(--color-war-gold)'
             e.currentTarget.style.borderColor = 'rgba(212, 160, 23, 0.5)'
-            e.currentTarget.style.boxShadow = 'none'
+            e.currentTarget.style.boxShadow = ''
           }}
         >
           Enter
