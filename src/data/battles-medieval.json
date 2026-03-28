@@ -1473,7 +1473,7 @@
     "id": "battle-of-castillon",
     "name": "Battle of Castillon",
     "year": 1453,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 44.8531,
       "lng": -0.0389
@@ -1556,7 +1556,7 @@
     "id": "fall-of-constantinople",
     "name": "Fall of Constantinople",
     "year": 1453,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 41.0082,
       "lng": 28.9784
@@ -1583,7 +1583,7 @@
     "id": "battle-of-towton",
     "name": "Battle of Towton",
     "year": 1461,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 53.85,
       "lng": -1.2667
@@ -1614,7 +1614,7 @@
     "id": "battle-of-barnet",
     "name": "Battle of Barnet",
     "year": 1471,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 51.6583,
       "lng": -0.2
@@ -1641,7 +1641,7 @@
     "id": "battle-of-tewkesbury",
     "name": "Battle of Tewkesbury",
     "year": 1471,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 51.9833,
       "lng": -2.15
@@ -1665,7 +1665,7 @@
     "id": "battle-of-bosworth-field",
     "name": "Battle of Bosworth Field",
     "year": 1485,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 52.6056,
       "lng": -1.3972
@@ -2228,7 +2228,7 @@
     "id": "battle-of-nagashino",
     "name": "Battle of Nagashino",
     "year": 1575,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.9333,
       "lng": 137.5833
@@ -2407,7 +2407,7 @@
     "id": "siege-of-belgrade-1456",
     "name": "Siege of Belgrade (1456)",
     "year": 1456,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 44.8176,
       "lng": 20.4633
@@ -2435,7 +2435,7 @@
     "id": "battle-of-grandson",
     "name": "Battle of Grandson",
     "year": 1476,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 46.8,
       "lng": 6.6333
@@ -2458,7 +2458,7 @@
     "id": "battle-of-morat",
     "name": "Battle of Morat (Murten)",
     "year": 1476,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 46.9333,
       "lng": 7.1167
@@ -2488,7 +2488,7 @@
     "id": "battle-of-nancy",
     "name": "Battle of Nancy",
     "year": 1477,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 48.6833,
       "lng": 6.1833
@@ -2512,7 +2512,7 @@
     "id": "battle-of-adwa-precursor-medieval",
     "name": "Battle of Shimbra Kure",
     "year": 1529,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 9.0,
       "lng": 39.5
@@ -2558,7 +2558,7 @@
     "id": "battle-of-tondibi",
     "name": "Battle of Tondibi",
     "year": 1591,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 16.75,
       "lng": -3.0
@@ -2994,7 +2994,7 @@
     "id": "fall-of-granada",
     "name": "Fall of Granada",
     "year": 1492,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 37.1773,
       "lng": -3.5986
@@ -3088,7 +3088,7 @@
     "id": "battle-of-the-catalaunian-plains",
     "name": "Battle of the Catalaunian Plains (Chalons)",
     "year": 451,
-    "era": "medieval",
+    "era": "classical",
     "location": {
       "lat": 48.95,
       "lng": 4.35
@@ -3117,7 +3117,7 @@
     "id": "battle-of-nedao",
     "name": "Battle of Nedao",
     "year": 454,
-    "era": "medieval",
+    "era": "classical",
     "location": {
       "lat": 46.0,
       "lng": 18.0
@@ -3665,7 +3665,7 @@
     "id": "battle-of-wayna-daga",
     "name": "Battle of Wayna Daga",
     "year": 1543,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 11.5,
       "lng": 37.5
@@ -3793,7 +3793,7 @@
     "id": "battle-of-st-albans-1455",
     "name": "First Battle of St Albans",
     "year": 1455,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 51.7525,
       "lng": -0.3417
@@ -3816,7 +3816,7 @@
     "id": "battle-of-wakefield",
     "name": "Battle of Wakefield",
     "year": 1460,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 53.6833,
       "lng": -1.5
@@ -3839,7 +3839,7 @@
     "id": "battle-of-stoke-field",
     "name": "Battle of Stoke Field",
     "year": 1487,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 53.0,
       "lng": -0.8833
@@ -3862,7 +3862,7 @@
     "id": "battle-of-otumba",
     "name": "Battle of Otumba",
     "year": 1520,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 19.7,
       "lng": -98.75
@@ -3889,7 +3889,7 @@
     "id": "fall-of-tenochtitlan",
     "name": "Fall of Tenochtitlan",
     "year": 1521,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 19.4326,
       "lng": -99.1332
@@ -3917,7 +3917,7 @@
     "id": "battle-of-cajamarca",
     "name": "Battle of Cajamarca",
     "year": 1532,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": -7.1617,
       "lng": -78.5128
@@ -3948,7 +3948,7 @@
     "id": "battle-of-chaldiran",
     "name": "Battle of Chaldiran",
     "year": 1514,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 39.0667,
       "lng": 44.3667
@@ -3975,7 +3975,7 @@
     "id": "battle-of-mohacs",
     "name": "Battle of Mohacs",
     "year": 1526,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 45.9833,
       "lng": 18.6833
@@ -4005,7 +4005,7 @@
     "id": "battle-of-ravenna-1512",
     "name": "Battle of Ravenna",
     "year": 1512,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 44.4167,
       "lng": 12.2
@@ -4036,7 +4036,7 @@
     "id": "battle-of-marignano",
     "name": "Battle of Marignano",
     "year": 1515,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 45.4,
       "lng": 9.3
@@ -4067,7 +4067,7 @@
     "id": "siege-of-rhodes-1522",
     "name": "Siege of Rhodes",
     "year": 1522,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 36.4333,
       "lng": 28.2167
@@ -4094,7 +4094,7 @@
     "id": "battle-of-panipat-1526",
     "name": "First Battle of Panipat",
     "year": 1526,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 29.39,
       "lng": 76.97
@@ -4121,7 +4121,7 @@
     "id": "battle-of-khanwa",
     "name": "Battle of Khanwa",
     "year": 1527,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 27.0,
       "lng": 76.5
@@ -4148,7 +4148,7 @@
     "id": "battle-of-flodden",
     "name": "Battle of Flodden",
     "year": 1513,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 55.6333,
       "lng": -2.15
@@ -4178,7 +4178,7 @@
     "id": "battle-of-pavia",
     "name": "Battle of Pavia",
     "year": 1525,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 45.1833,
       "lng": 9.15
@@ -4209,7 +4209,7 @@
     "id": "battle-of-sekigahara",
     "name": "Battle of Sekigahara",
     "year": 1600,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.3656,
       "lng": 136.4597
@@ -4236,7 +4236,7 @@
     "id": "battle-of-okehazama",
     "name": "Battle of Okehazama",
     "year": 1560,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.0333,
       "lng": 136.9833
@@ -4263,7 +4263,7 @@
     "id": "battle-of-kawanakajima",
     "name": "Fourth Battle of Kawanakajima",
     "year": 1561,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 36.5833,
       "lng": 138.1667
@@ -4294,7 +4294,7 @@
     "id": "siege-of-osaka",
     "name": "Siege of Osaka",
     "year": 1615,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.6937,
       "lng": 135.5022
@@ -4321,7 +4321,7 @@
     "id": "battle-of-the-hydaspes",
     "name": "Japanese Invasions of Korea - Siege of Pyongyang",
     "year": 1593,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 39.0194,
       "lng": 125.7547
@@ -4349,7 +4349,7 @@
     "id": "battle-of-noryang",
     "name": "Battle of Noryang",
     "year": 1598,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.9333,
       "lng": 127.85
@@ -4374,7 +4374,7 @@
     "id": "battle-of-myeongnyang",
     "name": "Battle of Myeongnyang",
     "year": 1597,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.5667,
       "lng": 126.3
@@ -4401,7 +4401,7 @@
     "id": "battle-of-alcacer-quibir",
     "name": "Battle of Alcacer Quibir (Three Kings)",
     "year": 1578,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.0,
       "lng": -5.5
@@ -4431,7 +4431,7 @@
     "id": "battle-of-preveza",
     "name": "Battle of Preveza",
     "year": 1538,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 38.95,
       "lng": 20.75
@@ -4454,7 +4454,7 @@
     "id": "siege-of-malta-1565",
     "name": "Great Siege of Malta",
     "year": 1565,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.8997,
       "lng": 14.5147
@@ -4486,7 +4486,7 @@
     "id": "battle-of-lepanto",
     "name": "Battle of Lepanto",
     "year": 1571,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 38.4,
       "lng": 21.1

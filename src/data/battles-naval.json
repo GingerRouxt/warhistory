@@ -4,13 +4,27 @@
     "name": "Battle of Salamis",
     "year": -480,
     "era": "classical",
-    "location": { "lat": 37.9500, "lng": 23.5833 },
+    "location": {
+      "lat": 37.95,
+      "lng": 23.5833
+    },
     "tier": 1,
     "description": "Imagine you're a Greek oarsman wedged into a trireme so tight your knees touch the man in front of you, and through the oar port you can see the horizon black with Persian ships — a thousand of them. Themistocles had staked everything on one insane gamble: lure that armada into a strait so narrow their numbers meant nothing. The crunch of bronze rams splitting timber echoed off the cliffs as Greek triremes gutted over 200 Persian vessels in waters so choked with wreckage and drowning men you could walk across the dead. Western civilization survived that afternoon by about half a mile of sea lane.",
-    "belligerents": ["Greek city-states", "Achaemenid Persia"],
+    "belligerents": [
+      "Greek city-states",
+      "Achaemenid Persia"
+    ],
     "result": "Greek victory",
-    "commanders": ["Themistocles", "Eurybiades", "Xerxes I", "Artemisia I"],
-    "casualties": { "side1": 40, "side2": 200 },
+    "commanders": [
+      "Themistocles",
+      "Eurybiades",
+      "Xerxes I",
+      "Artemisia I"
+    ],
+    "casualties": {
+      "side1": 40,
+      "side2": 200
+    },
     "warName": "Greco-Persian Wars",
     "significance": 1
   },
@@ -19,13 +33,25 @@
     "name": "Battle of Aegospotami",
     "year": -405,
     "era": "classical",
-    "location": { "lat": 40.3833, "lng": 26.6833 },
+    "location": {
+      "lat": 40.3833,
+      "lng": 26.6833
+    },
     "tier": 2,
     "description": "The Athenian crews were ashore cooking dinner. That's how it ended — not with some epic clash of bronze rams, but with Lysander catching 180 triremes beached and unmanned on the Hellespont like fish drying in the sun. He captured 170 of them without breaking a sweat, then executed every Athenian prisoner. The golden age of Athens — Pericles, the Parthenon, all of it — bled out on that beach because somebody forgot to post a watch.",
-    "belligerents": ["Sparta", "Athens"],
+    "belligerents": [
+      "Sparta",
+      "Athens"
+    ],
     "result": "Spartan victory",
-    "commanders": ["Lysander", "Conon"],
-    "casualties": { "side1": 0, "side2": 3000 },
+    "commanders": [
+      "Lysander",
+      "Conon"
+    ],
+    "casualties": {
+      "side1": 0,
+      "side2": 3000
+    },
     "warName": "Peloponnesian War",
     "significance": 2
   },
@@ -34,13 +60,27 @@
     "name": "Battle of Ecnomus",
     "year": -256,
     "era": "classical",
-    "location": { "lat": 37.1000, "lng": 13.9333 },
+    "location": {
+      "lat": 37.1,
+      "lng": 13.9333
+    },
     "tier": 2,
     "description": "Picture roughly 680 warships — quinqueremes stacked with marines — crashing into each other off the coast of Sicily. It may have been the largest naval battle in the history of the ancient world, and the Romans won it with a gadget: the corvus, a boarding bridge with a spike on the end that turned a sea fight into a land fight. Carthaginian seamanship meant nothing when Roman legionaries were stomping across your deck. Ninety-four Carthaginian ships went to the bottom, and Rome kicked the door open to Africa.",
-    "belligerents": ["Roman Republic", "Carthage"],
+    "belligerents": [
+      "Roman Republic",
+      "Carthage"
+    ],
     "result": "Roman victory",
-    "commanders": ["Marcus Atilius Regulus", "Lucius Manlius Vulso", "Hamilcar", "Hanno"],
-    "casualties": { "side1": 24, "side2": 94 },
+    "commanders": [
+      "Marcus Atilius Regulus",
+      "Lucius Manlius Vulso",
+      "Hamilcar",
+      "Hanno"
+    ],
+    "casualties": {
+      "side1": 24,
+      "side2": 94
+    },
     "warName": "First Punic War",
     "significance": 3
   },
@@ -49,13 +89,27 @@
     "name": "Battle of Actium",
     "year": -31,
     "era": "classical",
-    "location": { "lat": 38.9500, "lng": 20.7167 },
+    "location": {
+      "lat": 38.95,
+      "lng": 20.7167
+    },
     "tier": 1,
     "description": "This is where the Roman Republic died and the Empire was born — right there in the Ambracian Gulf, with Agrippa's fast Liburnian warships swarming Antony's heavy galleys like wolves on oxen. And then the moment that changed everything: Cleopatra's Egyptian squadron broke through the line and ran. Antony — the great general, Caesar's right hand — saw her purple sail pulling away, abandoned his fleet, abandoned his army, abandoned Rome, and chased a woman into the darkness. The Republic was over. Augustus was coming.",
-    "belligerents": ["Forces of Octavian", "Forces of Mark Antony and Cleopatra"],
+    "belligerents": [
+      "Forces of Octavian",
+      "Forces of Mark Antony and Cleopatra"
+    ],
     "result": "Octavian victory",
-    "commanders": ["Octavian", "Marcus Agrippa", "Mark Antony", "Cleopatra VII"],
-    "casualties": { "side1": 2500, "side2": 5000 },
+    "commanders": [
+      "Octavian",
+      "Marcus Agrippa",
+      "Mark Antony",
+      "Cleopatra VII"
+    ],
+    "casualties": {
+      "side1": 2500,
+      "side2": 5000
+    },
     "warName": "Final War of the Roman Republic",
     "significance": 1
   },
@@ -64,13 +118,27 @@
     "name": "Battle of Red Cliffs",
     "year": 208,
     "era": "classical",
-    "location": { "lat": 29.8500, "lng": 113.7167 },
+    "location": {
+      "lat": 29.85,
+      "lng": 113.7167
+    },
     "tier": 1,
     "description": "Cao Cao chained his ships together on the Yangtze so his northern soldiers wouldn't get seasick. Think about that for a second — hundreds of vessels lashed into a floating city that couldn't move. When the fireships hit, the whole thing became a mile-wide inferno on the river. Eighty thousand men burning, drowning, screaming in a wall of flame you could probably see from space. The man who nearly unified China watched his dream turn to ash on the water. Three kingdoms would fight for the next sixty years because of one night on the Yangtze.",
-    "belligerents": ["Sun Quan–Liu Bei alliance", "Cao Cao"],
+    "belligerents": [
+      "Sun Quan–Liu Bei alliance",
+      "Cao Cao"
+    ],
     "result": "Allied victory",
-    "commanders": ["Zhou Yu", "Liu Bei", "Zhuge Liang", "Cao Cao"],
-    "casualties": { "side1": 10000, "side2": 80000 },
+    "commanders": [
+      "Zhou Yu",
+      "Liu Bei",
+      "Zhuge Liang",
+      "Cao Cao"
+    ],
+    "casualties": {
+      "side1": 10000,
+      "side2": 80000
+    },
     "warName": "Wars of the Three Kingdoms",
     "significance": 1
   },
@@ -79,13 +147,25 @@
     "name": "Battle of Dan-no-ura",
     "year": 1185,
     "era": "medieval",
-    "location": { "lat": 33.9600, "lng": 130.9400 },
+    "location": {
+      "lat": 33.96,
+      "lng": 130.94
+    },
     "tier": 2,
     "description": "The tidal currents in the Shimonoseki Strait shifted, and with them the fate of Japan. The Taira, who had ruled like gods, watched their fleet get torn apart by Minamoto no Yoshitsune's warriors leaping from ship to ship like demons. When it was over, the Taira grandmother took the child Emperor Antoku in her arms, told him there was a paradise beneath the waves, and jumped. Samurai would rule Japan for the next seven hundred years — and it started with a six-year-old drowning in his grandmother's embrace.",
-    "belligerents": ["Minamoto clan", "Taira clan"],
+    "belligerents": [
+      "Minamoto clan",
+      "Taira clan"
+    ],
     "result": "Minamoto victory",
-    "commanders": ["Minamoto no Yoshitsune", "Taira no Munemori"],
-    "casualties": { "side1": 500, "side2": 3000 },
+    "commanders": [
+      "Minamoto no Yoshitsune",
+      "Taira no Munemori"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 3000
+    },
     "warName": "Genpei War",
     "significance": 2
   },
@@ -94,13 +174,26 @@
     "name": "Battle of Sluys",
     "year": 1340,
     "era": "medieval",
-    "location": { "lat": 51.3167, "lng": 3.3833 },
+    "location": {
+      "lat": 51.3167,
+      "lng": 3.3833
+    },
     "tier": 2,
     "description": "Edward III found the French fleet anchored in the mouth of the Zwin like sitting ducks, and what followed was a slaughterhouse on water. English longbowmen — the same men who would later terrify Europe at Crecy — rained arrows until the French decks ran red, then men-at-arms clambered over the rails and fought ship to ship in a medieval meat grinder. France lost 190 of 213 vessels. They say the fish ate so many Frenchmen that if God had given fish the power of speech, they'd have spoken French.",
-    "belligerents": ["England", "France"],
+    "belligerents": [
+      "England",
+      "France"
+    ],
     "result": "English victory",
-    "commanders": ["Edward III", "Hugh Quiéret", "Nicolas Béhuchet"],
-    "casualties": { "side1": 600, "side2": 16000 },
+    "commanders": [
+      "Edward III",
+      "Hugh Quiéret",
+      "Nicolas Béhuchet"
+    ],
+    "casualties": {
+      "side1": 600,
+      "side2": 16000
+    },
     "warName": "Hundred Years' War",
     "significance": 3
   },
@@ -109,13 +202,25 @@
     "name": "Battle of La Rochelle",
     "year": 1372,
     "era": "medieval",
-    "location": { "lat": 46.1500, "lng": -1.2333 },
+    "location": {
+      "lat": 46.15,
+      "lng": -1.2333
+    },
     "tier": 3,
     "description": "Castilian war galleys — low, fast, and lethal — caught an English convoy off La Rochelle in the kind of ambush that makes you wonder if anyone on the English side was paying attention at all. The Earl of Pembroke was hauled away in chains, the supply lines to Aquitaine were cut like a severed artery, and just like that, decades of English naval dominance evaporated in the Bay of Biscay. One afternoon. One ambush. The whole strategic map redrawn.",
-    "belligerents": ["Castile–France alliance", "England"],
+    "belligerents": [
+      "Castile–France alliance",
+      "England"
+    ],
     "result": "Castilian–French victory",
-    "commanders": ["Ambrosio Boccanegra", "Earl of Pembroke"],
-    "casualties": { "side1": 200, "side2": 2000 },
+    "commanders": [
+      "Ambrosio Boccanegra",
+      "Earl of Pembroke"
+    ],
+    "casualties": {
+      "side1": 200,
+      "side2": 2000
+    },
     "warName": "Hundred Years' War",
     "significance": 4
   },
@@ -124,13 +229,25 @@
     "name": "Battle of Myeongnyang",
     "year": 1597,
     "era": "early-modern",
-    "location": { "lat": 34.5667, "lng": 126.3083 },
+    "location": {
+      "lat": 34.5667,
+      "lng": 126.3083
+    },
     "tier": 1,
     "description": "Thirteen ships. Admiral Yi Sun-sin had thirteen ships left, and he was staring down a Japanese fleet of 133. What he did next is one of the most insane acts of tactical genius in the history of warfare. He funneled the Japanese into the Myeongnyang Strait where whirlpool currents turned their numerical advantage into chaos — ships spinning, colliding, helpless — and his panokseon warships tore through 31 of them like a buzzsaw. Thirteen against 133, and Yi won. If you wrote it in a novel, nobody would believe you.",
-    "belligerents": ["Joseon Korea", "Toyotomi Japan"],
+    "belligerents": [
+      "Joseon Korea",
+      "Toyotomi Japan"
+    ],
     "result": "Korean victory",
-    "commanders": ["Yi Sun-sin", "Kurushima Michifusa"],
-    "casualties": { "side1": 10, "side2": 8000 },
+    "commanders": [
+      "Yi Sun-sin",
+      "Kurushima Michifusa"
+    ],
+    "casualties": {
+      "side1": 10,
+      "side2": 8000
+    },
     "warName": "Japanese invasions of Korea",
     "significance": 1
   },
@@ -139,13 +256,25 @@
     "name": "Battle of Lepanto",
     "year": 1571,
     "era": "early-modern",
-    "location": { "lat": 38.3950, "lng": 21.1030 },
+    "location": {
+      "lat": 38.395,
+      "lng": 21.103
+    },
     "tier": 1,
     "description": "The last great galley battle in history, and God, was it a bloodbath. Over 400 galleys locked oars at the entrance to the Gulf of Patras, and for hours it was hand-to-hand butchery — swords, pikes, arquebuses, men falling into the churning water between hulls and getting crushed. Thirty thousand Ottoman dead. Twelve thousand Christian galley slaves freed from their chains, blinking in the sunlight, some of them rowing for the first time as free men. Don John of Austria was twenty-four years old. He'd just broken the myth of Ottoman invincibility on the sea.",
-    "belligerents": ["Holy League", "Ottoman Empire"],
+    "belligerents": [
+      "Holy League",
+      "Ottoman Empire"
+    ],
     "result": "Holy League victory",
-    "commanders": ["Don John of Austria", "Ali Pasha"],
-    "casualties": { "side1": 7500, "side2": 30000 },
+    "commanders": [
+      "Don John of Austria",
+      "Ali Pasha"
+    ],
+    "casualties": {
+      "side1": 7500,
+      "side2": 30000
+    },
     "warName": "Ottoman–Venetian War",
     "significance": 1
   },
@@ -154,13 +283,26 @@
     "name": "Defeat of the Spanish Armada",
     "year": 1588,
     "era": "early-modern",
-    "location": { "lat": 50.7500, "lng": 0.0000 },
+    "location": {
+      "lat": 50.75,
+      "lng": -3.0
+    },
     "tier": 1,
     "description": "A hundred and thirty ships — the greatest naval force Europe had ever assembled — sailed up the English Channel to conquer a nation. Then Drake sent fireships blazing into their anchorage at Gravelines, and the most powerful fleet on earth scattered like startled pigeons. What the English guns didn't finish, the North Atlantic did. Ships smashed on Irish rocks, men drowning in full armor in freezing seas, bodies washing up on beaches for months. Only 67 ships limped home to Spain. Philip II had bet his empire. The Atlantic took the bet.",
-    "belligerents": ["England", "Spain"],
+    "belligerents": [
+      "England",
+      "Spain"
+    ],
     "result": "English victory",
-    "commanders": ["Charles Howard", "Francis Drake", "Duke of Medina Sidonia"],
-    "casualties": { "side1": 750, "side2": 20000 },
+    "commanders": [
+      "Charles Howard",
+      "Francis Drake",
+      "Duke of Medina Sidonia"
+    ],
+    "casualties": {
+      "side1": 750,
+      "side2": 20000
+    },
     "warName": "Anglo-Spanish War",
     "significance": 1
   },
@@ -169,13 +311,25 @@
     "name": "Battle of the Downs",
     "year": 1639,
     "era": "early-modern",
-    "location": { "lat": 51.2000, "lng": 1.4500 },
+    "location": {
+      "lat": 51.2,
+      "lng": 1.45
+    },
     "tier": 3,
     "description": "Seventy-seven Spanish warships thought they were safe, sheltering in the English Downs anchorage under the polite fiction of English neutrality. Tromp didn't care about polite fictions. His Dutch fleet sailed in and annihilated them — 43 ships sunk or captured, Spanish sailors drowning within sight of the English coast. Spain would never reinforce Flanders by sea again. The Dutch Republic had announced, in gunpowder and splintered oak, that the age of Spanish sea power was over.",
-    "belligerents": ["Dutch Republic", "Spain"],
+    "belligerents": [
+      "Dutch Republic",
+      "Spain"
+    ],
     "result": "Dutch victory",
-    "commanders": ["Maarten Tromp", "Antonio de Oquendo"],
-    "casualties": { "side1": 100, "side2": 7000 },
+    "commanders": [
+      "Maarten Tromp",
+      "Antonio de Oquendo"
+    ],
+    "casualties": {
+      "side1": 100,
+      "side2": 7000
+    },
     "warName": "Eighty Years' War",
     "significance": 3
   },
@@ -184,13 +338,25 @@
     "name": "Four Days' Battle",
     "year": 1666,
     "era": "early-modern",
-    "location": { "lat": 51.5833, "lng": 2.0000 },
+    "location": {
+      "lat": 51.5833,
+      "lng": 2.0
+    },
     "tier": 2,
     "description": "Four days. Eighty Dutch ships and seventy-nine English ships of the line pounding each other across the North Sea for four straight days — the longest continuous naval battle in recorded history. Imagine the smoke so thick you can't see your own mast, the thunder of broadsides rolling across the water like the end of the world, and it just keeps going. Day after day. De Ruyter was a genius, exploiting every English mistake, and by the time the guns fell silent, 17 English ships were gone. The Dutch tactical masterpiece of the Age of Sail.",
-    "belligerents": ["Dutch Republic", "England"],
+    "belligerents": [
+      "Dutch Republic",
+      "England"
+    ],
     "result": "Dutch victory",
-    "commanders": ["Michiel de Ruyter", "George Monck"],
-    "casualties": { "side1": 2000, "side2": 5000 },
+    "commanders": [
+      "Michiel de Ruyter",
+      "George Monck"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 5000
+    },
     "warName": "Second Anglo-Dutch War",
     "significance": 2
   },
@@ -199,13 +365,25 @@
     "name": "Raid on the Medway",
     "year": 1667,
     "era": "early-modern",
-    "location": { "lat": 51.3953, "lng": 0.5236 },
+    "location": {
+      "lat": 51.3953,
+      "lng": 0.5236
+    },
     "tier": 1,
     "description": "De Ruyter sailed a Dutch fleet up the Thames. Let that sink in. Up the Thames. Into the heart of England. His men broke the chain at Chatham, burned thirteen Royal Navy warships at their moorings, and towed away the flagship HMS Royal Charles as a trophy — you can still see its stern carving in a Dutch museum. The most humiliating day in the history of the Royal Navy, played out in English home waters while London could hear the guns. England sued for peace before the smoke cleared.",
-    "belligerents": ["Dutch Republic", "England"],
+    "belligerents": [
+      "Dutch Republic",
+      "England"
+    ],
     "result": "Dutch victory",
-    "commanders": ["Michiel de Ruyter", "Cornelis de Witt"],
-    "casualties": { "side1": 50, "side2": 300 },
+    "commanders": [
+      "Michiel de Ruyter",
+      "Cornelis de Witt"
+    ],
+    "casualties": {
+      "side1": 50,
+      "side2": 300
+    },
     "warName": "Second Anglo-Dutch War",
     "significance": 1
   },
@@ -214,13 +392,26 @@
     "name": "Battle of Texel",
     "year": 1673,
     "era": "early-modern",
-    "location": { "lat": 53.0000, "lng": 3.5000 },
+    "location": {
+      "lat": 53.0,
+      "lng": 3.5
+    },
     "tier": 2,
     "description": "De Ruyter was outnumbered 92 to 75, facing a combined Anglo-French fleet that should have crushed him. But he saw something the enemy didn't see in themselves — the French didn't really want to fight. So he concentrated everything on the English squadron while the French hung back watching, and he beat them. He beat them with fewer ships, in their own waters, and stopped an amphibious invasion of the Netherlands dead. The man was fighting for the survival of his country, and that kind of desperation makes you dangerous.",
-    "belligerents": ["Dutch Republic", "England–France alliance"],
+    "belligerents": [
+      "Dutch Republic",
+      "England–France alliance"
+    ],
     "result": "Dutch strategic victory",
-    "commanders": ["Michiel de Ruyter", "Prince Rupert of the Rhine", "Jean d'Estrées"],
-    "casualties": { "side1": 1500, "side2": 2500 },
+    "commanders": [
+      "Michiel de Ruyter",
+      "Prince Rupert of the Rhine",
+      "Jean d'Estrées"
+    ],
+    "casualties": {
+      "side1": 1500,
+      "side2": 2500
+    },
     "warName": "Third Anglo-Dutch War",
     "significance": 2
   },
@@ -229,13 +420,25 @@
     "name": "Battle of Beachy Head",
     "year": 1690,
     "era": "early-modern",
-    "location": { "lat": 50.7333, "lng": 0.2500 },
+    "location": {
+      "lat": 50.7333,
+      "lng": 0.25
+    },
     "tier": 3,
     "description": "Tourville brought 70 French ships of the line against a combined Anglo-Dutch fleet of 57, and what followed was a masterclass in destruction. Sixteen allied ships burning off the Sussex coast, the English Channel — England's moat, England's pride — suddenly a French lake. It was the worst English naval defeat between the Medway raid and the twentieth century. For a few terrifying weeks, nothing stood between Louis XIV's France and the English coast but wind and weather.",
-    "belligerents": ["France", "England–Dutch Republic alliance"],
+    "belligerents": [
+      "France",
+      "England–Dutch Republic alliance"
+    ],
     "result": "French victory",
-    "commanders": ["Tourville", "Arthur Herbert"],
-    "casualties": { "side1": 500, "side2": 2500 },
+    "commanders": [
+      "Tourville",
+      "Arthur Herbert"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 2500
+    },
     "warName": "Nine Years' War",
     "significance": 3
   },
@@ -244,13 +447,25 @@
     "name": "Battles of Barfleur and La Hogue",
     "year": 1692,
     "era": "early-modern",
-    "location": { "lat": 49.6833, "lng": -1.2500 },
+    "location": {
+      "lat": 49.6833,
+      "lng": -1.25
+    },
     "tier": 2,
     "description": "Tourville sailed into 82 Anglo-Dutch ships with only 44 of his own because Louis XIV ordered him to — and he fought like a lion. But math is math. His battered fleet scattered, and the allies hunted down the cripples like wolves. At La Hogue, English sailors rowed into the shallows in longboats and burned 15 beached French warships while French soldiers watched helplessly from shore. Louis XIV's dream of invading England went up in those flames, and French Atlantic sea power went with it.",
-    "belligerents": ["England–Dutch Republic alliance", "France"],
+    "belligerents": [
+      "England–Dutch Republic alliance",
+      "France"
+    ],
     "result": "Allied victory",
-    "commanders": ["Edward Russell", "Tourville"],
-    "casualties": { "side1": 2000, "side2": 4000 },
+    "commanders": [
+      "Edward Russell",
+      "Tourville"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 4000
+    },
     "warName": "Nine Years' War",
     "significance": 2
   },
@@ -259,13 +474,25 @@
     "name": "Battle of the Chesapeake",
     "year": 1781,
     "era": "early-modern",
-    "location": { "lat": 36.9833, "lng": -75.9667 },
+    "location": {
+      "lat": 36.9833,
+      "lng": -75.9667
+    },
     "tier": 1,
     "description": "Here's the thing about the American Revolution that nobody thinks about: it was decided by a French admiral most Americans can't name. De Grasse parked 24 ships of the line across the mouth of the Chesapeake Bay and told the Royal Navy — the most powerful fleet on earth — you shall not pass. Graves tried. He failed. And with that, Cornwallis was trapped at Yorktown like a rat in a cage, no rescue coming, no escape by sea. The United States of America exists because of a two-hour gunnery duel between French and British warships off the Virginia coast.",
-    "belligerents": ["France", "Great Britain"],
+    "belligerents": [
+      "France",
+      "Great Britain"
+    ],
     "result": "French victory",
-    "commanders": ["Comte de Grasse", "Thomas Graves"],
-    "casualties": { "side1": 209, "side2": 336 },
+    "commanders": [
+      "Comte de Grasse",
+      "Thomas Graves"
+    ],
+    "casualties": {
+      "side1": 209,
+      "side2": 336
+    },
     "warName": "American Revolutionary War",
     "significance": 1
   },
@@ -274,13 +501,25 @@
     "name": "Battle of the Saintes",
     "year": 1782,
     "era": "early-modern",
-    "location": { "lat": 15.8667, "lng": -61.5833 },
+    "location": {
+      "lat": 15.8667,
+      "lng": -61.5833
+    },
     "tier": 2,
     "description": "Rodney broke the French line. Just drove his ships right through it in the Caribbean sunshine off Dominica, something nobody in the Royal Navy had dared since the fighting instructions were written. The French formation shattered, de Grasse's massive flagship Ville de Paris was captured, and Britain — still stinging from the humiliation of Yorktown — could hold its head up at the peace table again. One battle didn't undo American independence, but it made sure Britain didn't lose everything else too.",
-    "belligerents": ["Great Britain", "France"],
+    "belligerents": [
+      "Great Britain",
+      "France"
+    ],
     "result": "British victory",
-    "commanders": ["George Rodney", "Comte de Grasse"],
-    "casualties": { "side1": 1000, "side2": 5000 },
+    "commanders": [
+      "George Rodney",
+      "Comte de Grasse"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 5000
+    },
     "warName": "American Revolutionary War",
     "significance": 2
   },
@@ -289,13 +528,25 @@
     "name": "Battle of the Nile",
     "year": 1798,
     "era": "modern",
-    "location": { "lat": 31.3500, "lng": 30.0667 },
+    "location": {
+      "lat": 31.35,
+      "lng": 30.0667
+    },
     "tier": 1,
     "description": "Nelson found the French fleet anchored in Aboukir Bay and did something nobody thought was possible — he threaded his ships between the French line and the shore, hitting them from both sides at once. In the darkness, the flagship L'Orient's magazine detonated in an explosion so massive it stopped the entire battle for ten minutes — every sailor on both sides just frozen, staring at the mushroom cloud of fire. When the sun came up, 11 of 13 French ships were wrecked or captured, and Napoleon's army was marooned in Egypt like Robinson Crusoe with 30,000 soldiers.",
-    "belligerents": ["Great Britain", "France"],
+    "belligerents": [
+      "Great Britain",
+      "France"
+    ],
     "result": "British victory",
-    "commanders": ["Horatio Nelson", "François-Paul Brueys d'Aigalliers"],
-    "casualties": { "side1": 895, "side2": 5235 },
+    "commanders": [
+      "Horatio Nelson",
+      "François-Paul Brueys d'Aigalliers"
+    ],
+    "casualties": {
+      "side1": 895,
+      "side2": 5235
+    },
     "warName": "French Revolutionary Wars",
     "significance": 1
   },
@@ -304,13 +555,25 @@
     "name": "Battle of Copenhagen",
     "year": 1801,
     "era": "modern",
-    "location": { "lat": 55.6833, "lng": 12.6000 },
+    "location": {
+      "lat": 55.6833,
+      "lng": 12.6
+    },
     "tier": 2,
     "description": "Nelson's superior officer flew the signal to withdraw. Nelson raised his telescope to his blind eye and said, 'I really do not see the signal.' Then he kept fighting. For hours he battered the Danish fleet and shore batteries in Copenhagen harbor, ships anchored bow to stern trading broadsides at point-blank range, until the Danes couldn't take any more. The man literally invented selective blindness as a tactical doctrine, and it worked. The League of Armed Neutrality died that afternoon.",
-    "belligerents": ["Great Britain", "Denmark-Norway"],
+    "belligerents": [
+      "Great Britain",
+      "Denmark-Norway"
+    ],
     "result": "British victory",
-    "commanders": ["Horatio Nelson", "Olfert Fischer"],
-    "casualties": { "side1": 943, "side2": 1800 },
+    "commanders": [
+      "Horatio Nelson",
+      "Olfert Fischer"
+    ],
+    "casualties": {
+      "side1": 943,
+      "side2": 1800
+    },
     "warName": "French Revolutionary Wars",
     "significance": 2
   },
@@ -319,13 +582,25 @@
     "name": "Battle of Trafalgar",
     "year": 1805,
     "era": "modern",
-    "location": { "lat": 36.1833, "lng": -6.2500 },
+    "location": {
+      "lat": 36.1833,
+      "lng": -6.25
+    },
     "tier": 1,
     "description": "Nelson signaled 'England expects that every man will do his duty' — then split his fleet into two columns and drove them head-on into the enemy line. No maneuvering. No caution. Just straight into the teeth of 33 Franco-Spanish warships at walking speed, absorbing raking fire for forty minutes before they could fire a shot back. The Victory's decks were slick with blood when a French musket ball punched through Nelson's shoulder and severed his spine. He died belowdecks knowing he'd won. Twenty-two enemy ships taken or destroyed, not one British ship lost. Britannia would rule the waves for the next century — and it cost them the greatest admiral who ever lived.",
-    "belligerents": ["Great Britain", "France–Spain alliance"],
+    "belligerents": [
+      "Great Britain",
+      "France–Spain alliance"
+    ],
     "result": "British victory",
-    "commanders": ["Horatio Nelson", "Pierre-Charles Villeneuve"],
-    "casualties": { "side1": 1666, "side2": 13781 },
+    "commanders": [
+      "Horatio Nelson",
+      "Pierre-Charles Villeneuve"
+    ],
+    "casualties": {
+      "side1": 1666,
+      "side2": 13781
+    },
     "warName": "Napoleonic Wars",
     "significance": 1
   },
@@ -334,13 +609,25 @@
     "name": "Battle of Lake Erie",
     "year": 1813,
     "era": "modern",
-    "location": { "lat": 41.6500, "lng": -82.8333 },
+    "location": {
+      "lat": 41.65,
+      "lng": -82.8333
+    },
     "tier": 3,
     "description": "Perry's flagship Lawrence was shot to pieces — literally every gun dismounted, 80 percent of the crew dead or wounded. So he did what any reasonable person would never do: he grabbed his battle flag, climbed into a rowboat under fire, and rowed to the Niagara to keep fighting. He then sailed the Niagara straight through the British line and won the battle. His message afterward — 'We have met the enemy and they are ours' — is the most American sentence ever written about a naval battle built from green timber and raw guts.",
-    "belligerents": ["United States", "Great Britain"],
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
     "result": "American victory",
-    "commanders": ["Oliver Hazard Perry", "Robert Heriot Barclay"],
-    "casualties": { "side1": 123, "side2": 135 },
+    "commanders": [
+      "Oliver Hazard Perry",
+      "Robert Heriot Barclay"
+    ],
+    "casualties": {
+      "side1": 123,
+      "side2": 135
+    },
     "warName": "War of 1812",
     "significance": 3
   },
@@ -349,13 +636,25 @@
     "name": "Battle of Navarino",
     "year": 1827,
     "era": "modern",
-    "location": { "lat": 36.9167, "lng": 21.6833 },
+    "location": {
+      "lat": 36.9167,
+      "lng": 21.6833
+    },
     "tier": 2,
     "description": "The last great fleet action under sail, and it happened almost by accident. A combined British, French, and Russian squadron sailed into Navarino Bay to 'negotiate' with the Ottoman-Egyptian fleet, and someone fired a shot. Three hours later, 78 Ottoman ships were burning wrecks and Greek independence was a fait accompli. An entire era of naval warfare ended in that bay — the age of wooden walls and canvas sails and broadsides measured in pounds of iron. Everything after this would be different.",
-    "belligerents": ["Britain–France–Russia alliance", "Ottoman Empire–Egypt"],
+    "belligerents": [
+      "Britain–France–Russia alliance",
+      "Ottoman Empire–Egypt"
+    ],
     "result": "Allied victory",
-    "commanders": ["Edward Codrington", "Ibrahim Pasha"],
-    "casualties": { "side1": 181, "side2": 4000 },
+    "commanders": [
+      "Edward Codrington",
+      "Ibrahim Pasha"
+    ],
+    "casualties": {
+      "side1": 181,
+      "side2": 4000
+    },
     "warName": "Greek War of Independence",
     "significance": 2
   },
@@ -364,13 +663,25 @@
     "name": "Battle of Sinop",
     "year": 1853,
     "era": "modern",
-    "location": { "lat": 42.0333, "lng": 35.1500 },
+    "location": {
+      "lat": 42.0333,
+      "lng": 35.15
+    },
     "tier": 3,
     "description": "Nakhimov's ships fired Paixhans explosive shells into the Ottoman frigates anchored at Sinop, and what happened next was less a battle than a demonstration. The shells didn't just punch holes — they exploded inside wooden hulls, turning ships into instant infernos. Three thousand Ottoman sailors died in what the British press called a 'massacre.' But the real victim was every wooden warship on earth. Sinop proved that the wooden ship of the line — the weapon that had ruled the oceans for three centuries — was already a coffin. The age of ironclads was coming.",
-    "belligerents": ["Russian Empire", "Ottoman Empire"],
+    "belligerents": [
+      "Russian Empire",
+      "Ottoman Empire"
+    ],
     "result": "Russian victory",
-    "commanders": ["Pavel Nakhimov", "Osman Pasha"],
-    "casualties": { "side1": 38, "side2": 3000 },
+    "commanders": [
+      "Pavel Nakhimov",
+      "Osman Pasha"
+    ],
+    "casualties": {
+      "side1": 38,
+      "side2": 3000
+    },
     "warName": "Crimean War",
     "significance": 3
   },
@@ -379,13 +690,25 @@
     "name": "Battle of Hampton Roads",
     "year": 1862,
     "era": "modern",
-    "location": { "lat": 36.9783, "lng": -76.3353 },
+    "location": {
+      "lat": 36.9783,
+      "lng": -76.3353
+    },
     "tier": 1,
     "description": "The day before, the CSS Virginia had waded into a fleet of wooden warships and destroyed them like a man kicking through sandcastles — cannonballs bouncing off her iron hide while she methodically smashed the Cumberland and Congress to kindling. Then the Monitor showed up. Two iron boxes circling each other at close range, hammering away for hours, neither able to kill the other. It was ugly. It was clumsy. It was the future. Every wooden navy on the planet became obsolete overnight. The admirals of the world woke up the next morning and realized everything they knew about naval warfare was wrong.",
-    "belligerents": ["United States (Union)", "Confederate States"],
+    "belligerents": [
+      "United States (Union)",
+      "Confederate States"
+    ],
     "result": "Tactical draw",
-    "commanders": ["John Worden", "Catesby ap Roger Jones"],
-    "casualties": { "side1": 433, "side2": 78 },
+    "commanders": [
+      "John Worden",
+      "Catesby ap Roger Jones"
+    ],
+    "casualties": {
+      "side1": 433,
+      "side2": 78
+    },
     "warName": "American Civil War",
     "significance": 1
   },
@@ -394,13 +717,25 @@
     "name": "Battle of Mobile Bay",
     "year": 1864,
     "era": "modern",
-    "location": { "lat": 30.2280, "lng": -88.0250 },
+    "location": {
+      "lat": 30.228,
+      "lng": -88.025
+    },
     "tier": 3,
     "description": "When the lead monitor hit a mine and sank in seconds, the whole fleet froze. Then Farragut — lashed to the rigging so he wouldn't fall — bellowed 'Damn the torpedoes, full speed ahead!' and drove his ships straight through the minefield, past Fort Morgan's thundering guns, into Mobile Bay. The ironclad CSS Tennessee fought alone against the entire Union fleet and was battered into surrender at point-blank range. Sometimes the difference between victory and catastrophe is one old admiral who's too stubborn to stop.",
-    "belligerents": ["United States (Union)", "Confederate States"],
+    "belligerents": [
+      "United States (Union)",
+      "Confederate States"
+    ],
     "result": "Union victory",
-    "commanders": ["David Farragut", "Franklin Buchanan"],
-    "casualties": { "side1": 319, "side2": 312 },
+    "commanders": [
+      "David Farragut",
+      "Franklin Buchanan"
+    ],
+    "casualties": {
+      "side1": 319,
+      "side2": 312
+    },
     "warName": "American Civil War",
     "significance": 3
   },
@@ -409,13 +744,25 @@
     "name": "Battle of Lissa",
     "year": 1866,
     "era": "modern",
-    "location": { "lat": 43.0500, "lng": 16.1833 },
+    "location": {
+      "lat": 43.05,
+      "lng": 16.1833
+    },
     "tier": 2,
     "description": "Tegetthoff's order was as simple as it was terrifying: 'Ram anything grey.' He drove his Austrian ironclads in a wedge straight at the Italian line, and his flagship Ferdinand Max hit the Re d'Italia amidships at full speed. The Italian ironclad rolled over and sank in two minutes, taking most of her crew with her. The first fleet action between ironclads, and it set naval design back twenty years — suddenly every navy on earth was bolting ram bows onto their ships, chasing the ghost of one Austrian admiral's berserker charge.",
-    "belligerents": ["Austrian Empire", "Kingdom of Italy"],
+    "belligerents": [
+      "Austrian Empire",
+      "Kingdom of Italy"
+    ],
     "result": "Austrian victory",
-    "commanders": ["Wilhelm von Tegetthoff", "Carlo Persano"],
-    "casualties": { "side1": 38, "side2": 620 },
+    "commanders": [
+      "Wilhelm von Tegetthoff",
+      "Carlo Persano"
+    ],
+    "casualties": {
+      "side1": 38,
+      "side2": 620
+    },
     "warName": "Third Italian War of Independence",
     "significance": 2
   },
@@ -424,13 +771,25 @@
     "name": "Battle of Manila Bay",
     "year": 1898,
     "era": "modern",
-    "location": { "lat": 14.5167, "lng": 120.6667 },
+    "location": {
+      "lat": 14.5167,
+      "lng": 120.6667
+    },
     "tier": 2,
     "description": "Dewey steamed into Manila Bay in the predawn darkness, lined up his cruisers, and told his captain, 'You may fire when you are ready, Gridley.' Six hours later, every Spanish ship in the Pacific was a burning wreck, and America hadn't lost a single man killed by enemy fire. Not one. The Spanish Empire — four centuries of global power — ended that morning in the Philippines, and the American Empire, whether anyone wanted to call it that or not, had begun.",
-    "belligerents": ["United States", "Spain"],
+    "belligerents": [
+      "United States",
+      "Spain"
+    ],
     "result": "American victory",
-    "commanders": ["George Dewey", "Patricio Montojo"],
-    "casualties": { "side1": 9, "side2": 371 },
+    "commanders": [
+      "George Dewey",
+      "Patricio Montojo"
+    ],
+    "casualties": {
+      "side1": 9,
+      "side2": 371
+    },
     "warName": "Spanish-American War",
     "significance": 2
   },
@@ -439,13 +798,26 @@
     "name": "Battle of Santiago de Cuba",
     "year": 1898,
     "era": "modern",
-    "location": { "lat": 19.9667, "lng": -75.8333 },
+    "location": {
+      "lat": 19.9667,
+      "lng": -75.8333
+    },
     "tier": 3,
     "description": "The Spanish Caribbean squadron made a run for it — charging out of Santiago harbor one ship at a time into the teeth of the waiting American fleet. It was brave, it was hopeless, and it was over in hours. Every Spanish cruiser and destroyer was sunk or beached, burning hulks strewn along the Cuban coastline like discarded toys. One American killed. Spain's four-hundred-year presence in the Americas ended not with a whimper but with six columns of black smoke rising from the Caribbean.",
-    "belligerents": ["United States", "Spain"],
+    "belligerents": [
+      "United States",
+      "Spain"
+    ],
     "result": "American victory",
-    "commanders": ["William T. Sampson", "Winfield Scott Schley", "Pascual Cervera"],
-    "casualties": { "side1": 1, "side2": 474 },
+    "commanders": [
+      "William T. Sampson",
+      "Winfield Scott Schley",
+      "Pascual Cervera"
+    ],
+    "casualties": {
+      "side1": 1,
+      "side2": 474
+    },
     "warName": "Spanish-American War",
     "significance": 3
   },
@@ -454,13 +826,25 @@
     "name": "Battle of Tsushima",
     "year": 1905,
     "era": "modern",
-    "location": { "lat": 34.3000, "lng": 129.5000 },
+    "location": {
+      "lat": 34.3,
+      "lng": 129.5
+    },
     "tier": 1,
     "description": "The Russian Baltic Fleet had sailed 18,000 miles — around Africa, through the tropics, barnacles thick as your arm on their hulls, crews half-mad from seven months at sea — to reach the Tsushima Strait. Togo was waiting. In an afternoon, the Japanese destroyed 21 of 38 Russian warships. Only three made it to Vladivostok. Three. It was Trafalgar all over again, except this time the victors were Asian, and the entire Western world had to recalculate everything it thought it knew about who could build and fight a modern navy.",
-    "belligerents": ["Empire of Japan", "Russian Empire"],
+    "belligerents": [
+      "Empire of Japan",
+      "Russian Empire"
+    ],
     "result": "Japanese victory",
-    "commanders": ["Togo Heihachiro", "Zinovy Rozhestvensky"],
-    "casualties": { "side1": 117, "side2": 4380 },
+    "commanders": [
+      "Togo Heihachiro",
+      "Zinovy Rozhestvensky"
+    ],
+    "casualties": {
+      "side1": 117,
+      "side2": 4380
+    },
     "warName": "Russo-Japanese War",
     "significance": 1
   },
@@ -469,13 +853,26 @@
     "name": "Battle of Heligoland Bight",
     "year": 1914,
     "era": "modern",
-    "location": { "lat": 54.1833, "lng": 7.8833 },
+    "location": {
+      "lat": 54.1833,
+      "lng": 7.8833
+    },
     "tier": 3,
     "description": "Beatty's battlecruisers came roaring out of the fog into the German Bight like wolves who'd scented blood — three German light cruisers and a destroyer torn apart in the first major naval engagement of the war. The Kaiser was so shaken he ordered the High Seas Fleet to stay in harbor unless he personally approved a sortie. The most powerful fleet Germany had ever built, and its emperor had just put a leash on it before the war was three months old.",
-    "belligerents": ["Great Britain", "German Empire"],
+    "belligerents": [
+      "Great Britain",
+      "German Empire"
+    ],
     "result": "British victory",
-    "commanders": ["David Beatty", "Franz Hipper", "Leberecht Maass"],
-    "casualties": { "side1": 35, "side2": 1242 },
+    "commanders": [
+      "David Beatty",
+      "Franz Hipper",
+      "Leberecht Maass"
+    ],
+    "casualties": {
+      "side1": 35,
+      "side2": 1242
+    },
     "warName": "World War I",
     "significance": 3
   },
@@ -484,13 +881,25 @@
     "name": "Battle of Coronel",
     "year": 1914,
     "era": "modern",
-    "location": { "lat": -36.9667, "lng": -73.9333 },
+    "location": {
+      "lat": -36.9667,
+      "lng": -73.9333
+    },
     "tier": 3,
     "description": "Cradock knew he was going to die. He had obsolete cruisers facing von Spee's armored cruisers, and he sailed into the fight anyway because the Royal Navy doesn't run. The Scharnhorst and Gneisenau opened up at dusk, silhouetting the British ships against the sunset like target practice. Good Hope and Monmouth went down with all hands — 1,600 men, not a single survivor. The first British naval defeat in over a century, and in the Admiralty the old men went white. They hadn't lost like this since the Americans were still a colony.",
-    "belligerents": ["German Empire", "Great Britain"],
+    "belligerents": [
+      "German Empire",
+      "Great Britain"
+    ],
     "result": "German victory",
-    "commanders": ["Maximilian von Spee", "Christopher Cradock"],
-    "casualties": { "side1": 3, "side2": 1654 },
+    "commanders": [
+      "Maximilian von Spee",
+      "Christopher Cradock"
+    ],
+    "casualties": {
+      "side1": 3,
+      "side2": 1654
+    },
     "warName": "World War I",
     "significance": 3
   },
@@ -499,13 +908,25 @@
     "name": "Battle of the Falkland Islands",
     "year": 1914,
     "era": "modern",
-    "location": { "lat": -52.0000, "lng": -59.0000 },
+    "location": {
+      "lat": -52.0,
+      "lng": -59.0
+    },
     "tier": 2,
     "description": "The Admiralty's response to Coronel was pure British fury: they stripped two battlecruisers from the home fleet and sent them to the bottom of the world to hunt von Spee. He walked right into them, coaling at the Falklands. Invincible and Inflexible ran him down with superior speed and 12-inch guns — Scharnhorst, Gneisenau, two light cruisers, all sent to the bottom in a long, merciless stern chase across grey Antarctic seas. Von Spee and 1,871 of his men died. Coronel was avenged. The bill was paid.",
-    "belligerents": ["Great Britain", "German Empire"],
+    "belligerents": [
+      "Great Britain",
+      "German Empire"
+    ],
     "result": "British victory",
-    "commanders": ["Doveton Sturdee", "Maximilian von Spee"],
-    "casualties": { "side1": 10, "side2": 1871 },
+    "commanders": [
+      "Doveton Sturdee",
+      "Maximilian von Spee"
+    ],
+    "casualties": {
+      "side1": 10,
+      "side2": 1871
+    },
     "warName": "World War I",
     "significance": 2
   },
@@ -514,13 +935,25 @@
     "name": "Battle of Dogger Bank",
     "year": 1915,
     "era": "modern",
-    "location": { "lat": 54.7667, "lng": 3.6000 },
+    "location": {
+      "lat": 54.7667,
+      "lng": 3.6
+    },
     "tier": 3,
     "description": "Room 40 — the codebreakers — read the German signals and told Beatty exactly where Hipper's scouting group would be. Five British battlecruisers caught four German ships in the open North Sea and the armored cruiser Blucher took hit after hit, rolling over and sinking with men scrambling across her hull like ants. But a garbled signal let the rest of Hipper's ships escape. Beatty was furious. He'd had them, and a flag hoist had stolen the kill. That frustration would haunt him all the way to Jutland.",
-    "belligerents": ["Great Britain", "German Empire"],
+    "belligerents": [
+      "Great Britain",
+      "German Empire"
+    ],
     "result": "British victory",
-    "commanders": ["David Beatty", "Franz Hipper"],
-    "casualties": { "side1": 15, "side2": 954 },
+    "commanders": [
+      "David Beatty",
+      "Franz Hipper"
+    ],
+    "casualties": {
+      "side1": 15,
+      "side2": 954
+    },
     "warName": "World War I",
     "significance": 3
   },
@@ -529,13 +962,26 @@
     "name": "Naval Attack on the Dardanelles",
     "year": 1915,
     "era": "modern",
-    "location": { "lat": 40.1500, "lng": 26.4000 },
+    "location": {
+      "lat": 40.15,
+      "lng": 26.4
+    },
     "tier": 2,
     "description": "Eighteen battleships were going to force the Dardanelles — just steam through, blast the forts, and knock Turkey out of the war. That was the plan. Then the mines started going off. Three battleships sank, three more crippled, in a single afternoon in a strait so narrow you could throw a rock across it. The fleet pulled back, and Churchill — who'd pushed harder than anyone — watched his career sink with those ships. The disaster led to Gallipoli, which led to a quarter million casualties, which led to nothing. Some straits don't want to be forced.",
-    "belligerents": ["Great Britain–France alliance", "Ottoman Empire"],
+    "belligerents": [
+      "Great Britain–France alliance",
+      "Ottoman Empire"
+    ],
     "result": "Ottoman victory",
-    "commanders": ["Sackville Carden", "John de Robeck", "Cevat Pasha"],
-    "casualties": { "side1": 700, "side2": 118 },
+    "commanders": [
+      "Sackville Carden",
+      "John de Robeck",
+      "Cevat Pasha"
+    ],
+    "casualties": {
+      "side1": 700,
+      "side2": 118
+    },
     "warName": "World War I",
     "significance": 2
   },
@@ -544,13 +990,27 @@
     "name": "Battle of Jutland",
     "year": 1916,
     "era": "modern",
-    "location": { "lat": 57.0500, "lng": 5.9333 },
+    "location": {
+      "lat": 57.05,
+      "lng": 5.9333
+    },
     "tier": 1,
     "description": "Two hundred and fifty warships in the North Sea — the Royal Navy's Grand Fleet against the Kaiser's High Seas Fleet, the clash everyone had been building dreadnoughts for. Three British battlecruisers blew up in pillars of flame when shells found their magazines — 'There seems to be something wrong with our bloody ships today,' Beatty said, watching a thousand men vanish in a flash. Germany sank more ships. Britain held the sea. Jellicoe was the only man on either side who could have lost the war in an afternoon, and he didn't lose it. The German fleet never came out again.",
-    "belligerents": ["Great Britain", "German Empire"],
+    "belligerents": [
+      "Great Britain",
+      "German Empire"
+    ],
     "result": "German tactical, British strategic victory",
-    "commanders": ["John Jellicoe", "David Beatty", "Reinhard Scheer", "Franz Hipper"],
-    "casualties": { "side1": 6094, "side2": 2551 },
+    "commanders": [
+      "John Jellicoe",
+      "David Beatty",
+      "Reinhard Scheer",
+      "Franz Hipper"
+    ],
+    "casualties": {
+      "side1": 6094,
+      "side2": 2551
+    },
     "warName": "World War I",
     "significance": 1
   },
@@ -559,13 +1019,25 @@
     "name": "Raid on Zeebrugge",
     "year": 1918,
     "era": "modern",
-    "location": { "lat": 51.3333, "lng": 3.2000 },
+    "location": {
+      "lat": 51.3333,
+      "lng": 3.2
+    },
     "tier": 3,
     "description": "Royal Marines stormed the mole at Zeebrugge in the darkness while blockships tried to plug the canal mouth — the whole operation was somewhere between commando raid and controlled insanity. The block only half-worked, but the sheer audacity of it — charging a fortified port in small boats under withering fire — earned eight Victoria Crosses in one night. In 1918, when the whole world was exhausted and numb, Zeebrugge proved that somebody still had the guts to try something crazy.",
-    "belligerents": ["Great Britain", "German Empire"],
+    "belligerents": [
+      "Great Britain",
+      "German Empire"
+    ],
     "result": "Partial British success",
-    "commanders": ["Roger Keyes", "Ludwig von Schröder"],
-    "casualties": { "side1": 583, "side2": 24 },
+    "commanders": [
+      "Roger Keyes",
+      "Ludwig von Schröder"
+    ],
+    "casualties": {
+      "side1": 583,
+      "side2": 24
+    },
     "warName": "World War I",
     "significance": 4
   },
@@ -574,13 +1046,25 @@
     "name": "Battle of the River Plate",
     "year": 1939,
     "era": "modern",
-    "location": { "lat": -34.3333, "lng": -49.8333 },
+    "location": {
+      "lat": -34.3333,
+      "lng": -49.8333
+    },
     "tier": 2,
     "description": "Three British cruisers — two of them light, one of them barely bigger than a large destroyer — picked a fight with a pocket battleship. The Exeter was shot to pieces, burning and listing, but Ajax and Achilles kept snapping at the Graf Spee like terriers on a bull. They chased her into Montevideo harbor, and then Captain Langsdorff — believing the whole Royal Navy was waiting outside — scuttled his own ship and shot himself three days later. First blood in the naval war, and the British had drawn it with guts and bluff.",
-    "belligerents": ["Great Britain", "Nazi Germany"],
+    "belligerents": [
+      "Great Britain",
+      "Nazi Germany"
+    ],
     "result": "British victory",
-    "commanders": ["Henry Harwood", "Hans Langsdorff"],
-    "casualties": { "side1": 72, "side2": 36 },
+    "commanders": [
+      "Henry Harwood",
+      "Hans Langsdorff"
+    ],
+    "casualties": {
+      "side1": 72,
+      "side2": 36
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -589,13 +1073,25 @@
     "name": "Battles of Narvik",
     "year": 1940,
     "era": "modern",
-    "location": { "lat": 68.4283, "lng": 17.4170 },
+    "location": {
+      "lat": 68.4283,
+      "lng": 17.417
+    },
     "tier": 3,
     "description": "Picture a Norwegian fjord — mountains on both sides, water black as ink, nowhere to run. Five British destroyers charged in and surprised ten German ones, sinking two in the first pass. Three days later, the old battleship Warspite came back up that same fjord with nine destroyers and finished every last German ship hiding in the inlets. Eight destroyers destroyed. Germany lost half its destroyer force above the Arctic Circle in a week, and it never recovered those hulls.",
-    "belligerents": ["Great Britain", "Nazi Germany"],
+    "belligerents": [
+      "Great Britain",
+      "Nazi Germany"
+    ],
     "result": "British victory",
-    "commanders": ["William Whitworth", "Friedrich Bonte"],
-    "casualties": { "side1": 289, "side2": 700 },
+    "commanders": [
+      "William Whitworth",
+      "Friedrich Bonte"
+    ],
+    "casualties": {
+      "side1": 289,
+      "side2": 700
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -604,13 +1100,25 @@
     "name": "Attack on Mers-el-Kébir",
     "year": 1940,
     "era": "modern",
-    "location": { "lat": 35.7167, "lng": -0.7167 },
+    "location": {
+      "lat": 35.7167,
+      "lng": -0.7167
+    },
     "tier": 2,
     "description": "Churchill ordered the Royal Navy to fire on the French — their allies from three weeks ago. The negotiations failed, and Somerville's Force H opened up on the French fleet at anchor in Algeria. The battleship Bretagne exploded, 1,297 French sailors killed in minutes. It was ruthless. It was cold-blooded. And it told Hitler, Roosevelt, and every neutral watching that Britain would rather murder its friends' ships than risk them falling into German hands. This was a nation that intended to fight to the death.",
-    "belligerents": ["Great Britain", "Vichy France"],
+    "belligerents": [
+      "Great Britain",
+      "Vichy France"
+    ],
     "result": "British operational success",
-    "commanders": ["James Somerville", "Marcel-Bruno Gensoul"],
-    "casualties": { "side1": 6, "side2": 1297 },
+    "commanders": [
+      "James Somerville",
+      "Marcel-Bruno Gensoul"
+    ],
+    "casualties": {
+      "side1": 6,
+      "side2": 1297
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -619,13 +1127,25 @@
     "name": "Battle of Taranto",
     "year": 1940,
     "era": "modern",
-    "location": { "lat": 40.4667, "lng": 17.2333 },
+    "location": {
+      "lat": 40.4667,
+      "lng": 17.2333
+    },
     "tier": 1,
     "description": "Twenty-one Swordfish biplanes — fabric and wire, open cockpits, barely faster than a car on the highway — flew into Taranto harbor at night and torpedoed three Italian battleships at anchor. Half the Regia Marina's capital ship strength, crippled by aircraft that looked like they belonged in a museum. In Tokyo, a young officer named Genda studied the reports very carefully. Taranto proved that air power could destroy a battle fleet in its own harbor. Eleven months later, the Japanese would prove it again at Pearl Harbor.",
-    "belligerents": ["Great Britain", "Italy"],
+    "belligerents": [
+      "Great Britain",
+      "Italy"
+    ],
     "result": "British victory",
-    "commanders": ["Andrew Cunningham", "Inigo Campioni"],
-    "casualties": { "side1": 4, "side2": 59 },
+    "commanders": [
+      "Andrew Cunningham",
+      "Inigo Campioni"
+    ],
+    "casualties": {
+      "side1": 4,
+      "side2": 59
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -634,13 +1154,25 @@
     "name": "Battle of Cape Matapan",
     "year": 1941,
     "era": "modern",
-    "location": { "lat": 35.3833, "lng": 21.1167 },
+    "location": {
+      "lat": 35.3833,
+      "lng": 21.1167
+    },
     "tier": 2,
     "description": "Cunningham played poker all evening at his headquarters in Alexandria — making sure the Italian spies saw him — then slipped away to his flagship after dark. Ultra had told him exactly where the Italian fleet would be. Off southern Greece, in the black of night, his battleships caught three Italian heavy cruisers at point-blank range and opened fire with 15-inch guns. The Italians never knew what hit them. Three cruisers and two destroyers obliterated in minutes. The Regia Marina never risked a major surface engagement in the eastern Mediterranean again.",
-    "belligerents": ["Great Britain", "Italy"],
+    "belligerents": [
+      "Great Britain",
+      "Italy"
+    ],
     "result": "British victory",
-    "commanders": ["Andrew Cunningham", "Angelo Iachino"],
-    "casualties": { "side1": 4, "side2": 2303 },
+    "commanders": [
+      "Andrew Cunningham",
+      "Angelo Iachino"
+    ],
+    "casualties": {
+      "side1": 4,
+      "side2": 2303
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -649,13 +1181,25 @@
     "name": "Hunt for the Bismarck",
     "year": 1941,
     "era": "modern",
-    "location": { "lat": 48.1667, "lng": -16.2000 },
+    "location": {
+      "lat": 48.1667,
+      "lng": -16.2
+    },
     "tier": 1,
     "description": "HMS Hood — the pride of the Royal Navy, the most beautiful warship afloat — blew in half. One shell from Bismarck found the magazine, and 48,000 tons of battlecruiser vanished in a column of fire. Three survivors out of 1,418. Three. The Royal Navy went berserk. Every ship that could move was sent to hunt one German battleship across the Atlantic. Then a canvas biplane — a Swordfish torpedo bomber from the Ark Royal — jammed Bismarck's rudder with a single lucky torpedo. The next morning, King George V and Rodney closed in and beat her to scrap metal for ninety minutes before she finally went under. The greatest warship chase in history, all because of one catastrophic explosion and one canvas biplane.",
-    "belligerents": ["Great Britain", "Nazi Germany"],
+    "belligerents": [
+      "Great Britain",
+      "Nazi Germany"
+    ],
     "result": "British victory",
-    "commanders": ["John Tovey", "Günther Lütjens"],
-    "casualties": { "side1": 1415, "side2": 2131 },
+    "commanders": [
+      "John Tovey",
+      "Günther Lütjens"
+    ],
+    "casualties": {
+      "side1": 1415,
+      "side2": 2131
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -664,13 +1208,26 @@
     "name": "Battle of the Coral Sea",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -15.0000, "lng": 155.0000 },
+    "location": {
+      "lat": -15.0,
+      "lng": 155.0
+    },
     "tier": 1,
     "description": "For the first time in the history of naval warfare, two fleets fought a battle without ever seeing each other. The ships were over a hundred miles apart — it was the pilots who did the killing. The Lexington, 'Lady Lex,' took torpedoes and bombs, then her aviation fuel vapors found a spark and she blew herself apart from the inside. But the Japanese invasion fleet turned back. The strategic calculus had changed forever. From now on, the carrier was king, and the battleship was just a very expensive target.",
-    "belligerents": ["United States–Australia alliance", "Imperial Japan"],
+    "belligerents": [
+      "United States–Australia alliance",
+      "Imperial Japan"
+    ],
     "result": "Japanese tactical, American strategic victory",
-    "commanders": ["Frank Jack Fletcher", "Takeo Takagi", "Shigeyoshi Inoue"],
-    "casualties": { "side1": 656, "side2": 966 },
+    "commanders": [
+      "Frank Jack Fletcher",
+      "Takeo Takagi",
+      "Shigeyoshi Inoue"
+    ],
+    "casualties": {
+      "side1": 656,
+      "side2": 966
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -679,13 +1236,27 @@
     "name": "Battle of Midway",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": 28.2072, "lng": -177.3735 },
+    "location": {
+      "lat": 28.2072,
+      "lng": -177.3735
+    },
     "tier": 1,
     "description": "Five minutes. That's how long it took to change the course of the entire Pacific War. American codebreakers had set the trap, and torpedo squadrons flew in first — nearly every plane shot down, nearly every pilot killed, but they dragged the Japanese combat air patrol down to sea level. Then the SBD Dauntlesses arrived at 14,000 feet and found four Japanese carriers with fuel hoses snaking across their decks and bombs stacked in the open. Akagi, Kaga, Soryu — three carriers turned into infernos in five minutes. Hiryu followed hours later. Six months after Pearl Harbor, the men who planned it watched their fleet burn on the horizon.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["Chester Nimitz", "Raymond Spruance", "Isoroku Yamamoto", "Chuichi Nagumo"],
-    "casualties": { "side1": 307, "side2": 3057 },
+    "commanders": [
+      "Chester Nimitz",
+      "Raymond Spruance",
+      "Isoroku Yamamoto",
+      "Chuichi Nagumo"
+    ],
+    "casualties": {
+      "side1": 307,
+      "side2": 3057
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -694,13 +1265,25 @@
     "name": "Battle of Savo Island",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -9.1333, "lng": 159.8167 },
+    "location": {
+      "lat": -9.1333,
+      "lng": 159.8167
+    },
     "tier": 2,
     "description": "Imagine you're sleeping in your bunk aboard a heavy cruiser off Guadalcanal and you wake up to the sound of the world exploding. Mikawa's Japanese cruisers came out of the darkness like assassins — Long Lance torpedoes running hot, searchlights stabbing through the night, and then 8-inch shells ripping through steel at point-blank range. Four Allied heavy cruisers sunk in thirty-two minutes. Thirty-two minutes. The worst open-sea defeat in US Navy history, and most of the men who died never even got to general quarters.",
-    "belligerents": ["Imperial Japan", "United States–Australia alliance"],
+    "belligerents": [
+      "Imperial Japan",
+      "United States–Australia alliance"
+    ],
     "result": "Japanese victory",
-    "commanders": ["Gunichi Mikawa", "Victor Crutchley"],
-    "casualties": { "side1": 58, "side2": 1077 },
+    "commanders": [
+      "Gunichi Mikawa",
+      "Victor Crutchley"
+    ],
+    "casualties": {
+      "side1": 58,
+      "side2": 1077
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -709,13 +1292,25 @@
     "name": "Battle of the Eastern Solomons",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -7.0000, "lng": 163.0000 },
+    "location": {
+      "lat": -7.0,
+      "lng": 163.0
+    },
     "tier": 3,
     "description": "Enterprise took three bomb hits that turned her flight deck into twisted steel and burning aviation fuel — and she kept fighting. Her air group sank the light carrier Ryujo and turned back the Japanese reinforcement convoy headed for Guadalcanal. This was the Solomons in 1942: a grinding, bleeding, ship-for-ship attrition war where you patched the holes, buried the dead, and went back out the next day because there was nowhere else to go.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "Tactical draw, American strategic advantage",
-    "commanders": ["Frank Jack Fletcher", "Chuichi Nagumo"],
-    "casualties": { "side1": 90, "side2": 290 },
+    "commanders": [
+      "Frank Jack Fletcher",
+      "Chuichi Nagumo"
+    ],
+    "casualties": {
+      "side1": 90,
+      "side2": 290
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -724,13 +1319,25 @@
     "name": "Battle of the Santa Cruz Islands",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -8.0833, "lng": 166.0000 },
+    "location": {
+      "lat": -8.0833,
+      "lng": 166.0
+    },
     "tier": 2,
     "description": "The Japanese sank the Hornet and mauled the Enterprise — on paper, they won. But here's what the scoreboard doesn't show: Japan lost over a hundred veteran carrier pilots, men who'd been flying since before Pearl Harbor, men you couldn't replace no matter how many planes you built. America could train new pilots faster than Japan could. The Japanese won the battle and lost the war, and Santa Cruz was the moment that math became inescapable. Their carriers would never fight effectively again.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "Japanese tactical victory",
-    "commanders": ["William Halsey", "Chuichi Nagumo"],
-    "casualties": { "side1": 266, "side2": 400 },
+    "commanders": [
+      "William Halsey",
+      "Chuichi Nagumo"
+    ],
+    "casualties": {
+      "side1": 266,
+      "side2": 400
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -739,13 +1346,27 @@
     "name": "Naval Battle of Guadalcanal",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -9.3167, "lng": 159.9667 },
+    "location": {
+      "lat": -9.3167,
+      "lng": 159.9667
+    },
     "tier": 2,
     "description": "Two nights of absolute chaos in the dark waters they'd start calling Ironbottom Sound — because that's where the ships piled up. The first night was a knife fight in a phone booth: cruisers at point-blank range, Admirals Callaghan and Scott both killed on their bridges, ships so close they were ramming each other. The second night, the USS Washington locked onto the battleship Kirishima with radar and put 75 sixteen-inch shells into her in seven minutes. Seven minutes. Japan's last major attempt to reinforce Guadalcanal died with that ship.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["Daniel Callaghan", "Willis Lee", "Hiroaki Abe", "Nobutake Kondo"],
-    "casualties": { "side1": 1732, "side2": 1900 },
+    "commanders": [
+      "Daniel Callaghan",
+      "Willis Lee",
+      "Hiroaki Abe",
+      "Nobutake Kondo"
+    ],
+    "casualties": {
+      "side1": 1732,
+      "side2": 1900
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -754,13 +1375,25 @@
     "name": "Battle of the North Cape",
     "year": 1943,
     "era": "modern",
-    "location": { "lat": 72.3333, "lng": 28.7333 },
+    "location": {
+      "lat": 72.3333,
+      "lng": 28.7333
+    },
     "tier": 3,
     "description": "The Arctic in December — twenty hours of darkness, freezing seas, waves that could swallow a destroyer. The Scharnhorst was hunting a convoy north of Norway when Duke of York found her with radar and opened fire. Star shells lit up the darkness, 14-inch shells crippled her boilers, and destroyers closed in with torpedoes. She went down in the black Arctic water with 1,932 men. Thirty-six survived. Thirty-six men pulled from seas so cold you'd be dead in minutes. The last German capital ship sortie of the war, swallowed by the Arctic night.",
-    "belligerents": ["Great Britain", "Nazi Germany"],
+    "belligerents": [
+      "Great Britain",
+      "Nazi Germany"
+    ],
     "result": "British victory",
-    "commanders": ["Bruce Fraser", "Erich Bey"],
-    "casualties": { "side1": 18, "side2": 1932 },
+    "commanders": [
+      "Bruce Fraser",
+      "Erich Bey"
+    ],
+    "casualties": {
+      "side1": 18,
+      "side2": 1932
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -769,13 +1402,26 @@
     "name": "Battle of the Philippine Sea",
     "year": 1944,
     "era": "modern",
-    "location": { "lat": 15.0000, "lng": 138.0000 },
+    "location": {
+      "lat": 15.0,
+      "lng": 138.0
+    },
     "tier": 1,
     "description": "The American pilots called it the 'Great Marianas Turkey Shoot,' and that tells you everything. Japanese carrier planes came in wave after wave, and Hellcat fighters and antiaircraft fire destroyed over 300 of them while losing only 29 of their own. Meanwhile, US submarines put torpedoes into the carriers Taiho and Shokaku, sending both to the bottom. Japanese carrier aviation — the force that had conquered half the Pacific — ceased to exist as a fighting force in a single day. The road to Tokyo was open.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["Raymond Spruance", "Marc Mitscher", "Jisaburo Ozawa"],
-    "casualties": { "side1": 123, "side2": 2987 },
+    "commanders": [
+      "Raymond Spruance",
+      "Marc Mitscher",
+      "Jisaburo Ozawa"
+    ],
+    "casualties": {
+      "side1": 123,
+      "side2": 2987
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -784,13 +1430,28 @@
     "name": "Battle of Leyte Gulf",
     "year": 1944,
     "era": "modern",
-    "location": { "lat": 11.0000, "lng": 126.0000 },
+    "location": {
+      "lat": 11.0,
+      "lng": 126.0
+    },
     "tier": 1,
     "description": "The largest naval battle in human history. Three hundred and sixty-seven ships across four separate engagements over three days — the Philippines a cauldron of steel, fire, and desperation. Japan threw in everything it had left: every carrier, every battleship, every destroyer, a final all-or-nothing gamble to stop MacArthur's return. They lost 4 carriers, 3 battleships, 26 other warships. The Imperial Japanese Navy — the force that had terrorized the Pacific for three years — was annihilated. It would never sail as a fleet again.",
-    "belligerents": ["United States–Australia alliance", "Imperial Japan"],
+    "belligerents": [
+      "United States–Australia alliance",
+      "Imperial Japan"
+    ],
     "result": "Decisive Allied victory",
-    "commanders": ["William Halsey", "Thomas Kinkaid", "Takeo Kurita", "Shoji Nishimura", "Jisaburo Ozawa"],
-    "casualties": { "side1": 3000, "side2": 12500 },
+    "commanders": [
+      "William Halsey",
+      "Thomas Kinkaid",
+      "Takeo Kurita",
+      "Shoji Nishimura",
+      "Jisaburo Ozawa"
+    ],
+    "casualties": {
+      "side1": 3000,
+      "side2": 12500
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -799,13 +1460,26 @@
     "name": "Battle of the Sibuyan Sea",
     "year": 1944,
     "era": "modern",
-    "location": { "lat": 12.3333, "lng": 122.5000 },
+    "location": {
+      "lat": 12.3333,
+      "lng": 122.5
+    },
     "tier": 2,
     "description": "The super-battleship Musashi absorbed seventeen bombs and nineteen torpedoes before she finally went under — imagine the punishment that represents, wave after wave of American carrier planes hammering the largest class of warship ever built, and she just kept coming. When Kurita's fleet turned around, Halsey assumed the threat was over. It was the fateful misjudgment that left Taffy 3 naked off Samar. The Musashi died hard, but her death nearly bought Kurita the battle.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American tactical victory",
-    "commanders": ["William Halsey", "Marc Mitscher", "Takeo Kurita"],
-    "casualties": { "side1": 18, "side2": 1023 },
+    "commanders": [
+      "William Halsey",
+      "Marc Mitscher",
+      "Takeo Kurita"
+    ],
+    "casualties": {
+      "side1": 18,
+      "side2": 1023
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -814,13 +1488,25 @@
     "name": "Battle of Surigao Strait",
     "year": 1944,
     "era": "modern",
-    "location": { "lat": 10.1667, "lng": 125.3667 },
+    "location": {
+      "lat": 10.1667,
+      "lng": 125.3667
+    },
     "tier": 2,
     "description": "The ghosts of Pearl Harbor got their revenge at Surigao Strait. Five of Oldendorf's six battleships — West Virginia, Tennessee, California, Maryland, Pennsylvania — had been sunk or damaged on December 7th, raised from the mud, rebuilt, and now they crossed the T of the Japanese Southern Force in the most textbook ambush in naval history. PT boats, then destroyers, then the battleships — each layer peeling away the Japanese column until both enemy battleships were on the bottom. The last battleship-versus-battleship action ever fought. The old dreadnoughts had settled their score.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["Jesse Oldendorf", "Shoji Nishimura"],
-    "casualties": { "side1": 39, "side2": 4000 },
+    "commanders": [
+      "Jesse Oldendorf",
+      "Shoji Nishimura"
+    ],
+    "casualties": {
+      "side1": 39,
+      "side2": 4000
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -829,13 +1515,25 @@
     "name": "Battle off Samar",
     "year": 1944,
     "era": "modern",
-    "location": { "lat": 11.6667, "lng": 126.3333 },
+    "location": {
+      "lat": 11.6667,
+      "lng": 126.3333
+    },
     "tier": 1,
     "description": "This is the one that makes you weep. Kurita's 23 warships — including the Yamato with her 18-inch guns — came over the horizon toward Taffy 3: six baby flattops, three destroyers, and four destroyer escorts. Tin cans against battleships. The destroyer men charged. They laid smoke, they fired torpedoes, they drove straight at ships that outweighed them ten to one, and they died doing it. Pilots made attack runs with empty bomb racks just to distract the enemy. And somehow, impossibly, Kurita blinked and withdrew. The most extraordinary act of courage in the history of naval warfare, bar none.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American strategic victory",
-    "commanders": ["Clifton Sprague", "Takeo Kurita"],
-    "casualties": { "side1": 1583, "side2": 2500 },
+    "commanders": [
+      "Clifton Sprague",
+      "Takeo Kurita"
+    ],
+    "casualties": {
+      "side1": 1583,
+      "side2": 2500
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -844,13 +1542,26 @@
     "name": "Battle of Cape Engano",
     "year": 1944,
     "era": "modern",
-    "location": { "lat": 18.7000, "lng": 122.4000 },
+    "location": {
+      "lat": 18.7,
+      "lng": 122.4
+    },
     "tier": 3,
     "description": "Ozawa's carriers were bait, and Halsey swallowed it whole. He chased the decoy force 300 miles north while Kurita was bearing down on the beachhead behind him. The Japanese carriers — including the Zuikaku, the last survivor of the Pearl Harbor strike — were sunk one by one, their flight decks empty, their purpose fulfilled. The most successful decoy operation in naval history, and it worked exactly as planned. The tragedy is what happened at Samar while Halsey was up here killing ghosts.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["William Halsey", "Marc Mitscher", "Jisaburo Ozawa"],
-    "casualties": { "side1": 200, "side2": 4000 },
+    "commanders": [
+      "William Halsey",
+      "Marc Mitscher",
+      "Jisaburo Ozawa"
+    ],
+    "casualties": {
+      "side1": 200,
+      "side2": 4000
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -858,14 +1569,26 @@
     "id": "sinking-of-yamato",
     "name": "Operation Ten-Go (Sinking of Yamato)",
     "year": 1945,
-    "era": "modern",
-    "location": { "lat": 30.7167, "lng": 128.0500 },
+    "era": "contemporary",
+    "location": {
+      "lat": 30.7167,
+      "lng": 128.05
+    },
     "tier": 2,
     "description": "The largest warship ever built — 72,000 tons, 18-inch guns, the pride of the Imperial Navy — sailed on a one-way trip to Okinawa with only enough fuel to get there. It was a suicide mission for a battleship. Nearly 400 American planes swarmed her like hornets, putting torpedo after torpedo into her hull until she rolled over and exploded, a column of smoke visible for a hundred miles. 3,055 of 3,332 crew went with her. The battleship era didn't fade away. It was killed, violently, by aircraft — the weapon the battleship admirals had always dismissed.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["Marc Mitscher", "Seiichi Ito"],
-    "casualties": { "side1": 12, "side2": 4137 },
+    "commanders": [
+      "Marc Mitscher",
+      "Seiichi Ito"
+    ],
+    "casualties": {
+      "side1": 12,
+      "side2": 4137
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -874,13 +1597,25 @@
     "name": "Battle of the Atlantic",
     "year": 1943,
     "era": "modern",
-    "location": { "lat": 52.0000, "lng": -30.0000 },
+    "location": {
+      "lat": 52.0,
+      "lng": -30.0
+    },
     "tier": 1,
     "description": "Six years. The longest battle of the entire war, fought across millions of square miles of grey, freezing Atlantic. U-boat wolfpacks hunting in the dark, merchant sailors dying in oil fires and frozen seas, 3,500 ships sent to the bottom. In March 1943, the wolves nearly won — 97 ships torpedoed in a single month, and Britain was weeks from starvation. Then the tide turned: escort carriers, radar, Ultra codebreaking, long-range aircraft closing the mid-Atlantic gap. Germany lost 783 U-boats and 30,000 submariners — a 75% casualty rate. The most critical campaign of the war, and most people have never heard of it.",
-    "belligerents": ["Allied Powers", "Nazi Germany"],
+    "belligerents": [
+      "Allied Powers",
+      "Nazi Germany"
+    ],
     "result": "Allied victory",
-    "commanders": ["Max Horton", "Karl Dönitz"],
-    "casualties": { "side1": 72200, "side2": 30000 },
+    "commanders": [
+      "Max Horton",
+      "Karl Dönitz"
+    ],
+    "casualties": {
+      "side1": 72200,
+      "side2": 30000
+    },
     "warName": "World War II",
     "significance": 1
   },
@@ -889,13 +1624,25 @@
     "name": "Battle of the Denmark Strait",
     "year": 1941,
     "era": "modern",
-    "location": { "lat": 63.3333, "lng": -32.0000 },
+    "location": {
+      "lat": 63.3333,
+      "lng": -32.0
+    },
     "tier": 2,
     "description": "Hood was the symbol of British sea power — the most famous warship in the world, a ship that had shown the flag in every ocean. One shell from Bismarck found her deck armor, punched through to the aft magazine, and 48,000 tons of battlecruiser erupted like a volcano. She broke in half and sank in three minutes. 1,418 men. Three survivors. Three. The shock wave that went through Britain when they heard the news was like hearing the Titanic had sunk again, except this time it was the enemy who did it. And then the hunt began.",
-    "belligerents": ["Nazi Germany", "Great Britain"],
+    "belligerents": [
+      "Nazi Germany",
+      "Great Britain"
+    ],
     "result": "German tactical victory",
-    "commanders": ["Günther Lütjens", "Lancelot Holland"],
-    "casualties": { "side1": 115, "side2": 1415 },
+    "commanders": [
+      "Günther Lütjens",
+      "Lancelot Holland"
+    ],
+    "casualties": {
+      "side1": 115,
+      "side2": 1415
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -904,13 +1651,25 @@
     "name": "Battle of the Java Sea",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -5.8333, "lng": 112.0000 },
+    "location": {
+      "lat": -5.8333,
+      "lng": 112.0
+    },
     "tier": 3,
     "description": "A scratch fleet of American, British, Dutch, and Australian ships — four different navies, no common signal book, no shared doctrine — thrown together to stop the Japanese juggernaut heading for Java. The Long Lance torpedoes came out of the darkness, and the cruiser De Ruyter took one and disappeared. Then the Exeter. Then the Houston. Ship after ship, in a running massacre that lasted two days. The Dutch East Indies fell, and with them an empire that had lasted three centuries, broken by a force that moved faster than anyone thought possible.",
-    "belligerents": ["ABDA alliance", "Imperial Japan"],
+    "belligerents": [
+      "ABDA alliance",
+      "Imperial Japan"
+    ],
     "result": "Japanese victory",
-    "commanders": ["Karel Doorman", "Takeo Takagi"],
-    "casualties": { "side1": 2300, "side2": 36 },
+    "commanders": [
+      "Karel Doorman",
+      "Takeo Takagi"
+    ],
+    "casualties": {
+      "side1": 2300,
+      "side2": 36
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -919,13 +1678,25 @@
     "name": "Battle of Cape Esperance",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -9.1000, "lng": 159.6833 },
+    "location": {
+      "lat": -9.1,
+      "lng": 159.6833
+    },
     "tier": 3,
     "description": "After the nightmare of Savo Island, the US Navy was desperate for a win in the dark waters off Guadalcanal. Scott's cruisers caught a Japanese bombardment group at night, crossed the T, and blew the cruiser Furutaka and destroyer Fubuki out of the water. It wasn't pretty — there was confusion, friendly fire, the usual chaos of night surface actions — but it was a victory, the first American surface win over the Japanese. After Savo Island, the fleet needed it like oxygen.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["Norman Scott", "Aritomo Goto"],
-    "casualties": { "side1": 163, "side2": 454 },
+    "commanders": [
+      "Norman Scott",
+      "Aritomo Goto"
+    ],
+    "casualties": {
+      "side1": 163,
+      "side2": 454
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -934,13 +1705,25 @@
     "name": "Battle of Tassafaronga",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": -9.3667, "lng": 159.8667 },
+    "location": {
+      "lat": -9.3667,
+      "lng": 159.8667
+    },
     "tier": 3,
     "description": "Eight Japanese destroyers on a supply run — just destroyers — fired Long Lance torpedoes into a superior American cruiser force and crippled four heavy cruisers in minutes. The Northampton went to the bottom of Ironbottom Sound. Tanaka's destroyers did this while outnumbered, outgunned, with no radar, on what was essentially a grocery delivery run. It was a masterclass in torpedo warfare, and it proved that technology doesn't win battles — training, doctrine, and a weapon your enemy has underestimated can humble any fleet.",
-    "belligerents": ["Imperial Japan", "United States"],
+    "belligerents": [
+      "Imperial Japan",
+      "United States"
+    ],
     "result": "Japanese victory",
-    "commanders": ["Raizo Tanaka", "Carleton Wright"],
-    "casualties": { "side1": 197, "side2": 395 },
+    "commanders": [
+      "Raizo Tanaka",
+      "Carleton Wright"
+    ],
+    "casualties": {
+      "side1": 197,
+      "side2": 395
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -949,13 +1732,25 @@
     "name": "Battle of the Komandorski Islands",
     "year": 1943,
     "era": "modern",
-    "location": { "lat": 53.0000, "lng": 167.0000 },
+    "location": {
+      "lat": 53.0,
+      "lng": 167.0
+    },
     "tier": 4,
     "description": "A rare daylight surface gun battle in the freezing North Pacific — no carriers, no submarines, just old-fashioned ships shooting at each other for four hours. McMorris had two cruisers and four destroyers against a much larger Japanese force, and he just kept fighting. The Japanese admiral lost his nerve, worried about air attack that never came, and withdrew. It was a bar fight at the end of the world, in seas so cold and grey that the whole engagement feels like it happened in a different war.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American strategic victory",
-    "commanders": ["Charles McMorris", "Boshiro Hosogaya"],
-    "casualties": { "side1": 7, "side2": 14 },
+    "commanders": [
+      "Charles McMorris",
+      "Boshiro Hosogaya"
+    ],
+    "casualties": {
+      "side1": 7,
+      "side2": 14
+    },
     "warName": "World War II",
     "significance": 4
   },
@@ -964,13 +1759,25 @@
     "name": "Destruction of Convoy PQ-17",
     "year": 1942,
     "era": "modern",
-    "location": { "lat": 74.0000, "lng": 30.0000 },
+    "location": {
+      "lat": 74.0,
+      "lng": 30.0
+    },
     "tier": 2,
     "description": "The Admiralty panicked. They thought the Tirpitz had sortied — she hadn't — and ordered Convoy PQ-17 to scatter. Scatter. In the Arctic. Without escorts. What followed was a massacre in slow motion: Luftwaffe bombers and U-boats picking off lone merchant ships one by one across hundreds of miles of ice-grey ocean, 24 of 35 ships sent to the bottom, tanks and aircraft and trucks meant for Russia sinking into the abyss. A hundred and fifty-three sailors died because of an intelligence failure and an order that never should have been given. The merchant marine called it murder.",
-    "belligerents": ["Allied Powers", "Nazi Germany"],
+    "belligerents": [
+      "Allied Powers",
+      "Nazi Germany"
+    ],
     "result": "German victory",
-    "commanders": ["Dudley Pound", "Various German commanders"],
-    "casualties": { "side1": 153, "side2": 0 },
+    "commanders": [
+      "Dudley Pound",
+      "Various German commanders"
+    ],
+    "casualties": {
+      "side1": 153,
+      "side2": 0
+    },
     "warName": "World War II",
     "significance": 2
   },
@@ -979,13 +1786,25 @@
     "name": "Battle of Empress Augusta Bay",
     "year": 1943,
     "era": "modern",
-    "location": { "lat": -6.3333, "lng": 154.9167 },
+    "location": {
+      "lat": -6.3333,
+      "lng": 154.9167
+    },
     "tier": 3,
     "description": "Merrill's Task Force 39 met a Japanese cruiser-destroyer force coming to smash the Bougainville beachhead, and this time the Americans got the night fighting right. A cruiser and a destroyer sunk, not one American ship lost. It doesn't sound dramatic, but think about what it meant: the US Navy had been getting savaged in night surface actions since Savo Island. Fifteen months of getting punched in the dark, and now they were punching back. The learning curve was flattening, and Japan was running out of ships to lose.",
-    "belligerents": ["United States", "Imperial Japan"],
+    "belligerents": [
+      "United States",
+      "Imperial Japan"
+    ],
     "result": "American victory",
-    "commanders": ["Aaron Merrill", "Sentaro Omori"],
-    "casualties": { "side1": 19, "side2": 658 },
+    "commanders": [
+      "Aaron Merrill",
+      "Sentaro Omori"
+    ],
+    "casualties": {
+      "side1": 19,
+      "side2": 658
+    },
     "warName": "World War II",
     "significance": 3
   },
@@ -994,13 +1813,25 @@
     "name": "Sinking of ARA General Belgrano",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": -55.2833, "lng": -61.0833 },
+    "location": {
+      "lat": -55.2833,
+      "lng": -61.0833
+    },
     "tier": 2,
     "description": "A nuclear submarine hunting a World War II-era cruiser in the freezing waters near Antarctica — the Cold War nightmare scenario made real, except it wasn't the Soviets, it was Argentina. HMS Conqueror put two old-fashioned torpedoes into the General Belgrano outside the exclusion zone, and 323 men went into water so cold it killed in minutes. The only ship ever sunk by a nuclear submarine in combat. The entire Argentine Navy turned around and went home. It never came out again.",
-    "belligerents": ["Great Britain", "Argentina"],
+    "belligerents": [
+      "Great Britain",
+      "Argentina"
+    ],
     "result": "British victory",
-    "commanders": ["Christopher Wreford-Brown", "Héctor Bonzo"],
-    "casualties": { "side1": 0, "side2": 323 },
+    "commanders": [
+      "Christopher Wreford-Brown",
+      "Héctor Bonzo"
+    ],
+    "casualties": {
+      "side1": 0,
+      "side2": 323
+    },
     "warName": "Falklands War",
     "significance": 2
   },
@@ -1009,13 +1840,25 @@
     "name": "Sinking of HMS Sheffield",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": -51.8000, "lng": -57.8000 },
+    "location": {
+      "lat": -51.8,
+      "lng": -57.8
+    },
     "tier": 3,
     "description": "One missile. One Exocet, sea-skimming at Mach 0.9, hit Sheffield amidships and the rocket motor turned the ship's interior into an inferno. A modern destroyer — radar, computers, countermeasures, the whole electronic arsenal — killed by a single missile that cost a fraction of the ship's price. Twenty men dead, a billion-dollar warship burning. The Falklands proved what theorists had been arguing for decades: in the missile age, the warship was the underdog. Every navy on earth rewrote its doctrine that week.",
-    "belligerents": ["Argentina", "Great Britain"],
+    "belligerents": [
+      "Argentina",
+      "Great Britain"
+    ],
     "result": "Argentine success",
-    "commanders": ["Argentine Naval Aviation", "Sam Salt"],
-    "casualties": { "side1": 0, "side2": 20 },
+    "commanders": [
+      "Argentine Naval Aviation",
+      "Sam Salt"
+    ],
+    "casualties": {
+      "side1": 0,
+      "side2": 20
+    },
     "warName": "Falklands War",
     "significance": 3
   },
@@ -1024,13 +1867,25 @@
     "name": "Battle of San Carlos Water",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": -51.5333, "lng": -59.0333 },
+    "location": {
+      "lat": -51.5333,
+      "lng": -59.0333
+    },
     "tier": 3,
     "description": "The British called it 'Bomb Alley,' and for five days it earned the name. Argentine pilots — flying with extraordinary courage at wave-top height through a gauntlet of missiles and gunfire — hit ship after ship: Ardent, Antelope, Coventry, Atlantic Conveyor. But here's the thing that saved the British: half the bombs didn't explode. The fuses weren't set for low-altitude drops. If those bombs had detonated, the British task force might have lost too many ships to continue. The margin between victory and catastrophe was a fusing setting.",
-    "belligerents": ["Great Britain", "Argentina"],
+    "belligerents": [
+      "Great Britain",
+      "Argentina"
+    ],
     "result": "British strategic victory",
-    "commanders": ["Sandy Woodward", "Brigadier Thompson"],
-    "casualties": { "side1": 150, "side2": 120 },
+    "commanders": [
+      "Sandy Woodward",
+      "Brigadier Thompson"
+    ],
+    "casualties": {
+      "side1": 150,
+      "side2": 120
+    },
     "warName": "Falklands War",
     "significance": 3
   },
@@ -1039,13 +1894,25 @@
     "name": "Operation Praying Mantis",
     "year": 1988,
     "era": "contemporary",
-    "location": { "lat": 25.8000, "lng": 55.0000 },
+    "location": {
+      "lat": 25.8,
+      "lng": 55.0
+    },
     "tier": 3,
     "description": "The largest American naval surface engagement since World War II, and it was over so fast it almost felt unfair. After Iran mined the frigate Samuel B. Roberts, the US Navy came back and dismantled Iran's naval capability in a single afternoon — oil platforms blown apart, the frigate Sahand turned into a burning hulk by Harpoon missiles and laser-guided bombs. The technological gulf between a superpower navy and a regional one, demonstrated in real time, in real blood, in the waters of the Persian Gulf.",
-    "belligerents": ["United States", "Iran"],
+    "belligerents": [
+      "United States",
+      "Iran"
+    ],
     "result": "American victory",
-    "commanders": ["Anthony Less", "Iranian Revolutionary Guard Navy"],
-    "casualties": { "side1": 2, "side2": 56 },
+    "commanders": [
+      "Anthony Less",
+      "Iranian Revolutionary Guard Navy"
+    ],
+    "casualties": {
+      "side1": 2,
+      "side2": 56
+    },
     "warName": "Iran-Iraq War (Tanker War)",
     "significance": 3
   },
@@ -1054,13 +1921,24 @@
     "name": "The Tanker War",
     "year": 1984,
     "era": "contemporary",
-    "location": { "lat": 27.5000, "lng": 51.0000 },
+    "location": {
+      "lat": 27.5,
+      "lng": 51.0
+    },
     "tier": 3,
     "description": "For four years, the Persian Gulf was a shooting gallery — Iran and Iraq attacking over 500 commercial ships with missiles, mines, and gunboats while the world's oil supply sailed through the crossfire. The USS Stark took two Iraqi Exocets and 37 American sailors died, and somehow that wasn't even the main story. The Tanker War proved something terrifying: a regional conflict between two middle powers could threaten the global economy by putting missiles into supertankers in a body of water the size of a large lake.",
-    "belligerents": ["Iran", "Iraq"],
+    "belligerents": [
+      "Iran",
+      "Iraq"
+    ],
     "result": "Inconclusive",
-    "commanders": ["Various Iranian and Iraqi commanders"],
-    "casualties": { "side1": 200, "side2": 200 },
+    "commanders": [
+      "Various Iranian and Iraqi commanders"
+    ],
+    "casualties": {
+      "side1": 200,
+      "side2": 200
+    },
     "warName": "Iran-Iraq War",
     "significance": 3
   },
@@ -1069,13 +1947,25 @@
     "name": "Battle of Cape Bon",
     "year": 1941,
     "era": "modern",
-    "location": { "lat": 37.0833, "lng": 11.0333 },
+    "location": {
+      "lat": 37.0833,
+      "lng": 11.0333
+    },
     "tier": 4,
     "description": "Four British destroyers caught two Italian light cruisers off Tunisia in the dark, loaded to the gunwales with fuel drums for North Africa. The torpedoes hit, and the fuel turned both cruisers into towering columns of flame on the Mediterranean — the Alberto di Giussano and Alberico da Barbiano burning so bright you could read a newspaper by the light. Nine hundred Italian sailors swallowed by the sea and the fire. Two ships, two torpedoes, two minutes. War at sea is fast and it is final.",
-    "belligerents": ["Great Britain", "Italy"],
+    "belligerents": [
+      "Great Britain",
+      "Italy"
+    ],
     "result": "British victory",
-    "commanders": ["Graham Stokes", "Alberto Toscano"],
-    "casualties": { "side1": 0, "side2": 900 },
+    "commanders": [
+      "Graham Stokes",
+      "Alberto Toscano"
+    ],
+    "casualties": {
+      "side1": 0,
+      "side2": 900
+    },
     "warName": "World War II",
     "significance": 4
   },
@@ -1084,13 +1974,25 @@
     "name": "Convoy System Introduction",
     "year": 1917,
     "era": "modern",
-    "location": { "lat": 50.0000, "lng": -15.0000 },
+    "location": {
+      "lat": 50.0,
+      "lng": -15.0
+    },
     "tier": 2,
     "description": "In April 1917, U-boats sank 860,000 tons of shipping. Britain had six weeks of food left. Six weeks. The admirals said convoys wouldn't work — too many ships, too slow, too hard to organize. Lloyd George said do it anyway. And it worked. Losses plummeted because a U-boat captain staring through his periscope at empty ocean can't sink what he can't find. The convoy system saved Britain from starvation, and twenty-two years later, they'd have to learn the lesson all over again.",
-    "belligerents": ["Allied Powers", "German Empire"],
+    "belligerents": [
+      "Allied Powers",
+      "German Empire"
+    ],
     "result": "Allied strategic victory",
-    "commanders": ["John Jellicoe", "Various U-boat commanders"],
-    "casualties": { "side1": 15000, "side2": 5000 },
+    "commanders": [
+      "John Jellicoe",
+      "Various U-boat commanders"
+    ],
+    "casualties": {
+      "side1": 15000,
+      "side2": 5000
+    },
     "warName": "World War I",
     "significance": 2
   },
@@ -1099,13 +2001,25 @@
     "name": "Battle of Quiberon Bay",
     "year": 1759,
     "era": "early-modern",
-    "location": { "lat": 47.3333, "lng": -2.8667 },
+    "location": {
+      "lat": 47.3333,
+      "lng": -2.8667
+    },
     "tier": 2,
     "description": "Hawke chased the French fleet into Quiberon Bay in a howling November gale, through rock-strewn waters his own pilots begged him not to enter. His reasoning was as brutal as it was brilliant: if the French can navigate these rocks, so can we. His ships hammered the French fleet to pieces among the shoals and reefs, losing two ships to the rocks while destroying seven French warships with broadsides. The invasion of Britain was over. Sometimes the line between tactical genius and suicidal recklessness is just the result.",
-    "belligerents": ["Great Britain", "France"],
+    "belligerents": [
+      "Great Britain",
+      "France"
+    ],
     "result": "British victory",
-    "commanders": ["Edward Hawke", "Hubert de Brienne"],
-    "casualties": { "side1": 300, "side2": 2500 },
+    "commanders": [
+      "Edward Hawke",
+      "Hubert de Brienne"
+    ],
+    "casualties": {
+      "side1": 300,
+      "side2": 2500
+    },
     "warName": "Seven Years' War",
     "significance": 2
   },
@@ -1114,13 +2028,26 @@
     "name": "Battle of Cape St. Vincent",
     "year": 1797,
     "era": "modern",
-    "location": { "lat": 37.0833, "lng": -9.0000 },
+    "location": {
+      "lat": 37.0833,
+      "lng": -9.0
+    },
     "tier": 3,
     "description": "Fifteen British ships against twenty-seven Spanish, and a commodore named Nelson who decided the fighting instructions could go hang. He broke formation on his own initiative, drove his ship into the Spanish van, then personally led boarding parties onto two enemy ships in succession — sword in hand, climbing over the rail like a pirate. Jervis won the battle. Nelson became a legend. The Franco-Spanish junction was prevented, and Britain had found the most aggressive naval commander since Drake.",
-    "belligerents": ["Great Britain", "Spain"],
+    "belligerents": [
+      "Great Britain",
+      "Spain"
+    ],
     "result": "British victory",
-    "commanders": ["John Jervis", "Horatio Nelson", "José de Córdoba"],
-    "casualties": { "side1": 300, "side2": 1000 },
+    "commanders": [
+      "John Jervis",
+      "Horatio Nelson",
+      "José de Córdoba"
+    ],
+    "casualties": {
+      "side1": 300,
+      "side2": 1000
+    },
     "warName": "French Revolutionary Wars",
     "significance": 3
   },
@@ -1129,13 +2056,25 @@
     "name": "Battle of Camperdown",
     "year": 1797,
     "era": "modern",
-    "location": { "lat": 52.7833, "lng": 3.0000 },
+    "location": {
+      "lat": 52.7833,
+      "lng": 3.0
+    },
     "tier": 3,
     "description": "Duncan had been bluffing the Dutch fleet into staying in port with just two ships — sailing back and forth pretending to be a whole squadron. When his fleet finally arrived and the Dutch came out, the battle was a brutal close-range slugging match in shallow water off the Dutch coast. Eleven of fifteen Dutch ships of the line captured, the Batavian fleet broken beyond repair. No elegance, no tactical subtlety — just British crews loading and firing faster than the other side until there was nobody left to fight.",
-    "belligerents": ["Great Britain", "Batavian Republic"],
+    "belligerents": [
+      "Great Britain",
+      "Batavian Republic"
+    ],
     "result": "British victory",
-    "commanders": ["Adam Duncan", "Jan de Winter"],
-    "casualties": { "side1": 825, "side2": 1160 },
+    "commanders": [
+      "Adam Duncan",
+      "Jan de Winter"
+    ],
+    "casualties": {
+      "side1": 825,
+      "side2": 1160
+    },
     "warName": "French Revolutionary Wars",
     "significance": 3
   },
@@ -1144,13 +2083,25 @@
     "name": "Second Battle of the Virginia Capes",
     "year": 1781,
     "era": "early-modern",
-    "location": { "lat": 36.8333, "lng": -75.8500 },
+    "location": {
+      "lat": 36.8333,
+      "lng": -75.85
+    },
     "tier": 3,
     "description": "While de Grasse held the British fleet's attention at the mouth of the Chesapeake, de Barras slipped in behind him carrying something far more important than ships — siege guns. Heavy artillery, the kind that turns earthworks into craters. Those guns would pound Cornwallis at Yorktown until his position was untenable. A convoy of cannons, escorted through a naval battle, and it changed the outcome of the American Revolution. Sometimes the most important cargo in history isn't gold or soldiers — it's the guns.",
-    "belligerents": ["France", "Great Britain"],
+    "belligerents": [
+      "France",
+      "Great Britain"
+    ],
     "result": "French strategic success",
-    "commanders": ["Jacques-Melchior de Barras", "Thomas Graves"],
-    "casualties": { "side1": 50, "side2": 100 },
+    "commanders": [
+      "Jacques-Melchior de Barras",
+      "Thomas Graves"
+    ],
+    "casualties": {
+      "side1": 50,
+      "side2": 100
+    },
     "warName": "American Revolutionary War",
     "significance": 3
   },
@@ -1159,13 +2110,25 @@
     "name": "Battle of the Yalu River",
     "year": 1894,
     "era": "modern",
-    "location": { "lat": 39.6167, "lng": 123.9833 },
+    "location": {
+      "lat": 39.6167,
+      "lng": 123.9833
+    },
     "tier": 2,
     "description": "The first major fleet action between modern steel warships, and the world was watching to see if the theories worked. Japan's Combined Fleet, trained on European doctrine with European-built ships, systematically destroyed five Chinese warships while losing none. The Qing Dynasty had bought the best warships money could buy, but they'd forgotten to buy the training, the doctrine, the culture of relentless practice that turns steel into a weapon. Japan had done all of that, and the Yellow Sea was the proof.",
-    "belligerents": ["Empire of Japan", "Qing China"],
+    "belligerents": [
+      "Empire of Japan",
+      "Qing China"
+    ],
     "result": "Japanese victory",
-    "commanders": ["Ito Sukeyuki", "Ding Ruchang"],
-    "casualties": { "side1": 298, "side2": 850 },
+    "commanders": [
+      "Ito Sukeyuki",
+      "Ding Ruchang"
+    ],
+    "casualties": {
+      "side1": 298,
+      "side2": 850
+    },
     "warName": "First Sino-Japanese War",
     "significance": 2
   },
@@ -1174,13 +2137,25 @@
     "name": "Battle of Weihaiwei",
     "year": 1895,
     "era": "modern",
-    "location": { "lat": 37.5000, "lng": 122.1167 },
+    "location": {
+      "lat": 37.5,
+      "lng": 122.1167
+    },
     "tier": 3,
     "description": "The remnants of the Beiyang Fleet cowered in Weihaiwei harbor while Japanese torpedo boats darted in night after night, putting fish into anything that floated. It was a siege at sea — slow, methodical, merciless. When it was over, Admiral Ding Ruchang swallowed poison rather than surrender. China's most modern fleet, bought with silver that should have gone to feeding provinces, was gone. Japan had announced itself to the world, and the old order in East Asia would never recover.",
-    "belligerents": ["Empire of Japan", "Qing China"],
+    "belligerents": [
+      "Empire of Japan",
+      "Qing China"
+    ],
     "result": "Japanese victory",
-    "commanders": ["Ito Sukeyuki", "Ding Ruchang"],
-    "casualties": { "side1": 200, "side2": 2000 },
+    "commanders": [
+      "Ito Sukeyuki",
+      "Ding Ruchang"
+    ],
+    "casualties": {
+      "side1": 200,
+      "side2": 2000
+    },
     "warName": "First Sino-Japanese War",
     "significance": 3
   },
@@ -1189,13 +2164,26 @@
     "name": "Battle of Gravelines",
     "year": 1588,
     "era": "early-modern",
-    "location": { "lat": 51.0000, "lng": 2.1000 },
+    "location": {
+      "lat": 51.0,
+      "lng": 2.1
+    },
     "tier": 2,
     "description": "The night before, Drake sent fireships — blazing hulks packed with gunpowder — drifting into the anchored Armada at Calais. The Spanish captains panicked, cut their anchor cables, and scattered into the darkness. At dawn, Drake, Hawkins, and Frobisher fell on the disorganized fleet off Gravelines with superior gunnery, hammering the great galleons at ranges where English guns could punch through Spanish oak. The Armada was driven into the North Sea with no anchors, no formation, no hope of linking up with the invasion barges. The Protestant wind was blowing, and it was blowing Spain to oblivion.",
-    "belligerents": ["England", "Spain"],
+    "belligerents": [
+      "England",
+      "Spain"
+    ],
     "result": "English victory",
-    "commanders": ["Charles Howard", "Francis Drake", "Duke of Medina Sidonia"],
-    "casualties": { "side1": 50, "side2": 2000 },
+    "commanders": [
+      "Charles Howard",
+      "Francis Drake",
+      "Duke of Medina Sidonia"
+    ],
+    "casualties": {
+      "side1": 50,
+      "side2": 2000
+    },
     "warName": "Anglo-Spanish War",
     "significance": 2
   },
@@ -1204,13 +2192,25 @@
     "name": "Glorious First of June",
     "year": 1794,
     "era": "modern",
-    "location": { "lat": 47.4167, "lng": -14.1667 },
+    "location": {
+      "lat": 47.4167,
+      "lng": -14.1667
+    },
     "tier": 3,
     "description": "Lord Howe finally caught the French fleet 400 miles out in the Atlantic and crashed through their line, capturing six ships of the line and sinking another in a savage close-range brawl. Britain celebrated wildly — the first major fleet victory of the Revolutionary Wars! But while the Royal Navy was collecting trophies, a French grain convoy from America sailed safely into Brest and kept the Revolution fed for another season. Both sides claimed victory. Both sides were right. War is strange like that.",
-    "belligerents": ["Great Britain", "France"],
+    "belligerents": [
+      "Great Britain",
+      "France"
+    ],
     "result": "British tactical victory, French strategic success",
-    "commanders": ["Richard Howe", "Villaret-Joyeuse"],
-    "casualties": { "side1": 1098, "side2": 4200 },
+    "commanders": [
+      "Richard Howe",
+      "Villaret-Joyeuse"
+    ],
+    "casualties": {
+      "side1": 1098,
+      "side2": 4200
+    },
     "warName": "French Revolutionary Wars",
     "significance": 3
   },
@@ -1219,13 +2219,25 @@
     "name": "Battle of Lake Champlain (Plattsburgh)",
     "year": 1814,
     "era": "modern",
-    "location": { "lat": 44.6500, "lng": -73.4333 },
+    "location": {
+      "lat": 44.65,
+      "lng": -73.4333
+    },
     "tier": 3,
     "description": "Macdonough anchored his tiny flotilla in Plattsburgh Bay and rigged kedge anchors — cables that could swing his ships around to present fresh broadsides when one side was shot to pieces. It was brilliant. The British sailed in, took the hammering, and when Macdonough's battered ship rotated to show a whole new battery of loaded guns, the British squadron was finished. A 10,000-man invasion force — veterans of the Napoleonic Wars — turned around and marched back to Canada because one American officer had thought about anchor placement. The Treaty of Ghent was practically signed on that lake.",
-    "belligerents": ["United States", "Great Britain"],
+    "belligerents": [
+      "United States",
+      "Great Britain"
+    ],
     "result": "American victory",
-    "commanders": ["Thomas Macdonough", "George Downie"],
-    "casualties": { "side1": 104, "side2": 129 },
+    "commanders": [
+      "Thomas Macdonough",
+      "George Downie"
+    ],
+    "casualties": {
+      "side1": 104,
+      "side2": 129
+    },
     "warName": "War of 1812",
     "significance": 3
   },
@@ -1234,13 +2246,25 @@
     "name": "Battle of Chesma",
     "year": 1770,
     "era": "early-modern",
-    "location": { "lat": 38.3167, "lng": 26.3833 },
+    "location": {
+      "lat": 38.3167,
+      "lng": 26.3833
+    },
     "tier": 2,
     "description": "A Russian fleet that had sailed all the way from the Baltic — around Europe, through the Strait of Gibraltar — found the Ottoman fleet tucked into Chesma Bay on the Turkish coast and sent in the fireships. The bay became an inferno. Fifteen Ottoman ships of the line burning at once, the water itself on fire with spilled oil and pitch, nine thousand men dead. Russia had barely had a navy for sixty years, and here it was annihilating the Ottomans in their own waters. Peter the Great's dream, fulfilled in a wall of flame.",
-    "belligerents": ["Russian Empire", "Ottoman Empire"],
+    "belligerents": [
+      "Russian Empire",
+      "Ottoman Empire"
+    ],
     "result": "Russian victory",
-    "commanders": ["Alexei Orlov", "Hasan Pasha"],
-    "casualties": { "side1": 600, "side2": 9000 },
+    "commanders": [
+      "Alexei Orlov",
+      "Hasan Pasha"
+    ],
+    "casualties": {
+      "side1": 600,
+      "side2": 9000
+    },
     "warName": "Russo-Turkish War of 1768-1774",
     "significance": 2
   },
@@ -1249,13 +2273,25 @@
     "name": "Battle of Preveza",
     "year": 1538,
     "era": "early-modern",
-    "location": { "lat": 38.9333, "lng": 20.7167 },
+    "location": {
+      "lat": 38.9333,
+      "lng": 20.7167
+    },
     "tier": 3,
     "description": "Barbarossa — the most feared name on the Mediterranean, a pirate turned admiral, a man whose very shadow made Christian sailors cross themselves — took 122 Ottoman galleys against a Holy League fleet of 162 and won. Andrea Doria kept his distance, maneuvered cautiously, played it safe, and Barbarossa picked off his isolated ships one by one. Caution killed Doria's fleet as surely as any cannon. For a generation after Preveza, the Ottoman crescent flew supreme over the Mediterranean, and Christendom trembled.",
-    "belligerents": ["Ottoman Empire", "Holy League"],
+    "belligerents": [
+      "Ottoman Empire",
+      "Holy League"
+    ],
     "result": "Ottoman victory",
-    "commanders": ["Hayreddin Barbarossa", "Andrea Doria"],
-    "casualties": { "side1": 400, "side2": 3000 },
+    "commanders": [
+      "Hayreddin Barbarossa",
+      "Andrea Doria"
+    ],
+    "casualties": {
+      "side1": 400,
+      "side2": 3000
+    },
     "warName": "Ottoman-Venetian War",
     "significance": 3
   },
@@ -1264,13 +2300,25 @@
     "name": "Battle of Diu",
     "year": 1509,
     "era": "early-modern",
-    "location": { "lat": 20.7167, "lng": 70.9833 },
+    "location": {
+      "lat": 20.7167,
+      "lng": 70.9833
+    },
     "tier": 2,
     "description": "Almeida brought Portuguese broadside gunnery to the Indian Ocean, and the Mamluk-Gujarat fleet found out what that meant the hard way. Their galleys and dhows were built for boarding, for the old way of war at sea — oars and swords and grappling hooks. Portuguese cannons turned them into kindling at ranges they couldn't close. The Arab spice monopoly that had lasted for centuries died that day off the Indian coast, and European ships would dominate the Indian Ocean trade for the next four hundred years. One battle. Four centuries of consequences.",
-    "belligerents": ["Portuguese Empire", "Mamluk Sultanate–Gujarat Sultanate alliance"],
+    "belligerents": [
+      "Portuguese Empire",
+      "Mamluk Sultanate–Gujarat Sultanate alliance"
+    ],
     "result": "Portuguese victory",
-    "commanders": ["Francisco de Almeida", "Amir Husain Al-Kurdi"],
-    "casualties": { "side1": 32, "side2": 3000 },
+    "commanders": [
+      "Francisco de Almeida",
+      "Amir Husain Al-Kurdi"
+    ],
+    "casualties": {
+      "side1": 32,
+      "side2": 3000
+    },
     "warName": "Portuguese-Mamluk War",
     "significance": 2
   },
@@ -1279,13 +2327,25 @@
     "name": "Battle of Chioggia",
     "year": 1380,
     "era": "medieval",
-    "location": { "lat": 45.2167, "lng": 12.2833 },
+    "location": {
+      "lat": 45.2167,
+      "lng": 12.2833
+    },
     "tier": 3,
     "description": "Genoa had seized the port of Chioggia inside the Venetian lagoon itself — the enemy was inside the gate, and Venice was staring at extinction. So Venice did what Venice always did: it turned the sea into a weapon. They blocked every exit, trapped the Genoese fleet like fish in a net, and starved them for months until surrender was the only option left. The War of Chioggia broke Genoa's back as a naval power. Venice would dominate eastern Mediterranean trade for the next century, built on the bones of a starved-out fleet in their own lagoon.",
-    "belligerents": ["Venice", "Genoa"],
+    "belligerents": [
+      "Venice",
+      "Genoa"
+    ],
     "result": "Venetian victory",
-    "commanders": ["Vettor Pisani", "Pietro Doria"],
-    "casualties": { "side1": 1000, "side2": 4000 },
+    "commanders": [
+      "Vettor Pisani",
+      "Pietro Doria"
+    ],
+    "casualties": {
+      "side1": 1000,
+      "side2": 4000
+    },
     "warName": "War of Chioggia",
     "significance": 3
   },
@@ -1294,13 +2354,25 @@
     "name": "Battle of Arginusae",
     "year": -406,
     "era": "classical",
-    "location": { "lat": 39.0000, "lng": 26.4500 },
+    "location": {
+      "lat": 39.0,
+      "lng": 26.45
+    },
     "tier": 3,
     "description": "Athens' last hurrah on the sea. They scraped together 155 triremes, crewed them with slaves promised their freedom, and smashed the Spartan fleet near Lesbos. It should have been the victory that saved Athens. Instead, a storm blew in after the battle, survivors drowned clinging to wreckage, and Athens — in a fit of democratic madness — executed six of its own victorious generals for failing to rescue them. Athens destroyed its own command structure on the eve of the war's final act. Democracy devoured the men who saved it.",
-    "belligerents": ["Athens", "Sparta"],
+    "belligerents": [
+      "Athens",
+      "Sparta"
+    ],
     "result": "Athenian victory",
-    "commanders": ["Eight Athenian generals", "Callicratidas"],
-    "casualties": { "side1": 25, "side2": 77 },
+    "commanders": [
+      "Eight Athenian generals",
+      "Callicratidas"
+    ],
+    "casualties": {
+      "side1": 25,
+      "side2": 77
+    },
     "warName": "Peloponnesian War",
     "significance": 3
   },
@@ -1309,13 +2381,25 @@
     "name": "Battle of Mycale",
     "year": -479,
     "era": "classical",
-    "location": { "lat": 37.6833, "lng": 27.1833 },
+    "location": {
+      "lat": 37.6833,
+      "lng": 27.1833
+    },
     "tier": 3,
     "description": "On the same day the Greeks were breaking the Persian army at Plataea — the same day, if you believe the ancient sources — their fleet crossed the Aegean and found the Persian navy beached at Cape Mycale. They didn't wait. They landed, stormed the beach, burned every ship, and slaughtered the garrison. Ten thousand Persian dead, the Ionian cities liberated, and the Persian naval threat in the Aegean extinguished permanently. Two battles, one day, two sides of the same empire cracking apart.",
-    "belligerents": ["Greek city-states", "Achaemenid Persia"],
+    "belligerents": [
+      "Greek city-states",
+      "Achaemenid Persia"
+    ],
     "result": "Greek victory",
-    "commanders": ["Leotychidas II", "Xanthippus"],
-    "casualties": { "side1": 500, "side2": 10000 },
+    "commanders": [
+      "Leotychidas II",
+      "Xanthippus"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 10000
+    },
     "warName": "Greco-Persian Wars",
     "significance": 3
   },
@@ -1324,13 +2408,25 @@
     "name": "Battle of Cape Bon (468 AD)",
     "year": 468,
     "era": "classical",
-    "location": { "lat": 37.0833, "lng": 11.0333 },
+    "location": {
+      "lat": 37.0833,
+      "lng": 11.0333
+    },
     "tier": 3,
     "description": "Rome sent over 1,100 ships to reconquer North Africa from the Vandals — the last great armada of the Roman world. Genseric waited for the wind, then launched fireships into the packed fleet. The Mediterranean burned. The most expensive military operation either half of the Roman Empire had ever mounted went up in flames off the Tunisian coast. It was the last gasp of Roman sea power, the moment you can point to and say: that's when they stopped being able to project force across the sea. After Cape Bon, the Western Empire had ten years left to live.",
-    "belligerents": ["Vandal Kingdom", "Roman Empire"],
+    "belligerents": [
+      "Vandal Kingdom",
+      "Roman Empire"
+    ],
     "result": "Vandal victory",
-    "commanders": ["Genseric", "Basiliscus"],
-    "casualties": { "side1": 500, "side2": 10000 },
+    "commanders": [
+      "Genseric",
+      "Basiliscus"
+    ],
+    "casualties": {
+      "side1": 500,
+      "side2": 10000
+    },
     "warName": "Vandal War",
     "significance": 3
   },
@@ -1339,13 +2435,25 @@
     "name": "Battle of Drepana",
     "year": -249,
     "era": "classical",
-    "location": { "lat": 38.0167, "lng": 12.5167 },
+    "location": {
+      "lat": 38.0167,
+      "lng": 12.5167
+    },
     "tier": 3,
     "description": "The sacred chickens wouldn't eat — the worst omen a Roman commander could receive before battle. Consul Claudius Pulcher threw them overboard and said, 'Then let them drink.' He attacked anyway. Adherbal's Carthaginian galleys destroyed 93 of 123 Roman ships in a catastrophe so total that Pulcher was tried for impiety when he got home. The Romans would remember: you can defy the gods, but the sea doesn't care about your bravery, and Carthaginian sailors are not sacred chickens.",
-    "belligerents": ["Carthage", "Roman Republic"],
+    "belligerents": [
+      "Carthage",
+      "Roman Republic"
+    ],
     "result": "Carthaginian victory",
-    "commanders": ["Adherbal", "Publius Claudius Pulcher"],
-    "casualties": { "side1": 0, "side2": 93 },
+    "commanders": [
+      "Adherbal",
+      "Publius Claudius Pulcher"
+    ],
+    "casualties": {
+      "side1": 0,
+      "side2": 93
+    },
     "warName": "First Punic War",
     "significance": 3
   },
@@ -1354,13 +2462,25 @@
     "name": "Battle of the Aegates Islands",
     "year": -241,
     "era": "classical",
-    "location": { "lat": 37.9667, "lng": 12.1000 },
+    "location": {
+      "lat": 37.9667,
+      "lng": 12.1
+    },
     "tier": 2,
     "description": "Rome had lost fleet after fleet — to storms, to Carthaginian seamanship, to their own inexperience — and each time they built another one. Private citizens funded this last fleet because the treasury was empty. The rebuilt Roman navy intercepted a Carthaginian supply convoy off western Sicily, sank 50 ships, captured 70, and cut off every Carthaginian garrison on the island. Twenty-three years of war, ended by a fleet that shouldn't have existed. Rome got Sicily — its first overseas province — and the foundations of a Mediterranean empire were laid in splintered Carthaginian hulls.",
-    "belligerents": ["Roman Republic", "Carthage"],
+    "belligerents": [
+      "Roman Republic",
+      "Carthage"
+    ],
     "result": "Roman victory",
-    "commanders": ["Gaius Lutatius Catulus", "Hanno"],
-    "casualties": { "side1": 30, "side2": 120 },
+    "commanders": [
+      "Gaius Lutatius Catulus",
+      "Hanno"
+    ],
+    "casualties": {
+      "side1": 30,
+      "side2": 120
+    },
     "warName": "First Punic War",
     "significance": 2
   },
@@ -1369,13 +2489,25 @@
     "name": "Battle of Lake Poyang",
     "year": 1363,
     "era": "medieval",
-    "location": { "lat": 29.1333, "lng": 116.2667 },
+    "location": {
+      "lat": 29.1333,
+      "lng": 116.2667
+    },
     "tier": 2,
     "description": "Eight hundred thousand men fighting on a lake. Let that number wash over you. Hundreds of ships on China's largest freshwater lake, two rival warlords throwing everything they had at each other in a three-day apocalypse. Zhu Yuanzhang used fireships — the eternal weapon of naval desperation — to incinerate Chen Youliang's larger fleet. Chen died in the battle. Zhu went on to found the Ming Dynasty, one of the greatest empires in human history. The most consequential naval battle most Westerners have never heard of, fought on a body of fresh water.",
-    "belligerents": ["Zhu Yuanzhang's forces", "Chen Youliang's Han kingdom"],
+    "belligerents": [
+      "Zhu Yuanzhang's forces",
+      "Chen Youliang's Han kingdom"
+    ],
     "result": "Zhu Yuanzhang victory",
-    "commanders": ["Zhu Yuanzhang", "Chen Youliang"],
-    "casualties": { "side1": 10000, "side2": 60000 },
+    "commanders": [
+      "Zhu Yuanzhang",
+      "Chen Youliang"
+    ],
+    "casualties": {
+      "side1": 10000,
+      "side2": 60000
+    },
     "warName": "Chinese civil wars",
     "significance": 2
   },
@@ -1384,13 +2516,25 @@
     "name": "Battle of Ushant",
     "year": 1778,
     "era": "early-modern",
-    "location": { "lat": 48.4500, "lng": -5.1000 },
+    "location": {
+      "lat": 48.45,
+      "lng": -5.1
+    },
     "tier": 3,
     "description": "The first major naval clash after France jumped into the American Revolution, and it was a mess. Keppel's British fleet and d'Orvilliers' French fleet banged away at each other off Ushant with neither side willing to commit fully, then both claimed victory. But the real damage was done back in London — courts-martial, political backstabbing, admirals destroying each other's careers in public. The Royal Navy was paralyzed by its own politics at the exact moment it needed to fight a world war. Sometimes the most dangerous enemy is the one wearing your own uniform.",
-    "belligerents": ["Great Britain", "France"],
+    "belligerents": [
+      "Great Britain",
+      "France"
+    ],
     "result": "Indecisive",
-    "commanders": ["Augustus Keppel", "Comte d'Orvilliers"],
-    "casualties": { "side1": 408, "side2": 681 },
+    "commanders": [
+      "Augustus Keppel",
+      "Comte d'Orvilliers"
+    ],
+    "casualties": {
+      "side1": 408,
+      "side2": 681
+    },
     "warName": "American Revolutionary War",
     "significance": 3
   },
@@ -1399,13 +2543,26 @@
     "name": "Battle of Svolder",
     "year": 1000,
     "era": "medieval",
-    "location": { "lat": 54.7833, "lng": 13.5000 },
+    "location": {
+      "lat": 54.7833,
+      "lng": 13.5
+    },
     "tier": 3,
     "description": "King Olaf Tryggvason sailing his legendary longship the Long Serpent — the largest, most beautiful warship in the Viking world — straight into an ambush. The Danes and Swedes swarmed him in the Baltic, ship after ship grappling the Serpent, warriors climbing over the rails, and Olaf's men fighting them off with axes and swords until there was almost nobody left. When it was hopeless, Olaf did what a Viking king does: he jumped into the sea in full armor rather than surrender. They never found his body. Norway was carved up between his enemies, and the Long Serpent passed into legend.",
-    "belligerents": ["Norway", "Denmark–Sweden alliance"],
+    "belligerents": [
+      "Norway",
+      "Denmark–Sweden alliance"
+    ],
     "result": "Danish-Swedish victory",
-    "commanders": ["Olaf Tryggvason", "Sweyn Forkbeard", "Olof Skötkonung"],
-    "casualties": { "side1": 2000, "side2": 1000 },
+    "commanders": [
+      "Olaf Tryggvason",
+      "Sweyn Forkbeard",
+      "Olof Skötkonung"
+    ],
+    "casualties": {
+      "side1": 2000,
+      "side2": 1000
+    },
     "warName": "Norse dynastic wars",
     "significance": 3
   }

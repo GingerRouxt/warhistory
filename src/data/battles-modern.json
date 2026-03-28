@@ -4987,7 +4987,7 @@
     "id": "battle-of-iwo-jima",
     "name": "Battle of Iwo Jima",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 24.758,
       "lng": 141.2906
@@ -5018,7 +5018,7 @@
     "id": "battle-of-okinawa",
     "name": "Battle of Okinawa",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 26.3344,
       "lng": 127.8056
@@ -5049,7 +5049,7 @@
     "id": "battle-of-berlin",
     "name": "Battle of Berlin",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 52.52,
       "lng": 13.405
@@ -5401,7 +5401,7 @@
     "id": "crossing-of-the-rhine",
     "name": "Crossing of the Rhine",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 50.5833,
       "lng": 7.0
@@ -5424,7 +5424,7 @@
     "id": "battle-of-manila-1945",
     "name": "Battle of Manila",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 14.5995,
       "lng": 120.9842
@@ -5482,7 +5482,7 @@
     "id": "battle-of-the-seelow-heights",
     "name": "Battle of the Seelow Heights",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 52.5833,
       "lng": 14.3833
@@ -5513,7 +5513,7 @@
     "id": "battle-of-the-vistula-oder",
     "name": "Vistula-Oder Offensive",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 52.0,
       "lng": 18.0
@@ -5814,7 +5814,7 @@
     "id": "manchurian-strategic-offensive",
     "name": "Soviet Invasion of Manchuria",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 45.75,
       "lng": 126.65
@@ -6146,7 +6146,7 @@
     "id": "battle-of-huaihai",
     "name": "Battle of Huaihai",
     "year": 1949,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 34.2606,
       "lng": 117.1935
@@ -6316,7 +6316,7 @@
     "id": "battle-of-budapest",
     "name": "Siege of Budapest",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 47.4979,
       "lng": 19.0402
@@ -6343,7 +6343,7 @@
     "id": "battle-of-breslau",
     "name": "Siege of Breslau",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 51.1079,
       "lng": 17.0385
@@ -6366,7 +6366,7 @@
     "id": "battle-of-lake-balaton",
     "name": "Battle of Lake Balaton",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 46.8333,
       "lng": 17.7333
@@ -6393,7 +6393,7 @@
     "id": "battle-of-the-ruhr-pocket",
     "name": "Ruhr Pocket",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 51.45,
       "lng": 7.0167
@@ -6420,7 +6420,7 @@
     "id": "battle-of-luzon",
     "name": "Battle of Luzon",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 16.45,
       "lng": 120.5833
@@ -6451,7 +6451,7 @@
     "id": "battle-of-the-bulge-nordwind",
     "name": "Operation Nordwind",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 48.9,
       "lng": 7.5
@@ -6640,7 +6640,7 @@
     "id": "battle-of-borneo",
     "name": "Battle of Borneo",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 5.0,
       "lng": 116.0
@@ -6794,7 +6794,7 @@
     "id": "atomic-bombing-hiroshima",
     "name": "Atomic Bombing of Hiroshima",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 34.3853,
       "lng": 132.4553
@@ -6819,7 +6819,7 @@
     "id": "atomic-bombing-nagasaki",
     "name": "Atomic Bombing of Nagasaki",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 32.7503,
       "lng": 129.8779

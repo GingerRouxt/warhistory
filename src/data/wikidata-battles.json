@@ -1689,7 +1689,7 @@
     "id": "nebuchadnezzar-siege-of-tyre",
     "name": "Nebuchadnezzar's Siege of Tyre",
     "year": -586,
-    "era": "biblical",
+    "era": "classical",
     "location": {
       "lat": 33.2708,
       "lng": 35.1964
@@ -1716,7 +1716,7 @@
     "id": "fall-of-jerusalem-586",
     "name": "Fall of Jerusalem (586 BCE)",
     "year": -586,
-    "era": "biblical",
+    "era": "classical",
     "location": {
       "lat": 31.7767,
       "lng": 35.2345
@@ -1744,7 +1744,7 @@
     "id": "lydian-median-war-eclipse",
     "name": "Battle of the Eclipse (Halys)",
     "year": -585,
-    "era": "biblical",
+    "era": "classical",
     "location": {
       "lat": 39.5,
       "lng": 37.0
@@ -6066,7 +6066,7 @@
     "id": "battle-of-the-catalaunian-plains",
     "name": "Battle of the Catalaunian Plains (Chalons)",
     "year": 451,
-    "era": "medieval",
+    "era": "classical",
     "location": {
       "lat": 48.95,
       "lng": 4.35
@@ -6195,7 +6195,7 @@
     "id": "fall-of-western-rome",
     "name": "Deposition of Romulus Augustulus",
     "year": 476,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 40.8518,
       "lng": 14.2681
@@ -6218,7 +6218,7 @@
     "id": "battle-of-badon",
     "name": "Battle of Badon Hill",
     "year": 500,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 51.3833,
       "lng": -2.3667
@@ -6237,7 +6237,7 @@
     "id": "battle-of-vouille",
     "name": "Battle of Vouille",
     "year": 507,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 46.6333,
       "lng": 0.2333
@@ -6260,7 +6260,7 @@
     "id": "battle-of-dara",
     "name": "Battle of Dara",
     "year": 530,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 37.1833,
       "lng": 40.95
@@ -6287,7 +6287,7 @@
     "id": "battle-of-manzikert-precursor",
     "name": "Battle of Callinicum",
     "year": 531,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 35.75,
       "lng": 39.0167
@@ -6310,7 +6310,7 @@
     "id": "battle-of-decimum",
     "name": "Battle of Ad Decimum",
     "year": 533,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 36.7833,
       "lng": 10.2167
@@ -6337,7 +6337,7 @@
     "id": "battle-of-tricamarum",
     "name": "Battle of Tricamarum",
     "year": 533,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 36.8333,
       "lng": 10.1333
@@ -6360,7 +6360,7 @@
     "id": "battle-of-taginae",
     "name": "Battle of Taginae",
     "year": 552,
-    "era": "classical",
+    "era": "medieval",
     "location": {
       "lat": 43.1,
       "lng": 12.65
@@ -9626,7 +9626,7 @@
     "id": "battle-of-veis-island",
     "name": "Battle of Varna (1444)",
     "year": 1444,
-    "era": "early-modern",
+    "era": "medieval",
     "location": {
       "lat": 43.2036,
       "lng": 27.9103
@@ -9657,7 +9657,7 @@
     "id": "battle-of-st-jakob-an-der-birs",
     "name": "Battle of St. Jakob an der Birs",
     "year": 1444,
-    "era": "early-modern",
+    "era": "medieval",
     "location": {
       "lat": 47.5333,
       "lng": 7.5833
@@ -9745,7 +9745,7 @@
     "id": "battle-of-castillon",
     "name": "Battle of Castillon",
     "year": 1453,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 44.8531,
       "lng": -0.0389
@@ -9772,7 +9772,7 @@
     "id": "fall-of-constantinople",
     "name": "Fall of Constantinople",
     "year": 1453,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 41.0082,
       "lng": 28.9784
@@ -9830,7 +9830,7 @@
     "id": "battle-of-st-albans-1455",
     "name": "First Battle of St Albans",
     "year": 1455,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 51.7525,
       "lng": -0.3417
@@ -9853,7 +9853,7 @@
     "id": "siege-of-belgrade-1456",
     "name": "Siege of Belgrade (1456)",
     "year": 1456,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 44.8176,
       "lng": 20.4633
@@ -9912,7 +9912,7 @@
     "id": "battle-of-wakefield",
     "name": "Battle of Wakefield",
     "year": 1460,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 53.6833,
       "lng": -1.5
@@ -9935,7 +9935,7 @@
     "id": "battle-of-towton",
     "name": "Battle of Towton",
     "year": 1461,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 53.85,
       "lng": -1.2667
@@ -9966,7 +9966,7 @@
     "id": "battle-of-barnet",
     "name": "Battle of Barnet",
     "year": 1471,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 51.6583,
       "lng": -0.2
@@ -9993,7 +9993,7 @@
     "id": "battle-of-tewkesbury",
     "name": "Battle of Tewkesbury",
     "year": 1471,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 51.9833,
       "lng": -2.15
@@ -10017,7 +10017,7 @@
     "id": "battle-of-grandson",
     "name": "Battle of Grandson",
     "year": 1476,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 46.8,
       "lng": 6.6333
@@ -10040,7 +10040,7 @@
     "id": "battle-of-morat",
     "name": "Battle of Morat (Murten)",
     "year": 1476,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 46.9333,
       "lng": 7.1167
@@ -10070,7 +10070,7 @@
     "id": "battle-of-nancy",
     "name": "Battle of Nancy",
     "year": 1477,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 48.6833,
       "lng": 6.1833
@@ -10094,7 +10094,7 @@
     "id": "battle-of-bosworth-field",
     "name": "Battle of Bosworth Field",
     "year": 1485,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 52.6056,
       "lng": -1.3972
@@ -10121,7 +10121,7 @@
     "id": "battle-of-stoke-field",
     "name": "Battle of Stoke Field",
     "year": 1487,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 53.0,
       "lng": -0.8833
@@ -10144,7 +10144,7 @@
     "id": "fall-of-granada",
     "name": "Fall of Granada",
     "year": 1492,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 37.1773,
       "lng": -3.5986
@@ -10385,7 +10385,7 @@
     "id": "battle-of-ravenna-1512",
     "name": "Battle of Ravenna",
     "year": 1512,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 44.4167,
       "lng": 12.2
@@ -10416,7 +10416,7 @@
     "id": "battle-of-flodden",
     "name": "Battle of Flodden",
     "year": 1513,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 55.6333,
       "lng": -2.15
@@ -10477,7 +10477,7 @@
     "id": "battle-of-chaldiran",
     "name": "Battle of Chaldiran",
     "year": 1514,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 39.0667,
       "lng": 44.3667
@@ -10504,7 +10504,7 @@
     "id": "battle-of-marignano",
     "name": "Battle of Marignano",
     "year": 1515,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 45.4,
       "lng": 9.3
@@ -10589,7 +10589,7 @@
     "id": "battle-of-otumba",
     "name": "Battle of Otumba",
     "year": 1520,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 19.7,
       "lng": -98.75
@@ -10647,7 +10647,7 @@
     "id": "fall-of-tenochtitlan",
     "name": "Fall of Tenochtitlan",
     "year": 1521,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 19.4326,
       "lng": -99.1332
@@ -10675,7 +10675,7 @@
     "id": "siege-of-rhodes-1522",
     "name": "Siege of Rhodes",
     "year": 1522,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 36.4333,
       "lng": 28.2167
@@ -10764,7 +10764,7 @@
     "id": "battle-of-pavia",
     "name": "Battle of Pavia",
     "year": 1525,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 45.1833,
       "lng": 9.15
@@ -10795,7 +10795,7 @@
     "id": "battle-of-mohacs",
     "name": "Battle of Mohacs",
     "year": 1526,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 45.9833,
       "lng": 18.6833
@@ -10825,7 +10825,7 @@
     "id": "battle-of-panipat-1526",
     "name": "First Battle of Panipat",
     "year": 1526,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 29.39,
       "lng": 76.97
@@ -10883,7 +10883,7 @@
     "id": "battle-of-khanwa",
     "name": "Battle of Khanwa",
     "year": 1527,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 27.0,
       "lng": 76.5
@@ -10910,7 +10910,7 @@
     "id": "battle-of-adwa-precursor-medieval",
     "name": "Battle of Shimbra Kure",
     "year": 1529,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 9.0,
       "lng": 39.5
@@ -10960,7 +10960,7 @@
     "id": "battle-of-cajamarca",
     "name": "Battle of Cajamarca",
     "year": 1532,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": -7.1617,
       "lng": -78.5128
@@ -11018,7 +11018,7 @@
     "id": "battle-of-preveza",
     "name": "Battle of Preveza",
     "year": 1538,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 38.95,
       "lng": 20.75
@@ -11041,7 +11041,7 @@
     "id": "battle-of-wayna-daga",
     "name": "Battle of Wayna Daga",
     "year": 1543,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 11.5,
       "lng": 37.5
@@ -11207,7 +11207,7 @@
     "id": "battle-of-okehazama",
     "name": "Battle of Okehazama",
     "year": 1560,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.0333,
       "lng": 136.9833
@@ -11261,7 +11261,7 @@
     "id": "battle-of-kawanakajima",
     "name": "Fourth Battle of Kawanakajima",
     "year": 1561,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 36.5833,
       "lng": 138.1667
@@ -11292,7 +11292,7 @@
     "id": "siege-of-malta-1565",
     "name": "Great Siege of Malta",
     "year": 1565,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.8997,
       "lng": 14.5147
@@ -11355,7 +11355,7 @@
     "id": "battle-of-lepanto",
     "name": "Battle of Lepanto",
     "year": 1571,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 38.4,
       "lng": 21.1
@@ -11386,7 +11386,7 @@
     "id": "battle-of-nagashino",
     "name": "Battle of Nagashino",
     "year": 1575,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.9333,
       "lng": 137.5833
@@ -11448,7 +11448,7 @@
     "id": "battle-of-alcacer-quibir",
     "name": "Battle of Alcacer Quibir (Three Kings)",
     "year": 1578,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.0,
       "lng": -5.5
@@ -11591,7 +11591,7 @@
     "id": "battle-of-tondibi",
     "name": "Battle of Tondibi",
     "year": 1591,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 16.75,
       "lng": -3.0
@@ -11668,7 +11668,7 @@
     "id": "battle-of-the-hydaspes",
     "name": "Japanese Invasions of Korea - Siege of Pyongyang",
     "year": 1593,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 39.0194,
       "lng": 125.7547
@@ -11696,7 +11696,7 @@
     "id": "battle-of-myeongnyang",
     "name": "Battle of Myeongnyang",
     "year": 1597,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.5667,
       "lng": 126.3
@@ -11754,7 +11754,7 @@
     "id": "battle-of-noryang",
     "name": "Battle of Noryang",
     "year": 1598,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.9333,
       "lng": 127.85
@@ -11779,7 +11779,7 @@
     "id": "battle-of-sekigahara",
     "name": "Battle of Sekigahara",
     "year": 1600,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 35.3656,
       "lng": 136.4597
@@ -11895,7 +11895,7 @@
     "id": "siege-of-osaka",
     "name": "Siege of Osaka",
     "year": 1615,
-    "era": "medieval",
+    "era": "early-modern",
     "location": {
       "lat": 34.6937,
       "lng": 135.5022
@@ -15166,7 +15166,7 @@
     "id": "battle-of-valmy",
     "name": "Battle of Valmy",
     "year": 1792,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 49.0792,
       "lng": 4.7617
@@ -15197,7 +15197,7 @@
     "id": "battle-of-jemappes",
     "name": "Battle of Jemappes",
     "year": 1792,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 50.4422,
       "lng": 3.8678
@@ -15228,7 +15228,7 @@
     "id": "battle-of-neerwinden-1793",
     "name": "Battle of Neerwinden (1793)",
     "year": 1793,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 50.7667,
       "lng": 5.0167
@@ -15259,7 +15259,7 @@
     "id": "battle-of-fleurus-1794",
     "name": "Battle of Fleurus (1794)",
     "year": 1794,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 50.4833,
       "lng": 4.55
@@ -15317,7 +15317,7 @@
     "id": "battle-of-arcole",
     "name": "Battle of Arcole",
     "year": 1796,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 45.35,
       "lng": 11.2833
@@ -15348,7 +15348,7 @@
     "id": "battle-of-lodi",
     "name": "Battle of Lodi",
     "year": 1796,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 45.3139,
       "lng": 9.5031
@@ -15379,7 +15379,7 @@
     "id": "battle-of-rivoli",
     "name": "Battle of Rivoli",
     "year": 1797,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 45.5833,
       "lng": 10.8167
@@ -15410,7 +15410,7 @@
     "id": "battle-of-cape-st-vincent",
     "name": "Battle of Cape St. Vincent",
     "year": 1797,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 36.9833,
       "lng": -8.95
@@ -15437,7 +15437,7 @@
     "id": "battle-of-camperdown",
     "name": "Battle of Camperdown",
     "year": 1797,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 52.7167,
       "lng": 4.3167
@@ -15492,7 +15492,7 @@
     "id": "battle-of-the-nile-1798",
     "name": "Battle of the Nile",
     "year": 1798,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 31.32,
       "lng": 30.07
@@ -15519,7 +15519,7 @@
     "id": "battle-of-the-pyramids",
     "name": "Battle of the Pyramids",
     "year": 1798,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 30.0131,
       "lng": 31.1342
@@ -15581,7 +15581,7 @@
     "id": "battle-of-siege-of-acre-1799",
     "name": "Siege of Acre",
     "year": 1799,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 32.9233,
       "lng": 35.0678
@@ -15608,7 +15608,7 @@
     "id": "battle-of-novi",
     "name": "Battle of Novi",
     "year": 1799,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 44.7625,
       "lng": 8.7886
@@ -15639,7 +15639,7 @@
     "id": "battle-of-zurich",
     "name": "Second Battle of Zurich",
     "year": 1799,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 47.3769,
       "lng": 8.5417
@@ -15759,7 +15759,7 @@
     "id": "battle-of-assaye",
     "name": "Battle of Assaye",
     "year": 1803,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 20.3,
       "lng": 75.8
@@ -18538,7 +18538,7 @@
     "id": "battle-of-isandlwana",
     "name": "Battle of Isandlwana",
     "year": 1879,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": -28.3547,
       "lng": 30.6539
@@ -18569,7 +18569,7 @@
     "id": "battle-of-rorkes-drift",
     "name": "Battle of Rorke's Drift",
     "year": 1879,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": -28.3492,
       "lng": 30.5353
@@ -18685,7 +18685,7 @@
     "id": "battle-of-adwa",
     "name": "Battle of Adwa",
     "year": 1896,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 14.1764,
       "lng": 38.8997
@@ -24002,7 +24002,7 @@
     "id": "battle-of-iwo-jima",
     "name": "Battle of Iwo Jima",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 24.758,
       "lng": 141.2906
@@ -24033,7 +24033,7 @@
     "id": "battle-of-okinawa",
     "name": "Battle of Okinawa",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 26.3344,
       "lng": 127.8056
@@ -24064,7 +24064,7 @@
     "id": "battle-of-berlin",
     "name": "Battle of Berlin",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 52.52,
       "lng": 13.405
@@ -24095,7 +24095,7 @@
     "id": "crossing-of-the-rhine",
     "name": "Crossing of the Rhine",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 50.5833,
       "lng": 7.0
@@ -24118,7 +24118,7 @@
     "id": "battle-of-manila-1945",
     "name": "Battle of Manila",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 14.5995,
       "lng": 120.9842
@@ -24149,7 +24149,7 @@
     "id": "battle-of-the-seelow-heights",
     "name": "Battle of the Seelow Heights",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 52.5833,
       "lng": 14.3833
@@ -24180,7 +24180,7 @@
     "id": "battle-of-the-vistula-oder",
     "name": "Vistula-Oder Offensive",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 52.0,
       "lng": 18.0
@@ -24211,7 +24211,7 @@
     "id": "manchurian-strategic-offensive",
     "name": "Soviet Invasion of Manchuria",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 45.75,
       "lng": 126.65
@@ -24242,7 +24242,7 @@
     "id": "battle-of-budapest",
     "name": "Siege of Budapest",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 47.4979,
       "lng": 19.0402
@@ -24269,7 +24269,7 @@
     "id": "battle-of-breslau",
     "name": "Siege of Breslau",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 51.1079,
       "lng": 17.0385
@@ -24292,7 +24292,7 @@
     "id": "battle-of-lake-balaton",
     "name": "Battle of Lake Balaton",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 46.8333,
       "lng": 17.7333
@@ -24319,7 +24319,7 @@
     "id": "battle-of-the-ruhr-pocket",
     "name": "Ruhr Pocket",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 51.45,
       "lng": 7.0167
@@ -24346,7 +24346,7 @@
     "id": "battle-of-luzon",
     "name": "Battle of Luzon",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 16.45,
       "lng": 120.5833
@@ -24377,7 +24377,7 @@
     "id": "battle-of-the-bulge-nordwind",
     "name": "Operation Nordwind",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 48.9,
       "lng": 7.5
@@ -24404,7 +24404,7 @@
     "id": "battle-of-borneo",
     "name": "Battle of Borneo",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 5.0,
       "lng": 116.0
@@ -24431,7 +24431,7 @@
     "id": "atomic-bombing-hiroshima",
     "name": "Atomic Bombing of Hiroshima",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 34.3853,
       "lng": 132.4553
@@ -24456,7 +24456,7 @@
     "id": "atomic-bombing-nagasaki",
     "name": "Atomic Bombing of Nagasaki",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 32.7503,
       "lng": 129.8779
@@ -24481,7 +24481,7 @@
     "id": "sinking-of-yamato",
     "name": "Operation Ten-Go (Sinking of Yamato)",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 30.7167,
       "lng": 128.05
@@ -24508,7 +24508,7 @@
     "id": "dresden-bombing",
     "name": "Bombing of Dresden",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 51.05,
       "lng": 13.74
@@ -24536,7 +24536,7 @@
     "id": "tokyo-firebombing",
     "name": "Firebombing of Tokyo",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 35.68,
       "lng": 139.69
@@ -24563,7 +24563,7 @@
     "id": "kamikaze-campaigns",
     "name": "Kamikaze Campaigns — Okinawa",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 26.33,
       "lng": 127.77
@@ -24590,7 +24590,7 @@
     "id": "hiroshima-atomic-bombing",
     "name": "Atomic Bombing of Hiroshima",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 34.39,
       "lng": 132.45
@@ -24617,7 +24617,7 @@
     "id": "nagasaki-atomic-bombing",
     "name": "Atomic Bombing of Nagasaki",
     "year": 1945,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 32.77,
       "lng": 129.87
@@ -24719,7 +24719,7 @@
     "id": "battle-of-huaihai",
     "name": "Battle of Huaihai",
     "year": 1949,
-    "era": "modern",
+    "era": "contemporary",
     "location": {
       "lat": 34.2606,
       "lng": 117.1935

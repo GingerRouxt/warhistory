@@ -2548,7 +2548,7 @@
     "id": "battle-of-valmy",
     "name": "Battle of Valmy",
     "year": 1792,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 49.0792,
       "lng": 4.7617
@@ -2579,7 +2579,7 @@
     "id": "battle-of-jemappes",
     "name": "Battle of Jemappes",
     "year": 1792,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 50.4422,
       "lng": 3.8678
@@ -2610,7 +2610,7 @@
     "id": "battle-of-fleurus-1794",
     "name": "Battle of Fleurus (1794)",
     "year": 1794,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 50.4833,
       "lng": 4.55
@@ -2973,7 +2973,7 @@
     "id": "battle-of-the-nile-1798",
     "name": "Battle of the Nile",
     "year": 1798,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 31.32,
       "lng": 30.07
@@ -3000,7 +3000,7 @@
     "id": "battle-of-the-pyramids",
     "name": "Battle of the Pyramids",
     "year": 1798,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 30.0131,
       "lng": 31.1342
@@ -3031,7 +3031,7 @@
     "id": "battle-of-rivoli",
     "name": "Battle of Rivoli",
     "year": 1797,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 45.5833,
       "lng": 10.8167
@@ -3062,7 +3062,7 @@
     "id": "battle-of-arcole",
     "name": "Battle of Arcole",
     "year": 1796,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 45.35,
       "lng": 11.2833
@@ -3093,7 +3093,7 @@
     "id": "battle-of-lodi",
     "name": "Battle of Lodi",
     "year": 1796,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 45.3139,
       "lng": 9.5031
@@ -3124,7 +3124,7 @@
     "id": "battle-of-neerwinden-1793",
     "name": "Battle of Neerwinden (1793)",
     "year": 1793,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 50.7667,
       "lng": 5.0167
@@ -3155,7 +3155,7 @@
     "id": "battle-of-cape-st-vincent",
     "name": "Battle of Cape St. Vincent",
     "year": 1797,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 36.9833,
       "lng": -8.95
@@ -3827,7 +3827,7 @@
     "id": "battle-of-veis-island",
     "name": "Battle of Varna (1444)",
     "year": 1444,
-    "era": "early-modern",
+    "era": "medieval",
     "location": {
       "lat": 43.2036,
       "lng": 27.9103
@@ -3889,7 +3889,7 @@
     "id": "battle-of-st-jakob-an-der-birs",
     "name": "Battle of St. Jakob an der Birs",
     "year": 1444,
-    "era": "early-modern",
+    "era": "medieval",
     "location": {
       "lat": 47.5333,
       "lng": 7.5833
@@ -4531,7 +4531,7 @@
     "id": "battle-of-assaye",
     "name": "Battle of Assaye",
     "year": 1803,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 20.3,
       "lng": 75.8
@@ -4562,7 +4562,7 @@
     "id": "battle-of-isandlwana",
     "name": "Battle of Isandlwana",
     "year": 1879,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": -28.3547,
       "lng": 30.6539
@@ -4593,7 +4593,7 @@
     "id": "battle-of-rorkes-drift",
     "name": "Battle of Rorke's Drift",
     "year": 1879,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": -28.3492,
       "lng": 30.5353
@@ -4624,7 +4624,7 @@
     "id": "battle-of-adwa",
     "name": "Battle of Adwa",
     "year": 1896,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 14.1764,
       "lng": 38.8997
@@ -5150,7 +5150,7 @@
     "id": "battle-of-siege-of-acre-1799",
     "name": "Siege of Acre",
     "year": 1799,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 32.9233,
       "lng": 35.0678
@@ -5177,7 +5177,7 @@
     "id": "battle-of-camperdown",
     "name": "Battle of Camperdown",
     "year": 1797,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 52.7167,
       "lng": 4.3167
@@ -5204,7 +5204,7 @@
     "id": "battle-of-novi",
     "name": "Battle of Novi",
     "year": 1799,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 44.7625,
       "lng": 8.7886
@@ -5235,7 +5235,7 @@
     "id": "battle-of-zurich",
     "name": "Second Battle of Zurich",
     "year": 1799,
-    "era": "early-modern",
+    "era": "modern",
     "location": {
       "lat": 47.3769,
       "lng": 8.5417

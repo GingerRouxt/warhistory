@@ -1808,7 +1808,7 @@
     "id": "bible-fall-jerusalem",
     "name": "Fall of Jerusalem — Destruction of Solomon's Temple",
     "year": -586,
-    "era": "biblical",
+    "era": "classical",
     "location": {
       "lat": 31.77,
       "lng": 35.23
@@ -1832,7 +1832,7 @@
     "id": "bible-esther-purim",
     "name": "Jews Defend Themselves — Purim",
     "year": -473,
-    "era": "biblical",
+    "era": "classical",
     "location": {
       "lat": 32.65,
       "lng": 52.68

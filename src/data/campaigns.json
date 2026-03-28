@@ -90,10 +90,10 @@
     "commander": "Various",
     "era": "medieval",
     "battles": [
-      "siege-of-antioch",
+      "siege-of-antioch-1098",
       "siege-of-jerusalem-1099",
       "battle-of-hattin",
-      "siege-of-acre",
+      "siege-of-acre-1189",
       "battle-of-arsuf"
     ],
     "description": "Two centuries of religious warfare between Christendom and Islam for control of the Holy Land."
@@ -104,8 +104,8 @@
     "commander": "Genghis Khan",
     "era": "medieval",
     "battles": [
-      "battle-of-kalka-river",
-      "siege-of-baghdad",
+      "battle-of-the-kalka-river",
+      "siege-of-baghdad-1258",
       "battle-of-mohi",
       "battle-of-legnica",
       "battle-of-ain-jalut"
@@ -159,7 +159,7 @@
       "battle-of-the-somme",
       "battle-of-passchendaele",
       "second-battle-of-the-marne",
-      "meuse-argonne-offensive"
+      "battle-of-meuse-argonne"
     ],
     "description": "Four years of trench warfare across France and Belgium that defined a generation and killed millions."
   },
