@@ -1,0 +1,50 @@
+[
+  {
+    "id": "biblical",
+    "name": "Biblical Era",
+    "startYear": -4000,
+    "endYear": -586,
+    "color": "#f5e6c8",
+    "description": "From Creation through the fall of Jerusalem"
+  },
+  {
+    "id": "classical",
+    "name": "Classical Antiquity",
+    "startYear": -586,
+    "endYear": 476,
+    "color": "#cd7f32",
+    "description": "Persian, Greek, and Roman empires"
+  },
+  {
+    "id": "medieval",
+    "name": "Medieval",
+    "startYear": 476,
+    "endYear": 1453,
+    "color": "#708090",
+    "description": "Fall of Rome through fall of Constantinople"
+  },
+  {
+    "id": "early-modern",
+    "name": "Early Modern",
+    "startYear": 1453,
+    "endYear": 1789,
+    "color": "#1a3a5c",
+    "description": "Age of exploration, gunpowder, and revolution"
+  },
+  {
+    "id": "modern",
+    "name": "Modern",
+    "startYear": 1789,
+    "endYear": 1945,
+    "color": "#556b2f",
+    "description": "French Revolution through World War II"
+  },
+  {
+    "id": "contemporary",
+    "name": "Contemporary",
+    "startYear": 1945,
+    "endYear": 2026,
+    "color": "#8b0000",
+    "description": "Cold War to present"
+  }
+]

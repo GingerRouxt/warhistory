@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Generated audio (large files, stored on CDN)
+public/audio/*.mp3
+
+# Cesium assets (copied by plugin)
+public/cesium/
+
+# Narration text scripts (regeneratable)
+src/data/narrations/
+
+# Wikidata cache (large, regeneratable)
+src/data/wikidata-battles.json

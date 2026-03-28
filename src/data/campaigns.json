@@ -1,0 +1,116 @@
+[
+  {
+    "id": "conquest-of-canaan",
+    "name": "Joshua's Conquest of Canaan",
+    "commander": "Joshua",
+    "era": "biblical",
+    "battles": [
+      "bib-jericho", "bib-ai-defeat", "bib-ai-victory", "bib-gibeon",
+      "bib-makkedah", "bib-libnah", "bib-lachish", "bib-eglon",
+      "bib-hebron-conquest", "bib-debir-conquest", "bib-waters-of-merom"
+    ],
+    "description": "After 40 years in the wilderness, Joshua led Israel across the Jordan River and conquered the Promised Land in a series of brilliant campaigns that destroyed 31 Canaanite kings."
+  },
+  {
+    "id": "judges-cycle",
+    "name": "The Judges of Israel",
+    "commander": "Various Judges",
+    "era": "biblical",
+    "battles": [
+      "bib-othniel", "bib-ehud-moab", "bib-shamgar", "bib-deborah-barak",
+      "bib-gideon-midian", "bib-jephthah-ammon", "bib-samson-philistines"
+    ],
+    "description": "For over 300 years after the Conquest, Israel repeatedly fell into sin, was oppressed by enemies, and was delivered by God-appointed judges who led them in battle."
+  },
+  {
+    "id": "davids-wars",
+    "name": "David's Wars of Unification",
+    "commander": "David",
+    "era": "biblical",
+    "battles": [
+      "bib-david-goliath", "bib-david-civil-war", "bib-capture-jerusalem",
+      "bib-baal-perazim", "bib-david-ammon-aram", "bib-absalom-rebellion"
+    ],
+    "description": "David rose from shepherd boy to warrior king, unifying all twelve tribes and establishing Jerusalem as the capital through a series of decisive military victories."
+  },
+  {
+    "id": "alexanders-conquests",
+    "name": "Alexander the Great's Conquests",
+    "commander": "Alexander the Great",
+    "era": "classical",
+    "battles": [],
+    "description": "In just 13 years, Alexander conquered the known world from Greece to India, creating the largest empire the ancient world had ever seen."
+  },
+  {
+    "id": "punic-wars",
+    "name": "The Punic Wars",
+    "commander": "Various",
+    "era": "classical",
+    "battles": [],
+    "description": "Three wars between Rome and Carthage that shaped the Mediterranean world and saw Hannibal's legendary crossing of the Alps."
+  },
+  {
+    "id": "caesars-gallic-wars",
+    "name": "Caesar's Gallic Wars",
+    "commander": "Julius Caesar",
+    "era": "classical",
+    "battles": [],
+    "description": "Caesar's conquest of Gaul from 58-50 BCE brought millions under Roman rule and made Caesar the most powerful man in Rome."
+  },
+  {
+    "id": "crusades",
+    "name": "The Crusades",
+    "commander": "Various",
+    "era": "medieval",
+    "battles": [],
+    "description": "Two centuries of religious warfare between Christendom and Islam for control of the Holy Land."
+  },
+  {
+    "id": "mongol-conquests",
+    "name": "Mongol Conquests",
+    "commander": "Genghis Khan",
+    "era": "medieval",
+    "battles": [],
+    "description": "The Mongol Empire conquered more territory in 25 years than the Romans did in 400, creating the largest contiguous empire in history."
+  },
+  {
+    "id": "napoleonic-wars",
+    "name": "Napoleonic Wars",
+    "commander": "Napoleon Bonaparte",
+    "era": "modern",
+    "battles": [],
+    "description": "Napoleon's campaigns reshaped Europe through a series of wars involving virtually every major power on the continent."
+  },
+  {
+    "id": "american-civil-war",
+    "name": "American Civil War",
+    "commander": "Various",
+    "era": "modern",
+    "battles": [],
+    "description": "The bloodiest conflict in American history, fought over slavery and states' rights, with over 620,000 dead."
+  },
+  {
+    "id": "wwi-western-front",
+    "name": "World War I: Western Front",
+    "commander": "Various",
+    "era": "modern",
+    "battles": [],
+    "description": "Four years of trench warfare across France and Belgium that defined a generation and killed millions."
+  },
+  {
+    "id": "wwii-european-theater",
+    "name": "World War II: European Theater",
+    "commander": "Various",
+    "era": "modern",
+    "battles": [],
+    "description": "The largest and deadliest conflict in human history, from the invasion of Poland to the fall of Berlin."
+  },
+  {
+    "id": "wwii-pacific-theater",
+    "name": "World War II: Pacific Theater",
+    "commander": "Various",
+    "era": "modern",
+    "battles": [],
+    "description": "From Pearl Harbor to Hiroshima — the Pacific war between the Allies and Imperial Japan."
+  }
+]
