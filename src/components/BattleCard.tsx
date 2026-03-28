@@ -311,7 +311,7 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
           )}
 
           {/* Commanders */}
-          {battle.commanders && (
+          {battle.commanders && battle.commanders.length >= 2 && (
             <div className="mb-4">
               <SectionLabel>Commanders</SectionLabel>
               <div className="flex items-center justify-between gap-4">

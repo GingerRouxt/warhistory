@@ -1,13 +1,16 @@
 import { useRef, useCallback, type ReactNode } from 'react'
-import { Viewer, Globe as CesiumGlobe, Scene, Fog, CameraFlyTo } from 'resium'
+import { Viewer, Globe as CesiumGlobe, Scene, Fog, CameraFlyTo, ImageryLayer } from 'resium'
 import {
   Viewer as CesiumViewer,
   Cartesian3,
   Math as CesiumMath,
   Color,
+  Ion,
   createWorldTerrainAsync,
   IonImageryProvider,
+  OpenStreetMapImageryProvider,
   Cesium3DTileset,
+  EllipsoidTerrainProvider,
 } from 'cesium'
 import { useGlobe } from './GlobeContext'
 
@@ -15,8 +18,7 @@ interface GlobeProps {
   children?: ReactNode
 }
 
-// Cesium Ion dark imagery (Sentinel-2 or default Bing dark)
-const DARK_IMAGERY_PROVIDER = IonImageryProvider.fromAssetId(3)
+const HAS_ION_TOKEN = !!Ion.defaultAccessToken
 
 // Initial camera: high altitude centered on Israel/Middle East
 const INITIAL_POSITION = Cartesian3.fromDegrees(35, 31, 20_000_000)
@@ -29,6 +31,11 @@ const INITIAL_ORIENTATION = {
 // Google Photorealistic 3D Tiles key (optional — gracefully degrades without it)
 const GOOGLE_TILES_KEY = import.meta.env.VITE_GOOGLE_TILES_KEY as string | undefined
 
+// Free OSM imagery for when no Cesium Ion token is available
+const osmProvider = new OpenStreetMapImageryProvider({
+  url: 'https://tile.openstreetmap.org/',
+})
+
 export default function Globe({ children }: GlobeProps) {
   const viewerRef = useRef<CesiumViewer | null>(null)
   const { setViewer } = useGlobe()
@@ -36,6 +43,10 @@ export default function Globe({ children }: GlobeProps) {
   const handleViewerReady = useCallback(
     (cesiumViewer: CesiumViewer) => {
       viewerRef.current = cesiumViewer
+
+      // Hide Cesium's built-in error panel — we have our own ErrorBoundary
+      const errorPanel = cesiumViewer.container.querySelector('.cesium-widget-errorPanel') as HTMLElement | null
+      if (errorPanel) errorPanel.style.display = 'none'
 
       const scene = cesiumViewer.scene
 
@@ -103,12 +114,14 @@ export default function Globe({ children }: GlobeProps) {
         }
       }
 
-      // --- Dark imagery layer ---
-      DARK_IMAGERY_PROVIDER.then((provider) => {
-        cesiumViewer.imageryLayers.addImageryProvider(provider)
-      }).catch(() => {
-        // Fallback: default imagery is acceptable
-      })
+      // --- Ion dark imagery (only with valid token) ---
+      if (HAS_ION_TOKEN) {
+        IonImageryProvider.fromAssetId(3).then((provider) => {
+          cesiumViewer.imageryLayers.addImageryProvider(provider)
+        }).catch(() => {
+          // Fallback: OSM already loaded as base layer
+        })
+      }
 
       // --- Google Photorealistic 3D Tiles (optional) ---
       if (GOOGLE_TILES_KEY) {
@@ -137,7 +150,9 @@ export default function Globe({ children }: GlobeProps) {
           handleViewerReady(e.cesiumElement)
         }
       }}
-      terrainProvider={createWorldTerrainAsync()}
+      terrainProvider={HAS_ION_TOKEN ? createWorldTerrainAsync() : new EllipsoidTerrainProvider()}
+      // Suppress default Ion base layer — we provide our own
+      imageryProvider={false as unknown as undefined}
       // Disable all default widgets — we build our own UI
       timeline={false}
       animation={false}
@@ -164,6 +179,7 @@ export default function Globe({ children }: GlobeProps) {
         atmosphereMieScatteringScale={0.2}
       />
       <Fog enabled density={0.0003} minimumBrightness={0.008} />
+      <ImageryLayer imageryProvider={osmProvider} />
       <CameraFlyTo
         destination={INITIAL_POSITION}
         orientation={INITIAL_ORIENTATION}

@@ -84,9 +84,7 @@ export function AudioNarrator({ battleId, isActive, onNarrationTimeUpdate }: Aud
       const y = (h - barHeight) / 2
 
       ctx.fillStyle = `rgba(212, 164, 71, ${0.3 + value * 0.6})`
-      ctx.beginPath()
-      ctx.roundRect(x, y, barWidth, barHeight, 1)
-      ctx.fill()
+      ctx.fillRect(x, y, barWidth, barHeight)
     }
 
     if (audio.isNarrationPlaying) {

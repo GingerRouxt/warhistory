@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Suppress Cesium's built-in error overlay — we have our own ErrorBoundary */
+.cesium-widget-errorPanel { display: none !important; }
+
 @theme {
   --color-war-dark: #08080f;
   --color-war-darker: #050508;
@@ -184,6 +187,20 @@ html, body {
 @keyframes ring-expand {
   0% { transform: scale(0); opacity: 1; }
   100% { transform: scale(3); opacity: 0; }
+}
+
+/* Landing overlay particle drift */
+@keyframes drift {
+  0% { opacity: 0; transform: translate(0, 0); }
+  20% { opacity: 0.6; }
+  80% { opacity: 0.6; }
+  100% { opacity: 0; transform: translate(var(--drift-x), var(--drift-y)); }
+}
+
+/* Gold underline shimmer (narrator) */
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
 /* ============================================

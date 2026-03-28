@@ -14,6 +14,7 @@ import { SEOHead } from './components/SEOHead'
 import { StructuredData } from './components/StructuredData'
 import { SupportBanner } from './components/SupportBanner'
 import { ShareButton } from './components/ShareButton'
+import { AmbientAudio } from './components/AmbientAudio'
 import { MobileWarning } from './components/MobileWarning'
 import { KeyboardShortcuts } from './components/KeyboardShortcuts'
 import { BattleTooltip } from './components/BattleTooltip'
@@ -63,6 +64,7 @@ function AppInner() {
   const [commander, setCommander] = useState('')
   const [resultFilter, setResultFilter] = useState('')
   const [nearMeActive, setNearMeActive] = useState(false)
+  const [narrationTime, setNarrationTime] = useState(0)
 
   const timeline = useTimeline()
   const { allBattles, filteredBattles, filters, updateFilters, getBattlesByIds, isLoading } = useBattles()
@@ -182,7 +184,7 @@ function AppInner() {
         <ParticleEffects battle={selectedBattle} isActive={!!selectedBattle && selectedBattle.tier === 1} delay={5} era={selectedBattle?.era} />
 
         <Suspense fallback={null}>
-          {selectedBattle && isNarrating && <Narrator battle={selectedBattle} isActive={isNarrating} onNarrationComplete={handleNarrationComplete} />}
+          {selectedBattle && isNarrating && <Narrator battle={selectedBattle} isActive={isNarrating} onNarrationComplete={handleNarrationComplete} narrationTime={narrationTime} />}
           {selectedBattle && <BattleCard battle={selectedBattle} onClose={handleBattleClose} />}
         </Suspense>
 
@@ -223,11 +225,12 @@ function AppInner() {
         <Suspense fallback={null}>
           <BattleComparison battle1={selectedBattle} battle2={ui.compareBattle} isOpen={ui.compareOpen} onClose={() => dispatch({ type: 'SET_COMPARE', open: false, battle: null })} />
           <CommanderCard commanderName={ui.selectedCommander} allBattles={allBattles} onSelectBattle={(b) => { handleBattleSelect(b); dispatch({ type: 'SET_COMMANDER', name: null }) }} onClose={() => dispatch({ type: 'SET_COMMANDER', name: null })} />
-          {selectedBattle && isNarrating && <AudioNarrator battleId={selectedBattle.id} isActive={isNarrating} />}
+          {selectedBattle && isNarrating && <AudioNarrator battleId={selectedBattle.id} isActive={isNarrating} onNarrationTimeUpdate={setNarrationTime} />}
         </Suspense>
 
         {hasEntered && (
           <>
+            <AmbientAudio era={selectedBattle?.era ?? null} />
             <SupportBanner />
             <ShareButton />
             <KeyboardShortcuts />

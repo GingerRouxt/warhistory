@@ -207,7 +207,7 @@ export default function Timeline({
 
     // --- Layer 3: Battle density heatmap ---
     if (density.length > 0) {
-      const maxD = Math.max(1, ...density)
+      const maxD = density.reduce((max, v) => Math.max(max, v), 1)
       const barW = w / density.length
 
       for (let i = 0; i < density.length; i++) {

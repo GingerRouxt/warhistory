@@ -1,6 +1,8 @@
 import { useRef, useEffect, useCallback, useState } from 'react'
+import { Cartesian3 } from 'cesium'
 import type { Battle } from '../types/battle'
 import { ERA_COLORS } from '../constants/eras'
+import { useGlobe } from './GlobeContext'
 
 interface MinimapRadarProps {
   battles: Battle[]
@@ -23,6 +25,7 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
   const viewRectRef = useRef<{ west: number; south: number; east: number; north: number } | null>(null)
   const animFrameRef = useRef<number>(0)
   const [radarSize, setRadarSize] = useState(getRadarSize)
+  const { viewer } = useGlobe()
 
   useEffect(() => {
     function handleResize() {
@@ -112,11 +115,7 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
 
   // Listen to Cesium camera changes
   useEffect(() => {
-    if (!isVisible) return
-
-    const viewer = (window as unknown as Record<string, unknown>).__cesiumViewer as
-      | { camera: { changed: { addEventListener: (cb: () => void) => () => void }; computeViewRectangle: () => { west: number; south: number; east: number; north: number } | undefined } }
-      | undefined
+    if (!isVisible || !viewer) return
 
     function updateViewRect() {
       if (!viewer) return
@@ -139,20 +138,17 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
 
     updateViewRect()
 
-    let removeListener: (() => void) | undefined
-    if (viewer?.camera?.changed) {
-      removeListener = viewer.camera.changed.addEventListener(updateViewRect)
-    }
+    const removeListener = viewer.camera.changed.addEventListener(updateViewRect)
 
     // Also redraw periodically as fallback
     const interval = setInterval(updateViewRect, 2000)
 
     return () => {
-      removeListener?.()
+      removeListener()
       clearInterval(interval)
       if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current)
     }
-  }, [isVisible, draw])
+  }, [isVisible, viewer, draw])
 
   // Redraw when battles change
   useEffect(() => {
@@ -161,7 +157,7 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
 
   function handleClick(e: React.MouseEvent<HTMLCanvasElement>) {
     const canvas = canvasRef.current
-    if (!canvas) return
+    if (!canvas || !viewer) return
     const rect = canvas.getBoundingClientRect()
     const scaleX = radarSize / rect.width
     const scaleY = radarSize / rect.height
@@ -171,22 +167,10 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
     const lng = xToLng(x)
     const lat = yToLat(y)
 
-    const viewer = (window as unknown as Record<string, unknown>).__cesiumViewer as
-      | { camera: { flyTo: (opts: unknown) => void }; scene: { globe: unknown } }
-      | undefined
-
-    if (viewer?.camera) {
-      // Use Cesium if available
-      const Cesium = (window as unknown as Record<string, unknown>).Cesium as
-        | { Cartesian3: { fromDegrees: (lng: number, lat: number, h: number) => unknown } }
-        | undefined
-      if (Cesium) {
-        viewer.camera.flyTo({
-          destination: Cesium.Cartesian3.fromDegrees(lng, lat, 5_000_000),
-          duration: 1.5,
-        })
-      }
-    }
+    viewer.camera.flyTo({
+      destination: Cartesian3.fromDegrees(lng, lat, 5_000_000),
+      duration: 1.5,
+    })
   }
 
   if (!isVisible) return null

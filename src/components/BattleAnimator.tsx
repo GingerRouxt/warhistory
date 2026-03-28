@@ -1,5 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react'
 import {
+  Cartesian2,
   Cartesian3,
   Color,
   Entity,
@@ -105,7 +106,7 @@ export default function BattleAnimator({ battle, isActive }: BattleAnimatorProps
         outlineColor: Color.BLACK,
         outlineWidth: 2,
         style: 2, // FILL_AND_OUTLINE
-        pixelOffset: new Cartesian3(0, -20, 0) as unknown as import('cesium').Cartesian2,
+        pixelOffset: new Cartesian2(0, -20),
         disableDepthTestDistance: Number.POSITIVE_INFINITY,
       },
     })
@@ -130,7 +131,7 @@ export default function BattleAnimator({ battle, isActive }: BattleAnimatorProps
         outlineColor: Color.BLACK,
         outlineWidth: 2,
         style: 2,
-        pixelOffset: new Cartesian3(0, -20, 0) as unknown as import('cesium').Cartesian2,
+        pixelOffset: new Cartesian2(0, -20),
         disableDepthTestDistance: Number.POSITIVE_INFINITY,
       },
     })
@@ -196,7 +197,8 @@ export default function BattleAnimator({ battle, isActive }: BattleAnimatorProps
           const ring = ringEntities[i]
           // Each ring starts slightly delayed
           const ringDelay = i * 0.15
-          const ringProgress = Math.max(0, Math.min(1, (rawProgress - ringDelay) / (1 - ringDelay)))
+          const denom = 1 - ringDelay
+          const ringProgress = denom <= 0 ? 1 : Math.max(0, Math.min(1, (rawProgress - ringDelay) / denom))
           const easedProgress = easeOutExpo(ringProgress)
 
           const size = easedProgress * (30 + i * 12)

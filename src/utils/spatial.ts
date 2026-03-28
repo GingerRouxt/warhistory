@@ -18,6 +18,7 @@ export class SpatialIndex {
   build(battles: Battle[]): void {
     this.cells.clear()
     for (const b of battles) {
+      if (!b.location || b.location.lat == null || b.location.lng == null) continue
       const k = this.key(b.location.lat, b.location.lng)
       let cell = this.cells.get(k)
       if (!cell) {
