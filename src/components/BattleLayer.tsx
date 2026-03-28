@@ -59,6 +59,7 @@ export default function BattleLayer({
   const handlerRef = useRef<ScreenSpaceEventHandler | null>(null)
   const indexMapRef = useRef<Map<number, Battle>>(new Map())
   const spatialRef = useRef<SpatialIndex>(new SpatialIndex())
+  const lastHoverTime = useRef(0)
 
   // Filter battles by time window
   const visibleBattles = useMemo(() => {
@@ -191,6 +192,9 @@ export default function BattleLayer({
     // Hover handler — emit via callback, parent renders tooltip as React
     handler.setInputAction((event: { endPosition: Cartesian2 }) => {
       if (!onHoverBattle) return
+      const now = performance.now()
+      if (now - lastHoverTime.current < 32) return
+      lastHoverTime.current = now
       const battle = pickBattleByProximity(event.endPosition)
       onHoverBattle(
         battle,

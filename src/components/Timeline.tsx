@@ -116,6 +116,7 @@ export default function Timeline({
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const rafRef = useRef<number>(0)
+  const dirtyRef = useRef(true)
   const isDraggingScrubber = useRef(false)
   const isPanning = useRef(false)
   const panStart = useRef({ x: 0, windowStart: 0, windowEnd: 0 })
@@ -347,6 +348,14 @@ export default function Timeline({
   }, [timeWindow, currentYear, density, yearToX])
 
   // -----------------------------------------------------------------------
+  // Mark dirty when inputs change
+  // -----------------------------------------------------------------------
+
+  useEffect(() => {
+    dirtyRef.current = true
+  }, [timeWindow, currentYear, battles, isPlaying, isDraggingScrubber.current])
+
+  // -----------------------------------------------------------------------
   // Animation loop
   // -----------------------------------------------------------------------
 
@@ -354,7 +363,10 @@ export default function Timeline({
     let running = true
     const loop = () => {
       if (!running) return
-      draw()
+      if (dirtyRef.current) {
+        dirtyRef.current = false
+        draw()
+      }
       rafRef.current = requestAnimationFrame(loop)
     }
     rafRef.current = requestAnimationFrame(loop)
@@ -391,15 +403,16 @@ export default function Timeline({
     []
   )
 
-  const handleMouseDown = useCallback(
-    (e: React.MouseEvent<HTMLCanvasElement>) => {
+  // Core pointer logic shared by mouse and touch handlers
+  const pointerDown = useCallback(
+    (clientX: number) => {
       const canvas = canvasRef.current
       if (!canvas) return
       const rect = canvas.getBoundingClientRect()
-      const x = e.clientX - rect.left
+      const x = clientX - rect.left
       const w = rect.width
 
-      // Check if clicking near scrubber handle
+      // Check if near scrubber handle
       const sx = yearToX(currentYear, w)
       if (Math.abs(x - sx) < HANDLE_RADIUS + 4) {
         isDraggingScrubber.current = true
@@ -409,7 +422,7 @@ export default function Timeline({
       // Otherwise start panning
       isPanning.current = true
       panStart.current = {
-        x: e.clientX,
+        x: clientX,
         windowStart: timeWindow.start,
         windowEnd: timeWindow.end,
       }
@@ -417,23 +430,23 @@ export default function Timeline({
     [currentYear, timeWindow, yearToX]
   )
 
-  const handleMouseMove = useCallback(
-    (e: MouseEvent) => {
+  const pointerMove = useCallback(
+    (clientX: number) => {
       const canvas = canvasRef.current
       if (!canvas) return
       const rect = canvas.getBoundingClientRect()
       const w = rect.width
 
       if (isDraggingScrubber.current) {
-        const x = e.clientX - rect.left
+        const x = clientX - rect.left
         const year = xToYear(Math.max(0, Math.min(w, x)), w)
         onYearChange(Math.max(MIN_YEAR, Math.min(MAX_YEAR, year)))
+        dirtyRef.current = true
         return
       }
 
       if (isPanning.current) {
-        const dx = e.clientX - panStart.current.x
-        // Convert pixel delta to position delta
+        const dx = clientX - panStart.current.x
         const pStart = yearToPosition(panStart.current.windowStart)
         const pEnd = yearToPosition(panStart.current.windowEnd)
         const pSpan = pEnd - pStart
@@ -442,15 +455,59 @@ export default function Timeline({
         const newStart = positionToYear(pStart + pDelta)
         const newEnd = positionToYear(pEnd + pDelta)
         onTimeWindowChange(clampWindow(newStart, newEnd))
+        dirtyRef.current = true
       }
     },
     [xToYear, onYearChange, onTimeWindowChange, clampWindow]
   )
 
-  const handleMouseUp = useCallback(() => {
+  const pointerUp = useCallback(() => {
     isDraggingScrubber.current = false
     isPanning.current = false
   }, [])
+
+  // Mouse handlers
+  const handleMouseDown = useCallback(
+    (e: React.MouseEvent<HTMLCanvasElement>) => {
+      pointerDown(e.clientX)
+    },
+    [pointerDown]
+  )
+
+  const handleMouseMove = useCallback(
+    (e: MouseEvent) => {
+      pointerMove(e.clientX)
+    },
+    [pointerMove]
+  )
+
+  const handleMouseUp = useCallback(() => {
+    pointerUp()
+  }, [pointerUp])
+
+  // Touch handlers
+  const handleTouchStart = useCallback(
+    (e: React.TouchEvent<HTMLCanvasElement>) => {
+      e.preventDefault()
+      if (e.touches.length > 0) {
+        pointerDown(e.touches[0].clientX)
+      }
+    },
+    [pointerDown]
+  )
+
+  const handleTouchMove = useCallback(
+    (e: TouchEvent) => {
+      if (e.touches.length > 0) {
+        pointerMove(e.touches[0].clientX)
+      }
+    },
+    [pointerMove]
+  )
+
+  const handleTouchEnd = useCallback(() => {
+    pointerUp()
+  }, [pointerUp])
 
   const handleClick = useCallback(
     (e: React.MouseEvent<HTMLCanvasElement>) => {
@@ -518,15 +575,19 @@ export default function Timeline({
     [xToYear, onTimeWindowChange, onYearChange, clampWindow]
   )
 
-  // Attach global mouse listeners
+  // Attach global mouse and touch listeners
   useEffect(() => {
     window.addEventListener('mousemove', handleMouseMove)
     window.addEventListener('mouseup', handleMouseUp)
+    window.addEventListener('touchmove', handleTouchMove, { passive: false })
+    window.addEventListener('touchend', handleTouchEnd)
     return () => {
       window.removeEventListener('mousemove', handleMouseMove)
       window.removeEventListener('mouseup', handleMouseUp)
+      window.removeEventListener('touchmove', handleTouchMove)
+      window.removeEventListener('touchend', handleTouchEnd)
     }
-  }, [handleMouseMove, handleMouseUp])
+  }, [handleMouseMove, handleMouseUp, handleTouchMove, handleTouchEnd])
 
   // Attach wheel listener (passive: false for preventDefault)
   useEffect(() => {
@@ -564,6 +625,7 @@ export default function Timeline({
       <canvas
         ref={canvasRef}
         onMouseDown={handleMouseDown}
+        onTouchStart={handleTouchStart}
         onClick={handleClick}
         onDoubleClick={handleDoubleClick}
         style={{
@@ -571,6 +633,7 @@ export default function Timeline({
           width: '100%',
           height: CANVAS_HEIGHT,
           cursor: isDraggingScrubber.current ? 'grabbing' : 'crosshair',
+          touchAction: 'none',
         }}
       />
 

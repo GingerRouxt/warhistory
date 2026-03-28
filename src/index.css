@@ -203,3 +203,48 @@ html, body, #root {
   scroll-behavior: smooth;
   overscroll-behavior: contain;
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  /* Reduce minimap size */
+  .minimap-radar {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  /* Smaller glass panels */
+  .glass-panel {
+    border-radius: 8px;
+  }
+
+  /* Stack overlapping fixed elements */
+  .glass-panel-hover {
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further reductions for small phones */
+  .glass-panel {
+    border-radius: 6px;
+    backdrop-filter: blur(12px);
+  }
+}
+
+/* Accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-war-gold, #d4a017);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

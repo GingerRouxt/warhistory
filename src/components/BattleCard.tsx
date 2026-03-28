@@ -177,7 +177,7 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
   return (
     <div
       className="fixed top-0 right-0 z-40 h-full pointer-events-none"
-      style={{ width: 380 }}
+      style={{ width: 380, maxWidth: '90vw' }}
     >
       <div
         className="h-full pointer-events-auto glass-panel elevation-2 overflow-y-auto smooth-scroll"

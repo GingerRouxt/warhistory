@@ -1,17 +1,13 @@
-import { useState, useCallback, useMemo } from 'react'
+import { useState, useCallback, useMemo, lazy, Suspense } from 'react'
 import Globe from './components/Globe'
 import { GlobeProvider } from './components/GlobeContext'
 import BattleLayer from './components/BattleLayer'
 import { CameraDirector } from './components/CameraDirector'
 import Timeline from './components/Timeline'
-import { Narrator } from './components/Narrator'
-import { BattleCard } from './components/BattleCard'
 import { LandingOverlay } from './components/LandingOverlay'
 import { FilterPanel } from './components/FilterPanel'
 import BattleAnimator from './components/BattleAnimator'
 import ParticleEffects from './components/ParticleEffects'
-import { GuidedTour } from './components/GuidedTour'
-import { TourSelector } from './components/TourSelector'
 import { CampaignTrace } from './components/CampaignTrace'
 import { LoadingScreen } from './components/LoadingScreen'
 import { SEOHead } from './components/SEOHead'
@@ -24,9 +20,15 @@ import { BattleTooltip } from './components/BattleTooltip'
 import BattleCluster from './components/BattleCluster'
 import { HeatmapLayer } from './components/HeatmapLayer'
 import { MinimapRadar } from './components/MinimapRadar'
-import { BattleComparison } from './components/BattleComparison'
-import { CommanderCard } from './components/CommanderCard'
-import { AudioNarrator } from './components/AudioNarrator'
+
+// Lazy-loaded modal/overlay components (conditionally rendered, not needed in initial bundle)
+const BattleCard = lazy(() => import('./components/BattleCard').then(m => ({ default: m.BattleCard })))
+const BattleComparison = lazy(() => import('./components/BattleComparison').then(m => ({ default: m.BattleComparison })))
+const CommanderCard = lazy(() => import('./components/CommanderCard').then(m => ({ default: m.CommanderCard })))
+const TourSelector = lazy(() => import('./components/TourSelector').then(m => ({ default: m.TourSelector })))
+const GuidedTour = lazy(() => import('./components/GuidedTour').then(m => ({ default: m.GuidedTour })))
+const AudioNarrator = lazy(() => import('./components/AudioNarrator').then(m => ({ default: m.AudioNarrator })))
+const Narrator = lazy(() => import('./components/Narrator').then(m => ({ default: m.Narrator })))
 import campaignsData from './data/campaigns.json'
 import { useBattles } from './hooks/useBattles'
 import { useTimeline } from './hooks/useTimeline'
@@ -55,6 +57,9 @@ export default function App() {
   const [compareBattle, setCompareBattle] = useState<Battle | null>(null)
   const [compareOpen, setCompareOpen] = useState(false)
   const [selectedCommander, setSelectedCommander] = useState<string | null>(null)
+  const [commander, setCommander] = useState<string>('')
+  const [resultFilter, setResultFilter] = useState<string>('')
+  const [nearMeActive, setNearMeActive] = useState(false)
 
   const timeline = useTimeline()
   const { allBattles, filteredBattles, filters, updateFilters, getBattlesByIds, isLoading } = useBattles()
@@ -114,6 +119,39 @@ export default function App() {
     updateFilters({ eras: eras as EraId[] })
   }, [updateFilters])
 
+  const handleCommanderChange = useCallback((value: string) => {
+    setCommander(value)
+    updateFilters({ commander: value || undefined })
+  }, [updateFilters])
+
+  const handleResultFilterChange = useCallback((value: string) => {
+    setResultFilter(value)
+    updateFilters({ resultFilter: value || undefined })
+  }, [updateFilters])
+
+  const handleNearMeToggle = useCallback(() => {
+    setNearMeActive((prev) => {
+      if (prev) {
+        // Turning off
+        updateFilters({ nearMeLocation: undefined })
+        return false
+      }
+      // Turning on — request geolocation
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            updateFilters({ nearMeLocation: { lat: pos.coords.latitude, lng: pos.coords.longitude } })
+          },
+          () => {
+            // Geolocation denied — revert
+            setNearMeActive(false)
+          },
+        )
+      }
+      return true
+    })
+  }, [updateFilters])
+
   const handleTourSelect = useCallback((campaignId: string) => {
     setActiveCampaignId(campaignId)
     setTourSelectorOpen(false)
@@ -140,11 +178,14 @@ export default function App() {
 
   return (
     <GlobeProvider>
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-war-gold focus:text-black">
+        Skip to main content
+      </a>
       <SEOHead />
       <StructuredData />
       <LoadingScreen isLoading={isLoading} />
       <MobileWarning />
-      <div className="w-full h-full relative">
+      <div id="main-content" className="w-full h-full relative">
         {/* 3D Globe */}
         <Globe>
           <BattleLayer
@@ -190,24 +231,26 @@ export default function App() {
           battle={selectedBattle}
           isActive={!!selectedBattle && selectedBattle.tier === 1}
           delay={5}
+          era={selectedBattle?.era}
         />
 
-        {/* Narrator text overlay */}
-        {selectedBattle && isNarrating && (
-          <Narrator
-            battle={selectedBattle}
-            isActive={isNarrating}
-            onNarrationComplete={handleNarrationComplete}
-          />
-        )}
+        {/* Narrator text overlay + Battle detail card (lazy) */}
+        <Suspense fallback={null}>
+          {selectedBattle && isNarrating && (
+            <Narrator
+              battle={selectedBattle}
+              isActive={isNarrating}
+              onNarrationComplete={handleNarrationComplete}
+            />
+          )}
 
-        {/* Battle detail card */}
-        {selectedBattle && (
-          <BattleCard
-            battle={selectedBattle}
-            onClose={handleBattleClose}
-          />
-        )}
+          {selectedBattle && (
+            <BattleCard
+              battle={selectedBattle}
+              onClose={handleBattleClose}
+            />
+          )}
+        </Suspense>
 
         {/* Filter panel */}
         {hasEntered && (
@@ -221,6 +264,13 @@ export default function App() {
             isOpen={filterOpen}
             onToggle={() => setFilterOpen(!filterOpen)}
             battleCount={filteredBattles.length}
+            allBattles={allBattles}
+            commander={commander}
+            onCommanderChange={handleCommanderChange}
+            resultFilter={resultFilter}
+            onResultFilterChange={handleResultFilterChange}
+            nearMeActive={nearMeActive}
+            onNearMeToggle={handleNearMeToggle}
           />
         )}
 
@@ -253,20 +303,21 @@ export default function App() {
           />
         )}
 
-        {/* Guided tour overlay */}
-        <GuidedTour
-          battles={tourBattles}
-          isActive={tourActive}
-          onBattleSelect={handleBattleSelect}
-          onClose={handleTourClose}
-        />
+        {/* Guided tour overlay + Tour selector modal (lazy) */}
+        <Suspense fallback={null}>
+          <GuidedTour
+            battles={tourBattles}
+            isActive={tourActive}
+            onBattleSelect={handleBattleSelect}
+            onClose={handleTourClose}
+          />
 
-        {/* Tour selector modal */}
-        <TourSelector
-          isOpen={tourSelectorOpen}
-          onSelect={handleTourSelect}
-          onClose={() => setTourSelectorOpen(false)}
-        />
+          <TourSelector
+            isOpen={tourSelectorOpen}
+            onSelect={handleTourSelect}
+            onClose={() => setTourSelectorOpen(false)}
+          />
+        </Suspense>
 
         {/* Battle count + Tour + Heatmap buttons */}
         {hasEntered && !filterOpen && (
@@ -277,6 +328,7 @@ export default function App() {
             </div>
             <button
               onClick={() => setTourSelectorOpen(true)}
+              aria-label="Open guided tours"
               className="glass-panel px-4 py-2 text-sm text-war-gold hover:text-white transition-colors cursor-pointer"
               style={{ fontFamily: 'var(--font-family-display)', letterSpacing: '0.05em' }}
             >
@@ -284,6 +336,7 @@ export default function App() {
             </button>
             <button
               onClick={() => setHeatmapActive((v) => !v)}
+              aria-label={heatmapActive ? 'Hide battle heatmap' : 'Show battle heatmap'}
               className={`glass-panel px-4 py-2 text-sm transition-colors cursor-pointer ${heatmapActive ? 'text-white' : 'text-war-gold hover:text-white'}`}
               style={{ fontFamily: 'var(--font-family-display)', letterSpacing: '0.05em' }}
             >
@@ -299,29 +352,29 @@ export default function App() {
             isVisible={!tourSelectorOpen}
           />
         )}
-        {/* Battle comparison panel */}
-        <BattleComparison
-          battle1={selectedBattle}
-          battle2={compareBattle}
-          isOpen={compareOpen}
-          onClose={() => { setCompareOpen(false); setCompareBattle(null) }}
-        />
-
-        {/* Commander card */}
-        <CommanderCard
-          commanderName={selectedCommander}
-          allBattles={allBattles}
-          onSelectBattle={(b) => { handleBattleSelect(b); setSelectedCommander(null) }}
-          onClose={() => setSelectedCommander(null)}
-        />
-
-        {/* Audio narrator */}
-        {selectedBattle && isNarrating && (
-          <AudioNarrator
-            battleId={selectedBattle.id}
-            isActive={isNarrating}
+        {/* Battle comparison + Commander card + Audio narrator (lazy) */}
+        <Suspense fallback={null}>
+          <BattleComparison
+            battle1={selectedBattle}
+            battle2={compareBattle}
+            isOpen={compareOpen}
+            onClose={() => { setCompareOpen(false); setCompareBattle(null) }}
           />
-        )}
+
+          <CommanderCard
+            commanderName={selectedCommander}
+            allBattles={allBattles}
+            onSelectBattle={(b) => { handleBattleSelect(b); setSelectedCommander(null) }}
+            onClose={() => setSelectedCommander(null)}
+          />
+
+          {selectedBattle && isNarrating && (
+            <AudioNarrator
+              battleId={selectedBattle.id}
+              isActive={isNarrating}
+            />
+          )}
+        </Suspense>
 
         {/* Support + Share + Keyboard help */}
         {hasEntered && (

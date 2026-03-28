@@ -22,6 +22,9 @@ export interface BattleFilters {
   eras: EraId[]
   biblicalOnly: boolean
   searchQuery: string
+  commander?: string
+  resultFilter?: string
+  nearMeLocation?: { lat: number; lng: number }
 }
 
 const ERA_RANGES: Record<EraId, [number, number]> = {
@@ -84,7 +87,7 @@ export function useBattles() {
   }, [wikidataBattles])
 
   const filteredBattles = useMemo(() => {
-    return allBattles.filter((battle) => {
+    let results = allBattles.filter((battle) => {
       // Time window filter
       if (battle.year < filters.timeWindow.start || battle.year > filters.timeWindow.end) {
         return false
@@ -114,8 +117,50 @@ export function useBattles() {
         }
       }
 
+      // Commander filter
+      if (filters.commander) {
+        const cmd = filters.commander.toLowerCase()
+        const matchesCommanders = battle.commanders?.some((c) =>
+          c.toLowerCase().includes(cmd),
+        ) ?? false
+        const matchesBelligerents = battle.belligerents?.some((b) =>
+          b.toLowerCase().includes(cmd),
+        ) ?? false
+        if (!matchesCommanders && !matchesBelligerents) {
+          return false
+        }
+      }
+
+      // Result filter
+      if (filters.resultFilter) {
+        const rf = filters.resultFilter.toLowerCase()
+        if (!battle.result?.toLowerCase().includes(rf)) {
+          return false
+        }
+      }
+
       return true
     })
+
+    // Near Me: sort by distance and limit to 100
+    if (filters.nearMeLocation) {
+      const { lat: userLat, lng: userLng } = filters.nearMeLocation
+      const toRad = (deg: number) => (deg * Math.PI) / 180
+      const distanceTo = (bLat: number, bLng: number) => {
+        const dLat = toRad(bLat - userLat)
+        const dLng = toRad(bLng - userLng)
+        const a =
+          Math.sin(dLat / 2) ** 2 +
+          Math.cos(toRad(userLat)) * Math.cos(toRad(bLat)) * Math.sin(dLng / 2) ** 2
+        return 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+      }
+      results = results
+        .filter((b) => b.location && b.location.lat != null && b.location.lng != null)
+        .sort((a, b) => distanceTo(a.location.lat, a.location.lng) - distanceTo(b.location.lat, b.location.lng))
+        .slice(0, 100)
+    }
+
+    return results
   }, [allBattles, filters])
 
   const updateFilters = useCallback((partial: Partial<BattleFilters>) => {

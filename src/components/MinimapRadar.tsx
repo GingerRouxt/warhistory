@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback } from 'react'
+import { useRef, useEffect, useCallback, useState } from 'react'
 import type { Battle } from '../types/battle'
 import erasData from '../data/eras.json'
 
@@ -12,30 +12,44 @@ for (const era of erasData) {
   ERA_DOT_COLORS[era.id] = era.color
 }
 
-const RADAR_SIZE = 160
+const RADAR_SIZE_DESKTOP = 160
+const RADAR_SIZE_MOBILE = 120
 const PADDING = 4
+
+function getRadarSize() {
+  return window.innerWidth < 768 ? RADAR_SIZE_MOBILE : RADAR_SIZE_DESKTOP
+}
 
 /** Simple equirectangular minimap showing battle positions and camera viewport. */
 export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const viewRectRef = useRef<{ west: number; south: number; east: number; north: number } | null>(null)
   const animFrameRef = useRef<number>(0)
+  const [radarSize, setRadarSize] = useState(getRadarSize)
+
+  useEffect(() => {
+    function handleResize() {
+      setRadarSize(getRadarSize())
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   const lngToX = useCallback((lng: number) => {
-    return PADDING + ((lng + 180) / 360) * (RADAR_SIZE - PADDING * 2)
-  }, [])
+    return PADDING + ((lng + 180) / 360) * (radarSize - PADDING * 2)
+  }, [radarSize])
 
   const latToY = useCallback((lat: number) => {
-    return PADDING + ((90 - lat) / 180) * (RADAR_SIZE - PADDING * 2)
-  }, [])
+    return PADDING + ((90 - lat) / 180) * (radarSize - PADDING * 2)
+  }, [radarSize])
 
   const xToLng = useCallback((x: number) => {
-    return ((x - PADDING) / (RADAR_SIZE - PADDING * 2)) * 360 - 180
-  }, [])
+    return ((x - PADDING) / (radarSize - PADDING * 2)) * 360 - 180
+  }, [radarSize])
 
   const yToLat = useCallback((y: number) => {
-    return 90 - ((y - PADDING) / (RADAR_SIZE - PADDING * 2)) * 180
-  }, [])
+    return 90 - ((y - PADDING) / (radarSize - PADDING * 2)) * 180
+  }, [radarSize])
 
   const draw = useCallback(() => {
     const canvas = canvasRef.current
@@ -44,12 +58,12 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
     if (!ctx) return
 
     const dpr = window.devicePixelRatio || 1
-    canvas.width = RADAR_SIZE * dpr
-    canvas.height = RADAR_SIZE * dpr
+    canvas.width = radarSize * dpr
+    canvas.height = radarSize * dpr
     ctx.scale(dpr, dpr)
 
     // Clear
-    ctx.clearRect(0, 0, RADAR_SIZE, RADAR_SIZE)
+    ctx.clearRect(0, 0, radarSize, radarSize)
 
     // Draw faint grid lines
     ctx.strokeStyle = 'rgba(200, 200, 210, 0.08)'
@@ -59,7 +73,7 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
       const y = latToY(lat)
       ctx.beginPath()
       ctx.moveTo(PADDING, y)
-      ctx.lineTo(RADAR_SIZE - PADDING, y)
+      ctx.lineTo(radarSize - PADDING, y)
       ctx.stroke()
     }
     // Vertical (longitude) lines
@@ -67,7 +81,7 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
       const x = lngToX(lng)
       ctx.beginPath()
       ctx.moveTo(x, PADDING)
-      ctx.lineTo(x, RADAR_SIZE - PADDING)
+      ctx.lineTo(x, radarSize - PADDING)
       ctx.stroke()
     }
 
@@ -95,9 +109,9 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
       const h = y2 - y1
       ctx.strokeStyle = 'rgba(255, 255, 255, 0.7)'
       ctx.lineWidth = 1
-      ctx.strokeRect(x1, y1, w > 0 ? w : RADAR_SIZE - PADDING * 2, h > 0 ? h : RADAR_SIZE - PADDING * 2)
+      ctx.strokeRect(x1, y1, w > 0 ? w : radarSize - PADDING * 2, h > 0 ? h : radarSize - PADDING * 2)
     }
-  }, [battles, lngToX, latToY])
+  }, [battles, radarSize, lngToX, latToY])
 
   // Listen to Cesium camera changes
   useEffect(() => {
@@ -152,8 +166,8 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
     const canvas = canvasRef.current
     if (!canvas) return
     const rect = canvas.getBoundingClientRect()
-    const scaleX = RADAR_SIZE / rect.width
-    const scaleY = RADAR_SIZE / rect.height
+    const scaleX = radarSize / rect.width
+    const scaleY = radarSize / rect.height
     const x = (e.clientX - rect.left) * scaleX
     const y = (e.clientY - rect.top) * scaleY
 
@@ -186,8 +200,8 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
       style={{
         bottom: 16,
         right: 16,
-        width: RADAR_SIZE,
-        height: RADAR_SIZE,
+        width: radarSize,
+        height: radarSize,
         background: 'rgba(10, 10, 20, 0.7)',
         backdropFilter: 'blur(12px)',
         borderRadius: 8,
@@ -198,9 +212,9 @@ export function MinimapRadar({ battles, isVisible }: MinimapRadarProps) {
     >
       <canvas
         ref={canvasRef}
-        width={RADAR_SIZE}
-        height={RADAR_SIZE}
-        style={{ width: RADAR_SIZE, height: RADAR_SIZE, cursor: 'crosshair' }}
+        width={radarSize}
+        height={radarSize}
+        style={{ width: radarSize, height: radarSize, cursor: 'crosshair' }}
         onClick={handleClick}
       />
     </div>

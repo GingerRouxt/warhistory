@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import {
   SingleTileImageryProvider,
   Rectangle,
@@ -136,6 +136,14 @@ export function HeatmapLayer({
   const { viewer } = useGlobe()
   const layerRef = useRef<ImageryLayer | null>(null)
 
+  // Memoize the canvas DataURL — only regenerate when battles change
+  const dataUrl = useMemo(() => {
+    if (battles.length === 0) return null
+    const canvas = buildHeatmapCanvas(battles)
+    return canvas.toDataURL('image/png')
+  }, [battles])
+
+  // Add/remove the imagery layer when viewer, dataUrl, or isActive change
   useEffect(() => {
     if (!viewer || viewer.isDestroyed()) return
 
@@ -145,15 +153,11 @@ export function HeatmapLayer({
       layerRef.current = null
     }
 
-    if (!isActive || battles.length === 0) {
+    if (!isActive || !dataUrl) {
       viewer.scene.requestRender()
       return
     }
 
-    const canvas = buildHeatmapCanvas(battles)
-    const dataUrl = canvas.toDataURL('image/png')
-
-    // Use an async IIFE so we can await the provider
     let cancelled = false
 
     void (async () => {
@@ -180,7 +184,17 @@ export function HeatmapLayer({
         layerRef.current = null
       }
     }
-  }, [viewer, battles, isActive, opacity])
+  }, [viewer, dataUrl, isActive])
+
+  // Apply opacity changes directly to the existing layer — no rebuild
+  useEffect(() => {
+    if (layerRef.current) {
+      layerRef.current.alpha = opacity
+      if (viewer && !viewer.isDestroyed()) {
+        viewer.scene.requestRender()
+      }
+    }
+  }, [opacity, viewer])
 
   // Ensure cleanup on unmount
   useEffect(() => {
