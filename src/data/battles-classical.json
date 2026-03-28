@@ -28,7 +28,8 @@
       "side2": 25000
     },
     "warName": "Greco-Persian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Marathon"
   },
   {
     "id": "battle-of-thermopylae",
@@ -59,7 +60,8 @@
       "side2": 120000
     },
     "warName": "Greco-Persian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Thermopylae"
   },
   {
     "id": "battle-of-artemisium",
@@ -86,7 +88,8 @@
       "side2": 800
     },
     "warName": "Greco-Persian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Artemisium"
   },
   {
     "id": "battle-of-salamis",
@@ -117,7 +120,8 @@
       "side2": 800
     },
     "warName": "Greco-Persian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Salamis"
   },
   {
     "id": "battle-of-plataea",
@@ -148,7 +152,8 @@
       "side2": 120000
     },
     "warName": "Greco-Persian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Plataea"
   },
   {
     "id": "battle-of-mycale",
@@ -175,7 +180,8 @@
       "side2": 60000
     },
     "warName": "Greco-Persian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mycale"
   },
   {
     "id": "battle-of-eurymedon",
@@ -202,7 +208,8 @@
       "side2": 350
     },
     "warName": "Greco-Persian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Eurymedon"
   },
   {
     "id": "battle-of-sybota",
@@ -229,7 +236,8 @@
       "side2": 150
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sybota"
   },
   {
     "id": "battle-of-potidaea",
@@ -252,7 +260,8 @@
       "Corinthian volunteers"
     ],
     "warName": "Peloponnesian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Potidaea"
   },
   {
     "id": "siege-of-plataea",
@@ -271,7 +280,8 @@
     ],
     "result": "Spartan victory",
     "warName": "Peloponnesian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Plataea"
   },
   {
     "id": "battle-of-pylos",
@@ -298,7 +308,8 @@
       "side2": 420
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Pylos"
   },
   {
     "id": "battle-of-delium",
@@ -329,7 +340,8 @@
       "side2": 18000
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Delium"
   },
   {
     "id": "battle-of-amphipolis",
@@ -356,7 +368,8 @@
       "side2": 7
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Amphipolis"
   },
   {
     "id": "battle-of-mantinea-418",
@@ -387,7 +400,8 @@
       "side2": 10000
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mantinea_(418_BC)"
   },
   {
     "id": "siege-of-syracuse",
@@ -418,7 +432,8 @@
       "side2": 30000
     },
     "warName": "Peloponnesian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Syracuse"
   },
   {
     "id": "battle-of-cyzicus",
@@ -445,7 +460,8 @@
       "side2": 60
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cyzicus"
   },
   {
     "id": "battle-of-arginusae",
@@ -472,7 +488,8 @@
       "side2": 120
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Arginusae"
   },
   {
     "id": "battle-of-aegospotami",
@@ -503,7 +520,8 @@
       "side2": 180
     },
     "warName": "Peloponnesian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Aegospotami"
   },
   {
     "id": "battle-of-leuctra",
@@ -534,7 +552,8 @@
       "side2": 10000
     },
     "warName": "Theban-Spartan War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Leuctra"
   },
   {
     "id": "battle-of-mantinea-362",
@@ -561,7 +580,8 @@
       "side2": 1000
     },
     "warName": "Theban-Spartan War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mantinea_(362_BC)"
   },
   {
     "id": "battle-of-chaeronea",
@@ -592,7 +612,8 @@
       "side2": 35000
     },
     "warName": "Philip II's Greek Campaign",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Chaeronea"
   },
   {
     "id": "battle-of-granicus",
@@ -623,7 +644,8 @@
       "side2": 40000
     },
     "warName": "Wars of Alexander the Great",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Granicus"
   },
   {
     "id": "battle-of-issus",
@@ -654,7 +676,8 @@
       "side2": 100000
     },
     "warName": "Wars of Alexander the Great",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Issus"
   },
   {
     "id": "siege-of-tyre",
@@ -685,7 +708,8 @@
       "side2": 25000
     },
     "warName": "Wars of Alexander the Great",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Tyre"
   },
   {
     "id": "siege-of-gaza",
@@ -708,7 +732,8 @@
       "Batis"
     ],
     "warName": "Wars of Alexander the Great",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Gaza"
   },
   {
     "id": "battle-of-gaugamela",
@@ -739,7 +764,8 @@
       "side2": 250000
     },
     "warName": "Wars of Alexander the Great",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Gaugamela"
   },
   {
     "id": "battle-of-hydaspes",
@@ -770,7 +796,8 @@
       "side2": 35000
     },
     "warName": "Wars of Alexander the Great",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Hydaspes"
   },
   {
     "id": "battle-of-ipsus",
@@ -797,7 +824,8 @@
       "side2": 75000
     },
     "warName": "Wars of the Diadochi",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Ipsus"
   },
   {
     "id": "battle-of-corupedium",
@@ -820,7 +848,8 @@
       "Lysimachus"
     ],
     "warName": "Wars of the Diadochi",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Corupedium"
   },
   {
     "id": "battle-of-kalinga",
@@ -851,7 +880,8 @@
       "side2": 100000
     },
     "warName": "Kalinga War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kalinga"
   },
   {
     "id": "battle-of-changping",
@@ -882,7 +912,8 @@
       "side2": 450000
     },
     "warName": "Warring States Period",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Changping"
   },
   {
     "id": "battle-of-guiling",
@@ -905,7 +936,8 @@
       "Pang Juan"
     ],
     "warName": "Warring States Period",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Guiling"
   },
   {
     "id": "battle-of-maling",
@@ -932,7 +964,8 @@
       "side2": 100000
     },
     "warName": "Warring States Period",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Maling"
   },
   {
     "id": "battle-of-yique",
@@ -959,7 +992,8 @@
       "side2": 240000
     },
     "warName": "Warring States Period",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Yique"
   },
   {
     "id": "battle-of-julu",
@@ -986,7 +1020,8 @@
       "side2": 200000
     },
     "warName": "Fall of Qin",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Julu"
   },
   {
     "id": "battle-of-gaixia",
@@ -1013,7 +1048,8 @@
       "side2": 100000
     },
     "warName": "Chu-Han Contention",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Gaixia"
   },
   {
     "id": "battle-of-mobei",
@@ -1040,7 +1076,8 @@
       "side2": 40000
     },
     "warName": "Han-Xiongnu Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mobei"
   },
   {
     "id": "battle-of-kunyang",
@@ -1067,7 +1104,8 @@
       "side2": 430000
     },
     "warName": "Fall of Xin Dynasty",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Kunyang"
   },
   {
     "id": "battle-of-red-cliffs",
@@ -1094,7 +1132,8 @@
       "side2": 220000
     },
     "warName": "Three Kingdoms",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Red_Cliffs"
   },
   {
     "id": "battle-of-fancheng",
@@ -1117,7 +1156,8 @@
       "Cao Ren"
     ],
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Fancheng"
   },
   {
     "id": "battle-of-yiling",
@@ -1144,7 +1184,8 @@
       "side2": 50000
     },
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Yiling"
   },
   {
     "id": "battle-of-wuzhang-plains",
@@ -1167,7 +1208,8 @@
       "Sima Yi"
     ],
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Wuzhang_Plains"
   },
   {
     "id": "battle-of-agrigentum",
@@ -1194,7 +1236,8 @@
       "side2": 50000
     },
     "warName": "First Punic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Agrigentum"
   },
   {
     "id": "battle-of-mylae",
@@ -1221,7 +1264,8 @@
       "side2": 130
     },
     "warName": "First Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mylae"
   },
   {
     "id": "battle-of-cape-ecnomus",
@@ -1248,7 +1292,8 @@
       "side2": 350
     },
     "warName": "First Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cape_Ecnomus"
   },
   {
     "id": "battle-of-bagradas",
@@ -1279,7 +1324,8 @@
       "side2": 15000
     },
     "warName": "First Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bagradas"
   },
   {
     "id": "battle-of-drepana",
@@ -1306,7 +1352,8 @@
       "side2": 20000
     },
     "warName": "First Punic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Drepana"
   },
   {
     "id": "battle-of-aegates-islands",
@@ -1333,7 +1380,8 @@
       "side2": 250
     },
     "warName": "First Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Aegates_Islands"
   },
   {
     "id": "battle-of-trebia",
@@ -1364,7 +1412,8 @@
       "side2": 40000
     },
     "warName": "Second Punic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Trebia"
   },
   {
     "id": "battle-of-lake-trasimene",
@@ -1395,7 +1444,8 @@
       "side2": 30000
     },
     "warName": "Second Punic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Lake_Trasimene"
   },
   {
     "id": "battle-of-cannae",
@@ -1426,7 +1476,8 @@
       "side2": 86000
     },
     "warName": "Second Punic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Cannae"
   },
   {
     "id": "battle-of-nola",
@@ -1449,7 +1500,8 @@
       "Hannibal Barca"
     ],
     "warName": "Second Punic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Nola"
   },
   {
     "id": "siege-of-syracuse-punic",
@@ -1472,7 +1524,8 @@
       "Archimedes"
     ],
     "warName": "Second Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Syracuse_(Second_Punic_War)"
   },
   {
     "id": "battle-of-baecula",
@@ -1499,7 +1552,8 @@
       "side2": 25000
     },
     "warName": "Second Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Baecula"
   },
   {
     "id": "battle-of-metaurus",
@@ -1530,7 +1584,8 @@
       "side2": 30000
     },
     "warName": "Second Punic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Metaurus"
   },
   {
     "id": "battle-of-ilipa",
@@ -1561,7 +1616,8 @@
       "side2": 54000
     },
     "warName": "Second Punic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Ilipa"
   },
   {
     "id": "battle-of-zama",
@@ -1592,7 +1648,8 @@
       "side2": 36000
     },
     "warName": "Second Punic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Zama"
   },
   {
     "id": "battle-of-cynoscephalae",
@@ -1623,7 +1680,8 @@
       "side2": 25000
     },
     "warName": "Second Macedonian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cynoscephalae"
   },
   {
     "id": "battle-of-magnesia",
@@ -1654,7 +1712,8 @@
       "side2": 72000
     },
     "warName": "Roman-Seleucid War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Magnesia"
   },
   {
     "id": "battle-of-pydna",
@@ -1685,7 +1744,8 @@
       "side2": 44000
     },
     "warName": "Third Macedonian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Pydna"
   },
   {
     "id": "battle-of-carthage",
@@ -1716,7 +1776,8 @@
       "side2": 90000
     },
     "warName": "Third Punic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Carthage"
   },
   {
     "id": "battle-of-corinth",
@@ -1739,7 +1800,8 @@
       "Diaeus"
     ],
     "warName": "Achaean War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Corinth"
   },
   {
     "id": "battle-of-numantia",
@@ -1766,7 +1828,8 @@
       "side2": 4000
     },
     "warName": "Numantine War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Numantia"
   },
   {
     "id": "battle-of-aquae-sextiae",
@@ -1797,7 +1860,8 @@
       "side2": 120000
     },
     "warName": "Cimbrian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Aquae_Sextiae"
   },
   {
     "id": "battle-of-vercellae",
@@ -1828,7 +1892,8 @@
       "side2": 100000
     },
     "warName": "Cimbrian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Vercellae"
   },
   {
     "id": "battle-of-chaeronea-86",
@@ -1859,7 +1924,8 @@
       "side2": 100000
     },
     "warName": "First Mithridatic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Chaeronea_(86_BC)"
   },
   {
     "id": "battle-of-colline-gate",
@@ -1886,7 +1952,8 @@
       "side2": 50000
     },
     "warName": "Sulla's Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Colline_Gate"
   },
   {
     "id": "battle-of-spartacus-silarus",
@@ -1917,7 +1984,8 @@
       "side2": 36000
     },
     "warName": "Third Servile War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Silarus_River"
   },
   {
     "id": "battle-of-tigranocerta",
@@ -1948,7 +2016,8 @@
       "side2": 250000
     },
     "warName": "Third Mithridatic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Tigranocerta"
   },
   {
     "id": "battle-of-carrhae",
@@ -1979,7 +2048,8 @@
       "side2": 10000
     },
     "warName": "Roman-Parthian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Carrhae"
   },
   {
     "id": "battle-of-bibracte",
@@ -2006,7 +2076,8 @@
       "side2": 70000
     },
     "warName": "Gallic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bibracte"
   },
   {
     "id": "battle-of-vosges",
@@ -2033,7 +2104,8 @@
       "side2": 120000
     },
     "warName": "Gallic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Vosges"
   },
   {
     "id": "battle-of-sabis",
@@ -2064,7 +2136,8 @@
       "side2": 75000
     },
     "warName": "Gallic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Sabis"
   },
   {
     "id": "battle-of-gergovia",
@@ -2095,7 +2168,8 @@
       "side2": 30000
     },
     "warName": "Gallic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Gergovia"
   },
   {
     "id": "battle-of-alesia",
@@ -2126,7 +2200,8 @@
       "side2": 330000
     },
     "warName": "Gallic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Alesia"
   },
   {
     "id": "battle-of-uxellodunum",
@@ -2149,7 +2224,8 @@
       "Drappes"
     ],
     "warName": "Gallic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Uxellodunum"
   },
   {
     "id": "battle-of-dyrrhachium",
@@ -2176,7 +2252,8 @@
       "side2": 1000
     },
     "warName": "Caesar's Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Dyrrhachium"
   },
   {
     "id": "battle-of-pharsalus",
@@ -2207,7 +2284,8 @@
       "side2": 45000
     },
     "warName": "Caesar's Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Pharsalus"
   },
   {
     "id": "battle-of-thapsus",
@@ -2238,7 +2316,8 @@
       "side2": 72000
     },
     "warName": "Caesar's Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Thapsus"
   },
   {
     "id": "battle-of-munda",
@@ -2269,7 +2348,8 @@
       "side2": 70000
     },
     "warName": "Caesar's Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Munda"
   },
   {
     "id": "battle-of-philippi",
@@ -2300,7 +2380,8 @@
       "side2": 100000
     },
     "warName": "Liberators' Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Philippi"
   },
   {
     "id": "battle-of-naulochus",
@@ -2323,7 +2404,8 @@
       "Sextus Pompey"
     ],
     "warName": "Sicilian Revolt",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Naulochus"
   },
   {
     "id": "battle-of-actium",
@@ -2350,7 +2432,8 @@
       "side2": 500
     },
     "warName": "Final War of the Roman Republic",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Actium"
   },
   {
     "id": "battle-of-teutoburg-forest",
@@ -2381,7 +2464,8 @@
       "side2": 20000
     },
     "warName": "Roman-Germanic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Teutoburg_Forest"
   },
   {
     "id": "battle-of-idistaviso",
@@ -2404,7 +2488,8 @@
       "Arminius"
     ],
     "warName": "Roman-Germanic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Idistaviso"
   },
   {
     "id": "siege-of-masada",
@@ -2431,7 +2516,8 @@
       "side2": 960
     },
     "warName": "First Jewish-Roman War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Masada"
   },
   {
     "id": "siege-of-jerusalem-70",
@@ -2462,7 +2548,8 @@
       "side2": 40000
     },
     "warName": "First Jewish-Roman War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Jerusalem"
   },
   {
     "id": "battle-of-watling-street",
@@ -2493,7 +2580,8 @@
       "side2": 230000
     },
     "warName": "Boudican Revolt",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Watling_Street"
   },
   {
     "id": "battle-of-mons-graupius",
@@ -2524,7 +2612,8 @@
       "side2": 30000
     },
     "warName": "Roman conquest of Britain",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Mons_Graupius"
   },
   {
     "id": "first-battle-of-bedriacum",
@@ -2551,7 +2640,8 @@
       "side2": 8000
     },
     "warName": "Year of the Four Emperors",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "First_Battle_of_Bedriacum"
   },
   {
     "id": "second-battle-of-bedriacum",
@@ -2574,7 +2664,8 @@
       "Vitellian generals"
     ],
     "warName": "Year of the Four Emperors",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Second_Battle_of_Bedriacum"
   },
   {
     "id": "battle-of-adamclisi",
@@ -2597,7 +2688,8 @@
       "Decebalus"
     ],
     "warName": "Dacian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Adamclisi"
   },
   {
     "id": "siege-of-sarmizegetusa",
@@ -2620,7 +2712,8 @@
       "Decebalus"
     ],
     "warName": "Dacian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Sarmizegetusa"
   },
   {
     "id": "battle-of-ctesiphon-165",
@@ -2643,7 +2736,8 @@
       "Vologases IV"
     ],
     "warName": "Roman-Parthian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ctesiphon_(165_AD)"
   },
   {
     "id": "battle-of-lugdunum",
@@ -2670,7 +2764,8 @@
       "side2": 75000
     },
     "warName": "Year of the Five Emperors",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Lugdunum"
   },
   {
     "id": "battle-of-nisibis-217",
@@ -2693,7 +2788,8 @@
       "Artabanus V"
     ],
     "warName": "Roman-Parthian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Nisibis"
   },
   {
     "id": "battle-of-edessa",
@@ -2724,7 +2820,8 @@
       "side2": 70000
     },
     "warName": "Roman-Sasanian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Edessa"
   },
   {
     "id": "battle-of-naissus",
@@ -2751,7 +2848,8 @@
       "side2": 50000
     },
     "warName": "Gothic invasions",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Naissus"
   },
   {
     "id": "battle-of-emesa",
@@ -2778,7 +2876,8 @@
       "side2": 70000
     },
     "warName": "Aurelian's reconquest",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Emesa"
   },
   {
     "id": "battle-of-milvian-bridge",
@@ -2805,7 +2904,8 @@
       "side2": 75000
     },
     "warName": "Civil Wars of the Tetrarchy",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Milvian_Bridge"
   },
   {
     "id": "battle-of-chrysopolis",
@@ -2832,7 +2932,8 @@
       "side2": 165000
     },
     "warName": "Civil Wars of the Tetrarchy",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Chrysopolis"
   },
   {
     "id": "battle-of-strasbourg",
@@ -2863,7 +2964,8 @@
       "side2": 35000
     },
     "warName": "Rhine frontier defense",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Strasbourg"
   },
   {
     "id": "battle-of-ctesiphon-363",
@@ -2886,7 +2988,8 @@
       "Shapur II"
     ],
     "warName": "Roman-Sasanian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Ctesiphon_(363_AD)"
   },
   {
     "id": "battle-of-adrianople",
@@ -2917,7 +3020,8 @@
       "side2": 30000
     },
     "warName": "Gothic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Adrianople"
   },
   {
     "id": "battle-of-frigidus",
@@ -2944,7 +3048,8 @@
       "side2": 50000
     },
     "warName": "Last pagan revolt",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Frigidus"
   },
   {
     "id": "sack-of-rome-410",
@@ -2967,7 +3072,8 @@
       "Honorius"
     ],
     "warName": "Fall of the Western Roman Empire",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sack_of_Rome_(410_AD)"
   },
   {
     "id": "battle-of-catalaunian-plains",
@@ -2998,7 +3104,8 @@
       "side2": 50000
     },
     "warName": "Hunnic invasions",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Catalaunian_Plains"
   },
   {
     "id": "sack-of-rome-455",
@@ -3021,7 +3128,8 @@
       "Petronius Maximus"
     ],
     "warName": "Fall of the Western Roman Empire",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sack_of_Rome_(455_AD)"
   },
   {
     "id": "fall-of-western-rome",
@@ -3044,7 +3152,8 @@
       "Romulus Augustulus"
     ],
     "warName": "Fall of the Western Roman Empire",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Deposition_of_Romulus_Augustulus"
   },
   {
     "id": "battle-of-the-fei-river",
@@ -3071,7 +3180,8 @@
       "side2": 870000
     },
     "warName": "Jin-Qin conflicts",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Fei_River"
   },
   {
     "id": "battle-of-guandu",
@@ -3098,7 +3208,8 @@
       "side2": 100000
     },
     "warName": "Three Kingdoms",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Guandu"
   },
   {
     "id": "battle-of-hefei",
@@ -3125,7 +3236,8 @@
       "side2": 100000
     },
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Hefei"
   },
   {
     "id": "battle-of-zhuge-liangs-northern-expeditions",
@@ -3148,7 +3260,8 @@
       "Zhang He"
     ],
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Jieting"
   },
   {
     "id": "battle-of-xiaoting",
@@ -3175,7 +3288,8 @@
       "side2": 100000
     },
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Conquest_of_Shu_by_Wei"
   },
   {
     "id": "battle-of-jing-unification",
@@ -3202,7 +3316,8 @@
       "side2": 230000
     },
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Conquest_of_Wu"
   },
   {
     "id": "battle-of-boju",
@@ -3229,7 +3344,8 @@
       "side2": 200000
     },
     "warName": "Wu-Chu Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Boju"
   },
   {
     "id": "battle-of-muye",
@@ -3252,7 +3368,8 @@
       "King Zhou of Shang"
     ],
     "warName": "Zhou conquest of Shang",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Muye"
   },
   {
     "id": "battle-of-the-hydaspes-indian",
@@ -3279,7 +3396,8 @@
       "side2": 40000
     },
     "warName": "Alexander's Indian Campaign",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Hydaspes_(Indian_perspective)"
   },
   {
     "id": "battle-of-raphia",
@@ -3310,7 +3428,8 @@
       "side2": 68000
     },
     "warName": "Fourth Syrian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Raphia"
   },
   {
     "id": "battle-of-panion",
@@ -3333,7 +3452,8 @@
       "Scopas"
     ],
     "warName": "Fifth Syrian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Panium"
   },
   {
     "id": "battle-of-beth-horon",
@@ -3356,7 +3476,8 @@
       "Seron"
     ],
     "warName": "Maccabean Revolt",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Beth_Horon"
   },
   {
     "id": "battle-of-elasa",
@@ -3383,7 +3504,8 @@
       "side2": 20000
     },
     "warName": "Maccabean Revolt",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Elasa"
   },
   {
     "id": "battle-of-allia",
@@ -3406,7 +3528,8 @@
       "Roman tribunes"
     ],
     "warName": "Gallic invasion of Rome",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Allia"
   },
   {
     "id": "battle-of-sentinum",
@@ -3433,7 +3556,8 @@
       "side2": 50000
     },
     "warName": "Third Samnite War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sentinum"
   },
   {
     "id": "battle-of-heraclea",
@@ -3464,7 +3588,8 @@
       "side2": 35000
     },
     "warName": "Pyrrhic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Heraclea"
   },
   {
     "id": "battle-of-asculum",
@@ -3491,7 +3616,8 @@
       "side2": 6000
     },
     "warName": "Pyrrhic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Asculum"
   },
   {
     "id": "battle-of-beneventum",
@@ -3514,7 +3640,8 @@
       "Pyrrhus of Epirus"
     ],
     "warName": "Pyrrhic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Beneventum"
   },
   {
     "id": "battle-of-lade",
@@ -3541,7 +3668,8 @@
       "side2": 353
     },
     "warName": "Ionian Revolt",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Lade"
   },
   {
     "id": "battle-of-sardis",
@@ -3564,7 +3692,8 @@
       "Artaphernes"
     ],
     "warName": "Ionian Revolt",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Burning_of_Sardis"
   },
   {
     "id": "battle-of-oenophyta",
@@ -3587,7 +3716,8 @@
       "Boeotian generals"
     ],
     "warName": "First Peloponnesian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Oenophyta"
   },
   {
     "id": "battle-of-tanagra",
@@ -3610,7 +3740,8 @@
       "Athenian generals"
     ],
     "warName": "First Peloponnesian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Tanagra"
   },
   {
     "id": "battle-of-notium",
@@ -3633,7 +3764,8 @@
       "Antiochus"
     ],
     "warName": "Peloponnesian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Notium"
   },
   {
     "id": "battle-of-coronea",
@@ -3656,7 +3788,8 @@
       "Coalition generals"
     ],
     "warName": "Corinthian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Coronea_(394_BC)"
   },
   {
     "id": "battle-of-cnidus",
@@ -3679,7 +3812,8 @@
       "Peisander"
     ],
     "warName": "Corinthian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cnidus"
   },
   {
     "id": "battle-of-the-hydaspes-diadochi",
@@ -3706,7 +3840,8 @@
       "side2": 12500
     },
     "warName": "Wars of the Diadochi",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Gaza_(312_BC)"
   },
   {
     "id": "siege-of-rhodes",
@@ -3729,7 +3864,8 @@
       "Rhodian defenders"
     ],
     "warName": "Wars of the Diadochi",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Rhodes"
   },
   {
     "id": "battle-of-sellasia",
@@ -3756,7 +3892,8 @@
       "side2": 20000
     },
     "warName": "Cleomenean War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Sellasia"
   },
   {
     "id": "battle-of-the-great-plains",
@@ -3779,7 +3916,8 @@
       "Hasdrubal Gisco"
     ],
     "warName": "Second Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Great_Plains"
   },
   {
     "id": "battle-of-ager-falernus",
@@ -3802,7 +3940,8 @@
       "Fabius Maximus"
     ],
     "warName": "Second Punic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ager_Falernus"
   },
   {
     "id": "battle-of-the-ticinus",
@@ -3825,7 +3964,8 @@
       "Publius Cornelius Scipio"
     ],
     "warName": "Second Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Ticinus"
   },
   {
     "id": "battle-of-new-carthage",
@@ -3848,7 +3988,8 @@
       "Mago (garrison)"
     ],
     "warName": "Second Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Capture_of_New_Carthage"
   },
   {
     "id": "battle-of-mount-zhongli",
@@ -3871,7 +4012,8 @@
       "Chen Yu"
     ],
     "warName": "Chu-Han Contention",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Zhongli"
   },
   {
     "id": "battle-of-jingxing",
@@ -3898,7 +4040,8 @@
       "side2": 200000
     },
     "warName": "Chu-Han Contention",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Jingxing"
   },
   {
     "id": "battle-of-mount-algidus",
@@ -3921,7 +4064,8 @@
       "Latin commanders"
     ],
     "warName": "Latin War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Vesuvius"
   },
   {
     "id": "battle-of-caudine-forks",
@@ -3944,7 +4088,8 @@
       "Roman consuls"
     ],
     "warName": "Second Samnite War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Caudine_Forks"
   },
   {
     "id": "battle-of-rhandeia",
@@ -3967,7 +4112,8 @@
       "Caesennius Paetus"
     ],
     "warName": "Roman-Parthian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Rhandeia"
   },
   {
     "id": "battle-of-ctesiphon-198",
@@ -3990,7 +4136,8 @@
       "Vologases V"
     ],
     "warName": "Roman-Parthian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Sack_of_Ctesiphon_(198_AD)"
   },
   {
     "id": "battle-of-singara",
@@ -4013,7 +4160,8 @@
       "Constantius II"
     ],
     "warName": "Roman-Sasanian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Singara"
   },
   {
     "id": "battle-of-amida",
@@ -4040,7 +4188,8 @@
       "side2": 20000
     },
     "warName": "Roman-Sasanian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Amida"
   },
   {
     "id": "battle-of-satala",
@@ -4063,7 +4212,8 @@
       "Narseh"
     ],
     "warName": "Roman-Sasanian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Satala"
   },
   {
     "id": "battle-of-dara",
@@ -4090,7 +4240,8 @@
       "side2": 50000
     },
     "warName": "Iberian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Dara"
   },
   {
     "id": "battle-of-taginae",
@@ -4113,7 +4264,8 @@
       "Totila"
     ],
     "warName": "Gothic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Taginae"
   },
   {
     "id": "battle-of-decimum",
@@ -4140,7 +4292,8 @@
       "side2": 30000
     },
     "warName": "Vandalic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Ad_Decimum"
   },
   {
     "id": "battle-of-tricamarum",
@@ -4163,7 +4316,8 @@
       "Gelimer"
     ],
     "warName": "Vandalic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Tricamarum"
   },
   {
     "id": "battle-of-nedao",
@@ -4186,7 +4340,8 @@
       "Ellac"
     ],
     "warName": "Fall of the Hunnic Empire",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Nedao"
   },
   {
     "id": "battle-of-vouille",
@@ -4209,7 +4364,8 @@
       "Alaric II"
     ],
     "warName": "Frankish-Visigothic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Vouille"
   },
   {
     "id": "battle-of-badon",
@@ -4228,7 +4384,8 @@
     ],
     "result": "British victory",
     "warName": "Anglo-Saxon invasion of Britain",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Badon_Hill"
   },
   {
     "id": "battle-of-dien-bien-phu-ancient",
@@ -4251,7 +4408,8 @@
       "Zhao Jiande"
     ],
     "warName": "Han conquest of Nanyue",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Bai_Lang"
   },
   {
     "id": "battle-of-qin-unification",
@@ -4278,7 +4436,8 @@
       "side2": 400000
     },
     "warName": "Qin Wars of Unification",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Qin_Conquest_of_Chu"
   },
   {
     "id": "battle-of-daxingcheng",
@@ -4301,7 +4460,8 @@
       "Liu Pi"
     ],
     "warName": "Rebellion of the Seven States",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Zhuxian"
   },
   {
     "id": "battle-of-white-wolf-mountain",
@@ -4324,7 +4484,8 @@
       "Tadun"
     ],
     "warName": "Three Kingdoms",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_White_Wolf_Mountain"
   },
   {
     "id": "battle-of-tumu",
@@ -4347,7 +4508,8 @@
       "Liu Bei"
     ],
     "warName": "Three Kingdoms",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Changban"
   },
   {
     "id": "battle-of-guan-du-aftermath",
@@ -4370,7 +4532,8 @@
       "Dong Zhuo"
     ],
     "warName": "Three Kingdoms",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Hulao_Pass"
   },
   {
     "id": "battle-of-manzikert-precursor",
@@ -4393,7 +4556,8 @@
       "Azarethes"
     ],
     "warName": "Iberian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Callinicum"
   },
   {
     "id": "battle-of-avarayr",
@@ -4420,7 +4584,8 @@
       "side2": 200000
     },
     "warName": "Armenian defense of Christianity",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Avarayr"
   },
   {
     "id": "battle-of-pollentia",
@@ -4443,7 +4608,8 @@
       "Alaric I"
     ],
     "warName": "Gothic invasions",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Pollentia"
   },
   {
     "id": "battle-of-verona-403",
@@ -4466,7 +4632,8 @@
       "Alaric I"
     ],
     "warName": "Gothic invasions",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Verona"
   },
   {
     "id": "battle-of-fiesole",
@@ -4493,7 +4660,8 @@
       "side2": 100000
     },
     "warName": "Gothic invasions",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Faesulae"
   },
   {
     "id": "battle-of-cape-bon",
@@ -4520,6 +4688,7 @@
       "side2": 1100
     },
     "warName": "Roman-Vandal Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cape_Bon"
   }
 ]

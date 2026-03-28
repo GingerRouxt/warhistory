@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import type { Battle } from '../types/battle'
+import { formatYear } from '../utils/format'
+import { useAppUI, useAppUIDispatch } from '../contexts/AppUIContext'
 
 interface BattleCardProps {
   battle: Battle | null
@@ -13,11 +15,6 @@ const ERA_LABELS: Record<string, string> = {
   'early-modern': 'Early Modern',
   modern: 'Modern Era',
   contemporary: 'Contemporary',
-}
-
-function formatYear(year: number): string {
-  if (year < 0) return `${Math.abs(year)} BCE`
-  return `${year} CE`
 }
 
 function OutcomeBadge({ result }: { result: string }) {
@@ -151,15 +148,18 @@ function CasualtyBar({ casualties, belligerents }: {
 }
 
 export function BattleCard({ battle, onClose }: BattleCardProps) {
+  const ui = useAppUI()
+  const dispatch = useAppUIDispatch()
   const [isVisible, setIsVisible] = useState(false)
   const [shouldRender, setShouldRender] = useState(false)
   const [showDetails, setShowDetails] = useState(false)
+
+  const isComparing = ui.compareOpen && ui.compareBattle?.id === battle?.id
 
   useEffect(() => {
     if (battle) {
       setShouldRender(true)
       setShowDetails(false)
-      // Trigger slide-in on next frame
       requestAnimationFrame(() => {
         requestAnimationFrame(() => setIsVisible(true))
       })
@@ -186,7 +186,7 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
           transition: 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
           borderRadius: '12px 0 0 12px',
           borderRight: 'none',
-          paddingBottom: 100, // space for timeline
+          paddingBottom: 100,
         }}
       >
         {/* Gold top line */}
@@ -441,6 +441,29 @@ export function BattleCard({ battle, onClose }: BattleCardProps) {
                 {battle.tier === 1 ? 'Major' : battle.tier === 2 ? 'Notable' : 'Minor'}
               </span>
             </div>
+          </div>
+
+          {/* Compare button */}
+          <div className="mb-4">
+            <button
+              onClick={() => {
+                if (isComparing) {
+                  dispatch({ type: 'SET_COMPARE', open: false, battle: null })
+                } else {
+                  dispatch({ type: 'SET_COMPARE', open: true, battle })
+                }
+              }}
+              className="text-xs uppercase tracking-wider cursor-pointer px-3 py-1.5 rounded-full transition-all duration-200"
+              style={{
+                color: isComparing ? '#fff' : 'var(--color-war-gold)',
+                background: isComparing ? 'rgba(212, 160, 23, 0.25)' : 'rgba(212, 160, 23, 0.08)',
+                border: `1px solid ${isComparing ? 'rgba(212, 160, 23, 0.5)' : 'rgba(212, 160, 23, 0.2)'}`,
+                fontFamily: 'var(--font-family-body)',
+              }}
+              aria-label={isComparing ? 'Clear battle comparison' : 'Compare this battle'}
+            >
+              {isComparing ? 'Clear Compare' : 'Compare'}
+            </button>
           </div>
 
           {/* Expandable Details */}

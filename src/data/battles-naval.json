@@ -26,7 +26,8 @@
       "side2": 200
     },
     "warName": "Greco-Persian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Salamis"
   },
   {
     "id": "battle-of-aegospotami",
@@ -53,7 +54,8 @@
       "side2": 3000
     },
     "warName": "Peloponnesian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Aegospotami"
   },
   {
     "id": "battle-of-ecnomus",
@@ -82,7 +84,8 @@
       "side2": 94
     },
     "warName": "First Punic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ecnomus"
   },
   {
     "id": "battle-of-actium",
@@ -111,7 +114,8 @@
       "side2": 5000
     },
     "warName": "Final War of the Roman Republic",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Actium"
   },
   {
     "id": "battle-of-red-cliffs",
@@ -140,7 +144,8 @@
       "side2": 80000
     },
     "warName": "Wars of the Three Kingdoms",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Red_Cliffs"
   },
   {
     "id": "battle-of-dan-no-ura",
@@ -167,7 +172,8 @@
       "side2": 3000
     },
     "warName": "Genpei War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Dan-no-ura"
   },
   {
     "id": "battle-of-sluys",
@@ -195,7 +201,8 @@
       "side2": 16000
     },
     "warName": "Hundred Years' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Sluys"
   },
   {
     "id": "battle-of-la-rochelle-1372",
@@ -222,7 +229,8 @@
       "side2": 2000
     },
     "warName": "Hundred Years' War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_La_Rochelle"
   },
   {
     "id": "battle-of-myeongnyang",
@@ -249,7 +257,8 @@
       "side2": 8000
     },
     "warName": "Japanese invasions of Korea",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Myeongnyang"
   },
   {
     "id": "battle-of-lepanto",
@@ -276,7 +285,8 @@
       "side2": 30000
     },
     "warName": "Ottoman–Venetian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Lepanto"
   },
   {
     "id": "spanish-armada",
@@ -304,7 +314,8 @@
       "side2": 20000
     },
     "warName": "Anglo-Spanish War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Defeat_of_the_Spanish_Armada"
   },
   {
     "id": "battle-of-the-downs",
@@ -331,7 +342,8 @@
       "side2": 7000
     },
     "warName": "Eighty Years' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Downs"
   },
   {
     "id": "four-days-battle",
@@ -358,7 +370,8 @@
       "side2": 5000
     },
     "warName": "Second Anglo-Dutch War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Four_Days'_Battle"
   },
   {
     "id": "raid-on-the-medway",
@@ -385,7 +398,8 @@
       "side2": 300
     },
     "warName": "Second Anglo-Dutch War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Raid_on_the_Medway"
   },
   {
     "id": "battle-of-texel-1673",
@@ -413,7 +427,8 @@
       "side2": 2500
     },
     "warName": "Third Anglo-Dutch War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Texel"
   },
   {
     "id": "battle-of-beachy-head",
@@ -440,7 +455,8 @@
       "side2": 2500
     },
     "warName": "Nine Years' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Beachy_Head"
   },
   {
     "id": "battle-of-barfleur-la-hogue",
@@ -467,7 +483,8 @@
       "side2": 4000
     },
     "warName": "Nine Years' War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battles_of_Barfleur_and_La_Hogue"
   },
   {
     "id": "battle-of-chesapeake",
@@ -494,7 +511,8 @@
       "side2": 336
     },
     "warName": "American Revolutionary War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Chesapeake"
   },
   {
     "id": "battle-of-the-saintes",
@@ -521,7 +539,8 @@
       "side2": 5000
     },
     "warName": "American Revolutionary War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Saintes"
   },
   {
     "id": "battle-of-the-nile",
@@ -548,7 +567,8 @@
       "side2": 5235
     },
     "warName": "French Revolutionary Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Nile"
   },
   {
     "id": "battle-of-copenhagen-1801",
@@ -575,7 +595,8 @@
       "side2": 1800
     },
     "warName": "French Revolutionary Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Copenhagen"
   },
   {
     "id": "battle-of-trafalgar",
@@ -602,7 +623,8 @@
       "side2": 13781
     },
     "warName": "Napoleonic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Trafalgar"
   },
   {
     "id": "battle-of-lake-erie",
@@ -629,7 +651,8 @@
       "side2": 135
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Lake_Erie"
   },
   {
     "id": "battle-of-navarino",
@@ -656,7 +679,8 @@
       "side2": 4000
     },
     "warName": "Greek War of Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Navarino"
   },
   {
     "id": "battle-of-sinop",
@@ -683,7 +707,8 @@
       "side2": 3000
     },
     "warName": "Crimean War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Sinop"
   },
   {
     "id": "battle-of-hampton-roads",
@@ -710,7 +735,8 @@
       "side2": 78
     },
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Hampton_Roads"
   },
   {
     "id": "battle-of-mobile-bay",
@@ -737,7 +763,8 @@
       "side2": 312
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Mobile_Bay"
   },
   {
     "id": "battle-of-lissa",
@@ -764,7 +791,8 @@
       "side2": 620
     },
     "warName": "Third Italian War of Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Lissa"
   },
   {
     "id": "battle-of-manila-bay",
@@ -791,7 +819,8 @@
       "side2": 371
     },
     "warName": "Spanish-American War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Manila_Bay"
   },
   {
     "id": "battle-of-santiago-de-cuba",
@@ -819,7 +848,8 @@
       "side2": 474
     },
     "warName": "Spanish-American War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Santiago_de_Cuba"
   },
   {
     "id": "battle-of-tsushima",
@@ -846,7 +876,8 @@
       "side2": 4380
     },
     "warName": "Russo-Japanese War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Tsushima"
   },
   {
     "id": "battle-of-heligoland-bight",
@@ -874,7 +905,8 @@
       "side2": 1242
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Heligoland_Bight"
   },
   {
     "id": "battle-of-coronel",
@@ -901,7 +933,8 @@
       "side2": 1654
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Coronel"
   },
   {
     "id": "battle-of-falkland-islands-1914",
@@ -928,7 +961,8 @@
       "side2": 1871
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Falkland_Islands"
   },
   {
     "id": "battle-of-dogger-bank-1915",
@@ -955,7 +989,8 @@
       "side2": 954
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Dogger_Bank"
   },
   {
     "id": "dardanelles-naval-campaign",
@@ -983,7 +1018,8 @@
       "side2": 118
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Naval_Attack_on_the_Dardanelles"
   },
   {
     "id": "battle-of-jutland",
@@ -1012,7 +1048,8 @@
       "side2": 2551
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Jutland"
   },
   {
     "id": "battle-of-zeebrugge",
@@ -1039,7 +1076,8 @@
       "side2": 24
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Raid_on_Zeebrugge"
   },
   {
     "id": "battle-of-the-river-plate",
@@ -1066,7 +1104,8 @@
       "side2": 36
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_River_Plate"
   },
   {
     "id": "battles-of-narvik",
@@ -1093,7 +1132,8 @@
       "side2": 700
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battles_of_Narvik"
   },
   {
     "id": "battle-of-mers-el-kebir",
@@ -1120,7 +1160,8 @@
       "side2": 1297
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Attack_on_Mers-el-Kébir"
   },
   {
     "id": "battle-of-taranto",
@@ -1147,7 +1188,8 @@
       "side2": 59
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Taranto"
   },
   {
     "id": "battle-of-cape-matapan",
@@ -1174,7 +1216,8 @@
       "side2": 2303
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cape_Matapan"
   },
   {
     "id": "sinking-of-the-bismarck",
@@ -1201,7 +1244,8 @@
       "side2": 2131
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Hunt_for_the_Bismarck"
   },
   {
     "id": "battle-of-the-coral-sea",
@@ -1229,7 +1273,8 @@
       "side2": 966
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Coral_Sea"
   },
   {
     "id": "battle-of-midway",
@@ -1258,7 +1303,8 @@
       "side2": 3057
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Midway"
   },
   {
     "id": "battle-of-savo-island",
@@ -1285,7 +1331,8 @@
       "side2": 1077
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Savo_Island"
   },
   {
     "id": "battle-of-eastern-solomons",
@@ -1312,7 +1359,8 @@
       "side2": 290
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Eastern_Solomons"
   },
   {
     "id": "battle-of-santa-cruz",
@@ -1339,7 +1387,8 @@
       "side2": 400
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Santa_Cruz_Islands"
   },
   {
     "id": "naval-battle-of-guadalcanal",
@@ -1368,7 +1417,8 @@
       "side2": 1900
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Naval_Battle_of_Guadalcanal"
   },
   {
     "id": "battle-of-north-cape",
@@ -1395,7 +1445,8 @@
       "side2": 1932
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_North_Cape"
   },
   {
     "id": "battle-of-philippine-sea",
@@ -1423,7 +1474,8 @@
       "side2": 2987
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Philippine_Sea"
   },
   {
     "id": "battle-of-leyte-gulf",
@@ -1453,7 +1505,8 @@
       "side2": 12500
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Leyte_Gulf"
   },
   {
     "id": "battle-of-sibuyan-sea",
@@ -1481,7 +1534,8 @@
       "side2": 1023
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Sibuyan_Sea"
   },
   {
     "id": "battle-of-surigao-strait",
@@ -1508,7 +1562,8 @@
       "side2": 4000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Surigao_Strait"
   },
   {
     "id": "battle-off-samar",
@@ -1535,7 +1590,8 @@
       "side2": 2500
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_off_Samar"
   },
   {
     "id": "battle-of-cape-engano",
@@ -1563,7 +1619,8 @@
       "side2": 4000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Cape_Engano"
   },
   {
     "id": "sinking-of-yamato",
@@ -1590,7 +1647,8 @@
       "side2": 4137
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Ten-Go_(Sinking_of_Yamato)"
   },
   {
     "id": "battle-of-the-atlantic",
@@ -1617,7 +1675,8 @@
       "side2": 30000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Atlantic"
   },
   {
     "id": "battle-of-the-denmark-strait",
@@ -1644,7 +1703,8 @@
       "side2": 1415
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Denmark_Strait"
   },
   {
     "id": "battle-of-the-java-sea",
@@ -1671,7 +1731,8 @@
       "side2": 36
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Java_Sea"
   },
   {
     "id": "battle-of-cape-esperance",
@@ -1698,7 +1759,8 @@
       "side2": 454
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Cape_Esperance"
   },
   {
     "id": "battle-of-tassafaronga",
@@ -1725,7 +1787,8 @@
       "side2": 395
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Tassafaronga"
   },
   {
     "id": "battle-of-the-komandorski-islands",
@@ -1752,7 +1815,8 @@
       "side2": 14
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_the_Komandorski_Islands"
   },
   {
     "id": "convoy-pq-17",
@@ -1779,7 +1843,8 @@
       "side2": 0
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Destruction_of_Convoy_PQ-17"
   },
   {
     "id": "battle-of-empress-augusta-bay",
@@ -1806,7 +1871,8 @@
       "side2": 658
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Empress_Augusta_Bay"
   },
   {
     "id": "sinking-of-belgrano",
@@ -1833,7 +1899,8 @@
       "side2": 323
     },
     "warName": "Falklands War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sinking_of_ARA_General_Belgrano"
   },
   {
     "id": "sinking-of-sheffield",
@@ -1860,7 +1927,8 @@
       "side2": 20
     },
     "warName": "Falklands War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Sinking_of_HMS_Sheffield"
   },
   {
     "id": "battle-of-san-carlos-water",
@@ -1887,7 +1955,8 @@
       "side2": 120
     },
     "warName": "Falklands War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_San_Carlos_Water"
   },
   {
     "id": "operation-praying-mantis",
@@ -1914,7 +1983,8 @@
       "side2": 56
     },
     "warName": "Iran-Iraq War (Tanker War)",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Praying_Mantis"
   },
   {
     "id": "tanker-war",
@@ -1940,7 +2010,8 @@
       "side2": 200
     },
     "warName": "Iran-Iraq War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "The_Tanker_War"
   },
   {
     "id": "battle-of-cape-bon",
@@ -1967,7 +2038,8 @@
       "side2": 900
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Cape_Bon"
   },
   {
     "id": "battle-of-the-atlantic-convoys-1917",
@@ -1994,7 +2066,8 @@
       "side2": 5000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Convoy_System_Introduction"
   },
   {
     "id": "battle-of-quiberon-bay",
@@ -2021,7 +2094,8 @@
       "side2": 2500
     },
     "warName": "Seven Years' War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Quiberon_Bay"
   },
   {
     "id": "battle-of-cape-st-vincent-1797",
@@ -2049,7 +2123,8 @@
       "side2": 1000
     },
     "warName": "French Revolutionary Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Cape_St._Vincent"
   },
   {
     "id": "battle-of-camperdown",
@@ -2076,7 +2151,8 @@
       "side2": 1160
     },
     "warName": "French Revolutionary Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Camperdown"
   },
   {
     "id": "battle-of-virginia-capes-1781",
@@ -2103,7 +2179,8 @@
       "side2": 100
     },
     "warName": "American Revolutionary War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Second_Battle_of_the_Virginia_Capes"
   },
   {
     "id": "battle-of-the-yalu-river-1894",
@@ -2130,7 +2207,8 @@
       "side2": 850
     },
     "warName": "First Sino-Japanese War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Yalu_River"
   },
   {
     "id": "battle-of-weihaiwei",
@@ -2157,7 +2235,8 @@
       "side2": 2000
     },
     "warName": "First Sino-Japanese War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Weihaiwei"
   },
   {
     "id": "battle-of-gravelines",
@@ -2185,7 +2264,8 @@
       "side2": 2000
     },
     "warName": "Anglo-Spanish War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Gravelines"
   },
   {
     "id": "battle-of-the-glorious-first-of-june",
@@ -2212,7 +2292,8 @@
       "side2": 4200
     },
     "warName": "French Revolutionary Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Glorious_First_of_June"
   },
   {
     "id": "battle-of-lake-champlain",
@@ -2239,7 +2320,8 @@
       "side2": 129
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Lake_Champlain_(Plattsburgh)"
   },
   {
     "id": "battle-of-the-chesme",
@@ -2266,7 +2348,8 @@
       "side2": 9000
     },
     "warName": "Russo-Turkish War of 1768-1774",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Chesma"
   },
   {
     "id": "battle-of-preveza",
@@ -2293,7 +2376,8 @@
       "side2": 3000
     },
     "warName": "Ottoman-Venetian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Preveza"
   },
   {
     "id": "battle-of-diu",
@@ -2320,7 +2404,8 @@
       "side2": 3000
     },
     "warName": "Portuguese-Mamluk War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Diu"
   },
   {
     "id": "battle-of-the-venetian-lagoon-1379",
@@ -2347,7 +2432,8 @@
       "side2": 4000
     },
     "warName": "War of Chioggia",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Chioggia"
   },
   {
     "id": "battle-of-cape-ecnomus-ancient",
@@ -2374,7 +2460,8 @@
       "side2": 77
     },
     "warName": "Peloponnesian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Arginusae"
   },
   {
     "id": "battle-of-mycale",
@@ -2401,7 +2488,8 @@
       "side2": 10000
     },
     "warName": "Greco-Persian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Mycale"
   },
   {
     "id": "battle-of-cape-bon-468",
@@ -2428,7 +2516,8 @@
       "side2": 10000
     },
     "warName": "Vandal War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Cape_Bon_(468_AD)"
   },
   {
     "id": "battle-of-drepana",
@@ -2455,7 +2544,8 @@
       "side2": 93
     },
     "warName": "First Punic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Drepana"
   },
   {
     "id": "battle-of-aegates-islands",
@@ -2482,7 +2572,8 @@
       "side2": 120
     },
     "warName": "First Punic War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Aegates_Islands"
   },
   {
     "id": "battle-of-lake-poyang",
@@ -2509,7 +2600,8 @@
       "side2": 60000
     },
     "warName": "Chinese civil wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Lake_Poyang"
   },
   {
     "id": "second-battle-of-ushant",
@@ -2536,7 +2628,8 @@
       "side2": 681
     },
     "warName": "American Revolutionary War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ushant"
   },
   {
     "id": "battle-of-swold",
@@ -2564,6 +2657,7 @@
       "side2": 1000
     },
     "warName": "Norse dynastic wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Svolder"
   }
 ]

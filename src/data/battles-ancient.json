@@ -23,7 +23,8 @@
       "side2": null
     },
     "warName": "Sumerian Unification Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Unification_Wars_of_Sumer"
   },
   {
     "id": "eannatum-conquest-of-umma",
@@ -50,7 +51,8 @@
       "side2": 3000
     },
     "warName": "Lagash-Umma Border Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Umma"
   },
   {
     "id": "lugalzagesi-conquest-of-sumer",
@@ -77,7 +79,8 @@
       "side2": null
     },
     "warName": "Sumerian City-State Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Lugalzagesi's_Conquest_of_Sumer"
   },
   {
     "id": "sargon-conquest-of-uruk",
@@ -104,7 +107,8 @@
       "side2": 5000
     },
     "warName": "Akkadian Conquests",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sargon's_Conquest_of_Uruk"
   },
   {
     "id": "sargon-conquest-of-elam",
@@ -130,7 +134,8 @@
       "side2": null
     },
     "warName": "Akkadian Conquests",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sargon's_Conquest_of_Elam"
   },
   {
     "id": "sargon-conquest-of-mari",
@@ -156,7 +161,8 @@
       "side2": null
     },
     "warName": "Akkadian Conquests",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sargon's_Conquest_of_Mari"
   },
   {
     "id": "sargon-conquest-of-ebla",
@@ -182,7 +188,8 @@
       "side2": null
     },
     "warName": "Akkadian Conquests",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sargon's_Conquest_of_Ebla"
   },
   {
     "id": "naram-sin-great-revolt",
@@ -208,7 +215,8 @@
       "side2": null
     },
     "warName": "Great Revolt",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "The_Great_Revolt_against_Naram-Sin"
   },
   {
     "id": "naram-sin-vs-lullubi",
@@ -235,7 +243,8 @@
       "side2": null
     },
     "warName": "Akkadian Mountain Campaigns",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Naram-Sin's_Victory_over_the_Lullubi"
   },
   {
     "id": "fall-of-akkad",
@@ -261,7 +270,8 @@
       "side2": null
     },
     "warName": "Gutian Invasion",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Gutian_Conquest_of_Akkad"
   },
   {
     "id": "utu-hengal-vs-gutians",
@@ -288,7 +298,8 @@
       "side2": null
     },
     "warName": "Sumerian Liberation",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Utu-hengal's_Defeat_of_the_Gutians"
   },
   {
     "id": "ur-nammu-unification",
@@ -315,7 +326,8 @@
       "side2": null
     },
     "warName": "Ur III Unification",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Ur-Nammu's_Unification_of_Sumer"
   },
   {
     "id": "fall-of-ur",
@@ -342,7 +354,8 @@
       "side2": null
     },
     "warName": "Fall of the Ur III Dynasty",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Ur"
   },
   {
     "id": "rim-sin-conquest-of-isin",
@@ -369,7 +382,8 @@
       "side2": null
     },
     "warName": "Isin-Larsa Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Rim-Sin's_Conquest_of_Isin"
   },
   {
     "id": "hammurabi-conquest-of-larsa",
@@ -396,7 +410,8 @@
       "side2": null
     },
     "warName": "Hammurabi's Unification Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Hammurabi's_Conquest_of_Larsa"
   },
   {
     "id": "hammurabi-conquest-of-eshnunna",
@@ -422,7 +437,8 @@
       "side2": null
     },
     "warName": "Hammurabi's Unification Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Hammurabi's_Conquest_of_Eshnunna"
   },
   {
     "id": "hammurabi-conquest-of-mari",
@@ -449,7 +465,8 @@
       "side2": null
     },
     "warName": "Hammurabi's Unification Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Hammurabi's_Destruction_of_Mari"
   },
   {
     "id": "hittite-sack-of-babylon",
@@ -476,7 +493,8 @@
       "side2": null
     },
     "warName": "Hittite Expansion",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Hittite_Sack_of_Babylon"
   },
   {
     "id": "battle-of-megiddo-thutmose",
@@ -503,7 +521,8 @@
       "side2": 15000
     },
     "warName": "Thutmose III's Campaigns",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Megiddo"
   },
   {
     "id": "thutmose-siege-of-joppa",
@@ -529,7 +548,8 @@
       "side2": null
     },
     "warName": "Thutmose III's Campaigns",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Joppa"
   },
   {
     "id": "battle-of-kadesh",
@@ -556,7 +576,8 @@
       "side2": 23000
     },
     "warName": "Egyptian-Hittite Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kadesh"
   },
   {
     "id": "battle-of-nihriya",
@@ -582,7 +603,8 @@
       "side2": null
     },
     "warName": "Assyrian-Hittite Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Nihriya"
   },
   {
     "id": "tukulti-ninurta-conquest-of-babylon",
@@ -609,7 +631,8 @@
       "side2": null
     },
     "warName": "Assyrian-Babylonian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Tukulti-Ninurta_I's_Conquest_of_Babylon"
   },
   {
     "id": "sea-peoples-vs-egypt-delta",
@@ -635,7 +658,8 @@
       "side2": null
     },
     "warName": "Sea Peoples Invasions",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Delta"
   },
   {
     "id": "battle-of-djahy",
@@ -661,7 +685,8 @@
       "side2": null
     },
     "warName": "Sea Peoples Invasions",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Djahy"
   },
   {
     "id": "fall-of-hattusa",
@@ -687,7 +712,8 @@
       "side2": null
     },
     "warName": "Bronze Age Collapse",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Hattusa"
   },
   {
     "id": "destruction-of-ugarit",
@@ -713,7 +739,8 @@
       "side2": null
     },
     "warName": "Bronze Age Collapse",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Destruction_of_Ugarit"
   },
   {
     "id": "battle-of-muye",
@@ -740,7 +767,8 @@
       "side2": 170000
     },
     "warName": "Zhou Conquest of Shang",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Muye"
   },
   {
     "id": "tiglath-pileser-i-campaigns",
@@ -766,7 +794,8 @@
       "side2": null
     },
     "warName": "Assyrian Western Campaigns",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Tiglath-Pileser_I's_Western_Campaign"
   },
   {
     "id": "battle-of-qarqar",
@@ -794,7 +823,8 @@
       "side2": 53000
     },
     "warName": "Assyrian Western Campaigns",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Qarqar"
   },
   {
     "id": "shalmaneser-siege-of-damascus",
@@ -821,7 +851,8 @@
       "side2": null
     },
     "warName": "Assyrian Western Campaigns",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Shalmaneser_III's_Siege_of_Damascus"
   },
   {
     "id": "tiglath-pileser-iii-conquest-of-damascus",
@@ -848,7 +879,8 @@
       "side2": null
     },
     "warName": "Assyrian Conquests",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Tiglath-Pileser_III's_Conquest_of_Damascus"
   },
   {
     "id": "fall-of-samaria",
@@ -875,7 +907,8 @@
       "side2": null
     },
     "warName": "Assyrian Conquests",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Samaria"
   },
   {
     "id": "sargon-ii-battle-of-raphia",
@@ -903,7 +936,8 @@
       "side2": null
     },
     "warName": "Assyrian Conquests",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Raphia_(720_BCE)"
   },
   {
     "id": "sargon-ii-vs-urartu",
@@ -930,7 +964,8 @@
       "side2": null
     },
     "warName": "Assyrian-Urartu Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sargon_II's_Campaign_against_Urartu"
   },
   {
     "id": "sennacherib-siege-of-lachish",
@@ -957,7 +992,8 @@
       "side2": null
     },
     "warName": "Sennacherib's Campaign against Judah",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Lachish"
   },
   {
     "id": "sennacherib-siege-of-jerusalem",
@@ -984,7 +1020,8 @@
       "side2": null
     },
     "warName": "Sennacherib's Campaign against Judah",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sennacherib's_Siege_of_Jerusalem"
   },
   {
     "id": "battle-of-halule",
@@ -1012,7 +1049,8 @@
       "side2": null
     },
     "warName": "Assyrian-Babylonian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Halule"
   },
   {
     "id": "sennacherib-destruction-of-babylon",
@@ -1038,7 +1076,8 @@
       "side2": null
     },
     "warName": "Assyrian-Babylonian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sennacherib's_Destruction_of_Babylon"
   },
   {
     "id": "ashurbanipal-sack-of-susa",
@@ -1065,7 +1104,8 @@
       "side2": null
     },
     "warName": "Assyrian-Elamite Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Ashurbanipal's_Sack_of_Susa"
   },
   {
     "id": "ashurbanipal-vs-shamash-shum-ukin",
@@ -1092,7 +1132,8 @@
       "side2": null
     },
     "warName": "Assyrian Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Babylon_by_Ashurbanipal"
   },
   {
     "id": "ashurbanipal-conquest-of-thebes",
@@ -1119,7 +1160,8 @@
       "side2": null
     },
     "warName": "Assyrian Conquest of Egypt",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Ashurbanipal's_Sack_of_Thebes"
   },
   {
     "id": "esarhaddon-conquest-of-memphis",
@@ -1146,7 +1188,8 @@
       "side2": null
     },
     "warName": "Assyrian Conquest of Egypt",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Esarhaddon's_Conquest_of_Memphis"
   },
   {
     "id": "psamtik-i-liberation-of-egypt",
@@ -1172,7 +1215,8 @@
       "side2": null
     },
     "warName": "Egyptian Liberation",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Psamtik_I's_Liberation_of_Egypt"
   },
   {
     "id": "fall-of-ashur",
@@ -1199,7 +1243,8 @@
       "side2": null
     },
     "warName": "Fall of the Assyrian Empire",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Ashur"
   },
   {
     "id": "fall-of-nineveh",
@@ -1228,7 +1273,8 @@
       "side2": null
     },
     "warName": "Fall of the Assyrian Empire",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Nineveh"
   },
   {
     "id": "battle-of-harran",
@@ -1257,7 +1303,8 @@
       "side2": null
     },
     "warName": "Fall of the Assyrian Empire",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Harran"
   },
   {
     "id": "battle-of-carchemish",
@@ -1284,7 +1331,8 @@
       "side2": null
     },
     "warName": "Babylonian Conquest",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Carchemish"
   },
   {
     "id": "battle-of-hamath",
@@ -1310,7 +1358,8 @@
       "side2": null
     },
     "warName": "Babylonian Conquest",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Hamath"
   },
   {
     "id": "nebuchadnezzar-siege-of-tyre",
@@ -1337,7 +1386,8 @@
       "side2": null
     },
     "warName": "Babylonian Conquest",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Nebuchadnezzar's_Siege_of_Tyre"
   },
   {
     "id": "fall-of-jerusalem-586",
@@ -1365,7 +1415,8 @@
       "side2": null
     },
     "warName": "Babylonian Conquest",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Jerusalem_(586_BCE)"
   },
   {
     "id": "egyptian-unification-narmer",
@@ -1391,7 +1442,8 @@
       "side2": null
     },
     "warName": "Unification of Egypt",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Narmer's_Unification_of_Egypt"
   },
   {
     "id": "sneferu-nubian-campaign",
@@ -1417,7 +1469,8 @@
       "side2": null
     },
     "warName": "Egyptian Nubian Campaigns",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Sneferu's_Nubian_Campaign"
   },
   {
     "id": "pepi-ii-nubian-campaign",
@@ -1443,7 +1496,8 @@
       "side2": null
     },
     "warName": "Old Kingdom Nubian Campaigns",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Campaigns_of_Pepi_II_in_Nubia"
   },
   {
     "id": "mentuhotep-ii-reunification",
@@ -1469,7 +1523,8 @@
       "side2": null
     },
     "warName": "Egyptian Reunification",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Mentuhotep_II's_Reunification_of_Egypt"
   },
   {
     "id": "hyksos-conquest-of-egypt",
@@ -1495,7 +1550,8 @@
       "side2": null
     },
     "warName": "Hyksos Invasion",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Hyksos_Conquest_of_Egypt"
   },
   {
     "id": "kamose-vs-hyksos",
@@ -1522,7 +1578,8 @@
       "side2": null
     },
     "warName": "Egyptian Reconquest",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Kamose's_Campaign_against_the_Hyksos"
   },
   {
     "id": "ahmose-i-expulsion-of-hyksos",
@@ -1549,7 +1606,8 @@
       "side2": null
     },
     "warName": "Egyptian Reconquest",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Ahmose_I's_Expulsion_of_the_Hyksos"
   },
   {
     "id": "thutmose-iii-eighth-campaign",
@@ -1576,7 +1634,8 @@
       "side2": null
     },
     "warName": "Thutmose III's Campaigns",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Thutmose_III's_Crossing_of_the_Euphrates"
   },
   {
     "id": "suppiluliuma-conquest-of-mitanni",
@@ -1603,7 +1662,8 @@
       "side2": null
     },
     "warName": "Hittite Expansion",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Suppiluliuma_I's_Conquest_of_Mitanni"
   },
   {
     "id": "merneptah-vs-libyans",
@@ -1631,7 +1691,8 @@
       "side2": 16000
     },
     "warName": "Libyan Invasions of Egypt",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Perire"
   },
   {
     "id": "battle-of-the-cedar-forest",
@@ -1657,7 +1718,8 @@
       "side2": null
     },
     "warName": "Egyptian-Hittite Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Hittite_Battle_of_the_Cedar_Forest"
   },
   {
     "id": "nebuchadnezzar-battle-of-egypt",
@@ -1684,7 +1746,8 @@
       "side2": null
     },
     "warName": "Babylonian-Egyptian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Nebuchadnezzar's_Invasion_of_Egypt"
   },
   {
     "id": "first-fall-of-jerusalem-597",
@@ -1711,7 +1774,8 @@
       "side2": null
     },
     "warName": "Babylonian Conquest",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "First_Siege_of_Jerusalem_(597_BCE)"
   },
   {
     "id": "battle-of-til-tuba",
@@ -1738,7 +1802,8 @@
       "side2": null
     },
     "warName": "Assyrian-Elamite Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Til_Tuba"
   },
   {
     "id": "lydian-median-war-eclipse",
@@ -1765,6 +1830,7 @@
       "side2": null
     },
     "warName": "Lydian-Median War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Eclipse_(Halys)"
   }
 ]

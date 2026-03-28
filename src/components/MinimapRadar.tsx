@@ -1,16 +1,13 @@
 import { useRef, useEffect, useCallback, useState } from 'react'
 import type { Battle } from '../types/battle'
-import erasData from '../data/eras.json'
+import { ERA_COLORS } from '../constants/eras'
 
 interface MinimapRadarProps {
   battles: Battle[]
   isVisible: boolean
 }
 
-const ERA_DOT_COLORS: Record<string, string> = {}
-for (const era of erasData) {
-  ERA_DOT_COLORS[era.id] = era.color
-}
+const ERA_DOT_COLORS = ERA_COLORS
 
 const RADAR_SIZE_DESKTOP = 160
 const RADAR_SIZE_MOBILE = 120

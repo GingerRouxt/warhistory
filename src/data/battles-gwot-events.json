@@ -4,671 +4,1151 @@
     "name": "September 11 Attacks",
     "year": 2001,
     "era": "contemporary",
-    "location": { "lat": 40.7115, "lng": -74.0134 },
+    "location": {
+      "lat": 40.7115,
+      "lng": -74.0134
+    },
     "tier": 1,
     "description": "At 8:46 on a perfect blue Tuesday morning, American Airlines Flight 11 hit the North Tower and the world broke in half. Seventeen minutes later, the South Tower. Then the Pentagon. Then a field in Pennsylvania where forty strangers voted and charged a cockpit. People stood on the street and watched human beings jump from 90 stories up because the fire behind them was worse than the fall ahead. Three hundred forty-three firefighters walked up into those towers knowing what was coming, and not one of them turned around. When the South Tower came down at 9:59 AM, the sound was so enormous that people ten blocks away thought the earth itself had opened. The dust cloud rolled through Manhattan like a pyroclastic flow. And then the North Tower followed. Two thousand nine hundred seventy-seven people were dead, and every single person alive that morning remembers exactly where they were standing. The towers fell, and an entire generation picked up a rifle.",
-    "belligerents": ["United States", "al-Qaeda"],
+    "belligerents": [
+      "United States",
+      "al-Qaeda"
+    ],
     "result": "2,977 killed — deadliest attack on American soil in history",
-    "commanders": ["Osama bin Laden", "Khalid Sheikh Mohammed"],
+    "commanders": [
+      "Osama bin Laden",
+      "Khalid Sheikh Mohammed"
+    ],
     "warName": "Global War on Terror",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "September_11_attacks"
   },
   {
     "id": "uss-cole-bombing",
     "name": "USS Cole Bombing",
     "year": 2000,
     "era": "contemporary",
-    "location": { "lat": 12.7855, "lng": 45.0187 },
+    "location": {
+      "lat": 12.7855,
+      "lng": 45.0187
+    },
     "tier": 2,
     "description": "The USS Cole was refueling in Aden harbor on a routine port call when a small fiberglass boat motored up alongside, two men standing and smiling, and detonated. The blast tore a 40-by-60-foot hole in the destroyer's port side. Seventeen sailors were killed, most of them below the waterline in the mess and engineering spaces — young kids eating lunch. The ship listed and nearly sank. Sailors formed bucket brigades and stuffed mattresses into holes to keep her afloat. Al-Qaeda had just punched the United States Navy in the mouth in broad daylight, and Washington barely flinched. The dead sailors became a footnote. Bin Laden watched, noted the lack of response, and started planning something bigger.",
-    "belligerents": ["United States Navy", "al-Qaeda"],
+    "belligerents": [
+      "United States Navy",
+      "al-Qaeda"
+    ],
     "result": "17 US sailors killed, 39 wounded; USS Cole heavily damaged but saved",
-    "commanders": ["CDR Kirk Lippold", "Osama bin Laden"],
+    "commanders": [
+      "CDR Kirk Lippold",
+      "Osama bin Laden"
+    ],
     "warName": "Global War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "USS_Cole_bombing"
   },
   {
     "id": "1998-embassy-bombings",
     "name": "1998 US Embassy Bombings",
     "year": 1998,
     "era": "contemporary",
-    "location": { "lat": -1.2921, "lng": 36.8219 },
+    "location": {
+      "lat": -1.2921,
+      "lng": 36.8219
+    },
     "tier": 2,
     "description": "At 10:30 AM local time on August 7, 1998, truck bombs detonated nearly simultaneously outside the US embassies in Nairobi, Kenya and Dar es Salaam, Tanzania. The Nairobi blast was apocalyptic — it leveled the Ufundi Cooperative House next door, buried hundreds under rubble, and blew out windows for blocks in every direction. Two hundred twenty-four people died, twelve of them Americans. Over four thousand were wounded, many blinded by flying glass. In Dar es Salaam, eleven more died. These were not military targets — they were office workers, visa applicants, people walking to the market. Bin Laden had declared war on America two years earlier and nobody had listened. The Clinton administration fired cruise missiles at empty camps. Al-Qaeda learned that they could murder Americans abroad and the response would be symbolic. They kept planning.",
-    "belligerents": ["United States", "al-Qaeda"],
+    "belligerents": [
+      "United States",
+      "al-Qaeda"
+    ],
     "result": "224 killed (including 12 Americans), 4,000+ wounded across both bombings",
-    "commanders": ["Osama bin Laden", "Ayman al-Zawahiri"],
+    "commanders": [
+      "Osama bin Laden",
+      "Ayman al-Zawahiri"
+    ],
     "warName": "Global War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "1998_United_States_embassy_bombings"
   },
   {
     "id": "khobar-towers-bombing",
     "name": "Khobar Towers Bombing",
     "year": 1996,
     "era": "contemporary",
-    "location": { "lat": 26.2895, "lng": 50.2083 },
+    "location": {
+      "lat": 26.2895,
+      "lng": 50.2083
+    },
     "tier": 2,
     "description": "On June 25, 1996, a sewage tanker truck packed with 20,000 pounds of explosives pulled up next to Building 131 of the Khobar Towers housing complex in Dhahran, Saudi Arabia. Air Force security police spotted it and started evacuating the top floors. They had maybe three minutes. The blast crater was 85 feet wide and 35 feet deep. It sheared the face off the eight-story building like peeling a label off a can. Nineteen US Air Force personnel were killed, 498 wounded. These were airmen — maintainers, cops, intel guys — sleeping in their beds or watching TV after a shift on the flight line. The youngest was 19. Hezbollah al-Hejaz carried it out with Iranian backing. The security cops who spotted that truck and started banging on doors saved hundreds of lives in the minutes they had. Some of the dead were the ones doing the warning.",
-    "belligerents": ["United States Air Force", "Hezbollah al-Hejaz / Iran"],
+    "belligerents": [
+      "United States Air Force",
+      "Hezbollah al-Hejaz / Iran"
+    ],
     "result": "19 US airmen killed, 498 wounded",
-    "commanders": ["Brig Gen Terryl Schwalier", "Ahmad al-Mughassil"],
+    "commanders": [
+      "Brig Gen Terryl Schwalier",
+      "Ahmad al-Mughassil"
+    ],
     "warName": "Global War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Khobar_Towers_bombing"
   },
   {
     "id": "1993-wtc-bombing",
     "name": "1993 World Trade Center Bombing",
     "year": 1993,
     "era": "contemporary",
-    "location": { "lat": 40.7115, "lng": -74.0134 },
+    "location": {
+      "lat": 40.7115,
+      "lng": -74.0134
+    },
     "tier": 2,
     "description": "On February 26, 1993, Ramzi Yousef parked a Ryder van loaded with 1,300 pounds of urea nitrate in the underground garage of the World Trade Center and walked away. The plan was to topple the North Tower into the South Tower and kill 250,000 people. It didn't work — the blast carved a five-story crater in the basement, killed six people, and injured over a thousand. Fifty thousand workers evacuated down smoke-filled stairwells in total darkness, some taking hours. A pregnant woman gave birth during the evacuation. America treated it as a crime, not an act of war. Yousef was caught, tried, convicted, and imprisoned. His uncle, Khalid Sheikh Mohammed, took notes on what went wrong and spent the next eight years planning a return trip. The towers had eight more years to stand.",
-    "belligerents": ["United States", "al-Qaeda affiliates"],
+    "belligerents": [
+      "United States",
+      "al-Qaeda affiliates"
+    ],
     "result": "6 killed, 1,042 injured; towers remained standing",
-    "commanders": ["Ramzi Yousef", "Khalid Sheikh Mohammed (planner)"],
+    "commanders": [
+      "Ramzi Yousef",
+      "Khalid Sheikh Mohammed (planner)"
+    ],
     "warName": "Global War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "1993_World_Trade_Center_Bombing"
   },
   {
     "id": "operation-enduring-freedom",
     "name": "Operation Enduring Freedom — Invasion of Afghanistan",
     "year": 2001,
     "era": "contemporary",
-    "location": { "lat": 34.5553, "lng": 69.2075 },
+    "location": {
+      "lat": 34.5553,
+      "lng": 69.2075
+    },
     "tier": 1,
     "description": "Twenty-six days after the towers fell, twelve-man Special Forces teams rode into Afghanistan on horseback alongside Northern Alliance warlords, calling in B-52 strikes on Taliban positions with satellite radios and laser designators. It was the most primitive and most advanced warfare happening simultaneously. ODA 595 rode horses through the mountains of Mazar-i-Sharif while 15,000-pound daisy cutters turned ridgelines into moonscapes. The Taliban, who had ruled through terror and medieval cruelty for five years, collapsed in weeks. Kabul fell on November 13th. Kandahar by December 7th. CIA teams and a few hundred Green Berets, backed by American airpower, toppled a government in two months with fewer than a thousand Americans on the ground. It was the fastest, most unconventional campaign in modern military history. And then came the part nobody planned for — what to do with a country that had been at war for twenty-three straight years.",
-    "belligerents": ["United States / NATO / Northern Alliance", "Taliban / al-Qaeda"],
+    "belligerents": [
+      "United States / NATO / Northern Alliance",
+      "Taliban / al-Qaeda"
+    ],
     "result": "Taliban government toppled; al-Qaeda leadership fled to Tora Bora and Pakistan",
-    "commanders": ["Gen Tommy Franks", "Mullah Mohammed Omar"],
+    "commanders": [
+      "Gen Tommy Franks",
+      "Mullah Mohammed Omar"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Enduring_Freedom_–_Invasion_of_Afghanistan"
   },
   {
     "id": "operation-iraqi-freedom",
     "name": "Operation Iraqi Freedom — Invasion of Iraq",
     "year": 2003,
     "era": "contemporary",
-    "location": { "lat": 33.3152, "lng": 44.3661 },
+    "location": {
+      "lat": 33.3152,
+      "lng": 44.3661
+    },
     "tier": 1,
     "description": "On March 19, 2003, the sky over Baghdad turned white. Shock and Awe wasn't a slogan — it was a doctrine. Thousands of precision-guided munitions hit government buildings, command centers, and military targets in the opening hours. Then the ground war started, and the 3rd Infantry Division punched north through 350 miles of desert in three weeks. The Thunder Runs into Baghdad — armored columns blasting through the city at highway speed, tanks and Bradleys rolling through ambushes with guns blazing in every direction — were some of the most audacious armored operations since Patton. Saddam's regime, which had terrorized 25 million people for decades, collapsed so fast that units were bypassing entire Iraqi divisions that simply dissolved. Baghdad fell on April 9th. The statue came down. Mission accomplished, they said. Nobody had a plan for what came next, and what came next was an insurgency that would burn for eight years and cost 4,500 American lives.",
-    "belligerents": ["United States / Coalition", "Iraq (Ba'athist regime)"],
+    "belligerents": [
+      "United States / Coalition",
+      "Iraq (Ba'athist regime)"
+    ],
     "result": "Saddam Hussein's government toppled in 21 days; followed by prolonged insurgency",
-    "commanders": ["Gen Tommy Franks", "Saddam Hussein"],
+    "commanders": [
+      "Gen Tommy Franks",
+      "Saddam Hussein"
+    ],
     "warName": "Iraq War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Iraqi_Freedom_–_Invasion_of_Iraq"
   },
   {
     "id": "tora-bora",
     "name": "Battle of Tora Bora",
     "year": 2001,
     "era": "contemporary",
-    "location": { "lat": 34.0967, "lng": 70.2074 },
+    "location": {
+      "lat": 34.0967,
+      "lng": 70.2074
+    },
     "tier": 1,
     "description": "In December 2001, US intelligence tracked Osama bin Laden and several hundred al-Qaeda fighters to the Tora Bora cave complex in the White Mountains of eastern Afghanistan — a labyrinth of caves and tunnels at 14,000 feet that the mujahideen had used against the Soviets. Delta Force operators and CIA teams, numbering fewer than a hundred Americans, called in relentless airstrikes while relying on Afghan militia proxies to seal the escape routes into Pakistan. The Afghan fighters took bribes. The back door stayed open. Bin Laden walked across the border into Pakistan and disappeared for nearly ten years. The most wanted man on Earth, cornered in a hole in the mountains, and they let him go. The decision not to put a battalion of US troops on those mountain passes haunted the war for a decade. Everything that followed — the years of hunting, the expanded war in Pakistan, the raid in Abbottabad — traces back to those frozen mountains and the escape that shouldn't have happened.",
-    "belligerents": ["United States / Afghan militias", "al-Qaeda"],
+    "belligerents": [
+      "United States / Afghan militias",
+      "al-Qaeda"
+    ],
     "result": "Al-Qaeda forces dispersed; bin Laden escaped to Pakistan",
-    "commanders": ["CIA Gary Berntsen", "Osama bin Laden"],
+    "commanders": [
+      "CIA Gary Berntsen",
+      "Osama bin Laden"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Tora_Bora"
   },
   {
     "id": "roberts-ridge",
     "name": "Battle of Roberts Ridge (Takur Ghar)",
     "year": 2002,
     "era": "contemporary",
-    "location": { "lat": 33.3500, "lng": 69.1833 },
+    "location": {
+      "lat": 33.35,
+      "lng": 69.1833
+    },
     "tier": 2,
     "description": "On March 4, 2002, Navy SEAL Neil Roberts fell from a Chinook helicopter onto a 10,000-foot mountain peak crawling with al-Qaeda fighters and became the first SEAL killed in the Afghan war. What followed was eighteen hours of desperate fighting as rescue teams flew into a buzz saw trying to get him back. A quick reaction force of Army Rangers assaulted the peak under withering fire, their Chinook shot to pieces on approach. Seven Americans died on that mountain. Technician First Class Roberts fought alone on the peak for nearly an hour before he was killed. The men who went in after him knew what they were flying into — they'd watched the Predator feed — and they went anyway. That's the part that stays with you. They watched a man die on a screen, loaded onto helicopters, and flew straight into the same guns. Takur Ghar became a one-word gut check in the special operations community: Would you go?",
-    "belligerents": ["United States (Navy SEALs / Army Rangers)", "al-Qaeda"],
+    "belligerents": [
+      "United States (Navy SEALs / Army Rangers)",
+      "al-Qaeda"
+    ],
     "result": "7 Americans KIA; al-Qaeda position eventually overrun",
-    "commanders": ["PO1 Neil Roberts (KIA)", "Various al-Qaeda commanders"],
+    "commanders": [
+      "PO1 Neil Roberts (KIA)",
+      "Various al-Qaeda commanders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Roberts_Ridge_(Takur_Ghar)"
   },
   {
     "id": "lynch-convoy-ambush",
     "name": "Ambush of the 507th Maintenance Company",
     "year": 2003,
     "era": "contemporary",
-    "location": { "lat": 31.0500, "lng": 47.0000 },
+    "location": {
+      "lat": 31.05,
+      "lng": 47.0
+    },
     "tier": 2,
     "description": "On March 23, 2003, four days into the Iraq invasion, a convoy of support soldiers from the 507th Maintenance Company took a wrong turn in Nasiriyah and drove straight into an ambush. These weren't infantry — they were mechanics, cooks, and clerks in soft-skinned vehicles with weapons that jammed. Eleven soldiers were killed. Six were captured, including PFC Jessica Lynch, who was found nine days later in an Iraqi hospital with a shattered femur, broken arm, and broken ankle. The ambush laid bare a truth that the American public didn't want to hear: in this war, there was no front line. Every convoy was a combat patrol. Every supply clerk was a combatant. The soldiers of the 507th fought with what they had. Sergeant Donald Walters, originally misidentified in early reports, was killed fighting. PFC Lori Piestewa, a Hopi woman and mother of two, died of her injuries in captivity — the first Native American woman killed in combat on foreign soil.",
-    "belligerents": ["United States Army (507th Maintenance Co.)", "Iraqi Fedayeen / Iraqi Army"],
+    "belligerents": [
+      "United States Army (507th Maintenance Co.)",
+      "Iraqi Fedayeen / Iraqi Army"
+    ],
     "result": "11 US soldiers KIA, 6 captured (later rescued); convoy destroyed",
-    "commanders": ["Capt Troy King", "Iraqi irregular forces"],
+    "commanders": [
+      "Capt Troy King",
+      "Iraqi irregular forces"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Ambush_of_the_507th_Maintenance_Company"
   },
   {
     "id": "blackwater-bridge-fallujah",
     "name": "Blackwater Bridge Ambush — Fallujah",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 33.3500, "lng": 43.7833 },
+    "location": {
+      "lat": 33.35,
+      "lng": 43.7833
+    },
     "tier": 2,
     "description": "On March 31, 2004, four Blackwater private military contractors — Scott Helvenston, Jerry Zovko, Wesley Batalona, and Michael Teague — were ambushed in Fallujah. Their SUVs were riddled with gunfire, the occupants killed, and then the bodies were set on fire by a mob. Two of the charred corpses were hung from the old iron bridge over the Euphrates while crowds cheered and children threw rocks. The images went worldwide within hours. It was Mogadishu all over again — American bodies desecrated on camera. The political pressure was immediate and overwhelming. The US Marines, who had been planning a methodical approach to Fallujah, were ordered to assault the city. First Fallujah in April was a political disaster — started hard, halted halfway. Second Fallujah in November would become the bloodiest urban battle since Hue City. Four dead contractors on a bridge changed the entire trajectory of the Iraq War.",
-    "belligerents": ["Blackwater USA contractors / United States", "Iraqi insurgents"],
+    "belligerents": [
+      "Blackwater USA contractors / United States",
+      "Iraqi insurgents"
+    ],
     "result": "4 contractors KIA; triggered First and ultimately Second Battle of Fallujah",
-    "commanders": ["N/A", "Various insurgent leaders"],
+    "commanders": [
+      "N/A",
+      "Various insurgent leaders"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Blackwater_Bridge_Ambush_–_Fallujah"
   },
   {
     "id": "first-battle-of-fallujah",
     "name": "First Battle of Fallujah (Operation Vigilant Resolve)",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 33.3500, "lng": 43.7833 },
+    "location": {
+      "lat": 33.35,
+      "lng": 43.7833
+    },
     "tier": 2,
     "description": "In April 2004, Marines encircled Fallujah and began pushing into the city to root out the insurgents who had killed and mutilated the Blackwater contractors. House by house, block by block, in close urban combat that looked more like Stalingrad than a modern operation. Then politics intervened. Al Jazeera broadcast footage of civilian casualties, the Iraqi Governing Council threatened to dissolve, and the order came down to stop. The Marines, who were winning the fight on the ground, were told to pull back and hand security over to a hastily assembled 'Fallujah Brigade' of Iraqi forces — many of whom promptly joined the insurgency. The city became an insurgent fortress. The fighters inside declared victory. Every Marine who fought in April knew they'd be going back. The weapons they'd left with the Fallujah Brigade would be pointed at them when they did.",
-    "belligerents": ["United States Marines", "Iraqi insurgents / al-Qaeda in Iraq"],
+    "belligerents": [
+      "United States Marines",
+      "Iraqi insurgents / al-Qaeda in Iraq"
+    ],
     "result": "Halted by political order; city left under insurgent control",
-    "commanders": ["LtGen James Conway", "Various insurgent commanders"],
+    "commanders": [
+      "LtGen James Conway",
+      "Various insurgent commanders"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "First_Battle_of_Fallujah_(Operation_Vigilant_Resolve)"
   },
   {
     "id": "second-battle-of-fallujah",
     "name": "Second Battle of Fallujah (Operation Phantom Fury)",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 33.3500, "lng": 43.7833 },
+    "location": {
+      "lat": 33.35,
+      "lng": 43.7833
+    },
     "tier": 1,
     "description": "In November 2004, they went back. Ten thousand Marines, two thousand soldiers, and two thousand Iraqi troops assaulted Fallujah in the bloodiest urban battle the US military had fought since Hue City in 1968. The insurgents had spent seven months fortifying the city — IEDs in every doorway, sniper positions in every minaret, tunnels connecting houses, fighting positions in hospitals and mosques. The Marines went in building by building. Not with standoff weapons — with rifles and grenades and bayonets, clearing rooms where fighters waited with suicide vests. Ninety-five Americans were killed. Over five hundred wounded. An estimated 1,500 insurgents died. Sergeant Rafael Peralta, mortally wounded clearing a house, pulled an enemy grenade under his body to save the Marines behind him. The city was destroyed to be liberated. When it was over, the Marines owned a smoking ruin. Fallujah became the defining word for what this generation of Marines endured.",
-    "belligerents": ["United States Marines / US Army / Iraqi forces", "al-Qaeda in Iraq / Iraqi insurgents"],
+    "belligerents": [
+      "United States Marines / US Army / Iraqi forces",
+      "al-Qaeda in Iraq / Iraqi insurgents"
+    ],
     "result": "Decisive coalition victory; city recaptured after intense urban combat",
-    "commanders": ["LtGen John Sattler", "Abu Musab al-Zarqawi (overall insurgent leader)"],
+    "commanders": [
+      "LtGen John Sattler",
+      "Abu Musab al-Zarqawi (overall insurgent leader)"
+    ],
     "warName": "Iraq War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Second_Battle_of_Fallujah_(Operation_Phantom_Fury)"
   },
   {
     "id": "zarqawi-killed",
     "name": "Killing of Abu Musab al-Zarqawi",
     "year": 2006,
     "era": "contemporary",
-    "location": { "lat": 33.7469, "lng": 44.6484 },
+    "location": {
+      "lat": 33.7469,
+      "lng": 44.6484
+    },
     "tier": 1,
     "description": "For three years, Abu Musab al-Zarqawi was the most dangerous man in Iraq — a Jordanian thug turned jihadist who pioneered the beheading video, bombed the Golden Mosque in Samarra, and single-handedly ignited a sectarian civil war that killed tens of thousands. He personally sawed off Nick Berg's head on camera. He sent suicide bombers into wedding receptions and funerals. On June 7, 2006, after months of painstaking intelligence work, Task Force 145 tracked him to a safehouse near Baqubah. Two F-16s dropped 500-pound bombs on the building. When special operators reached the rubble, Zarqawi was still alive on a stretcher, mumbling, then died. The man who had made Iraq a charnel house was gone. But the organization he built — al-Qaeda in Iraq — would metastasize into something even worse. They'd rebrand themselves ISIS and take half the country eight years later.",
-    "belligerents": ["United States (Task Force 145 / USAF)", "al-Qaeda in Iraq"],
+    "belligerents": [
+      "United States (Task Force 145 / USAF)",
+      "al-Qaeda in Iraq"
+    ],
     "result": "Zarqawi killed; AQI temporarily disrupted but later reformed as ISIS",
-    "commanders": ["Gen Stanley McChrystal", "Abu Musab al-Zarqawi (KIA)"],
+    "commanders": [
+      "Gen Stanley McChrystal",
+      "Abu Musab al-Zarqawi (KIA)"
+    ],
     "warName": "Iraq War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Killing_of_Abu_Musab_al-Zarqawi"
   },
   {
     "id": "battle-of-ramadi",
     "name": "Battle of Ramadi",
     "year": 2006,
     "era": "contemporary",
-    "location": { "lat": 33.4200, "lng": 43.3000 },
+    "location": {
+      "lat": 33.42,
+      "lng": 43.3
+    },
     "tier": 2,
     "description": "Ramadi in 2006 was the most dangerous city on Earth. The capital of Anbar Province was an al-Qaeda stronghold where insurgents controlled entire neighborhoods, snipers owned the streets, and IEDs were planted faster than they could be cleared. The 1st Brigade, 1st Armored Division and SEAL Team Three — including Chris Kyle and Michael Monsoor — fought a grinding battle to reclaim the city one combat outpost at a time. On September 29, Petty Officer Michael Monsoor threw himself on a grenade to save his teammates on a rooftop overwatch position. He had a clear path to escape and chose not to take it. He received the Medal of Honor posthumously. The battle for Ramadi, combined with the Anbar Awakening — Sunni tribal leaders finally turning against al-Qaeda — became the template for the Surge. What the Marines and soldiers endured in Ramadi proved that the war could be won. For a while, it was.",
-    "belligerents": ["United States (Army / Navy SEALs / Marines)", "al-Qaeda in Iraq"],
+    "belligerents": [
+      "United States (Army / Navy SEALs / Marines)",
+      "al-Qaeda in Iraq"
+    ],
     "result": "Coalition victory; Anbar Awakening turned Sunni tribes against AQI",
-    "commanders": ["Col Sean MacFarland", "Various AQI commanders"],
+    "commanders": [
+      "Col Sean MacFarland",
+      "Various AQI commanders"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Ramadi"
   },
   {
     "id": "the-surge-iraq",
     "name": "The Surge — Iraq",
     "year": 2007,
     "era": "contemporary",
-    "location": { "lat": 33.3152, "lng": 44.3661 },
+    "location": {
+      "lat": 33.3152,
+      "lng": 44.3661
+    },
     "tier": 1,
     "description": "By late 2006, Iraq was lost. Sectarian death squads ran Baghdad. Bodies appeared on the streets every morning — drilled, tortured, dumped. Car bombs were a daily occurrence. The Baker-Hamilton Commission essentially recommended managed defeat. Instead, President Bush sent 30,000 more troops under General David Petraeus, who rewrote the playbook. American units moved out of the big bases and into the neighborhoods. They lived among the population. They cut deals with former insurgents through the Anbar Awakening. Special operations forces ran kill-capture raids every single night — JSOC under McChrystal was hitting multiple targets per evening, dismantling networks faster than they could reconstitute. By mid-2008, violence had dropped 80 percent. Baghdad was livable again. The Surge worked — it was the closest thing to a victory that Iraq ever produced. And then the question became: was anyone willing to stay long enough to keep it?",
-    "belligerents": ["United States / Iraqi Security Forces", "al-Qaeda in Iraq / Shia militias"],
+    "belligerents": [
+      "United States / Iraqi Security Forces",
+      "al-Qaeda in Iraq / Shia militias"
+    ],
     "result": "Violence reduced 80%; temporary stabilization of Iraq",
-    "commanders": ["Gen David Petraeus", "Various insurgent / militia leaders"],
+    "commanders": [
+      "Gen David Petraeus",
+      "Various insurgent / militia leaders"
+    ],
     "warName": "Iraq War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "The_Surge_–_Iraq"
   },
   {
     "id": "battle-of-wanat",
     "name": "Battle of Wanat",
     "year": 2008,
     "era": "contemporary",
-    "location": { "lat": 35.1714, "lng": 71.3447 },
+    "location": {
+      "lat": 35.1714,
+      "lng": 71.3447
+    },
     "tier": 2,
     "description": "On July 13, 2008, around 200 Taliban fighters attacked Vehicle Patrol Base Kahler and nearby Observation Post Topside near the village of Wanat in Nuristan Province. Forty-eight Americans and twenty-four Afghan soldiers were still building the outpost — the wire wasn't up, the fighting positions were half-dug, and the terrain gave the enemy the high ground on three sides. The attack hit at dawn with RPGs, machine guns, and fighters breaching the wire. At OP Topside, nine paratroopers were overrun. The fighting was hand-to-hand. Specialist Jason Bogar fired his weapon until it melted, then threw rocks. Nine Americans were killed, twenty-seven wounded — nearly the entire platoon was a casualty. The survivors held until Apache helicopters arrived and broke the assault. Wanat became a case study in what happens when you put a small unit in bad terrain with no time to prepare. The dead were 173rd Airborne. Chosen Company. They didn't have a chance and they fought anyway.",
-    "belligerents": ["United States Army (173rd Airborne)", "Taliban / Hezb-e-Islami Gulbuddin"],
+    "belligerents": [
+      "United States Army (173rd Airborne)",
+      "Taliban / Hezb-e-Islami Gulbuddin"
+    ],
     "result": "US held the position; 9 US KIA, 27 WIA; outpost abandoned days later",
-    "commanders": ["1LT Jonathan Brostrom (KIA)", "Taliban local commanders"],
+    "commanders": [
+      "1LT Jonathan Brostrom (KIA)",
+      "Taliban local commanders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Wanat"
   },
   {
     "id": "cop-keating",
     "name": "Battle of Kamdesh (COP Keating)",
     "year": 2009,
     "era": "contemporary",
-    "location": { "lat": 35.4000, "lng": 71.3333 },
+    "location": {
+      "lat": 35.4,
+      "lng": 71.3333
+    },
     "tier": 2,
     "description": "Combat Outpost Keating sat at the bottom of a valley in Nuristan Province, surrounded by mountains on three sides, like fighting from the bottom of a bowl. Everyone knew it was a deathtrap. The Army was already planning to close it. On October 3, 2009, before they could, 300 Taliban fighters poured down from the mountains at dawn. They breached the wire. They set buildings on fire. They got inside the outpost. Fifty-three Americans from B Troop, 3rd Squadron, 61st Cavalry fought for twelve hours to hold what should have been indefensible. Staff Sergeant Clinton Romesha led a counterattack to retake the outpost's entry point while wounded, calling in airstrikes danger close on his own position. Specialist Ty Carter ran through enemy fire repeatedly to rescue wounded soldiers and deliver ammunition. Both received the Medal of Honor — the first time since Vietnam that two living recipients came from the same battle. Eight Americans died. COP Keating was abandoned and bombed to rubble two days later. They died defending a position the Army had already decided wasn't worth keeping.",
-    "belligerents": ["United States Army (B Troop, 3-61 CAV)", "Taliban"],
+    "belligerents": [
+      "United States Army (B Troop, 3-61 CAV)",
+      "Taliban"
+    ],
     "result": "US held; 8 US KIA, 25 WIA; outpost closed and destroyed days later",
-    "commanders": ["SSG Clinton Romesha (MOH)", "Taliban local commanders"],
+    "commanders": [
+      "SSG Clinton Romesha (MOH)",
+      "Taliban local commanders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Kamdesh_(COP_Keating)"
   },
   {
     "id": "camp-chapman-attack",
     "name": "Camp Chapman Attack",
     "year": 2009,
     "era": "contemporary",
-    "location": { "lat": 33.8700, "lng": 69.9500 },
+    "location": {
+      "lat": 33.87,
+      "lng": 69.95
+    },
     "tier": 2,
     "description": "On December 30, 2009, a Jordanian doctor named Humam al-Balawi was brought onto Forward Operating Base Chapman in Khost Province, Afghanistan. The CIA believed he was their best source — a double agent who could lead them to Ayman al-Zawahiri. They were so confident that they skipped the vehicle search. They gathered the base's senior intelligence officers to meet him. Al-Balawi walked into the group and detonated his suicide vest. Seven CIA officers were killed, including the base chief, Jennifer Matthews, and the Jordanian intelligence handler. It was the deadliest day for the CIA since the 1983 Beirut embassy bombing. The Agency's best and brightest in the Afghan theater, wiped out in one second of misplaced trust. Al-Balawi had been turned by al-Qaeda. The intelligence he'd been feeding was real enough to build trust. The meeting was the payload. It was a masterclass in tradecraft — by the other side.",
-    "belligerents": ["CIA / United States", "al-Qaeda / Taliban (Haqqani network)"],
+    "belligerents": [
+      "CIA / United States",
+      "al-Qaeda / Taliban (Haqqani network)"
+    ],
     "result": "7 CIA officers killed, 6 wounded; deadliest CIA loss in decades",
-    "commanders": ["Jennifer Matthews (KIA)", "Humam al-Balawi (suicide bomber)"],
+    "commanders": [
+      "Jennifer Matthews (KIA)",
+      "Humam al-Balawi (suicide bomber)"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Camp_Chapman_Attack"
   },
   {
     "id": "bin-laden-raid",
     "name": "Operation Neptune Spear — Killing of Osama bin Laden",
     "year": 2011,
     "era": "contemporary",
-    "location": { "lat": 34.1688, "lng": 73.2425 },
+    "location": {
+      "lat": 34.1688,
+      "lng": 73.2425
+    },
     "tier": 1,
     "description": "For nine years, eight months, and twenty days after September 11th, they hunted him. The trail that went cold at Tora Bora was picked up again through a courier — Abu Ahmed al-Kuwaiti — whose movements the CIA tracked to a compound in Abbottabad, Pakistan, a mile from Pakistan's military academy. On May 2, 2011, twenty-three Navy SEALs from DEVGRU flew two stealth Black Hawks across the Pakistani border without permission. One helicopter crashed in the compound courtyard — the mission nearly ended right there. The SEALs adapted and went in anyway. Room by room, floor by floor, up the stairs to the third floor. Bin Laden was shot and killed. 'Geronimo — EKIA.' In the White House Situation Room, the President and his team watched the feed in silence. There was no celebration. Just relief. The architect of 9/11, the man who changed the trajectory of a generation, was dead on a floor in Pakistan. They buried him at sea before dawn. The war didn't end. But something closed.",
-    "belligerents": ["United States (DEVGRU / CIA)", "al-Qaeda"],
+    "belligerents": [
+      "United States (DEVGRU / CIA)",
+      "al-Qaeda"
+    ],
     "result": "Osama bin Laden killed",
-    "commanders": ["VADM William McRaven", "Osama bin Laden (KIA)"],
+    "commanders": [
+      "VADM William McRaven",
+      "Osama bin Laden (KIA)"
+    ],
     "warName": "Global War on Terror",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Neptune_Spear_–_Killing_of_Osama_bin_Laden"
   },
   {
     "id": "extortion-17",
     "name": "Extortion 17 Shootdown",
     "year": 2011,
     "era": "contemporary",
-    "location": { "lat": 34.5100, "lng": 68.8700 },
+    "location": {
+      "lat": 34.51,
+      "lng": 68.87
+    },
     "tier": 1,
     "description": "On August 6, 2011, three months after the bin Laden raid, a CH-47D Chinook helicopter call sign Extortion 17 was shot down by an RPG in the Tangi Valley of Wardak Province. Thirty Americans died — seventeen of them Navy SEALs from the same unit that killed bin Laden, plus five Naval Special Warfare support personnel, three Air Force special tactics airmen, and five Army crew members. Five Afghan commandos and an Afghan interpreter were also killed. It was the single deadliest day for American forces in the entire Afghan war. Thirty-eight dead in a flash of light and falling metal. The Chinook was flying a quick reaction force to support an ongoing Army Ranger operation. Taliban fighters had been watching the landing zone. One man with a $100 rocket-propelled grenade killed more Americans in one second than al-Qaeda had in most entire years of the war. Gold Star families got the notification visits that night. Thirty of them. In one night.",
-    "belligerents": ["United States (Navy SEALs / Army / Air Force)", "Taliban"],
+    "belligerents": [
+      "United States (Navy SEALs / Army / Air Force)",
+      "Taliban"
+    ],
     "result": "38 killed (30 Americans) — deadliest single incident for US in Afghan war",
-    "commanders": ["Various US commanders", "Taliban local fighters"],
+    "commanders": [
+      "Various US commanders",
+      "Taliban local fighters"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Extortion_17_Shootdown"
   },
   {
     "id": "al-awlaki-killed",
     "name": "Killing of Anwar al-Awlaki",
     "year": 2011,
     "era": "contemporary",
-    "location": { "lat": 15.5007, "lng": 47.0000 },
+    "location": {
+      "lat": 15.5007,
+      "lng": 47.0
+    },
     "tier": 2,
     "description": "On September 30, 2011, a CIA drone strike in Yemen's Al Jawf governorate killed Anwar al-Awlaki, the American-born radical cleric who had become al-Qaeda in the Arabian Peninsula's most effective recruiter and operational planner. Born in New Mexico, educated at Colorado State and San Diego State, he spoke perfect English and used YouTube and the internet to radicalize a generation of Western jihadists. He inspired the Fort Hood shooter, the underwear bomber, the Charlie Hebdo attackers. He was the first American citizen deliberately targeted and killed by the US government without trial. The legal and moral questions were enormous and remain unsettled. His sixteen-year-old son, Abdulrahman — also an American citizen — was killed in a separate drone strike two weeks later. The GWOT had reached the point where the United States was executing its own citizens from the sky in countries it wasn't officially at war with. No one had planned for that on September 12, 2001.",
-    "belligerents": ["United States (CIA)", "al-Qaeda in the Arabian Peninsula"],
+    "belligerents": [
+      "United States (CIA)",
+      "al-Qaeda in the Arabian Peninsula"
+    ],
     "result": "Awlaki killed; raised lasting legal questions about extrajudicial killing of US citizens",
-    "commanders": ["CIA / JSOC", "Anwar al-Awlaki (KIA)"],
+    "commanders": [
+      "CIA / JSOC",
+      "Anwar al-Awlaki (KIA)"
+    ],
     "warName": "Global War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Killing_of_Anwar_al-Awlaki"
   },
   {
     "id": "iraq-withdrawal-2011",
     "name": "US Withdrawal from Iraq",
     "year": 2011,
     "era": "contemporary",
-    "location": { "lat": 30.0500, "lng": 47.9500 },
+    "location": {
+      "lat": 30.05,
+      "lng": 47.95
+    },
     "tier": 1,
     "description": "On December 18, 2011, the last American combat convoy — a column of armored MRAPs from the 3rd Brigade, 1st Cavalry Division — crossed the berm at the Khabari Crossing into Kuwait. They drove through the night to avoid attacks. Behind them: 4,487 Americans dead, over 32,000 wounded, hundreds of thousands of Iraqis killed, a trillion dollars spent, and a country that was fragile, fractured, and unsure of what it was. The Status of Forces Agreement had expired. The Iraqi government wouldn't grant immunity to US troops. So they left. Soldiers who had bled for Ramadi and Fallujah and Baghdad watched from home as the country they'd fought for slid toward the cliff. The Surge had worked, but no one stayed to hold the gains. The vacuum they left behind would be filled in three years by a group nobody had heard of yet — the Islamic State. Every Gold Star family was left with the same question: was it worth it? Nobody in Washington could answer.",
-    "belligerents": ["United States", "N/A"],
+    "belligerents": [
+      "United States",
+      "N/A"
+    ],
     "result": "Complete US military withdrawal from Iraq; gains subsequently eroded",
-    "commanders": ["Gen Lloyd Austin", "N/A"],
+    "commanders": [
+      "Gen Lloyd Austin",
+      "N/A"
+    ],
     "warName": "Iraq War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "US_Withdrawal_from_Iraq"
   },
   {
     "id": "benghazi-attack",
     "name": "Benghazi Attack",
     "year": 2012,
     "era": "contemporary",
-    "location": { "lat": 32.1160, "lng": 20.0686 },
+    "location": {
+      "lat": 32.116,
+      "lng": 20.0686
+    },
     "tier": 2,
     "description": "On the eleventh anniversary of 9/11, Ansar al-Sharia militants stormed the US diplomatic compound in Benghazi, Libya with RPGs, machine guns, and mortars. Ambassador Chris Stevens and State Department officer Sean Smith were killed in the initial assault when the safe room filled with diesel smoke from fires the attackers set. Stevens was the first US ambassador killed in the line of duty since 1979. Hours later, a second attack hit the CIA annex a mile away. Former Navy SEALs Tyrone Woods and Glen Doherty — CIA contractors who had rushed to help — were killed by mortar fire on the annex roof while defending the facility. They had gone to the compound against orders to rescue survivors, then fought through the night at the annex. No military rescue force arrived. The politics consumed Washington for years afterward. But in Benghazi that night, four Americans died — two of them running toward the guns because that's what they did.",
-    "belligerents": ["United States (State Department / CIA)", "Ansar al-Sharia"],
+    "belligerents": [
+      "United States (State Department / CIA)",
+      "Ansar al-Sharia"
+    ],
     "result": "4 Americans KIA including Ambassador Stevens; compound destroyed",
-    "commanders": ["Ambassador Chris Stevens (KIA)", "Ahmed Abu Khattala"],
+    "commanders": [
+      "Ambassador Chris Stevens (KIA)",
+      "Ahmed Abu Khattala"
+    ],
     "warName": "Global War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Benghazi_Attack"
   },
   {
     "id": "camp-bastion-attack",
     "name": "Camp Bastion Attack",
     "year": 2012,
     "era": "contemporary",
-    "location": { "lat": 31.5500, "lng": 64.2333 },
+    "location": {
+      "lat": 31.55,
+      "lng": 64.2333
+    },
     "tier": 3,
     "description": "On September 14, 2012, fifteen Taliban fighters wearing US Army uniforms breached the perimeter wire at Camp Bastion in Helmand Province — one of the largest and supposedly most secure bases in Afghanistan. They split into three teams and attacked the airfield with RPGs, automatic weapons, and suicide vests. They destroyed six AV-8B Harrier jets — $200 million in aircraft — and damaged two more, effectively crippling the Marine Harrier squadron. It was the worst loss of US military aircraft on the ground since the Tet Offensive in 1968. Lieutenant Colonel Christopher Raible, the Harrier squadron commander, and Sergeant Bradley Atwell were killed fighting the attackers on the flight line. Raible grabbed a rifle and charged into the fight to protect his Marines and his aircraft. The attack lasted four hours. Fourteen of the fifteen attackers were killed, one captured. The Taliban had walked through the wire of a major coalition base. Nowhere was safe.",
-    "belligerents": ["United States Marines / NATO", "Taliban"],
+    "belligerents": [
+      "United States Marines / NATO",
+      "Taliban"
+    ],
     "result": "2 Marines KIA; 6 Harrier jets destroyed; 14 of 15 attackers killed",
-    "commanders": ["LtCol Christopher Raible (KIA)", "Taliban local commanders"],
+    "commanders": [
+      "LtCol Christopher Raible (KIA)",
+      "Taliban local commanders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Camp_Bastion_Attack"
   },
   {
     "id": "fall-of-mosul",
     "name": "Fall of Mosul to ISIS",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 36.3400, "lng": 43.1300 },
+    "location": {
+      "lat": 36.34,
+      "lng": 43.13
+    },
     "tier": 1,
     "description": "In June 2014, approximately 1,500 ISIS fighters rolled into Mosul — Iraq's second-largest city — and 30,000 Iraqi Army soldiers dropped their American-supplied weapons, stripped off their uniforms, and ran. Four divisions dissolved overnight. Billions of dollars in US military equipment — Humvees, MRAPs, artillery pieces, ammunition — fell into ISIS hands. The Iraqi Army that the United States had spent eight years and $25 billion building evaporated like smoke. ISIS declared a caliphate from the Grand al-Nuri Mosque. Their black flags flew over a city of two million people. For every American who had served in Iraq, who had trained those units, who had fought and bled and lost friends building an Iraqi military, it was a gut punch beyond words. Everything. All of it. Every patrol, every firefight, every friend killed — and thirty thousand soldiers ran from fifteen hundred fanatics. The war wasn't over. It had never ended. It had just been waiting.",
-    "belligerents": ["Islamic State (ISIS)", "Iraqi Security Forces"],
+    "belligerents": [
+      "Islamic State (ISIS)",
+      "Iraqi Security Forces"
+    ],
     "result": "ISIS captured Mosul; Iraqi Army routed; caliphate declared",
-    "commanders": ["Abu Bakr al-Baghdadi", "Various Iraqi commanders (fled)"],
+    "commanders": [
+      "Abu Bakr al-Baghdadi",
+      "Various Iraqi commanders (fled)"
+    ],
     "warName": "Iraq War / War against ISIS",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Mosul_to_ISIS"
   },
   {
     "id": "battle-of-kobani",
     "name": "Siege of Kobani",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 36.8910, "lng": 38.3535 },
+    "location": {
+      "lat": 36.891,
+      "lng": 38.3535
+    },
     "tier": 2,
     "description": "In September 2014, ISIS besieged Kobani, a Kurdish city on the Syrian-Turkish border, with tanks, artillery, and thousands of fighters fresh from their conquests in Iraq. Turkish citizens stood on hilltops across the border and watched the city burn in real time. The world watched on CNN. Kurdish YPG fighters — men and women, some teenagers — held on with small arms and determination while the US Air Force dropped bomb after bomb on ISIS positions sometimes just meters from the defenders. It was Stalingrad with smart bombs. For four months, block by block, building by building, the Kurds and American airpower ground ISIS down. By January 2015, ISIS was driven out. Kobani proved ISIS could be beaten. It also proved that the Kurds — whom everyone had abandoned before — were the only ones on the ground willing to fight and die to stop the caliphate. That alliance would shape the rest of the war. And then America would abandon them, too.",
-    "belligerents": ["Kurdish YPG/YPJ / US Air Force", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Kurdish YPG/YPJ / US Air Force",
+      "Islamic State (ISIS)"
+    ],
     "result": "ISIS defeated after 4-month siege; turning point against the caliphate",
-    "commanders": ["Kurdish YPG commanders", "Various ISIS commanders"],
+    "commanders": [
+      "Kurdish YPG commanders",
+      "Various ISIS commanders"
+    ],
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Kobani"
   },
   {
     "id": "battle-of-mosul",
     "name": "Battle of Mosul (Liberation)",
     "year": 2016,
     "era": "contemporary",
-    "location": { "lat": 36.3400, "lng": 43.1300 },
+    "location": {
+      "lat": 36.34,
+      "lng": 43.13
+    },
     "tier": 1,
     "description": "The operation to retake Mosul from ISIS began in October 2016 and became the largest military operation in Iraq since the 2003 invasion. One hundred thousand Iraqi troops, Kurdish Peshmerga, and Shia militia forces, backed by US special operations advisors and relentless coalition airpower, fought to liberate a city of nearly two million people that ISIS had held for over two years. The east side took three months. The west side — the old city with its narrow streets and ancient buildings — took another five months of fighting that destroyed entire neighborhoods. ISIS used human shields, car bombs, tunnels, and snipers. The Iraqi Counter-Terrorism Service, the Golden Division, fought with extraordinary courage and took devastating casualties. When it was finally declared liberated in July 2017, the old city was rubble. The Great Mosque of al-Nuri, where Baghdadi had declared his caliphate, had been blown up by ISIS as they retreated. An estimated 40,000 civilians were killed.",
-    "belligerents": ["Iraqi Security Forces / Kurdish Peshmerga / US-led Coalition", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Iraqi Security Forces / Kurdish Peshmerga / US-led Coalition",
+      "Islamic State (ISIS)"
+    ],
     "result": "Mosul liberated after 9 months; ISIS caliphate broken; city devastated",
-    "commanders": ["Lt Gen Abdul Amir Yarallah / US advisors", "Various ISIS commanders"],
+    "commanders": [
+      "Lt Gen Abdul Amir Yarallah / US advisors",
+      "Various ISIS commanders"
+    ],
     "warName": "War against ISIS",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Mosul_(Liberation)"
   },
   {
     "id": "jihadi-john-killed",
     "name": "Killing of Jihadi John (Mohammed Emwazi)",
     "year": 2015,
     "era": "contemporary",
-    "location": { "lat": 35.9500, "lng": 39.0167 },
+    "location": {
+      "lat": 35.95,
+      "lng": 39.0167
+    },
     "tier": 3,
     "description": "On November 12, 2015, a US drone strike in Raqqa, Syria vaporized a vehicle carrying Mohammed Emwazi — known to the world as Jihadi John. The British-Kuwaiti ISIS executioner had appeared in multiple hostage beheading videos, always dressed in black, face covered, speaking in a London accent while he murdered journalists James Foley, Steven Sotloff, David Haines, Alan Henning, Peter Kassig, and Japanese hostages Kenji Goto and Haruna Yukawa. His videos were designed to terrify the Western world, and they worked. He became the most recognizable face of ISIS's savagery — a face nobody had actually seen. When the drone found him, he was walking to a vehicle in downtown Raqqa. The Hellfire missile didn't leave much to identify. The man who had stood over bound prisoners and lectured the camera while holding a knife was reduced to DNA fragments. The hostage families got a phone call. It wasn't justice. But it was something.",
-    "belligerents": ["United States (USAF / JSOC)", "Islamic State (ISIS)"],
+    "belligerents": [
+      "United States (USAF / JSOC)",
+      "Islamic State (ISIS)"
+    ],
     "result": "Mohammed Emwazi killed in drone strike",
-    "commanders": ["JSOC / CIA targeting", "Mohammed Emwazi (KIA)"],
+    "commanders": [
+      "JSOC / CIA targeting",
+      "Mohammed Emwazi (KIA)"
+    ],
     "warName": "War against ISIS",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Killing_of_Jihadi_John_(Mohammed_Emwazi)"
   },
   {
     "id": "al-shishani-killed",
     "name": "Killing of Abu Omar al-Shishani",
     "year": 2016,
     "era": "contemporary",
-    "location": { "lat": 35.7500, "lng": 39.2000 },
+    "location": {
+      "lat": 35.75,
+      "lng": 39.2
+    },
     "tier": 3,
     "description": "In March 2016, a US airstrike targeted Abu Omar al-Shishani — 'Omar the Chechen' — the red-bearded Georgian former soldier who had become ISIS's most effective military commander. A veteran of the 2008 Russo-Georgian War, Shishani brought actual conventional military experience to an organization that mostly ran on fanaticism and car bombs. He planned and led major ISIS offensives across Syria and Iraq, and the Pentagon called him their 'minister of war.' He was critically wounded in the airstrike near al-Shaddadi, Syria and died of his injuries in July 2016. Shishani represented the most dangerous type of foreign fighter — not a radicalized amateur, but a trained soldier who knew how to plan operations, move forces, and exploit terrain. His death degraded ISIS's military capability at a critical moment, when the coalition was preparing the campaigns to retake Mosul and Raqqa.",
-    "belligerents": ["United States (USAF)", "Islamic State (ISIS)"],
+    "belligerents": [
+      "United States (USAF)",
+      "Islamic State (ISIS)"
+    ],
     "result": "Al-Shishani killed; ISIS military leadership degraded",
-    "commanders": ["US CENTCOM", "Abu Omar al-Shishani (KIA)"],
+    "commanders": [
+      "US CENTCOM",
+      "Abu Omar al-Shishani (KIA)"
+    ],
     "warName": "War against ISIS",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Killing_of_Abu_Omar_al-Shishani"
   },
   {
     "id": "tongo-tongo-ambush",
     "name": "Tongo Tongo Ambush (Niger)",
     "year": 2017,
     "era": "contemporary",
-    "location": { "lat": 14.9667, "lng": 1.0667 },
+    "location": {
+      "lat": 14.9667,
+      "lng": 1.0667
+    },
     "tier": 2,
     "description": "On October 4, 2017, a twelve-man US Special Forces team and thirty Nigerien soldiers were ambushed by fifty ISIS-Greater Sahara fighters near the village of Tongo Tongo in southwestern Niger. The patrol had been sent on a reconnaissance mission near the Mali border in unarmored trucks. When the ambush hit, they were outgunned and outmaneuvered in open terrain with no air support for over an hour. Staff Sergeant Bryan Black, Staff Sergeant Jeremiah Johnson, Staff Sergeant Dustin Wright, and Sergeant La David Johnson were killed. Sgt. Johnson's body was not recovered for nearly 48 hours. Most Americans didn't even know US troops were in Niger. The ambush exposed how far the war on terror had spread — quiet deployments across Africa, small teams in remote places, advise-and-assist missions that could turn lethal in seconds. Four men died in a country most people couldn't find on a map, fighting an enemy most people didn't know existed, in a war that had no name and no end.",
-    "belligerents": ["United States Special Forces / Nigerien Armed Forces", "ISIS-Greater Sahara"],
+    "belligerents": [
+      "United States Special Forces / Nigerien Armed Forces",
+      "ISIS-Greater Sahara"
+    ],
     "result": "4 US soldiers KIA, 2 wounded; 5 Nigerien soldiers KIA",
-    "commanders": ["Capt Michael Perozeni", "Adnan Abu Walid al-Sahrawi"],
+    "commanders": [
+      "Capt Michael Perozeni",
+      "Adnan Abu Walid al-Sahrawi"
+    ],
     "warName": "Global War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Tongo_Tongo_Ambush_(Niger)"
   },
   {
     "id": "baghdadi-raid",
     "name": "Killing of Abu Bakr al-Baghdadi",
     "year": 2019,
     "era": "contemporary",
-    "location": { "lat": 36.2150, "lng": 36.6325 },
+    "location": {
+      "lat": 36.215,
+      "lng": 36.6325
+    },
     "tier": 1,
     "description": "On October 26, 2019, Delta Force operators flew eight helicopters into Barisha, Syria — deep into Idlib Province, controlled by al-Qaeda-linked groups — to kill the man who had declared himself caliph of the Islamic State. Abu Bakr al-Baghdadi, who had stood in the pulpit of Mosul's Great Mosque in 2014 and proclaimed dominion over all Muslims, was cornered in a tunnel beneath a compound. He detonated a suicide vest, killing himself and three of his children. The operators' military working dog, Conan, chased him into the tunnel. The raid required flying through Russian and Turkish-controlled airspace, deconflicting with multiple hostile parties, and hitting a target in territory where everyone on the ground was an enemy. Baghdadi had overseen a reign of genocide against the Yazidis, systematic rape slavery, mass executions, and the destruction of civilizations that had existed for millennia. He died in a hole, covered in rubble, wearing a suicide vest. The caliphate died in a tunnel.",
-    "belligerents": ["United States (Delta Force / JSOC)", "Islamic State (ISIS)"],
+    "belligerents": [
+      "United States (Delta Force / JSOC)",
+      "Islamic State (ISIS)"
+    ],
     "result": "Al-Baghdadi killed via suicide vest detonation during raid",
-    "commanders": ["Gen Kenneth McKenzie", "Abu Bakr al-Baghdadi (KIA)"],
+    "commanders": [
+      "Gen Kenneth McKenzie",
+      "Abu Bakr al-Baghdadi (KIA)"
+    ],
     "warName": "War against ISIS",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Killing_of_Abu_Bakr_al-Baghdadi"
   },
   {
     "id": "soleimani-killed",
     "name": "Killing of Qasem Soleimani",
     "year": 2020,
     "era": "contemporary",
-    "location": { "lat": 33.2625, "lng": 44.2346 },
+    "location": {
+      "lat": 33.2625,
+      "lng": 44.2346
+    },
     "tier": 1,
     "description": "On January 3, 2020, an MQ-9 Reaper drone fired missiles at a two-vehicle convoy leaving Baghdad International Airport, killing Major General Qasem Soleimani, commander of Iran's Islamic Revolutionary Guard Corps Quds Force. Soleimani was not a terrorist hiding in a cave. He was the second most powerful man in Iran, a government official who operated openly, and arguably the most consequential military figure in the Middle East for two decades. His Quds Force armed and directed Shia militias across Iraq, Syria, Lebanon, and Yemen. The EFPs — explosively formed penetrators — that he supplied to Iraqi militias killed over 600 American service members during the Iraq War. Six hundred. He attended meetings with heads of state. He posted selfies near front lines. And then a Hellfire missile turned his vehicle into scrap metal on an airport access road. The strike nearly started a war with Iran. Tehran responded by firing ballistic missiles at Al Asad Air Base in Iraq, causing over a hundred traumatic brain injuries. The escalation ladder swayed and held. Barely.",
-    "belligerents": ["United States (JSOC / USAF)", "Iran (IRGC Quds Force)"],
+    "belligerents": [
+      "United States (JSOC / USAF)",
+      "Iran (IRGC Quds Force)"
+    ],
     "result": "Soleimani killed; Iran retaliated with ballistic missile strike on Al Asad",
-    "commanders": ["President Donald Trump (ordered strike)", "Qasem Soleimani (KIA)"],
+    "commanders": [
+      "President Donald Trump (ordered strike)",
+      "Qasem Soleimani (KIA)"
+    ],
     "warName": "Global War on Terror",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Killing_of_Qasem_Soleimani"
   },
   {
     "id": "fall-of-kabul",
     "name": "Fall of Kabul",
     "year": 2021,
     "era": "contemporary",
-    "location": { "lat": 34.5553, "lng": 69.2075 },
+    "location": {
+      "lat": 34.5553,
+      "lng": 69.2075
+    },
     "tier": 1,
     "description": "On August 15, 2021, the Taliban walked into the Afghan presidential palace in Kabul without firing a shot. President Ashraf Ghani had fled the country with suitcases of cash. The Afghan National Army — 300,000 strong on paper, trained and equipped by the United States for twenty years at a cost of $83 billion — collapsed in eleven days. Provincial capitals fell like dominos. Soldiers surrendered en masse. The Taliban fighters who rode into Kabul on motorcycles and Humvees were the sons of the men America had driven out in 2001. At Hamid Karzai International Airport, thousands of Afghans mobbed the runway in panic. A C-17 taxied through a crowd and took off with 640 people crammed inside. People clung to the landing gear as it lifted off. They fell from the sky. The footage played on every screen in every living room in America, and every veteran of Afghanistan watched twenty years of war evaporate in an afternoon. Everything they fought for. Everyone they lost. Every promise made to the interpreters, the women, the allies. Gone.",
-    "belligerents": ["Taliban", "Islamic Republic of Afghanistan / United States"],
+    "belligerents": [
+      "Taliban",
+      "Islamic Republic of Afghanistan / United States"
+    ],
     "result": "Taliban seized control of Afghanistan; US-backed government collapsed",
-    "commanders": ["Mullah Abdul Ghani Baradar", "President Ashraf Ghani (fled)"],
+    "commanders": [
+      "Mullah Abdul Ghani Baradar",
+      "President Ashraf Ghani (fled)"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Kabul"
   },
   {
     "id": "abbey-gate-bombing",
     "name": "Abbey Gate Bombing — Kabul Airport",
     "year": 2021,
     "era": "contemporary",
-    "location": { "lat": 34.5658, "lng": 69.2124 },
+    "location": {
+      "lat": 34.5658,
+      "lng": 69.2124
+    },
     "tier": 1,
     "description": "On August 26, 2021, eleven days after the fall of Kabul, an ISIS-K suicide bomber detonated in the crowd at Abbey Gate of Hamid Karzai International Airport. The blast killed thirteen US service members and at least 170 Afghan civilians who were desperately trying to get through the gate and onto evacuation flights. The dead Americans were: Marine Staff Sergeant Darin Taylor Hoover, 31. Marine Sergeant Johanny Rosario Pichardo, 25. Marine Sergeant Nicole Gee, 23 — who had posted a photo days earlier cradling an Afghan baby with the caption 'I love my job.' Marine Corporal Hunter Lopez, 22. Marine Corporal Daegan Page, 23. Marine Corporal Humberto Sanchez, 22. Marine Lance Corporal David Espinoza, 20. Marine Lance Corporal Jared Schmitz, 20. Marine Lance Corporal Dylan Merola, 20. Marine Lance Corporal Kareem Nikoui, 20. Marine Lance Corporal Rylee McCollum, 20 — whose wife was pregnant with their first child. Navy Hospital Corpsman Third Class Maxton Soviak, 22. Army Staff Sergeant Ryan Knauss, 23. They were the last Americans to die in the twenty-year war in Afghanistan. Most of them were infants on September 11, 2001. They were born into a war they didn't start, sent to end a war their country had already decided to leave, and died at a gate trying to save people their government had promised to protect. Remember their names. All thirteen of them.",
-    "belligerents": ["United States (Marines / Navy / Army)", "ISIS-Khorasan"],
+    "belligerents": [
+      "United States (Marines / Navy / Army)",
+      "ISIS-Khorasan"
+    ],
     "result": "13 US service members KIA, 18 wounded; 170+ Afghan civilians killed",
-    "commanders": ["Gen Kenneth McKenzie", "ISIS-K (Abdul Rahman al-Logari, claimed)"],
+    "commanders": [
+      "Gen Kenneth McKenzie",
+      "ISIS-K (Abdul Rahman al-Logari, claimed)"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Abbey_Gate_Bombing_–_Kabul_Airport"
   },
   {
     "id": "al-qurayshi-raid",
     "name": "Raid on Abu Ibrahim al-Hashimi al-Qurayshi",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 36.2333, "lng": 36.6500 },
+    "location": {
+      "lat": 36.2333,
+      "lng": 36.65
+    },
     "tier": 2,
     "description": "On February 3, 2022, US Special Operations forces conducted a helicopter raid on a residential building in the village of Atme in northwestern Syria — the same Idlib Province where Baghdadi had been killed two years earlier. The target was Abu Ibrahim al-Hashimi al-Qurayshi, the ISIS leader who had succeeded Baghdadi and continued directing global terror operations from hiding. As operators approached the third floor, al-Qurayshi detonated a suicide vest, killing himself and members of his family, including children. The blast was so powerful it blew bodies into the street below. Thirteen people died in the building, most of them civilians, including six children — a fact that generated significant controversy. No US forces were killed, though a helicopter had a mechanical failure and had to be destroyed on site. Another ISIS leader, another compound, another explosion, another death in Idlib. The war on terror had become a repeating loop: find them, kill them, name their replacement, start hunting again.",
-    "belligerents": ["United States (JSOC / Special Operations)", "Islamic State (ISIS)"],
+    "belligerents": [
+      "United States (JSOC / Special Operations)",
+      "Islamic State (ISIS)"
+    ],
     "result": "Al-Qurayshi killed via suicide vest; significant civilian casualties",
-    "commanders": ["President Joe Biden (ordered raid)", "Abu Ibrahim al-Hashimi al-Qurayshi (KIA)"],
+    "commanders": [
+      "President Joe Biden (ordered raid)",
+      "Abu Ibrahim al-Hashimi al-Qurayshi (KIA)"
+    ],
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Raid_on_Abu_Ibrahim_al-Hashimi_al-Qurayshi"
   },
   {
     "id": "al-zawahiri-killed",
     "name": "Killing of Ayman al-Zawahiri",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 34.5281, "lng": 69.1723 },
+    "location": {
+      "lat": 34.5281,
+      "lng": 69.1723
+    },
     "tier": 1,
     "description": "On July 31, 2022, a CIA drone fired two Hellfire R9X missiles — the 'flying Ginsu' with deployable blades instead of explosives — at the balcony of a safehouse in the Sherpur neighborhood of Kabul. Ayman al-Zawahiri, the Egyptian surgeon who co-founded al-Qaeda with bin Laden, who helped plan 9/11 and the embassy bombings, who had led the organization for eleven years after Abbottabad, was killed standing on his balcony. No one else in the building was harmed. The precision was surgical in a way that the word is rarely accurate. Zawahiri had been living openly in downtown Kabul — in a house owned by a senior Haqqani network figure — less than a year after the Taliban promised the world that Afghanistan would not harbor terrorists. The irony was crushing. Twenty-one years after the US invaded Afghanistan to destroy al-Qaeda's leadership, America killed al-Qaeda's leader in Kabul, in a Taliban-controlled Afghanistan. A full circle that proved nothing had changed.",
-    "belligerents": ["United States (CIA)", "al-Qaeda"],
+    "belligerents": [
+      "United States (CIA)",
+      "al-Qaeda"
+    ],
     "result": "Al-Zawahiri killed; no collateral damage",
-    "commanders": ["CIA / President Joe Biden", "Ayman al-Zawahiri (KIA)"],
+    "commanders": [
+      "CIA / President Joe Biden",
+      "Ayman al-Zawahiri (KIA)"
+    ],
     "warName": "Global War on Terror",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Killing_of_Ayman_al-Zawahiri"
   },
   {
     "id": "battle-of-sadr-city",
     "name": "Battle of Sadr City",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 33.3800, "lng": 44.4300 },
+    "location": {
+      "lat": 33.38,
+      "lng": 44.43
+    },
     "tier": 2,
     "description": "In April 2004, while Fallujah burned in the west, a second front exploded in eastern Baghdad. Muqtada al-Sadr's Mahdi Army — thousands of Shia militia fighters — rose up across southern Iraq and in their stronghold of Sadr City, a teeming slum of 2.5 million people in Baghdad. For the soldiers of the 1st Cavalry Division, it was a nightmare: urban warfare in a dense civilian area against fighters who knew every alley, rooftop, and sewer tunnel. The fighting raged for months across multiple rotations, reaching a crescendo in 2008 when the Iraqi Army, backed by US forces, finally pushed into the district. American soldiers built a concrete wall across the southern edge of Sadr City under fire — literally constructing a barrier while snipers and RPGs targeted the cranes and trucks. The Mahdi Army eventually stood down, but Sadr City never really submitted. It was a war within the war, and the Shia militias backed by Iran would become as dangerous as al-Qaeda ever was.",
-    "belligerents": ["United States Army / Iraqi Security Forces", "Mahdi Army (Muqtada al-Sadr)"],
+    "belligerents": [
+      "United States Army / Iraqi Security Forces",
+      "Mahdi Army (Muqtada al-Sadr)"
+    ],
     "result": "Militia uprisings suppressed; Sadr City remained contested throughout the war",
-    "commanders": ["Various US commanders", "Muqtada al-Sadr"],
+    "commanders": [
+      "Various US commanders",
+      "Muqtada al-Sadr"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sadr_City"
   },
   {
     "id": "battle-of-marjah",
     "name": "Battle of Marjah (Operation Moshtarak)",
     "year": 2010,
     "era": "contemporary",
-    "location": { "lat": 31.5214, "lng": 64.1167 },
+    "location": {
+      "lat": 31.5214,
+      "lng": 64.1167
+    },
     "tier": 2,
     "description": "In February 2010, fifteen thousand US Marines, British troops, and Afghan soldiers launched the largest combined operation of the Afghan war into the Taliban stronghold of Marjah in Helmand Province. General McChrystal called it a 'government in a box' — the idea was to clear the town and immediately install governance and services. The Marines went in by helicopter and on foot into a landscape seeded with thousands of IEDs. Helmand was the poppy capital of the world, and the Taliban defended it like it was their treasury, because it was. Every footstep could be your last. Every compound could be wired. Marines cleared fields where the IED density was so high that engineers marked safe lanes with spray paint inches wide. The operation was declared a success, but Marjah never stabilized. The 'government in a box' never materialized. The Taliban waited, blended in, and came back. It was a microcosm of the entire Afghan war — clear, hold, build, leave, watch it revert.",
-    "belligerents": ["United States Marines / British forces / Afghan National Army", "Taliban"],
+    "belligerents": [
+      "United States Marines / British forces / Afghan National Army",
+      "Taliban"
+    ],
     "result": "Town cleared but never fully stabilized; Taliban eventually returned",
-    "commanders": ["Gen Stanley McChrystal / BGen Larry Nicholson", "Taliban local commanders"],
+    "commanders": [
+      "Gen Stanley McChrystal / BGen Larry Nicholson",
+      "Taliban local commanders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Marjah_(Operation_Moshtarak)"
   },
   {
     "id": "operation-red-wings",
     "name": "Operation Red Wings",
     "year": 2005,
     "era": "contemporary",
-    "location": { "lat": 34.7500, "lng": 70.3667 },
+    "location": {
+      "lat": 34.75,
+      "lng": 70.3667
+    },
     "tier": 2,
     "description": "On June 28, 2005, a four-man Navy SEAL reconnaissance team was compromised by goat herders on a mountain in Kunar Province and faced a decision that would haunt the special operations community forever: kill the civilians or let them go and risk being reported. They let them go. Within an hour, the team was hit by 30 to 40 Taliban fighters. In the ensuing battle on a near-vertical mountainside, three of the four SEALs were killed: Lieutenant Michael Murphy, Petty Officer Second Class Danny Dietz, and Petty Officer Second Class Matthew Axelson. Murphy, mortally wounded, moved to open ground to get a satellite signal and called for help, knowing it would expose his position. He was awarded the Medal of Honor posthumously. The rescue helicopter, a Chinook carrying eight SEALs and eight Army Night Stalkers, was shot down by an RPG — all sixteen aboard were killed. Petty Officer First Class Marcus Luttrell, the lone survivor, was saved by an Afghan villager who invoked Pashtunwali — the code of hospitality. Nineteen Americans died. One came home. The mountains kept their secrets.",
-    "belligerents": ["United States (Navy SEALs / Army 160th SOAR)", "Taliban"],
+    "belligerents": [
+      "United States (Navy SEALs / Army 160th SOAR)",
+      "Taliban"
+    ],
     "result": "19 US killed (3 SEALs on ground, 16 in QRF helicopter); 1 survivor",
-    "commanders": ["LT Michael Murphy (KIA, MOH)", "Taliban local commander Ahmad Shah"],
+    "commanders": [
+      "LT Michael Murphy (KIA, MOH)",
+      "Taliban local commander Ahmad Shah"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Red_Wings"
   },
   {
     "id": "battle-of-tal-afar",
     "name": "Battle of Tal Afar",
     "year": 2005,
     "era": "contemporary",
-    "location": { "lat": 36.3756, "lng": 42.4497 },
+    "location": {
+      "lat": 36.3756,
+      "lng": 42.4497
+    },
     "tier": 2,
     "description": "In September 2005, Colonel H.R. McMaster led the 3rd Armored Cavalry Regiment into Tal Afar, a city of 200,000 in northwestern Iraq that al-Qaeda had turned into a base for sectarian terror — Sunni extremists were conducting ethnic cleansing against the Turkmen Shia population. McMaster, who literally wrote the book on how Vietnam went wrong, implemented a comprehensive counterinsurgency strategy before COIN was official doctrine. His troops lived in the city, built relationships with local leaders, isolated the fighters from the population, and then systematically cleared the strongholds. It worked. Tal Afar became the proof of concept that influenced the Surge strategy. President Bush publicly cited it as a model. But like everything in Iraq, the gains were temporary. When the US left, the old hatreds returned. When ISIS came in 2014, Tal Afar fell. The cycle repeated. McMaster's lesson was correct. The willingness to apply it at scale for the time required was what was missing.",
-    "belligerents": ["United States (3rd ACR) / Iraqi forces", "al-Qaeda in Iraq / Sunni insurgents"],
+    "belligerents": [
+      "United States (3rd ACR) / Iraqi forces",
+      "al-Qaeda in Iraq / Sunni insurgents"
+    ],
     "result": "City cleared and temporarily stabilized; became COIN model for the Surge",
-    "commanders": ["Col H.R. McMaster", "Various AQI / insurgent leaders"],
+    "commanders": [
+      "Col H.R. McMaster",
+      "Various AQI / insurgent leaders"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Tal_Afar"
   },
   {
     "id": "battle-of-raqqa",
     "name": "Battle of Raqqa",
     "year": 2017,
     "era": "contemporary",
-    "location": { "lat": 35.9500, "lng": 39.0167 },
+    "location": {
+      "lat": 35.95,
+      "lng": 39.0167
+    },
     "tier": 1,
     "description": "From June to October 2017, the Syrian Democratic Forces — mostly Kurdish YPG fighters backed by US Special Operations advisors and devastating coalition airpower — fought to liberate Raqqa, the self-declared capital of the ISIS caliphate. The city where ISIS had staged beheading videos, kept sex slaves, and run its global propaganda machine became a four-month urban battle that reduced entire neighborhoods to rubble. ISIS fought with everything: snipers, car bombs, drones dropping grenades, tunnels, human shields, suicide vests on women and children. The SDF took thousands of casualties. US Marines fired more artillery rounds into Raqqa than any operation since Vietnam. When the city fell on October 17, 2017, the capital of the caliphate was a wasteland. The stadium where ISIS held executions was cratered. The black flags were gone. But so were the buildings, the infrastructure, and thousands of civilian lives. The caliphate's capital was destroyed to be taken, and the cost of that destruction is still being counted.",
-    "belligerents": ["Syrian Democratic Forces / US-led Coalition", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Syrian Democratic Forces / US-led Coalition",
+      "Islamic State (ISIS)"
+    ],
     "result": "ISIS capital liberated; city largely destroyed",
-    "commanders": ["SDF Gen Cmdr Mazloum Abdi / US SOF advisors", "Various ISIS commanders"],
+    "commanders": [
+      "SDF Gen Cmdr Mazloum Abdi / US SOF advisors",
+      "Various ISIS commanders"
+    ],
     "warName": "War against ISIS",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Raqqa"
   },
   {
     "id": "battle-of-baiji-refinery",
     "name": "Siege of Baiji Oil Refinery",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 34.9300, "lng": 43.4800 },
+    "location": {
+      "lat": 34.93,
+      "lng": 43.48
+    },
     "tier": 3,
     "description": "The Baiji oil refinery — Iraq's largest, processing 300,000 barrels per day — became a ten-month battlefield between Iraqi forces and ISIS from June 2014 to May 2015. ISIS besieged the facility repeatedly, and the few hundred Iraqi soldiers inside held on in conditions that defied belief. Surrounded, resupplied only by helicopter, fighting off wave after wave of suicide vehicle bombs, they held the refinery when everything around them had fallen. US airstrikes hammered ISIS positions daily. The refinery changed hands multiple times. By the time Iraqi forces finally secured it, the facility was a charred skeleton — destroyed beyond economic repair. ISIS had proven they could paralyze Iraq's economy by threatening a single piece of infrastructure. The defenders at Baiji proved that some Iraqi soldiers would fight. They just needed leadership, support, and a reason. The refinery that supplied a third of Iraq's fuel was gone, but the stand there kept ISIS from claiming total dominance of northern Iraq.",
-    "belligerents": ["Iraqi Security Forces / US-led Coalition airpower", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Iraqi Security Forces / US-led Coalition airpower",
+      "Islamic State (ISIS)"
+    ],
     "result": "Iraqi forces held; refinery destroyed beyond use",
-    "commanders": ["Iraqi military commanders", "ISIS regional commanders"],
+    "commanders": [
+      "Iraqi military commanders",
+      "ISIS regional commanders"
+    ],
     "warName": "War against ISIS",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Baiji_Oil_Refinery"
   },
   {
     "id": "green-village-attack",
     "name": "Manbij Bombing — Green Village",
     "year": 2019,
     "era": "contemporary",
-    "location": { "lat": 36.5281, "lng": 37.9558 },
+    "location": {
+      "lat": 36.5281,
+      "lng": 37.9558
+    },
     "tier": 2,
     "description": "On January 16, 2019, an ISIS suicide bomber detonated in a restaurant near the Green Village base in Manbij, Syria, killing four Americans: Army Chief Warrant Officer 2 Jonathan Farmer, 37. Navy Chief Cryptologic Technician Shannon Kent, 35 — a mother of two who spoke six languages and had deployed five times. DoD civilian Scott Wirtz, a former Navy SEAL. And Ghadir Taher, a Syrian-born American interpreter. The bombing came weeks after President Trump announced a US withdrawal from Syria, declaring ISIS defeated. Four Americans died proving the war wasn't over. Shannon Kent was one of the most decorated women in special operations — multiple Bronze Stars, combat deployments across the GWOT — and she was killed by a teenager in a suicide vest in a war her president had just declared finished. The gap between Washington's narrative and the reality on the ground was measured in body bags.",
-    "belligerents": ["United States / Coalition forces", "Islamic State (ISIS)"],
+    "belligerents": [
+      "United States / Coalition forces",
+      "Islamic State (ISIS)"
+    ],
     "result": "4 Americans KIA, 3 US service members wounded",
-    "commanders": ["US CENTCOM", "ISIS (suicide bomber)"],
+    "commanders": [
+      "US CENTCOM",
+      "ISIS (suicide bomber)"
+    ],
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Manbij_Bombing_–_Green_Village"
   },
   {
     "id": "battle-of-sangin",
     "name": "Battle of Sangin",
     "year": 2010,
     "era": "contemporary",
-    "location": { "lat": 32.0712, "lng": 65.2672 },
+    "location": {
+      "lat": 32.0712,
+      "lng": 65.2672
+    },
     "tier": 2,
     "description": "Sangin in Helmand Province was the deadliest district in Afghanistan for both the British and the Americans. The British lost 106 soldiers there before handing the district to the US Marines in 2010. The Marines of 3rd Battalion, 5th Marines took 25 killed and nearly 200 wounded in seven months — the highest casualty rate of any Marine battalion in the Afghan war. The Taliban had IEDs everywhere. Literally everywhere. Footpaths, doorways, grape rows, stream crossings, even inside the walls of compounds. Marines lost legs daily. The double and triple amputees from Sangin fill wards at Walter Reed and Bethesda to this day. Every patrol was a walk through a minefield. Every step was deliberate. Marines learned to spot the disturbed earth, the command wire, the pressure plate. Some got good at it. Some didn't get the chance. Sangin was where the war stopped being about strategy and became about survival — about getting your Marines home with their legs still attached. The district was handed back to the Afghans, who lost it to the Taliban.",
-    "belligerents": ["United States Marines / British forces", "Taliban"],
+    "belligerents": [
+      "United States Marines / British forces",
+      "Taliban"
+    ],
     "result": "High casualties on all sides; district eventually fell to Taliban after withdrawal",
-    "commanders": ["LtCol Jason Morris (3/5)", "Taliban local commanders"],
+    "commanders": [
+      "LtCol Jason Morris (3/5)",
+      "Taliban local commanders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sangin"
   },
   {
     "id": "haditha-dam",
     "name": "Battle of Haditha Dam",
     "year": 2003,
     "era": "contemporary",
-    "location": { "lat": 34.2100, "lng": 42.3700 },
+    "location": {
+      "lat": 34.21,
+      "lng": 42.37
+    },
     "tier": 3,
     "description": "On April 1, 2003, during the initial invasion of Iraq, Army Rangers and a small element of Delta Force seized the Haditha Dam on the Euphrates River in a lightning raid and then held it for five days against relentless Iraqi counterattacks. The dam was critical — if blown, it would have flooded Baghdad and the entire downstream river valley, killing potentially hundreds of thousands. The Rangers held the dam with air support while Iraqi forces threw armor, infantry, and suicide vehicles at them. It was one of the most consequential objectives of the entire invasion, and the Rangers who held it did so knowing that if they failed, the destruction would be measured in drowned cities. The seizure of Haditha Dam was a textbook special operations mission that prevented a catastrophe most people never knew was possible. The Rangers held the line, the dam stood, and the water stayed behind it.",
-    "belligerents": ["United States (Army Rangers / Delta Force)", "Iraqi Army / Fedayeen"],
+    "belligerents": [
+      "United States (Army Rangers / Delta Force)",
+      "Iraqi Army / Fedayeen"
+    ],
     "result": "Dam seized and held; potential catastrophic flooding prevented",
-    "commanders": ["US Special Operations / Rangers", "Iraqi military commanders"],
+    "commanders": [
+      "US Special Operations / Rangers",
+      "Iraqi military commanders"
+    ],
     "warName": "Iraq War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Haditha_Dam"
   },
   {
     "id": "battle-of-najaf",
     "name": "Battle of Najaf",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 32.0000, "lng": 44.3400 },
+    "location": {
+      "lat": 32.0,
+      "lng": 44.34
+    },
     "tier": 2,
     "description": "In August 2004, US Marines and soldiers fought Muqtada al-Sadr's Mahdi Army in the holy city of Najaf — home of the Imam Ali Mosque, one of the holiest sites in Shia Islam. The fighting raged in the Wadi al-Salam cemetery, the largest cemetery in the world, where mausoleums and crypts became fighting positions. Marines cleared tombs full of fighters in a surreal landscape of the dead fighting among the dead. American snipers engaged Mahdi Army fighters at ranges measured in headstone lengths. The rules of engagement forbade damaging the mosque, which the militia used as a command center. The political constraints were suffocating. Every round had to be aimed to avoid an international incident. When the fighting finally ended through a negotiated ceasefire brokered by Grand Ayatollah al-Sistani, the cemetery was cratered and the militia had been mauled. But Sadr survived, rebuilt, entered politics, and remains one of the most powerful men in Iraq to this day. The Americans won the battle and lost the war for Najaf in a single sentence.",
-    "belligerents": ["United States Marines / US Army", "Mahdi Army (Muqtada al-Sadr)"],
+    "belligerents": [
+      "United States Marines / US Army",
+      "Mahdi Army (Muqtada al-Sadr)"
+    ],
     "result": "Militia driven from cemetery and mosque; Sadr survived and entered politics",
-    "commanders": ["LtCol Myles Deering / Col Anthony Haslam", "Muqtada al-Sadr"],
+    "commanders": [
+      "LtCol Myles Deering / Col Anthony Haslam",
+      "Muqtada al-Sadr"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Najaf"
   },
   {
     "id": "korengal-valley",
     "name": "The Korengal Valley Campaign",
     "year": 2005,
     "era": "contemporary",
-    "location": { "lat": 35.0500, "lng": 71.0833 },
+    "location": {
+      "lat": 35.05,
+      "lng": 71.0833
+    },
     "tier": 2,
     "description": "The Korengal Valley in Kunar Province, Afghanistan was a six-mile-long deathtrap that the US military occupied from 2005 to 2010. They called it the Valley of Death. The 10th Mountain Division, 173rd Airborne, and 1st Infantry Division rotated through tiny outposts built into the valley floor, surrounded by forested ridgelines where insurgents fired down on them daily. Every resupply helicopter took fire. Every patrol was an ambush waiting to happen. Over fifty Americans were killed in the Korengal. Sebastian Junger and Tim Hetherington embedded with 2nd Platoon, Battle Company, 173rd Airborne at Outpost Restrepo — named for PFC Juan Restrepo, killed early in the deployment — and the resulting documentary showed America what the war actually looked like: young men in a hole getting shot at every day. In April 2010, the US military withdrew from the Korengal Valley entirely, conceding that holding it served no strategic purpose. Five years of fighting, fifty dead Americans, and in the end they just left. The valley swallowed the outposts like they'd never been there.",
-    "belligerents": ["United States Army (multiple units)", "Taliban / local insurgents"],
+    "belligerents": [
+      "United States Army (multiple units)",
+      "Taliban / local insurgents"
+    ],
     "result": "US withdrew in 2010 after 5 years; valley deemed strategically irrelevant",
-    "commanders": ["Various US battalion commanders", "Local insurgent leaders"],
+    "commanders": [
+      "Various US battalion commanders",
+      "Local insurgent leaders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "The_Korengal_Valley_Campaign"
   }
 ]

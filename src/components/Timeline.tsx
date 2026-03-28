@@ -1,6 +1,7 @@
 import { useRef, useEffect, useCallback, useMemo } from 'react'
 import type { Battle, Era } from '../types/battle'
 import { yearToPosition, positionToYear } from '../hooks/useTimeline'
+import { formatYear } from '../utils/format'
 import erasData from '../data/eras.json'
 
 // ---------------------------------------------------------------------------
@@ -51,12 +52,7 @@ const eras: Era[] = erasData as Era[]
 // Helpers
 // ---------------------------------------------------------------------------
 
-function formatYear(year: number): string {
-  const y = Math.round(year)
-  if (y < 0) return `${Math.abs(y)} BCE`
-  if (y === 0) return '1 BCE'
-  return `${y} AD`
-}
+// formatYear imported from utils/format
 
 function getEraForYear(year: number): Era | undefined {
   return eras.find((e) => year >= e.startYear && year < e.endYear)

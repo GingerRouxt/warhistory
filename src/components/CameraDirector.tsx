@@ -42,7 +42,6 @@ export function CameraDirector({ selectedBattle, onFlightComplete }: CameraDirec
         await flyToBattle(
           selectedBattle.location.lat,
           selectedBattle.location.lng,
-          selectedBattle.name,
           'dramatic',
         )
         // Start slow orbit after dramatic flight completes

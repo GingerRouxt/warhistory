@@ -21,7 +21,8 @@
     "commanders": [
       "Cain",
       "Abel"
-    ]
+    ],
+    "wikipediaSlug": "Cain_and_Abel"
   },
   {
     "id": "bible-war-nine-kings",
@@ -45,7 +46,8 @@
     "commanders": [
       "Chedorlaomer",
       "Bera of Sodom"
-    ]
+    ],
+    "wikipediaSlug": "War_of_the_Nine_Kings"
   },
   {
     "id": "bible-abraham-rescues-lot",
@@ -72,7 +74,8 @@
     ],
     "troopStrength": {
       "side1": 318
-    }
+    },
+    "wikipediaSlug": "Abraham_Rescues_Lot"
   },
   {
     "id": "bible-sodom-gomorrah",
@@ -96,7 +99,8 @@
     "commanders": [
       "God",
       "Kings of Sodom/Gomorrah"
-    ]
+    ],
+    "wikipediaSlug": "Destruction_of_Sodom_and_Gomorrah"
   },
   {
     "id": "bible-jacob-wrestles-god",
@@ -120,7 +124,8 @@
     "commanders": [
       "Jacob",
       "Angel of the Lord"
-    ]
+    ],
+    "wikipediaSlug": "Jacob_Wrestles_with_God"
   },
   {
     "id": "bible-simeon-levi-shechem",
@@ -144,7 +149,8 @@
     "commanders": [
       "Simeon/Levi",
       "Hamor/Shechem"
-    ]
+    ],
+    "wikipediaSlug": "Massacre_at_Shechem"
   },
   {
     "id": "bible-ten-plagues",
@@ -168,7 +174,8 @@
     "commanders": [
       "Moses/Aaron",
       "Pharaoh"
-    ]
+    ],
+    "wikipediaSlug": "Ten_Plagues_of_Egypt"
   },
   {
     "id": "bible-red-sea",
@@ -195,7 +202,8 @@
     ],
     "casualties": {
       "side2": 600
-    }
+    },
+    "wikipediaSlug": "Destruction_of_Pharaoh's_Army_at_the_Red_Sea"
   },
   {
     "id": "bible-rephidim",
@@ -219,7 +227,8 @@
     "commanders": [
       "Joshua/Moses",
       "Amalekite chieftains"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Rephidim"
   },
   {
     "id": "bible-hormah-defeat",
@@ -243,7 +252,8 @@
     "commanders": [
       "Rebellious Israelite leaders",
       "Canaanite/Amalekite chiefs"
-    ]
+    ],
+    "wikipediaSlug": "Defeat_at_Hormah"
   },
   {
     "id": "bible-hormah-victory",
@@ -267,7 +277,8 @@
     "commanders": [
       "Moses",
       "King of Arad"
-    ]
+    ],
+    "wikipediaSlug": "Victory_at_Hormah"
   },
   {
     "id": "bible-sihon-amorites",
@@ -291,7 +302,8 @@
     "commanders": [
       "Moses",
       "Sihon"
-    ]
+    ],
+    "wikipediaSlug": "Defeat_of_Sihon_King_of_the_Amorites"
   },
   {
     "id": "bible-og-bashan",
@@ -315,7 +327,8 @@
     "commanders": [
       "Moses",
       "Og"
-    ]
+    ],
+    "wikipediaSlug": "Defeat_of_Og_King_of_Bashan"
   },
   {
     "id": "bible-war-midian",
@@ -342,7 +355,8 @@
     ],
     "troopStrength": {
       "side1": 12000
-    }
+    },
+    "wikipediaSlug": "War_Against_Midian"
   },
   {
     "id": "bible-jericho",
@@ -366,7 +380,8 @@
     "commanders": [
       "Joshua",
       "King of Jericho"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Jericho"
   },
   {
     "id": "bible-ai-defeat",
@@ -393,7 +408,8 @@
     ],
     "casualties": {
       "side1": 36
-    }
+    },
+    "wikipediaSlug": "First_Battle_of_Ai_–_Defeat"
   },
   {
     "id": "bible-ai-victory",
@@ -423,7 +439,8 @@
     },
     "casualties": {
       "side2": 12000
-    }
+    },
+    "wikipediaSlug": "Second_Battle_of_Ai_–_Victory"
   },
   {
     "id": "bible-gibeon-sun-stands-still",
@@ -447,7 +464,8 @@
     "commanders": [
       "Joshua",
       "Adonizedek"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Gibeon_–_The_Sun_Stands_Still"
   },
   {
     "id": "bible-southern-campaign",
@@ -471,7 +489,8 @@
     "commanders": [
       "Joshua",
       "Five Amorite Kings"
-    ]
+    ],
+    "wikipediaSlug": "Joshua's_Southern_Campaign"
   },
   {
     "id": "bible-waters-of-merom",
@@ -495,7 +514,8 @@
     "commanders": [
       "Joshua",
       "Jabin of Hazor"
-    ]
+    ],
+    "wikipediaSlug": "Battle_at_the_Waters_of_Merom"
   },
   {
     "id": "bible-31-kings",
@@ -519,7 +539,8 @@
     "commanders": [
       "Joshua",
       "Thirty-one Canaanite Kings"
-    ]
+    ],
+    "wikipediaSlug": "Conquest_Summary_–_Thirty-One_Kings_Defeated"
   },
   {
     "id": "bible-othniel",
@@ -543,7 +564,8 @@
     "commanders": [
       "Othniel",
       "Cushan-Rishathaim"
-    ]
+    ],
+    "wikipediaSlug": "Othniel_Delivers_Israel"
   },
   {
     "id": "bible-ehud-moab",
@@ -570,7 +592,8 @@
     ],
     "casualties": {
       "side2": 10000
-    }
+    },
+    "wikipediaSlug": "Ehud's_Assassination_of_Eglon_and_Defeat_of_Moab"
   },
   {
     "id": "bible-shamgar-philistines",
@@ -597,7 +620,8 @@
     ],
     "casualties": {
       "side2": 600
-    }
+    },
+    "wikipediaSlug": "Shamgar_vs._the_Philistines"
   },
   {
     "id": "bible-deborah-barak-sisera",
@@ -624,7 +648,8 @@
     ],
     "troopStrength": {
       "side1": 10000
-    }
+    },
+    "wikipediaSlug": "Deborah_and_Barak_vs._Sisera_and_the_Canaanites"
   },
   {
     "id": "bible-gideon-midianites",
@@ -652,7 +677,8 @@
     "troopStrength": {
       "side1": 300,
       "side2": 135000
-    }
+    },
+    "wikipediaSlug": "Gideon_vs._the_Midianites"
   },
   {
     "id": "bible-abimelech-shechem",
@@ -679,7 +705,8 @@
     ],
     "casualties": {
       "total": 1000
-    }
+    },
+    "wikipediaSlug": "Abimelech's_Destruction_of_Shechem"
   },
   {
     "id": "bible-abimelech-thebez",
@@ -703,7 +730,8 @@
     "commanders": [
       "Abimelech",
       "Citizens of Thebez"
-    ]
+    ],
+    "wikipediaSlug": "Siege_of_Thebez_–_Death_of_Abimelech"
   },
   {
     "id": "bible-ark-captured",
@@ -730,7 +758,8 @@
     ],
     "casualties": {
       "side1": 34000
-    }
+    },
+    "wikipediaSlug": "Philistines_Capture_the_Ark_–_Battle_of_Aphek"
   },
   {
     "id": "bible-jephthah-ammonites",
@@ -754,7 +783,8 @@
     "commanders": [
       "Jephthah",
       "King of Ammon"
-    ]
+    ],
+    "wikipediaSlug": "Jephthah_vs._the_Ammonites"
   },
   {
     "id": "bible-gibeah-civil-war",
@@ -786,7 +816,8 @@
     "troopStrength": {
       "side1": 400000,
       "side2": 26700
-    }
+    },
+    "wikipediaSlug": "War_Against_Benjamin_–_Battle_of_Gibeah"
   },
   {
     "id": "bible-jephthah-ephraim",
@@ -813,7 +844,8 @@
     ],
     "casualties": {
       "side2": 42000
-    }
+    },
+    "wikipediaSlug": "Jephthah_vs._Ephraim_–_Shibboleth"
   },
   {
     "id": "bible-samuel-mizpah",
@@ -837,7 +869,8 @@
     "commanders": [
       "Samuel",
       "Philistine generals"
-    ]
+    ],
+    "wikipediaSlug": "Samuel's_Victory_at_Mizpah"
   },
   {
     "id": "bible-samson-lion",
@@ -861,7 +894,8 @@
     "commanders": [
       "Samson",
       "Lion"
-    ]
+    ],
+    "wikipediaSlug": "Samson_Kills_the_Lion"
   },
   {
     "id": "bible-samson-thirty-ashkelon",
@@ -888,7 +922,8 @@
     ],
     "casualties": {
       "side2": 30
-    }
+    },
+    "wikipediaSlug": "Samson_Slays_Thirty_at_Ashkelon"
   },
   {
     "id": "bible-samson-foxes",
@@ -912,7 +947,8 @@
     "commanders": [
       "Samson",
       "Philistines"
-    ]
+    ],
+    "wikipediaSlug": "Samson_Burns_the_Philistine_Fields"
   },
   {
     "id": "bible-samson-jawbone",
@@ -939,7 +975,8 @@
     ],
     "casualties": {
       "side2": 1000
-    }
+    },
+    "wikipediaSlug": "Samson_at_Lehi_–_Jawbone_of_a_Donkey"
   },
   {
     "id": "bible-samson-gaza-gates",
@@ -963,7 +1000,8 @@
     "commanders": [
       "Samson",
       "Philistines of Gaza"
-    ]
+    ],
+    "wikipediaSlug": "Samson_Carries_the_Gates_of_Gaza"
   },
   {
     "id": "bible-samson-dagon-temple",
@@ -991,7 +1029,8 @@
     "casualties": {
       "side1": 1,
       "side2": 3000
-    }
+    },
+    "wikipediaSlug": "Samson_Destroys_the_Temple_of_Dagon"
   },
   {
     "id": "bible-saul-jabesh-gilead",
@@ -1018,7 +1057,8 @@
     ],
     "troopStrength": {
       "side1": 330000
-    }
+    },
+    "wikipediaSlug": "Saul's_Victory_at_Jabesh-gilead"
   },
   {
     "id": "bible-jonathan-michmash",
@@ -1045,7 +1085,8 @@
     ],
     "casualties": {
       "side2": 20
-    }
+    },
+    "wikipediaSlug": "Jonathan_at_Michmash_Pass"
   },
   {
     "id": "bible-saul-amalekites",
@@ -1069,7 +1110,8 @@
     "commanders": [
       "Saul",
       "Agag"
-    ]
+    ],
+    "wikipediaSlug": "Saul's_Campaign_Against_the_Amalekites"
   },
   {
     "id": "bible-david-goliath",
@@ -1093,7 +1135,8 @@
     "commanders": [
       "David",
       "Goliath"
-    ]
+    ],
+    "wikipediaSlug": "David_vs._Goliath_–_Valley_of_Elah"
   },
   {
     "id": "bible-david-keilah",
@@ -1117,7 +1160,8 @@
     "commanders": [
       "David",
       "Philistine raiders"
-    ]
+    ],
+    "wikipediaSlug": "David_Saves_Keilah"
   },
   {
     "id": "bible-david-philistine-raids",
@@ -1141,7 +1185,8 @@
     "commanders": [
       "David",
       "Various Philistine commanders"
-    ]
+    ],
+    "wikipediaSlug": "David's_Philistine_Raids_While_Serving_Saul"
   },
   {
     "id": "bible-david-ziklag",
@@ -1168,7 +1213,8 @@
     ],
     "troopStrength": {
       "side1": 400
-    }
+    },
+    "wikipediaSlug": "David's_Recovery_of_Ziklag"
   },
   {
     "id": "bible-mount-gilboa",
@@ -1192,7 +1238,8 @@
     "commanders": [
       "Saul/Jonathan",
       "Philistine generals"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Mount_Gilboa_–_Death_of_Saul"
   },
   {
     "id": "bible-pool-of-gibeon",
@@ -1216,7 +1263,8 @@
     "commanders": [
       "Joab",
       "Abner"
-    ]
+    ],
+    "wikipediaSlug": "Battle_at_the_Pool_of_Gibeon_–_David_vs._Ish-bosheth"
   },
   {
     "id": "bible-david-captures-jerusalem",
@@ -1240,7 +1288,8 @@
     "commanders": [
       "David/Joab",
       "Jebusite defenders"
-    ]
+    ],
+    "wikipediaSlug": "David_Captures_Jerusalem"
   },
   {
     "id": "bible-baal-perazim",
@@ -1264,7 +1313,8 @@
     "commanders": [
       "David",
       "Philistine commanders"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Baal-perazim"
   },
   {
     "id": "bible-valley-rephaim-second",
@@ -1288,7 +1338,8 @@
     "commanders": [
       "David",
       "Philistine commanders"
-    ]
+    ],
+    "wikipediaSlug": "Second_Battle_of_the_Valley_of_Rephaim"
   },
   {
     "id": "bible-david-ammon-aram",
@@ -1312,7 +1363,8 @@
     "commanders": [
       "Joab/David",
       "Hanun of Ammon/Shobach"
-    ]
+    ],
+    "wikipediaSlug": "David's_War_Against_Ammon_and_Aram"
   },
   {
     "id": "bible-absalom-rebellion",
@@ -1339,7 +1391,8 @@
     ],
     "casualties": {
       "total": 20000
-    }
+    },
+    "wikipediaSlug": "Battle_of_the_Forest_of_Ephraim_–_Absalom's_Rebellion"
   },
   {
     "id": "bible-sheba-rebellion",
@@ -1363,7 +1416,8 @@
     "commanders": [
       "Joab",
       "Sheba son of Bichri"
-    ]
+    ],
+    "wikipediaSlug": "Sheba's_Rebellion"
   },
   {
     "id": "bible-rehoboam-jeroboam-split",
@@ -1390,7 +1444,8 @@
     ],
     "troopStrength": {
       "side1": 180000
-    }
+    },
+    "wikipediaSlug": "Kingdom_Divides_–_Rehoboam_vs._Jeroboam"
   },
   {
     "id": "bible-shishak-invasion",
@@ -1417,7 +1472,8 @@
     ],
     "troopStrength": {
       "side1": 60000
-    }
+    },
+    "wikipediaSlug": "Shishak's_Invasion_of_Judah"
   },
   {
     "id": "bible-abijah-jeroboam-zemaraim",
@@ -1448,7 +1504,8 @@
     },
     "casualties": {
       "side2": 500000
-    }
+    },
+    "wikipediaSlug": "Battle_of_Mount_Zemaraim_–_Abijah_vs._Jeroboam"
   },
   {
     "id": "bible-asa-zerah-ethiopian",
@@ -1475,7 +1532,8 @@
     ],
     "troopStrength": {
       "side2": 1000000
-    }
+    },
+    "wikipediaSlug": "Asa_vs._Zerah_the_Ethiopian"
   },
   {
     "id": "bible-ahab-aram-first",
@@ -1502,7 +1560,8 @@
     ],
     "troopStrength": {
       "side1": 232
-    }
+    },
+    "wikipediaSlug": "Ahab's_First_Victory_over_Aram_at_Samaria"
   },
   {
     "id": "bible-ahab-aram-aphek",
@@ -1529,7 +1588,8 @@
     ],
     "casualties": {
       "side2": 127000
-    }
+    },
+    "wikipediaSlug": "Ahab's_Second_Victory_over_Aram_at_Aphek"
   },
   {
     "id": "bible-jehoshaphat-moab-ammon",
@@ -1553,7 +1613,8 @@
     "commanders": [
       "Jehoshaphat",
       "Coalition of Moab/Ammon/Edom"
-    ]
+    ],
+    "wikipediaSlug": "Jehoshaphat's_Battle_–_Victory_by_Praise"
   },
   {
     "id": "bible-ahab-ramoth-gilead",
@@ -1577,7 +1638,8 @@
     "commanders": [
       "Ahab/Jehoshaphat",
       "Ben-hadad of Aram"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Ramoth-gilead_–_Death_of_Ahab"
   },
   {
     "id": "bible-elisha-blinded-arameans",
@@ -1601,7 +1663,8 @@
     "commanders": [
       "Elisha",
       "Aramean commander"
-    ]
+    ],
+    "wikipediaSlug": "Elisha_and_the_Blinded_Aramean_Army"
   },
   {
     "id": "bible-jehu-coup",
@@ -1625,7 +1688,8 @@
     "commanders": [
       "Jehu",
       "Joram/Ahaziah"
-    ]
+    ],
+    "wikipediaSlug": "Jehu's_Coup_and_Slaughter"
   },
   {
     "id": "bible-amaziah-edom",
@@ -1652,7 +1716,8 @@
     ],
     "casualties": {
       "side2": 20000
-    }
+    },
+    "wikipediaSlug": "Amaziah's_Victory_over_Edom_in_the_Valley_of_Salt"
   },
   {
     "id": "bible-amaziah-jehoash-bethshemesh",
@@ -1676,7 +1741,8 @@
     "commanders": [
       "Amaziah",
       "Jehoash of Israel"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Beth-shemesh_–_Amaziah_vs._Jehoash"
   },
   {
     "id": "bible-fall-samaria",
@@ -1700,7 +1766,8 @@
     "commanders": [
       "Shalmaneser V/Sargon II",
       "Hoshea"
-    ]
+    ],
+    "wikipediaSlug": "Fall_of_Samaria_–_Assyrian_Conquest_of_Israel"
   },
   {
     "id": "bible-sennacherib-jerusalem",
@@ -1727,7 +1794,8 @@
     ],
     "casualties": {
       "side2": 185000
-    }
+    },
+    "wikipediaSlug": "Sennacherib's_Siege_of_Jerusalem_–_Angel_Destroys_185,000"
   },
   {
     "id": "bible-josiah-megiddo",
@@ -1751,7 +1819,8 @@
     "commanders": [
       "Josiah",
       "Pharaoh Necho II"
-    ]
+    ],
+    "wikipediaSlug": "Death_of_Josiah_at_Megiddo"
   },
   {
     "id": "bible-babylon-first-siege",
@@ -1775,7 +1844,8 @@
     "commanders": [
       "Nebuchadnezzar",
       "Jehoiakim"
-    ]
+    ],
+    "wikipediaSlug": "First_Babylonian_Siege_of_Jerusalem"
   },
   {
     "id": "bible-babylon-second-siege",
@@ -1802,7 +1872,8 @@
     ],
     "casualties": {
       "side2": 10000
-    }
+    },
+    "wikipediaSlug": "Second_Babylonian_Siege_–_Deportation_of_Jehoiachin"
   },
   {
     "id": "bible-fall-jerusalem",
@@ -1826,7 +1897,8 @@
     "commanders": [
       "Nebuchadnezzar",
       "Zedekiah"
-    ]
+    ],
+    "wikipediaSlug": "Fall_of_Jerusalem_–_Destruction_of_Solomon's_Temple"
   },
   {
     "id": "bible-esther-purim",
@@ -1853,7 +1925,8 @@
     ],
     "casualties": {
       "side2": 75000
-    }
+    },
+    "wikipediaSlug": "Jews_Defend_Themselves_–_Purim"
   },
   {
     "id": "bible-maccabean-beth-horon",
@@ -1880,7 +1953,8 @@
     ],
     "casualties": {
       "side2": 800
-    }
+    },
+    "wikipediaSlug": "Battle_of_Beth_Horon_–_Maccabean_Revolt"
   },
   {
     "id": "bible-maccabean-emmaus",
@@ -1904,7 +1978,8 @@
     "commanders": [
       "Judas Maccabeus",
       "Gorgias"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Emmaus"
   },
   {
     "id": "bible-maccabean-beth-zur",
@@ -1928,7 +2003,8 @@
     "commanders": [
       "Judas Maccabeus",
       "Lysias"
-    ]
+    ],
+    "wikipediaSlug": "Battle_of_Beth_Zur"
   },
   {
     "id": "bible-maccabean-hanukkah",
@@ -1952,7 +2028,8 @@
     "commanders": [
       "Judas Maccabeus",
       "Seleucid garrison"
-    ]
+    ],
+    "wikipediaSlug": "Rededication_of_the_Temple_–_Hanukkah"
   },
   {
     "id": "bible-massacre-innocents",
@@ -1976,7 +2053,8 @@
     "commanders": [
       "Herod the Great",
       "Infants of Bethlehem"
-    ]
+    ],
+    "wikipediaSlug": "Massacre_of_the_Innocents"
   },
   {
     "id": "bible-temple-cleansing",
@@ -2000,7 +2078,8 @@
     "commanders": [
       "Jesus",
       "Temple merchants"
-    ]
+    ],
+    "wikipediaSlug": "Jesus_Cleanses_the_Temple"
   },
   {
     "id": "bible-gethsemane-arrest",
@@ -2024,6 +2103,7 @@
     "commanders": [
       "Judas/Temple guard captain",
       "Jesus"
-    ]
+    ],
+    "wikipediaSlug": "Arrest_in_Gethsemane_–_Peter's_Sword"
   }
 ]

@@ -1,15 +1,22 @@
 import { useEffect } from 'react';
+import type { Battle } from '../types/battle';
 
 interface SEOHeadProps {
+  battle?: Battle;
   title?: string;
   description?: string;
   image?: string;
   url?: string;
 }
 
-const DEFAULT_TITLE = 'WarHistory — Every Battle in Human History';
+const DEFAULT_TITLE = 'WarHistory — Every Battle Ever Fought';
 const DEFAULT_DESCRIPTION =
   'Explore 6,000 years of warfare on an interactive 3D globe. From biblical battles to modern conflicts, experience every battle ever fought with cinematic narration and stunning visuals.';
+
+function formatYear(year: number): string {
+  if (year < 0) return `${Math.abs(year)} BC`;
+  return `${year} AD`;
+}
 
 function setMeta(name: string, content: string) {
   let el = document.querySelector(`meta[name="${name}"]`) as HTMLMetaElement | null;
@@ -41,9 +48,13 @@ function setCanonical(url: string) {
   el.setAttribute('href', url);
 }
 
-export function SEOHead({ title, description, image, url }: SEOHeadProps) {
-  const resolvedTitle = title ?? DEFAULT_TITLE;
-  const resolvedDescription = description ?? DEFAULT_DESCRIPTION;
+export function SEOHead({ battle, title, description, image, url }: SEOHeadProps) {
+  const resolvedTitle = battle
+    ? `${battle.name} (${formatYear(battle.year)}) — WarHistory`
+    : title ?? DEFAULT_TITLE;
+  const resolvedDescription = battle?.description
+    ? battle.description
+    : description ?? DEFAULT_DESCRIPTION;
 
   useEffect(() => {
     document.title = resolvedTitle;

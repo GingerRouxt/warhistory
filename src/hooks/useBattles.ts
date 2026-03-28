@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback, useEffect } from 'react'
 import type { Battle, EraId } from '../types/battle'
 import biblicalBattlesRaw from '../data/biblical-battles.json'
+import { haversineDistance } from '../utils/distance'
 
 const biblicalBattles: Battle[] = biblicalBattlesRaw as Battle[]
 
@@ -145,18 +146,12 @@ export function useBattles() {
     // Near Me: sort by distance and limit to 100
     if (filters.nearMeLocation) {
       const { lat: userLat, lng: userLng } = filters.nearMeLocation
-      const toRad = (deg: number) => (deg * Math.PI) / 180
-      const distanceTo = (bLat: number, bLng: number) => {
-        const dLat = toRad(bLat - userLat)
-        const dLng = toRad(bLng - userLng)
-        const a =
-          Math.sin(dLat / 2) ** 2 +
-          Math.cos(toRad(userLat)) * Math.cos(toRad(bLat)) * Math.sin(dLng / 2) ** 2
-        return 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-      }
       results = results
         .filter((b) => b.location && b.location.lat != null && b.location.lng != null)
-        .sort((a, b) => distanceTo(a.location.lat, a.location.lng) - distanceTo(b.location.lat, b.location.lng))
+        .sort((a, b) =>
+          haversineDistance(userLat, userLng, a.location.lat, a.location.lng) -
+          haversineDistance(userLat, userLng, b.location.lat, b.location.lng)
+        )
         .slice(0, 100)
     }
 

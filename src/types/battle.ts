@@ -31,6 +31,13 @@ export interface Battle {
   }
   warName?: string
   significance?: 1 | 2 | 3 // 1=changed history, 2=changed a war, 3=tactical
+  wikipediaSlug?: string
+  youtubeVideoIds?: string[]
+  externalLinks?: Array<{
+    label: string
+    url: string
+    source: 'wikipedia' | 'loc' | 'battlefields' | 'youtube'
+  }>
 }
 
 export interface Era {

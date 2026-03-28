@@ -11,18 +11,16 @@ import {
   Math as CesiumMath,
   NearFarScalar,
 } from 'cesium'
-import type { Battle, EraId } from '../types/battle'
+import type { Battle } from '../types/battle'
 import { useGlobe } from './GlobeContext'
 import { SpatialIndex } from '../utils/spatial'
+import { haversineDistance } from '../utils/distance'
+import { ERA_COLORS as ERA_COLOR_STRINGS } from '../constants/eras'
 
-// --- Era colors ---
-const ERA_COLORS: Record<EraId, Color> = {
-  biblical: Color.fromCssColorString('#f5e6c8'),
-  classical: Color.fromCssColorString('#cd7f32'),
-  medieval: Color.fromCssColorString('#708090'),
-  'early-modern': Color.fromCssColorString('#1a3a5c'),
-  modern: Color.fromCssColorString('#556b2f'),
-  contemporary: Color.fromCssColorString('#8b0000'),
+// --- Era colors (Cesium Color objects derived from shared constants) ---
+const ERA_COLORS: Record<string, Color> = {}
+for (const [id, hex] of Object.entries(ERA_COLOR_STRINGS)) {
+  ERA_COLORS[id] = Color.fromCssColorString(hex)
 }
 
 // --- Tier pixel sizes ---
@@ -40,12 +38,7 @@ interface BattleLayerProps {
   onHoverBattle?: (battle: Battle | null, screenX: number, screenY: number) => void
 }
 
-/** Haversine distance in degrees (approximate, sufficient for proximity) */
-function degDistance(lat1: number, lng1: number, lat2: number, lng2: number): number {
-  const dlat = lat1 - lat2
-  const dlng = lng1 - lng2
-  return Math.sqrt(dlat * dlat + dlng * dlng)
-}
+// Distance function imported from utils/distance (haversineDistance, returns km)
 
 export default function BattleLayer({
   battles,
@@ -91,16 +84,16 @@ export default function BattleLayer({
       if (nearby.length === 0) return null
 
       // Find closest within the nearby set
-      // Determine a reasonable threshold based on camera altitude
+      // Determine a reasonable threshold based on camera altitude (in km)
       const cameraHeight = viewer.camera.positionCartographic.height
-      // Roughly: 1 degree ~ 111km, threshold scales with altitude
-      const thresholdDeg = Math.max(0.5, cameraHeight / 111000 * 0.02)
+      // Threshold in km: ~55km at min, scales with altitude
+      const thresholdKm = Math.max(55, cameraHeight / 1000 * 0.02)
 
       let closest: Battle | null = null
-      let closestDist = thresholdDeg
+      let closestDist = thresholdKm
 
       for (const b of nearby) {
-        const dist = degDistance(lat, lng, b.location.lat, b.location.lng)
+        const dist = haversineDistance(lat, lng, b.location.lat, b.location.lng)
         if (dist < closestDist) {
           closestDist = dist
           closest = b

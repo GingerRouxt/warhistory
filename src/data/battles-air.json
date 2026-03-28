@@ -25,7 +25,8 @@
       "side2": 15
     },
     "warName": "World War I",
-    "significance": 6
+    "significance": 6,
+    "wikipediaSlug": "First_Aerial_Dogfights_over_Ypres"
   },
   {
     "id": "fokker-scourge",
@@ -53,7 +54,8 @@
       "side2": 200
     },
     "warName": "World War I",
-    "significance": 5
+    "significance": 5,
+    "wikipediaSlug": "The_Fokker_Scourge"
   },
   {
     "id": "bloody-april-1917",
@@ -80,7 +82,8 @@
       "side2": 66
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Bloody_April"
   },
   {
     "id": "st-mihiel-air-offensive",
@@ -108,7 +111,8 @@
       "side2": 100
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "St._Mihiel_Air_Offensive"
   },
   {
     "id": "battle-of-cambrai-air-support",
@@ -135,7 +139,8 @@
       "side2": 45
     },
     "warName": "World War I",
-    "significance": 5
+    "significance": 5,
+    "wikipediaSlug": "Battle_of_Cambrai_–_First_Coordinated_Air_Support"
   },
   {
     "id": "bombing-of-guernica",
@@ -163,7 +168,8 @@
       "side2": 1654
     },
     "warName": "Spanish Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Bombing_of_Guernica"
   },
   {
     "id": "aerial-combat-over-madrid",
@@ -192,7 +198,8 @@
       "side2": 65
     },
     "warName": "Spanish Civil War",
-    "significance": 5
+    "significance": 5,
+    "wikipediaSlug": "Aerial_Combat_over_Madrid"
   },
   {
     "id": "battle-of-britain",
@@ -219,7 +226,8 @@
       "side2": 1887
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Britain"
   },
   {
     "id": "the-blitz",
@@ -246,7 +254,8 @@
       "side2": 2265
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "The_Blitz"
   },
   {
     "id": "pearl-harbor-air-raid",
@@ -273,7 +282,8 @@
       "side2": 64
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Attack_on_Pearl_Harbor"
   },
   {
     "id": "air-battles-over-malta",
@@ -301,7 +311,8 @@
       "side2": 860
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Air_Battles_over_Malta"
   },
   {
     "id": "doolittle-raid",
@@ -328,7 +339,8 @@
       "side2": 50
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Doolittle_Raid_on_Tokyo"
   },
   {
     "id": "battle-of-midway-air",
@@ -355,7 +367,8 @@
       "side2": 3057
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Midway_–_Carrier_Air_Battle"
   },
   {
     "id": "dieppe-raid-air-battle",
@@ -383,7 +396,8 @@
       "side2": 48
     },
     "warName": "World War II",
-    "significance": 5
+    "significance": 5,
+    "wikipediaSlug": "Air_Battle_over_Dieppe"
   },
   {
     "id": "hamburg-firestorm",
@@ -411,7 +425,8 @@
       "side2": 42600
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Gomorrah_–_Hamburg_Firestorm"
   },
   {
     "id": "ploesti-oil-raids",
@@ -439,7 +454,8 @@
       "side2": 300
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Tidal_Wave_–_Ploesti_Raid"
   },
   {
     "id": "schweinfurt-regensburg",
@@ -466,7 +482,8 @@
       "side2": 300
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Schweinfurt-Regensburg_Raids"
   },
   {
     "id": "big-week-operation-argument",
@@ -495,7 +512,8 @@
       "side2": 3450
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Big_Week_–_Operation_Argument"
   },
   {
     "id": "d-day-air-operations",
@@ -525,7 +543,8 @@
       "side2": 200
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "D-Day_Air_Operations"
   },
   {
     "id": "marianas-turkey-shoot",
@@ -552,7 +571,8 @@
       "side2": 3100
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Great_Marianas_Turkey_Shoot"
   },
   {
     "id": "berlin-bombing-campaign",
@@ -579,7 +599,8 @@
       "side2": 10000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Berlin_–_Bombing_Campaign"
   },
   {
     "id": "dresden-bombing",
@@ -607,7 +628,8 @@
       "side2": 25000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Bombing_of_Dresden"
   },
   {
     "id": "tokyo-firebombing",
@@ -634,7 +656,8 @@
       "side2": 100000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Firebombing_of_Tokyo"
   },
   {
     "id": "kamikaze-campaigns",
@@ -661,7 +684,8 @@
       "side2": 1900
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Kamikaze_Campaigns_–_Okinawa"
   },
   {
     "id": "hiroshima-atomic-bombing",
@@ -688,7 +712,8 @@
       "side2": 140000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Atomic_Bombing_of_Hiroshima"
   },
   {
     "id": "nagasaki-atomic-bombing",
@@ -715,7 +740,8 @@
       "side2": 70000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Atomic_Bombing_of_Nagasaki"
   },
   {
     "id": "berlin-airlift",
@@ -744,7 +770,8 @@
       "side2": 0
     },
     "warName": "Cold War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Berlin_Airlift"
   },
   {
     "id": "mig-alley",
@@ -773,7 +800,8 @@
       "side2": 566
     },
     "warName": "Korean War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "MiG_Alley"
   },
   {
     "id": "operation-strangle-korea",
@@ -801,7 +829,8 @@
       "side2": 5000
     },
     "warName": "Korean War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Operation_Strangle_–_Korea"
   },
   {
     "id": "suez-air-campaign-1956",
@@ -830,7 +859,8 @@
       "side2": 260
     },
     "warName": "Suez Crisis",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Suez_Crisis_Air_Campaign"
   },
   {
     "id": "operation-focus-1967",
@@ -860,7 +890,8 @@
       "side2": 452
     },
     "warName": "Six-Day War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Focus_–_Six-Day_War_Preemptive_Strike"
   },
   {
     "id": "war-of-attrition-air-battles",
@@ -888,7 +919,8 @@
       "side2": 110
     },
     "warName": "War of Attrition",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "War_of_Attrition_Air_Battles"
   },
   {
     "id": "operation-rolling-thunder",
@@ -915,7 +947,8 @@
       "side2": 52000
     },
     "warName": "Vietnam War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Rolling_Thunder"
   },
   {
     "id": "thanh-hoa-bridge-raids",
@@ -942,7 +975,8 @@
       "side2": 100
     },
     "warName": "Vietnam War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Thanh_Hoa_Bridge_Raids"
   },
   {
     "id": "hanoi-air-battles",
@@ -969,7 +1003,8 @@
       "side2": 150
     },
     "warName": "Vietnam War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Air_Battles_over_Hanoi"
   },
   {
     "id": "operation-bolo",
@@ -996,7 +1031,8 @@
       "side2": 7
     },
     "warName": "Vietnam War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Operation_Bolo"
   },
   {
     "id": "linebacker-i",
@@ -1023,7 +1059,8 @@
       "side2": 15000
     },
     "warName": "Vietnam War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Linebacker_I"
   },
   {
     "id": "linebacker-ii",
@@ -1050,7 +1087,8 @@
       "side2": 1624
     },
     "warName": "Vietnam War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Linebacker_II_–_Christmas_Bombings"
   },
   {
     "id": "yom-kippur-air-war",
@@ -1078,7 +1116,8 @@
       "side2": 514
     },
     "warName": "Yom Kippur War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Yom_Kippur_War_Air_Battles"
   },
   {
     "id": "bekaa-valley-turkey-shoot",
@@ -1105,7 +1144,8 @@
       "side2": 82
     },
     "warName": "1982 Lebanon War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Mole_Cricket_19_–_Bekaa_Valley"
   },
   {
     "id": "falklands-air-war",
@@ -1132,7 +1172,8 @@
       "side2": 100
     },
     "warName": "Falklands War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Falklands_War_Air_Battles"
   },
   {
     "id": "operation-opera-osirak",
@@ -1159,7 +1200,8 @@
       "side2": 11
     },
     "warName": "Israeli-Iraqi conflict",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Opera_–_Osirak_Reactor_Strike"
   },
   {
     "id": "iran-iraq-war-of-cities-air",
@@ -1186,7 +1228,8 @@
       "side2": 8000
     },
     "warName": "Iran-Iraq War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "War_of_the_Cities_–_Air_Campaign"
   },
   {
     "id": "desert-storm-opening-night",
@@ -1214,7 +1257,8 @@
       "side2": 3000
     },
     "warName": "Gulf War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Desert_Storm_–_Opening_Night_Air_Campaign"
   },
   {
     "id": "desert-storm-air-supremacy",
@@ -1242,7 +1286,8 @@
       "side2": 30000
     },
     "warName": "Gulf War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Desert_Storm_–_38-Day_Air_Campaign"
   },
   {
     "id": "highway-of-death",
@@ -1270,7 +1315,8 @@
       "side2": 2000
     },
     "warName": "Gulf War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Highway_of_Death_–_Air_Attack"
   },
   {
     "id": "operation-deny-flight-bosnia",
@@ -1297,7 +1343,8 @@
       "side2": 4
     },
     "warName": "Bosnian War",
-    "significance": 5
+    "significance": 5,
+    "wikipediaSlug": "Operation_Deny_Flight_–_Bosnia"
   },
   {
     "id": "operation-deliberate-force",
@@ -1324,7 +1371,8 @@
       "side2": 338
     },
     "warName": "Bosnian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Deliberate_Force_–_Bosnia"
   },
   {
     "id": "operation-allied-force-kosovo",
@@ -1351,7 +1399,8 @@
       "side2": 1200
     },
     "warName": "Kosovo War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Allied_Force_–_Kosovo"
   },
   {
     "id": "f117-shootdown-serbia",
@@ -1378,7 +1427,8 @@
       "side2": 1
     },
     "warName": "Kosovo War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "F-117_Stealth_Fighter_Shootdown"
   },
   {
     "id": "afghan-opening-air-campaign-2001",
@@ -1407,7 +1457,8 @@
       "side2": 4000
     },
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Enduring_Freedom_–_Opening_Air_Campaign"
   },
   {
     "id": "first-predator-drone-strike",
@@ -1434,7 +1485,8 @@
       "side2": 6
     },
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "First_Predator_Drone_Strike_–_Afghanistan"
   },
   {
     "id": "shock-and-awe-iraq-2003",
@@ -1462,7 +1514,8 @@
       "side2": 2300
     },
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Shock_and_Awe_–_Iraq_(2003)"
   },
   {
     "id": "drone-campaign-pakistan",
@@ -1490,7 +1543,8 @@
       "side2": 3500
     },
     "warName": "War on Terror",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "CIA_Drone_Campaign_–_Pakistan_Tribal_Areas"
   },
   {
     "id": "drone-campaign-yemen",
@@ -1517,7 +1571,8 @@
       "side2": 1200
     },
     "warName": "War on Terror",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Drone_Campaign_–_Yemen"
   },
   {
     "id": "israel-syria-air-strikes-2007",
@@ -1544,7 +1599,8 @@
       "side2": 10
     },
     "warName": "Israeli-Syrian conflict",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Outside_the_Box_–_Syrian_Reactor_Strike"
   },
   {
     "id": "operation-odyssey-dawn-libya",
@@ -1574,7 +1630,8 @@
       "side2": 8000
     },
     "warName": "Libyan Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Odyssey_Dawn_–_Libya"
   },
   {
     "id": "russian-air-campaign-syria",
@@ -1603,7 +1660,8 @@
       "side2": 18000
     },
     "warName": "Syrian Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Russian_Air_Campaign_in_Syria"
   },
   {
     "id": "coalition-air-war-isis",
@@ -1631,7 +1689,8 @@
       "side2": 35000
     },
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Coalition_Air_War_Against_ISIS"
   },
   {
     "id": "saudi-air-campaign-yemen",
@@ -1659,7 +1718,8 @@
       "side2": 23000
     },
     "warName": "Yemeni Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Saudi-Led_Air_Campaign_in_Yemen"
   },
   {
     "id": "nagorno-karabakh-drone-war-2020",
@@ -1686,7 +1746,8 @@
       "side2": 3825
     },
     "warName": "Second Nagorno-Karabakh War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Nagorno-Karabakh_Drone_War"
   },
   {
     "id": "ukraine-air-battles-kyiv-2022",
@@ -1713,7 +1774,8 @@
       "side2": 200
     },
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Air_Battles_over_Kyiv"
   },
   {
     "id": "ukraine-drone-warfare-2022",
@@ -1740,7 +1802,8 @@
       "side2": 12000
     },
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Ukraine_Drone_Warfare_Revolution"
   },
   {
     "id": "russian-missile-campaign-ukraine",
@@ -1767,7 +1830,8 @@
       "side2": 2000
     },
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Russian_Missile_and_Drone_Campaign_Against_Ukrainian_Infrastructure"
   },
   {
     "id": "patriot-vs-kinzhal-ukraine",
@@ -1794,7 +1858,8 @@
       "side2": 0
     },
     "warName": "Russo-Ukrainian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Patriot_Intercept_of_Kinzhal_Hypersonic_Missile"
   },
   {
     "id": "battle-of-coral-sea-air",
@@ -1822,7 +1887,8 @@
       "side2": 966
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Coral_Sea_–_First_Carrier_Air_Battle"
   },
   {
     "id": "channel-dash-1942",
@@ -1849,7 +1915,8 @@
       "side2": 17
     },
     "warName": "World War II",
-    "significance": 5
+    "significance": 5,
+    "wikipediaSlug": "Channel_Dash_–_Air_Attacks_on_German_Fleet"
   },
   {
     "id": "dam-busters-raid",
@@ -1876,7 +1943,8 @@
       "side2": 1600
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Chastise_–_The_Dam_Busters_Raid"
   },
   {
     "id": "operation-vengeance-yamamoto",
@@ -1903,7 +1971,8 @@
       "side2": 20
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Vengeance_–_Yamamoto_Shootdown"
   },
   {
     "id": "israel-iran-air-exchange-2024",
@@ -1933,7 +2002,8 @@
       "side2": 0
     },
     "warName": "Iran-Israel shadow war",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Iranian_Aerial_Attack_on_Israel_and_Israeli_Response"
   },
   {
     "id": "tora-bora-air-strikes",
@@ -1960,7 +2030,8 @@
       "side2": 220
     },
     "warName": "War in Afghanistan",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Tora_Bora_–_Air_Campaign"
   },
   {
     "id": "osama-bin-laden-raid-2011",
@@ -1987,7 +2058,8 @@
       "side2": 5
     },
     "warName": "War on Terror",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Neptune_Spear_–_Abbottabad_Raid"
   },
   {
     "id": "soleimani-drone-strike",
@@ -2014,6 +2086,7 @@
       "side2": 10
     },
     "warName": "U.S.-Iran tensions",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Drone_Strike_on_Qasem_Soleimani"
   }
 ]

@@ -1,11 +1,6 @@
 import { useCallback, useRef, useEffect } from 'react'
 import { Cartesian3, Math as CesiumMath } from 'cesium'
 import type { Viewer } from 'cesium'
-import { easeOutExpo, easeOutCubic } from '../utils/easing'
-
-// Suppress unused import warnings — these are available for future interpolation work
-void easeOutExpo
-void easeOutCubic
 
 type FlightProfile = 'dramatic' | 'quick' | 'overview'
 
@@ -44,7 +39,6 @@ export function useCamera(viewer: Viewer | null) {
   const flyToBattle = useCallback(async (
     lat: number,
     lng: number,
-    _name?: string,
     profile: FlightProfile = 'dramatic',
   ) => {
     if (!viewer || viewer.isDestroyed()) return

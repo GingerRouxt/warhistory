@@ -28,7 +28,8 @@
       "side2": 34000
     },
     "warName": "French Revolutionary Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Valmy"
   },
   {
     "id": "battle-of-jemappes",
@@ -59,7 +60,8 @@
       "side2": 13000
     },
     "warName": "French Revolutionary Wars",
-    "significance": 5
+    "significance": 5,
+    "wikipediaSlug": "Battle_of_Jemappes"
   },
   {
     "id": "battle-of-fleurus-1794",
@@ -90,7 +92,8 @@
       "side2": 52000
     },
     "warName": "French Revolutionary Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Fleurus_(1794)"
   },
   {
     "id": "battle-of-the-nile",
@@ -121,7 +124,8 @@
       "side2": 17
     },
     "warName": "French Revolutionary Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Nile"
   },
   {
     "id": "battle-of-the-pyramids",
@@ -152,7 +156,8 @@
       "side2": 21000
     },
     "warName": "French Revolutionary Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_the_Pyramids"
   },
   {
     "id": "battle-of-marengo",
@@ -183,7 +188,8 @@
       "side2": 31000
     },
     "warName": "French Revolutionary Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Marengo"
   },
   {
     "id": "battle-of-hohenlinden",
@@ -214,7 +220,8 @@
       "side2": 64000
     },
     "warName": "French Revolutionary Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Hohenlinden"
   },
   {
     "id": "battle-of-trafalgar",
@@ -245,7 +252,8 @@
       "side2": 33
     },
     "warName": "Napoleonic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Trafalgar"
   },
   {
     "id": "battle-of-ulm",
@@ -276,7 +284,8 @@
       "side2": 72000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ulm"
   },
   {
     "id": "battle-of-austerlitz",
@@ -307,7 +316,8 @@
       "side2": 85000
     },
     "warName": "Napoleonic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Austerlitz"
   },
   {
     "id": "battle-of-jena-auerstedt",
@@ -338,7 +348,8 @@
       "side2": 53000
     },
     "warName": "Napoleonic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Jena-Auerstedt"
   },
   {
     "id": "battle-of-eylau",
@@ -369,7 +380,8 @@
       "side2": 76000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Eylau"
   },
   {
     "id": "battle-of-friedland",
@@ -400,7 +412,8 @@
       "side2": 80000
     },
     "warName": "Napoleonic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Friedland"
   },
   {
     "id": "battle-of-bailen",
@@ -431,7 +444,8 @@
       "side2": 21000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Bailen"
   },
   {
     "id": "battle-of-wagram",
@@ -462,7 +476,8 @@
       "side2": 136000
     },
     "warName": "Napoleonic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Wagram"
   },
   {
     "id": "battle-of-aspern-essling",
@@ -493,7 +508,8 @@
       "side2": 99000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Aspern-Essling"
   },
   {
     "id": "battle-of-torres-vedras",
@@ -516,7 +532,8 @@
       "Andre Massena"
     ],
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Lines_of_Torres_Vedras"
   },
   {
     "id": "battle-of-salamanca",
@@ -547,7 +564,8 @@
       "side2": 50000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Salamanca"
   },
   {
     "id": "battle-of-borodino",
@@ -578,7 +596,8 @@
       "side2": 120000
     },
     "warName": "Napoleonic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Borodino"
   },
   {
     "id": "battle-of-smolensk-1812",
@@ -609,7 +628,8 @@
       "side2": 130000
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Smolensk_(1812)"
   },
   {
     "id": "battle-of-berezina",
@@ -640,7 +660,8 @@
       "side2": 60000
     },
     "warName": "Napoleonic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Berezina"
   },
   {
     "id": "battle-of-lutzen-1813",
@@ -671,7 +692,8 @@
       "side2": 93000
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Lutzen_(1813)"
   },
   {
     "id": "battle-of-bautzen",
@@ -702,7 +724,8 @@
       "side2": 96000
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Bautzen"
   },
   {
     "id": "battle-of-vitoria",
@@ -733,7 +756,8 @@
       "side2": 58000
     },
     "warName": "Napoleonic Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Vitoria"
   },
   {
     "id": "battle-of-dresden",
@@ -764,7 +788,8 @@
       "side2": 215000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Dresden"
   },
   {
     "id": "battle-of-leipzig",
@@ -795,7 +820,8 @@
       "side2": 365000
     },
     "warName": "Napoleonic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Leipzig"
   },
   {
     "id": "battle-of-ligny",
@@ -826,7 +852,8 @@
       "side2": 84000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ligny"
   },
   {
     "id": "battle-of-quatre-bras",
@@ -857,7 +884,8 @@
       "side2": 24000
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Quatre_Bras"
   },
   {
     "id": "battle-of-waterloo",
@@ -888,7 +916,8 @@
       "side2": 73000
     },
     "warName": "Napoleonic Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Waterloo"
   },
   {
     "id": "battle-of-boyaca",
@@ -919,7 +948,8 @@
       "side2": 2670
     },
     "warName": "Colombian War of Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Boyaca"
   },
   {
     "id": "battle-of-carabobo",
@@ -950,7 +980,8 @@
       "side2": 5000
     },
     "warName": "Venezuelan War of Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Carabobo"
   },
   {
     "id": "battle-of-maipu",
@@ -981,7 +1012,8 @@
       "side2": 5300
     },
     "warName": "Chilean War of Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Maipu"
   },
   {
     "id": "battle-of-chacabuco",
@@ -1012,7 +1044,8 @@
       "side2": 1500
     },
     "warName": "Chilean War of Independence",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Chacabuco"
   },
   {
     "id": "battle-of-ayacucho",
@@ -1043,7 +1076,8 @@
       "side2": 9310
     },
     "warName": "Peruvian War of Independence",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Ayacucho"
   },
   {
     "id": "battle-of-junin",
@@ -1074,7 +1108,8 @@
       "side2": 1300
     },
     "warName": "Peruvian War of Independence",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Junin"
   },
   {
     "id": "battle-of-pichincha",
@@ -1105,7 +1140,8 @@
       "side2": 3000
     },
     "warName": "Ecuadorian War of Independence",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Pichincha"
   },
   {
     "id": "battle-of-new-orleans",
@@ -1136,7 +1172,8 @@
       "side2": 8000
     },
     "warName": "War of 1812",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_New_Orleans"
   },
   {
     "id": "battle-of-bladensburg",
@@ -1167,7 +1204,8 @@
       "side2": 4500
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Bladensburg"
   },
   {
     "id": "battle-of-baltimore",
@@ -1198,7 +1236,8 @@
       "side2": 5000
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Baltimore"
   },
   {
     "id": "battle-of-lake-erie",
@@ -1225,7 +1264,8 @@
       "side2": 135
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Lake_Erie"
   },
   {
     "id": "battle-of-plattsburgh",
@@ -1256,7 +1296,8 @@
       "side2": 10000
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Plattsburgh"
   },
   {
     "id": "battle-of-thames",
@@ -1287,7 +1328,8 @@
       "side2": 1300
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Thames"
   },
   {
     "id": "battle-of-navarino",
@@ -1314,7 +1356,8 @@
       "side2": 6000
     },
     "warName": "Greek War of Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Navarino"
   },
   {
     "id": "battle-of-san-jacinto",
@@ -1345,7 +1388,8 @@
       "side2": 1360
     },
     "warName": "Texas Revolution",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_San_Jacinto"
   },
   {
     "id": "battle-of-the-alamo",
@@ -1376,7 +1420,8 @@
       "side2": 1800
     },
     "warName": "Texas Revolution",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Alamo"
   },
   {
     "id": "battle-of-buena-vista",
@@ -1407,7 +1452,8 @@
       "side2": 15000
     },
     "warName": "Mexican-American War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Buena_Vista"
   },
   {
     "id": "battle-of-cerro-gordo",
@@ -1438,7 +1484,8 @@
       "side2": 12000
     },
     "warName": "Mexican-American War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Cerro_Gordo"
   },
   {
     "id": "battle-of-chapultepec",
@@ -1469,7 +1516,8 @@
       "side2": 4000
     },
     "warName": "Mexican-American War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Chapultepec"
   },
   {
     "id": "battle-of-the-alma",
@@ -1500,7 +1548,8 @@
       "side2": 37000
     },
     "warName": "Crimean War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Alma"
   },
   {
     "id": "battle-of-balaclava",
@@ -1531,7 +1580,8 @@
       "side2": 25000
     },
     "warName": "Crimean War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Balaclava"
   },
   {
     "id": "battle-of-inkerman",
@@ -1562,7 +1612,8 @@
       "side2": 42000
     },
     "warName": "Crimean War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Inkerman"
   },
   {
     "id": "siege-of-sevastopol-1854",
@@ -1593,7 +1644,8 @@
       "side2": 43000
     },
     "warName": "Crimean War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Sevastopol"
   },
   {
     "id": "battle-of-solferino",
@@ -1624,7 +1676,8 @@
       "side2": 129000
     },
     "warName": "Second Italian War of Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Solferino"
   },
   {
     "id": "battle-of-isandlwana",
@@ -1655,7 +1708,8 @@
       "side2": 1837
     },
     "warName": "Anglo-Zulu War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Isandlwana"
   },
   {
     "id": "battle-of-rorkes-drift",
@@ -1686,7 +1740,8 @@
       "side2": 4000
     },
     "warName": "Anglo-Zulu War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Rorke's_Drift"
   },
   {
     "id": "battle-of-ulundi",
@@ -1717,7 +1772,8 @@
       "side2": 15000
     },
     "warName": "Anglo-Zulu War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ulundi"
   },
   {
     "id": "battle-of-fort-sumter",
@@ -1744,7 +1800,8 @@
       "side2": 85
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Fort_Sumter"
   },
   {
     "id": "first-battle-of-bull-run",
@@ -1775,7 +1832,8 @@
       "side2": 28450
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "First_Battle_of_Bull_Run"
   },
   {
     "id": "battle-of-shiloh",
@@ -1806,7 +1864,8 @@
       "side2": 44968
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Shiloh"
   },
   {
     "id": "battle-of-antietam",
@@ -1837,7 +1896,8 @@
       "side2": 45000
     },
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Antietam"
   },
   {
     "id": "battle-of-fredericksburg",
@@ -1868,7 +1928,8 @@
       "side2": 72500
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Fredericksburg"
   },
   {
     "id": "battle-of-seven-pines",
@@ -1899,7 +1960,8 @@
       "side2": 41797
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Seven_Pines"
   },
   {
     "id": "seven-days-battles",
@@ -1930,7 +1992,8 @@
       "side2": 105000
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Seven_Days_Battles"
   },
   {
     "id": "second-battle-of-bull-run",
@@ -1961,7 +2024,8 @@
       "side2": 62000
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Second_Battle_of_Bull_Run"
   },
   {
     "id": "battle-of-chancellorsville",
@@ -1992,7 +2056,8 @@
       "side2": 133868
     },
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Chancellorsville"
   },
   {
     "id": "battle-of-gettysburg",
@@ -2023,7 +2088,8 @@
       "side2": 71699
     },
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Gettysburg"
   },
   {
     "id": "siege-of-vicksburg",
@@ -2054,7 +2120,8 @@
       "side2": 33000
     },
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Vicksburg"
   },
   {
     "id": "battle-of-chickamauga",
@@ -2085,7 +2152,8 @@
       "side2": 60000
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Chickamauga"
   },
   {
     "id": "battle-of-chattanooga",
@@ -2116,7 +2184,8 @@
       "side2": 44000
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Chattanooga"
   },
   {
     "id": "battle-of-the-wilderness",
@@ -2147,7 +2216,8 @@
       "side2": 61025
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Wilderness"
   },
   {
     "id": "battle-of-spotsylvania",
@@ -2178,7 +2248,8 @@
       "side2": 52000
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Spotsylvania_Court_House"
   },
   {
     "id": "battle-of-cold-harbor",
@@ -2209,7 +2280,8 @@
       "side2": 59000
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Cold_Harbor"
   },
   {
     "id": "siege-of-petersburg",
@@ -2240,7 +2312,8 @@
       "side2": 75000
     },
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Petersburg"
   },
   {
     "id": "battle-of-atlanta",
@@ -2271,7 +2344,8 @@
       "side2": 40438
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Atlanta"
   },
   {
     "id": "shermans-march-to-the-sea",
@@ -2293,7 +2367,8 @@
       "William T. Sherman"
     ],
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sherman's_March_to_the_Sea"
   },
   {
     "id": "battle-of-franklin",
@@ -2324,7 +2399,8 @@
       "side2": 27000
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Franklin"
   },
   {
     "id": "battle-of-nashville",
@@ -2355,7 +2431,8 @@
       "side2": 30000
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Nashville"
   },
   {
     "id": "battle-of-appomattox",
@@ -2378,7 +2455,8 @@
       "Robert E. Lee"
     ],
     "warName": "American Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Appomattox_Court_House"
   },
   {
     "id": "battle-of-hampton-roads",
@@ -2405,7 +2483,8 @@
       "side2": 78
     },
     "warName": "American Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Hampton_Roads"
   },
   {
     "id": "battle-of-mobile-bay",
@@ -2432,7 +2511,8 @@
       "side2": 312
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Mobile_Bay"
   },
   {
     "id": "battle-of-pea-ridge",
@@ -2463,7 +2543,8 @@
       "side2": 16000
     },
     "warName": "American Civil War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Pea_Ridge"
   },
   {
     "id": "battle-of-stones-river",
@@ -2494,7 +2575,8 @@
       "side2": 35000
     },
     "warName": "American Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Stones_River"
   },
   {
     "id": "battle-of-koniggratz",
@@ -2525,7 +2607,8 @@
       "side2": 206000
     },
     "warName": "Austro-Prussian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Koniggratz"
   },
   {
     "id": "battle-of-sedan",
@@ -2556,7 +2639,8 @@
       "side2": 120000
     },
     "warName": "Franco-Prussian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Sedan"
   },
   {
     "id": "battle-of-gravelotte",
@@ -2587,7 +2671,8 @@
       "side2": 113000
     },
     "warName": "Franco-Prussian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Gravelotte"
   },
   {
     "id": "siege-of-metz",
@@ -2618,7 +2703,8 @@
       "side2": 180000
     },
     "warName": "Franco-Prussian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Metz"
   },
   {
     "id": "siege-of-paris-1870",
@@ -2641,7 +2727,8 @@
       "Louis Jules Trochu"
     ],
     "warName": "Franco-Prussian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Paris"
   },
   {
     "id": "battle-of-mars-la-tour",
@@ -2672,7 +2759,8 @@
       "side2": 127000
     },
     "warName": "Franco-Prussian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Mars-la-Tour"
   },
   {
     "id": "battle-of-plevna",
@@ -2703,7 +2791,8 @@
       "side2": 50000
     },
     "warName": "Russo-Turkish War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Plevna"
   },
   {
     "id": "battle-of-adwa",
@@ -2734,7 +2823,8 @@
       "side2": 18000
     },
     "warName": "First Italo-Ethiopian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Adwa"
   },
   {
     "id": "battle-of-omdurman",
@@ -2765,7 +2855,8 @@
       "side2": 52000
     },
     "warName": "Mahdist War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Omdurman"
   },
   {
     "id": "siege-of-port-arthur",
@@ -2796,7 +2887,8 @@
       "side2": 50000
     },
     "warName": "Russo-Japanese War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Port_Arthur"
   },
   {
     "id": "battle-of-tsushima",
@@ -2823,7 +2915,8 @@
       "side2": 10000
     },
     "warName": "Russo-Japanese War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Tsushima"
   },
   {
     "id": "battle-of-mukden",
@@ -2854,7 +2947,8 @@
       "side2": 340000
     },
     "warName": "Russo-Japanese War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mukden"
   },
   {
     "id": "battle-of-yalu-river",
@@ -2885,7 +2979,8 @@
       "side2": 25000
     },
     "warName": "Russo-Japanese War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_the_Yalu_River"
   },
   {
     "id": "first-battle-of-the-marne",
@@ -2916,7 +3011,8 @@
       "side2": 1485000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "First_Battle_of_the_Marne"
   },
   {
     "id": "battle-of-tannenberg",
@@ -2947,7 +3043,8 @@
       "side2": 190000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Tannenberg"
   },
   {
     "id": "battle-of-mons",
@@ -2978,7 +3075,8 @@
       "side2": 150000
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Mons"
   },
   {
     "id": "first-battle-of-ypres",
@@ -3005,7 +3103,8 @@
       "side2": 134000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "First_Battle_of_Ypres"
   },
   {
     "id": "battle-of-gallipoli",
@@ -3036,7 +3135,8 @@
       "side2": 315000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Gallipoli"
   },
   {
     "id": "second-battle-of-ypres",
@@ -3063,7 +3163,8 @@
       "side2": 35000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Second_Battle_of_Ypres"
   },
   {
     "id": "battle-of-verdun",
@@ -3094,7 +3195,8 @@
       "side2": 500000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Verdun"
   },
   {
     "id": "battle-of-jutland",
@@ -3121,7 +3223,8 @@
       "side2": 3058
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Jutland"
   },
   {
     "id": "battle-of-the-somme",
@@ -3152,7 +3255,8 @@
       "side2": 500000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Somme"
   },
   {
     "id": "battle-of-the-brusilov-offensive",
@@ -3183,7 +3287,8 @@
       "side2": 448000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Brusilov_Offensive"
   },
   {
     "id": "battle-of-passchendaele",
@@ -3210,7 +3315,8 @@
       "side2": 220000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Passchendaele"
   },
   {
     "id": "battle-of-cambrai",
@@ -3241,7 +3347,8 @@
       "side2": 160000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cambrai"
   },
   {
     "id": "battle-of-vimy-ridge",
@@ -3272,7 +3379,8 @@
       "side2": 40000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Vimy_Ridge"
   },
   {
     "id": "battle-of-caporetto",
@@ -3303,7 +3411,8 @@
       "side2": 400000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Caporetto"
   },
   {
     "id": "battle-of-belleau-wood",
@@ -3334,7 +3443,8 @@
       "side2": 8000
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Belleau_Wood"
   },
   {
     "id": "second-battle-of-the-marne",
@@ -3365,7 +3475,8 @@
       "side2": 900000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Second_Battle_of_the_Marne"
   },
   {
     "id": "battle-of-amiens",
@@ -3396,7 +3507,8 @@
       "side2": 228000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Amiens"
   },
   {
     "id": "battle-of-meuse-argonne",
@@ -3427,7 +3539,8 @@
       "side2": 450000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Meuse-Argonne_Offensive"
   },
   {
     "id": "spring-offensive-1918",
@@ -3454,7 +3567,8 @@
       "side2": 863000
     },
     "warName": "World War I",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Spring_Offensive_(Kaiserschlacht)"
   },
   {
     "id": "battle-of-vittorio-veneto",
@@ -3485,7 +3599,8 @@
       "side2": 1200000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Vittorio_Veneto"
   },
   {
     "id": "battle-of-megiddo-1918",
@@ -3516,7 +3631,8 @@
       "side2": 34000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Megiddo_(1918)"
   },
   {
     "id": "battle-of-gorlice-tarnow",
@@ -3543,7 +3659,8 @@
       "side2": 412000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Gorlice-Tarnow"
   },
   {
     "id": "battle-of-loos",
@@ -3570,7 +3687,8 @@
       "side2": 25000
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Loos"
   },
   {
     "id": "battle-of-arras-1917",
@@ -3597,7 +3715,8 @@
       "side2": 120000
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Arras_(1917)"
   },
   {
     "id": "battle-of-verdun-ft-douaumont",
@@ -3620,7 +3739,8 @@
       "Max von Gallwitz"
     ],
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Recapture_of_Fort_Douaumont"
   },
   {
     "id": "battle-of-beersheba",
@@ -3651,7 +3771,8 @@
       "side2": 4400
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Beersheba"
   },
   {
     "id": "battle-of-st-mihiel",
@@ -3682,7 +3803,8 @@
       "side2": 75000
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Saint-Mihiel"
   },
   {
     "id": "battle-of-warsaw-1920",
@@ -3713,7 +3835,8 @@
       "side2": 104000
     },
     "warName": "Polish-Soviet War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Warsaw_(1920)"
   },
   {
     "id": "battle-of-tsaritsyn",
@@ -3736,7 +3859,8 @@
       "Pyotr Krasnov"
     ],
     "warName": "Russian Civil War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battles_of_Tsaritsyn"
   },
   {
     "id": "battle-of-perekop",
@@ -3763,7 +3887,8 @@
       "side2": 7000
     },
     "warName": "Russian Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Perekop"
   },
   {
     "id": "battle-of-shanghai-1937",
@@ -3794,7 +3919,8 @@
       "side2": 300000
     },
     "warName": "Second Sino-Japanese War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Shanghai_(1937)"
   },
   {
     "id": "battle-of-wuhan",
@@ -3825,7 +3951,8 @@
       "side2": 350000
     },
     "warName": "Second Sino-Japanese War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Wuhan"
   },
   {
     "id": "battle-of-taierzhuang",
@@ -3856,7 +3983,8 @@
       "side2": 40000
     },
     "warName": "Second Sino-Japanese War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Taierzhuang"
   },
   {
     "id": "battle-of-madrid",
@@ -3879,7 +4007,8 @@
       "Emilio Mola"
     ],
     "warName": "Spanish Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Madrid"
   },
   {
     "id": "battle-of-the-ebro",
@@ -3910,7 +4039,8 @@
       "side2": 100000
     },
     "warName": "Spanish Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Ebro"
   },
   {
     "id": "battle-of-jarama",
@@ -3937,7 +4067,8 @@
       "side2": 6000
     },
     "warName": "Spanish Civil War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Jarama"
   },
   {
     "id": "battle-of-guadalajara",
@@ -3964,7 +4095,8 @@
       "side2": 5000
     },
     "warName": "Spanish Civil War",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Guadalajara"
   },
   {
     "id": "battle-of-teruel",
@@ -3991,7 +4123,8 @@
       "side2": 50000
     },
     "warName": "Spanish Civil War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Teruel"
   },
   {
     "id": "invasion-of-poland",
@@ -4022,7 +4155,8 @@
       "side2": 1000000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Invasion_of_Poland"
   },
   {
     "id": "battle-of-the-bzura",
@@ -4053,7 +4187,8 @@
       "side2": 320000
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_the_Bzura"
   },
   {
     "id": "winter-war-suomussalmi",
@@ -4080,7 +4215,8 @@
       "side2": 23000
     },
     "warName": "Winter War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Suomussalmi"
   },
   {
     "id": "battle-of-france",
@@ -4111,7 +4247,8 @@
       "side2": 3300000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_France"
   },
   {
     "id": "battle-of-dunkirk",
@@ -4138,7 +4275,8 @@
       "side2": 800000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Evacuation_of_Dunkirk"
   },
   {
     "id": "battle-of-britain",
@@ -4165,7 +4303,8 @@
       "side2": 2585
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Britain"
   },
   {
     "id": "battle-of-taranto",
@@ -4192,7 +4331,8 @@
       "side2": 600
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Taranto"
   },
   {
     "id": "battle-of-greece",
@@ -4219,7 +4359,8 @@
       "side2": 71000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Greece"
   },
   {
     "id": "battle-of-crete",
@@ -4250,7 +4391,8 @@
       "side2": 42000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Crete"
   },
   {
     "id": "operation-barbarossa",
@@ -4281,7 +4423,8 @@
       "side2": 5500000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Barbarossa"
   },
   {
     "id": "battle-of-smolensk-1941",
@@ -4308,7 +4451,8 @@
       "side2": 759000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Smolensk_(1941)"
   },
   {
     "id": "battle-of-kiev-1941",
@@ -4339,7 +4483,8 @@
       "side2": 700000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kiev_(1941)"
   },
   {
     "id": "battle-of-moscow",
@@ -4370,7 +4515,8 @@
       "side2": 1900000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Moscow"
   },
   {
     "id": "siege-of-leningrad",
@@ -4397,7 +4543,8 @@
       "side2": 400000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Leningrad"
   },
   {
     "id": "attack-on-pearl-harbor",
@@ -4424,7 +4571,8 @@
       "side2": 2403
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Attack_on_Pearl_Harbor"
   },
   {
     "id": "fall-of-singapore",
@@ -4455,7 +4603,8 @@
       "side2": 85000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Singapore"
   },
   {
     "id": "battle-of-the-coral-sea",
@@ -4482,7 +4631,8 @@
       "side2": 966
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Coral_Sea"
   },
   {
     "id": "battle-of-midway",
@@ -4509,7 +4659,8 @@
       "side2": 3057
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Midway"
   },
   {
     "id": "battle-of-guadalcanal",
@@ -4540,7 +4691,8 @@
       "side2": 36000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Guadalcanal"
   },
   {
     "id": "battle-of-el-alamein",
@@ -4571,7 +4723,8 @@
       "side2": 116000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Second_Battle_of_El_Alamein"
   },
   {
     "id": "first-battle-of-el-alamein",
@@ -4602,7 +4755,8 @@
       "side2": 96000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "First_Battle_of_El_Alamein"
   },
   {
     "id": "battle-of-stalingrad",
@@ -4633,7 +4787,8 @@
       "side2": 1040000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Stalingrad"
   },
   {
     "id": "battle-of-kasserine-pass",
@@ -4660,7 +4815,8 @@
       "side2": 10000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Kasserine_Pass"
   },
   {
     "id": "battle-of-kursk",
@@ -4691,7 +4847,8 @@
       "side2": 780000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kursk"
   },
   {
     "id": "invasion-of-sicily",
@@ -4722,7 +4879,8 @@
       "side2": 365000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Allied_Invasion_of_Sicily"
   },
   {
     "id": "battle-of-anzio",
@@ -4753,7 +4911,8 @@
       "side2": 135000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Anzio"
   },
   {
     "id": "battle-of-monte-cassino",
@@ -4780,7 +4939,8 @@
       "side2": 20000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battles_of_Monte_Cassino"
   },
   {
     "id": "d-day-normandy",
@@ -4811,7 +4971,8 @@
       "side2": 50000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "D-Day_(Normandy_Landings)"
   },
   {
     "id": "battle-of-the-philippine-sea",
@@ -4838,7 +4999,8 @@
       "side2": 2987
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Philippine_Sea"
   },
   {
     "id": "battle-of-the-falaise-pocket",
@@ -4865,7 +5027,8 @@
       "side2": 60000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Falaise_Pocket"
   },
   {
     "id": "operation-market-garden",
@@ -4896,7 +5059,8 @@
       "side2": 20000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Market_Garden"
   },
   {
     "id": "battle-of-leyte-gulf",
@@ -4923,7 +5087,8 @@
       "side2": 12500
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Leyte_Gulf"
   },
   {
     "id": "battle-of-the-bulge",
@@ -4954,7 +5119,8 @@
       "side2": 410000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Bulge"
   },
   {
     "id": "battle-of-hurtgen-forest",
@@ -4981,7 +5147,8 @@
       "side2": 28000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Hurtgen_Forest"
   },
   {
     "id": "battle-of-iwo-jima",
@@ -5012,7 +5179,8 @@
       "side2": 21000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Iwo_Jima"
   },
   {
     "id": "battle-of-okinawa",
@@ -5043,7 +5211,8 @@
       "side2": 117000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Okinawa"
   },
   {
     "id": "battle-of-berlin",
@@ -5074,7 +5243,8 @@
       "side2": 766750
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Berlin"
   },
   {
     "id": "battle-of-imphal-kohima",
@@ -5105,7 +5275,8 @@
       "side2": 85000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battles_of_Imphal_and_Kohima"
   },
   {
     "id": "battle-of-saipan",
@@ -5136,7 +5307,8 @@
       "side2": 32000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Saipan"
   },
   {
     "id": "battle-of-peleliu",
@@ -5167,7 +5339,8 @@
       "side2": 11000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Peleliu"
   },
   {
     "id": "battle-of-tarawa",
@@ -5198,7 +5371,8 @@
       "side2": 4836
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Tarawa"
   },
   {
     "id": "battle-of-the-atlantic",
@@ -5225,7 +5399,8 @@
       "side2": 30000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Atlantic"
   },
   {
     "id": "operation-torch",
@@ -5256,7 +5431,8 @@
       "side2": 60000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Torch"
   },
   {
     "id": "battle-of-tunisia",
@@ -5283,7 +5459,8 @@
       "side2": 290000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Tunisia_Campaign"
   },
   {
     "id": "battle-of-kharkov-1943",
@@ -5310,7 +5487,8 @@
       "side2": 90000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Third_Battle_of_Kharkov"
   },
   {
     "id": "operation-bagration",
@@ -5341,7 +5519,8 @@
       "side2": 800000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Bagration"
   },
   {
     "id": "battle-of-the-bismarck-sea",
@@ -5368,7 +5547,8 @@
       "side2": 3000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Bismarck_Sea"
   },
   {
     "id": "battle-of-the-bulge-bastogne",
@@ -5395,7 +5575,8 @@
       "side2": 54000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Bastogne"
   },
   {
     "id": "crossing-of-the-rhine",
@@ -5418,7 +5599,8 @@
       "Albert Kesselring"
     ],
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Crossing_of_the_Rhine"
   },
   {
     "id": "battle-of-manila-1945",
@@ -5449,7 +5631,8 @@
       "side2": 17000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Manila"
   },
   {
     "id": "battle-of-the-java-sea",
@@ -5476,7 +5659,8 @@
       "side2": 36
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Java_Sea"
   },
   {
     "id": "battle-of-the-seelow-heights",
@@ -5507,7 +5691,8 @@
       "side2": 112000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Seelow_Heights"
   },
   {
     "id": "battle-of-the-vistula-oder",
@@ -5538,7 +5723,8 @@
       "side2": 450000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Vistula-Oder_Offensive"
   },
   {
     "id": "battle-of-britain-atlantic-convoys",
@@ -5565,7 +5751,8 @@
       "side2": 1932
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_North_Cape"
   },
   {
     "id": "sinking-of-the-bismarck",
@@ -5592,7 +5779,8 @@
       "side2": 2104
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sinking_of_the_Bismarck"
   },
   {
     "id": "battle-of-the-river-plate",
@@ -5619,7 +5807,8 @@
       "side2": 96
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_River_Plate"
   },
   {
     "id": "battle-of-tobruk",
@@ -5646,7 +5835,8 @@
       "side2": 8000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Tobruk"
   },
   {
     "id": "battle-of-gazala",
@@ -5677,7 +5867,8 @@
       "side2": 110000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Gazala"
   },
   {
     "id": "battle-of-dieppe",
@@ -5708,7 +5899,8 @@
       "side2": 1500
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Dieppe_Raid"
   },
   {
     "id": "battle-of-britain-the-blitz",
@@ -5731,7 +5923,8 @@
       "Hugh Dowding"
     ],
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "The_Blitz"
   },
   {
     "id": "battle-of-cape-matapan",
@@ -5758,7 +5951,8 @@
       "side2": 2303
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Cape_Matapan"
   },
   {
     "id": "battle-of-moscow-counteroffensive",
@@ -5785,7 +5979,8 @@
       "side2": 250000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Soviet_Moscow_Counteroffensive"
   },
   {
     "id": "battle-of-narvik",
@@ -5808,7 +6003,8 @@
       "Eduard Dietl"
     ],
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battles_of_Narvik"
   },
   {
     "id": "manchurian-strategic-offensive",
@@ -5839,7 +6035,8 @@
       "side2": 713000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Soviet_Invasion_of_Manchuria"
   },
   {
     "id": "second-battle-of-kharkov",
@@ -5866,7 +6063,8 @@
       "side2": 277000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Second_Battle_of_Kharkov"
   },
   {
     "id": "battle-of-the-coral-sea-savo",
@@ -5893,7 +6091,8 @@
       "side2": 1077
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Savo_Island"
   },
   {
     "id": "battle-of-operation-compass",
@@ -5924,7 +6123,8 @@
       "side2": 150000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Compass"
   },
   {
     "id": "liberation-of-paris",
@@ -5947,7 +6147,8 @@
       "Dietrich von Choltitz"
     ],
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Liberation_of_Paris"
   },
   {
     "id": "invasion-of-italy",
@@ -5974,7 +6175,8 @@
       "side2": 8000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Allied_Invasion_of_Italy_(Salerno)"
   },
   {
     "id": "operation-dragoon",
@@ -6001,7 +6203,8 @@
       "side2": 143000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Operation_Dragoon"
   },
   {
     "id": "battle-of-wake-island",
@@ -6032,7 +6235,8 @@
       "side2": 4500
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Wake_Island"
   },
   {
     "id": "battle-of-bataan",
@@ -6063,7 +6267,8 @@
       "side2": 75000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bataan"
   },
   {
     "id": "battle-of-the-coral-sea-midway-aleutians",
@@ -6090,7 +6295,8 @@
       "side2": 290
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_the_Eastern_Solomons"
   },
   {
     "id": "naval-battle-of-guadalcanal",
@@ -6117,7 +6323,8 @@
       "side2": 1900
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Naval_Battle_of_Guadalcanal"
   },
   {
     "id": "battle-of-saint-lo-cobra",
@@ -6140,7 +6347,8 @@
       "Gunther von Kluge"
     ],
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Cobra"
   },
   {
     "id": "battle-of-huaihai",
@@ -6171,7 +6379,8 @@
       "side2": 800000
     },
     "warName": "Chinese Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Huaihai"
   },
   {
     "id": "battle-of-khalkhin-gol",
@@ -6202,7 +6411,8 @@
       "side2": 38000
     },
     "warName": "Soviet-Japanese Border Conflicts",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Khalkhin_Gol"
   },
   {
     "id": "battle-of-the-dnieper",
@@ -6229,7 +6439,8 @@
       "side2": 350000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Dnieper"
   },
   {
     "id": "battle-of-the-coral-sea-burma-road",
@@ -6256,7 +6467,8 @@
       "side2": 3000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Myitkyina"
   },
   {
     "id": "battle-of-el-guettar",
@@ -6283,7 +6495,8 @@
       "side2": 2200
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_El_Guettar"
   },
   {
     "id": "battle-of-the-gothic-line",
@@ -6310,7 +6523,8 @@
       "side2": 30000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Gothic_Line"
   },
   {
     "id": "battle-of-budapest",
@@ -6337,7 +6551,8 @@
       "side2": 138000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Budapest"
   },
   {
     "id": "battle-of-breslau",
@@ -6360,7 +6575,8 @@
       "Hermann Niehoff"
     ],
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Siege_of_Breslau"
   },
   {
     "id": "battle-of-lake-balaton",
@@ -6387,7 +6603,8 @@
       "side2": 33000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Lake_Balaton"
   },
   {
     "id": "battle-of-the-ruhr-pocket",
@@ -6414,7 +6631,8 @@
       "side2": 325000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Ruhr_Pocket"
   },
   {
     "id": "battle-of-luzon",
@@ -6445,7 +6663,8 @@
       "side2": 262000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Luzon"
   },
   {
     "id": "battle-of-the-bulge-nordwind",
@@ -6472,7 +6691,8 @@
       "side2": 21000
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Operation_Nordwind"
   },
   {
     "id": "battle-of-korsun",
@@ -6499,7 +6719,8 @@
       "side2": 55000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Korsun_Pocket"
   },
   {
     "id": "battle-of-jassy-kishinev",
@@ -6526,7 +6747,8 @@
       "side2": 256000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Jassy-Kishinev_Offensive"
   },
   {
     "id": "battle-of-britain-operation-weserubung",
@@ -6553,7 +6775,8 @@
       "side2": 4500
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Norwegian_Campaign"
   },
   {
     "id": "battle-of-guadalcanal-henderson",
@@ -6580,7 +6803,8 @@
       "side2": 3000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_for_Henderson_Field"
   },
   {
     "id": "battle-of-changde",
@@ -6607,7 +6831,8 @@
       "side2": 10000
     },
     "warName": "Second Sino-Japanese War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Changde"
   },
   {
     "id": "battle-of-smolensk-1943",
@@ -6634,7 +6859,8 @@
       "side2": 200000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Smolensk_(1943)"
   },
   {
     "id": "battle-of-borneo",
@@ -6661,7 +6887,8 @@
       "side2": 4700
     },
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Borneo"
   },
   {
     "id": "battle-of-medjez-el-bab",
@@ -6684,7 +6911,8 @@
       "Walther Nehring"
     ],
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Longstop_Hill"
   },
   {
     "id": "battle-of-sevastopol-1942",
@@ -6711,7 +6939,8 @@
       "side2": 200000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Sevastopol_(1941-42)"
   },
   {
     "id": "battle-of-the-kasserine-sidi-bou-zid",
@@ -6734,7 +6963,8 @@
       "John Waters"
     ],
     "warName": "World War II",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Sidi_Bou_Zid"
   },
   {
     "id": "battle-of-buna-gona",
@@ -6761,7 +6991,8 @@
       "side2": 7000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Buna-Gona"
   },
   {
     "id": "battle-of-kokoda-trail",
@@ -6788,7 +7019,8 @@
       "side2": 6000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Kokoda_Track_Campaign"
   },
   {
     "id": "atomic-bombing-hiroshima",
@@ -6813,7 +7045,8 @@
       "side2": 140000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Atomic_Bombing_of_Hiroshima"
   },
   {
     "id": "atomic-bombing-nagasaki",
@@ -6838,7 +7071,8 @@
       "side2": 70000
     },
     "warName": "World War II",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Atomic_Bombing_of_Nagasaki"
   },
   {
     "id": "battle-of-the-river-rzhev",
@@ -6865,7 +7099,8 @@
       "side2": 330000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battles_of_Rzhev"
   },
   {
     "id": "battle-of-new-guinea-hollandia",
@@ -6892,7 +7127,8 @@
       "side2": 9000
     },
     "warName": "World War II",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Hollandia"
   },
   {
     "id": "battle-of-lvov-sandomierz",
@@ -6919,7 +7155,8 @@
       "side2": 290000
     },
     "warName": "World War II",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Lvov-Sandomierz_Offensive"
   },
   {
     "id": "battle-of-corunna",
@@ -6950,7 +7187,8 @@
       "side2": 16000
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Corunna"
   },
   {
     "id": "battle-of-busaco",
@@ -6981,7 +7219,8 @@
       "side2": 65000
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Busaco"
   },
   {
     "id": "battle-of-talavera",
@@ -7012,7 +7251,8 @@
       "side2": 46000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Talavera"
   },
   {
     "id": "battle-of-badajoz",
@@ -7039,7 +7279,8 @@
       "side2": 4000
     },
     "warName": "Napoleonic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Badajoz"
   },
   {
     "id": "battle-of-nive",
@@ -7070,7 +7311,8 @@
       "side2": 60000
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_the_Nivelle"
   },
   {
     "id": "battle-of-toulouse-1814",
@@ -7097,7 +7339,8 @@
       "side2": 3236
     },
     "warName": "Napoleonic Wars",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Toulouse"
   },
   {
     "id": "battle-of-queenston-heights",
@@ -7128,7 +7371,8 @@
       "side2": 6000
     },
     "warName": "War of 1812",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Queenston_Heights"
   },
   {
     "id": "battle-of-chippawa",
@@ -7159,7 +7403,8 @@
       "side2": 2100
     },
     "warName": "War of 1812",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Chippawa"
   },
   {
     "id": "battle-of-horseshoe-bend",
@@ -7190,7 +7435,8 @@
       "side2": 1000
     },
     "warName": "Creek War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Horseshoe_Bend"
   },
   {
     "id": "battle-of-the-yser",
@@ -7217,7 +7463,8 @@
       "side2": 20000
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Yser"
   },
   {
     "id": "battle-of-coronel",
@@ -7244,7 +7491,8 @@
       "side2": 1654
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Coronel"
   },
   {
     "id": "battle-of-the-falkland-islands",
@@ -7271,7 +7519,8 @@
       "side2": 1871
     },
     "warName": "World War I",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Falkland_Islands"
   },
   {
     "id": "battle-of-tanga",
@@ -7302,7 +7551,8 @@
       "side2": 1000
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Tanga"
   },
   {
     "id": "battle-of-the-dogger-bank",
@@ -7329,7 +7579,8 @@
       "side2": 954
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Dogger_Bank"
   },
   {
     "id": "battle-of-the-isonzo",
@@ -7356,7 +7607,8 @@
       "side2": 200000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battles_of_the_Isonzo"
   },
   {
     "id": "battle-of-the-somme-beaumont-hamel",
@@ -7379,7 +7631,8 @@
       "Fritz von Below"
     ],
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Battle_of_Beaumont-Hamel"
   },
   {
     "id": "battle-of-achi-baba",
@@ -7406,7 +7659,8 @@
       "side2": 9000
     },
     "warName": "World War I",
-    "significance": 4
+    "significance": 4,
+    "wikipediaSlug": "Third_Battle_of_Krithia"
   },
   {
     "id": "battle-of-marne-taxis",
@@ -7429,7 +7683,8 @@
       "Erich von Falkenhayn"
     ],
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Race_to_the_Sea"
   },
   {
     "id": "battle-of-the-frontiers",
@@ -7456,6 +7711,7 @@
       "side2": 200000
     },
     "warName": "World War I",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Frontiers"
   }
 ]

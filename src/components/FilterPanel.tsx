@@ -1,6 +1,7 @@
 import { useRef, useEffect, useState, useMemo, useCallback } from 'react'
 import type { Battle } from '../types/battle'
 import erasData from '../data/eras.json'
+import { ERA_COLORS, ERA_NAMES } from '../constants/eras'
 
 export interface FilterPanelProps {
   eras: string[]
@@ -25,12 +26,7 @@ export interface FilterPanelProps {
   onNearMeToggle?: () => void
 }
 
-const ERA_COLORS: Record<string, string> = {}
-const ERA_NAMES: Record<string, string> = {}
-for (const era of erasData) {
-  ERA_COLORS[era.id] = era.color
-  ERA_NAMES[era.id] = era.name
-}
+// ERA_COLORS and ERA_NAMES imported from constants/eras
 
 const ERA_IDS = erasData.map((e) => e.id)
 

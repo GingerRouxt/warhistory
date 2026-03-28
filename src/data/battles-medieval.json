@@ -28,7 +28,8 @@
       "side2": 70
     },
     "warName": "Muslim-Quraysh Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Badr"
   },
   {
     "id": "battle-of-yarmouk",
@@ -55,7 +56,8 @@
       "side2": 80000
     },
     "warName": "Muslim conquest of the Levant",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Yarmouk"
   },
   {
     "id": "battle-of-qadisiyyah",
@@ -82,7 +84,8 @@
       "side2": 60000
     },
     "warName": "Muslim conquest of Persia",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_al-Qadisiyyah"
   },
   {
     "id": "battle-of-nahavand",
@@ -109,7 +112,8 @@
       "side2": 60000
     },
     "warName": "Muslim conquest of Persia",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Nahavand"
   },
   {
     "id": "siege-of-constantinople-674",
@@ -132,7 +136,8 @@
       "Yazid ibn Muawiya"
     ],
     "warName": "Arab-Byzantine Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "First_Arab_Siege_of_Constantinople"
   },
   {
     "id": "battle-of-karbala",
@@ -159,7 +164,8 @@
       "side2": 4000
     },
     "warName": "Second Fitna",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Karbala"
   },
   {
     "id": "siege-of-constantinople-717",
@@ -182,7 +188,8 @@
       "Maslama ibn Abd al-Malik"
     ],
     "warName": "Arab-Byzantine Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Second_Arab_Siege_of_Constantinople"
   },
   {
     "id": "battle-of-tours",
@@ -205,7 +212,8 @@
       "Abd al-Rahman al-Ghafiqi"
     ],
     "warName": "Umayyad invasion of Gaul",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Tours"
   },
   {
     "id": "battle-of-talas",
@@ -232,7 +240,8 @@
       "side2": 30000
     },
     "warName": "Tang-Abbasid conflict",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Talas"
   },
   {
     "id": "battle-of-roncevaux-pass",
@@ -255,7 +264,8 @@
       "Unknown Basque leaders"
     ],
     "warName": "Charlemagne's Spanish Campaign",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Roncevaux_Pass"
   },
   {
     "id": "battle-of-edington",
@@ -278,7 +288,8 @@
       "Guthrum"
     ],
     "warName": "Viking invasions of England",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Edington"
   },
   {
     "id": "battle-of-simancas",
@@ -301,7 +312,8 @@
       "Abd al-Rahman III"
     ],
     "warName": "Reconquista",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Simancas"
   },
   {
     "id": "battle-of-lechfeld",
@@ -328,7 +340,8 @@
       "side2": 25000
     },
     "warName": "Hungarian invasions of Europe",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Lechfeld"
   },
   {
     "id": "battle-of-brunanburh",
@@ -352,7 +365,8 @@
       "Constantine II of Scotland"
     ],
     "warName": "Viking Age conflicts in Britain",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Brunanburh"
   },
   {
     "id": "battle-of-clontarf",
@@ -376,7 +390,8 @@
       "Maelmorda of Leinster"
     ],
     "warName": "Viking Age in Ireland",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Clontarf"
   },
   {
     "id": "battle-of-dandanaqan",
@@ -399,7 +414,8 @@
       "Mas'ud I of Ghazni"
     ],
     "warName": "Seljuk-Ghaznavid Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Dandanaqan"
   },
   {
     "id": "battle-of-hastings",
@@ -430,7 +446,8 @@
       "side2": 4000
     },
     "warName": "Norman Conquest of England",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Hastings"
   },
   {
     "id": "battle-of-stamford-bridge",
@@ -457,7 +474,8 @@
       "side2": 9000
     },
     "warName": "Norwegian invasion of England",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Stamford_Bridge"
   },
   {
     "id": "battle-of-manzikert",
@@ -484,7 +502,8 @@
       "side2": 30000
     },
     "warName": "Byzantine-Seljuk Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Manzikert"
   },
   {
     "id": "battle-of-sagrajas",
@@ -507,7 +526,8 @@
       "Alfonso VI of Castile"
     ],
     "warName": "Reconquista",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sagrajas_(Zallaqa)"
   },
   {
     "id": "battle-of-dorylaeum-1097",
@@ -534,7 +554,8 @@
       "side2": 50000
     },
     "warName": "First Crusade",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Dorylaeum"
   },
   {
     "id": "siege-of-antioch-1098",
@@ -558,7 +579,8 @@
       "Kerbogha"
     ],
     "warName": "First Crusade",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Antioch"
   },
   {
     "id": "siege-of-jerusalem-1099",
@@ -586,7 +608,8 @@
       "side2": 1000
     },
     "warName": "First Crusade",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Jerusalem_(1099)"
   },
   {
     "id": "battle-of-ascalon-1099",
@@ -609,7 +632,8 @@
       "Al-Afdal Shahanshah"
     ],
     "warName": "First Crusade",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ascalon"
   },
   {
     "id": "battle-of-harran-1104",
@@ -632,7 +656,8 @@
       "Jikirmish"
     ],
     "warName": "Crusader-Seljuk conflicts",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Harran"
   },
   {
     "id": "battle-of-sarmada",
@@ -655,7 +680,8 @@
       "Ilghazi"
     ],
     "warName": "Crusader-Muslim conflicts",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Field_of_Blood_(Ager_Sanguinis)"
   },
   {
     "id": "battle-of-didgori",
@@ -682,7 +708,8 @@
       "side2": 250000
     },
     "warName": "Georgian-Seljuk Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Didgori"
   },
   {
     "id": "battle-of-kurikara",
@@ -709,7 +736,8 @@
       "side2": 70000
     },
     "warName": "Genpei War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Kurikara"
   },
   {
     "id": "battle-of-dan-no-ura",
@@ -732,7 +760,8 @@
       "Taira no Munemori"
     ],
     "warName": "Genpei War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Dan-no-ura"
   },
   {
     "id": "battle-of-hattin",
@@ -764,7 +793,8 @@
       "side2": 17000
     },
     "warName": "Crusades",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Hattin"
   },
   {
     "id": "siege-of-acre-1189",
@@ -788,7 +818,8 @@
       "Saladin"
     ],
     "warName": "Third Crusade",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Acre"
   },
   {
     "id": "battle-of-arsuf",
@@ -815,7 +846,8 @@
       "side2": 25000
     },
     "warName": "Third Crusade",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Arsuf"
   },
   {
     "id": "battle-of-jaffa-1192",
@@ -838,7 +870,8 @@
       "Saladin"
     ],
     "warName": "Third Crusade",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Jaffa"
   },
   {
     "id": "battle-of-las-navas-de-tolosa",
@@ -867,7 +900,8 @@
       "side2": 125000
     },
     "warName": "Reconquista",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Las_Navas_de_Tolosa"
   },
   {
     "id": "battle-of-bouvines",
@@ -897,7 +931,8 @@
       "side2": 25000
     },
     "warName": "Anglo-French War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bouvines"
   },
   {
     "id": "battle-of-the-kalka-river",
@@ -926,7 +961,8 @@
       "side2": 80000
     },
     "warName": "Mongol invasion of Rus",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Kalka_River"
   },
   {
     "id": "siege-of-baghdad-1258",
@@ -956,7 +992,8 @@
       "side2": 1000000
     },
     "warName": "Mongol invasions",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Baghdad"
   },
   {
     "id": "battle-of-legnica",
@@ -984,7 +1021,8 @@
       "side2": 25000
     },
     "warName": "Mongol invasion of Europe",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Legnica"
   },
   {
     "id": "battle-of-mohi",
@@ -1015,7 +1053,8 @@
       "side2": 10000
     },
     "warName": "Mongol invasion of Europe",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Mohi"
   },
   {
     "id": "battle-of-ain-jalut",
@@ -1043,7 +1082,8 @@
       "side2": 20000
     },
     "warName": "Mongol invasions",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Ain_Jalut"
   },
   {
     "id": "battle-of-hims-1281",
@@ -1066,7 +1106,8 @@
       "Mongke Temur"
     ],
     "warName": "Mamluk-Ilkhanate War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Second_Battle_of_Homs"
   },
   {
     "id": "siege-of-acre-1291",
@@ -1093,7 +1134,8 @@
       "side2": 30000
     },
     "warName": "Crusades",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Acre"
   },
   {
     "id": "battle-of-dorylaeum-1147",
@@ -1116,7 +1158,8 @@
       "Mesud I"
     ],
     "warName": "Second Crusade",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Dorylaeum_(1147)"
   },
   {
     "id": "siege-of-damascus-1148",
@@ -1140,7 +1183,8 @@
       "Mu'in ad-Din Unur"
     ],
     "warName": "Second Crusade",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Damascus_(1148)"
   },
   {
     "id": "siege-of-constantinople-1204",
@@ -1164,7 +1208,8 @@
       "Alexios V"
     ],
     "warName": "Fourth Crusade",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sack_of_Constantinople_(1204)"
   },
   {
     "id": "battle-of-muret",
@@ -1192,7 +1237,8 @@
       "side2": 4000
     },
     "warName": "Albigensian Crusade",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Muret"
   },
   {
     "id": "battle-of-la-forbie",
@@ -1215,7 +1261,8 @@
       "Baibars al-Bunduqdari"
     ],
     "warName": "Crusades",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_La_Forbie"
   },
   {
     "id": "battle-of-mansura",
@@ -1239,7 +1286,8 @@
       "Turanshah"
     ],
     "warName": "Seventh Crusade",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mansura"
   },
   {
     "id": "battle-of-crecy",
@@ -1271,7 +1319,8 @@
       "side2": 13000
     },
     "warName": "Hundred Years' War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Crecy"
   },
   {
     "id": "siege-of-calais-1346",
@@ -1294,7 +1343,8 @@
       "Jean de Vienne"
     ],
     "warName": "Hundred Years' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Calais"
   },
   {
     "id": "battle-of-poitiers-1356",
@@ -1325,7 +1375,8 @@
       "side2": 5000
     },
     "warName": "Hundred Years' War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Poitiers"
   },
   {
     "id": "battle-of-nicopolis",
@@ -1353,7 +1404,8 @@
       "side2": 16000
     },
     "warName": "Ottoman Wars in Europe",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Nicopolis"
   },
   {
     "id": "battle-of-ankara",
@@ -1380,7 +1432,8 @@
       "side2": 85000
     },
     "warName": "Ottoman-Timurid War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Ankara"
   },
   {
     "id": "battle-of-agincourt",
@@ -1411,7 +1464,8 @@
       "side2": 10000
     },
     "warName": "Hundred Years' War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Agincourt"
   },
   {
     "id": "siege-of-orleans",
@@ -1435,7 +1489,8 @@
       "William de la Pole"
     ],
     "warName": "Hundred Years' War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Orleans"
   },
   {
     "id": "battle-of-patay",
@@ -1467,7 +1522,8 @@
       "side2": 2500
     },
     "warName": "Hundred Years' War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Patay"
   },
   {
     "id": "battle-of-castillon",
@@ -1494,7 +1550,8 @@
       "side2": 6000
     },
     "warName": "Hundred Years' War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Castillon"
   },
   {
     "id": "battle-of-varna",
@@ -1523,7 +1580,8 @@
       "side2": 20000
     },
     "warName": "Crusade of Varna",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Varna"
   },
   {
     "id": "second-battle-of-kosovo",
@@ -1550,7 +1608,8 @@
       "side2": 30000
     },
     "warName": "Ottoman Wars in Europe",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Second_Battle_of_Kosovo"
   },
   {
     "id": "fall-of-constantinople",
@@ -1577,7 +1636,8 @@
       "side2": 7000
     },
     "warName": "Fall of the Byzantine Empire",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Constantinople"
   },
   {
     "id": "battle-of-towton",
@@ -1608,7 +1668,8 @@
       "side2": 20000
     },
     "warName": "Wars of the Roses",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Towton"
   },
   {
     "id": "battle-of-barnet",
@@ -1635,7 +1696,8 @@
       "side2": 15000
     },
     "warName": "Wars of the Roses",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Barnet"
   },
   {
     "id": "battle-of-tewkesbury",
@@ -1659,7 +1721,8 @@
       "Edmund Beaufort"
     ],
     "warName": "Wars of the Roses",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Tewkesbury"
   },
   {
     "id": "battle-of-bosworth-field",
@@ -1686,7 +1749,8 @@
       "side2": 8000
     },
     "warName": "Wars of the Roses",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Bosworth_Field"
   },
   {
     "id": "battle-of-bannockburn",
@@ -1713,7 +1777,8 @@
       "side2": 20000
     },
     "warName": "First War of Scottish Independence",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Bannockburn"
   },
   {
     "id": "battle-of-stirling-bridge",
@@ -1737,7 +1802,8 @@
       "John de Warenne"
     ],
     "warName": "First War of Scottish Independence",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Stirling_Bridge"
   },
   {
     "id": "battle-of-falkirk-1298",
@@ -1764,7 +1830,8 @@
       "side2": 6000
     },
     "warName": "First War of Scottish Independence",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Falkirk"
   },
   {
     "id": "battle-of-sluys",
@@ -1791,7 +1858,8 @@
       "side2": 25000
     },
     "warName": "Hundred Years' War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sluys"
   },
   {
     "id": "battle-of-kosovo-1389",
@@ -1818,7 +1886,8 @@
       "side2": 30000
     },
     "warName": "Ottoman conquest of the Balkans",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kosovo"
   },
   {
     "id": "battle-of-grunwald",
@@ -1851,7 +1920,8 @@
       "side2": 18000
     },
     "warName": "Polish-Lithuanian-Teutonic War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Grunwald_(Tannenberg)"
   },
   {
     "id": "battle-of-lake-peipus",
@@ -1878,7 +1948,8 @@
       "side2": 4000
     },
     "warName": "Northern Crusades",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_on_the_Ice_(Lake_Peipus)"
   },
   {
     "id": "battle-of-neva",
@@ -1901,7 +1972,8 @@
       "Birger Jarl"
     ],
     "warName": "Swedish-Novgorodian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Neva"
   },
   {
     "id": "battle-of-kulikovo",
@@ -1928,7 +2000,8 @@
       "side2": 60000
     },
     "warName": "Mongol-Russian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kulikovo"
   },
   {
     "id": "battle-of-zhongdu",
@@ -1951,7 +2024,8 @@
       "Emperor Xuanzong of Jin"
     ],
     "warName": "Mongol conquest of China",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Zhongdu_(Beijing)"
   },
   {
     "id": "battle-of-the-indus",
@@ -1974,7 +2048,8 @@
       "Jalal ad-Din Mingburnu"
     ],
     "warName": "Mongol invasion of Khwarezm",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Indus"
   },
   {
     "id": "siege-of-samarkand",
@@ -2001,7 +2076,8 @@
       "side2": 110000
     },
     "warName": "Mongol invasion of Khwarezm",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Samarkand"
   },
   {
     "id": "siege-of-bukhara",
@@ -2023,7 +2099,8 @@
       "Genghis Khan"
     ],
     "warName": "Mongol invasion of Khwarezm",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Bukhara"
   },
   {
     "id": "battle-of-xiangyang",
@@ -2046,7 +2123,8 @@
       "Lu Wenhuan"
     ],
     "warName": "Mongol conquest of Song Dynasty",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Xiangyang"
   },
   {
     "id": "battle-of-yamen",
@@ -2072,7 +2150,8 @@
       "side2": 100000
     },
     "warName": "Mongol conquest of Song Dynasty",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Yamen"
   },
   {
     "id": "mongol-invasion-of-japan-1274",
@@ -2100,7 +2179,8 @@
       "side2": 40000
     },
     "warName": "Mongol invasions of Japan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bun'ei_(First_Mongol_Invasion_of_Japan)"
   },
   {
     "id": "mongol-invasion-of-japan-1281",
@@ -2131,7 +2211,8 @@
       "side2": 100000
     },
     "warName": "Mongol invasions of Japan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Koan_(Second_Mongol_Invasion_of_Japan)"
   },
   {
     "id": "siege-of-delhi-1398",
@@ -2154,7 +2235,8 @@
       "Nasir-ud-Din Mahmud Shah Tughluq"
     ],
     "warName": "Timurid invasions",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Delhi"
   },
   {
     "id": "siege-of-aleppo-1400",
@@ -2177,7 +2259,8 @@
       "Timurtash"
     ],
     "warName": "Timurid invasions",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Aleppo_(1400)"
   },
   {
     "id": "siege-of-damascus-1401",
@@ -2199,7 +2282,8 @@
       "Timur"
     ],
     "warName": "Timurid invasions",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Damascus_(1401)"
   },
   {
     "id": "battle-of-panipat-1398",
@@ -2222,7 +2306,8 @@
       "Nasir-ud-Din Mahmud Shah Tughluq"
     ],
     "warName": "Timurid invasions",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Panipat_(approach_to_Delhi)"
   },
   {
     "id": "battle-of-nagashino",
@@ -2253,7 +2338,8 @@
       "side2": 10000
     },
     "warName": "Sengoku period wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Nagashino"
   },
   {
     "id": "battle-of-ichi-no-tani",
@@ -2276,7 +2362,8 @@
       "Taira no Munemori"
     ],
     "warName": "Genpei War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ichi-no-Tani"
   },
   {
     "id": "battle-of-yashima",
@@ -2299,7 +2386,8 @@
       "Taira no Munemori"
     ],
     "warName": "Genpei War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Yashima"
   },
   {
     "id": "battle-of-the-golden-spurs",
@@ -2329,7 +2417,8 @@
       "side2": 1000
     },
     "warName": "Franco-Flemish War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Golden_Spurs_(Courtrai)"
   },
   {
     "id": "battle-of-morgarten",
@@ -2356,7 +2445,8 @@
       "side2": 9000
     },
     "warName": "Swiss struggle for independence",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Morgarten"
   },
   {
     "id": "battle-of-laupen",
@@ -2378,7 +2468,8 @@
       "Rudolf von Erlach"
     ],
     "warName": "Swiss Wars of Expansion",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Laupen"
   },
   {
     "id": "battle-of-sempach",
@@ -2401,7 +2492,8 @@
       "Leopold III of Austria"
     ],
     "warName": "Swiss struggle for independence",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Sempach"
   },
   {
     "id": "siege-of-belgrade-1456",
@@ -2429,7 +2521,8 @@
       "side2": 70000
     },
     "warName": "Ottoman Wars in Europe",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Belgrade_(1456)"
   },
   {
     "id": "battle-of-grandson",
@@ -2452,7 +2545,8 @@
       "Charles the Bold"
     ],
     "warName": "Burgundian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Grandson"
   },
   {
     "id": "battle-of-morat",
@@ -2482,7 +2576,8 @@
       "side2": 10000
     },
     "warName": "Burgundian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Morat_(Murten)"
   },
   {
     "id": "battle-of-nancy",
@@ -2506,7 +2601,8 @@
       "Charles the Bold"
     ],
     "warName": "Burgundian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Nancy"
   },
   {
     "id": "battle-of-adwa-precursor-medieval",
@@ -2529,7 +2625,8 @@
       "Lebna Dengel"
     ],
     "warName": "Ethiopian-Adal War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Shimbra_Kure"
   },
   {
     "id": "battle-of-kirina",
@@ -2552,7 +2649,8 @@
       "Sumanguru Kante"
     ],
     "warName": "Rise of the Mali Empire",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Kirina"
   },
   {
     "id": "battle-of-tondibi",
@@ -2579,7 +2677,8 @@
       "side2": 40000
     },
     "warName": "Moroccan invasion of Songhai",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Tondibi"
   },
   {
     "id": "battle-of-ngasaunggyan",
@@ -2602,7 +2701,8 @@
       "Narathihapate"
     ],
     "warName": "Mongol invasions of Burma",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ngasaunggyan"
   },
   {
     "id": "battle-of-bach-dang-1288",
@@ -2625,7 +2725,8 @@
       "Toghan"
     ],
     "warName": "Mongol invasions of Vietnam",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bach_Dang_(1288)"
   },
   {
     "id": "battle-of-myriokephalon",
@@ -2648,7 +2749,8 @@
       "Kilij Arslan II"
     ],
     "warName": "Byzantine-Seljuk Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Myriokephalon"
   },
   {
     "id": "battle-of-dyrrhachium-1081",
@@ -2675,7 +2777,8 @@
       "side2": 20000
     },
     "warName": "Norman invasion of the Balkans",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Dyrrhachium"
   },
   {
     "id": "battle-of-civitate",
@@ -2698,7 +2801,8 @@
       "Pope Leo IX"
     ],
     "warName": "Norman conquest of southern Italy",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Civitate"
   },
   {
     "id": "battle-of-carcano",
@@ -2721,7 +2825,8 @@
       "Frederick Barbarossa"
     ],
     "warName": "Lombard League Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Legnano"
   },
   {
     "id": "battle-of-guadalete",
@@ -2748,7 +2853,8 @@
       "side2": 25000
     },
     "warName": "Umayyad conquest of Hispania",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Guadalete"
   },
   {
     "id": "battle-of-covadonga",
@@ -2771,7 +2877,8 @@
       "Munuza"
     ],
     "warName": "Reconquista",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Covadonga"
   },
   {
     "id": "battle-of-the-zab",
@@ -2794,7 +2901,8 @@
       "Marwan II"
     ],
     "warName": "Abbasid Revolution",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Zab"
   },
   {
     "id": "siege-of-paris-885",
@@ -2821,7 +2929,8 @@
       "side2": 30000
     },
     "warName": "Viking invasions of France",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Paris"
   },
   {
     "id": "battle-of-stiklestad",
@@ -2844,7 +2953,8 @@
       "Thorir Hund"
     ],
     "warName": "Norwegian civil conflicts",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Stiklestad"
   },
   {
     "id": "battle-of-manzikert-aftermath-philomelion",
@@ -2867,7 +2977,8 @@
       "Malik Shah"
     ],
     "warName": "Byzantine-Seljuk Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Philomelion"
   },
   {
     "id": "battle-of-tinchebray",
@@ -2890,7 +3001,8 @@
       "Robert Curthose"
     ],
     "warName": "Anglo-Norman succession conflict",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Tinchebray"
   },
   {
     "id": "battle-of-lincoln-1141",
@@ -2913,7 +3025,8 @@
       "King Stephen"
     ],
     "warName": "The Anarchy",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Lincoln_(1141)"
   },
   {
     "id": "battle-of-hattin-prelude-montgisard",
@@ -2941,7 +3054,8 @@
       "side2": 26000
     },
     "warName": "Crusades",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Montgisard"
   },
   {
     "id": "battle-of-alarcos",
@@ -2964,7 +3078,8 @@
       "Alfonso VIII of Castile"
     ],
     "warName": "Reconquista",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Alarcos"
   },
   {
     "id": "battle-of-rio-salado",
@@ -2988,7 +3103,8 @@
       "Abu al-Hasan Ali"
     ],
     "warName": "Reconquista",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Rio_Salado"
   },
   {
     "id": "fall-of-granada",
@@ -3013,7 +3129,8 @@
       "Boabdil"
     ],
     "warName": "Reconquista",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Granada"
   },
   {
     "id": "battle-of-maritsa",
@@ -3036,7 +3153,8 @@
       "King Vukasin"
     ],
     "warName": "Ottoman conquest of the Balkans",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Maritsa_(Chernomen)"
   },
   {
     "id": "battle-of-ayn-jalut-context-wadi-al-khazandar",
@@ -3059,7 +3177,8 @@
       "Al-Nasir Muhammad"
     ],
     "warName": "Mamluk-Ilkhanate War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Wadi_al-Khazandar"
   },
   {
     "id": "battle-of-marj-al-saffar",
@@ -3082,7 +3201,8 @@
       "Qutluqshah"
     ],
     "warName": "Mamluk-Ilkhanate War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Marj_al-Saffar"
   },
   {
     "id": "battle-of-the-catalaunian-plains",
@@ -3111,7 +3231,8 @@
       "side2": 50000
     },
     "warName": "Hunnic invasion of Gaul",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Catalaunian_Plains_(Chalons)"
   },
   {
     "id": "battle-of-nedao",
@@ -3134,7 +3255,8 @@
       "Ellac"
     ],
     "warName": "Collapse of the Hunnic Empire",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Nedao"
   },
   {
     "id": "battle-of-vouille",
@@ -3157,7 +3279,8 @@
       "Alaric II"
     ],
     "warName": "Frankish-Visigothic Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Vouille"
   },
   {
     "id": "battle-of-tricamarum",
@@ -3184,7 +3307,8 @@
       "side2": 15000
     },
     "warName": "Vandalic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Tricamarum"
   },
   {
     "id": "battle-of-taginae",
@@ -3211,7 +3335,8 @@
       "side2": 15000
     },
     "warName": "Gothic War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Taginae_(Busta_Gallorum)"
   },
   {
     "id": "battle-of-dara",
@@ -3238,7 +3363,8 @@
       "side2": 50000
     },
     "warName": "Iberian War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Dara"
   },
   {
     "id": "battle-of-kleidion",
@@ -3264,7 +3390,8 @@
       "side2": 15000
     },
     "warName": "Byzantine-Bulgarian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Kleidion"
   },
   {
     "id": "battle-of-pliska",
@@ -3287,7 +3414,8 @@
       "Nikephoros I"
     ],
     "warName": "Byzantine-Bulgarian Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Pliska"
   },
   {
     "id": "battle-of-levounion",
@@ -3309,7 +3437,8 @@
       "Alexios I Komnenos"
     ],
     "warName": "Byzantine-Pecheneg Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Levounion"
   },
   {
     "id": "battle-of-maling",
@@ -3332,7 +3461,8 @@
       "Al-Kamil"
     ],
     "warName": "Fifth Crusade",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Damietta_(Fifth_Crusade)"
   },
   {
     "id": "battle-of-the-horns-of-hattin-prelude",
@@ -3359,7 +3489,8 @@
       "side2": 7000
     },
     "warName": "Crusades",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Cresson"
   },
   {
     "id": "siege-of-candia",
@@ -3382,7 +3513,8 @@
       "Turanshah"
     ],
     "warName": "Seventh Crusade",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Damietta_(Seventh_Crusade)"
   },
   {
     "id": "battle-of-walaja",
@@ -3404,7 +3536,8 @@
       "Khalid ibn al-Walid"
     ],
     "warName": "Muslim conquest of Persia",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Walaja"
   },
   {
     "id": "battle-of-nihawand",
@@ -3426,7 +3559,8 @@
       "Khalid ibn al-Walid"
     ],
     "warName": "Muslim conquest of the Levant",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ajnadayn"
   },
   {
     "id": "battle-of-heliopolis",
@@ -3448,7 +3582,8 @@
       "Amr ibn al-As"
     ],
     "warName": "Muslim conquest of Egypt",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Heliopolis"
   },
   {
     "id": "battle-of-las-salinas",
@@ -3470,7 +3605,8 @@
       "Murad II"
     ],
     "warName": "Ottoman conquest of the Balkans",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Thessalonica_(1430)"
   },
   {
     "id": "siege-of-candia-1205",
@@ -3493,7 +3629,8 @@
       "Baldwin I"
     ],
     "warName": "Bulgarian-Latin Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Adrianople_(1205)"
   },
   {
     "id": "battle-of-pelagonia",
@@ -3517,7 +3654,8 @@
       "William II of Villehardouin"
     ],
     "warName": "Nicaean reconquest",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Pelagonia"
   },
   {
     "id": "battle-of-evesham",
@@ -3540,7 +3678,8 @@
       "Simon de Montfort"
     ],
     "warName": "Second Barons' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Evesham"
   },
   {
     "id": "battle-of-lewes",
@@ -3563,7 +3702,8 @@
       "Henry III of England"
     ],
     "warName": "Second Barons' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Lewes"
   },
   {
     "id": "battle-of-worringen",
@@ -3586,7 +3726,8 @@
       "Siegfried of Westerburg"
     ],
     "warName": "War of the Limburg Succession",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Worringen"
   },
   {
     "id": "battle-of-chrysopolis",
@@ -3609,7 +3750,8 @@
       "George Mouzalon"
     ],
     "warName": "Rise of the Ottoman Empire",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Bapheus"
   },
   {
     "id": "battle-of-kose-dag",
@@ -3636,7 +3778,8 @@
       "side2": 80000
     },
     "warName": "Mongol invasion of Anatolia",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Kose_Dag"
   },
   {
     "id": "battle-of-ain-jalut-prelude-marj-al-suffar",
@@ -3659,7 +3802,8 @@
       "Turanshah"
     ],
     "warName": "Mongol invasions",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Aleppo_(1260)"
   },
   {
     "id": "battle-of-wayna-daga",
@@ -3682,7 +3826,8 @@
       "Ahmad ibn Ibrahim al-Ghazi"
     ],
     "warName": "Ethiopian-Adal War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Wayna_Daga"
   },
   {
     "id": "battle-of-indab",
@@ -3704,7 +3849,8 @@
       "Jayavarman VII"
     ],
     "warName": "Khmer-Cham Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_the_Thirteen_Sides_(Angkor)"
   },
   {
     "id": "battle-of-verneuil",
@@ -3735,7 +3881,8 @@
       "side2": 7000
     },
     "warName": "Hundred Years' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Verneuil"
   },
   {
     "id": "siege-of-rouen",
@@ -3757,7 +3904,8 @@
       "Henry V of England"
     ],
     "warName": "Hundred Years' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Rouen"
   },
   {
     "id": "battle-of-formigny",
@@ -3787,7 +3935,8 @@
       "side2": 3700
     },
     "warName": "Hundred Years' War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Formigny"
   },
   {
     "id": "battle-of-st-albans-1455",
@@ -3810,7 +3959,8 @@
       "Edmund Beaufort, Duke of Somerset"
     ],
     "warName": "Wars of the Roses",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "First_Battle_of_St_Albans"
   },
   {
     "id": "battle-of-wakefield",
@@ -3833,7 +3983,8 @@
       "Richard of York"
     ],
     "warName": "Wars of the Roses",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Wakefield"
   },
   {
     "id": "battle-of-stoke-field",
@@ -3856,7 +4007,8 @@
       "John de la Pole, Earl of Lincoln"
     ],
     "warName": "Wars of the Roses",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Stoke_Field"
   },
   {
     "id": "battle-of-otumba",
@@ -3883,7 +4035,8 @@
       "side2": 40000
     },
     "warName": "Spanish conquest of the Aztec Empire",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Otumba"
   },
   {
     "id": "fall-of-tenochtitlan",
@@ -3911,7 +4064,8 @@
       "side2": 300000
     },
     "warName": "Spanish conquest of the Aztec Empire",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Tenochtitlan"
   },
   {
     "id": "battle-of-cajamarca",
@@ -3942,7 +4096,8 @@
       "side2": 7000
     },
     "warName": "Spanish conquest of the Inca Empire",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Cajamarca"
   },
   {
     "id": "battle-of-chaldiran",
@@ -3969,7 +4124,8 @@
       "side2": 40000
     },
     "warName": "Ottoman-Safavid War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Chaldiran"
   },
   {
     "id": "battle-of-mohacs",
@@ -3999,7 +4155,8 @@
       "side2": 14000
     },
     "warName": "Ottoman-Hungarian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Mohacs"
   },
   {
     "id": "battle-of-ravenna-1512",
@@ -4030,7 +4187,8 @@
       "side2": 9000
     },
     "warName": "War of the League of Cambrai",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Ravenna"
   },
   {
     "id": "battle-of-marignano",
@@ -4061,7 +4219,8 @@
       "side2": 10000
     },
     "warName": "Italian Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Marignano"
   },
   {
     "id": "siege-of-rhodes-1522",
@@ -4088,7 +4247,8 @@
       "side2": 7000
     },
     "warName": "Ottoman Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Siege_of_Rhodes"
   },
   {
     "id": "battle-of-panipat-1526",
@@ -4115,7 +4275,8 @@
       "side2": 100000
     },
     "warName": "Mughal conquest of India",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "First_Battle_of_Panipat"
   },
   {
     "id": "battle-of-khanwa",
@@ -4142,7 +4303,8 @@
       "side2": 80000
     },
     "warName": "Mughal conquest of India",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Khanwa"
   },
   {
     "id": "battle-of-flodden",
@@ -4172,7 +4334,8 @@
       "side2": 12000
     },
     "warName": "Anglo-Scottish Wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Flodden"
   },
   {
     "id": "battle-of-pavia",
@@ -4203,7 +4366,8 @@
       "side2": 13000
     },
     "warName": "Italian Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Pavia"
   },
   {
     "id": "battle-of-sekigahara",
@@ -4230,7 +4394,8 @@
       "side2": 80000
     },
     "warName": "Sengoku period unification",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Sekigahara"
   },
   {
     "id": "battle-of-okehazama",
@@ -4257,7 +4422,8 @@
       "side2": 25000
     },
     "warName": "Sengoku period wars",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Okehazama"
   },
   {
     "id": "battle-of-kawanakajima",
@@ -4288,7 +4454,8 @@
       "side2": 3000
     },
     "warName": "Sengoku period wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Fourth_Battle_of_Kawanakajima"
   },
   {
     "id": "siege-of-osaka",
@@ -4315,7 +4482,8 @@
       "side2": 100000
     },
     "warName": "Osaka Campaign",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Osaka"
   },
   {
     "id": "battle-of-the-hydaspes",
@@ -4343,7 +4511,8 @@
       "side2": 15000
     },
     "warName": "Japanese invasions of Korea (Imjin War)",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Japanese_Invasions_of_Korea_-_Siege_of_Pyongyang"
   },
   {
     "id": "battle-of-noryang",
@@ -4368,7 +4537,8 @@
       "Shimazu Yoshihiro"
     ],
     "warName": "Japanese invasions of Korea (Imjin War)",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Noryang"
   },
   {
     "id": "battle-of-myeongnyang",
@@ -4395,7 +4565,8 @@
       "side2": 333
     },
     "warName": "Japanese invasions of Korea (Imjin War)",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Myeongnyang"
   },
   {
     "id": "battle-of-alcacer-quibir",
@@ -4425,7 +4596,8 @@
       "side1": 16000
     },
     "warName": "Portuguese-Moroccan conflict",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Alcacer_Quibir_(Three_Kings)"
   },
   {
     "id": "battle-of-preveza",
@@ -4448,7 +4620,8 @@
       "Andrea Doria"
     ],
     "warName": "Ottoman-Habsburg Wars",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Preveza"
   },
   {
     "id": "siege-of-malta-1565",
@@ -4480,7 +4653,8 @@
       "side2": 20000
     },
     "warName": "Ottoman-Habsburg Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Great_Siege_of_Malta"
   },
   {
     "id": "battle-of-lepanto",
@@ -4511,6 +4685,7 @@
       "side2": 30000
     },
     "warName": "Ottoman-Habsburg Wars",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Lepanto"
   }
 ]

@@ -4,2048 +4,3545 @@
     "name": "Battle of Latrun",
     "year": 1948,
     "era": "contemporary",
-    "location": { "lat": 31.8389, "lng": 34.9878 },
+    "location": {
+      "lat": 31.8389,
+      "lng": 34.9878
+    },
     "tier": 2,
     "description": "Imagine you're a Holocaust survivor who just arrived in Palestine three weeks ago, handed a rifle you've never fired, and told to charge a fortified British-built police fortress defended by the best Arab army in the Middle East. That was Latrun. Three times the Israelis threw themselves at those walls, and three times the Arab Legion threw them back. Jerusalem was starving, so the Israelis did what desperate people do — they carved a secret road through the mountains in the dark, and kept their capital alive by sheer stubbornness.",
-    "belligerents": ["Israel", "Transjordan (Arab Legion)"],
+    "belligerents": [
+      "Israel",
+      "Transjordan (Arab Legion)"
+    ],
     "result": "Arab Legion victory",
-    "commanders": ["Shlomo Shamir", "John Bagot Glubb"],
+    "commanders": [
+      "Shlomo Shamir",
+      "John Bagot Glubb"
+    ],
     "warName": "1948 Arab-Israeli War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Latrun"
   },
   {
     "id": "battle-of-jerusalem-1948",
     "name": "Battle of Jerusalem (1948)",
     "year": 1948,
     "era": "contemporary",
-    "location": { "lat": 31.7767, "lng": 35.2345 },
+    "location": {
+      "lat": 31.7767,
+      "lng": 35.2345
+    },
     "tier": 1,
     "description": "House by house, room by room, two armies tore Jerusalem apart over the holiest real estate on Earth. The Israelis clawed their way through the western neighborhoods while the Arab Legion's crack Bedouin troops held the ancient walls of the Old City with a ferocity that defied every assault. When the guns finally stopped, a line of barbed wire and concrete ran through the heart of a city sacred to three religions — and it would stay there for nineteen years.",
-    "belligerents": ["Israel", "Transjordan (Arab Legion)"],
+    "belligerents": [
+      "Israel",
+      "Transjordan (Arab Legion)"
+    ],
     "result": "City divided",
-    "commanders": ["David Shaltiel", "Abdullah el-Tell"],
+    "commanders": [
+      "David Shaltiel",
+      "Abdullah el-Tell"
+    ],
     "warName": "1948 Arab-Israeli War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Jerusalem_(1948)"
   },
   {
     "id": "battle-of-pusan-perimeter",
     "name": "Battle of the Pusan Perimeter",
     "year": 1950,
     "era": "contemporary",
-    "location": { "lat": 35.1796, "lng": 129.0756 },
+    "location": {
+      "lat": 35.1796,
+      "lng": 129.0756
+    },
     "tier": 1,
     "description": "Picture the entire US-Korean position compressed into a rectangle with its back against the sea — 140 miles of front line, and behind it, nothing but the port of Pusan and the Pacific Ocean. For six weeks they held that shrinking perimeter against waves of North Korean troops, plugging holes with whatever units they could throw into the breach. Every day was a new crisis. Every night they wondered if this was the one that would crack them open. It didn't. And while they bled, MacArthur was planning the gamble that would save them all.",
-    "belligerents": ["United Nations Command", "North Korea"],
+    "belligerents": [
+      "United Nations Command",
+      "North Korea"
+    ],
     "result": "UN defensive victory",
-    "commanders": ["Walton Walker", "Kim Chaek"],
+    "commanders": [
+      "Walton Walker",
+      "Kim Chaek"
+    ],
     "warName": "Korean War",
     "troopStrength": "140,000 UN vs 98,000 NKPA",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Pusan_Perimeter"
   },
   {
     "id": "battle-of-inchon",
     "name": "Battle of Inchon",
     "year": 1950,
     "era": "contemporary",
-    "location": { "lat": 37.4563, "lng": 126.7052 },
+    "location": {
+      "lat": 37.4563,
+      "lng": 126.7052
+    },
     "tier": 1,
     "description": "MacArthur bet everything on a landing that his own admirals said was insane — thirty-foot tides, a narrow channel, and a fortified seawall. The Joint Chiefs thought he was out of his mind. He was right. The Marines hit the beach, the North Korean supply lines evaporated overnight, and within two weeks Seoul was liberated and the entire enemy army was cut off behind their own lines. Sometimes the crazy play is the only play.",
-    "belligerents": ["United Nations Command", "North Korea"],
+    "belligerents": [
+      "United Nations Command",
+      "North Korea"
+    ],
     "result": "UN victory",
-    "commanders": ["Douglas MacArthur", "Choi Yong-kun"],
+    "commanders": [
+      "Douglas MacArthur",
+      "Choi Yong-kun"
+    ],
     "warName": "Korean War",
     "troopStrength": "75,000 UN",
     "casualties": "~3,500 UN; ~35,000 NKPA killed/captured",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Inchon"
   },
   {
     "id": "battle-of-chosin-reservoir",
     "name": "Battle of Chosin Reservoir",
     "year": 1950,
     "era": "contemporary",
-    "location": { "lat": 40.4333, "lng": 127.25 },
+    "location": {
+      "lat": 40.4333,
+      "lng": 127.25
+    },
     "tier": 1,
     "description": "Thirty below zero. Your rifle's frozen. Your canteen's a block of ice. And 120,000 Chinese soldiers you didn't even know were in Korea just materialized on every ridgeline around you. That was Chosin. The Marines didn't retreat — they attacked in a different direction, fighting seventy miles through mountain passes and Chinese roadblocks to the sea, carrying their dead and their wounded the whole way. The Chinese paid for every mile with bodies stacked in the snow.",
-    "belligerents": ["United Nations Command", "China"],
+    "belligerents": [
+      "United Nations Command",
+      "China"
+    ],
     "result": "Strategic UN withdrawal; tactical Chinese victory",
-    "commanders": ["Oliver P. Smith", "Song Shilun"],
+    "commanders": [
+      "Oliver P. Smith",
+      "Song Shilun"
+    ],
     "warName": "Korean War",
     "troopStrength": "30,000 UN vs 120,000 PVA",
     "casualties": "~17,800 UN (incl. frostbite); ~48,000 PVA",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Chosin_Reservoir"
   },
   {
     "id": "battle-of-the-imjin-river",
     "name": "Battle of the Imjin River",
     "year": 1951,
     "era": "contemporary",
-    "location": { "lat": 37.9333, "lng": 126.95 },
+    "location": {
+      "lat": 37.9333,
+      "lng": 126.95
+    },
     "tier": 2,
     "description": "The Glosters got the order every soldier dreads — hold in place, no matter what. So 750 British soldiers dug in on a Korean hillside and watched 30,000 Chinese troops come at them in wave after human wave. They held for three days. By the end, the Gloucestershire Regiment basically ceased to exist as a fighting unit, but they'd bought enough time to stop the entire Chinese spring offensive cold. The road to Seoul stayed closed.",
-    "belligerents": ["United Nations Command", "China"],
+    "belligerents": [
+      "United Nations Command",
+      "China"
+    ],
     "result": "Strategic UN victory",
-    "commanders": ["Thomas Brodie", "Peng Dehuai"],
+    "commanders": [
+      "Thomas Brodie",
+      "Peng Dehuai"
+    ],
     "warName": "Korean War",
     "casualties": "~1,000 British; ~10,000 PVA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Imjin_River"
   },
   {
     "id": "battle-of-heartbreak-ridge",
     "name": "Battle of Heartbreak Ridge",
     "year": 1951,
     "era": "contemporary",
-    "location": { "lat": 38.37, "lng": 127.58 },
+    "location": {
+      "lat": 38.37,
+      "lng": 127.58
+    },
     "tier": 2,
     "description": "They called it Heartbreak Ridge, and the name tells you everything. For an entire month, American soldiers climbed a barren Korean hillside, got shot to pieces, slid back down, and climbed it again. 3,700 casualties for a piece of rock that meant nothing except that someone had decided it needed to be taken. This was the Korean War's real face — not the dramatic landings, but the endless, grinding, soul-crushing arithmetic of attrition.",
-    "belligerents": ["United Nations Command", "North Korea", "China"],
+    "belligerents": [
+      "United Nations Command",
+      "North Korea",
+      "China"
+    ],
     "result": "UN victory",
-    "commanders": ["Robert N. Young", "Unknown NKPA/PVA"],
+    "commanders": [
+      "Robert N. Young",
+      "Unknown NKPA/PVA"
+    ],
     "warName": "Korean War",
     "casualties": "3,700 UN; ~25,000 NKPA/PVA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Heartbreak_Ridge"
   },
   {
     "id": "battle-of-pork-chop-hill",
     "name": "Battle of Pork Chop Hill",
     "year": 1953,
     "era": "contemporary",
-    "location": { "lat": 38.12, "lng": 127.02 },
+    "location": {
+      "lat": 38.12,
+      "lng": 127.02
+    },
     "tier": 2,
     "description": "Here's the thing that'll haunt you about Pork Chop Hill — men were killing each other for a lump of dirt while diplomats sat at a table twenty miles away negotiating peace. Both sides knew the war was ending. Both sides kept fighting anyway. The Chinese wanted the hill for leverage at Panmunjom. The Americans held it because giving it up would look weak. Men died for a bargaining chip. That's the Korean War in one sentence.",
-    "belligerents": ["United States", "China"],
+    "belligerents": [
+      "United States",
+      "China"
+    ],
     "result": "US withdrew after armistice",
-    "commanders": ["Arthur Trudeau", "Unknown PVA"],
+    "commanders": [
+      "Arthur Trudeau",
+      "Unknown PVA"
+    ],
     "warName": "Korean War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Pork_Chop_Hill"
   },
   {
     "id": "battle-of-dien-bien-phu",
     "name": "Battle of Dien Bien Phu",
     "year": 1954,
     "era": "contemporary",
-    "location": { "lat": 21.383, "lng": 103.016 },
+    "location": {
+      "lat": 21.383,
+      "lng": 103.016
+    },
     "tier": 1,
     "description": "The French looked at their position in that valley and thought, 'There's no way Giap can get artillery up those mountains.' They were wrong. Tens of thousands of Vietnamese peasants dragged howitzers up jungle slopes on their backs — by hand, through mud, in the dark — and when the guns opened fire from positions the French said were impossible, the garrison's artillery commander walked into his bunker and pulled the pin on a grenade. That's how Dien Bien Phu started. It ended European colonialism in Asia.",
-    "belligerents": ["Viet Minh", "France"],
+    "belligerents": [
+      "Viet Minh",
+      "France"
+    ],
     "result": "Decisive Viet Minh victory",
-    "commanders": ["Vo Nguyen Giap", "Christian de Castries"],
+    "commanders": [
+      "Vo Nguyen Giap",
+      "Christian de Castries"
+    ],
     "warName": "First Indochina War",
     "troopStrength": "~50,000 Viet Minh vs 16,000 French",
     "casualties": "~2,300 French KIA, ~11,700 captured; ~4,000 Viet Minh KIA",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Dien_Bien_Phu"
   },
   {
     "id": "suez-crisis-sinai",
     "name": "Sinai Campaign (Suez Crisis)",
     "year": 1956,
     "era": "contemporary",
-    "location": { "lat": 30.05, "lng": 33.83 },
+    "location": {
+      "lat": 30.05,
+      "lng": 33.83
+    },
     "tier": 1,
     "description": "Three empires — one rising, two falling — cooked up a secret plan to take the Suez Canal back from Nasser. Israel punched across the Sinai in days, the British and French dropped paratroopers, and for a moment it looked like 19th-century gunboat diplomacy still worked. Then Eisenhower and Khrushchev both said 'no' — and that was that. Britain and France slunk home, their imperial age officially over. The world had new bosses now.",
-    "belligerents": ["Israel", "United Kingdom", "France", "Egypt"],
+    "belligerents": [
+      "Israel",
+      "United Kingdom",
+      "France",
+      "Egypt"
+    ],
     "result": "Military victory for Israel/UK/France; political defeat",
-    "commanders": ["Moshe Dayan", "Gamal Abdel Nasser"],
+    "commanders": [
+      "Moshe Dayan",
+      "Gamal Abdel Nasser"
+    ],
     "warName": "Suez Crisis",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sinai_Campaign_(Suez_Crisis)"
   },
   {
     "id": "battle-of-algiers",
     "name": "Battle of Algiers",
     "year": 1957,
     "era": "contemporary",
-    "location": { "lat": 36.7538, "lng": 3.0588 },
+    "location": {
+      "lat": 36.7538,
+      "lng": 3.0588
+    },
     "tier": 2,
     "description": "Massu's paratroopers ripped the FLN network apart from the inside out — informants, interrogations, torture cells in the back rooms of Algiers. And it worked. The bombing stopped. The insurgent cells were shattered. France won the battle and lost everything else. Because the photographs got out, the stories got out, and suddenly the whole world was asking whether a democracy could do these things and still call itself a democracy. France held Algiers. It lost Algeria.",
-    "belligerents": ["France", "FLN (National Liberation Front)"],
+    "belligerents": [
+      "France",
+      "FLN (National Liberation Front)"
+    ],
     "result": "French tactical victory; strategic defeat",
-    "commanders": ["Jacques Massu", "Saadi Yacef"],
+    "commanders": [
+      "Jacques Massu",
+      "Saadi Yacef"
+    ],
     "warName": "Algerian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Algiers"
   },
   {
     "id": "bay-of-pigs",
     "name": "Bay of Pigs Invasion",
     "year": 1961,
     "era": "contemporary",
-    "location": { "lat": 22.0747, "lng": -81.1361 },
+    "location": {
+      "lat": 22.0747,
+      "lng": -81.1361
+    },
     "tier": 2,
     "description": "1,400 Cuban exiles hit the beach at the Bay of Pigs with CIA training, American weapons, and a promise that US air cover would be there when they needed it. The air cover never came. Kennedy got cold feet, the exiles got slaughtered, and Castro got the greatest propaganda gift in revolutionary history. Three days. That's how long it took to turn a covert operation into a national humiliation that would echo through the Cold War for decades.",
-    "belligerents": ["Cuban exiles (Brigade 2506)", "Cuba"],
+    "belligerents": [
+      "Cuban exiles (Brigade 2506)",
+      "Cuba"
+    ],
     "result": "Decisive Cuban victory",
-    "commanders": ["Jose Perez San Roman", "Fidel Castro"],
+    "commanders": [
+      "Jose Perez San Roman",
+      "Fidel Castro"
+    ],
     "warName": "Bay of Pigs Invasion",
     "casualties": "~100 exiles KIA, ~1,200 captured; ~176 Cuban KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Bay_of_Pigs_Invasion"
   },
   {
     "id": "sino-indian-war-1962",
     "name": "Sino-Indian War",
     "year": 1962,
     "era": "contemporary",
-    "location": { "lat": 34.55, "lng": 78.0 },
+    "location": {
+      "lat": 34.55,
+      "lng": 78.0
+    },
     "tier": 2,
     "description": "India was still talking about 'peaceful coexistence' when 80,000 Chinese soldiers poured across the Himalayas and tore the Indian army to pieces. The troops fighting at 14,000 feet didn't even have proper winter gear. Nehru had been so committed to his friendship with China that he'd basically told his generals not to prepare for war. China took what it wanted, declared a ceasefire on its own terms, and walked away. India never made that mistake again.",
-    "belligerents": ["China", "India"],
+    "belligerents": [
+      "China",
+      "India"
+    ],
     "result": "Chinese victory",
-    "commanders": ["Zhang Guohua", "B. M. Kaul"],
+    "commanders": [
+      "Zhang Guohua",
+      "B. M. Kaul"
+    ],
     "warName": "Sino-Indian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sino-Indian_War"
   },
   {
     "id": "battle-of-ia-drang",
     "name": "Battle of Ia Drang",
     "year": 1965,
     "era": "contemporary",
-    "location": { "lat": 13.58, "lng": 107.83 },
+    "location": {
+      "lat": 13.58,
+      "lng": 107.83
+    },
     "tier": 1,
     "description": "Imagine 450 Americans landing in a clearing the size of a football field, and realizing they've just dropped into the middle of 2,000 North Vietnamese regulars. That was LZ X-Ray. The fighting got so close that soldiers were beating each other with rifle butts and helmets. Hal Moore's men held — barely — but then the NVA ambushed another battalion at LZ Albany and it was a massacre. Both sides walked away convinced they'd figured out how to win the war. Both sides were wrong.",
-    "belligerents": ["United States", "North Vietnam"],
+    "belligerents": [
+      "United States",
+      "North Vietnam"
+    ],
     "result": "Tactically inconclusive; both sides claimed victory",
-    "commanders": ["Harold G. Moore", "Nguyen Huu An"],
+    "commanders": [
+      "Harold G. Moore",
+      "Nguyen Huu An"
+    ],
     "warName": "Vietnam War",
     "troopStrength": "~450 US (LZ X-Ray) vs ~2,000 NVA",
     "casualties": "234 US KIA (both LZs); ~1,200 NVA KIA estimated",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Ia_Drang"
   },
   {
     "id": "battle-of-asal-uttar",
     "name": "Battle of Asal Uttar",
     "year": 1965,
     "era": "contemporary",
-    "location": { "lat": 31.1, "lng": 74.65 },
+    "location": {
+      "lat": 31.1,
+      "lng": 74.65
+    },
     "tier": 2,
     "description": "The Indians flooded the sugarcane fields and waited. When Pakistan's American-made Patton tanks rolled in expecting a breakthrough, they sank into the muck like dinosaurs in a tar pit. Nearly a hundred Pattons — the pride of Pakistan's armored corps — were burning by the end of the day. The locals started calling the battlefield 'Patton Nagar.' Patton Cemetery. Sometimes the best weapon isn't a weapon at all — it's knowing your own terrain.",
-    "belligerents": ["India", "Pakistan"],
+    "belligerents": [
+      "India",
+      "Pakistan"
+    ],
     "result": "Indian victory",
-    "commanders": ["Gurbakhsh Singh", "Naseer Ahmad Khan"],
+    "commanders": [
+      "Gurbakhsh Singh",
+      "Naseer Ahmad Khan"
+    ],
     "warName": "Indo-Pakistani War of 1965",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Asal_Uttar"
   },
   {
     "id": "battle-of-chawinda",
     "name": "Battle of Chawinda",
     "year": 1965,
     "era": "contemporary",
-    "location": { "lat": 32.35, "lng": 74.7 },
+    "location": {
+      "lat": 32.35,
+      "lng": 74.7
+    },
     "tier": 2,
     "description": "Hundreds of tanks grinding across the flat Punjab plains, turrets traversing, shells screaming — Chawinda was the biggest armored clash since the Eastern Front. India threw everything it had at the Sialkot-Lahore road, and Pakistan threw everything right back. The dust clouds were so thick that tank crews were firing at muzzle flashes. Pakistan held, but just barely, and both sides staggered away from the Punjab having learned that this subcontinent could produce battles on a scale that would've impressed Guderian.",
-    "belligerents": ["India", "Pakistan"],
+    "belligerents": [
+      "India",
+      "Pakistan"
+    ],
     "result": "Pakistani defensive victory",
-    "commanders": ["Unknown Indian commander", "Tikka Khan"],
+    "commanders": [
+      "Unknown Indian commander",
+      "Tikka Khan"
+    ],
     "warName": "Indo-Pakistani War of 1965",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Chawinda"
   },
   {
     "id": "six-day-war-sinai",
     "name": "Sinai Campaign (Six-Day War)",
     "year": 1967,
     "era": "contemporary",
-    "location": { "lat": 30.5, "lng": 33.5 },
+    "location": {
+      "lat": 30.5,
+      "lng": 33.5
+    },
     "tier": 1,
     "description": "At 7:45 AM on June 5th, nearly every combat aircraft Israel owned was in the air heading for Egypt. By lunchtime, the Egyptian Air Force didn't exist anymore — 300 planes destroyed on the ground, pilots still eating breakfast. Then the tanks rolled. Three Israeli armored divisions carved through seven Egyptian divisions in the Sinai like a hot knife through sand. Three days. The whole peninsula. It was the kind of campaign that gets studied at every war college on the planet for the rest of time.",
-    "belligerents": ["Israel", "Egypt"],
+    "belligerents": [
+      "Israel",
+      "Egypt"
+    ],
     "result": "Decisive Israeli victory",
-    "commanders": ["Yeshayahu Gavish", "Abdel Hakim Amer"],
+    "commanders": [
+      "Yeshayahu Gavish",
+      "Abdel Hakim Amer"
+    ],
     "warName": "Six-Day War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sinai_Campaign_(Six-Day_War)"
   },
   {
     "id": "battle-of-jerusalem-1967",
     "name": "Battle of Jerusalem (1967)",
     "year": 1967,
     "era": "contemporary",
-    "location": { "lat": 31.7767, "lng": 35.2345 },
+    "location": {
+      "lat": 31.7767,
+      "lng": 35.2345
+    },
     "tier": 1,
     "description": "IDF paratroopers fought through Jordanian bunkers and sniper fire in the narrow streets around the Old City, taking casualties at every turn. And then Motta Gur's voice crackled over the radio — 'The Temple Mount is in our hands' — and you could hear grown men weeping. Soldiers who'd never been particularly religious pressed their faces against the Western Wall and cried. Two thousand years of exile, and suddenly it was over. Whatever you think about the politics, that moment was as raw as history gets.",
-    "belligerents": ["Israel", "Jordan"],
+    "belligerents": [
+      "Israel",
+      "Jordan"
+    ],
     "result": "Israeli victory",
-    "commanders": ["Motta Gur", "Ata Ali Haza'a"],
+    "commanders": [
+      "Motta Gur",
+      "Ata Ali Haza'a"
+    ],
     "warName": "Six-Day War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Jerusalem_(1967)"
   },
   {
     "id": "battle-of-golan-heights-1967",
     "name": "Battle of the Golan Heights (1967)",
     "year": 1967,
     "era": "contemporary",
-    "location": { "lat": 33.0, "lng": 35.8 },
+    "location": {
+      "lat": 33.0,
+      "lng": 35.8
+    },
     "tier": 1,
     "description": "For years, Syrian guns on the Golan Heights had been shelling Israeli farms in the valley below — families eating dinner while artillery rained down. On the last day of the war, Israeli bulldozers and infantry went straight up those fortified slopes into the teeth of Syrian bunkers. It was brutal, close-range, uphill fighting against dug-in positions. By the time it was over, the guns on the Golan were silent for the first time in a generation.",
-    "belligerents": ["Israel", "Syria"],
+    "belligerents": [
+      "Israel",
+      "Syria"
+    ],
     "result": "Israeli victory",
-    "commanders": ["David Elazar", "Ahmed Suweydani"],
+    "commanders": [
+      "David Elazar",
+      "Ahmed Suweydani"
+    ],
     "warName": "Six-Day War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Golan_Heights_(1967)"
   },
   {
     "id": "battle-of-karameh",
     "name": "Battle of Karameh",
     "year": 1968,
     "era": "contemporary",
-    "location": { "lat": 31.95, "lng": 35.56 },
+    "location": {
+      "lat": 31.95,
+      "lng": 35.56
+    },
     "tier": 3,
     "description": "Israel sent a heavy column across the Jordan River expecting to crush a PLO base camp and go home for dinner. What they got instead was a real fight — Palestinian guerrillas who didn't run, backed up by Jordanian army regulars with tanks and artillery. The Israelis took casualties, left burned-out vehicles behind, and pulled back. For the Palestinian movement, Karameh was their Alamo in reverse — the day they stood and fought, and it changed everything. Arafat went from nobody to symbol overnight.",
-    "belligerents": ["Israel", "PLO", "Jordan"],
+    "belligerents": [
+      "Israel",
+      "PLO",
+      "Jordan"
+    ],
     "result": "Israeli tactical success but strategic Palestinian victory",
-    "commanders": ["Uzi Narkiss", "Yasser Arafat"],
+    "commanders": [
+      "Uzi Narkiss",
+      "Yasser Arafat"
+    ],
     "warName": "War of Attrition",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Karameh"
   },
   {
     "id": "tet-offensive-hue",
     "name": "Battle of Hue",
     "year": 1968,
     "era": "contemporary",
-    "location": { "lat": 16.4637, "lng": 107.5909 },
+    "location": {
+      "lat": 16.4637,
+      "lng": 107.5909
+    },
     "tier": 1,
     "description": "The Marines weren't trained for urban warfare. Nobody was. But there they were, fighting room to room through an ancient imperial city while the NVA poured fire from every window, every rooftop, every garden wall. Twenty-six days of the most savage close combat of the entire Vietnam War — M16s against AK-47s at ranges you could throw a rock. And while the battle raged, the NVA was systematically executing thousands of civilians in mass graves outside the city. Hue was Vietnam's Stalingrad, and its horror.",
-    "belligerents": ["United States", "South Vietnam", "North Vietnam", "Viet Cong"],
+    "belligerents": [
+      "United States",
+      "South Vietnam",
+      "North Vietnam",
+      "Viet Cong"
+    ],
     "result": "US/ARVN victory",
-    "commanders": ["Ernie Cheatham", "Tran Van Quang"],
+    "commanders": [
+      "Ernie Cheatham",
+      "Tran Van Quang"
+    ],
     "warName": "Vietnam War",
     "casualties": "216 US KIA, 421 ARVN KIA; ~5,000 NVA/VC KIA; ~5,800 civilians massacred",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Hue"
   },
   {
     "id": "tet-offensive-saigon",
     "name": "Tet Offensive — Saigon",
     "year": 1968,
     "era": "contemporary",
-    "location": { "lat": 10.7769, "lng": 106.7009 },
+    "location": {
+      "lat": 10.7769,
+      "lng": 106.7009
+    },
     "tier": 1,
     "description": "Americans turned on their televisions and watched VC sappers shooting their way into the US Embassy compound in Saigon — the most secure building in Vietnam. Every general, every press briefing, every 'light at the end of the tunnel' speech evaporated in that single image. The military crushed the Tet Offensive — the VC essentially destroyed themselves as a fighting force — but it didn't matter. America had seen the truth on the evening news, and you can't unsee that.",
-    "belligerents": ["United States", "South Vietnam", "Viet Cong", "North Vietnam"],
+    "belligerents": [
+      "United States",
+      "South Vietnam",
+      "Viet Cong",
+      "North Vietnam"
+    ],
     "result": "US/ARVN military victory; major VC/NVA strategic victory",
-    "commanders": ["William Westmoreland", "Tran Do"],
+    "commanders": [
+      "William Westmoreland",
+      "Tran Do"
+    ],
     "warName": "Vietnam War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Tet_Offensive_–_Saigon"
   },
   {
     "id": "battle-of-khe-sanh",
     "name": "Battle of Khe Sanh",
     "year": 1968,
     "era": "contemporary",
-    "location": { "lat": 16.6333, "lng": 106.7333 },
+    "location": {
+      "lat": 16.6333,
+      "lng": 106.7333
+    },
     "tier": 1,
     "description": "Six thousand Marines, surrounded on a hilltop, fogged in, getting shelled around the clock by twenty thousand NVA regulars. Every journalist in America was writing the word 'Dien Bien Phu.' For 77 days, the only thing keeping that base alive was an unrelenting cascade of B-52 strikes — the ground itself shook continuously, like an earthquake that wouldn't stop. The NVA lost ten thousand dead trying to take that hill. The Marines held. But what the siege really accomplished is still debated to this day.",
-    "belligerents": ["United States", "North Vietnam"],
+    "belligerents": [
+      "United States",
+      "North Vietnam"
+    ],
     "result": "US defensive victory",
-    "commanders": ["David E. Lownds", "Tran Quy Hai"],
+    "commanders": [
+      "David E. Lownds",
+      "Tran Quy Hai"
+    ],
     "warName": "Vietnam War",
     "troopStrength": "6,000 USMC vs ~20,000 NVA",
     "casualties": "274 US KIA; ~10,000 NVA KIA estimated",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Khe_Sanh"
   },
   {
     "id": "battle-of-hamburger-hill",
     "name": "Battle of Hamburger Hill",
     "year": 1969,
     "era": "contemporary",
-    "location": { "lat": 16.25, "lng": 107.17 },
+    "location": {
+      "lat": 16.25,
+      "lng": 107.17
+    },
     "tier": 2,
     "description": "Ten assaults up the same hill. Ten times the jungle exploded with NVA fire and the 101st Airborne slid back down through the mud and the blood. They finally took Hill 937 on the eleventh try, at the cost of 72 American dead — and then the brass abandoned it two weeks later. Just walked away. The soldiers started calling it Hamburger Hill because that's what it turned men into. Back home, people looked at this and said, 'What exactly are we doing here?' Nobody had a good answer.",
-    "belligerents": ["United States", "North Vietnam"],
+    "belligerents": [
+      "United States",
+      "North Vietnam"
+    ],
     "result": "US tactical victory; hill abandoned",
-    "commanders": ["Weldon Honeycutt", "Unknown NVA"],
+    "commanders": [
+      "Weldon Honeycutt",
+      "Unknown NVA"
+    ],
     "warName": "Vietnam War",
     "casualties": "72 US KIA; ~630 NVA KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Hamburger_Hill"
   },
   {
     "id": "biafra-siege-of-umuahia",
     "name": "Fall of Umuahia",
     "year": 1969,
     "era": "contemporary",
-    "location": { "lat": 5.5264, "lng": 7.4944 },
+    "location": {
+      "lat": 5.5264,
+      "lng": 7.4944
+    },
     "tier": 3,
     "description": "When Umuahia fell, the Biafran dream died — not with a bang but with the slow, agonizing tightening of a noose. The Nigerian blockade was already starving millions of Igbo civilians, and now the last capital was gone. The images of skeletal children with distended bellies became the first African famine to be broadcast globally. A million people, maybe two million, starved to death because the world watched and did nothing.",
-    "belligerents": ["Nigeria", "Biafra"],
+    "belligerents": [
+      "Nigeria",
+      "Biafra"
+    ],
     "result": "Nigerian victory",
-    "commanders": ["Benjamin Adekunle", "Chukwuemeka Odumegwu Ojukwu"],
+    "commanders": [
+      "Benjamin Adekunle",
+      "Chukwuemeka Odumegwu Ojukwu"
+    ],
     "warName": "Nigerian Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Fall_of_Umuahia"
   },
   {
     "id": "battle-of-longewala",
     "name": "Battle of Longewala",
     "year": 1971,
     "era": "contemporary",
-    "location": { "lat": 25.95, "lng": 70.18 },
+    "location": {
+      "lat": 25.95,
+      "lng": 70.18
+    },
     "tier": 2,
     "description": "One company. One recoilless rifle on a jeep. Against an entire Pakistani armored regiment rolling across the Rajasthan desert in the dark. Major Chandpuri's men fought all night — popping shots at tanks with the only real weapon they had, playing the most terrifying game of hide-and-seek in military history. When the sun came up, the Hunters screamed in from the east and caught the entire Pakistani column sitting in the open. Thirty-seven tanks and a hundred vehicles burning in the desert sand. David doesn't always beat Goliath. But sometimes he does.",
-    "belligerents": ["India", "Pakistan"],
+    "belligerents": [
+      "India",
+      "Pakistan"
+    ],
     "result": "Decisive Indian victory",
-    "commanders": ["Kuldip Singh Chandpuri", "Unknown Pakistani commander"],
+    "commanders": [
+      "Kuldip Singh Chandpuri",
+      "Unknown Pakistani commander"
+    ],
     "warName": "Indo-Pakistani War of 1971",
     "casualties": "2 Indian KIA; 200 Pakistani KIA, 37 tanks destroyed",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Longewala"
   },
   {
     "id": "battle-of-basantar",
     "name": "Battle of Basantar",
     "year": 1971,
     "era": "contemporary",
-    "location": { "lat": 32.48, "lng": 74.65 },
+    "location": {
+      "lat": 32.48,
+      "lng": 74.65
+    },
     "tier": 2,
     "description": "Crossing a river under fire is one of the hardest things you can ask soldiers to do — and the Indian army did it at the Basantar while Pakistani tanks poured shells into the crossing points. Two men earned India's highest military honor that day, the Param Vir Chakra, for acts of courage that border on the incomprehensible. One of them knocked out enemy tanks while standing exposed on the riverbank. You don't do that because you're brave. You do it because someone has to, and you decided it was you.",
-    "belligerents": ["India", "Pakistan"],
+    "belligerents": [
+      "India",
+      "Pakistan"
+    ],
     "result": "Indian victory",
-    "commanders": ["Hanut Singh", "Unknown Pakistani commander"],
+    "commanders": [
+      "Hanut Singh",
+      "Unknown Pakistani commander"
+    ],
     "warName": "Indo-Pakistani War of 1971",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Basantar"
   },
   {
     "id": "fall-of-dhaka",
     "name": "Fall of Dhaka",
     "year": 1971,
     "era": "contemporary",
-    "location": { "lat": 23.8103, "lng": 90.4125 },
+    "location": {
+      "lat": 23.8103,
+      "lng": 90.4125
+    },
     "tier": 1,
     "description": "Two weeks. That's all it took for India to dismember a nation. The Indian military executed a textbook combined-arms blitzkrieg through East Pakistan — paratroopers, armor, infantry, and navy all working in concert — and the Pakistani garrison collapsed like a house of cards. Ninety-three thousand soldiers surrendered at Dhaka. Ninety-three thousand. The largest mass surrender since World War II, and a new country — Bangladesh — born in the wreckage.",
-    "belligerents": ["India", "Mukti Bahini", "Pakistan"],
+    "belligerents": [
+      "India",
+      "Mukti Bahini",
+      "Pakistan"
+    ],
     "result": "Decisive Indian/Bangladeshi victory",
-    "commanders": ["Jagjit Singh Aurora", "A. A. K. Niazi"],
+    "commanders": [
+      "Jagjit Singh Aurora",
+      "A. A. K. Niazi"
+    ],
     "warName": "Indo-Pakistani War of 1971",
     "casualties": "~3,800 Indian KIA; 93,000 Pakistani surrendered",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Dhaka"
   },
   {
     "id": "battle-of-an-loc",
     "name": "Battle of An Loc",
     "year": 1972,
     "era": "contemporary",
-    "location": { "lat": 11.65, "lng": 106.6 },
+    "location": {
+      "lat": 11.65,
+      "lng": 106.6
+    },
     "tier": 2,
     "description": "Three NVA divisions with Soviet tanks surrounded An Loc and tried to grind it into dust. The ARVN garrison held — and I mean held, tooth and nail, for weeks — while B-52s turned the jungle around the city into a moonscape. It proved something uncomfortable: the South Vietnamese could fight like hell when they had to, but only if American bombers were overhead rearranging the landscape. What happens when the bombers stop coming? Nobody wanted to ask that question yet.",
-    "belligerents": ["South Vietnam", "United States", "North Vietnam"],
+    "belligerents": [
+      "South Vietnam",
+      "United States",
+      "North Vietnam"
+    ],
     "result": "South Vietnamese victory",
-    "commanders": ["Le Van Hung", "Tran Van Tra"],
+    "commanders": [
+      "Le Van Hung",
+      "Tran Van Tra"
+    ],
     "warName": "Vietnam War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_An_Loc"
   },
   {
     "id": "easter-offensive-quang-tri",
     "name": "Battle of Quang Tri",
     "year": 1972,
     "era": "contemporary",
-    "location": { "lat": 16.75, "lng": 107.18 },
+    "location": {
+      "lat": 16.75,
+      "lng": 107.18
+    },
     "tier": 2,
     "description": "Quang Tri was the first South Vietnamese provincial capital the NVA ever captured — and taking it back nearly broke the ARVN. Eighty-one days of house-to-house fighting through a bombed-out citadel, the kind of urban meat-grinder that eats battalions for breakfast. The South Vietnamese Marines clawed it back room by room in what became the bloodiest battle their country ever fought. Nobody in the West was paying attention anymore. The war was supposed to be winding down. It wasn't.",
-    "belligerents": ["South Vietnam", "North Vietnam"],
+    "belligerents": [
+      "South Vietnam",
+      "North Vietnam"
+    ],
     "result": "South Vietnamese recaptured city",
-    "commanders": ["Ngo Quang Truong", "Le Trong Tan"],
+    "commanders": [
+      "Ngo Quang Truong",
+      "Le Trong Tan"
+    ],
     "warName": "Vietnam War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Quang_Tri"
   },
   {
     "id": "yom-kippur-valley-of-tears",
     "name": "Battle of the Valley of Tears",
     "year": 1973,
     "era": "contemporary",
-    "location": { "lat": 33.12, "lng": 35.82 },
+    "location": {
+      "lat": 33.12,
+      "lng": 35.82
+    },
     "tier": 1,
     "description": "Seven tanks. That's what stood between Syria and the destruction of Israel on the Golan Heights. The 7th Armored Brigade had been fighting for four straight days without sleep, watching their numbers dwindle from a hundred to single digits, and still they held the line against five hundred Syrian tanks. The crews were hallucinating from exhaustion. When the reinforcements finally crested the ridge, the valley below was a graveyard — 260 Syrian tanks burning in what they'd forever call the Valley of Tears.",
-    "belligerents": ["Israel", "Syria"],
+    "belligerents": [
+      "Israel",
+      "Syria"
+    ],
     "result": "Israeli victory",
-    "commanders": ["Avigdor Kahalani", "Tewfiq Juhni"],
+    "commanders": [
+      "Avigdor Kahalani",
+      "Tewfiq Juhni"
+    ],
     "warName": "Yom Kippur War",
     "troopStrength": "~100 Israeli tanks vs ~500 Syrian tanks",
     "casualties": "~80 Israeli tanks; 260+ Syrian tanks destroyed",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Valley_of_Tears"
   },
   {
     "id": "yom-kippur-chinese-farm",
     "name": "Battle of the Chinese Farm",
     "year": 1973,
     "era": "contemporary",
-    "location": { "lat": 30.38, "lng": 32.33 },
+    "location": {
+      "lat": 30.38,
+      "lng": 32.33
+    },
     "tier": 1,
     "description": "Imagine tank warfare at night, in irrigation ditches, at ranges so close that crews could see each other's faces in the muzzle flash. That was the Chinese Farm — the most vicious armored brawl since Kursk. Israeli paratroopers and tankers clawed through Egyptian positions in total darkness to open a corridor to the Suez Canal, losing men at a rate that would've stopped most armies cold. But they had to punch through, because on the other side of that canal, Sharon was waiting to win the war.",
-    "belligerents": ["Israel", "Egypt"],
+    "belligerents": [
+      "Israel",
+      "Egypt"
+    ],
     "result": "Israeli victory",
-    "commanders": ["Ariel Sharon", "Abdel Ghani el-Gamasy"],
+    "commanders": [
+      "Ariel Sharon",
+      "Abdel Ghani el-Gamasy"
+    ],
     "warName": "Yom Kippur War",
     "casualties": "Heavy on both sides; exact figures disputed",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_the_Chinese_Farm"
   },
   {
     "id": "yom-kippur-suez-crossing",
     "name": "Crossing of the Suez Canal (Operation Abirey-Halev)",
     "year": 1973,
     "era": "contemporary",
-    "location": { "lat": 30.45, "lng": 32.32 },
+    "location": {
+      "lat": 30.45,
+      "lng": 32.32
+    },
     "tier": 1,
     "description": "Ariel Sharon did something that belongs more in a movie script than a war plan — he punched across the Suez Canal into Africa, got behind the entire Egyptian army, and encircled their Third Army like a python. Israel went from staring at national annihilation to having Egypt's best troops in a death grip in about seventy-two hours. The superpowers had to step in and force a ceasefire before the whole Middle East went up in flames. That's the kind of reversal that changes the trajectory of history.",
-    "belligerents": ["Israel", "Egypt"],
+    "belligerents": [
+      "Israel",
+      "Egypt"
+    ],
     "result": "Israeli victory; Egyptian Third Army encircled",
-    "commanders": ["Ariel Sharon", "Saad el-Shazly"],
+    "commanders": [
+      "Ariel Sharon",
+      "Saad el-Shazly"
+    ],
     "warName": "Yom Kippur War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Crossing_of_the_Suez_Canal_(Operation_Abirey-Halev)"
   },
   {
     "id": "yom-kippur-suez-initial-crossing",
     "name": "Egyptian Crossing of the Suez Canal",
     "year": 1973,
     "era": "contemporary",
-    "location": { "lat": 30.6, "lng": 32.35 },
+    "location": {
+      "lat": 30.6,
+      "lng": 32.35
+    },
     "tier": 1,
     "description": "The Israelis built the Bar-Lev Line — massive sand ramparts along the Suez Canal — and said it would take any attacker 48 hours to breach. The Egyptians used water hoses. High-pressure pumps blasted through the sand walls in hours, and a hundred thousand troops poured across the canal on the holiest day of the Jewish calendar. Israel was caught completely flat-footed. It was the most brilliantly executed river crossing since D-Day, and it restored Egyptian honor in a single afternoon.",
-    "belligerents": ["Egypt", "Israel"],
+    "belligerents": [
+      "Egypt",
+      "Israel"
+    ],
     "result": "Egyptian operational victory",
-    "commanders": ["Saad el-Shazly", "Shmuel Gonen"],
+    "commanders": [
+      "Saad el-Shazly",
+      "Shmuel Gonen"
+    ],
     "warName": "Yom Kippur War",
     "troopStrength": "100,000 Egyptian troops crossed",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Egyptian_Crossing_of_the_Suez_Canal"
   },
   {
     "id": "battle-of-xuan-loc",
     "name": "Battle of Xuan Loc",
     "year": 1975,
     "era": "contemporary",
-    "location": { "lat": 10.95, "lng": 107.25 },
+    "location": {
+      "lat": 10.95,
+      "lng": 107.25
+    },
     "tier": 2,
     "description": "The ARVN 18th Division knew exactly what they were fighting for at Xuan Loc — everything. Three NVA divisions hit them from every direction and for twelve days those South Vietnamese soldiers fought with a ferocity that stunned even the North Vietnamese. No American air support. No cavalry coming over the hill. Just guts and ammunition. When they finally broke, the road to Saigon lay wide open, and everyone knew how this story was going to end.",
-    "belligerents": ["South Vietnam", "North Vietnam"],
+    "belligerents": [
+      "South Vietnam",
+      "North Vietnam"
+    ],
     "result": "North Vietnamese victory",
-    "commanders": ["Le Minh Dao", "Hoang Cam"],
+    "commanders": [
+      "Le Minh Dao",
+      "Hoang Cam"
+    ],
     "warName": "Vietnam War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Xuan_Loc"
   },
   {
     "id": "fall-of-saigon",
     "name": "Fall of Saigon",
     "year": 1975,
     "era": "contemporary",
-    "location": { "lat": 10.7769, "lng": 106.7009 },
+    "location": {
+      "lat": 10.7769,
+      "lng": 106.7009
+    },
     "tier": 1,
     "description": "A North Vietnamese T-54 crashed through the iron gates of the Independence Palace at 10:45 AM, and twenty years of American policy collapsed with the sound of crumpling metal. On the embassy roof, the last helicopter was already lifting off with desperate people clinging to the skids. The photographs — the helicopter, the crowds, the reaching hands — burned themselves into the American psyche permanently. This was what losing looked like, and America had never seen it before.",
-    "belligerents": ["North Vietnam", "South Vietnam", "United States"],
+    "belligerents": [
+      "North Vietnam",
+      "South Vietnam",
+      "United States"
+    ],
     "result": "North Vietnamese victory; end of South Vietnam",
-    "commanders": ["Van Tien Dung", "Duong Van Minh"],
+    "commanders": [
+      "Van Tien Dung",
+      "Duong Van Minh"
+    ],
     "warName": "Vietnam War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Saigon"
   },
   {
     "id": "battle-of-quneitra",
     "name": "Battle of Quneitra (1973)",
     "year": 1973,
     "era": "contemporary",
-    "location": { "lat": 33.1256, "lng": 35.8242 },
+    "location": {
+      "lat": 33.1256,
+      "lng": 35.8242
+    },
     "tier": 2,
     "description": "When the Syrian assault hit the Golan on Yom Kippur, 1,400 tanks rolled forward against fewer than 200 Israeli tanks spread across the plateau. Quneitra fell in hours. Syrian armor punched deeper into Israeli territory than anyone thought possible — for a terrifying moment, the road to the Galilee was open. Then the Israeli reservists arrived, still pulling on their boots, and counterattacked with the desperation of men who knew what losing meant for their families in the valley below.",
-    "belligerents": ["Syria", "Israel"],
+    "belligerents": [
+      "Syria",
+      "Israel"
+    ],
     "result": "Initially Syrian; Israeli counterattack recaptured",
-    "commanders": ["Yusuf Shakkour", "Rafael Eitan"],
+    "commanders": [
+      "Yusuf Shakkour",
+      "Rafael Eitan"
+    ],
     "warName": "Yom Kippur War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Quneitra_(1973)"
   },
   {
     "id": "ogaden-war-jijiga",
     "name": "Battle of Jijiga",
     "year": 1977,
     "era": "contemporary",
-    "location": { "lat": 9.35, "lng": 42.8 },
+    "location": {
+      "lat": 9.35,
+      "lng": 42.8
+    },
     "tier": 3,
     "description": "Somalia thought they'd caught Ethiopia at its weakest — revolution, purges, chaos — and rolled into the Ogaden to grab what they claimed was theirs. They took Jijiga and were winning. Then Moscow flipped sides, and suddenly Cuban tank battalions and Soviet advisors were pouring into Ethiopia by the planeload. The Cold War's biggest African proxy fight ended with Somalia driven back across the border, learning the hardest lesson of superpower politics: your patron can always find a new client.",
-    "belligerents": ["Somalia", "Ethiopia", "Cuba", "Soviet Union"],
+    "belligerents": [
+      "Somalia",
+      "Ethiopia",
+      "Cuba",
+      "Soviet Union"
+    ],
     "result": "Ethiopian/Cuban/Soviet victory",
-    "commanders": ["Siad Barre", "Mengistu Haile Mariam"],
+    "commanders": [
+      "Siad Barre",
+      "Mengistu Haile Mariam"
+    ],
     "warName": "Ogaden War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Jijiga"
   },
   {
     "id": "battle-of-khorramshahr",
     "name": "Battle of Khorramshahr",
     "year": 1980,
     "era": "contemporary",
-    "location": { "lat": 30.4264, "lng": 48.1742 },
+    "location": {
+      "lat": 30.4264,
+      "lng": 48.1742
+    },
     "tier": 1,
     "description": "Saddam figured Iran was in chaos after the revolution — demoralized army, purged officer corps — and sent his divisions into Khorramshahr expecting a walkover. What he got instead was 34 days of the most vicious urban combat since Stalingrad. Iranian soldiers, Revolutionary Guards, and armed teenagers fought from rooftops and alleyways with a fury that defied explanation. They called it the 'City of Blood,' and six thousand Iraqi dead later, Saddam had his first taste of a war that would eat eight years of his life.",
-    "belligerents": ["Iraq", "Iran"],
+    "belligerents": [
+      "Iraq",
+      "Iran"
+    ],
     "result": "Iraqi pyrrhic victory",
-    "commanders": ["Unknown Iraqi commander", "Mohammad Jahanara"],
+    "commanders": [
+      "Unknown Iraqi commander",
+      "Mohammad Jahanara"
+    ],
     "warName": "Iran-Iraq War",
     "casualties": "~6,000 Iraqi KIA; ~4,500 Iranian KIA",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Khorramshahr"
   },
   {
     "id": "liberation-of-khorramshahr",
     "name": "Liberation of Khorramshahr (Operation Beit ol-Moqaddas)",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": 30.4264, "lng": 48.1742 },
+    "location": {
+      "lat": 30.4264,
+      "lng": 48.1742
+    },
     "tier": 2,
     "description": "Iran came back for the City of Blood with a vengeance that shook the earth. Human waves of Revolutionary Guards and Basij volunteers smashed into Iraqi lines with a religious fervor that terrified the defenders, and Khorramshahr fell back into Iranian hands along with 19,000 Iraqi prisoners. This was Iran's high-water mark — the moment Saddam should have picked up the phone and begged for peace. He didn't. Six more years of slaughter followed because one dictator's ego wouldn't bend.",
-    "belligerents": ["Iran", "Iraq"],
+    "belligerents": [
+      "Iran",
+      "Iraq"
+    ],
     "result": "Decisive Iranian victory",
-    "commanders": ["Ali Sayyad Shirazi", "Unknown Iraqi commander"],
+    "commanders": [
+      "Ali Sayyad Shirazi",
+      "Unknown Iraqi commander"
+    ],
     "warName": "Iran-Iraq War",
     "casualties": "~19,000 Iraqi captured",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Liberation_of_Khorramshahr_(Operation_Beit_ol-Moqaddas)"
   },
   {
     "id": "iran-iraq-al-faw",
     "name": "Battle of al-Faw Peninsula",
     "year": 1986,
     "era": "contemporary",
-    "location": { "lat": 29.97, "lng": 48.47 },
+    "location": {
+      "lat": 29.97,
+      "lng": 48.47
+    },
     "tier": 2,
     "description": "Iranian frogmen crossed the Shatt al-Arab waterway in the dead of night and seized the al-Faw Peninsula before Iraq even knew what happened. Suddenly Iran was threatening Basra and Kuwait, and the entire Gulf was in panic. It took Saddam two years and clouds of mustard gas and nerve agent to claw it back. Two years and chemical weapons to retake a spit of land the size of a county. That tells you everything about how this war was being fought.",
-    "belligerents": ["Iran", "Iraq"],
+    "belligerents": [
+      "Iran",
+      "Iraq"
+    ],
     "result": "Initial Iranian victory; recaptured by Iraq in 1988",
-    "commanders": ["Mohsen Rezaei", "Maher Abd al-Rashid"],
+    "commanders": [
+      "Mohsen Rezaei",
+      "Maher Abd al-Rashid"
+    ],
     "warName": "Iran-Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_al-Faw_Peninsula"
   },
   {
     "id": "operation-peace-for-galilee-beirut",
     "name": "Siege of Beirut",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": 33.8938, "lng": 35.5018 },
+    "location": {
+      "lat": 33.8938,
+      "lng": 35.5018
+    },
     "tier": 2,
     "description": "For ten weeks, Israeli jets and artillery pounded West Beirut into rubble to flush out the PLO. The city that once called itself the 'Paris of the Middle East' became a killing ground. The PLO finally left under a deal — mission accomplished, Sharon said — and then the Phalangist militia walked into the Sabra and Shatila refugee camps under Israeli floodlights and murdered hundreds of Palestinian civilians. The victory turned to ash in Israel's mouth.",
-    "belligerents": ["Israel", "PLO", "Syria"],
+    "belligerents": [
+      "Israel",
+      "PLO",
+      "Syria"
+    ],
     "result": "PLO expelled; political fallout for Israel",
-    "commanders": ["Ariel Sharon", "Yasser Arafat"],
+    "commanders": [
+      "Ariel Sharon",
+      "Yasser Arafat"
+    ],
     "warName": "1982 Lebanon War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Beirut"
   },
   {
     "id": "falklands-goose-green",
     "name": "Battle of Goose Green",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": -51.8225, "lng": -59.9864 },
+    "location": {
+      "lat": -51.8225,
+      "lng": -59.9864
+    },
     "tier": 1,
     "description": "Colonel H. Jones looked at the Argentine machine guns pinning his battalion down, grabbed a submachine gun, and charged the trenches himself. He was killed doing it — Victoria Cross, posthumous — but 2 PARA followed him right through the gap. Six hundred Paras, outnumbered three to one, eight thousand miles from home, and they took Goose Green anyway. When a thousand Argentine soldiers stacked their rifles and surrendered, the message to Buenos Aires was clear: the British weren't bluffing.",
-    "belligerents": ["United Kingdom", "Argentina"],
+    "belligerents": [
+      "United Kingdom",
+      "Argentina"
+    ],
     "result": "British victory",
-    "commanders": ["Herbert 'H' Jones", "Italo Piaggi"],
+    "commanders": [
+      "Herbert 'H' Jones",
+      "Italo Piaggi"
+    ],
     "warName": "Falklands War",
     "troopStrength": "~600 British vs ~1,000 Argentine",
     "casualties": "18 British KIA; 47 Argentine KIA, 1,000 captured",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Goose_Green"
   },
   {
     "id": "falklands-san-carlos",
     "name": "Battle of San Carlos (Bomb Alley)",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": -51.5, "lng": -59.98 },
+    "location": {
+      "lat": -51.5,
+      "lng": -59.98
+    },
     "tier": 2,
     "description": "The Royal Navy sailed into San Carlos Water and the Argentine Air Force came screaming in at mast height — Skyhawks and Daggers threading through the hills, dropping bombs on ships from ranges you could hit with a baseball. They called it Bomb Alley. Frigates burned, ships sank, and sailors died. But here's the thing that saved the British fleet: the Argentine ordnance was fused wrong. Bomb after bomb punched through steel hulls and didn't explode. A technical error the size of a dime kept the beachhead alive.",
-    "belligerents": ["United Kingdom", "Argentina"],
+    "belligerents": [
+      "United Kingdom",
+      "Argentina"
+    ],
     "result": "British beachhead established despite losses",
-    "commanders": ["Julian Thompson", "Argentine Air Force"],
+    "commanders": [
+      "Julian Thompson",
+      "Argentine Air Force"
+    ],
     "warName": "Falklands War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_San_Carlos_(Bomb_Alley)"
   },
   {
     "id": "falklands-mount-tumbledown",
     "name": "Battle of Mount Tumbledown",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": -51.7, "lng": -57.97 },
+    "location": {
+      "lat": -51.7,
+      "lng": -57.97
+    },
     "tier": 2,
     "description": "The Scots Guards went up Tumbledown in the dark, bayonets fixed, into the teeth of Argentina's best troops — the 5th Marine Battalion. It was the kind of close-quarters night fighting that strips everything down to the most primal level of warfare: two men, a few feet apart, in the freezing black. The Argentine marines fought hard — harder than anyone expected — but by dawn the mountain belonged to the Scots Guards, and Stanley lay naked below them.",
-    "belligerents": ["United Kingdom", "Argentina"],
+    "belligerents": [
+      "United Kingdom",
+      "Argentina"
+    ],
     "result": "British victory",
-    "commanders": ["Mike Scott", "Carlos Robacio"],
+    "commanders": [
+      "Mike Scott",
+      "Carlos Robacio"
+    ],
     "warName": "Falklands War",
     "casualties": "9 British KIA; 30+ Argentine KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mount_Tumbledown"
   },
   {
     "id": "falklands-port-stanley",
     "name": "Fall of Port Stanley",
     "year": 1982,
     "era": "contemporary",
-    "location": { "lat": -51.7, "lng": -57.85 },
+    "location": {
+      "lat": -51.7,
+      "lng": -57.85
+    },
     "tier": 1,
     "description": "One by one, the hills around Stanley fell in savage night assaults, and 9,800 Argentine conscripts — cold, hungry, demoralized — looked up and saw British bayonets on every ridge. The surrender came fast after that. Seventy-four days after the junta gambled that Britain wouldn't fight for a cluster of windswept islands in the South Atlantic, it was over. Thatcher's political career was saved. The Argentine junta was finished. And a few hundred men on both sides were dead over sheep pasture at the bottom of the world.",
-    "belligerents": ["United Kingdom", "Argentina"],
+    "belligerents": [
+      "United Kingdom",
+      "Argentina"
+    ],
     "result": "British victory; Argentine surrender",
-    "commanders": ["Jeremy Moore", "Mario Menendez"],
+    "commanders": [
+      "Jeremy Moore",
+      "Mario Menendez"
+    ],
     "warName": "Falklands War",
     "casualties": "255 British KIA total war; 649 Argentine KIA total war",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Port_Stanley"
   },
   {
     "id": "battle-of-cuito-cuanavale",
     "name": "Battle of Cuito Cuanavale",
     "year": 1988,
     "era": "contemporary",
-    "location": { "lat": -15.16, "lng": 19.17 },
+    "location": {
+      "lat": -15.16,
+      "lng": 19.17
+    },
     "tier": 2,
     "description": "South African armor and Angolan rebels squared off against Cuban tank brigades and Angolan troops in the African bush — the biggest battle the continent had seen since El Alamein. Neither side could break the other. But the stalemate cracked open something extraordinary: negotiations that ended the Angolan war, freed Namibia, and — in a chain reaction nobody fully predicted — helped topple apartheid itself. Sometimes the battles that change the world are the ones nobody wins.",
-    "belligerents": ["Cuba", "Angola", "South Africa", "UNITA"],
+    "belligerents": [
+      "Cuba",
+      "Angola",
+      "South Africa",
+      "UNITA"
+    ],
     "result": "Stalemate; led to peace negotiations",
-    "commanders": ["Leopoldo Cintra Frias", "Jannie Geldenhuys"],
+    "commanders": [
+      "Leopoldo Cintra Frias",
+      "Jannie Geldenhuys"
+    ],
     "warName": "South African Border War / Angolan Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Cuito_Cuanavale"
   },
   {
     "id": "us-invasion-of-panama",
     "name": "Operation Just Cause (Panama)",
     "year": 1989,
     "era": "contemporary",
-    "location": { "lat": 9.0, "lng": -79.5 },
+    "location": {
+      "lat": 9.0,
+      "lng": -79.5
+    },
     "tier": 2,
     "description": "Twenty-seven thousand American troops hit Panama in the dead of night — the biggest US military operation since Vietnam — and it was over before breakfast. Noriega's defense forces crumbled in hours. Stealth fighters dropped their first combat bombs. Rangers jumped onto an airfield. Delta went after Noriega. It was messy, there was friendly fire, comms broke down — but the new post-Vietnam American military proved it could actually fight again. The Gulf War's dress rehearsal, and nobody realized it yet.",
-    "belligerents": ["United States", "Panama"],
+    "belligerents": [
+      "United States",
+      "Panama"
+    ],
     "result": "US victory; Noriega captured",
-    "commanders": ["Maxwell Thurman", "Manuel Noriega"],
+    "commanders": [
+      "Maxwell Thurman",
+      "Manuel Noriega"
+    ],
     "warName": "US Invasion of Panama",
     "casualties": "23 US KIA; ~300-500 Panamanian military KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Just_Cause_(Panama)"
   },
   {
     "id": "gulf-war-khafji",
     "name": "Battle of Khafji",
     "year": 1991,
     "era": "contemporary",
-    "location": { "lat": 28.4428, "lng": 48.4925 },
+    "location": {
+      "lat": 28.4428,
+      "lng": 48.4925
+    },
     "tier": 2,
     "description": "Saddam threw three divisions across the Saudi border and seized the coastal town of Khafji — his one and only ground offensive of the entire war. He was testing whether the Arab members of the coalition would actually fight other Arabs. They did. Saudi and Qatari troops, backed by US Marines, hit Khafji from three sides and took it back in 48 hours. The Arab coalition held. Saddam's last gamble before the ground war failed.",
-    "belligerents": ["Saudi Arabia", "Qatar", "United States", "Iraq"],
+    "belligerents": [
+      "Saudi Arabia",
+      "Qatar",
+      "United States",
+      "Iraq"
+    ],
     "result": "Coalition victory",
-    "commanders": ["Sultan Adi al-Mutairi", "Salah Aboud Mahmoud"],
+    "commanders": [
+      "Sultan Adi al-Mutairi",
+      "Salah Aboud Mahmoud"
+    ],
     "warName": "Gulf War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Khafji"
   },
   {
     "id": "gulf-war-73-easting",
     "name": "Battle of 73 Easting",
     "year": 1991,
     "era": "contemporary",
-    "location": { "lat": 30.07, "lng": 47.37 },
+    "location": {
+      "lat": 30.07,
+      "lng": 47.37
+    },
     "tier": 1,
     "description": "Captain McMaster's Eagle Troop crested a ridge in a blinding sandstorm and drove straight into an entire Iraqi brigade. What happened next lasted twenty-three minutes and rewrote the textbook on armored warfare. Nine Abrams tanks killed every T-72 they could see — and the T-72s couldn't even see them back through the sand and rain. The thermal sights saw everything. The sabot rounds hit everything. Not a single American tank was lost. Twenty-three minutes. An entire brigade. Gone.",
-    "belligerents": ["United States", "Iraq"],
+    "belligerents": [
+      "United States",
+      "Iraq"
+    ],
     "result": "Decisive US victory",
-    "commanders": ["H. R. McMaster", "Unknown Iraqi commander"],
+    "commanders": [
+      "H. R. McMaster",
+      "Unknown Iraqi commander"
+    ],
     "warName": "Gulf War",
     "troopStrength": "Eagle Troop (~12 tanks) vs Iraqi brigade",
     "casualties": "1 US KIA; ~600 Iraqi KIA, dozens of T-72s destroyed",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_73_Easting"
   },
   {
     "id": "gulf-war-medina-ridge",
     "name": "Battle of Medina Ridge",
     "year": 1991,
     "era": "contemporary",
-    "location": { "lat": 30.5, "lng": 47.2 },
+    "location": {
+      "lat": 30.5,
+      "lng": 47.2
+    },
     "tier": 2,
     "description": "The Medina Luminous Division was supposed to be the best Saddam had — Republican Guard, T-72s, the works. The US 1st Armored Division rolled into them and it was like watching the future fight the past. One hundred eighty-six Iraqi armored vehicles destroyed in under an hour. Zero American tanks lost. The Iraqi crews never had a chance — they were being killed by things they couldn't see, at ranges they couldn't match, by technology they didn't understand. Modern war had arrived, and it was terrifying.",
-    "belligerents": ["United States", "Iraq"],
+    "belligerents": [
+      "United States",
+      "Iraq"
+    ],
     "result": "Decisive US victory",
-    "commanders": ["Ronald Griffith", "Unknown Iraqi commander"],
+    "commanders": [
+      "Ronald Griffith",
+      "Unknown Iraqi commander"
+    ],
     "warName": "Gulf War",
     "casualties": "4 US KIA; ~800 Iraqi KIA, 186 armored vehicles destroyed",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Medina_Ridge"
   },
   {
     "id": "gulf-war-highway-of-death",
     "name": "Highway of Death",
     "year": 1991,
     "era": "contemporary",
-    "location": { "lat": 29.35, "lng": 47.68 },
+    "location": {
+      "lat": 29.35,
+      "lng": 47.68
+    },
     "tier": 1,
     "description": "Miles and miles of vehicles — tanks, trucks, buses, stolen cars loaded with looted Kuwaiti goods — jammed bumper to bumper on Highway 80, trying to flee Kuwait City. Coalition aircraft caught them in the open and turned the road into an apocalyptic junkyard of charred metal and human remains. The images were so horrifying that Bush stopped the ground war at 100 hours. The Highway of Death became the war's defining image — not of victory, but of the terrible mathematics of what happens when total air supremacy meets a traffic jam.",
-    "belligerents": ["United States", "United Kingdom", "Iraq"],
+    "belligerents": [
+      "United States",
+      "United Kingdom",
+      "Iraq"
+    ],
     "result": "Iraqi column destroyed",
-    "commanders": ["Norman Schwarzkopf", "Unknown Iraqi commanders"],
+    "commanders": [
+      "Norman Schwarzkopf",
+      "Unknown Iraqi commanders"
+    ],
     "warName": "Gulf War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Highway_of_Death"
   },
   {
     "id": "gulf-war-norfolk",
     "name": "Battle of Norfolk",
     "year": 1991,
     "era": "contemporary",
-    "location": { "lat": 30.2, "lng": 47.4 },
+    "location": {
+      "lat": 30.2,
+      "lng": 47.4
+    },
     "tier": 2,
     "description": "The Big Red One did something at Norfolk that armies dread more than almost anything — a deliberate breach through minefields and prepared defenses, at night, under fire. Engineers blew lanes through the mines while tanks rolled through the gaps and Iraqi positions erupted on both sides. It was the largest breach operation since D-Day, a rolling night battle through dust and confusion that chewed through multiple Iraqi divisions before dawn.",
-    "belligerents": ["United States", "Iraq"],
+    "belligerents": [
+      "United States",
+      "Iraq"
+    ],
     "result": "Decisive US victory",
-    "commanders": ["Thomas Rhame", "Unknown Iraqi commander"],
+    "commanders": [
+      "Thomas Rhame",
+      "Unknown Iraqi commander"
+    ],
     "warName": "Gulf War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Norfolk"
   },
   {
     "id": "battle-of-vukovar",
     "name": "Battle of Vukovar",
     "year": 1991,
     "era": "contemporary",
-    "location": { "lat": 45.3511, "lng": 18.9939 },
+    "location": {
+      "lat": 45.3511,
+      "lng": 18.9939
+    },
     "tier": 1,
     "description": "Two thousand Croats against thirty-six thousand JNA troops and Serbian paramilitaries, and the Croats held for eighty-seven days. Eighty-seven days. Vukovar was blasted into a landscape that looked like Stalingrad — every building gutted, every street a kill zone. When the city finally fell, the Serbs took prisoners to a farm at Ovcara and executed them. The most destructive battle in Europe since World War II, and a prelude to horrors that would only get worse across the Balkans.",
-    "belligerents": ["Croatia", "Yugoslavia (JNA)", "Serbian paramilitaries"],
+    "belligerents": [
+      "Croatia",
+      "Yugoslavia (JNA)",
+      "Serbian paramilitaries"
+    ],
     "result": "Serbian/JNA victory after 87-day siege",
-    "commanders": ["Mile Dedakovic", "Zivota Panic"],
+    "commanders": [
+      "Mile Dedakovic",
+      "Zivota Panic"
+    ],
     "warName": "Croatian War of Independence",
     "troopStrength": "~2,000 Croatian vs ~36,000 JNA/Serbian",
     "casualties": "~1,800 Croatian KIA/missing; ~4,000 JNA KIA",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Vukovar"
   },
   {
     "id": "siege-of-sarajevo",
     "name": "Siege of Sarajevo",
     "year": 1992,
     "era": "contemporary",
-    "location": { "lat": 43.8563, "lng": 18.4131 },
+    "location": {
+      "lat": 43.8563,
+      "lng": 18.4131
+    },
     "tier": 1,
     "description": "For 1,425 days — nearly four years — Bosnian Serb gunners on the hills above Sarajevo shot anything that moved. Children running to school. People crossing intersections they called 'Sniper Alley.' Grandmothers waiting for water. Eleven thousand dead, including 1,600 children, while the entire world sat in front of their televisions and debated whether this was really 'our problem.' Sarajevo was a modern European capital being slowly murdered in real time, and the fact that it took four years to stop it will haunt the international community forever.",
-    "belligerents": ["Bosnia and Herzegovina", "Republika Srpska"],
+    "belligerents": [
+      "Bosnia and Herzegovina",
+      "Republika Srpska"
+    ],
     "result": "Ended by Dayton Agreement",
-    "commanders": ["Rasim Delic", "Ratko Mladic"],
+    "commanders": [
+      "Rasim Delic",
+      "Ratko Mladic"
+    ],
     "warName": "Bosnian War",
     "casualties": "~11,500 killed including 1,600 children",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Sarajevo"
   },
   {
     "id": "battle-of-mogadishu",
     "name": "Battle of Mogadishu (Black Hawk Down)",
     "year": 1993,
     "era": "contemporary",
-    "location": { "lat": 2.0469, "lng": 45.3182 },
+    "location": {
+      "lat": 2.0469,
+      "lng": 45.3182
+    },
     "tier": 1,
     "description": "It was supposed to be a thirty-minute snatch-and-grab — fast ropes, flex cuffs, out before dinner. Then two Black Hawks spiraled into the streets of Mogadishu and everything went to hell. For fifteen hours, Rangers and Delta operators fought through a city that had turned into a labyrinth of ambushes, RPGs, and burning tires. They fought to reach their downed brothers because that's what you do — you don't leave anyone behind. Eighteen Americans died, a thousand Somalis died, and America's appetite for intervention died with them.",
-    "belligerents": ["United States", "Somali National Alliance"],
+    "belligerents": [
+      "United States",
+      "Somali National Alliance"
+    ],
     "result": "US tactical victory; strategic withdrawal from Somalia",
-    "commanders": ["William F. Garrison", "Mohamed Farrah Aidid"],
+    "commanders": [
+      "William F. Garrison",
+      "Mohamed Farrah Aidid"
+    ],
     "warName": "Somali Civil War / UNOSOM II",
     "casualties": "18 US KIA, 73 wounded; ~1,000-1,500 Somali casualties",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Mogadishu_(Black_Hawk_Down)"
   },
   {
     "id": "operation-storm",
     "name": "Operation Storm (Oluja)",
     "year": 1995,
     "era": "contemporary",
-    "location": { "lat": 44.1, "lng": 15.9 },
+    "location": {
+      "lat": 44.1,
+      "lng": 15.9
+    },
     "tier": 1,
     "description": "Croatia had spent four years rebuilding its army in secret, training with retired US generals, and waiting for this moment. When the storm broke, 130,000 Croatian troops hit the Krajina from every direction and the Serb defenses crumbled in 84 hours. The largest European land offensive since 1945, and it was over in less than four days. Two hundred thousand Serbs fled in columns of tractors and cars — the largest ethnic displacement of the entire Yugoslav nightmare. Fast. Brutal. Decisive. And deeply ugly.",
-    "belligerents": ["Croatia", "Republic of Serbian Krajina"],
+    "belligerents": [
+      "Croatia",
+      "Republic of Serbian Krajina"
+    ],
     "result": "Decisive Croatian victory",
-    "commanders": ["Ante Gotovina", "Mile Mrksic"],
+    "commanders": [
+      "Ante Gotovina",
+      "Mile Mrksic"
+    ],
     "warName": "Croatian War of Independence",
     "troopStrength": "~130,000 Croatian vs ~27,000 RSK",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Storm_(Oluja)"
   },
   {
     "id": "srebrenica-massacre",
     "name": "Srebrenica Massacre",
     "year": 1995,
     "era": "contemporary",
-    "location": { "lat": 44.1067, "lng": 19.2961 },
+    "location": {
+      "lat": 44.1067,
+      "lng": 19.2961
+    },
     "tier": 1,
     "description": "The United Nations had declared Srebrenica a 'safe area.' They put Dutch peacekeepers there with the implicit promise that these people would be protected. Then Mladic's troops rolled in, separated the men and boys from the women, and over the next few days systematically murdered more than 8,000 of them. Genocide. In Europe. In 1995. While blue-helmeted soldiers watched and the world's most powerful nations did nothing. The word 'safe area' has carried a bitter taste ever since.",
-    "belligerents": ["Republika Srpska", "Bosnia and Herzegovina"],
+    "belligerents": [
+      "Republika Srpska",
+      "Bosnia and Herzegovina"
+    ],
     "result": "Bosnian Serb capture; genocide of 8,000+",
-    "commanders": ["Ratko Mladic", "Naser Oric (absent)"],
+    "commanders": [
+      "Ratko Mladic",
+      "Naser Oric (absent)"
+    ],
     "warName": "Bosnian War",
     "casualties": "8,372 Bosniak men and boys murdered",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Srebrenica_Massacre"
   },
   {
     "id": "first-chechen-grozny-1994",
     "name": "Battle of Grozny (1994-1995)",
     "year": 1994,
     "era": "contemporary",
-    "location": { "lat": 43.3187, "lng": 45.6919 },
+    "location": {
+      "lat": 43.3187,
+      "lng": 45.6919
+    },
     "tier": 1,
     "description": "On New Year's Eve, Russian tank columns rolled into Grozny like it was a parade — no infantry support, no reconnaissance, just armor on city streets. The Chechens were waiting. They let the tanks get deep into the city and then hit them from every rooftop, every basement window, every alley. The 131st Maikop Brigade was essentially annihilated in hours. Conscripts burned alive in their vehicles. Russia eventually took the ruins, but Grozny exposed the post-Soviet army as a hollow, rotting shell — and the Chechens knew it.",
-    "belligerents": ["Russia", "Chechen Republic of Ichkeria"],
+    "belligerents": [
+      "Russia",
+      "Chechen Republic of Ichkeria"
+    ],
     "result": "Russian pyrrhic victory",
-    "commanders": ["Pavel Grachev", "Dzhokhar Dudayev"],
+    "commanders": [
+      "Pavel Grachev",
+      "Dzhokhar Dudayev"
+    ],
     "warName": "First Chechen War",
     "casualties": "~1,500 Russian KIA in first assault; thousands total",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Grozny_(1994-1995)"
   },
   {
     "id": "second-chechen-grozny-1999",
     "name": "Battle of Grozny (1999-2000)",
     "year": 1999,
     "era": "contemporary",
-    "location": { "lat": 43.3187, "lng": 45.6919 },
+    "location": {
+      "lat": 43.3187,
+      "lng": 45.6919
+    },
     "tier": 1,
     "description": "Russia learned from 1994. This time there were no tank parades into the city center. This time they stood off and pounded Grozny with everything they had — thermobaric rockets, ballistic missiles, artillery barrages that went on for days. The UN called it the most destroyed city on the planet Earth. When Russian infantry finally went in, they advanced through a moonscape where nothing was standing. The Chechens melted away through minefields. Russia got its victory. There was just nothing left to be victorious over.",
-    "belligerents": ["Russia", "Chechen Republic of Ichkeria"],
+    "belligerents": [
+      "Russia",
+      "Chechen Republic of Ichkeria"
+    ],
     "result": "Russian victory; city destroyed",
-    "commanders": ["Vladimir Shamanov", "Aslan Maskhadov"],
+    "commanders": [
+      "Vladimir Shamanov",
+      "Aslan Maskhadov"
+    ],
     "warName": "Second Chechen War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Grozny_(1999-2000)"
   },
   {
     "id": "eritrean-ethiopian-badme",
     "name": "Battle of Badme",
     "year": 1999,
     "era": "contemporary",
-    "location": { "lat": 14.95, "lng": 37.9 },
+    "location": {
+      "lat": 14.95,
+      "lng": 37.9
+    },
     "tier": 3,
     "description": "Two nations that had fought side by side to overthrow a dictator turned on each other over a dusty border town that most of the world had never heard of. The fighting at Badme looked like something from 1916 — trenches, barbed wire, human-wave assaults across open ground into machine gun fire. Tens of thousands of young men died. For Badme. A town with essentially nothing in it except the principle that this dirt is ours, not yours. War at its most senseless and most human.",
-    "belligerents": ["Ethiopia", "Eritrea"],
+    "belligerents": [
+      "Ethiopia",
+      "Eritrea"
+    ],
     "result": "Ethiopian victory",
-    "commanders": ["Tsadkan Gebretensae", "Sebhat Ephrem"],
+    "commanders": [
+      "Tsadkan Gebretensae",
+      "Sebhat Ephrem"
+    ],
     "warName": "Eritrean-Ethiopian War",
     "casualties": "~19,000 Ethiopian KIA; ~19,000 Eritrean KIA (total war)",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Badme"
   },
   {
     "id": "battle-of-tora-bora",
     "name": "Battle of Tora Bora",
     "year": 2001,
     "era": "contemporary",
-    "location": { "lat": 34.097, "lng": 70.138 },
+    "location": {
+      "lat": 34.097,
+      "lng": 70.138
+    },
     "tier": 1,
     "description": "They had him. Bin Laden was pinned in a cave complex at 14,000 feet, B-52s were turning the mountains inside out, and Delta Force was close enough to hear him on the radio. But instead of putting a cordon of American troops on the Pakistani border, they outsourced that job to Afghan warlords whose loyalty was payable in cash. Bin Laden walked out of Tora Bora into Pakistan. The most wanted man on Earth, and he just walked away. It would take ten more years to find him again.",
-    "belligerents": ["United States", "Afghan militias", "al-Qaeda"],
+    "belligerents": [
+      "United States",
+      "Afghan militias",
+      "al-Qaeda"
+    ],
     "result": "Al-Qaeda driven from Tora Bora; bin Laden escaped",
-    "commanders": ["Gary Berntsen", "Osama bin Laden"],
+    "commanders": [
+      "Gary Berntsen",
+      "Osama bin Laden"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Tora_Bora"
   },
   {
     "id": "operation-anaconda",
     "name": "Operation Anaconda (Shah-i-Kot Valley)",
     "year": 2002,
     "era": "contemporary",
-    "location": { "lat": 33.55, "lng": 69.2 },
+    "location": {
+      "lat": 33.55,
+      "lng": 69.2
+    },
     "tier": 1,
     "description": "The plan was elegant — hammer and anvil, push al-Qaeda into a kill zone. Then the helicopters flew into the valley and the mountain came alive with machine gun fire and RPGs from positions nobody knew were there. The enemy was supposed to run. They didn't. They fought. Anaconda turned into a week-long brawl at 10,000 feet where Americans were gasping for air between firefights, calling in airstrikes on positions fifty meters away, and learning that Afghanistan punishes overconfidence the same way it has for a thousand years.",
-    "belligerents": ["United States", "Coalition forces", "al-Qaeda", "Taliban"],
+    "belligerents": [
+      "United States",
+      "Coalition forces",
+      "al-Qaeda",
+      "Taliban"
+    ],
     "result": "Coalition victory",
-    "commanders": ["Franklin Hagenbeck", "Saif Rahman Mansoor"],
+    "commanders": [
+      "Franklin Hagenbeck",
+      "Saif Rahman Mansoor"
+    ],
     "warName": "War in Afghanistan",
     "troopStrength": "~2,000 Coalition vs ~500-1,000 al-Qaeda/Taliban",
     "casualties": "8 US KIA; ~500 al-Qaeda/Taliban KIA estimated",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Anaconda_(Shah-i-Kot_Valley)"
   },
   {
     "id": "battle-of-baghdad-2003",
     "name": "Battle of Baghdad (2003)",
     "year": 2003,
     "era": "contemporary",
-    "location": { "lat": 33.3128, "lng": 44.3615 },
+    "location": {
+      "lat": 33.3128,
+      "lng": 44.3615
+    },
     "tier": 1,
     "description": "Everyone expected Stalingrad on the Tigris. Instead, American tankers drove straight up Baghdad's main highways at speed — thunder runs, they called them — daring the Republican Guard to stop them. The Guard tried. They died. Tanks, RPGs, suicide cars, fedayeen in pickup trucks — nothing could stop an Abrams doing 40 mph through the capital. Saddam's statue came down on April 9th and the world thought, 'That was easy.' It wasn't. The easy part was taking Baghdad. The hard part was about to begin.",
-    "belligerents": ["United States", "Iraq"],
+    "belligerents": [
+      "United States",
+      "Iraq"
+    ],
     "result": "US victory; fall of Saddam Hussein's government",
-    "commanders": ["David Petraeus", "Saddam Hussein"],
+    "commanders": [
+      "David Petraeus",
+      "Saddam Hussein"
+    ],
     "warName": "Iraq War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Baghdad_(2003)"
   },
   {
     "id": "battle-of-nasiriyah",
     "name": "Battle of Nasiriyah",
     "year": 2003,
     "era": "contemporary",
-    "location": { "lat": 31.0439, "lng": 46.2581 },
+    "location": {
+      "lat": 31.0439,
+      "lng": 46.2581
+    },
     "tier": 2,
     "description": "The Marines needed the bridges at Nasiriyah and the Fedayeen weren't going to let them have it. What was supposed to be a quick seizure turned into a brutal urban fight in the alleys and buildings along the Euphrates. Meanwhile, a wrong turn sent an Army maintenance convoy straight into an ambush — PFC Jessica Lynch and her comrades drove into hell because someone misread a map. Nasiriyah was the first warning sign that the road to Baghdad wasn't going to be the cakewalk the planners promised.",
-    "belligerents": ["United States", "Iraq (Fedayeen Saddam)"],
+    "belligerents": [
+      "United States",
+      "Iraq (Fedayeen Saddam)"
+    ],
     "result": "US victory",
-    "commanders": ["Richard Natonski", "Unknown Iraqi commander"],
+    "commanders": [
+      "Richard Natonski",
+      "Unknown Iraqi commander"
+    ],
     "warName": "Iraq War",
     "casualties": "18 US KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Nasiriyah"
   },
   {
     "id": "battle-of-debecka-pass",
     "name": "Battle of Debecka Pass",
     "year": 2003,
     "era": "contemporary",
-    "location": { "lat": 35.95, "lng": 44.47 },
+    "location": {
+      "lat": 35.95,
+      "lng": 44.47
+    },
     "tier": 3,
     "description": "Twenty-six Green Berets and a handful of Kurdish peshmerga looked down the pass and saw Iraqi tanks and APCs rolling straight at them. No armor of their own. No heavy weapons. Just rifles, Javelin missiles, and a radio. They called in airstrikes with the precision of men who knew that if those bombs missed by a hundred meters, they were dead. Every Iraqi vehicle that crested the ridge got vaporized. Twenty-six guys held a pass against an armored counterattack. That's the kind of story you wouldn't believe in a movie.",
-    "belligerents": ["United States", "Kurdish Peshmerga", "Iraq"],
+    "belligerents": [
+      "United States",
+      "Kurdish Peshmerga",
+      "Iraq"
+    ],
     "result": "US/Kurdish victory",
-    "commanders": ["US Special Forces ODA 391", "Unknown Iraqi commander"],
+    "commanders": [
+      "US Special Forces ODA 391",
+      "Unknown Iraqi commander"
+    ],
     "warName": "Iraq War",
-    "significance": 3
+    "significance": 3,
+    "wikipediaSlug": "Battle_of_Debecka_Pass"
   },
   {
     "id": "first-battle-of-fallujah",
     "name": "First Battle of Fallujah (Operation Vigilant Resolve)",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 33.3531, "lng": 43.7869 },
+    "location": {
+      "lat": 33.3531,
+      "lng": 43.7869
+    },
     "tier": 1,
     "description": "After four Blackwater contractors were burned, mutilated, and hung from a bridge in Fallujah, the Marines went in to settle the score. Mattis had them rolling through the city when the order came down: stop. Political pressure — from Baghdad, from Washington, from Al Jazeera — pulled the Marines back mid-assault. The insurgents danced on the rooftops. They'd faced down the United States Marine Corps and the Marines had blinked. Everyone knew a second battle was coming. And everyone knew it would be worse.",
-    "belligerents": ["United States", "Iraqi insurgents"],
+    "belligerents": [
+      "United States",
+      "Iraqi insurgents"
+    ],
     "result": "Inconclusive; US withdrew under political pressure",
-    "commanders": ["James Mattis", "Abdullah al-Janabi"],
+    "commanders": [
+      "James Mattis",
+      "Abdullah al-Janabi"
+    ],
     "warName": "Iraq War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "First_Battle_of_Fallujah_(Operation_Vigilant_Resolve)"
   },
   {
     "id": "second-battle-of-fallujah",
     "name": "Second Battle of Fallujah (Operation Phantom Fury)",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 33.3531, "lng": 43.7869 },
+    "location": {
+      "lat": 33.3531,
+      "lng": 43.7869
+    },
     "tier": 1,
     "description": "This time there was no stopping. 13,500 Marines and soldiers went into Fallujah like an iron fist — breaching walls with explosives, clearing every room, every closet, every rooftop. Four thousand jihadists had turned the city into a fortress of IEDs, bunkers, and kill zones. It was the bloodiest American urban combat since Hue, and it looked like Hue — dust, smoke, rubble, and young men dying in doorways. Ninety-five Americans killed. Six hundred wounded. The city secured but largely erased from the map.",
-    "belligerents": ["United States", "Iraqi Army", "Iraqi insurgents", "al-Qaeda in Iraq"],
+    "belligerents": [
+      "United States",
+      "Iraqi Army",
+      "Iraqi insurgents",
+      "al-Qaeda in Iraq"
+    ],
     "result": "US/Iraqi victory",
-    "commanders": ["James Mattis", "Richard Natonski", "Abu Musab al-Zarqawi"],
+    "commanders": [
+      "James Mattis",
+      "Richard Natonski",
+      "Abu Musab al-Zarqawi"
+    ],
     "warName": "Iraq War",
     "troopStrength": "~13,500 US/Iraqi vs ~4,000 insurgents",
     "casualties": "95 US KIA, 600+ WIA; ~1,500 insurgents KIA",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Second_Battle_of_Fallujah_(Operation_Phantom_Fury)"
   },
   {
     "id": "battle-of-sadr-city-2004",
     "name": "Battles of Sadr City (2004)",
     "year": 2004,
     "era": "contemporary",
-    "location": { "lat": 33.395, "lng": 44.45 },
+    "location": {
+      "lat": 33.395,
+      "lng": 44.45
+    },
     "tier": 2,
     "description": "Just when the Americans thought the insurgency was a Sunni problem, Muqtada al-Sadr proved them wrong. His Mahdi Army rose up simultaneously across southern Iraq and in Baghdad's teeming Sadr City slum — two million people, narrow streets, and now an Iranian-backed militia shooting at American patrols from every corner. The war had just doubled in complexity. It wasn't one insurgency anymore. It was two. And behind the Shiite one stood Tehran, smiling.",
-    "belligerents": ["United States", "Mahdi Army"],
+    "belligerents": [
+      "United States",
+      "Mahdi Army"
+    ],
     "result": "Ceasefire; Mahdi Army remained intact",
-    "commanders": ["US Army 1st Cavalry Division", "Muqtada al-Sadr"],
+    "commanders": [
+      "US Army 1st Cavalry Division",
+      "Muqtada al-Sadr"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battles_of_Sadr_City_(2004)"
   },
   {
     "id": "battle-of-ramadi",
     "name": "Battle of Ramadi",
     "year": 2006,
     "era": "contemporary",
-    "location": { "lat": 33.4258, "lng": 43.3119 },
+    "location": {
+      "lat": 33.4258,
+      "lng": 43.3119
+    },
     "tier": 2,
     "description": "Ramadi was al-Qaeda's crown jewel in Anbar Province, and the key to taking it back wasn't just firepower — it was persuasion. Colonel MacFarland figured out that the local Sunni tribes hated al-Qaeda even more than they hated the Americans, and if you gave them a reason to fight back, they would. The Awakening was born. Tribal sheikhs who'd been shooting at Marines last month were now shaking hands and pointing out IED locations. Combined with relentless combat operations, Ramadi became the template that saved Iraq — or at least delayed its next catastrophe.",
-    "belligerents": ["United States", "Iraqi Army", "al-Qaeda in Iraq"],
+    "belligerents": [
+      "United States",
+      "Iraqi Army",
+      "al-Qaeda in Iraq"
+    ],
     "result": "US/Iraqi victory",
-    "commanders": ["Sean MacFarland", "Unknown AQI commander"],
+    "commanders": [
+      "Sean MacFarland",
+      "Unknown AQI commander"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Ramadi"
   },
   {
     "id": "battle-of-basra-2008",
     "name": "Battle of Basra (2008)",
     "year": 2008,
     "era": "contemporary",
-    "location": { "lat": 30.5085, "lng": 47.7804 },
+    "location": {
+      "lat": 30.5085,
+      "lng": 47.7804
+    },
     "tier": 2,
     "description": "Maliki flew to Basra and personally ordered the Iraqi Army to take back its own second-largest city from the Shiite militias. It almost collapsed immediately — units refused to fight, soldiers deserted, and for a terrifying 48 hours it looked like the Iraqi Army would humiliate itself on live television. Then American and British advisors, airstrikes, and sheer political will turned it around. Basra was the moment Iraq's government decided to actually govern, and it nearly didn't work.",
-    "belligerents": ["Iraqi Army", "United States", "United Kingdom", "Mahdi Army"],
+    "belligerents": [
+      "Iraqi Army",
+      "United States",
+      "United Kingdom",
+      "Mahdi Army"
+    ],
     "result": "Iraqi government victory",
-    "commanders": ["Nouri al-Maliki", "Muqtada al-Sadr"],
+    "commanders": [
+      "Nouri al-Maliki",
+      "Muqtada al-Sadr"
+    ],
     "warName": "Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Basra_(2008)"
   },
   {
     "id": "second-congo-war-kisangani",
     "name": "Six-Day War of Kisangani",
     "year": 2000,
     "era": "contemporary",
-    "location": { "lat": -0.5167, "lng": 25.2 },
+    "location": {
+      "lat": -0.5167,
+      "lng": 25.2
+    },
     "tier": 3,
     "description": "Two armies that were supposed to be on the same side turned their guns on each other in the middle of someone else's country — over diamonds. Rwandan and Ugandan troops shelled Kisangani into rubble, killing over a thousand Congolese civilians who had nothing to do with any of it. Africa's 'World War' had reached peak absurdity: allied armies fighting each other in a third country for resources that would never benefit the people dying for them.",
-    "belligerents": ["Rwanda", "Uganda"],
+    "belligerents": [
+      "Rwanda",
+      "Uganda"
+    ],
     "result": "Rwandan victory",
-    "commanders": ["James Kabarebe", "Unknown Ugandan commander"],
+    "commanders": [
+      "James Kabarebe",
+      "Unknown Ugandan commander"
+    ],
     "warName": "Second Congo War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Six-Day_War_of_Kisangani"
   },
   {
     "id": "battle-of-qala-i-jangi",
     "name": "Battle of Qala-i-Jangi",
     "year": 2001,
     "era": "contemporary",
-    "location": { "lat": 36.7, "lng": 66.83 },
+    "location": {
+      "lat": 36.7,
+      "lng": 66.83
+    },
     "tier": 3,
     "description": "Hundreds of Taliban prisoners in a 19th-century mud fortress pulled hidden grenades and seized weapons from their guards. CIA officer Mike Spann — the first American killed in the Afghan war — went down in the opening minutes. What followed was three days of medieval siege warfare with modern weapons: Northern Alliance troops and American special forces fighting room to room through a fortress that belonged in the age of Kipling, not the War on Terror. One of the prisoners who survived was an American kid from California named John Walker Lindh.",
-    "belligerents": ["United States", "Northern Alliance", "Taliban prisoners"],
+    "belligerents": [
+      "United States",
+      "Northern Alliance",
+      "Taliban prisoners"
+    ],
     "result": "Northern Alliance/US victory; prisoners killed or recaptured",
-    "commanders": ["Mike Spann (KIA)", "Abdul Rashid Dostum"],
+    "commanders": [
+      "Mike Spann (KIA)",
+      "Abdul Rashid Dostum"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Qala-i-Jangi"
   },
   {
     "id": "lebanon-war-2006-bint-jbeil",
     "name": "Battle of Bint Jbeil",
     "year": 2006,
     "era": "contemporary",
-    "location": { "lat": 33.12, "lng": 35.43 },
+    "location": {
+      "lat": 33.12,
+      "lng": 35.43
+    },
     "tier": 2,
     "description": "The IDF rolled into Bint Jbeil expecting the same ragtag militia they'd fought in the '80s. What they found instead was a professional army in disguise — hardened bunkers, pre-sighted anti-tank missiles, interlocking fields of fire, and fighters who didn't run. Kornet missiles knocked out Merkavas that were supposed to be invincible. Israeli infantry took casualties that shocked a nation accustomed to quick victories. Hezbollah had evolved into something new — a hybrid force that fought like a guerrilla army and hit like a conventional one.",
-    "belligerents": ["Israel", "Hezbollah"],
+    "belligerents": [
+      "Israel",
+      "Hezbollah"
+    ],
     "result": "Inconclusive; Hezbollah claimed victory",
-    "commanders": ["Gal Hirsch", "Hassan Nasrallah"],
+    "commanders": [
+      "Gal Hirsch",
+      "Hassan Nasrallah"
+    ],
     "warName": "2006 Lebanon War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bint_Jbeil"
   },
   {
     "id": "lebanon-war-2006-wadi-saluki",
     "name": "Battle of Wadi Saluki",
     "year": 2006,
     "era": "contemporary",
-    "location": { "lat": 33.2, "lng": 35.45 },
+    "location": {
+      "lat": 33.2,
+      "lng": 35.45
+    },
     "tier": 3,
     "description": "A column of Merkava tanks — Israel's pride, the most heavily armored tank in the world — rolled into the Wadi Saluki and drove straight into a kill zone. Hezbollah anti-tank teams hit them from multiple positions with Russian-made Kornets, and tank after tank brewed up. It was the worst single IDF armored loss in decades, and it sent shockwaves through every military in the world. If Hezbollah could kill Merkavas in a Lebanese wadi, what could a near-peer enemy do? Every tank army on earth started asking that question.",
-    "belligerents": ["Israel", "Hezbollah"],
+    "belligerents": [
+      "Israel",
+      "Hezbollah"
+    ],
     "result": "Hezbollah tactical victory",
-    "commanders": ["Unknown IDF commander", "Hezbollah southern command"],
+    "commanders": [
+      "Unknown IDF commander",
+      "Hezbollah southern command"
+    ],
     "warName": "2006 Lebanon War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Wadi_Saluki"
   },
   {
     "id": "battle-of-wanat",
     "name": "Battle of Wanat",
     "year": 2008,
     "era": "contemporary",
-    "location": { "lat": 35.18, "lng": 71.34 },
+    "location": {
+      "lat": 35.18,
+      "lng": 71.34
+    },
     "tier": 3,
     "description": "A platoon of Americans at a half-built outpost in the most godforsaken valley in Nuristan woke up to 200 Taliban fighters hitting them from every direction at once. RPGs, machine guns, fighters getting inside the wire — it was minutes away from being overrun. Nine Americans died fighting off the assault, and the survivors held by the thinnest of margins. Wanat forced the military to ask a brutal question: why are we putting tiny garrisons in valleys surrounded by mountains full of people who want to kill them?",
-    "belligerents": ["United States", "Taliban"],
+    "belligerents": [
+      "United States",
+      "Taliban"
+    ],
     "result": "US held position; heavy casualties",
-    "commanders": ["Matthew Myer", "Unknown Taliban commander"],
+    "commanders": [
+      "Matthew Myer",
+      "Unknown Taliban commander"
+    ],
     "warName": "War in Afghanistan",
     "casualties": "9 US KIA, 27 WIA; ~50 Taliban KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Wanat"
   },
   {
     "id": "battle-of-kamdesh",
     "name": "Battle of Kamdesh",
     "year": 2009,
     "era": "contemporary",
-    "location": { "lat": 35.43, "lng": 71.33 },
+    "location": {
+      "lat": 35.43,
+      "lng": 71.33
+    },
     "tier": 2,
     "description": "COP Keating sat at the bottom of a bowl — mountains on every side, looking down at you, like fighting from inside a fishbowl. Everyone knew it was a death trap. On October 3rd, three hundred Taliban proved them right. The perimeter was breached, buildings were on fire, and it looked like the end. Clinton Romesha ran through a gauntlet of fire to regroup the defense. Ty Carter sprinted across open ground to drag a wounded soldier to cover. Both earned the Medal of Honor. Eight Americans didn't come home. The Army finally closed the outpost — something they should have done before a single man died there.",
-    "belligerents": ["United States", "Taliban"],
+    "belligerents": [
+      "United States",
+      "Taliban"
+    ],
     "result": "US held; outpost subsequently closed",
-    "commanders": ["Stoney Portis", "Unknown Taliban commander"],
+    "commanders": [
+      "Stoney Portis",
+      "Unknown Taliban commander"
+    ],
     "warName": "War in Afghanistan",
     "casualties": "8 US KIA; ~150 Taliban KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Kamdesh"
   },
   {
     "id": "battle-of-marjah",
     "name": "Operation Moshtarak (Battle of Marjah)",
     "year": 2010,
     "era": "contemporary",
-    "location": { "lat": 31.52, "lng": 64.12 },
+    "location": {
+      "lat": 31.52,
+      "lng": 64.12
+    },
     "tier": 2,
     "description": "McChrystal announced the offensive weeks in advance — counterinsurgency doctrine said you had to warn the population. So 15,000 troops went into Marjah against a Taliban force that knew they were coming and had seeded every footpath with IEDs. The general promised a 'government in a box' — you clear the Taliban, drop in governance, and the people love you. The clearing worked. The government-in-a-box didn't. Marjah became a case study in the gap between COIN theory and Afghan reality.",
-    "belligerents": ["United States", "United Kingdom", "Afghan Army", "Taliban"],
+    "belligerents": [
+      "United States",
+      "United Kingdom",
+      "Afghan Army",
+      "Taliban"
+    ],
     "result": "Coalition tactical victory; mixed COIN results",
-    "commanders": ["Larry Nicholson", "Unknown Taliban commander"],
+    "commanders": [
+      "Larry Nicholson",
+      "Unknown Taliban commander"
+    ],
     "warName": "War in Afghanistan",
     "troopStrength": "~15,000 Coalition/Afghan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Moshtarak_(Battle_of_Marjah)"
   },
   {
     "id": "libyan-civil-war-sirte",
     "name": "Battle of Sirte (2011)",
     "year": 2011,
     "era": "contemporary",
-    "location": { "lat": 31.2089, "lng": 16.5887 },
+    "location": {
+      "lat": 31.2089,
+      "lng": 16.5887
+    },
     "tier": 2,
     "description": "For two months, Libyan rebels with NATO jets overhead hammered Gaddafi's last stronghold in his hometown of Sirte. When it finally fell, the man who'd styled himself the 'King of Kings of Africa' was dragged out of a drainage ditch, beaten, and killed on a cell phone camera. Forty-two years of megalomania ended in a concrete pipe. And then came the part nobody had planned for — what comes after the dictator. The answer, in Libya's case, was chaos that hasn't ended yet.",
-    "belligerents": ["Libyan rebels / NTC", "Gaddafi loyalists"],
+    "belligerents": [
+      "Libyan rebels / NTC",
+      "Gaddafi loyalists"
+    ],
     "result": "Rebel victory; Gaddafi killed",
-    "commanders": ["NTC forces", "Muammar Gaddafi"],
+    "commanders": [
+      "NTC forces",
+      "Muammar Gaddafi"
+    ],
     "warName": "Libyan Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sirte_(2011)"
   },
   {
     "id": "battle-of-aleppo",
     "name": "Battle of Aleppo",
     "year": 2012,
     "era": "contemporary",
-    "location": { "lat": 36.2021, "lng": 37.1343 },
+    "location": {
+      "lat": 36.2021,
+      "lng": 37.1343
+    },
     "tier": 1,
     "description": "Aleppo was one of the oldest continuously inhabited cities in human history, and it took four years to destroy it. Rebels held the east, Assad held the west, and the line between them became a lunar landscape of barrel bombs, sniper fire, and starvation. When Russia intervened, the bombardment intensified to a level that made Grozny look restrained. By the time the last rebels evacuated eastern Aleppo in December 2016, five thousand years of civilization lay in rubble. That's Syria's civil war in one city.",
-    "belligerents": ["Syrian government", "Russia", "Syrian rebels", "Jabhat al-Nusra"],
+    "belligerents": [
+      "Syrian government",
+      "Russia",
+      "Syrian rebels",
+      "Jabhat al-Nusra"
+    ],
     "result": "Syrian government victory (2016)",
-    "commanders": ["Bashar al-Assad", "Various rebel commanders"],
+    "commanders": [
+      "Bashar al-Assad",
+      "Various rebel commanders"
+    ],
     "warName": "Syrian Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Aleppo"
   },
   {
     "id": "battle-of-kobani",
     "name": "Battle of Kobani",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 36.8908, "lng": 38.3492 },
+    "location": {
+      "lat": 36.8908,
+      "lng": 38.3492
+    },
     "tier": 1,
     "description": "The whole world watched Kobani die on live television — Turkish camera crews on the hilltops filming ISIS black flags advancing through the streets. It looked over. Then the American airstrikes started, and the Kurdish fighters — men and women, some of them teenagers — refused to give up. Block by block, building by building, they pushed ISIS back in the kind of close urban combat that neutralizes every advantage an attacker has. Kobani was where ISIS learned it could be beaten, and where the Kurdish fighters became the most unlikely heroes of the war.",
-    "belligerents": ["YPG/YPJ (Kurdish forces)", "United States", "Islamic State (ISIS)"],
+    "belligerents": [
+      "YPG/YPJ (Kurdish forces)",
+      "United States",
+      "Islamic State (ISIS)"
+    ],
     "result": "Kurdish/Coalition victory",
-    "commanders": ["Unknown YPG commander", "Unknown ISIS commander"],
+    "commanders": [
+      "Unknown YPG commander",
+      "Unknown ISIS commander"
+    ],
     "warName": "Syrian Civil War / War against ISIS",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kobani"
   },
   {
     "id": "battle-of-mosul-2014",
     "name": "Fall of Mosul (2014)",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 36.34, "lng": 43.13 },
+    "location": {
+      "lat": 36.34,
+      "lng": 43.13
+    },
     "tier": 1,
     "description": "Eight hundred jihadists in pickup trucks routed thirty thousand Iraqi soldiers in four days. Thirty thousand. Soldiers stripped off their uniforms, dropped their American-made weapons, and ran. ISIS rolled through Mosul virtually unopposed, and al-Baghdadi climbed the pulpit of the Great Mosque to declare a caliphate. It was the most jaw-dropping military collapse since the fall of France — a billion dollars in US-supplied equipment captured, a city of two million seized, and the entire post-Iraq War order shattered in less than a week.",
-    "belligerents": ["Islamic State (ISIS)", "Iraqi Army"],
+    "belligerents": [
+      "Islamic State (ISIS)",
+      "Iraqi Army"
+    ],
     "result": "ISIS victory; Iraqi army collapsed",
-    "commanders": ["Abu Bakr al-Baghdadi", "Mahdi al-Gharawi"],
+    "commanders": [
+      "Abu Bakr al-Baghdadi",
+      "Mahdi al-Gharawi"
+    ],
     "warName": "War against ISIS",
     "troopStrength": "~800 ISIS vs ~30,000 Iraqi",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Mosul_(2014)"
   },
   {
     "id": "battle-of-mosul-2016",
     "name": "Battle of Mosul (2016-2017)",
     "year": 2016,
     "era": "contemporary",
-    "location": { "lat": 36.34, "lng": 43.13 },
+    "location": {
+      "lat": 36.34,
+      "lng": 43.13
+    },
     "tier": 1,
     "description": "It took ISIS four days to take Mosul. It took a hundred thousand Iraqi soldiers, backed by the most powerful air force on Earth, nine months to take it back. The Old City was the worst of it — medieval streets too narrow for vehicles, ISIS snipers in every minaret, suicide bombers around every corner, and a quarter million civilians trapped in the middle. By the end, the Old City looked like Dresden. Tens of thousands of civilians dead. The caliphate destroyed, but at a cost that should keep every war planner awake at night.",
-    "belligerents": ["Iraq", "United States", "Coalition", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Iraq",
+      "United States",
+      "Coalition",
+      "Islamic State (ISIS)"
+    ],
     "result": "Iraqi/Coalition victory",
-    "commanders": ["Abdul Amir Yarallah", "Unknown ISIS commander"],
+    "commanders": [
+      "Abdul Amir Yarallah",
+      "Unknown ISIS commander"
+    ],
     "warName": "War against ISIS",
     "troopStrength": "~100,000 Iraqi/Coalition vs ~5,000-10,000 ISIS",
     "casualties": "~1,500 Iraqi security forces KIA; thousands of ISIS KIA; ~9,000-11,000 civilians killed",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Mosul_(2016-2017)"
   },
   {
     "id": "battle-of-raqqa",
     "name": "Battle of Raqqa",
     "year": 2017,
     "era": "contemporary",
-    "location": { "lat": 35.9528, "lng": 39.0108 },
+    "location": {
+      "lat": 35.9528,
+      "lng": 39.0108
+    },
     "tier": 1,
     "description": "Raqqa was where ISIS beheaded hostages on camera, where they threw gay men off buildings, where they built the machinery of a terrorist state. The SDF — mostly Kurdish fighters backed by American special operators and airpower — took it apart in four months of urban warfare that left the city looking like a parking lot. The caliphate's capital fell. The symbolism was enormous. But the rubble and the bodies underneath it told a different story about the cost of liberation.",
-    "belligerents": ["Syrian Democratic Forces", "United States", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Syrian Democratic Forces",
+      "United States",
+      "Islamic State (ISIS)"
+    ],
     "result": "SDF/Coalition victory; ISIS capital fallen",
-    "commanders": ["Rojda Felat", "Unknown ISIS commander"],
+    "commanders": [
+      "Rojda Felat",
+      "Unknown ISIS commander"
+    ],
     "warName": "Syrian Civil War / War against ISIS",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Raqqa"
   },
   {
     "id": "battle-of-tikrit-2015",
     "name": "Battle of Tikrit (2015)",
     "year": 2015,
     "era": "contemporary",
-    "location": { "lat": 34.6135, "lng": 43.6793 },
+    "location": {
+      "lat": 34.6135,
+      "lng": 43.6793
+    },
     "tier": 2,
     "description": "Tikrit was Saddam's hometown, and now it was ISIS territory, and the force coming to take it back was led by Iranian-backed Shiite militias flying religious banners. The irony was almost too thick to process. Thirty thousand troops rolled in and the fighting was real, but the political subtext was louder than the gunfire — Iran was becoming the dominant military player in Iraq, and everyone in Washington could see it happening and couldn't figure out how to stop it.",
-    "belligerents": ["Iraq", "Shiite militias (PMF)", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Iraq",
+      "Shiite militias (PMF)",
+      "Islamic State (ISIS)"
+    ],
     "result": "Iraqi/PMF victory",
-    "commanders": ["Abdul-Wahab al-Saadi", "Unknown ISIS commander"],
+    "commanders": [
+      "Abdul-Wahab al-Saadi",
+      "Unknown ISIS commander"
+    ],
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Tikrit_(2015)"
   },
   {
     "id": "battle-of-baghuz",
     "name": "Battle of Baghuz",
     "year": 2019,
     "era": "contemporary",
-    "location": { "lat": 34.45, "lng": 40.95 },
+    "location": {
+      "lat": 34.45,
+      "lng": 40.95
+    },
     "tier": 2,
     "description": "The caliphate that once stretched from Aleppo to the outskirts of Baghdad had been compressed into a filthy tent encampment on a bend of the Euphrates River. Thousands of emaciated ISIS fighters and their families — women in black, hollow-eyed children — staggered out of Baghuz into SDF custody. Five years earlier, al-Baghdadi had declared himself caliph of all Muslims from a golden pulpit. Now his empire was a bombed-out sandbar. The physical caliphate was dead. The idea, unfortunately, wasn't.",
-    "belligerents": ["Syrian Democratic Forces", "United States", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Syrian Democratic Forces",
+      "United States",
+      "Islamic State (ISIS)"
+    ],
     "result": "SDF/Coalition victory; end of ISIS territorial caliphate",
-    "commanders": ["Mazloum Abdi", "Unknown ISIS commander"],
+    "commanders": [
+      "Mazloum Abdi",
+      "Unknown ISIS commander"
+    ],
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Baghuz"
   },
   {
     "id": "nagorno-karabakh-2020",
     "name": "Second Nagorno-Karabakh War",
     "year": 2020,
     "era": "contemporary",
-    "location": { "lat": 39.8, "lng": 46.75 },
+    "location": {
+      "lat": 39.8,
+      "lng": 46.75
+    },
     "tier": 1,
     "description": "Every general on the planet should have been watching Nagorno-Karabakh, because the future of war was being written there in 44 days. Turkish-made Bayraktar drones and Israeli kamikaze munitions hunted Armenian tanks, artillery, and air defenses with the patient, clinical precision of a video game — except the people inside those vehicles were real. Armenia's Soviet-era military was systematically dismantled by technology that cost a fraction of the hardware it destroyed. The drone age didn't start here, but this is where everyone finally noticed.",
-    "belligerents": ["Azerbaijan", "Armenia"],
+    "belligerents": [
+      "Azerbaijan",
+      "Armenia"
+    ],
     "result": "Decisive Azerbaijani victory",
-    "commanders": ["Ilham Aliyev", "Arayik Harutyunyan"],
+    "commanders": [
+      "Ilham Aliyev",
+      "Arayik Harutyunyan"
+    ],
     "warName": "Second Nagorno-Karabakh War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Second_Nagorno-Karabakh_War"
   },
   {
     "id": "battle-of-shusha-2020",
     "name": "Battle of Shusha",
     "year": 2020,
     "era": "contemporary",
-    "location": { "lat": 39.7583, "lng": 46.7489 },
+    "location": {
+      "lat": 39.7583,
+      "lng": 46.7489
+    },
     "tier": 2,
     "description": "When the drones couldn't do it, Azerbaijani special forces did it the old-fashioned way — climbing sheer cliffs at night to assault a fortress city that sits on a mountaintop like something out of Lord of the Rings. Three days of hand-to-hand fighting through the streets of Shusha, and when it fell, the war was over. Armenia signed the ceasefire within hours. Thirty years of frozen conflict, resolved in 44 days by a combination of ancient courage and modern technology.",
-    "belligerents": ["Azerbaijan", "Armenia"],
+    "belligerents": [
+      "Azerbaijan",
+      "Armenia"
+    ],
     "result": "Azerbaijani victory",
-    "commanders": ["Azerbaijani special forces", "Armenian garrison"],
+    "commanders": [
+      "Azerbaijani special forces",
+      "Armenian garrison"
+    ],
     "warName": "Second Nagorno-Karabakh War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Shusha"
   },
   {
     "id": "tigray-war-mekelle-2020",
     "name": "Battle of Mekelle (2020)",
     "year": 2020,
     "era": "contemporary",
-    "location": { "lat": 13.4967, "lng": 39.4753 },
+    "location": {
+      "lat": 13.4967,
+      "lng": 39.4753
+    },
     "tier": 2,
     "description": "Ethiopia's prime minister — a Nobel Peace Prize winner, of all things — sent the federal army and Eritrean allies into Tigray after the TPLF struck first. Mekelle fell fast, and the government declared victory. But the TPLF melted into the countryside, launched a guerrilla campaign that recaptured the capital within months, and triggered a humanitarian catastrophe that killed hundreds of thousands through famine and violence. The Nobel laureate's quick war became Africa's deadliest 21st-century conflict.",
-    "belligerents": ["Ethiopia", "Eritrea", "TPLF"],
+    "belligerents": [
+      "Ethiopia",
+      "Eritrea",
+      "TPLF"
+    ],
     "result": "Ethiopian/Eritrean capture; TPLF recaptured it in 2021",
-    "commanders": ["Abiy Ahmed", "Debretsion Gebremichael"],
+    "commanders": [
+      "Abiy Ahmed",
+      "Debretsion Gebremichael"
+    ],
     "warName": "Tigray War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mekelle_(2020)"
   },
   {
     "id": "battle-of-kyiv-2022",
     "name": "Battle of Kyiv (2022)",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 50.4501, "lng": 30.5234 },
+    "location": {
+      "lat": 50.4501,
+      "lng": 30.5234
+    },
     "tier": 1,
     "description": "Russia threw everything at Kyiv — paratroopers, special forces, a forty-mile armored convoy, the whole playbook for decapitating a government in 72 hours. And Ukraine said no. Javelin teams hunted Russian armor in the forests north of the capital. Territorial defense volunteers with rifles stopped Spetsnaz. The convoy ran out of fuel, got stuck in the mud, and became the most expensive traffic jam in history. Thirty-five days later, Russia retreated from the Kyiv axis entirely. It was the greatest defensive victory since the Battle of Britain, and nobody saw it coming.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Decisive Ukrainian victory",
-    "commanders": ["Oleksandr Syrskyi", "Unknown Russian commander"],
+    "commanders": [
+      "Oleksandr Syrskyi",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kyiv_(2022)"
   },
   {
     "id": "battle-of-hostomel",
     "name": "Battle of Hostomel Airport",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 50.5908, "lng": 30.2081 },
+    "location": {
+      "lat": 50.5908,
+      "lng": 30.2081
+    },
     "tier": 2,
     "description": "Thirty helicopters came in low and fast over the reservoir — Russian VDV, the best airborne troops Moscow had, seizing Hostomel Airport to open an air bridge straight to the heart of Kyiv. For a few hours, it looked like the war might be over before it started. Then Ukrainian artillery and counterattacks turned the airport into a killing ground. The reinforcement planes couldn't land. The VDV were stranded. Russia's entire decapitation strategy — take the airport, fly in the troops, seize the capital — died on a runway thirty minutes from downtown Kyiv.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Ukrainian victory",
-    "commanders": ["Ukrainian 4th Rapid Reaction Brigade", "Russian VDV"],
+    "commanders": [
+      "Ukrainian 4th Rapid Reaction Brigade",
+      "Russian VDV"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Hostomel_Airport"
   },
   {
     "id": "battle-of-mariupol",
     "name": "Siege of Mariupol",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 47.0958, "lng": 37.5433 },
+    "location": {
+      "lat": 47.0958,
+      "lng": 37.5433
+    },
     "tier": 1,
     "description": "Mariupol became the 21st century's Stalingrad. For 82 days, Ukrainian troops — the Azov Regiment and marines — fought from building to building, then from the basements, and finally from the labyrinthine tunnels beneath the Azovstal steel plant while the city above them was systematically erased. Ninety percent of Mariupol was destroyed. Thousands of civilians died in basements and shelters. The defenders knew they weren't getting out — they fought anyway, buying weeks of time that let Ukraine stabilize the rest of the front. That's what sacrifice looks like.",
-    "belligerents": ["Ukraine", "Russia", "DPR"],
+    "belligerents": [
+      "Ukraine",
+      "Russia",
+      "DPR"
+    ],
     "result": "Russian victory after 82-day siege",
-    "commanders": ["Denys Prokopenko", "Unknown Russian commander"],
+    "commanders": [
+      "Denys Prokopenko",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
     "casualties": "~21,000+ civilian deaths estimated; heavy military losses both sides",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Siege_of_Mariupol"
   },
   {
     "id": "battle-of-kharkiv-2022",
     "name": "Battle of Kharkiv (2022)",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 49.9935, "lng": 36.2304 },
+    "location": {
+      "lat": 49.9935,
+      "lng": 36.2304
+    },
     "tier": 1,
     "description": "Russia shelled Ukraine's second-largest city for months — apartment blocks, universities, metro stations packed with sheltering civilians — and never took it. Then in September, Ukraine pulled off one of the great battlefield surprises of the century. While Russia stared at Kherson in the south, Ukrainian forces punched through weak Russian lines east of Kharkiv and kept going. Russian units collapsed, abandoned equipment by the warehouse-full, and ran. Thousands of square kilometers liberated in days. It was the kind of rout that ends careers and reshuffles governments.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Ukrainian victory; Kharkiv region liberated",
-    "commanders": ["Oleksandr Syrskyi", "Unknown Russian commander"],
+    "commanders": [
+      "Oleksandr Syrskyi",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kharkiv_(2022)"
   },
   {
     "id": "battle-of-kherson-2022",
     "name": "Battle of Kherson",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 46.6354, "lng": 32.6169 },
+    "location": {
+      "lat": 46.6354,
+      "lng": 32.6169
+    },
     "tier": 1,
     "description": "Ukraine didn't storm Kherson — it strangled it. HIMARS rockets methodically destroyed every bridge, every pontoon, every supply route across the Dnieper River until the Russian garrison on the west bank was slowly starving. The math was brutal and simple: you can't supply an army across a river if every crossing gets hit within minutes. Russia's most celebrated general, Surovikin, made the coldest possible call — he retreated and gave up the only regional capital Russia had taken. The Ukrainians walked in to cheering crowds. Strategy had beaten brute force.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Ukrainian victory; Russia withdrew across Dnieper",
-    "commanders": ["Unknown Ukrainian commander", "Sergei Surovikin"],
+    "commanders": [
+      "Unknown Ukrainian commander",
+      "Sergei Surovikin"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kherson"
   },
   {
     "id": "battle-of-severodonetsk",
     "name": "Battle of Severodonetsk",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 48.9484, "lng": 38.4937 },
+    "location": {
+      "lat": 48.9484,
+      "lng": 38.4937
+    },
     "tier": 2,
     "description": "Russia threw more artillery at Severodonetsk than any European target since World War II — thousands of shells per day turning buildings into gravel. The Ukrainian garrison fought street by street through the rubble, retreating to the Azot chemical plant for a last stand that echoed Azovstal. They eventually pulled out across the river, giving Russia the last major city in Luhansk. But the weeks they bought grinding down Russian combat power would pay dividends later. In war, sometimes losing slowly is winning.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Russian victory",
-    "commanders": ["Ukrainian garrison", "Unknown Russian commander"],
+    "commanders": [
+      "Ukrainian garrison",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Severodonetsk"
   },
   {
     "id": "battle-of-lysychansk",
     "name": "Battle of Lysychansk",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 48.9042, "lng": 38.4281 },
+    "location": {
+      "lat": 48.9042,
+      "lng": 38.4281
+    },
     "tier": 2,
     "description": "With Severodonetsk gone and Russian pincers closing, the Ukrainian command made the hardest call in warfare — fall back. They pulled out of Lysychansk in good order, saving their troops to fight another day rather than feeding them into another Mariupol. Russia got its headline — 'Luhansk Oblast captured' — but Ukraine kept its army intact. Two months later, those same troops would be leading the Kharkiv counteroffensive. The retreat that looked like defeat was actually the move that made victory possible.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Russian victory; Ukrainian orderly withdrawal",
-    "commanders": ["Unknown Ukrainian commander", "Unknown Russian commander"],
+    "commanders": [
+      "Unknown Ukrainian commander",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Lysychansk"
   },
   {
     "id": "battle-of-bakhmut",
     "name": "Battle of Bakhmut",
     "year": 2023,
     "era": "contemporary",
-    "location": { "lat": 48.5953, "lng": 38.0006 },
+    "location": {
+      "lat": 48.5953,
+      "lng": 38.0006
+    },
     "tier": 1,
     "description": "Bakhmut was Verdun with drones. For ten months, wave after wave of Wagner mercenaries — many of them recruited from Russian prisons with the promise of a pardon — were fed into the meat grinder of a small Donbas city that military analysts agreed had almost no strategic value. Prigozhin sent his men forward. Ukraine held and bled them. Twenty to thirty thousand dead on each side. For a city most of the world had never heard of. Bakhmut became the purest distillation of the war's horror: industrial-scale killing for inches of rubble.",
-    "belligerents": ["Ukraine", "Russia", "Wagner Group"],
+    "belligerents": [
+      "Ukraine",
+      "Russia",
+      "Wagner Group"
+    ],
     "result": "Russian/Wagner pyrrhic victory",
-    "commanders": ["Oleksandr Syrskyi", "Yevgeny Prigozhin"],
+    "commanders": [
+      "Oleksandr Syrskyi",
+      "Yevgeny Prigozhin"
+    ],
     "warName": "Russo-Ukrainian War",
     "casualties": "Estimated 20,000-30,000 killed on each side",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Bakhmut"
   },
   {
     "id": "battle-of-avdiivka",
     "name": "Battle of Avdiivka",
     "year": 2024,
     "era": "contemporary",
-    "location": { "lat": 48.1397, "lng": 37.7481 },
+    "location": {
+      "lat": 48.1397,
+      "lng": 37.7481
+    },
     "tier": 2,
     "description": "Avdiivka had been fortified for a decade — concrete bunkers, minefields, interlocking fields of fire — and Russia threw bodies at it like Bakhmut never happened. Four months of frontal assaults, armored columns getting vaporized by drones on approach, infantry attacks dissolving in Ukrainian fire. Russia finally took it in February 2024 by sheer weight of expenditure — human, mechanical, financial. The pattern was now established: Russia pays in blood for every city, and the price keeps going up.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Russian victory",
-    "commanders": ["Oleksandr Tarnavskyi", "Unknown Russian commander"],
+    "commanders": [
+      "Oleksandr Tarnavskyi",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Avdiivka"
   },
   {
     "id": "ukraine-counteroffensive-zaporizhzhia-2023",
     "name": "Zaporizhzhia Counteroffensive (2023)",
     "year": 2023,
     "era": "contemporary",
-    "location": { "lat": 47.5, "lng": 35.5 },
+    "location": {
+      "lat": 47.5,
+      "lng": 35.5
+    },
     "tier": 1,
     "description": "The entire Western world held its breath for Ukraine's summer counteroffensive — new Leopard tanks, Bradley fighting vehicles, NATO-trained brigades. It was supposed to cut Russia's land bridge to Crimea. Instead, the advance ran straight into the densest minefield in modern warfare — three lines of fortifications, kilometers of anti-tank mines, and Russian Ka-52 helicopters hunting every vehicle that moved. The Western-equipped brigades bled for a few villages around Robotyne and stalled. The breakthrough never came. War doesn't care about your timeline or your equipment list — it cares about math, terrain, and who has more mines.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Russian defensive victory; limited Ukrainian gains",
-    "commanders": ["Oleksandr Tarnavskyi", "Unknown Russian commander"],
+    "commanders": [
+      "Oleksandr Tarnavskyi",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Zaporizhzhia_Counteroffensive_(2023)"
   },
   {
     "id": "snake-island",
     "name": "Battle of Snake Island",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 45.2553, "lng": 30.2042 },
+    "location": {
+      "lat": 45.2553,
+      "lng": 30.2042
+    },
     "tier": 2,
     "description": "'Russian warship, go f--- yourself.' Thirteen Ukrainian border guards on a rock in the Black Sea, staring down a missile cruiser, and that was their answer. The whole world heard it. The guards survived — captured, not killed — and Snake Island became the most famous piece of rock since Iwo Jima. Ukraine spent the next few months pounding Russian positions on the island with drones and missiles until Russia quietly pulled out. A tiny island, a profane radio transmission, and the single most iconic moment of defiance in the 21st century.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Initial Russian capture; Ukrainian recapture",
-    "commanders": ["Ukrainian garrison", "Russian Black Sea Fleet"],
+    "commanders": [
+      "Ukrainian garrison",
+      "Russian Black Sea Fleet"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Snake_Island"
   },
   {
     "id": "sinking-of-moskva",
     "name": "Sinking of the Moskva",
     "year": 2022,
     "era": "contemporary",
-    "location": { "lat": 45.95, "lng": 31.4 },
+    "location": {
+      "lat": 45.95,
+      "lng": 31.4
+    },
     "tier": 1,
     "description": "A country with no navy to speak of sank the flagship of the Russian Black Sea Fleet. Two Ukrainian-made Neptune missiles — a weapons system most Western analysts had barely heard of — slammed into the Moskva, a 12,000-ton guided missile cruiser bristling with air defenses that were supposed to make it untouchable. The largest warship lost in combat since the Falklands War rolled over and sank in the Black Sea. The Russian Navy's pride was on the ocean floor, and every admiral in the world was recalculating what a cheap missile could do to an expensive ship.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Ukrainian victory; Moskva sunk",
-    "commanders": ["Ukrainian Navy", "Russian Black Sea Fleet"],
+    "commanders": [
+      "Ukrainian Navy",
+      "Russian Black Sea Fleet"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Sinking_of_the_Moskva"
   },
   {
     "id": "battle-of-kursk-2024",
     "name": "Ukrainian Incursion into Kursk Oblast",
     "year": 2024,
     "era": "contemporary",
-    "location": { "lat": 51.4, "lng": 34.8 },
+    "location": {
+      "lat": 51.4,
+      "lng": 34.8
+    },
     "tier": 1,
     "description": "Ukraine did something nobody thought possible — it invaded Russia. Ukrainian brigades crossed into Kursk Oblast and kept going, capturing hundreds of square kilometers of Russian territory in the first foreign incursion into Russia since World War II. Putin's own people were suddenly refugees in their own country. The audacity was breathtaking — a country fighting for its survival choosing to attack rather than just defend. Whether it was strategic genius or a desperate gamble, it shattered the myth that nuclear-armed Russia was untouchable on its own soil.",
-    "belligerents": ["Ukraine", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "Russia"
+    ],
     "result": "Initial Ukrainian gains; ongoing as of 2024",
-    "commanders": ["Oleksandr Syrskyi", "Unknown Russian commander"],
+    "commanders": [
+      "Oleksandr Syrskyi",
+      "Unknown Russian commander"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Ukrainian_Incursion_into_Kursk_Oblast"
   },
   {
     "id": "gaza-2008-cast-lead",
     "name": "Operation Cast Lead (Gaza 2008-2009)",
     "year": 2008,
     "era": "contemporary",
-    "location": { "lat": 31.5, "lng": 34.47 },
+    "location": {
+      "lat": 31.5,
+      "lng": 34.47
+    },
     "tier": 2,
     "description": "Israel answered Hamas rockets with twenty-two days of concentrated fury — white phosphorus over Gaza City, tanks rolling into the densest urban landscape on Earth, F-16s hitting targets in neighborhoods where a million people had nowhere to run. Over 1,400 Palestinians died, most of Gaza's infrastructure was wrecked, and the word 'proportionality' became the most argued-over term in international law. Hamas survived. The rockets eventually resumed. And the cycle that would repeat itself with escalating horror was firmly established.",
-    "belligerents": ["Israel", "Hamas"],
+    "belligerents": [
+      "Israel",
+      "Hamas"
+    ],
     "result": "Israeli military victory; unilateral ceasefire",
-    "commanders": ["Yoav Galant", "Ahmed Jabari"],
+    "commanders": [
+      "Yoav Galant",
+      "Ahmed Jabari"
+    ],
     "warName": "Gaza War (2008-2009)",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Cast_Lead_(Gaza_2008-2009)"
   },
   {
     "id": "gaza-2014-protective-edge",
     "name": "Operation Protective Edge (Gaza 2014)",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 31.5, "lng": 34.47 },
+    "location": {
+      "lat": 31.5,
+      "lng": 34.47
+    },
     "tier": 2,
     "description": "The tunnels changed everything. Hamas had built an underground network beneath Gaza that would've impressed the Viet Cong — attack tunnels reaching into Israel, supply tunnels, command bunkers, weapons caches. Israel went in for fifty days to destroy them, and the fighting above ground was devastating. 2,200 Palestinians dead, 73 Israelis dead, entire neighborhoods flattened. Israel destroyed tunnels. Hamas dug new ones. The whole thing had the sickening feeling of a dress rehearsal for something worse.",
-    "belligerents": ["Israel", "Hamas"],
+    "belligerents": [
+      "Israel",
+      "Hamas"
+    ],
     "result": "Inconclusive; ceasefire",
-    "commanders": ["Benny Gantz", "Mohammed Deif"],
+    "commanders": [
+      "Benny Gantz",
+      "Mohammed Deif"
+    ],
     "warName": "Gaza War (2014)",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Protective_Edge_(Gaza_2014)"
   },
   {
     "id": "october-7-attack",
     "name": "October 7 Hamas Attack",
     "year": 2023,
     "era": "contemporary",
-    "location": { "lat": 31.37, "lng": 34.39 },
+    "location": {
+      "lat": 31.37,
+      "lng": 34.39
+    },
     "tier": 1,
     "description": "At 6:30 in the morning, thousands of rockets filled the sky over southern Israel while Hamas fighters breached the fence in dozens of places simultaneously — on motorcycles, in pickup trucks, on paragliders. They poured into kibbutzim and slaughtered families in their homes. They drove into the Nova music festival and gunned down kids who were dancing an hour earlier. 1,200 dead. 250 dragged back into Gaza as hostages. The deadliest day for Jewish people since the Holocaust, and it happened in a country built on the promise of 'never again.' What followed would reshape the Middle East.",
-    "belligerents": ["Hamas", "Palestinian Islamic Jihad", "Israel"],
+    "belligerents": [
+      "Hamas",
+      "Palestinian Islamic Jihad",
+      "Israel"
+    ],
     "result": "Hamas initial success; triggered Israeli invasion of Gaza",
-    "commanders": ["Yahya Sinwar", "IDF Southern Command"],
+    "commanders": [
+      "Yahya Sinwar",
+      "IDF Southern Command"
+    ],
     "warName": "Israel-Hamas War",
     "casualties": "~1,200 Israeli civilians and soldiers killed; 250+ taken hostage",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "October_7_Hamas_Attack"
   },
   {
     "id": "battle-of-gaza-2023",
     "name": "Battle of Gaza (2023-2024)",
     "year": 2023,
     "era": "contemporary",
-    "location": { "lat": 31.5, "lng": 34.47 },
+    "location": {
+      "lat": 31.5,
+      "lng": 34.47
+    },
     "tier": 1,
     "description": "Israel's response to October 7th was total war in a space the size of a large city. The IDF went into Gaza with everything — armor, infantry, air strikes, naval bombardment — and began systematically leveling Hamas's infrastructure along with everything around it. Over 30,000 Palestinians died, most of Gaza was reduced to a landscape that satellite imagery made look like the surface of the moon. The world watched in horror. Israel said it had no choice. The arguments over what happened in Gaza will define a generation of international politics.",
-    "belligerents": ["Israel", "Hamas"],
+    "belligerents": [
+      "Israel",
+      "Hamas"
+    ],
     "result": "Ongoing; massive destruction of Gaza",
-    "commanders": ["Herzi Halevi", "Mohammed Deif", "Yahya Sinwar"],
+    "commanders": [
+      "Herzi Halevi",
+      "Mohammed Deif",
+      "Yahya Sinwar"
+    ],
     "warName": "Israel-Hamas War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Gaza_(2023-2024)"
   },
   {
     "id": "battle-of-deir-ez-zor-2017",
     "name": "Siege of Deir ez-Zor",
     "year": 2017,
     "era": "contemporary",
-    "location": { "lat": 35.3333, "lng": 40.15 },
+    "location": {
+      "lat": 35.3333,
+      "lng": 40.15
+    },
     "tier": 2,
     "description": "For three years, the Syrian garrison at Deir ez-Zor held out against ISIS — completely surrounded, supplied only by airdrops, eating whatever they could find, fighting off assaults that came from every direction. Three years. Think about that. When Russian-backed Syrian forces finally broke through the siege lines in September 2017, the defenders had been living in a real-life Beau Geste for over a thousand days. The commander, Issam Zahreddine, became a legend. He was killed by a mine two months later.",
-    "belligerents": ["Syria", "Russia", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Syria",
+      "Russia",
+      "Islamic State (ISIS)"
+    ],
     "result": "Syrian/Russian victory; siege broken",
-    "commanders": ["Issam Zahreddine", "Unknown ISIS commander"],
+    "commanders": [
+      "Issam Zahreddine",
+      "Unknown ISIS commander"
+    ],
     "warName": "Syrian Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Siege_of_Deir_ez-Zor"
   },
   {
     "id": "battle-of-qusayr",
     "name": "Battle of al-Qusayr",
     "year": 2013,
     "era": "contemporary",
-    "location": { "lat": 34.5, "lng": 36.58 },
+    "location": {
+      "lat": 34.5,
+      "lng": 36.58
+    },
     "tier": 2,
     "description": "When Hezbollah rolled into al-Qusayr, the masks came off. A Lebanese militia was now fighting an expeditionary war in a foreign country to save a dictator. Hezbollah's fighters were battle-hardened, disciplined, and far more effective than Assad's own army — they cleared al-Qusayr in weeks and secured the supply lines from Lebanon that kept the regime alive. The guerrilla force that fought Israel in 2006 had become something new: a regional army-for-hire, and Iran's most effective foreign policy tool.",
-    "belligerents": ["Syrian government", "Hezbollah", "Syrian rebels"],
+    "belligerents": [
+      "Syrian government",
+      "Hezbollah",
+      "Syrian rebels"
+    ],
     "result": "Syrian/Hezbollah victory",
-    "commanders": ["Hezbollah forces", "Free Syrian Army"],
+    "commanders": [
+      "Hezbollah forces",
+      "Free Syrian Army"
+    ],
     "warName": "Syrian Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_al-Qusayr"
   },
   {
     "id": "battle-of-ghouta",
     "name": "Battle of Eastern Ghouta",
     "year": 2018,
     "era": "contemporary",
-    "location": { "lat": 33.52, "lng": 36.38 },
+    "location": {
+      "lat": 33.52,
+      "lng": 36.38
+    },
     "tier": 2,
     "description": "Four hundred thousand people trapped in a pocket the size of a small suburb, being shelled around the clock. That was Eastern Ghouta — close enough to Damascus that you could see Assad's palace from the rooftops, and far enough from the world's conscience that nobody stopped it. Then came Douma, and the images of children foaming at the mouth from what looked like a chemical attack. The West launched token missile strikes. Assad kept bombing. Ghouta fell. The message was clear: outrage has an expiration date, and dictators know it.",
-    "belligerents": ["Syrian government", "Russia", "Syrian rebels", "Jaysh al-Islam"],
+    "belligerents": [
+      "Syrian government",
+      "Russia",
+      "Syrian rebels",
+      "Jaysh al-Islam"
+    ],
     "result": "Syrian government victory",
-    "commanders": ["Syrian Republican Guard", "Various rebel commanders"],
+    "commanders": [
+      "Syrian Republican Guard",
+      "Various rebel commanders"
+    ],
     "warName": "Syrian Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Eastern_Ghouta"
   },
   {
     "id": "operation-enduring-freedom-mazar",
     "name": "Battle of Mazar-i-Sharif (2001)",
     "year": 2001,
     "era": "contemporary",
-    "location": { "lat": 36.7069, "lng": 67.1167 },
+    "location": {
+      "lat": 36.7069,
+      "lng": 67.1167
+    },
     "tier": 2,
     "description": "American Green Berets on horseback, riding with Afghan warlords across terrain that hadn't changed since Genghis Khan, calling in B-52 strikes on Taliban positions with laser designators while dodging return fire from the saddle. It sounds like fiction. It wasn't. They took Mazar-i-Sharif in days, and the Taliban's grip on northern Afghanistan shattered like glass. It was the most unconventional opening to a war in American history — twelve men on horses toppling a government with satellite phones and JDAMs.",
-    "belligerents": ["United States", "Northern Alliance", "Taliban"],
+    "belligerents": [
+      "United States",
+      "Northern Alliance",
+      "Taliban"
+    ],
     "result": "US/Northern Alliance victory",
-    "commanders": ["Mark Nutsch", "Abdul Rashid Dostum"],
+    "commanders": [
+      "Mark Nutsch",
+      "Abdul Rashid Dostum"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Mazar-i-Sharif_(2001)"
   },
   {
     "id": "fall-of-kabul-2021",
     "name": "Fall of Kabul (2021)",
     "year": 2021,
     "era": "contemporary",
-    "location": { "lat": 34.5553, "lng": 69.2075 },
+    "location": {
+      "lat": 34.5553,
+      "lng": 69.2075
+    },
     "tier": 1,
     "description": "Twenty years, two trillion dollars, and a quarter million dead — and it ended with the Taliban walking into Kabul without firing a shot. The Afghan army evaporated. The president fled with suitcases of cash. And the images that will define this generation's foreign policy failure were filmed at Hamid Karzai International Airport: desperate Afghans clinging to the wheels of a C-17 as it took off, falling to their deaths on live television. Saigon with smartphones. America's longest war ended exactly the way America's worst nightmare said it would.",
-    "belligerents": ["Taliban", "Afghanistan (Islamic Republic)", "United States"],
+    "belligerents": [
+      "Taliban",
+      "Afghanistan (Islamic Republic)",
+      "United States"
+    ],
     "result": "Taliban victory; Afghan government collapsed",
-    "commanders": ["Hibatullah Akhundzada", "Ashraf Ghani (fled)"],
+    "commanders": [
+      "Hibatullah Akhundzada",
+      "Ashraf Ghani (fled)"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Fall_of_Kabul_(2021)"
   },
   {
     "id": "battle-of-sangin",
     "name": "Battle of Sangin",
     "year": 2006,
     "era": "contemporary",
-    "location": { "lat": 32.07, "lng": 65.27 },
+    "location": {
+      "lat": 32.07,
+      "lng": 65.27
+    },
     "tier": 3,
     "description": "Sangin was where the British Army learned that Helmand Province was not going to be a peacekeeping mission. Taliban fighters hit every patrol, IEDs lined every path, and the district center became a fortress under permanent siege. More British soldiers died in Sangin than anywhere else in Afghanistan — it was their Hamburger Hill, their Hue, their reminder that the war they'd been told was winding down was actually just getting started. Years of grinding combat for a town that the Taliban took back anyway.",
-    "belligerents": ["United Kingdom", "United States", "Taliban"],
+    "belligerents": [
+      "United Kingdom",
+      "United States",
+      "Taliban"
+    ],
     "result": "Coalition held; later transferred to Afghan forces",
-    "commanders": ["British Task Force Helmand", "Taliban local commanders"],
+    "commanders": [
+      "British Task Force Helmand",
+      "Taliban local commanders"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Sangin"
   },
   {
     "id": "battle-of-qala-i-now",
     "name": "Operation Medusa (Kandahar)",
     "year": 2006,
     "era": "contemporary",
-    "location": { "lat": 31.5, "lng": 65.5 },
+    "location": {
+      "lat": 31.5,
+      "lng": 65.5
+    },
     "tier": 2,
     "description": "The Taliban made a mistake at Panjwai — they massed in the open like a conventional army, and the Canadians made them pay for it. Operation Medusa was the biggest conventional battle in NATO's entire history, and it was led by Canada, of all countries. Canadian infantry, LAVs, and coalition airpower tore through Taliban positions in the grape fields outside Kandahar, killing over 500 fighters and stopping a planned assault on the city. It was one of the few times in the Afghan war that the enemy stood and fought in formation. They didn't make that mistake again.",
-    "belligerents": ["Canada", "NATO", "Afghanistan", "Taliban"],
+    "belligerents": [
+      "Canada",
+      "NATO",
+      "Afghanistan",
+      "Taliban"
+    ],
     "result": "NATO/Afghan victory",
-    "commanders": ["David Fraser", "Unknown Taliban commander"],
+    "commanders": [
+      "David Fraser",
+      "Unknown Taliban commander"
+    ],
     "warName": "War in Afghanistan",
     "casualties": "12 Canadian KIA; ~500+ Taliban KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Medusa_(Kandahar)"
   },
   {
     "id": "yemen-battle-of-aden-2015",
     "name": "Battle of Aden (2015)",
     "year": 2015,
     "era": "contemporary",
-    "location": { "lat": 12.7855, "lng": 45.0187 },
+    "location": {
+      "lat": 12.7855,
+      "lng": 45.0187
+    },
     "tier": 2,
     "description": "The Houthis rolled into Aden and trapped the Saudi-backed government in its last major city. Then Saudi Arabia decided to intervene, and the result was months of urban warfare that turned a beautiful port city into a wasteland. Saudi coalition jets, Emirati armor, Yemeni militias — all grinding through Aden's streets against Houthi fighters who didn't care about the coalition's technological advantage because the ranges were too close for it to matter. The city was 'liberated.' Most of it was also destroyed.",
-    "belligerents": ["Saudi-led Coalition", "Yemeni government", "Houthis"],
+    "belligerents": [
+      "Saudi-led Coalition",
+      "Yemeni government",
+      "Houthis"
+    ],
     "result": "Coalition/Yemeni government victory",
-    "commanders": ["Saudi-led Coalition", "Abdul-Malik al-Houthi"],
+    "commanders": [
+      "Saudi-led Coalition",
+      "Abdul-Malik al-Houthi"
+    ],
     "warName": "Yemeni Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Aden_(2015)"
   },
   {
     "id": "battle-of-bab-al-mandeb",
     "name": "Red Sea Crisis (Houthi Attacks)",
     "year": 2024,
     "era": "contemporary",
-    "location": { "lat": 13.5, "lng": 43.0 },
+    "location": {
+      "lat": 13.5,
+      "lng": 43.0
+    },
     "tier": 2,
     "description": "A rebel movement in one of the poorest countries on Earth managed to disrupt the global economy by shooting cheap drones and missiles at cargo ships in the Red Sea. Think about that for a second. The Houthis — sandal-wearing guerrillas in a country most Americans can't find on a map — forced the world's shipping industry to reroute around Africa, adding weeks to transit times and billions to costs. The US and UK launched retaliatory strikes that did essentially nothing to stop it. Asymmetric warfare had found its purest expression: a few million dollars in weapons holding the global supply chain hostage.",
-    "belligerents": ["Houthis", "United States", "United Kingdom"],
+    "belligerents": [
+      "Houthis",
+      "United States",
+      "United Kingdom"
+    ],
     "result": "Ongoing; shipping significantly disrupted",
-    "commanders": ["Abdul-Malik al-Houthi", "US Central Command"],
+    "commanders": [
+      "Abdul-Malik al-Houthi",
+      "US Central Command"
+    ],
     "warName": "Yemeni Civil War / Israel-Hamas War spillover",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Red_Sea_Crisis_(Houthi_Attacks)"
   },
   {
     "id": "iran-iraq-marshes",
     "name": "Battle of the Marshes (Hawizeh/Majnoon Islands)",
     "year": 1985,
     "era": "contemporary",
-    "location": { "lat": 31.5, "lng": 47.5 },
+    "location": {
+      "lat": 31.5,
+      "lng": 47.5
+    },
     "tier": 2,
     "description": "Iranian Revolutionary Guards waded waist-deep through the Hawizeh Marshes — reeds, mud, and water as far as the eye could see — straight into Iraqi machine gun fire. Thousands died in the marshes. The survivors seized the Majnoon Islands and their oil fields. Then Iraq gassed them. Mustard gas and tabun rolling across the marshes in yellow-brown clouds, the first large-scale chemical weapons use since World War I. Men drowning in their own fluids while standing in knee-deep water. The Iran-Iraq War had reached a level of horror that the world hadn't seen in seventy years and chose not to see now.",
-    "belligerents": ["Iran", "Iraq"],
+    "belligerents": [
+      "Iran",
+      "Iraq"
+    ],
     "result": "Iranian partial success; islands captured",
-    "commanders": ["Iranian Revolutionary Guard Corps", "Unknown Iraqi commander"],
+    "commanders": [
+      "Iranian Revolutionary Guard Corps",
+      "Unknown Iraqi commander"
+    ],
     "warName": "Iran-Iraq War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_the_Marshes_(Hawizeh/Majnoon_Islands)"
   },
   {
     "id": "iran-iraq-halabja",
     "name": "Halabja Chemical Attack",
     "year": 1988,
     "era": "contemporary",
-    "location": { "lat": 35.1787, "lng": 45.9864 },
+    "location": {
+      "lat": 35.1787,
+      "lng": 45.9864
+    },
     "tier": 1,
     "description": "Imagine an entire city — men, women, children, babies — choking to death in the streets. Iraqi jets flew over Halabja and dropped mustard gas and nerve agents on a Kurdish civilian population that had no warning, no gas masks, no shelters. Five thousand dead. Families found huddled together, parents curled over their children, frozen in the act of trying to protect them from something you can't protect anyone from. The worst chemical attack on civilians in history, and the world barely reacted. Saddam's cousin 'Chemical Ali' earned his nickname that day.",
-    "belligerents": ["Iraq", "Kurdish civilians"],
+    "belligerents": [
+      "Iraq",
+      "Kurdish civilians"
+    ],
     "result": "Mass civilian casualties",
-    "commanders": ["Ali Hassan al-Majid ('Chemical Ali')"],
+    "commanders": [
+      "Ali Hassan al-Majid ('Chemical Ali')"
+    ],
     "warName": "Iran-Iraq War / Anfal Campaign",
     "casualties": "3,200-5,000 civilians killed; 7,000-10,000 injured",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Halabja_Chemical_Attack"
   },
   {
     "id": "battle-of-manbij",
     "name": "Battle of Manbij",
     "year": 2016,
     "era": "contemporary",
-    "location": { "lat": 36.5281, "lng": 37.9564 },
+    "location": {
+      "lat": 36.5281,
+      "lng": 37.9564
+    },
     "tier": 2,
     "description": "Manbij was ISIS's gateway to Turkey — the pipeline through which foreign fighters, money, and supplies flowed into the caliphate. The SDF spent 73 days cutting it off, fighting through a city where ISIS used civilians as human shields and booby-trapped every building. American special operators were close enough to the fighting to taste the dust. When Manbij fell, ISIS's lifeline to the outside world was severed. The caliphate was now a closed box, and the walls were closing in.",
-    "belligerents": ["Syrian Democratic Forces", "United States", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Syrian Democratic Forces",
+      "United States",
+      "Islamic State (ISIS)"
+    ],
     "result": "SDF/Coalition victory",
-    "commanders": ["SDF Manbij Military Council", "Unknown ISIS commander"],
+    "commanders": [
+      "SDF Manbij Military Council",
+      "Unknown ISIS commander"
+    ],
     "warName": "Syrian Civil War / War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Manbij"
   },
   {
     "id": "battle-of-sinjar",
     "name": "Sinjar Offensive",
     "year": 2015,
     "era": "contemporary",
-    "location": { "lat": 36.32, "lng": 41.87 },
+    "location": {
+      "lat": 36.32,
+      "lng": 41.87
+    },
     "tier": 2,
     "description": "A year earlier, ISIS had swept into Sinjar and committed genocide against the Yazidi people — mass executions, women and girls sold as slaves, an ancient religious community nearly erased from the earth. When the Kurdish Peshmerga and PKK fighters came back with American air support, they found the mass graves. They found the slave markets' records. They found the evidence of a horror so systematic and so deliberate that it will be prosecuted as genocide for decades to come. Sinjar was liberated. What happened to the Yazidis can never be undone.",
-    "belligerents": ["Kurdish Peshmerga", "PKK/YPG", "United States", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Kurdish Peshmerga",
+      "PKK/YPG",
+      "United States",
+      "Islamic State (ISIS)"
+    ],
     "result": "Kurdish/Coalition victory",
-    "commanders": ["Masoud Barzani", "Unknown ISIS commander"],
+    "commanders": [
+      "Masoud Barzani",
+      "Unknown ISIS commander"
+    ],
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Sinjar_Offensive"
   },
   {
     "id": "south-sudan-battle-of-juba-2013",
     "name": "Battle of Juba (2013)",
     "year": 2013,
     "era": "contemporary",
-    "location": { "lat": 4.85, "lng": 31.6 },
+    "location": {
+      "lat": 4.85,
+      "lng": 31.6
+    },
     "tier": 3,
     "description": "South Sudan was two years old — the world's youngest country, born out of decades of suffering — and its president and vice president turned their guns on each other. Fighting erupted in Juba between Dinka and Nuer soldiers who were supposed to be in the same army, and within hours a political dispute became an ethnic war. Nearly 400,000 people would die. Millions displaced. The newest nation on Earth tearing itself apart before it had even learned to stand. Hope is a fragile thing in that part of the world.",
-    "belligerents": ["South Sudan (Kiir)", "South Sudan (Machar)"],
+    "belligerents": [
+      "South Sudan (Kiir)",
+      "South Sudan (Machar)"
+    ],
     "result": "Kiir retained capital; civil war began",
-    "commanders": ["Salva Kiir", "Riek Machar"],
+    "commanders": [
+      "Salva Kiir",
+      "Riek Machar"
+    ],
     "warName": "South Sudanese Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Juba_(2013)"
   },
   {
     "id": "battle-of-palmyra-2016",
     "name": "Recapture of Palmyra (2016)",
     "year": 2016,
     "era": "contemporary",
-    "location": { "lat": 34.5567, "lng": 38.2681 },
+    "location": {
+      "lat": 34.5567,
+      "lng": 38.2681
+    },
     "tier": 2,
     "description": "ISIS had turned Palmyra into a stage for its most theatrical brutality — executing prisoners in the Roman amphitheater, dynamiting 2,000-year-old temples, erasing history because their ideology couldn't tolerate it. When Syrian troops and Russian special forces took it back, the Temple of Bel was rubble and the archeological treasures of a civilization were dust. ISIS retook the city months later, because that's how the Syrian war worked — you could liberate the same ruin twice and still not win.",
-    "belligerents": ["Syria", "Russia", "Hezbollah", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Syria",
+      "Russia",
+      "Hezbollah",
+      "Islamic State (ISIS)"
+    ],
     "result": "Syrian/Russian victory",
-    "commanders": ["Syrian Army", "Unknown ISIS commander"],
+    "commanders": [
+      "Syrian Army",
+      "Unknown ISIS commander"
+    ],
     "warName": "Syrian Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Recapture_of_Palmyra_(2016)"
   },
   {
     "id": "battle-of-afrin",
     "name": "Turkish Operation Olive Branch (Afrin)",
     "year": 2018,
     "era": "contemporary",
-    "location": { "lat": 36.5122, "lng": 36.8694 },
+    "location": {
+      "lat": 36.5122,
+      "lng": 36.8694
+    },
     "tier": 2,
     "description": "Turkey looked at the Kurds who'd been America's best allies against ISIS and decided they were a bigger threat than the caliphate ever was. Turkish tanks and F-16s, alongside Syrian rebel proxies, rolled into Kurdish Afrin and took it in two months. Over 100,000 Kurds fled their homes. The same Kurdish fighters who'd bled at Kobani and Raqqa watched their own territory seized by a NATO ally. The betrayal was so brazen it barely made the news cycle. In Syria, loyalty is the cheapest commodity of all.",
-    "belligerents": ["Turkey", "Syrian National Army", "YPG/SDF"],
+    "belligerents": [
+      "Turkey",
+      "Syrian National Army",
+      "YPG/SDF"
+    ],
     "result": "Turkish/SNA victory",
-    "commanders": ["Turkish Armed Forces", "YPG Afrin command"],
+    "commanders": [
+      "Turkish Armed Forces",
+      "YPG Afrin command"
+    ],
     "warName": "Syrian Civil War / Turkish-Kurdish conflict",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Turkish_Operation_Olive_Branch_(Afrin)"
   },
   {
     "id": "battle-of-idlib-2020",
     "name": "Battle of Idlib (2019-2020)",
     "year": 2020,
     "era": "contemporary",
-    "location": { "lat": 35.9306, "lng": 36.6317 },
+    "location": {
+      "lat": 35.9306,
+      "lng": 36.6317
+    },
     "tier": 2,
     "description": "Russia and Syria went for the kill in Idlib — the last rebel stronghold, three million people crammed into a shrinking pocket. Then a Russian or Syrian airstrike killed 34 Turkish soldiers, and Erdogan unleashed his drones. Turkish Bayraktars devastated Syrian government armor and artillery columns in a 72-hour blitz that looked like a preview of Nagorno-Karabakh. Suddenly it was Turkey versus Russia in a proxy knife fight, and both sides blinked. The ceasefire held. Idlib survived. Barely.",
-    "belligerents": ["Turkey", "Syrian rebels", "Syria", "Russia"],
+    "belligerents": [
+      "Turkey",
+      "Syrian rebels",
+      "Syria",
+      "Russia"
+    ],
     "result": "Ceasefire; partial Syrian government gains",
-    "commanders": ["Turkish Armed Forces", "Syrian Arab Army"],
+    "commanders": [
+      "Turkish Armed Forces",
+      "Syrian Arab Army"
+    ],
     "warName": "Syrian Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Idlib_(2019-2020)"
   },
   {
     "id": "myanmar-battle-of-myawaddy",
     "name": "Battle of Myawaddy",
     "year": 2024,
     "era": "contemporary",
-    "location": { "lat": 16.6868, "lng": 98.5085 },
+    "location": {
+      "lat": 16.6868,
+      "lng": 98.5085
+    },
     "tier": 3,
     "description": "The Myanmar junta was crumbling, and Myawaddy was proof. Karen resistance fighters — some of them from ethnic armies that had been fighting since 1949, the longest-running insurgency on Earth — overran the border town and cut the junta's trade lifeline to Thailand. After decades of the world ignoring Myanmar's civil wars, the resistance was actually winning. The generals who'd staged the coup were losing territory faster than they could conscript soldiers to hold it.",
-    "belligerents": ["Karen National Union", "People's Defence Forces", "Myanmar military junta"],
+    "belligerents": [
+      "Karen National Union",
+      "People's Defence Forces",
+      "Myanmar military junta"
+    ],
     "result": "Resistance victory",
-    "commanders": ["KNLA/PDF command", "Myanmar military"],
+    "commanders": [
+      "KNLA/PDF command",
+      "Myanmar military"
+    ],
     "warName": "Myanmar Civil War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Myawaddy"
   },
   {
     "id": "sudan-battle-of-khartoum-2023",
     "name": "Battle of Khartoum (2023)",
     "year": 2023,
     "era": "contemporary",
-    "location": { "lat": 15.5007, "lng": 32.5599 },
+    "location": {
+      "lat": 15.5007,
+      "lng": 32.5599
+    },
     "tier": 1,
     "description": "Two generals who'd partnered in a coup decided they couldn't share power — so they turned Khartoum into a war zone. The RSF's paramilitary forces, hardened in Darfur's genocide, swept through the capital with pickup trucks and heavy weapons while the army held government buildings and airbases. Millions of civilians were caught between two groups of men fighting over who gets to be dictator. The world's newest humanitarian catastrophe, unfolding in a city of six million, and barely making the front page because there were already too many wars to track.",
-    "belligerents": ["Sudanese Armed Forces", "Rapid Support Forces"],
+    "belligerents": [
+      "Sudanese Armed Forces",
+      "Rapid Support Forces"
+    ],
     "result": "Ongoing; city devastated",
-    "commanders": ["Abdel Fattah al-Burhan", "Mohamed Hamdan Dagalo (Hemedti)"],
+    "commanders": [
+      "Abdel Fattah al-Burhan",
+      "Mohamed Hamdan Dagalo (Hemedti)"
+    ],
     "warName": "Sudanese Civil War (2023-)",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Khartoum_(2023)"
   },
   {
     "id": "battle-of-cap-bon",
     "name": "Lebanese-Israeli Border Clashes (2023-2024)",
     "year": 2023,
     "era": "contemporary",
-    "location": { "lat": 33.1, "lng": 35.2 },
+    "location": {
+      "lat": 33.1,
+      "lng": 35.2
+    },
     "tier": 2,
     "description": "The day after October 7th, Hezbollah started shooting across the Lebanese border — not a full war, but a slow, grinding escalation of rockets, anti-tank missiles, and drone strikes that turned northern Israel into a ghost town. Sixty thousand Israelis evacuated their homes. Ninety thousand Lebanese did the same. For a year, both sides played chicken at the edge of all-out war. Then Israel went in — massive airstrikes, targeted assassinations of Hezbollah commanders, and a ground operation into southern Lebanon. The 'support front' had become a second front.",
-    "belligerents": ["Israel", "Hezbollah"],
+    "belligerents": [
+      "Israel",
+      "Hezbollah"
+    ],
     "result": "Ceasefire in late 2024",
-    "commanders": ["IDF Northern Command", "Hassan Nasrallah (killed 2024)"],
+    "commanders": [
+      "IDF Northern Command",
+      "Hassan Nasrallah (killed 2024)"
+    ],
     "warName": "Israel-Hamas War / Israel-Hezbollah conflict",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Lebanese-Israeli_Border_Clashes_(2023-2024)"
   },
   {
     "id": "chechnya-battle-of-bamut",
     "name": "Battle of Bamut",
     "year": 1996,
     "era": "contemporary",
-    "location": { "lat": 43.15, "lng": 45.2 },
+    "location": {
+      "lat": 43.15,
+      "lng": 45.2
+    },
     "tier": 3,
     "description": "Bamut sat on top of an old Soviet missile base, and the Chechens used those underground bunkers like they were designed for it — because, in a way, they were. Russia threw everything at this mountain village for over a year. Airstrikes, artillery, armored assaults. The Chechens would vanish underground, wait for the bombardment to stop, and come back up shooting. Bamut became a symbol of something that drove the Russian generals crazy: you can destroy everything above ground and still not win if your enemy lives below it.",
-    "belligerents": ["Russia", "Chechen Republic of Ichkeria"],
+    "belligerents": [
+      "Russia",
+      "Chechen Republic of Ichkeria"
+    ],
     "result": "Chechen defensive success for 18 months; eventually captured",
-    "commanders": ["Russian forces", "Khizir Khachukaev"],
+    "commanders": [
+      "Russian forces",
+      "Khizir Khachukaev"
+    ],
     "warName": "First Chechen War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Bamut"
   },
   {
     "id": "ethiopian-eritrean-tsorona",
     "name": "Battle of Tsorona",
     "year": 1998,
     "era": "contemporary",
-    "location": { "lat": 14.63, "lng": 39.15 },
+    "location": {
+      "lat": 14.63,
+      "lng": 39.15
+    },
     "tier": 3,
     "description": "Ethiopia sent its troops across open ground against dug-in Eritrean positions at Tsorona, and the result looked like a time warp — trenches, barbed wire, machine guns cutting down advancing infantry in the open. It was 1916 on the Horn of Africa, and the casualties were just as senseless. Two countries that had been part of the same nation a few years earlier, feeding their young men into a meat grinder over a border that meant everything to the politicians and nothing to the dead.",
-    "belligerents": ["Ethiopia", "Eritrea"],
+    "belligerents": [
+      "Ethiopia",
+      "Eritrea"
+    ],
     "result": "Eritrean defensive victory",
-    "commanders": ["Ethiopian command", "Eritrean command"],
+    "commanders": [
+      "Ethiopian command",
+      "Eritrean command"
+    ],
     "warName": "Eritrean-Ethiopian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Tsorona"
   },
   {
     "id": "gulf-war-desert-sabre",
     "name": "Operation Desert Sabre (Ground War)",
     "year": 1991,
     "era": "contemporary",
-    "location": { "lat": 29.5, "lng": 46.5 },
+    "location": {
+      "lat": 29.5,
+      "lng": 46.5
+    },
     "tier": 1,
     "description": "Schwarzkopf's left hook was one of the great deceptions in military history — while the world expected a frontal assault into Kuwait, VII Corps swung hundreds of miles through the empty desert and hit the Republican Guard in the flank like a freight train. A hundred hours. That's all it took to destroy what was supposed to be the fourth-largest army in the world. Seven hundred thousand coalition troops executed the fastest, most decisive ground campaign since Patton's dash across France, and the Iraqi army simply ceased to exist as a coherent fighting force.",
-    "belligerents": ["United States", "Coalition forces", "Iraq"],
+    "belligerents": [
+      "United States",
+      "Coalition forces",
+      "Iraq"
+    ],
     "result": "Decisive Coalition victory",
-    "commanders": ["Norman Schwarzkopf", "Saddam Hussein"],
+    "commanders": [
+      "Norman Schwarzkopf",
+      "Saddam Hussein"
+    ],
     "warName": "Gulf War",
     "troopStrength": "~700,000 Coalition vs ~650,000 Iraqi",
     "casualties": "~300 Coalition KIA; ~20,000-35,000 Iraqi KIA",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Operation_Desert_Sabre_(Ground_War)"
   },
   {
     "id": "congo-battle-of-goma",
     "name": "Fall of Goma (2012)",
     "year": 2012,
     "era": "contemporary",
-    "location": { "lat": -1.6794, "lng": 29.2228 },
+    "location": {
+      "lat": -1.6794,
+      "lng": 29.2228
+    },
     "tier": 3,
     "description": "M23 rebels — everyone knew Rwanda was behind them, nobody could prove it enough to matter — marched into Goma while 17,000 UN peacekeepers watched. The world's largest peacekeeping mission, with billions in funding, tanks, and helicopters, stood aside while a Rwandan proxy force captured a city of a million people. The Congolese army ran. The UN wrung its hands. Goma fell. It was the purest possible demonstration that peacekeeping without the will to fight is just expensive spectating.",
-    "belligerents": ["M23", "Democratic Republic of Congo", "MONUSCO (UN)"],
+    "belligerents": [
+      "M23",
+      "Democratic Republic of Congo",
+      "MONUSCO (UN)"
+    ],
     "result": "M23 captured city; later withdrew under pressure",
-    "commanders": ["Sultani Makenga", "Congolese military command"],
+    "commanders": [
+      "Sultani Makenga",
+      "Congolese military command"
+    ],
     "warName": "M23 Rebellion / Congo conflicts",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Fall_of_Goma_(2012)"
   },
   {
     "id": "georgian-war-2008",
     "name": "Russo-Georgian War (Battle of Tskhinvali)",
     "year": 2008,
     "era": "contemporary",
-    "location": { "lat": 42.2256, "lng": 43.97 },
+    "location": {
+      "lat": 42.2256,
+      "lng": 43.97
+    },
     "tier": 2,
     "description": "Saakashvili gambled that he could retake South Ossetia before Russia could react. He was catastrophically wrong. Russian tanks were rolling through the Roki Tunnel within hours, and within five days the Georgian army — trained by Americans, equipped by Americans — was in full retreat. Russia occupied Georgian territory, recognized breakaway republics, and sent a message that every former Soviet state heard loud and clear: we will use force to keep you in our orbit. The West protested. Nothing changed. Fourteen years later, the lesson repeated itself in Ukraine.",
-    "belligerents": ["Russia", "South Ossetia", "Georgia"],
+    "belligerents": [
+      "Russia",
+      "South Ossetia",
+      "Georgia"
+    ],
     "result": "Russian victory; South Ossetia and Abkhazia recognized by Russia",
-    "commanders": ["Vladimir Putin", "Mikheil Saakashvili"],
+    "commanders": [
+      "Vladimir Putin",
+      "Mikheil Saakashvili"
+    ],
     "warName": "Russo-Georgian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Russo-Georgian_War_(Battle_of_Tskhinvali)"
   },
   {
     "id": "crimea-annexation-2014",
     "name": "Annexation of Crimea",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 44.952, "lng": 34.1024 },
+    "location": {
+      "lat": 44.952,
+      "lng": 34.1024
+    },
     "tier": 1,
     "description": "They appeared overnight — soldiers in Russian uniforms with no insignia, surrounding Ukrainian bases, blocking roads, seizing government buildings. The 'little green men.' Not a single shot fired. Within weeks, Crimea held a sham referendum and Russia annexed it. The fastest, most bloodless territorial grab since Hitler took the Sudetenland, and achieved with the same playbook: fait accompli, deny everything, dare the world to do something about it. The world imposed sanctions. Putin kept Crimea. The post-Cold War order died on a peninsula in the Black Sea.",
-    "belligerents": ["Russia", "Ukraine"],
+    "belligerents": [
+      "Russia",
+      "Ukraine"
+    ],
     "result": "Russian annexation of Crimea",
-    "commanders": ["Vladimir Putin", "Ukrainian military (did not resist)"],
+    "commanders": [
+      "Vladimir Putin",
+      "Ukrainian military (did not resist)"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Annexation_of_Crimea"
   },
   {
     "id": "donbas-2014",
     "name": "Battle of Ilovaisk",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 47.88, "lng": 38.22 },
+    "location": {
+      "lat": 47.88,
+      "lng": 38.22
+    },
     "tier": 2,
     "description": "Ukrainian volunteer battalions were pushing toward Ilovaisk, rolling up separatist positions, when suddenly the troops shooting back weren't separatists anymore. They were Russian regulars — T-72B3 tanks, BM-21 Grad rockets, professional soldiers. The Ukrainians were encircled, offered a 'corridor' to withdraw, and then massacred as they tried to use it. The 'corridor of death' killed or captured a thousand Ukrainians and shattered any illusion that Russia wasn't directly fighting in Donbas. The Minsk ceasefire that followed was signed under the gun.",
-    "belligerents": ["Ukraine", "Russia", "DPR separatists"],
+    "belligerents": [
+      "Ukraine",
+      "Russia",
+      "DPR separatists"
+    ],
     "result": "Russian/DPR victory; Ukrainian forces destroyed",
-    "commanders": ["Ukrainian volunteer battalions", "Russian regular forces"],
+    "commanders": [
+      "Ukrainian volunteer battalions",
+      "Russian regular forces"
+    ],
     "warName": "Russo-Ukrainian War",
     "casualties": "~1,000 Ukrainian KIA/captured in the 'corridor of death'",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Ilovaisk"
   },
   {
     "id": "debaltseve-2015",
     "name": "Battle of Debaltseve",
     "year": 2015,
     "era": "contemporary",
-    "location": { "lat": 48.34, "lng": 38.4 },
+    "location": {
+      "lat": 48.34,
+      "lng": 38.4
+    },
     "tier": 2,
     "description": "While diplomats in Minsk were literally signing the ceasefire agreement, Russian and separatist forces were tightening the noose around Debaltseve. The ink wasn't dry on Minsk II before the assault went in. Ukrainian troops fought their way out through a gauntlet of fire in a chaotic withdrawal that left equipment and dead scattered across the frozen roads. Putin's message couldn't have been clearer: paper agreements mean nothing when the other side has tanks and the will to use them.",
-    "belligerents": ["Ukraine", "Russia", "DPR/LPR separatists"],
+    "belligerents": [
+      "Ukraine",
+      "Russia",
+      "DPR/LPR separatists"
+    ],
     "result": "Russian/separatist victory",
-    "commanders": ["Ukrainian forces", "Russian/DPR command"],
+    "commanders": [
+      "Ukrainian forces",
+      "Russian/DPR command"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Debaltseve"
   },
   {
     "id": "donetsk-airport",
     "name": "Battle of Donetsk Airport",
     "year": 2014,
     "era": "contemporary",
-    "location": { "lat": 48.074, "lng": 37.741 },
+    "location": {
+      "lat": 48.074,
+      "lng": 37.741
+    },
     "tier": 2,
     "description": "For 242 days, Ukrainian soldiers held the Donetsk airport against everything Russia and the separatists could throw at them. The terminal collapsed around them. They fought from the rubble. Floors fell in. They fought from the basement. The separatists started calling them 'Cyborgs' because nothing seemed to kill them. The airport was eventually lost — there was nothing left to hold but a pile of concrete — but the legend of the Cyborgs became the founding myth of Ukraine's resistance. Eight years later, when Russia invaded, every Ukrainian soldier knew the story.",
-    "belligerents": ["Ukraine", "DPR separatists", "Russia"],
+    "belligerents": [
+      "Ukraine",
+      "DPR separatists",
+      "Russia"
+    ],
     "result": "Separatist/Russian victory after 242-day siege",
-    "commanders": ["Ukrainian 'Cyborgs'", "DPR command"],
+    "commanders": [
+      "Ukrainian 'Cyborgs'",
+      "DPR command"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Donetsk_Airport"
   },
   {
     "id": "invasion-of-grenada",
     "name": "Operation Urgent Fury (Grenada)",
     "year": 1983,
     "era": "contemporary",
-    "location": { "lat": 12.1165, "lng": -61.679 },
+    "location": {
+      "lat": 12.1165,
+      "lng": -61.679
+    },
     "tier": 2,
     "description": "Reagan sent 7,600 troops to invade an island the size of a large county — and it was still almost a mess. Radios didn't work between services. A Navy SEAL team nearly drowned. Officers used payphones to call in air support. But the operation worked, the medical students were saved, the Marxist junta was overthrown in two days, and America finally had a military win after a decade of post-Vietnam self-doubt. It wasn't pretty. But for a country that needed to believe its military still worked, Grenada was exactly enough.",
-    "belligerents": ["United States", "Grenada", "Cuba"],
+    "belligerents": [
+      "United States",
+      "Grenada",
+      "Cuba"
+    ],
     "result": "US victory",
-    "commanders": ["Norman Schwarzkopf (deputy)", "Hudson Austin"],
+    "commanders": [
+      "Norman Schwarzkopf (deputy)",
+      "Hudson Austin"
+    ],
     "warName": "Invasion of Grenada",
     "casualties": "19 US KIA; 45 Grenadian, 25 Cuban KIA",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Urgent_Fury_(Grenada)"
   },
   {
     "id": "sri-lanka-battle-of-kilinochchi",
     "name": "Battle of Kilinochchi",
     "year": 2009,
     "era": "contemporary",
-    "location": { "lat": 9.38, "lng": 80.38 },
+    "location": {
+      "lat": 9.38,
+      "lng": 80.38
+    },
     "tier": 2,
     "description": "The Tamil Tigers had been fighting for a separate state for 26 years — suicide bombings, a navy, an air force, the most sophisticated insurgency on the planet. Then Sri Lanka decided to end it, no matter the cost. When Kilinochchi fell, the Tigers and 300,000 civilians were squeezed into an ever-shrinking pocket on the northeast coast. The final battle at Mullaitivu was a slaughter — the Tigers destroyed, their leader killed, and thousands of civilians dead in the crossfire that the government said wasn't happening. The war ended. The questions about how it ended haven't.",
-    "belligerents": ["Sri Lanka", "LTTE (Tamil Tigers)"],
+    "belligerents": [
+      "Sri Lanka",
+      "LTTE (Tamil Tigers)"
+    ],
     "result": "Sri Lankan victory; end of LTTE",
-    "commanders": ["Sarath Fonseka", "Velupillai Prabhakaran (killed)"],
+    "commanders": [
+      "Sarath Fonseka",
+      "Velupillai Prabhakaran (killed)"
+    ],
     "warName": "Sri Lankan Civil War",
-    "significance": 1
+    "significance": 1,
+    "wikipediaSlug": "Battle_of_Kilinochchi"
   },
   {
     "id": "mali-french-intervention-2013",
     "name": "Operation Serval (Mali)",
     "year": 2013,
     "era": "contemporary",
-    "location": { "lat": 15.5, "lng": -3.0 },
+    "location": {
+      "lat": 15.5,
+      "lng": -3.0
+    },
     "tier": 2,
     "description": "Jihadist columns were rolling south toward Bamako and the Malian army was evaporating when France did something that nobody expected — it acted fast. Within days, French jets were hitting jihadist convoys in the desert and the Foreign Legion was rolling into Timbuktu. The whole thing was over in weeks. Timbuktu liberated, Gao retaken, the jihadists scattered into the Sahara. It was the most effective Western military intervention in Africa in decades, and proof that speed and decisiveness can accomplish what years of half-measures can't.",
-    "belligerents": ["France", "Mali", "AQIM", "Ansar Dine", "MUJAO"],
+    "belligerents": [
+      "France",
+      "Mali",
+      "AQIM",
+      "Ansar Dine",
+      "MUJAO"
+    ],
     "result": "French/Malian victory; jihadists scattered",
-    "commanders": ["French Armed Forces", "Iyad Ag Ghaly"],
+    "commanders": [
+      "French Armed Forces",
+      "Iyad Ag Ghaly"
+    ],
     "warName": "Mali War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Operation_Serval_(Mali)"
   },
   {
     "id": "battle-of-tal-afar-2017",
     "name": "Battle of Tal Afar (2017)",
     "year": 2017,
     "era": "contemporary",
-    "location": { "lat": 36.3753, "lng": 42.4497 },
+    "location": {
+      "lat": 36.3753,
+      "lng": 42.4497
+    },
     "tier": 2,
     "description": "Three years after 800 ISIS fighters routed 30,000 Iraqi soldiers at Mosul, the Iraqi army took Tal Afar in eleven days. Eleven days. The same army that had dropped its weapons and run was now executing combined-arms operations with competence that would've been unthinkable in 2014. Tal Afar was proof that armies can learn from catastrophe — and that the Iraqi military, forged in the furnace of the ISIS war, had become something its previous incarnation never was: effective.",
-    "belligerents": ["Iraq", "Coalition", "Islamic State (ISIS)"],
+    "belligerents": [
+      "Iraq",
+      "Coalition",
+      "Islamic State (ISIS)"
+    ],
     "result": "Iraqi victory",
-    "commanders": ["Abdul Amir Yarallah", "Unknown ISIS commander"],
+    "commanders": [
+      "Abdul Amir Yarallah",
+      "Unknown ISIS commander"
+    ],
     "warName": "War against ISIS",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Battle_of_Tal_Afar_(2017)"
   },
   {
     "id": "battle-of-kunduz-2015",
     "name": "Fall of Kunduz (2015)",
     "year": 2015,
     "era": "contemporary",
-    "location": { "lat": 36.728, "lng": 68.868 },
+    "location": {
+      "lat": 36.728,
+      "lng": 68.868
+    },
     "tier": 2,
     "description": "The Taliban walked into Kunduz and raised their flag over the first provincial capital to fall since 2001. Fourteen years of American war, training, and money, and the Afghan army couldn't hold a major city for a single day. They retook it in two weeks with US airstrikes — including one that hit a Doctors Without Borders hospital, killing 42 people. Kunduz was a prophecy: the Afghan government was hollow, the Taliban was patient, and the ending everyone feared was already written. It just took six more years to arrive.",
-    "belligerents": ["Taliban", "Afghan National Army", "United States"],
+    "belligerents": [
+      "Taliban",
+      "Afghan National Army",
+      "United States"
+    ],
     "result": "Taliban briefly captured; recaptured by Afghan/US forces",
-    "commanders": ["Taliban command", "Afghan security forces"],
+    "commanders": [
+      "Taliban command",
+      "Afghan security forces"
+    ],
     "warName": "War in Afghanistan",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Fall_of_Kunduz_(2015)"
   },
   {
     "id": "kerch-strait-incident",
     "name": "Kerch Strait Incident",
     "year": 2018,
     "era": "contemporary",
-    "location": { "lat": 45.3, "lng": 36.6 },
+    "location": {
+      "lat": 45.3,
+      "lng": 36.6
+    },
     "tier": 3,
     "description": "Russian coast guard vessels rammed and opened fire on three small Ukrainian naval boats trying to pass through the Kerch Strait — under a bridge that Russia had built across Ukrainian waters to connect to its stolen Crimea. The audacity was stunning: Russia was now physically blocking Ukraine's access to its own coastline and shooting at anyone who objected. Three boats captured, sailors wounded, and the world did nothing. Looking back, the Kerch Strait incident was the moment Russia confirmed that force was the only language it would speak. Four years later, the full conversation began.",
-    "belligerents": ["Russia", "Ukraine"],
+    "belligerents": [
+      "Russia",
+      "Ukraine"
+    ],
     "result": "Russian seizure of Ukrainian vessels",
-    "commanders": ["Russian coast guard", "Ukrainian Navy"],
+    "commanders": [
+      "Russian coast guard",
+      "Ukrainian Navy"
+    ],
     "warName": "Russo-Ukrainian War",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Kerch_Strait_Incident"
   },
   {
     "id": "boko-haram-baga-massacre",
     "name": "Baga Massacre / Battle of Baga",
     "year": 2015,
     "era": "contemporary",
-    "location": { "lat": 13.2, "lng": 13.5 },
+    "location": {
+      "lat": 13.2,
+      "lng": 13.5
+    },
     "tier": 2,
     "description": "Boko Haram swept through Baga and killed an estimated 2,000 people — men, women, children, anyone they could find. Satellite imagery showed entire neighborhoods burned to the ground. It was the deadliest single attack in the group's blood-soaked history, and the world barely noticed because the Charlie Hebdo shooting in Paris happened the same week. Twelve people died in Paris and the world marched. Two thousand died in Baga and the world shrugged. The arithmetic of global attention has never been more brutally exposed.",
-    "belligerents": ["Boko Haram", "Nigeria"],
+    "belligerents": [
+      "Boko Haram",
+      "Nigeria"
+    ],
     "result": "Boko Haram captured town; later recaptured by Nigerian forces",
-    "commanders": ["Abubakar Shekau", "Nigerian military"],
+    "commanders": [
+      "Abubakar Shekau",
+      "Nigerian military"
+    ],
     "warName": "Boko Haram insurgency",
     "casualties": "~2,000 civilians killed",
-    "significance": 2
+    "significance": 2,
+    "wikipediaSlug": "Baga_Massacre_/_Battle_of_Baga"
   }
 ]
