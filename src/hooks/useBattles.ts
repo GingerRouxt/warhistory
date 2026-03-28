@@ -1,8 +1,21 @@
-import { useState, useMemo, useCallback } from 'react'
+import { useState, useMemo, useCallback, useEffect } from 'react'
 import type { Battle, EraId } from '../types/battle'
 import biblicalBattlesRaw from '../data/biblical-battles.json'
 
 const biblicalBattles: Battle[] = biblicalBattlesRaw as Battle[]
+
+// Lazy-load the large wikidata dataset
+let wikidataBattlesCache: Battle[] | null = null
+async function loadWikidataBattles(): Promise<Battle[]> {
+  if (wikidataBattlesCache) return wikidataBattlesCache
+  try {
+    const mod = await import('../data/wikidata-battles.json')
+    wikidataBattlesCache = (mod.default || mod) as Battle[]
+    return wikidataBattlesCache
+  } catch {
+    return []
+  }
+}
 
 export interface BattleFilters {
   timeWindow: { start: number; end: number }
@@ -40,10 +53,35 @@ const defaultFilters: BattleFilters = {
 export function useBattles() {
   const [filters, setFilters] = useState<BattleFilters>(defaultFilters)
   const [selectedBattle, setSelectedBattle] = useState<Battle | null>(null)
+  const [wikidataBattles, setWikidataBattles] = useState<Battle[]>([])
+  const [isLoading, setIsLoading] = useState(true)
+
+  // Load wikidata battles on mount
+  useEffect(() => {
+    loadWikidataBattles().then((battles) => {
+      setWikidataBattles(battles)
+      setIsLoading(false)
+    })
+  }, [])
 
   const allBattles = useMemo(() => {
-    return [...biblicalBattles].sort((a, b) => a.year - b.year)
-  }, [])
+    // Merge biblical + wikidata, deduplicate by id
+    const seen = new Set<string>()
+    const merged: Battle[] = []
+    for (const b of biblicalBattles) {
+      if (!seen.has(b.id)) {
+        seen.add(b.id)
+        merged.push(b)
+      }
+    }
+    for (const b of wikidataBattles) {
+      if (!seen.has(b.id)) {
+        seen.add(b.id)
+        merged.push(b)
+      }
+    }
+    return merged.sort((a, b) => a.year - b.year)
+  }, [wikidataBattles])
 
   const filteredBattles = useMemo(() => {
     return allBattles.filter((battle) => {
@@ -88,6 +126,11 @@ export function useBattles() {
     setSelectedBattle(battle)
   }, [])
 
+  const getBattlesByIds = useCallback((ids: string[]): Battle[] => {
+    const battleMap = new Map(allBattles.map((b) => [b.id, b]))
+    return ids.map((id) => battleMap.get(id)).filter((b): b is Battle => !!b)
+  }, [allBattles])
+
   return {
     allBattles,
     filteredBattles,
@@ -95,6 +138,8 @@ export function useBattles() {
     updateFilters,
     selectedBattle,
     selectBattle,
+    getBattlesByIds,
+    isLoading,
     getEra,
   }
 }

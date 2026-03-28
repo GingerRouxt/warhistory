@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 import Globe from './components/Globe'
 import { GlobeProvider } from './components/GlobeContext'
 import BattleLayer from './components/BattleLayer'
@@ -10,18 +10,56 @@ import { LandingOverlay } from './components/LandingOverlay'
 import { FilterPanel } from './components/FilterPanel'
 import BattleAnimator from './components/BattleAnimator'
 import ParticleEffects from './components/ParticleEffects'
+import { GuidedTour } from './components/GuidedTour'
+import { TourSelector } from './components/TourSelector'
+import { CampaignTrace } from './components/CampaignTrace'
+import { LoadingScreen } from './components/LoadingScreen'
+import { SEOHead } from './components/SEOHead'
+import { StructuredData } from './components/StructuredData'
+import { SupportBanner } from './components/SupportBanner'
+import { ShareButton } from './components/ShareButton'
+import { MobileWarning } from './components/MobileWarning'
+import { KeyboardShortcuts } from './components/KeyboardShortcuts'
+import campaignsData from './data/campaigns.json'
 import { useBattles } from './hooks/useBattles'
 import { useTimeline } from './hooks/useTimeline'
 import type { Battle, EraId } from './types/battle'
+
+interface Campaign {
+  id: string
+  name: string
+  commander: string
+  era: EraId
+  battles: string[]
+  description: string
+}
 
 export default function App() {
   const [hasEntered, setHasEntered] = useState(false)
   const [selectedBattle, setSelectedBattle] = useState<Battle | null>(null)
   const [isNarrating, setIsNarrating] = useState(false)
   const [filterOpen, setFilterOpen] = useState(false)
+  const [tourSelectorOpen, setTourSelectorOpen] = useState(false)
+  const [activeCampaignId, setActiveCampaignId] = useState<string | null>(null)
+  const [tourActive, setTourActive] = useState(false)
 
   const timeline = useTimeline()
-  const { allBattles, filteredBattles, filters, updateFilters } = useBattles()
+  const { allBattles, filteredBattles, filters, updateFilters, getBattlesByIds, isLoading } = useBattles()
+
+  // Resolve campaign battles
+  const activeCampaign = useMemo(() => {
+    if (!activeCampaignId) return null
+    return (campaignsData as Campaign[]).find((c) => c.id === activeCampaignId) || null
+  }, [activeCampaignId])
+
+  const tourBattles = useMemo(() => {
+    if (!activeCampaign) {
+      // Full history tour — all battles chronologically
+      if (activeCampaignId === 'full-history') return allBattles
+      return []
+    }
+    return getBattlesByIds(activeCampaign.battles)
+  }, [activeCampaign, activeCampaignId, allBattles, getBattlesByIds])
 
   const handleYearChange = useCallback((year: number) => {
     timeline.setYear(year)
@@ -63,8 +101,27 @@ export default function App() {
     updateFilters({ eras: eras as EraId[] })
   }, [updateFilters])
 
+  const handleTourSelect = useCallback((campaignId: string) => {
+    setActiveCampaignId(campaignId)
+    setTourSelectorOpen(false)
+    setTourActive(true)
+    // Expand time window for the tour
+    updateFilters({ timeWindow: { start: -4000, end: 2026 } })
+  }, [updateFilters])
+
+  const handleTourClose = useCallback(() => {
+    setTourActive(false)
+    setActiveCampaignId(null)
+    setSelectedBattle(null)
+    setIsNarrating(false)
+  }, [])
+
   return (
     <GlobeProvider>
+      <SEOHead />
+      <StructuredData />
+      <LoadingScreen isLoading={isLoading} />
+      <MobileWarning />
       <div className="w-full h-full relative">
         {/* 3D Globe */}
         <Globe>
@@ -148,12 +205,52 @@ export default function App() {
           onEnter={handleEnter}
         />
 
-        {/* Battle count */}
+        {/* Campaign trace on globe */}
+        {tourActive && tourBattles.length >= 2 && (
+          <CampaignTrace
+            battles={tourBattles}
+            isActive={tourActive}
+          />
+        )}
+
+        {/* Guided tour overlay */}
+        <GuidedTour
+          battles={tourBattles}
+          isActive={tourActive}
+          onBattleSelect={handleBattleSelect}
+          onClose={handleTourClose}
+        />
+
+        {/* Tour selector modal */}
+        <TourSelector
+          isOpen={tourSelectorOpen}
+          onSelect={handleTourSelect}
+          onClose={() => setTourSelectorOpen(false)}
+        />
+
+        {/* Battle count + Tour button */}
         {hasEntered && !filterOpen && (
-          <div className="absolute top-4 left-14 glass-panel px-4 py-2 text-sm">
-            <span className="text-war-gold font-semibold">{filteredBattles.length.toLocaleString()}</span>
-            <span className="text-gray-400 ml-1">battles visible</span>
+          <div className="absolute top-4 left-14 flex items-center gap-2">
+            <div className="glass-panel px-4 py-2 text-sm">
+              <span className="text-war-gold font-semibold">{filteredBattles.length.toLocaleString()}</span>
+              <span className="text-gray-400 ml-1">battles visible</span>
+            </div>
+            <button
+              onClick={() => setTourSelectorOpen(true)}
+              className="glass-panel px-4 py-2 text-sm text-war-gold hover:text-white transition-colors cursor-pointer"
+              style={{ fontFamily: 'var(--font-family-display)', letterSpacing: '0.05em' }}
+            >
+              Guided Tours
+            </button>
           </div>
+        )}
+        {/* Support + Share + Keyboard help */}
+        {hasEntered && (
+          <>
+            <SupportBanner />
+            <ShareButton />
+            <KeyboardShortcuts />
+          </>
         )}
       </div>
     </GlobeProvider>

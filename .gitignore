@@ -37,5 +37,5 @@ public/cesium/
 # Narration text scripts (regeneratable)
 src/data/narrations/
 
-# Wikidata cache (large, regeneratable)
-src/data/wikidata-battles.json
+# Wikidata raw cache (regeneratable, large)
+# src/data/wikidata-battles.json is now the normalized dataset and should be committed

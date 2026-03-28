@@ -5,9 +5,12 @@
     "commander": "Joshua",
     "era": "biblical",
     "battles": [
-      "bib-jericho", "bib-ai-defeat", "bib-ai-victory", "bib-gibeon",
-      "bib-makkedah", "bib-libnah", "bib-lachish", "bib-eglon",
-      "bib-hebron-conquest", "bib-debir-conquest", "bib-waters-of-merom"
+      "bible-jericho",
+      "bible-ai-defeat",
+      "bible-ai-victory",
+      "bible-gibeon-sun-stands-still",
+      "bible-southern-campaign",
+      "bible-waters-of-merom"
     ],
     "description": "After 40 years in the wilderness, Joshua led Israel across the Jordan River and conquered the Promised Land in a series of brilliant campaigns that destroyed 31 Canaanite kings."
   },
@@ -17,8 +20,13 @@
     "commander": "Various Judges",
     "era": "biblical",
     "battles": [
-      "bib-othniel", "bib-ehud-moab", "bib-shamgar", "bib-deborah-barak",
-      "bib-gideon-midian", "bib-jephthah-ammon", "bib-samson-philistines"
+      "bible-othniel",
+      "bible-ehud-moab",
+      "bible-shamgar-philistines",
+      "bible-deborah-barak-sisera",
+      "bible-gideon-midianites",
+      "bible-jephthah-ammonites",
+      "bible-samson-jawbone"
     ],
     "description": "For over 300 years after the Conquest, Israel repeatedly fell into sin, was oppressed by enemies, and was delivered by God-appointed judges who led them in battle."
   },
@@ -28,8 +36,12 @@
     "commander": "David",
     "era": "biblical",
     "battles": [
-      "bib-david-goliath", "bib-david-civil-war", "bib-capture-jerusalem",
-      "bib-baal-perazim", "bib-david-ammon-aram", "bib-absalom-rebellion"
+      "bible-david-goliath",
+      "bible-pool-of-gibeon",
+      "bible-david-captures-jerusalem",
+      "bible-baal-perazim",
+      "bible-david-ammon-aram",
+      "bible-absalom-rebellion"
     ],
     "description": "David rose from shepherd boy to warrior king, unifying all twelve tribes and establishing Jerusalem as the capital through a series of decisive military victories."
   },
@@ -38,7 +50,13 @@
     "name": "Alexander the Great's Conquests",
     "commander": "Alexander the Great",
     "era": "classical",
-    "battles": [],
+    "battles": [
+      "battle-of-granicus",
+      "battle-of-issus",
+      "siege-of-tyre",
+      "battle-of-gaugamela",
+      "battle-of-hydaspes"
+    ],
     "description": "In just 13 years, Alexander conquered the known world from Greece to India, creating the largest empire the ancient world had ever seen."
   },
   {
@@ -46,7 +64,12 @@
     "name": "The Punic Wars",
     "commander": "Various",
     "era": "classical",
-    "battles": [],
+    "battles": [
+      "battle-of-trebia",
+      "battle-of-lake-trasimene",
+      "battle-of-cannae",
+      "battle-of-zama"
+    ],
     "description": "Three wars between Rome and Carthage that shaped the Mediterranean world and saw Hannibal's legendary crossing of the Alps."
   },
   {
@@ -54,7 +77,11 @@
     "name": "Caesar's Gallic Wars",
     "commander": "Julius Caesar",
     "era": "classical",
-    "battles": [],
+    "battles": [
+      "battle-of-bibracte",
+      "battle-of-alesia",
+      "battle-of-pharsalus"
+    ],
     "description": "Caesar's conquest of Gaul from 58-50 BCE brought millions under Roman rule and made Caesar the most powerful man in Rome."
   },
   {
@@ -62,7 +89,13 @@
     "name": "The Crusades",
     "commander": "Various",
     "era": "medieval",
-    "battles": [],
+    "battles": [
+      "siege-of-antioch",
+      "siege-of-jerusalem-1099",
+      "battle-of-hattin",
+      "siege-of-acre",
+      "battle-of-arsuf"
+    ],
     "description": "Two centuries of religious warfare between Christendom and Islam for control of the Holy Land."
   },
   {
@@ -70,7 +103,13 @@
     "name": "Mongol Conquests",
     "commander": "Genghis Khan",
     "era": "medieval",
-    "battles": [],
+    "battles": [
+      "battle-of-kalka-river",
+      "siege-of-baghdad",
+      "battle-of-mohi",
+      "battle-of-legnica",
+      "battle-of-ain-jalut"
+    ],
     "description": "The Mongol Empire conquered more territory in 25 years than the Romans did in 400, creating the largest contiguous empire in history."
   },
   {
@@ -78,7 +117,15 @@
     "name": "Napoleonic Wars",
     "commander": "Napoleon Bonaparte",
     "era": "modern",
-    "battles": [],
+    "battles": [
+      "battle-of-austerlitz",
+      "battle-of-trafalgar",
+      "battle-of-jena-auerstedt",
+      "battle-of-wagram",
+      "battle-of-borodino",
+      "battle-of-leipzig",
+      "battle-of-waterloo"
+    ],
     "description": "Napoleon's campaigns reshaped Europe through a series of wars involving virtually every major power on the continent."
   },
   {
@@ -86,7 +133,19 @@
     "name": "American Civil War",
     "commander": "Various",
     "era": "modern",
-    "battles": [],
+    "battles": [
+      "battle-of-fort-sumter",
+      "first-battle-of-bull-run",
+      "battle-of-shiloh",
+      "battle-of-antietam",
+      "battle-of-fredericksburg",
+      "battle-of-chancellorsville",
+      "battle-of-gettysburg",
+      "siege-of-vicksburg",
+      "battle-of-chickamauga",
+      "battle-of-atlanta",
+      "battle-of-appomattox"
+    ],
     "description": "The bloodiest conflict in American history, fought over slavery and states' rights, with over 620,000 dead."
   },
   {
@@ -94,7 +153,14 @@
     "name": "World War I: Western Front",
     "commander": "Various",
     "era": "modern",
-    "battles": [],
+    "battles": [
+      "first-battle-of-the-marne",
+      "battle-of-verdun",
+      "battle-of-the-somme",
+      "battle-of-passchendaele",
+      "second-battle-of-the-marne",
+      "meuse-argonne-offensive"
+    ],
     "description": "Four years of trench warfare across France and Belgium that defined a generation and killed millions."
   },
   {
@@ -102,7 +168,18 @@
     "name": "World War II: European Theater",
     "commander": "Various",
     "era": "modern",
-    "battles": [],
+    "battles": [
+      "invasion-of-poland",
+      "battle-of-france",
+      "battle-of-britain",
+      "operation-barbarossa",
+      "battle-of-stalingrad",
+      "battle-of-el-alamein",
+      "battle-of-kursk",
+      "d-day-normandy",
+      "battle-of-the-bulge",
+      "battle-of-berlin"
+    ],
     "description": "The largest and deadliest conflict in human history, from the invasion of Poland to the fall of Berlin."
   },
   {
@@ -110,7 +187,14 @@
     "name": "World War II: Pacific Theater",
     "commander": "Various",
     "era": "modern",
-    "battles": [],
-    "description": "From Pearl Harbor to Hiroshima — the Pacific war between the Allies and Imperial Japan."
+    "battles": [
+      "attack-on-pearl-harbor",
+      "battle-of-midway",
+      "battle-of-guadalcanal",
+      "battle-of-leyte-gulf",
+      "battle-of-iwo-jima",
+      "battle-of-okinawa"
+    ],
+    "description": "From Pearl Harbor to Hiroshima \u2014 the Pacific war between the Allies and Imperial Japan."
   }
 ]
