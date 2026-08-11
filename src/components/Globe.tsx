@@ -28,7 +28,14 @@ const INITIAL_ORIENTATION = {
   roll: 0,
 }
 
-// Google Photorealistic 3D Tiles key (optional — gracefully degrades without it)
+// Google Photorealistic 3D Tiles key (optional — gracefully degrades without it).
+//
+// PUBLIC AND BILLABLE. Vite inlines this as a literal string into the shipped
+// bundle, and line ~129 sends it as a URL query parameter, so it is readable by
+// anyone who loads the site. That is unavoidable for a client-side map SDK.
+// The key's only protection is the console-side restriction — HTTP referrer
+// limited to warhistory.app plus an API restriction to the Map Tiles API only.
+// See "API keys and required restrictions" in README.md before creating a key.
 const GOOGLE_TILES_KEY = import.meta.env.VITE_GOOGLE_TILES_KEY as string | undefined
 
 // Free OSM imagery for when no Cesium Ion token is available
